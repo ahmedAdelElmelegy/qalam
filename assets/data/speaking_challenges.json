@@ -1,0 +1,6604 @@
+{
+  "challenges": [
+    {
+      "day": 1,
+      "questions": [
+        {
+          "id": "day_1_0",
+          "type": "multipleChoice",
+          "correctAnswer": "عشاء",
+          "text": {
+            "en": "Translate: Dinner",
+            "ar": "ترجم: عشاء",
+            "de": "Übersetzen: Dinner",
+            "fr": "Traduire : Dinner",
+            "ru": "Перевести: Dinner",
+            "zh": "翻译：Dinner"
+          },
+          "options": [
+            "هل أنت مستعد؟",
+            "ما اسمك؟",
+            "سريع",
+            "عشاء"
+          ]
+        },
+        {
+          "id": "day_1_1",
+          "type": "multipleChoice",
+          "correctAnswer": "يوم",
+          "text": {
+            "en": "Translate: Day",
+            "ar": "ترجم: يوم",
+            "de": "Übersetzen: Day",
+            "fr": "Traduire : Day",
+            "ru": "Перевести: Day",
+            "zh": "翻译：Day"
+          },
+          "options": [
+            "عشاء",
+            "يوم",
+            "أنا من مصر.",
+            "ما اسمك؟"
+          ]
+        },
+        {
+          "id": "day_1_2",
+          "type": "multipleChoice",
+          "correctAnswer": "من فضلك",
+          "text": {
+            "en": "Translate: Please",
+            "ar": "ترجم: من فضلك",
+            "de": "Übersetzen: Please",
+            "fr": "Traduire : Please",
+            "ru": "Перевести: Please",
+            "zh": "翻译：Please"
+          },
+          "options": [
+            "لا يعجبني ذلك.",
+            "من فضلك",
+            "يكره",
+            "سريع"
+          ]
+        },
+        {
+          "id": "day_1_3",
+          "type": "audioOptions",
+          "correctAnswer": "يكره",
+          "text": "يكره",
+          "audioUrl": "true",
+          "options": [
+            "من فضلك",
+            "يكره",
+            "سريع",
+            "لا يعجبني ذلك."
+          ]
+        },
+        {
+          "id": "day_1_4",
+          "type": "audioOptions",
+          "correctAnswer": "سريع",
+          "text": "سريع",
+          "audioUrl": "true",
+          "options": [
+            "أنا جائع.",
+            "سريع",
+            "أنا من مصر.",
+            "عشاء"
+          ]
+        },
+        {
+          "id": "day_1_5",
+          "type": "speaking",
+          "correctAnswer": "ما اسمك؟",
+          "text": "ما اسمك؟"
+        },
+        {
+          "id": "day_1_6",
+          "type": "speaking",
+          "correctAnswer": "أنا من مصر.",
+          "text": "أنا من مصر."
+        },
+        {
+          "id": "day_1_7",
+          "type": "speaking",
+          "correctAnswer": "لا يعجبني ذلك.",
+          "text": "لا يعجبني ذلك."
+        },
+        {
+          "id": "day_1_8",
+          "type": "listening",
+          "correctAnswer": "أنا جائع.",
+          "text": "أنا جائع.",
+          "audioUrl": "true",
+          "options": [
+            "أنا جائع.",
+            "سريع",
+            "أنا من مصر.",
+            "عشاء"
+          ]
+        },
+        {
+          "id": "day_1_9",
+          "type": "listening",
+          "correctAnswer": "هل أنت مستعد؟",
+          "text": "هل أنت مستعد؟",
+          "audioUrl": "true",
+          "options": [
+            "هل أنت مستعد؟",
+            "ما اسمك؟",
+            "يوم",
+            "أنا جائع."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "questions": [
+        {
+          "id": "day_2_0",
+          "type": "multipleChoice",
+          "correctAnswer": "سمك",
+          "text": {
+            "en": "Translate: Fish",
+            "ar": "ترجم: سمك",
+            "de": "Übersetzen: Fish",
+            "fr": "Traduire : Fish",
+            "ru": "Перевести: Fish",
+            "zh": "翻译：Fish"
+          },
+          "options": [
+            "شجرة",
+            "الطقس جميل اليوم.",
+            "سمك",
+            "يحب"
+          ]
+        },
+        {
+          "id": "day_2_1",
+          "type": "multipleChoice",
+          "correctAnswer": "حار",
+          "text": {
+            "en": "Translate: Hot",
+            "ar": "ترجم: حار",
+            "de": "Übersetzen: Hot",
+            "fr": "Traduire : Hot",
+            "ru": "Перевести: Hot",
+            "zh": "翻译：Hot"
+          },
+          "options": [
+            "حار",
+            "لا",
+            "أتمنى لك يوماً سعيداً.",
+            "شجرة"
+          ]
+        },
+        {
+          "id": "day_2_2",
+          "type": "multipleChoice",
+          "correctAnswer": "لا",
+          "text": {
+            "en": "Translate: No",
+            "ar": "ترجم: لا",
+            "de": "Übersetzen: No",
+            "fr": "Traduire : No",
+            "ru": "Перевести: No",
+            "zh": "翻译：No"
+          },
+          "options": [
+            "لا",
+            "يحب",
+            "أتمنى لك يوماً سعيداً.",
+            "هل يمكنك مساعدتي؟"
+          ]
+        },
+        {
+          "id": "day_2_3",
+          "type": "audioOptions",
+          "correctAnswer": "يحب",
+          "text": "يحب",
+          "audioUrl": "true",
+          "options": [
+            "أشعر بالسعادة اليوم.",
+            "يحب",
+            "الطقس جميل اليوم.",
+            "شجرة"
+          ]
+        },
+        {
+          "id": "day_2_4",
+          "type": "audioOptions",
+          "correctAnswer": "شجرة",
+          "text": "شجرة",
+          "audioUrl": "true",
+          "options": [
+            "شجرة",
+            "لا",
+            "هل يمكنك مساعدتي؟",
+            "يحب"
+          ]
+        },
+        {
+          "id": "day_2_5",
+          "type": "speaking",
+          "correctAnswer": "هل يمكنك مساعدتي؟",
+          "text": "هل يمكنك مساعدتي؟"
+        },
+        {
+          "id": "day_2_6",
+          "type": "speaking",
+          "correctAnswer": "الطقس جميل اليوم.",
+          "text": "الطقس جميل اليوم."
+        },
+        {
+          "id": "day_2_7",
+          "type": "speaking",
+          "correctAnswer": "أتمنى لك يوماً سعيداً.",
+          "text": "أتمنى لك يوماً سعيداً."
+        },
+        {
+          "id": "day_2_8",
+          "type": "listening",
+          "correctAnswer": "هيا بنا.",
+          "text": "هيا بنا.",
+          "audioUrl": "true",
+          "options": [
+            "هيا بنا.",
+            "الطقس جميل اليوم.",
+            "لا",
+            "سمك"
+          ]
+        },
+        {
+          "id": "day_2_9",
+          "type": "listening",
+          "correctAnswer": "أشعر بالسعادة اليوم.",
+          "text": "أشعر بالسعادة اليوم.",
+          "audioUrl": "true",
+          "options": [
+            "شجرة",
+            "هل يمكنك مساعدتي؟",
+            "أشعر بالسعادة اليوم.",
+            "أتمنى لك يوماً سعيداً."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "questions": [
+        {
+          "id": "day_3_0",
+          "type": "multipleChoice",
+          "correctAnswer": "شمس",
+          "text": {
+            "en": "Translate: Sun",
+            "ar": "ترجم: شمس",
+            "de": "Übersetzen: Sun",
+            "fr": "Traduire : Sun",
+            "ru": "Перевести: Sun",
+            "zh": "翻译：Sun"
+          },
+          "options": [
+            "يعرف",
+            "انتظر دقيقة.",
+            "أنا أتعلم العربية.",
+            "شمس"
+          ]
+        },
+        {
+          "id": "day_3_1",
+          "type": "multipleChoice",
+          "correctAnswer": "كبير",
+          "text": {
+            "en": "Translate: Big",
+            "ar": "ترجم: كبير",
+            "de": "Übersetzen: Big",
+            "fr": "Traduire : Big",
+            "ru": "Перевести: Big",
+            "zh": "翻译：Big"
+          },
+          "options": [
+            "انتظر دقيقة.",
+            "لا تقلق.",
+            "ماذا تفعل؟",
+            "كبير"
+          ]
+        },
+        {
+          "id": "day_3_2",
+          "type": "multipleChoice",
+          "correctAnswer": "يعرف",
+          "text": {
+            "en": "Translate: Know",
+            "ar": "ترجم: يعرف",
+            "de": "Übersetzen: Know",
+            "fr": "Traduire : Know",
+            "ru": "Перевести: Know",
+            "zh": "翻译：Know"
+          },
+          "options": [
+            "يعرف",
+            "شاي",
+            "أنا أتعلم العربية.",
+            "كبير"
+          ]
+        },
+        {
+          "id": "day_3_3",
+          "type": "audioOptions",
+          "correctAnswer": "شاي",
+          "text": "شاي",
+          "audioUrl": "true",
+          "options": [
+            "انتظر دقيقة.",
+            "كبير",
+            "كم الساعة؟",
+            "شاي"
+          ]
+        },
+        {
+          "id": "day_3_4",
+          "type": "audioOptions",
+          "correctAnswer": "ثلاثة",
+          "text": "ثلاثة",
+          "audioUrl": "true",
+          "options": [
+            "شمس",
+            "كبير",
+            "شاي",
+            "ثلاثة"
+          ]
+        },
+        {
+          "id": "day_3_5",
+          "type": "speaking",
+          "correctAnswer": "لا تقلق.",
+          "text": "لا تقلق."
+        },
+        {
+          "id": "day_3_6",
+          "type": "speaking",
+          "correctAnswer": "ماذا تفعل؟",
+          "text": "ماذا تفعل؟"
+        },
+        {
+          "id": "day_3_7",
+          "type": "speaking",
+          "correctAnswer": "كم الساعة؟",
+          "text": "كم الساعة؟"
+        },
+        {
+          "id": "day_3_8",
+          "type": "listening",
+          "correctAnswer": "انتظر دقيقة.",
+          "text": "انتظر دقيقة.",
+          "audioUrl": "true",
+          "options": [
+            "انتظر دقيقة.",
+            "ثلاثة",
+            "لا تقلق.",
+            "شاي"
+          ]
+        },
+        {
+          "id": "day_3_9",
+          "type": "listening",
+          "correctAnswer": "أنا أتعلم العربية.",
+          "text": "أنا أتعلم العربية.",
+          "audioUrl": "true",
+          "options": [
+            "شمس",
+            "أنا أتعلم العربية.",
+            "يعرف",
+            "كم الساعة؟"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "questions": [
+        {
+          "id": "day_4_0",
+          "type": "multipleChoice",
+          "correctAnswer": "يوم",
+          "text": {
+            "en": "Translate: Day",
+            "ar": "ترجم: يوم",
+            "de": "Übersetzen: Day",
+            "fr": "Traduire : Day",
+            "ru": "Перевести: Day",
+            "zh": "翻译：Day"
+          },
+          "options": [
+            "يوم",
+            "منزلي قريب.",
+            "طعام",
+            "جديد"
+          ]
+        },
+        {
+          "id": "day_4_1",
+          "type": "multipleChoice",
+          "correctAnswer": "هناك",
+          "text": {
+            "en": "Translate: There",
+            "ar": "ترجم: هناك",
+            "de": "Übersetzen: There",
+            "fr": "Traduire : There",
+            "ru": "Перевести: There",
+            "zh": "翻译：There"
+          },
+          "options": [
+            "هناك",
+            "هذه السيارة سريعة.",
+            "جديد",
+            "الكتاب على الطاولة."
+          ]
+        },
+        {
+          "id": "day_4_2",
+          "type": "multipleChoice",
+          "correctAnswer": "جديد",
+          "text": {
+            "en": "Translate: New",
+            "ar": "ترجم: جديد",
+            "de": "Übersetzen: New",
+            "fr": "Traduire : New",
+            "ru": "Перевести: New",
+            "zh": "翻译：New"
+          },
+          "options": [
+            "جديد",
+            "هناك",
+            "يعجبني هذا.",
+            "هذه السيارة سريعة."
+          ]
+        },
+        {
+          "id": "day_4_3",
+          "type": "audioOptions",
+          "correctAnswer": "سيء",
+          "text": "سيء",
+          "audioUrl": "true",
+          "options": [
+            "جديد",
+            "طعام",
+            "سيء",
+            "هناك"
+          ]
+        },
+        {
+          "id": "day_4_4",
+          "type": "audioOptions",
+          "correctAnswer": "طعام",
+          "text": "طعام",
+          "audioUrl": "true",
+          "options": [
+            "سيء",
+            "هذه السيارة سريعة.",
+            "طعام",
+            "هناك"
+          ]
+        },
+        {
+          "id": "day_4_5",
+          "type": "speaking",
+          "correctAnswer": "صباح الخير.",
+          "text": "صباح الخير."
+        },
+        {
+          "id": "day_4_6",
+          "type": "speaking",
+          "correctAnswer": "الكتاب على الطاولة.",
+          "text": "الكتاب على الطاولة."
+        },
+        {
+          "id": "day_4_7",
+          "type": "speaking",
+          "correctAnswer": "منزلي قريب.",
+          "text": "منزلي قريب."
+        },
+        {
+          "id": "day_4_8",
+          "type": "listening",
+          "correctAnswer": "يعجبني هذا.",
+          "text": "يعجبني هذا.",
+          "audioUrl": "true",
+          "options": [
+            "يوم",
+            "يعجبني هذا.",
+            "منزلي قريب.",
+            "هذه السيارة سريعة."
+          ]
+        },
+        {
+          "id": "day_4_9",
+          "type": "listening",
+          "correctAnswer": "هذه السيارة سريعة.",
+          "text": "هذه السيارة سريعة.",
+          "audioUrl": "true",
+          "options": [
+            "سيء",
+            "جديد",
+            "صباح الخير.",
+            "هذه السيارة سريعة."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "questions": [
+        {
+          "id": "day_5_0",
+          "type": "multipleChoice",
+          "correctAnswer": "فوق",
+          "text": {
+            "en": "Translate: Up",
+            "ar": "ترجم: فوق",
+            "de": "Übersetzen: Up",
+            "fr": "Traduire : Up",
+            "ru": "Перевести: Up",
+            "zh": "翻译：Up"
+          },
+          "options": [
+            "جيد",
+            "لحم",
+            "يعجبني هذا.",
+            "فوق"
+          ]
+        },
+        {
+          "id": "day_5_1",
+          "type": "multipleChoice",
+          "correctAnswer": "شكراً",
+          "text": {
+            "en": "Translate: Thank you",
+            "ar": "ترجم: شكراً",
+            "de": "Übersetzen: Thank you",
+            "fr": "Traduire : Thank you",
+            "ru": "Перевести: Thank you",
+            "zh": "翻译：Thank you"
+          },
+          "options": [
+            "شكراً",
+            "نعم، قليلاً.",
+            "يعجبني هذا.",
+            "أنا أتعلم العربية."
+          ]
+        },
+        {
+          "id": "day_5_2",
+          "type": "multipleChoice",
+          "correctAnswer": "لحم",
+          "text": {
+            "en": "Translate: Meat",
+            "ar": "ترجم: لحم",
+            "de": "Übersetzen: Meat",
+            "fr": "Traduire : Meat",
+            "ru": "Перевести: Meat",
+            "zh": "翻译：Meat"
+          },
+          "options": [
+            "لحم",
+            "سررت بلقائك.",
+            "نعم، قليلاً.",
+            "خمسة"
+          ]
+        },
+        {
+          "id": "day_5_3",
+          "type": "audioOptions",
+          "correctAnswer": "خمسة",
+          "text": "خمسة",
+          "audioUrl": "true",
+          "options": [
+            "نعم، قليلاً.",
+            "جيد",
+            "لحم",
+            "خمسة"
+          ]
+        },
+        {
+          "id": "day_5_4",
+          "type": "audioOptions",
+          "correctAnswer": "جيد",
+          "text": "جيد",
+          "audioUrl": "true",
+          "options": [
+            "يعجبني هذا.",
+            "خمسة",
+            "نعم، قليلاً.",
+            "جيد"
+          ]
+        },
+        {
+          "id": "day_5_5",
+          "type": "speaking",
+          "correctAnswer": "نعم، قليلاً.",
+          "text": "نعم، قليلاً."
+        },
+        {
+          "id": "day_5_6",
+          "type": "speaking",
+          "correctAnswer": "يعجبني هذا.",
+          "text": "يعجبني هذا."
+        },
+        {
+          "id": "day_5_7",
+          "type": "speaking",
+          "correctAnswer": "سررت بلقائك.",
+          "text": "سررت بلقائك."
+        },
+        {
+          "id": "day_5_8",
+          "type": "listening",
+          "correctAnswer": "كل شيء على ما يرام.",
+          "text": "كل شيء على ما يرام.",
+          "audioUrl": "true",
+          "options": [
+            "شكراً",
+            "خمسة",
+            "أنا أتعلم العربية.",
+            "كل شيء على ما يرام."
+          ]
+        },
+        {
+          "id": "day_5_9",
+          "type": "listening",
+          "correctAnswer": "أنا أتعلم العربية.",
+          "text": "أنا أتعلم العربية.",
+          "audioUrl": "true",
+          "options": [
+            "جيد",
+            "أنا أتعلم العربية.",
+            "شكراً",
+            "نعم، قليلاً."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "questions": [
+        {
+          "id": "day_6_0",
+          "type": "multipleChoice",
+          "correctAnswer": "كتاب",
+          "text": {
+            "en": "Translate: Book",
+            "ar": "ترجم: كتاب",
+            "de": "Übersetzen: Book",
+            "fr": "Traduire : Book",
+            "ru": "Перевести: Book",
+            "zh": "翻译：Book"
+          },
+          "options": [
+            "كتاب",
+            "أنا بخير، شكراً.",
+            "لا يعجبني ذلك.",
+            "قطة"
+          ]
+        },
+        {
+          "id": "day_6_1",
+          "type": "multipleChoice",
+          "correctAnswer": "قطة",
+          "text": {
+            "en": "Translate: Cat",
+            "ar": "ترجم: قطة",
+            "de": "Übersetzen: Cat",
+            "fr": "Traduire : Cat",
+            "ru": "Перевести: Cat",
+            "zh": "翻译：Cat"
+          },
+          "options": [
+            "عائلة",
+            "قطة",
+            "لا يعجبني ذلك.",
+            "ماء"
+          ]
+        },
+        {
+          "id": "day_6_2",
+          "type": "multipleChoice",
+          "correctAnswer": "خمسة",
+          "text": {
+            "en": "Translate: Five",
+            "ar": "ترجم: خمسة",
+            "de": "Übersetzen: Five",
+            "fr": "Traduire : Five",
+            "ru": "Перевести: Five",
+            "zh": "翻译：Five"
+          },
+          "options": [
+            "يعجبني هذا.",
+            "خمسة",
+            "ماء",
+            "عائلة"
+          ]
+        },
+        {
+          "id": "day_6_3",
+          "type": "audioOptions",
+          "correctAnswer": "عائلة",
+          "text": "عائلة",
+          "audioUrl": "true",
+          "options": [
+            "كتاب",
+            "قطة",
+            "خمسة",
+            "عائلة"
+          ]
+        },
+        {
+          "id": "day_6_4",
+          "type": "audioOptions",
+          "correctAnswer": "ماء",
+          "text": "ماء",
+          "audioUrl": "true",
+          "options": [
+            "لا يعجبني ذلك.",
+            "ماء",
+            "خمسة",
+            "يعجبني هذا."
+          ]
+        },
+        {
+          "id": "day_6_5",
+          "type": "speaking",
+          "correctAnswer": "يعجبني هذا.",
+          "text": "يعجبني هذا."
+        },
+        {
+          "id": "day_6_6",
+          "type": "speaking",
+          "correctAnswer": "انتظر دقيقة.",
+          "text": "انتظر دقيقة."
+        },
+        {
+          "id": "day_6_7",
+          "type": "speaking",
+          "correctAnswer": "لا يعجبني ذلك.",
+          "text": "لا يعجبني ذلك."
+        },
+        {
+          "id": "day_6_8",
+          "type": "listening",
+          "correctAnswer": "أنا بخير، شكراً.",
+          "text": "أنا بخير، شكراً.",
+          "audioUrl": "true",
+          "options": [
+            "أنا بخير، شكراً.",
+            "لا يعجبني ذلك.",
+            "يعجبني هذا.",
+            "ماء"
+          ]
+        },
+        {
+          "id": "day_6_9",
+          "type": "listening",
+          "correctAnswer": "إلى أين نحن ذاهبون؟",
+          "text": "إلى أين نحن ذاهبون؟",
+          "audioUrl": "true",
+          "options": [
+            "ماء",
+            "عائلة",
+            "إلى أين نحن ذاهبون؟",
+            "لا يعجبني ذلك."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "questions": [
+        {
+          "id": "day_7_0",
+          "type": "multipleChoice",
+          "correctAnswer": "غداً",
+          "text": {
+            "en": "Translate: Tomorrow",
+            "ar": "ترجم: غداً",
+            "de": "Übersetzen: Tomorrow",
+            "fr": "Traduire : Tomorrow",
+            "ru": "Перевести: Tomorrow",
+            "zh": "翻译：Tomorrow"
+          },
+          "options": [
+            "سررت بلقائك.",
+            "غداً",
+            "يأكل",
+            "يستيقظ"
+          ]
+        },
+        {
+          "id": "day_7_1",
+          "type": "multipleChoice",
+          "correctAnswer": "صباح",
+          "text": {
+            "en": "Translate: Morning",
+            "ar": "ترجم: صباح",
+            "de": "Übersetzen: Morning",
+            "fr": "Traduire : Morning",
+            "ru": "Перевести: Morning",
+            "zh": "翻译：Morning"
+          },
+          "options": [
+            "قبيح",
+            "كل شيء على ما يرام.",
+            "صباح",
+            "أين الحمام؟"
+          ]
+        },
+        {
+          "id": "day_7_2",
+          "type": "multipleChoice",
+          "correctAnswer": "يستيقظ",
+          "text": {
+            "en": "Translate: Wake up",
+            "ar": "ترجم: يستيقظ",
+            "de": "Übersetzen: Wake up",
+            "fr": "Traduire : Wake up",
+            "ru": "Перевести: Wake up",
+            "zh": "翻译：Wake up"
+          },
+          "options": [
+            "يستيقظ",
+            "أنا آسف.",
+            "قبيح",
+            "أين الحمام؟"
+          ]
+        },
+        {
+          "id": "day_7_3",
+          "type": "audioOptions",
+          "correctAnswer": "يأكل",
+          "text": "يأكل",
+          "audioUrl": "true",
+          "options": [
+            "يستيقظ",
+            "سررت بلقائك.",
+            "مساء الخير.",
+            "يأكل"
+          ]
+        },
+        {
+          "id": "day_7_4",
+          "type": "audioOptions",
+          "correctAnswer": "قبيح",
+          "text": "قبيح",
+          "audioUrl": "true",
+          "options": [
+            "غداً",
+            "قبيح",
+            "كل شيء على ما يرام.",
+            "أنا آسف."
+          ]
+        },
+        {
+          "id": "day_7_5",
+          "type": "speaking",
+          "correctAnswer": "كل شيء على ما يرام.",
+          "text": "كل شيء على ما يرام."
+        },
+        {
+          "id": "day_7_6",
+          "type": "speaking",
+          "correctAnswer": "مساء الخير.",
+          "text": "مساء الخير."
+        },
+        {
+          "id": "day_7_7",
+          "type": "speaking",
+          "correctAnswer": "أنا آسف.",
+          "text": "أنا آسف."
+        },
+        {
+          "id": "day_7_8",
+          "type": "listening",
+          "correctAnswer": "سررت بلقائك.",
+          "text": "سررت بلقائك.",
+          "audioUrl": "true",
+          "options": [
+            "يأكل",
+            "سررت بلقائك.",
+            "مساء الخير.",
+            "غداً"
+          ]
+        },
+        {
+          "id": "day_7_9",
+          "type": "listening",
+          "correctAnswer": "أين الحمام؟",
+          "text": "أين الحمام؟",
+          "audioUrl": "true",
+          "options": [
+            "صباح",
+            "أنا آسف.",
+            "أين الحمام؟",
+            "يستيقظ"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "questions": [
+        {
+          "id": "day_8_0",
+          "type": "multipleChoice",
+          "correctAnswer": "يكره",
+          "text": {
+            "en": "Translate: Hate",
+            "ar": "ترجم: يكره",
+            "de": "Übersetzen: Hate",
+            "fr": "Traduire : Hate",
+            "ru": "Перевести: Hate",
+            "zh": "翻译：Hate"
+          },
+          "options": [
+            "يتحدث",
+            "ما اسمك؟",
+            "يكره",
+            "سنة"
+          ]
+        },
+        {
+          "id": "day_8_1",
+          "type": "multipleChoice",
+          "correctAnswer": "قطة",
+          "text": {
+            "en": "Translate: Cat",
+            "ar": "ترجم: قطة",
+            "de": "Übersetzen: Cat",
+            "fr": "Traduire : Cat",
+            "ru": "Перевести: Cat",
+            "zh": "翻译：Cat"
+          },
+          "options": [
+            "قطة",
+            "أنا أحب عائلتي.",
+            "يكره",
+            "ما اسمك؟"
+          ]
+        },
+        {
+          "id": "day_8_2",
+          "type": "multipleChoice",
+          "correctAnswer": "خمسة",
+          "text": {
+            "en": "Translate: Five",
+            "ar": "ترجم: خمسة",
+            "de": "Übersetzen: Five",
+            "fr": "Traduire : Five",
+            "ru": "Перевести: Five",
+            "zh": "翻译：Five"
+          },
+          "options": [
+            "خمسة",
+            "سنة",
+            "قطة",
+            "بكم هذا؟"
+          ]
+        },
+        {
+          "id": "day_8_3",
+          "type": "audioOptions",
+          "correctAnswer": "يتحدث",
+          "text": "يتحدث",
+          "audioUrl": "true",
+          "options": [
+            "خمسة",
+            "يتحدث",
+            "يكره",
+            "هل يمكنك مساعدتي؟"
+          ]
+        },
+        {
+          "id": "day_8_4",
+          "type": "audioOptions",
+          "correctAnswer": "سنة",
+          "text": "سنة",
+          "audioUrl": "true",
+          "options": [
+            "سنة",
+            "يكره",
+            "يتحدث",
+            "أنا أحب عائلتي."
+          ]
+        },
+        {
+          "id": "day_8_5",
+          "type": "speaking",
+          "correctAnswer": "هل يمكنك مساعدتي؟",
+          "text": "هل يمكنك مساعدتي؟"
+        },
+        {
+          "id": "day_8_6",
+          "type": "speaking",
+          "correctAnswer": "بكم هذا؟",
+          "text": "بكم هذا؟"
+        },
+        {
+          "id": "day_8_7",
+          "type": "speaking",
+          "correctAnswer": "نعم، قليلاً.",
+          "text": "نعم، قليلاً."
+        },
+        {
+          "id": "day_8_8",
+          "type": "listening",
+          "correctAnswer": "ما اسمك؟",
+          "text": "ما اسمك؟",
+          "audioUrl": "true",
+          "options": [
+            "يتحدث",
+            "بكم هذا؟",
+            "هل يمكنك مساعدتي؟",
+            "ما اسمك؟"
+          ]
+        },
+        {
+          "id": "day_8_9",
+          "type": "listening",
+          "correctAnswer": "أنا أحب عائلتي.",
+          "text": "أنا أحب عائلتي.",
+          "audioUrl": "true",
+          "options": [
+            "أنا أحب عائلتي.",
+            "قطة",
+            "يكره",
+            "سنة"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "questions": [
+        {
+          "id": "day_9_0",
+          "type": "multipleChoice",
+          "correctAnswer": "يوم",
+          "text": {
+            "en": "Translate: Day",
+            "ar": "ترجم: يوم",
+            "de": "Übersetzen: Day",
+            "fr": "Traduire : Day",
+            "ru": "Перевести: Day",
+            "zh": "翻译：Day"
+          },
+          "options": [
+            "يوم",
+            "حار",
+            "امرأة",
+            "نعم"
+          ]
+        },
+        {
+          "id": "day_9_1",
+          "type": "multipleChoice",
+          "correctAnswer": "حار",
+          "text": {
+            "en": "Translate: Hot",
+            "ar": "ترجم: حار",
+            "de": "Übersetzen: Hot",
+            "fr": "Traduire : Hot",
+            "ru": "Перевести: Hot",
+            "zh": "翻译：Hot"
+          },
+          "options": [
+            "كل شيء على ما يرام.",
+            "الفاتورة، من فضلك؟",
+            "من أين أنت؟",
+            "حار"
+          ]
+        },
+        {
+          "id": "day_9_2",
+          "type": "multipleChoice",
+          "correctAnswer": "امرأة",
+          "text": {
+            "en": "Translate: Woman",
+            "ar": "ترجم: امرأة",
+            "de": "Übersetzen: Woman",
+            "fr": "Traduire : Woman",
+            "ru": "Перевести: Woman",
+            "zh": "翻译：Woman"
+          },
+          "options": [
+            "ماذا تفعل؟",
+            "خبز",
+            "امرأة",
+            "الفاتورة، من فضلك؟"
+          ]
+        },
+        {
+          "id": "day_9_3",
+          "type": "audioOptions",
+          "correctAnswer": "خبز",
+          "text": "خبز",
+          "audioUrl": "true",
+          "options": [
+            "خبز",
+            "يوم",
+            "عذراً.",
+            "ماذا تفعل؟"
+          ]
+        },
+        {
+          "id": "day_9_4",
+          "type": "audioOptions",
+          "correctAnswer": "نعم",
+          "text": "نعم",
+          "audioUrl": "true",
+          "options": [
+            "نعم",
+            "خبز",
+            "يوم",
+            "حار"
+          ]
+        },
+        {
+          "id": "day_9_5",
+          "type": "speaking",
+          "correctAnswer": "من أين أنت؟",
+          "text": "من أين أنت؟"
+        },
+        {
+          "id": "day_9_6",
+          "type": "speaking",
+          "correctAnswer": "كل شيء على ما يرام.",
+          "text": "كل شيء على ما يرام."
+        },
+        {
+          "id": "day_9_7",
+          "type": "speaking",
+          "correctAnswer": "ماذا تفعل؟",
+          "text": "ماذا تفعل؟"
+        },
+        {
+          "id": "day_9_8",
+          "type": "listening",
+          "correctAnswer": "الفاتورة، من فضلك؟",
+          "text": "الفاتورة، من فضلك؟",
+          "audioUrl": "true",
+          "options": [
+            "نعم",
+            "الفاتورة، من فضلك؟",
+            "كل شيء على ما يرام.",
+            "امرأة"
+          ]
+        },
+        {
+          "id": "day_9_9",
+          "type": "listening",
+          "correctAnswer": "عذراً.",
+          "text": "عذراً.",
+          "audioUrl": "true",
+          "options": [
+            "عذراً.",
+            "الفاتورة، من فضلك؟",
+            "يوم",
+            "حار"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "questions": [
+        {
+          "id": "day_10_0",
+          "type": "multipleChoice",
+          "correctAnswer": "ينام",
+          "text": {
+            "en": "Translate: Sleep",
+            "ar": "ترجم: ينام",
+            "de": "Übersetzen: Sleep",
+            "fr": "Traduire : Sleep",
+            "ru": "Перевести: Sleep",
+            "zh": "翻译：Sleep"
+          },
+          "options": [
+            "أبيض",
+            "ينام",
+            "الفاتورة، من فضلك؟",
+            "سيارة"
+          ]
+        },
+        {
+          "id": "day_10_1",
+          "type": "multipleChoice",
+          "correctAnswer": "سيارة",
+          "text": {
+            "en": "Translate: Car",
+            "ar": "ترجم: سيارة",
+            "de": "Übersetzen: Car",
+            "fr": "Traduire : Car",
+            "ru": "Перевести: Car",
+            "zh": "翻译：Car"
+          },
+          "options": [
+            "سيارة",
+            "ينام",
+            "بطيء",
+            "الجو حار في الخارج."
+          ]
+        },
+        {
+          "id": "day_10_2",
+          "type": "multipleChoice",
+          "correctAnswer": "بطيء",
+          "text": {
+            "en": "Translate: Slow",
+            "ar": "ترجم: بطيء",
+            "de": "Übersetzen: Slow",
+            "fr": "Traduire : Slow",
+            "ru": "Перевести: Slow",
+            "zh": "翻译：Slow"
+          },
+          "options": [
+            "بطيء",
+            "ينام",
+            "الجو حار في الخارج.",
+            "سيارة"
+          ]
+        },
+        {
+          "id": "day_10_3",
+          "type": "audioOptions",
+          "correctAnswer": "أبيض",
+          "text": "أبيض",
+          "audioUrl": "true",
+          "options": [
+            "نعم، قليلاً.",
+            "أبيض",
+            "ينام",
+            "عشاء"
+          ]
+        },
+        {
+          "id": "day_10_4",
+          "type": "audioOptions",
+          "correctAnswer": "عشاء",
+          "text": "عشاء",
+          "audioUrl": "true",
+          "options": [
+            "عشاء",
+            "سيارة",
+            "ينام",
+            "الجو حار في الخارج."
+          ]
+        },
+        {
+          "id": "day_10_5",
+          "type": "speaking",
+          "correctAnswer": "الجو حار في الخارج.",
+          "text": "الجو حار في الخارج."
+        },
+        {
+          "id": "day_10_6",
+          "type": "speaking",
+          "correctAnswer": "الفاتورة، من فضلك؟",
+          "text": "الفاتورة، من فضلك؟"
+        },
+        {
+          "id": "day_10_7",
+          "type": "speaking",
+          "correctAnswer": "من أين أنت؟",
+          "text": "من أين أنت؟"
+        },
+        {
+          "id": "day_10_8",
+          "type": "listening",
+          "correctAnswer": "الطقس جميل اليوم.",
+          "text": "الطقس جميل اليوم.",
+          "audioUrl": "true",
+          "options": [
+            "الفاتورة، من فضلك؟",
+            "الطقس جميل اليوم.",
+            "ينام",
+            "نعم، قليلاً."
+          ]
+        },
+        {
+          "id": "day_10_9",
+          "type": "listening",
+          "correctAnswer": "نعم، قليلاً.",
+          "text": "نعم، قليلاً.",
+          "audioUrl": "true",
+          "options": [
+            "أبيض",
+            "بطيء",
+            "نعم، قليلاً.",
+            "ينام"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "questions": [
+        {
+          "id": "day_11_0",
+          "type": "multipleChoice",
+          "correctAnswer": "شمس",
+          "text": {
+            "en": "Translate: Sun",
+            "ar": "ترجم: شمس",
+            "de": "Übersetzen: Sun",
+            "fr": "Traduire : Sun",
+            "ru": "Перевести: Sun",
+            "zh": "翻译：Sun"
+          },
+          "options": [
+            "يستيقظ",
+            "أتمنى لك يوماً سعيداً.",
+            "شمس",
+            "أين الحمام؟"
+          ]
+        },
+        {
+          "id": "day_11_1",
+          "type": "multipleChoice",
+          "correctAnswer": "زهرة",
+          "text": {
+            "en": "Translate: Flower",
+            "ar": "ترجم: زهرة",
+            "de": "Übersetzen: Flower",
+            "fr": "Traduire : Flower",
+            "ru": "Перевести: Flower",
+            "zh": "翻译：Flower"
+          },
+          "options": [
+            "اثنان",
+            "شاي",
+            "أنا جائع.",
+            "زهرة"
+          ]
+        },
+        {
+          "id": "day_11_2",
+          "type": "multipleChoice",
+          "correctAnswer": "يستيقظ",
+          "text": {
+            "en": "Translate: Wake up",
+            "ar": "ترجم: يستيقظ",
+            "de": "Übersetzen: Wake up",
+            "fr": "Traduire : Wake up",
+            "ru": "Перевести: Wake up",
+            "zh": "翻译：Wake up"
+          },
+          "options": [
+            "شمس",
+            "اثنان",
+            "أنا لا أفهم.",
+            "يستيقظ"
+          ]
+        },
+        {
+          "id": "day_11_3",
+          "type": "audioOptions",
+          "correctAnswer": "اثنان",
+          "text": "اثنان",
+          "audioUrl": "true",
+          "options": [
+            "اثنان",
+            "شاي",
+            "زهرة",
+            "أتمنى لك يوماً سعيداً."
+          ]
+        },
+        {
+          "id": "day_11_4",
+          "type": "audioOptions",
+          "correctAnswer": "شاي",
+          "text": "شاي",
+          "audioUrl": "true",
+          "options": [
+            "أين الحمام؟",
+            "أتمنى لك يوماً سعيداً.",
+            "اثنان",
+            "شاي"
+          ]
+        },
+        {
+          "id": "day_11_5",
+          "type": "speaking",
+          "correctAnswer": "أين الحمام؟",
+          "text": "أين الحمام؟"
+        },
+        {
+          "id": "day_11_6",
+          "type": "speaking",
+          "correctAnswer": "أنا لا أفهم.",
+          "text": "أنا لا أفهم."
+        },
+        {
+          "id": "day_11_7",
+          "type": "speaking",
+          "correctAnswer": "أنا جائع.",
+          "text": "أنا جائع."
+        },
+        {
+          "id": "day_11_8",
+          "type": "listening",
+          "correctAnswer": "أتمنى لك يوماً سعيداً.",
+          "text": "أتمنى لك يوماً سعيداً.",
+          "audioUrl": "true",
+          "options": [
+            "أتمنى لك يوماً سعيداً.",
+            "يستيقظ",
+            "شاي",
+            "زهرة"
+          ]
+        },
+        {
+          "id": "day_11_9",
+          "type": "listening",
+          "correctAnswer": "منزلي قريب.",
+          "text": "منزلي قريب.",
+          "audioUrl": "true",
+          "options": [
+            "منزلي قريب.",
+            "زهرة",
+            "أين الحمام؟",
+            "أتمنى لك يوماً سعيداً."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "questions": [
+        {
+          "id": "day_12_0",
+          "type": "multipleChoice",
+          "correctAnswer": "كلب",
+          "text": {
+            "en": "Translate: Dog",
+            "ar": "ترجم: كلب",
+            "de": "Übersetzen: Dog",
+            "fr": "Traduire : Dog",
+            "ru": "Перевести: Dog",
+            "zh": "翻译：Dog"
+          },
+          "options": [
+            "الجو حار في الخارج.",
+            "من فضلك",
+            "كلب",
+            "صباح الخير."
+          ]
+        },
+        {
+          "id": "day_12_1",
+          "type": "multipleChoice",
+          "correctAnswer": "أخضر",
+          "text": {
+            "en": "Translate: Green",
+            "ar": "ترجم: أخضر",
+            "de": "Übersetzen: Green",
+            "fr": "Traduire : Green",
+            "ru": "Перевести: Green",
+            "zh": "翻译：Green"
+          },
+          "options": [
+            "كلب",
+            "اليوم",
+            "أخضر",
+            "الجو حار في الخارج."
+          ]
+        },
+        {
+          "id": "day_12_2",
+          "type": "multipleChoice",
+          "correctAnswer": "من فضلك",
+          "text": {
+            "en": "Translate: Please",
+            "ar": "ترجم: من فضلك",
+            "de": "Übersetzen: Please",
+            "fr": "Traduire : Please",
+            "ru": "Перевести: Please",
+            "zh": "翻译：Please"
+          },
+          "options": [
+            "اليوم",
+            "أنا من مصر.",
+            "من فضلك",
+            "ما اسمك؟"
+          ]
+        },
+        {
+          "id": "day_12_3",
+          "type": "audioOptions",
+          "correctAnswer": "اليوم",
+          "text": "اليوم",
+          "audioUrl": "true",
+          "options": [
+            "اليوم",
+            "أخضر",
+            "ما اسمك؟",
+            "أنا أحب عائلتي."
+          ]
+        },
+        {
+          "id": "day_12_4",
+          "type": "audioOptions",
+          "correctAnswer": "فوق",
+          "text": "فوق",
+          "audioUrl": "true",
+          "options": [
+            "ما اسمك؟",
+            "من فضلك",
+            "فوق",
+            "أخضر"
+          ]
+        },
+        {
+          "id": "day_12_5",
+          "type": "speaking",
+          "correctAnswer": "أنا من مصر.",
+          "text": "أنا من مصر."
+        },
+        {
+          "id": "day_12_6",
+          "type": "speaking",
+          "correctAnswer": "الجو حار في الخارج.",
+          "text": "الجو حار في الخارج."
+        },
+        {
+          "id": "day_12_7",
+          "type": "speaking",
+          "correctAnswer": "ما اسمك؟",
+          "text": "ما اسمك؟"
+        },
+        {
+          "id": "day_12_8",
+          "type": "listening",
+          "correctAnswer": "أنا أحب عائلتي.",
+          "text": "أنا أحب عائلتي.",
+          "audioUrl": "true",
+          "options": [
+            "اليوم",
+            "فوق",
+            "أنا أحب عائلتي.",
+            "الجو حار في الخارج."
+          ]
+        },
+        {
+          "id": "day_12_9",
+          "type": "listening",
+          "correctAnswer": "صباح الخير.",
+          "text": "صباح الخير.",
+          "audioUrl": "true",
+          "options": [
+            "صباح الخير.",
+            "فوق",
+            "ما اسمك؟",
+            "أخضر"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "questions": [
+        {
+          "id": "day_13_0",
+          "type": "multipleChoice",
+          "correctAnswer": "قهوة",
+          "text": {
+            "en": "Translate: Coffee",
+            "ar": "ترجم: قهوة",
+            "de": "Übersetzen: Coffee",
+            "fr": "Traduire : Coffee",
+            "ru": "Перевести: Coffee",
+            "zh": "翻译：Coffee"
+          },
+          "options": [
+            "قهوة",
+            "صغير",
+            "سعيد",
+            "كم الساعة؟"
+          ]
+        },
+        {
+          "id": "day_13_1",
+          "type": "multipleChoice",
+          "correctAnswer": "سعيد",
+          "text": {
+            "en": "Translate: Happy",
+            "ar": "ترجم: سعيد",
+            "de": "Übersetzen: Happy",
+            "fr": "Traduire : Happy",
+            "ru": "Перевести: Happy",
+            "zh": "翻译：Happy"
+          },
+          "options": [
+            "سعيد",
+            "أنا في السوق.",
+            "تصبح على خير.",
+            "قهوة"
+          ]
+        },
+        {
+          "id": "day_13_2",
+          "type": "multipleChoice",
+          "correctAnswer": "زهرة",
+          "text": {
+            "en": "Translate: Flower",
+            "ar": "ترجم: زهرة",
+            "de": "Übersetzen: Flower",
+            "fr": "Traduire : Flower",
+            "ru": "Перевести: Flower",
+            "zh": "翻译：Flower"
+          },
+          "options": [
+            "يكتب",
+            "كم الساعة؟",
+            "لقد فقدت مفاتيحي.",
+            "زهرة"
+          ]
+        },
+        {
+          "id": "day_13_3",
+          "type": "audioOptions",
+          "correctAnswer": "يكتب",
+          "text": "يكتب",
+          "audioUrl": "true",
+          "options": [
+            "تصبح على خير.",
+            "يكتب",
+            "لقد فقدت مفاتيحي.",
+            "سعيد"
+          ]
+        },
+        {
+          "id": "day_13_4",
+          "type": "audioOptions",
+          "correctAnswer": "صغير",
+          "text": "صغير",
+          "audioUrl": "true",
+          "options": [
+            "قهوة",
+            "صغير",
+            "سعيد",
+            "لقد فقدت مفاتيحي."
+          ]
+        },
+        {
+          "id": "day_13_5",
+          "type": "speaking",
+          "correctAnswer": "أنا في السوق.",
+          "text": "أنا في السوق."
+        },
+        {
+          "id": "day_13_6",
+          "type": "speaking",
+          "correctAnswer": "لقد فقدت مفاتيحي.",
+          "text": "لقد فقدت مفاتيحي."
+        },
+        {
+          "id": "day_13_7",
+          "type": "speaking",
+          "correctAnswer": "كم الساعة؟",
+          "text": "كم الساعة؟"
+        },
+        {
+          "id": "day_13_8",
+          "type": "listening",
+          "correctAnswer": "تصبح على خير.",
+          "text": "تصبح على خير.",
+          "audioUrl": "true",
+          "options": [
+            "اسمي أحمد.",
+            "سعيد",
+            "زهرة",
+            "تصبح على خير."
+          ]
+        },
+        {
+          "id": "day_13_9",
+          "type": "listening",
+          "correctAnswer": "اسمي أحمد.",
+          "text": "اسمي أحمد.",
+          "audioUrl": "true",
+          "options": [
+            "لقد فقدت مفاتيحي.",
+            "صغير",
+            "كم الساعة؟",
+            "اسمي أحمد."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "questions": [
+        {
+          "id": "day_14_0",
+          "type": "multipleChoice",
+          "correctAnswer": "صديق",
+          "text": {
+            "en": "Translate: Friend",
+            "ar": "ترجم: صديق",
+            "de": "Übersetzen: Friend",
+            "fr": "Traduire : Friend",
+            "ru": "Перевести: Friend",
+            "zh": "翻译：Friend"
+          },
+          "options": [
+            "يفهم",
+            "أنا من مصر.",
+            "صديق",
+            "كبير"
+          ]
+        },
+        {
+          "id": "day_14_1",
+          "type": "multipleChoice",
+          "correctAnswer": "سريع",
+          "text": {
+            "en": "Translate: Fast",
+            "ar": "ترجم: سريع",
+            "de": "Übersetzen: Fast",
+            "fr": "Traduire : Fast",
+            "ru": "Перевести: Fast",
+            "zh": "翻译：Fast"
+          },
+          "options": [
+            "سريع",
+            "طائر",
+            "صديق",
+            "انتظر دقيقة."
+          ]
+        },
+        {
+          "id": "day_14_2",
+          "type": "multipleChoice",
+          "correctAnswer": "طائر",
+          "text": {
+            "en": "Translate: Bird",
+            "ar": "ترجم: طائر",
+            "de": "Übersetzen: Bird",
+            "fr": "Traduire : Bird",
+            "ru": "Перевести: Bird",
+            "zh": "翻译：Bird"
+          },
+          "options": [
+            "أنا من مصر.",
+            "طائر",
+            "كبير",
+            "هل تتحدث الإنجليزية؟"
+          ]
+        },
+        {
+          "id": "day_14_3",
+          "type": "audioOptions",
+          "correctAnswer": "كبير",
+          "text": "كبير",
+          "audioUrl": "true",
+          "options": [
+            "هل تتحدث الإنجليزية؟",
+            "كبير",
+            "سريع",
+            "أنا من مصر."
+          ]
+        },
+        {
+          "id": "day_14_4",
+          "type": "audioOptions",
+          "correctAnswer": "يفهم",
+          "text": "يفهم",
+          "audioUrl": "true",
+          "options": [
+            "انتظر دقيقة.",
+            "طائر",
+            "يفهم",
+            "كبير"
+          ]
+        },
+        {
+          "id": "day_14_5",
+          "type": "speaking",
+          "correctAnswer": "أنا من مصر.",
+          "text": "أنا من مصر."
+        },
+        {
+          "id": "day_14_6",
+          "type": "speaking",
+          "correctAnswer": "انتظر دقيقة.",
+          "text": "انتظر دقيقة."
+        },
+        {
+          "id": "day_14_7",
+          "type": "speaking",
+          "correctAnswer": "أنا جائع.",
+          "text": "أنا جائع."
+        },
+        {
+          "id": "day_14_8",
+          "type": "listening",
+          "correctAnswer": "هل تتحدث الإنجليزية؟",
+          "text": "هل تتحدث الإنجليزية؟",
+          "audioUrl": "true",
+          "options": [
+            "سريع",
+            "منزلي قريب.",
+            "أنا جائع.",
+            "هل تتحدث الإنجليزية؟"
+          ]
+        },
+        {
+          "id": "day_14_9",
+          "type": "listening",
+          "correctAnswer": "منزلي قريب.",
+          "text": "منزلي قريب.",
+          "audioUrl": "true",
+          "options": [
+            "طائر",
+            "هل تتحدث الإنجليزية؟",
+            "كبير",
+            "منزلي قريب."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "questions": [
+        {
+          "id": "day_15_0",
+          "type": "multipleChoice",
+          "correctAnswer": "سريع",
+          "text": {
+            "en": "Translate: Fast",
+            "ar": "ترجم: سريع",
+            "de": "Übersetzen: Fast",
+            "fr": "Traduire : Fast",
+            "ru": "Перевести: Fast",
+            "zh": "翻译：Fast"
+          },
+          "options": [
+            "من أين أنت؟",
+            "دجاج",
+            "يشاهد",
+            "سريع"
+          ]
+        },
+        {
+          "id": "day_15_1",
+          "type": "multipleChoice",
+          "correctAnswer": "يشاهد",
+          "text": {
+            "en": "Translate: Watch",
+            "ar": "ترجم: يشاهد",
+            "de": "Übersetzen: Watch",
+            "fr": "Traduire : Watch",
+            "ru": "Перевести: Watch",
+            "zh": "翻译：Watch"
+          },
+          "options": [
+            "لحم",
+            "دجاج",
+            "من أين أنت؟",
+            "يشاهد"
+          ]
+        },
+        {
+          "id": "day_15_2",
+          "type": "multipleChoice",
+          "correctAnswer": "لحم",
+          "text": {
+            "en": "Translate: Meat",
+            "ar": "ترجم: لحم",
+            "de": "Übersetzen: Meat",
+            "fr": "Traduire : Meat",
+            "ru": "Перевести: Meat",
+            "zh": "翻译：Meat"
+          },
+          "options": [
+            "اثنان",
+            "لحم",
+            "دجاج",
+            "أنا بخير، شكراً."
+          ]
+        },
+        {
+          "id": "day_15_3",
+          "type": "audioOptions",
+          "correctAnswer": "اثنان",
+          "text": "اثنان",
+          "audioUrl": "true",
+          "options": [
+            "أريد أن أشرب ماء.",
+            "اثنان",
+            "دجاج",
+            "كم الساعة؟"
+          ]
+        },
+        {
+          "id": "day_15_4",
+          "type": "audioOptions",
+          "correctAnswer": "دجاج",
+          "text": "دجاج",
+          "audioUrl": "true",
+          "options": [
+            "سريع",
+            "أنا بخير، شكراً.",
+            "دجاج",
+            "الجو حار في الخارج."
+          ]
+        },
+        {
+          "id": "day_15_5",
+          "type": "speaking",
+          "correctAnswer": "أنا بخير، شكراً.",
+          "text": "أنا بخير، شكراً."
+        },
+        {
+          "id": "day_15_6",
+          "type": "speaking",
+          "correctAnswer": "أريد أن أشرب ماء.",
+          "text": "أريد أن أشرب ماء."
+        },
+        {
+          "id": "day_15_7",
+          "type": "speaking",
+          "correctAnswer": "الجو حار في الخارج.",
+          "text": "الجو حار في الخارج."
+        },
+        {
+          "id": "day_15_8",
+          "type": "listening",
+          "correctAnswer": "كم الساعة؟",
+          "text": "كم الساعة؟",
+          "audioUrl": "true",
+          "options": [
+            "لحم",
+            "كم الساعة؟",
+            "أريد أن أشرب ماء.",
+            "اثنان"
+          ]
+        },
+        {
+          "id": "day_15_9",
+          "type": "listening",
+          "correctAnswer": "من أين أنت؟",
+          "text": "من أين أنت؟",
+          "audioUrl": "true",
+          "options": [
+            "لحم",
+            "من أين أنت؟",
+            "كم الساعة؟",
+            "أنا بخير، شكراً."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "questions": [
+        {
+          "id": "day_16_0",
+          "type": "multipleChoice",
+          "correctAnswer": "غداء",
+          "text": {
+            "en": "Translate: Lunch",
+            "ar": "ترجم: غداء",
+            "de": "Übersetzen: Lunch",
+            "fr": "Traduire : Lunch",
+            "ru": "Перевести: Lunch",
+            "zh": "翻译：Lunch"
+          },
+          "options": [
+            "حار",
+            "غداء",
+            "أنا في السوق.",
+            "أريد أن أشرب ماء."
+          ]
+        },
+        {
+          "id": "day_16_1",
+          "type": "multipleChoice",
+          "correctAnswer": "سعيد",
+          "text": {
+            "en": "Translate: Happy",
+            "ar": "ترجم: سعيد",
+            "de": "Übersetzen: Happy",
+            "fr": "Traduire : Happy",
+            "ru": "Перевести: Happy",
+            "zh": "翻译：Happy"
+          },
+          "options": [
+            "أريد أن أشرب ماء.",
+            "سيارة",
+            "من أين أنت؟",
+            "سعيد"
+          ]
+        },
+        {
+          "id": "day_16_2",
+          "type": "multipleChoice",
+          "correctAnswer": "حار",
+          "text": {
+            "en": "Translate: Hot",
+            "ar": "ترجم: حار",
+            "de": "Übersetzen: Hot",
+            "fr": "Traduire : Hot",
+            "ru": "Перевести: Hot",
+            "zh": "翻译：Hot"
+          },
+          "options": [
+            "غداء",
+            "سعيد",
+            "حار",
+            "أشعر بالسعادة اليوم."
+          ]
+        },
+        {
+          "id": "day_16_3",
+          "type": "audioOptions",
+          "correctAnswer": "ينام",
+          "text": "ينام",
+          "audioUrl": "true",
+          "options": [
+            "أنا في السوق.",
+            "سيارة",
+            "ينام",
+            "حار"
+          ]
+        },
+        {
+          "id": "day_16_4",
+          "type": "audioOptions",
+          "correctAnswer": "سيارة",
+          "text": "سيارة",
+          "audioUrl": "true",
+          "options": [
+            "من أين أنت؟",
+            "حار",
+            "سعيد",
+            "سيارة"
+          ]
+        },
+        {
+          "id": "day_16_5",
+          "type": "speaking",
+          "correctAnswer": "من أين أنت؟",
+          "text": "من أين أنت؟"
+        },
+        {
+          "id": "day_16_6",
+          "type": "speaking",
+          "correctAnswer": "أنا في السوق.",
+          "text": "أنا في السوق."
+        },
+        {
+          "id": "day_16_7",
+          "type": "speaking",
+          "correctAnswer": "أنا جائع.",
+          "text": "أنا جائع."
+        },
+        {
+          "id": "day_16_8",
+          "type": "listening",
+          "correctAnswer": "أريد أن أشرب ماء.",
+          "text": "أريد أن أشرب ماء.",
+          "audioUrl": "true",
+          "options": [
+            "غداء",
+            "أريد أن أشرب ماء.",
+            "أنا في السوق.",
+            "أنا جائع."
+          ]
+        },
+        {
+          "id": "day_16_9",
+          "type": "listening",
+          "correctAnswer": "أشعر بالسعادة اليوم.",
+          "text": "أشعر بالسعادة اليوم.",
+          "audioUrl": "true",
+          "options": [
+            "حار",
+            "أنا جائع.",
+            "أشعر بالسعادة اليوم.",
+            "ينام"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "questions": [
+        {
+          "id": "day_17_0",
+          "type": "multipleChoice",
+          "correctAnswer": "جيد",
+          "text": {
+            "en": "Translate: Good",
+            "ar": "ترجم: جيد",
+            "de": "Übersetzen: Good",
+            "fr": "Traduire : Good",
+            "ru": "Перевести: Good",
+            "zh": "翻译：Good"
+          },
+          "options": [
+            "صباح الخير.",
+            "شكراً",
+            "جيد",
+            "حليب"
+          ]
+        },
+        {
+          "id": "day_17_1",
+          "type": "multipleChoice",
+          "correctAnswer": "يذهب",
+          "text": {
+            "en": "Translate: Go",
+            "ar": "ترجم: يذهب",
+            "de": "Übersetzen: Go",
+            "fr": "Traduire : Go",
+            "ru": "Перевести: Go",
+            "zh": "翻译：Go"
+          },
+          "options": [
+            "جيد",
+            "يذهب",
+            "هل أنت مستعد؟",
+            "صباح الخير."
+          ]
+        },
+        {
+          "id": "day_17_2",
+          "type": "multipleChoice",
+          "correctAnswer": "حليب",
+          "text": {
+            "en": "Translate: Milk",
+            "ar": "ترجم: حليب",
+            "de": "Übersetzen: Milk",
+            "fr": "Traduire : Milk",
+            "ru": "Перевести: Milk",
+            "zh": "翻译：Milk"
+          },
+          "options": [
+            "الطقس جميل اليوم.",
+            "كل شيء على ما يرام.",
+            "حليب",
+            "يذهب"
+          ]
+        },
+        {
+          "id": "day_17_3",
+          "type": "audioOptions",
+          "correctAnswer": "لحم",
+          "text": "لحم",
+          "audioUrl": "true",
+          "options": [
+            "لحم",
+            "حليب",
+            "شكراً",
+            "يذهب"
+          ]
+        },
+        {
+          "id": "day_17_4",
+          "type": "audioOptions",
+          "correctAnswer": "شكراً",
+          "text": "شكراً",
+          "audioUrl": "true",
+          "options": [
+            "جيد",
+            "شكراً",
+            "يذهب",
+            "كيف حالك؟"
+          ]
+        },
+        {
+          "id": "day_17_5",
+          "type": "speaking",
+          "correctAnswer": "هل أنت مستعد؟",
+          "text": "هل أنت مستعد؟"
+        },
+        {
+          "id": "day_17_6",
+          "type": "speaking",
+          "correctAnswer": "كيف حالك؟",
+          "text": "كيف حالك؟"
+        },
+        {
+          "id": "day_17_7",
+          "type": "speaking",
+          "correctAnswer": "كل شيء على ما يرام.",
+          "text": "كل شيء على ما يرام."
+        },
+        {
+          "id": "day_17_8",
+          "type": "listening",
+          "correctAnswer": "صباح الخير.",
+          "text": "صباح الخير.",
+          "audioUrl": "true",
+          "options": [
+            "لحم",
+            "شكراً",
+            "جيد",
+            "صباح الخير."
+          ]
+        },
+        {
+          "id": "day_17_9",
+          "type": "listening",
+          "correctAnswer": "الطقس جميل اليوم.",
+          "text": "الطقس جميل اليوم.",
+          "audioUrl": "true",
+          "options": [
+            "كيف حالك؟",
+            "صباح الخير.",
+            "شكراً",
+            "الطقس جميل اليوم."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "questions": [
+        {
+          "id": "day_18_0",
+          "type": "multipleChoice",
+          "correctAnswer": "حزين",
+          "text": {
+            "en": "Translate: Sad",
+            "ar": "ترجم: حزين",
+            "de": "Übersetzen: Sad",
+            "fr": "Traduire : Sad",
+            "ru": "Перевести: Sad",
+            "zh": "翻译：Sad"
+          },
+          "options": [
+            "هذا لذيذ جداً.",
+            "أنا لا أفهم.",
+            "حزين",
+            "زهرة"
+          ]
+        },
+        {
+          "id": "day_18_1",
+          "type": "multipleChoice",
+          "correctAnswer": "يوم",
+          "text": {
+            "en": "Translate: Day",
+            "ar": "ترجم: يوم",
+            "de": "Übersetzen: Day",
+            "fr": "Traduire : Day",
+            "ru": "Перевести: Day",
+            "zh": "翻译：Day"
+          },
+          "options": [
+            "يوم",
+            "يأكل",
+            "زهرة",
+            "هذا لذيذ جداً."
+          ]
+        },
+        {
+          "id": "day_18_2",
+          "type": "multipleChoice",
+          "correctAnswer": "زهرة",
+          "text": {
+            "en": "Translate: Flower",
+            "ar": "ترجم: زهرة",
+            "de": "Übersetzen: Flower",
+            "fr": "Traduire : Flower",
+            "ru": "Перевести: Flower",
+            "zh": "翻译：Flower"
+          },
+          "options": [
+            "إلى أين نحن ذاهبون؟",
+            "ليل",
+            "هذا لذيذ جداً.",
+            "زهرة"
+          ]
+        },
+        {
+          "id": "day_18_3",
+          "type": "audioOptions",
+          "correctAnswer": "ليل",
+          "text": "ليل",
+          "audioUrl": "true",
+          "options": [
+            "حزين",
+            "كل شيء على ما يرام.",
+            "يوم",
+            "ليل"
+          ]
+        },
+        {
+          "id": "day_18_4",
+          "type": "audioOptions",
+          "correctAnswer": "يأكل",
+          "text": "يأكل",
+          "audioUrl": "true",
+          "options": [
+            "كل شيء على ما يرام.",
+            "يأكل",
+            "هذا لذيذ جداً.",
+            "يوم"
+          ]
+        },
+        {
+          "id": "day_18_5",
+          "type": "speaking",
+          "correctAnswer": "إلى أين نحن ذاهبون؟",
+          "text": "إلى أين نحن ذاهبون؟"
+        },
+        {
+          "id": "day_18_6",
+          "type": "speaking",
+          "correctAnswer": "كل شيء على ما يرام.",
+          "text": "كل شيء على ما يرام."
+        },
+        {
+          "id": "day_18_7",
+          "type": "speaking",
+          "correctAnswer": "أحتاج أن أذهب للنوم.",
+          "text": "أحتاج أن أذهب للنوم."
+        },
+        {
+          "id": "day_18_8",
+          "type": "listening",
+          "correctAnswer": "أنا لا أفهم.",
+          "text": "أنا لا أفهم.",
+          "audioUrl": "true",
+          "options": [
+            "يأكل",
+            "أنا لا أفهم.",
+            "حزين",
+            "زهرة"
+          ]
+        },
+        {
+          "id": "day_18_9",
+          "type": "listening",
+          "correctAnswer": "هذا لذيذ جداً.",
+          "text": "هذا لذيذ جداً.",
+          "audioUrl": "true",
+          "options": [
+            "يأكل",
+            "كل شيء على ما يرام.",
+            "هذا لذيذ جداً.",
+            "حزين"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "questions": [
+        {
+          "id": "day_19_0",
+          "type": "multipleChoice",
+          "correctAnswer": "عائلة",
+          "text": {
+            "en": "Translate: Family",
+            "ar": "ترجم: عائلة",
+            "de": "Übersetzen: Family",
+            "fr": "Traduire : Family",
+            "ru": "Перевести: Family",
+            "zh": "翻译：Family"
+          },
+          "options": [
+            "عائلة",
+            "أنا أحب عائلتي.",
+            "أنا في السوق.",
+            "اثنان"
+          ]
+        },
+        {
+          "id": "day_19_1",
+          "type": "multipleChoice",
+          "correctAnswer": "اثنان",
+          "text": {
+            "en": "Translate: Two",
+            "ar": "ترجم: اثنان",
+            "de": "Übersetzen: Two",
+            "fr": "Traduire : Two",
+            "ru": "Перевести: Two",
+            "zh": "翻译：Two"
+          },
+          "options": [
+            "أنا في السوق.",
+            "اثنان",
+            "عائلة",
+            "أنا جائع."
+          ]
+        },
+        {
+          "id": "day_19_2",
+          "type": "multipleChoice",
+          "correctAnswer": "شجرة",
+          "text": {
+            "en": "Translate: Tree",
+            "ar": "ترجم: شجرة",
+            "de": "Übersetzen: Tree",
+            "fr": "Traduire : Tree",
+            "ru": "Перевести: Tree",
+            "zh": "翻译：Tree"
+          },
+          "options": [
+            "يشاهد",
+            "مع السلامة",
+            "شجرة",
+            "أشعر بالسعادة اليوم."
+          ]
+        },
+        {
+          "id": "day_19_3",
+          "type": "audioOptions",
+          "correctAnswer": "مع السلامة",
+          "text": "مع السلامة",
+          "audioUrl": "true",
+          "options": [
+            "أشعر بالسعادة اليوم.",
+            "أنا أحب عائلتي.",
+            "انتظر دقيقة.",
+            "مع السلامة"
+          ]
+        },
+        {
+          "id": "day_19_4",
+          "type": "audioOptions",
+          "correctAnswer": "يشاهد",
+          "text": "يشاهد",
+          "audioUrl": "true",
+          "options": [
+            "أنا في السوق.",
+            "يشاهد",
+            "أنا جائع.",
+            "مع السلامة"
+          ]
+        },
+        {
+          "id": "day_19_5",
+          "type": "speaking",
+          "correctAnswer": "أشعر بالسعادة اليوم.",
+          "text": "أشعر بالسعادة اليوم."
+        },
+        {
+          "id": "day_19_6",
+          "type": "speaking",
+          "correctAnswer": "أنا في السوق.",
+          "text": "أنا في السوق."
+        },
+        {
+          "id": "day_19_7",
+          "type": "speaking",
+          "correctAnswer": "انتظر دقيقة.",
+          "text": "انتظر دقيقة."
+        },
+        {
+          "id": "day_19_8",
+          "type": "listening",
+          "correctAnswer": "أنا جائع.",
+          "text": "أنا جائع.",
+          "audioUrl": "true",
+          "options": [
+            "اثنان",
+            "أنا أحب عائلتي.",
+            "أشعر بالسعادة اليوم.",
+            "أنا جائع."
+          ]
+        },
+        {
+          "id": "day_19_9",
+          "type": "listening",
+          "correctAnswer": "أنا أحب عائلتي.",
+          "text": "أنا أحب عائلتي.",
+          "audioUrl": "true",
+          "options": [
+            "شجرة",
+            "انتظر دقيقة.",
+            "أنا أحب عائلتي.",
+            "عائلة"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "questions": [
+        {
+          "id": "day_20_0",
+          "type": "multipleChoice",
+          "correctAnswer": "فطور",
+          "text": {
+            "en": "Translate: Breakfast",
+            "ar": "ترجم: فطور",
+            "de": "Übersetzen: Breakfast",
+            "fr": "Traduire : Breakfast",
+            "ru": "Перевести: Breakfast",
+            "zh": "翻译：Breakfast"
+          },
+          "options": [
+            "سيء",
+            "فطور",
+            "الطقس جميل اليوم.",
+            "أصفر"
+          ]
+        },
+        {
+          "id": "day_20_1",
+          "type": "multipleChoice",
+          "correctAnswer": "يأتي",
+          "text": {
+            "en": "Translate: Come",
+            "ar": "ترجم: يأتي",
+            "de": "Übersetzen: Come",
+            "fr": "Traduire : Come",
+            "ru": "Перевести: Come",
+            "zh": "翻译：Come"
+          },
+          "options": [
+            "الطقس جميل اليوم.",
+            "فطور",
+            "يأتي",
+            "أتمنى لك يوماً سعيداً."
+          ]
+        },
+        {
+          "id": "day_20_2",
+          "type": "multipleChoice",
+          "correctAnswer": "سيء",
+          "text": {
+            "en": "Translate: Bad",
+            "ar": "ترجم: سيء",
+            "de": "Übersetzen: Bad",
+            "fr": "Traduire : Bad",
+            "ru": "Перевести: Bad",
+            "zh": "翻译：Bad"
+          },
+          "options": [
+            "الجو حار في الخارج.",
+            "يأتي",
+            "أصفر",
+            "سيء"
+          ]
+        },
+        {
+          "id": "day_20_3",
+          "type": "audioOptions",
+          "correctAnswer": "أصفر",
+          "text": "أصفر",
+          "audioUrl": "true",
+          "options": [
+            "الجو حار في الخارج.",
+            "الطقس جميل اليوم.",
+            "يعجبني هذا.",
+            "أصفر"
+          ]
+        },
+        {
+          "id": "day_20_4",
+          "type": "audioOptions",
+          "correctAnswer": "خبز",
+          "text": "خبز",
+          "audioUrl": "true",
+          "options": [
+            "سيء",
+            "خبز",
+            "الجو حار في الخارج.",
+            "أتمنى لك يوماً سعيداً."
+          ]
+        },
+        {
+          "id": "day_20_5",
+          "type": "speaking",
+          "correctAnswer": "الطقس جميل اليوم.",
+          "text": "الطقس جميل اليوم."
+        },
+        {
+          "id": "day_20_6",
+          "type": "speaking",
+          "correctAnswer": "أنا آسف.",
+          "text": "أنا آسف."
+        },
+        {
+          "id": "day_20_7",
+          "type": "speaking",
+          "correctAnswer": "يعجبني هذا.",
+          "text": "يعجبني هذا."
+        },
+        {
+          "id": "day_20_8",
+          "type": "listening",
+          "correctAnswer": "أتمنى لك يوماً سعيداً.",
+          "text": "أتمنى لك يوماً سعيداً.",
+          "audioUrl": "true",
+          "options": [
+            "سيء",
+            "أتمنى لك يوماً سعيداً.",
+            "فطور",
+            "يعجبني هذا."
+          ]
+        },
+        {
+          "id": "day_20_9",
+          "type": "listening",
+          "correctAnswer": "الجو حار في الخارج.",
+          "text": "الجو حار في الخارج.",
+          "audioUrl": "true",
+          "options": [
+            "فطور",
+            "يأتي",
+            "الجو حار في الخارج.",
+            "أنا آسف."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "questions": [
+        {
+          "id": "day_21_0",
+          "type": "multipleChoice",
+          "correctAnswer": "فطور",
+          "text": {
+            "en": "Translate: Breakfast",
+            "ar": "ترجم: فطور",
+            "de": "Übersetzen: Breakfast",
+            "fr": "Traduire : Breakfast",
+            "ru": "Перевести: Breakfast",
+            "zh": "翻译：Breakfast"
+          },
+          "options": [
+            "يفهم",
+            "فطور",
+            "انتظر دقيقة.",
+            "صغير"
+          ]
+        },
+        {
+          "id": "day_21_1",
+          "type": "multipleChoice",
+          "correctAnswer": "صغير",
+          "text": {
+            "en": "Translate: Small",
+            "ar": "ترجم: صغير",
+            "de": "Übersetzen: Small",
+            "fr": "Traduire : Small",
+            "ru": "Перевести: Small",
+            "zh": "翻译：Small"
+          },
+          "options": [
+            "ماذا تفعل؟",
+            "فطور",
+            "صغير",
+            "الجو حار في الخارج."
+          ]
+        },
+        {
+          "id": "day_21_2",
+          "type": "multipleChoice",
+          "correctAnswer": "يذهب",
+          "text": {
+            "en": "Translate: Go",
+            "ar": "ترجم: يذهب",
+            "de": "Übersetzen: Go",
+            "fr": "Traduire : Go",
+            "ru": "Перевести: Go",
+            "zh": "翻译：Go"
+          },
+          "options": [
+            "فطور",
+            "كم الساعة؟",
+            "انتظر دقيقة.",
+            "يذهب"
+          ]
+        },
+        {
+          "id": "day_21_3",
+          "type": "audioOptions",
+          "correctAnswer": "يفهم",
+          "text": "يفهم",
+          "audioUrl": "true",
+          "options": [
+            "يذهب",
+            "الجو حار في الخارج.",
+            "يفهم",
+            "ماذا تفعل؟"
+          ]
+        },
+        {
+          "id": "day_21_4",
+          "type": "audioOptions",
+          "correctAnswer": "يشاهد",
+          "text": "يشاهد",
+          "audioUrl": "true",
+          "options": [
+            "أنا أحب عائلتي.",
+            "فطور",
+            "يشاهد",
+            "انتظر دقيقة."
+          ]
+        },
+        {
+          "id": "day_21_5",
+          "type": "speaking",
+          "correctAnswer": "الجو حار في الخارج.",
+          "text": "الجو حار في الخارج."
+        },
+        {
+          "id": "day_21_6",
+          "type": "speaking",
+          "correctAnswer": "انتظر دقيقة.",
+          "text": "انتظر دقيقة."
+        },
+        {
+          "id": "day_21_7",
+          "type": "speaking",
+          "correctAnswer": "أنا أحب عائلتي.",
+          "text": "أنا أحب عائلتي."
+        },
+        {
+          "id": "day_21_8",
+          "type": "listening",
+          "correctAnswer": "ماذا تفعل؟",
+          "text": "ماذا تفعل؟",
+          "audioUrl": "true",
+          "options": [
+            "أنا أحب عائلتي.",
+            "ماذا تفعل؟",
+            "صغير",
+            "كم الساعة؟"
+          ]
+        },
+        {
+          "id": "day_21_9",
+          "type": "listening",
+          "correctAnswer": "كم الساعة؟",
+          "text": "كم الساعة؟",
+          "audioUrl": "true",
+          "options": [
+            "فطور",
+            "يفهم",
+            "كم الساعة؟",
+            "انتظر دقيقة."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "questions": [
+        {
+          "id": "day_22_0",
+          "type": "multipleChoice",
+          "correctAnswer": "يذهب",
+          "text": {
+            "en": "Translate: Go",
+            "ar": "ترجم: يذهب",
+            "de": "Übersetzen: Go",
+            "fr": "Traduire : Go",
+            "ru": "Перевести: Go",
+            "zh": "翻译：Go"
+          },
+          "options": [
+            "الفاتورة، من فضلك؟",
+            "يذهب",
+            "فطور",
+            "من فضلك"
+          ]
+        },
+        {
+          "id": "day_22_1",
+          "type": "multipleChoice",
+          "correctAnswer": "جيد",
+          "text": {
+            "en": "Translate: Good",
+            "ar": "ترجم: جيد",
+            "de": "Übersetzen: Good",
+            "fr": "Traduire : Good",
+            "ru": "Перевести: Good",
+            "zh": "翻译：Good"
+          },
+          "options": [
+            "من فضلك",
+            "نعم، قليلاً.",
+            "أحتاج أن أذهب للنوم.",
+            "جيد"
+          ]
+        },
+        {
+          "id": "day_22_2",
+          "type": "multipleChoice",
+          "correctAnswer": "أحمر",
+          "text": {
+            "en": "Translate: Red",
+            "ar": "ترجم: أحمر",
+            "de": "Übersetzen: Red",
+            "fr": "Traduire : Red",
+            "ru": "Перевести: Red",
+            "zh": "翻译：Red"
+          },
+          "options": [
+            "سررت بلقائك.",
+            "يذهب",
+            "أحمر",
+            "الفاتورة، من فضلك؟"
+          ]
+        },
+        {
+          "id": "day_22_3",
+          "type": "audioOptions",
+          "correctAnswer": "من فضلك",
+          "text": "من فضلك",
+          "audioUrl": "true",
+          "options": [
+            "أحتاج أن أذهب للنوم.",
+            "الفاتورة، من فضلك؟",
+            "أحمر",
+            "من فضلك"
+          ]
+        },
+        {
+          "id": "day_22_4",
+          "type": "audioOptions",
+          "correctAnswer": "فطور",
+          "text": "فطور",
+          "audioUrl": "true",
+          "options": [
+            "نعم، قليلاً.",
+            "فطور",
+            "من فضلك",
+            "أحتاج أن أذهب للنوم."
+          ]
+        },
+        {
+          "id": "day_22_5",
+          "type": "speaking",
+          "correctAnswer": "نعم، قليلاً.",
+          "text": "نعم، قليلاً."
+        },
+        {
+          "id": "day_22_6",
+          "type": "speaking",
+          "correctAnswer": "لا تقلق.",
+          "text": "لا تقلق."
+        },
+        {
+          "id": "day_22_7",
+          "type": "speaking",
+          "correctAnswer": "سررت بلقائك.",
+          "text": "سررت بلقائك."
+        },
+        {
+          "id": "day_22_8",
+          "type": "listening",
+          "correctAnswer": "أحتاج أن أذهب للنوم.",
+          "text": "أحتاج أن أذهب للنوم.",
+          "audioUrl": "true",
+          "options": [
+            "أحتاج أن أذهب للنوم.",
+            "من فضلك",
+            "نعم، قليلاً.",
+            "سررت بلقائك."
+          ]
+        },
+        {
+          "id": "day_22_9",
+          "type": "listening",
+          "correctAnswer": "الفاتورة، من فضلك؟",
+          "text": "الفاتورة، من فضلك؟",
+          "audioUrl": "true",
+          "options": [
+            "فطور",
+            "الفاتورة، من فضلك؟",
+            "من فضلك",
+            "أحمر"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "questions": [
+        {
+          "id": "day_23_0",
+          "type": "multipleChoice",
+          "correctAnswer": "صباح",
+          "text": {
+            "en": "Translate: Morning",
+            "ar": "ترجم: صباح",
+            "de": "Übersetzen: Morning",
+            "fr": "Traduire : Morning",
+            "ru": "Перевести: Morning",
+            "zh": "翻译：Morning"
+          },
+          "options": [
+            "صباح",
+            "خمسة",
+            "أنا أحب عائلتي.",
+            "أين الحمام؟"
+          ]
+        },
+        {
+          "id": "day_23_1",
+          "type": "multipleChoice",
+          "correctAnswer": "قهوة",
+          "text": {
+            "en": "Translate: Coffee",
+            "ar": "ترجم: قهوة",
+            "de": "Übersetzen: Coffee",
+            "fr": "Traduire : Coffee",
+            "ru": "Перевести: Coffee",
+            "zh": "翻译：Coffee"
+          },
+          "options": [
+            "قهوة",
+            "أنا أحب عائلتي.",
+            "بكم هذا؟",
+            "مال"
+          ]
+        },
+        {
+          "id": "day_23_2",
+          "type": "multipleChoice",
+          "correctAnswer": "مال",
+          "text": {
+            "en": "Translate: Money",
+            "ar": "ترجم: مال",
+            "de": "Übersetzen: Money",
+            "fr": "Traduire : Money",
+            "ru": "Перевести: Money",
+            "zh": "翻译：Money"
+          },
+          "options": [
+            "بكم هذا؟",
+            "أنا أحب عائلتي.",
+            "مال",
+            "صباح"
+          ]
+        },
+        {
+          "id": "day_23_3",
+          "type": "audioOptions",
+          "correctAnswer": "منزل",
+          "text": "منزل",
+          "audioUrl": "true",
+          "options": [
+            "مال",
+            "أنا أحب عائلتي.",
+            "صباح",
+            "منزل"
+          ]
+        },
+        {
+          "id": "day_23_4",
+          "type": "audioOptions",
+          "correctAnswer": "خمسة",
+          "text": "خمسة",
+          "audioUrl": "true",
+          "options": [
+            "بكم هذا؟",
+            "خمسة",
+            "مال",
+            "أريد أن أشرب ماء."
+          ]
+        },
+        {
+          "id": "day_23_5",
+          "type": "speaking",
+          "correctAnswer": "بكم هذا؟",
+          "text": "بكم هذا؟"
+        },
+        {
+          "id": "day_23_6",
+          "type": "speaking",
+          "correctAnswer": "أريد أن أشرب ماء.",
+          "text": "أريد أن أشرب ماء."
+        },
+        {
+          "id": "day_23_7",
+          "type": "speaking",
+          "correctAnswer": "أنا بخير، شكراً.",
+          "text": "أنا بخير، شكراً."
+        },
+        {
+          "id": "day_23_8",
+          "type": "listening",
+          "correctAnswer": "أين الحمام؟",
+          "text": "أين الحمام؟",
+          "audioUrl": "true",
+          "options": [
+            "خمسة",
+            "أريد أن أشرب ماء.",
+            "مال",
+            "أين الحمام؟"
+          ]
+        },
+        {
+          "id": "day_23_9",
+          "type": "listening",
+          "correctAnswer": "أنا أحب عائلتي.",
+          "text": "أنا أحب عائلتي.",
+          "audioUrl": "true",
+          "options": [
+            "خمسة",
+            "صباح",
+            "بكم هذا؟",
+            "أنا أحب عائلتي."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "questions": [
+        {
+          "id": "day_24_0",
+          "type": "multipleChoice",
+          "correctAnswer": "كتاب",
+          "text": {
+            "en": "Translate: Book",
+            "ar": "ترجم: كتاب",
+            "de": "Übersetzen: Book",
+            "fr": "Traduire : Book",
+            "ru": "Перевести: Book",
+            "zh": "翻译：Book"
+          },
+          "options": [
+            "سيارة",
+            "ماذا تفعل؟",
+            "يمين",
+            "كتاب"
+          ]
+        },
+        {
+          "id": "day_24_1",
+          "type": "multipleChoice",
+          "correctAnswer": "سيارة",
+          "text": {
+            "en": "Translate: Car",
+            "ar": "ترجم: سيارة",
+            "de": "Übersetzen: Car",
+            "fr": "Traduire : Car",
+            "ru": "Перевести: Car",
+            "zh": "翻译：Car"
+          },
+          "options": [
+            "سمك",
+            "سيارة",
+            "كتاب",
+            "نعم، قليلاً."
+          ]
+        },
+        {
+          "id": "day_24_2",
+          "type": "multipleChoice",
+          "correctAnswer": "يمين",
+          "text": {
+            "en": "Translate: Right",
+            "ar": "ترجم: يمين",
+            "de": "Übersetzen: Right",
+            "fr": "Traduire : Right",
+            "ru": "Перевести: Right",
+            "zh": "翻译：Right"
+          },
+          "options": [
+            "أنا جائع.",
+            "يمين",
+            "نعم، قليلاً.",
+            "هل تتحدث الإنجليزية؟"
+          ]
+        },
+        {
+          "id": "day_24_3",
+          "type": "audioOptions",
+          "correctAnswer": "سمك",
+          "text": "سمك",
+          "audioUrl": "true",
+          "options": [
+            "أنا جائع.",
+            "هل تتحدث الإنجليزية؟",
+            "سمك",
+            "ماذا تفعل؟"
+          ]
+        },
+        {
+          "id": "day_24_4",
+          "type": "audioOptions",
+          "correctAnswer": "قمر",
+          "text": "قمر",
+          "audioUrl": "true",
+          "options": [
+            "نعم، قليلاً.",
+            "يمين",
+            "قمر",
+            "كتاب"
+          ]
+        },
+        {
+          "id": "day_24_5",
+          "type": "speaking",
+          "correctAnswer": "أنا جائع.",
+          "text": "أنا جائع."
+        },
+        {
+          "id": "day_24_6",
+          "type": "speaking",
+          "correctAnswer": "نعم، قليلاً.",
+          "text": "نعم، قليلاً."
+        },
+        {
+          "id": "day_24_7",
+          "type": "speaking",
+          "correctAnswer": "ماذا تفعل؟",
+          "text": "ماذا تفعل؟"
+        },
+        {
+          "id": "day_24_8",
+          "type": "listening",
+          "correctAnswer": "الطقس جميل اليوم.",
+          "text": "الطقس جميل اليوم.",
+          "audioUrl": "true",
+          "options": [
+            "أنا جائع.",
+            "يمين",
+            "الطقس جميل اليوم.",
+            "كتاب"
+          ]
+        },
+        {
+          "id": "day_24_9",
+          "type": "listening",
+          "correctAnswer": "هل تتحدث الإنجليزية؟",
+          "text": "هل تتحدث الإنجليزية؟",
+          "audioUrl": "true",
+          "options": [
+            "نعم، قليلاً.",
+            "هل تتحدث الإنجليزية؟",
+            "يمين",
+            "قمر"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "questions": [
+        {
+          "id": "day_25_0",
+          "type": "multipleChoice",
+          "correctAnswer": "بطيء",
+          "text": {
+            "en": "Translate: Slow",
+            "ar": "ترجم: بطيء",
+            "de": "Übersetzen: Slow",
+            "fr": "Traduire : Slow",
+            "ru": "Перевести: Slow",
+            "zh": "翻译：Slow"
+          },
+          "options": [
+            "وقت",
+            "هيا بنا.",
+            "هنا",
+            "بطيء"
+          ]
+        },
+        {
+          "id": "day_25_1",
+          "type": "multipleChoice",
+          "correctAnswer": "دجاج",
+          "text": {
+            "en": "Translate: Chicken",
+            "ar": "ترجم: دجاج",
+            "de": "Übersetzen: Chicken",
+            "fr": "Traduire : Chicken",
+            "ru": "Перевести: Chicken",
+            "zh": "翻译：Chicken"
+          },
+          "options": [
+            "هنا",
+            "أنا أعمل الآن.",
+            "وقت",
+            "دجاج"
+          ]
+        },
+        {
+          "id": "day_25_2",
+          "type": "multipleChoice",
+          "correctAnswer": "جديد",
+          "text": {
+            "en": "Translate: New",
+            "ar": "ترجم: جديد",
+            "de": "Übersetzen: New",
+            "fr": "Traduire : New",
+            "ru": "Перевести: New",
+            "zh": "翻译：New"
+          },
+          "options": [
+            "جديد",
+            "منزلي قريب.",
+            "دجاج",
+            "أنا آسف."
+          ]
+        },
+        {
+          "id": "day_25_3",
+          "type": "audioOptions",
+          "correctAnswer": "هنا",
+          "text": "هنا",
+          "audioUrl": "true",
+          "options": [
+            "هنا",
+            "دجاج",
+            "بطيء",
+            "أنا أعمل الآن."
+          ]
+        },
+        {
+          "id": "day_25_4",
+          "type": "audioOptions",
+          "correctAnswer": "وقت",
+          "text": "وقت",
+          "audioUrl": "true",
+          "options": [
+            "دجاج",
+            "أنا أعمل الآن.",
+            "وقت",
+            "هنا"
+          ]
+        },
+        {
+          "id": "day_25_5",
+          "type": "speaking",
+          "correctAnswer": "هيا بنا.",
+          "text": "هيا بنا."
+        },
+        {
+          "id": "day_25_6",
+          "type": "speaking",
+          "correctAnswer": "منزلي قريب.",
+          "text": "منزلي قريب."
+        },
+        {
+          "id": "day_25_7",
+          "type": "speaking",
+          "correctAnswer": "أنا آسف.",
+          "text": "أنا آسف."
+        },
+        {
+          "id": "day_25_8",
+          "type": "listening",
+          "correctAnswer": "ماذا تفعل؟",
+          "text": "ماذا تفعل؟",
+          "audioUrl": "true",
+          "options": [
+            "دجاج",
+            "جديد",
+            "ماذا تفعل؟",
+            "هيا بنا."
+          ]
+        },
+        {
+          "id": "day_25_9",
+          "type": "listening",
+          "correctAnswer": "أنا أعمل الآن.",
+          "text": "أنا أعمل الآن.",
+          "audioUrl": "true",
+          "options": [
+            "بطيء",
+            "منزلي قريب.",
+            "هيا بنا.",
+            "أنا أعمل الآن."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "questions": [
+        {
+          "id": "day_26_0",
+          "type": "multipleChoice",
+          "correctAnswer": "يعرف",
+          "text": {
+            "en": "Translate: Know",
+            "ar": "ترجم: يعرف",
+            "de": "Übersetzen: Know",
+            "fr": "Traduire : Know",
+            "ru": "Перевести: Know",
+            "zh": "翻译：Know"
+          },
+          "options": [
+            "إلى أين نحن ذاهبون؟",
+            "أحتاج أن أذهب للنوم.",
+            "سعيد",
+            "يعرف"
+          ]
+        },
+        {
+          "id": "day_26_1",
+          "type": "multipleChoice",
+          "correctAnswer": "اثنان",
+          "text": {
+            "en": "Translate: Two",
+            "ar": "ترجم: اثنان",
+            "de": "Übersetzen: Two",
+            "fr": "Traduire : Two",
+            "ru": "Перевести: Two",
+            "zh": "翻译：Two"
+          },
+          "options": [
+            "أحتاج أن أذهب للنوم.",
+            "أنا متعب.",
+            "إلى أين نحن ذاهبون؟",
+            "اثنان"
+          ]
+        },
+        {
+          "id": "day_26_2",
+          "type": "multipleChoice",
+          "correctAnswer": "سعيد",
+          "text": {
+            "en": "Translate: Happy",
+            "ar": "ترجم: سعيد",
+            "de": "Übersetzen: Happy",
+            "fr": "Traduire : Happy",
+            "ru": "Перевести: Happy",
+            "zh": "翻译：Happy"
+          },
+          "options": [
+            "سعيد",
+            "شهر",
+            "لاحقاً",
+            "أحتاج أن أذهب للنوم."
+          ]
+        },
+        {
+          "id": "day_26_3",
+          "type": "audioOptions",
+          "correctAnswer": "لاحقاً",
+          "text": "لاحقاً",
+          "audioUrl": "true",
+          "options": [
+            "أنا في السوق.",
+            "إلى أين نحن ذاهبون؟",
+            "لاحقاً",
+            "أنا متعب."
+          ]
+        },
+        {
+          "id": "day_26_4",
+          "type": "audioOptions",
+          "correctAnswer": "شهر",
+          "text": "شهر",
+          "audioUrl": "true",
+          "options": [
+            "شهر",
+            "أنا في السوق.",
+            "سعيد",
+            "انتظر دقيقة."
+          ]
+        },
+        {
+          "id": "day_26_5",
+          "type": "speaking",
+          "correctAnswer": "انتظر دقيقة.",
+          "text": "انتظر دقيقة."
+        },
+        {
+          "id": "day_26_6",
+          "type": "speaking",
+          "correctAnswer": "أنا في السوق.",
+          "text": "أنا في السوق."
+        },
+        {
+          "id": "day_26_7",
+          "type": "speaking",
+          "correctAnswer": "إلى أين نحن ذاهبون؟",
+          "text": "إلى أين نحن ذاهبون؟"
+        },
+        {
+          "id": "day_26_8",
+          "type": "listening",
+          "correctAnswer": "أحتاج أن أذهب للنوم.",
+          "text": "أحتاج أن أذهب للنوم.",
+          "audioUrl": "true",
+          "options": [
+            "أحتاج أن أذهب للنوم.",
+            "يعرف",
+            "انتظر دقيقة.",
+            "إلى أين نحن ذاهبون؟"
+          ]
+        },
+        {
+          "id": "day_26_9",
+          "type": "listening",
+          "correctAnswer": "أنا متعب.",
+          "text": "أنا متعب.",
+          "audioUrl": "true",
+          "options": [
+            "أنا متعب.",
+            "اثنان",
+            "إلى أين نحن ذاهبون؟",
+            "لاحقاً"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "questions": [
+        {
+          "id": "day_27_0",
+          "type": "multipleChoice",
+          "correctAnswer": "أصفر",
+          "text": {
+            "en": "Translate: Yellow",
+            "ar": "ترجم: أصفر",
+            "de": "Übersetzen: Yellow",
+            "fr": "Traduire : Yellow",
+            "ru": "Перевести: Yellow",
+            "zh": "翻译：Yellow"
+          },
+          "options": [
+            "أنا عطشان.",
+            "هل تتحدث الإنجليزية؟",
+            "يعرف",
+            "أصفر"
+          ]
+        },
+        {
+          "id": "day_27_1",
+          "type": "multipleChoice",
+          "correctAnswer": "يعرف",
+          "text": {
+            "en": "Translate: Know",
+            "ar": "ترجم: يعرف",
+            "de": "Übersetzen: Know",
+            "fr": "Traduire : Know",
+            "ru": "Перевести: Know",
+            "zh": "翻译：Know"
+          },
+          "options": [
+            "أنا أتعلم العربية.",
+            "هل تتحدث الإنجليزية؟",
+            "يعرف",
+            "صباح"
+          ]
+        },
+        {
+          "id": "day_27_2",
+          "type": "multipleChoice",
+          "correctAnswer": "كلب",
+          "text": {
+            "en": "Translate: Dog",
+            "ar": "ترجم: كلب",
+            "de": "Übersetzen: Dog",
+            "fr": "Traduire : Dog",
+            "ru": "Перевести: Dog",
+            "zh": "翻译：Dog"
+          },
+          "options": [
+            "إلى أين نحن ذاهبون؟",
+            "هل تتحدث الإنجليزية؟",
+            "كلب",
+            "أنا أتعلم العربية."
+          ]
+        },
+        {
+          "id": "day_27_3",
+          "type": "audioOptions",
+          "correctAnswer": "امرأة",
+          "text": "امرأة",
+          "audioUrl": "true",
+          "options": [
+            "أنا عطشان.",
+            "امرأة",
+            "هل تتحدث الإنجليزية؟",
+            "يعرف"
+          ]
+        },
+        {
+          "id": "day_27_4",
+          "type": "audioOptions",
+          "correctAnswer": "صباح",
+          "text": "صباح",
+          "audioUrl": "true",
+          "options": [
+            "أنا أتعلم العربية.",
+            "كلب",
+            "أنا عطشان.",
+            "صباح"
+          ]
+        },
+        {
+          "id": "day_27_5",
+          "type": "speaking",
+          "correctAnswer": "أنا أتعلم العربية.",
+          "text": "أنا أتعلم العربية."
+        },
+        {
+          "id": "day_27_6",
+          "type": "speaking",
+          "correctAnswer": "سررت بلقائك.",
+          "text": "سررت بلقائك."
+        },
+        {
+          "id": "day_27_7",
+          "type": "speaking",
+          "correctAnswer": "أنا عطشان.",
+          "text": "أنا عطشان."
+        },
+        {
+          "id": "day_27_8",
+          "type": "listening",
+          "correctAnswer": "إلى أين نحن ذاهبون؟",
+          "text": "إلى أين نحن ذاهبون؟",
+          "audioUrl": "true",
+          "options": [
+            "إلى أين نحن ذاهبون؟",
+            "أنا أتعلم العربية.",
+            "يعرف",
+            "كلب"
+          ]
+        },
+        {
+          "id": "day_27_9",
+          "type": "listening",
+          "correctAnswer": "هل تتحدث الإنجليزية؟",
+          "text": "هل تتحدث الإنجليزية؟",
+          "audioUrl": "true",
+          "options": [
+            "إلى أين نحن ذاهبون؟",
+            "أصفر",
+            "هل تتحدث الإنجليزية؟",
+            "سررت بلقائك."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "questions": [
+        {
+          "id": "day_28_0",
+          "type": "multipleChoice",
+          "correctAnswer": "سوق",
+          "text": {
+            "en": "Translate: Market",
+            "ar": "ترجم: سوق",
+            "de": "Übersetzen: Market",
+            "fr": "Traduire : Market",
+            "ru": "Перевести: Market",
+            "zh": "翻译：Market"
+          },
+          "options": [
+            "سوق",
+            "أنا بخير، شكراً.",
+            "يشرب",
+            "سمك"
+          ]
+        },
+        {
+          "id": "day_28_1",
+          "type": "multipleChoice",
+          "correctAnswer": "امرأة",
+          "text": {
+            "en": "Translate: Woman",
+            "ar": "ترجم: امرأة",
+            "de": "Übersetzen: Woman",
+            "fr": "Traduire : Woman",
+            "ru": "Перевести: Woman",
+            "zh": "翻译：Woman"
+          },
+          "options": [
+            "الطقس جميل اليوم.",
+            "امرأة",
+            "أنا آسف.",
+            "أنا بخير، شكراً."
+          ]
+        },
+        {
+          "id": "day_28_2",
+          "type": "multipleChoice",
+          "correctAnswer": "سمك",
+          "text": {
+            "en": "Translate: Fish",
+            "ar": "ترجم: سمك",
+            "de": "Übersetzen: Fish",
+            "fr": "Traduire : Fish",
+            "ru": "Перевести: Fish",
+            "zh": "翻译：Fish"
+          },
+          "options": [
+            "امرأة",
+            "سمك",
+            "اسمي أحمد.",
+            "يشرب"
+          ]
+        },
+        {
+          "id": "day_28_3",
+          "type": "audioOptions",
+          "correctAnswer": "ولد",
+          "text": "ولد",
+          "audioUrl": "true",
+          "options": [
+            "سمك",
+            "اسمي أحمد.",
+            "أنا بخير، شكراً.",
+            "ولد"
+          ]
+        },
+        {
+          "id": "day_28_4",
+          "type": "audioOptions",
+          "correctAnswer": "يشرب",
+          "text": "يشرب",
+          "audioUrl": "true",
+          "options": [
+            "سوق",
+            "أنا آسف.",
+            "امرأة",
+            "يشرب"
+          ]
+        },
+        {
+          "id": "day_28_5",
+          "type": "speaking",
+          "correctAnswer": "أنا آسف.",
+          "text": "أنا آسف."
+        },
+        {
+          "id": "day_28_6",
+          "type": "speaking",
+          "correctAnswer": "الطقس جميل اليوم.",
+          "text": "الطقس جميل اليوم."
+        },
+        {
+          "id": "day_28_7",
+          "type": "speaking",
+          "correctAnswer": "هذا لذيذ جداً.",
+          "text": "هذا لذيذ جداً."
+        },
+        {
+          "id": "day_28_8",
+          "type": "listening",
+          "correctAnswer": "اسمي أحمد.",
+          "text": "اسمي أحمد.",
+          "audioUrl": "true",
+          "options": [
+            "اسمي أحمد.",
+            "أنا بخير، شكراً.",
+            "الطقس جميل اليوم.",
+            "هذا لذيذ جداً."
+          ]
+        },
+        {
+          "id": "day_28_9",
+          "type": "listening",
+          "correctAnswer": "أنا بخير، شكراً.",
+          "text": "أنا بخير، شكراً.",
+          "audioUrl": "true",
+          "options": [
+            "أنا بخير، شكراً.",
+            "أنا آسف.",
+            "هذا لذيذ جداً.",
+            "سوق"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "questions": [
+        {
+          "id": "day_29_0",
+          "type": "multipleChoice",
+          "correctAnswer": "يتحدث",
+          "text": {
+            "en": "Translate: Speak",
+            "ar": "ترجم: يتحدث",
+            "de": "Übersetzen: Speak",
+            "fr": "Traduire : Speak",
+            "ru": "Перевести: Speak",
+            "zh": "翻译：Speak"
+          },
+          "options": [
+            "يتحدث",
+            "أرز",
+            "اثنان",
+            "أين الحمام؟"
+          ]
+        },
+        {
+          "id": "day_29_1",
+          "type": "multipleChoice",
+          "correctAnswer": "قطة",
+          "text": {
+            "en": "Translate: Cat",
+            "ar": "ترجم: قطة",
+            "de": "Übersetzen: Cat",
+            "fr": "Traduire : Cat",
+            "ru": "Перевести: Cat",
+            "zh": "翻译：Cat"
+          },
+          "options": [
+            "اثنان",
+            "قطة",
+            "لقد فقدت مفاتيحي.",
+            "أنا من مصر."
+          ]
+        },
+        {
+          "id": "day_29_2",
+          "type": "multipleChoice",
+          "correctAnswer": "اثنان",
+          "text": {
+            "en": "Translate: Two",
+            "ar": "ترجم: اثنان",
+            "de": "Übersetzen: Two",
+            "fr": "Traduire : Two",
+            "ru": "Перевести: Two",
+            "zh": "翻译：Two"
+          },
+          "options": [
+            "هذه السيارة سريعة.",
+            "لقد فقدت مفاتيحي.",
+            "أرز",
+            "اثنان"
+          ]
+        },
+        {
+          "id": "day_29_3",
+          "type": "audioOptions",
+          "correctAnswer": "واحد",
+          "text": "واحد",
+          "audioUrl": "true",
+          "options": [
+            "واحد",
+            "أرز",
+            "قطة",
+            "أين الحمام؟"
+          ]
+        },
+        {
+          "id": "day_29_4",
+          "type": "audioOptions",
+          "correctAnswer": "أرز",
+          "text": "أرز",
+          "audioUrl": "true",
+          "options": [
+            "هذه السيارة سريعة.",
+            "لقد فقدت مفاتيحي.",
+            "أرز",
+            "يتحدث"
+          ]
+        },
+        {
+          "id": "day_29_5",
+          "type": "speaking",
+          "correctAnswer": "أين الحمام؟",
+          "text": "أين الحمام؟"
+        },
+        {
+          "id": "day_29_6",
+          "type": "speaking",
+          "correctAnswer": "لقد فقدت مفاتيحي.",
+          "text": "لقد فقدت مفاتيحي."
+        },
+        {
+          "id": "day_29_7",
+          "type": "speaking",
+          "correctAnswer": "هذه السيارة سريعة.",
+          "text": "هذه السيارة سريعة."
+        },
+        {
+          "id": "day_29_8",
+          "type": "listening",
+          "correctAnswer": "أنا من مصر.",
+          "text": "أنا من مصر.",
+          "audioUrl": "true",
+          "options": [
+            "أنا من مصر.",
+            "أنا آسف.",
+            "قطة",
+            "لقد فقدت مفاتيحي."
+          ]
+        },
+        {
+          "id": "day_29_9",
+          "type": "listening",
+          "correctAnswer": "أنا آسف.",
+          "text": "أنا آسف.",
+          "audioUrl": "true",
+          "options": [
+            "واحد",
+            "أنا آسف.",
+            "اثنان",
+            "هذه السيارة سريعة."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "questions": [
+        {
+          "id": "day_30_0",
+          "type": "multipleChoice",
+          "correctAnswer": "كتاب",
+          "text": {
+            "en": "Translate: Book",
+            "ar": "ترجم: كتاب",
+            "de": "Übersetzen: Book",
+            "fr": "Traduire : Book",
+            "ru": "Перевести: Book",
+            "zh": "翻译：Book"
+          },
+          "options": [
+            "هل يمكنك مساعدتي؟",
+            "أنا متعب.",
+            "كتاب",
+            "أتمنى لك يوماً سعيداً."
+          ]
+        },
+        {
+          "id": "day_30_1",
+          "type": "multipleChoice",
+          "correctAnswer": "جميل",
+          "text": {
+            "en": "Translate: Beautiful",
+            "ar": "ترجم: جميل",
+            "de": "Übersetzen: Beautiful",
+            "fr": "Traduire : Beautiful",
+            "ru": "Перевести: Beautiful",
+            "zh": "翻译：Beautiful"
+          },
+          "options": [
+            "أتمنى لك يوماً سعيداً.",
+            "جميل",
+            "نعم، قليلاً.",
+            "هل يمكنك مساعدتي؟"
+          ]
+        },
+        {
+          "id": "day_30_2",
+          "type": "multipleChoice",
+          "correctAnswer": "عائلة",
+          "text": {
+            "en": "Translate: Family",
+            "ar": "ترجم: عائلة",
+            "de": "Übersetzen: Family",
+            "fr": "Traduire : Family",
+            "ru": "Перевести: Family",
+            "zh": "翻译：Family"
+          },
+          "options": [
+            "هل أنت مستعد؟",
+            "عائلة",
+            "أسود",
+            "نعم، قليلاً."
+          ]
+        },
+        {
+          "id": "day_30_3",
+          "type": "audioOptions",
+          "correctAnswer": "أسود",
+          "text": "أسود",
+          "audioUrl": "true",
+          "options": [
+            "نعم، قليلاً.",
+            "أتمنى لك يوماً سعيداً.",
+            "أسود",
+            "أربعة"
+          ]
+        },
+        {
+          "id": "day_30_4",
+          "type": "audioOptions",
+          "correctAnswer": "أربعة",
+          "text": "أربعة",
+          "audioUrl": "true",
+          "options": [
+            "أربعة",
+            "أنا متعب.",
+            "أسود",
+            "جميل"
+          ]
+        },
+        {
+          "id": "day_30_5",
+          "type": "speaking",
+          "correctAnswer": "أتمنى لك يوماً سعيداً.",
+          "text": "أتمنى لك يوماً سعيداً."
+        },
+        {
+          "id": "day_30_6",
+          "type": "speaking",
+          "correctAnswer": "هل أنت مستعد؟",
+          "text": "هل أنت مستعد؟"
+        },
+        {
+          "id": "day_30_7",
+          "type": "speaking",
+          "correctAnswer": "أنا متعب.",
+          "text": "أنا متعب."
+        },
+        {
+          "id": "day_30_8",
+          "type": "listening",
+          "correctAnswer": "نعم، قليلاً.",
+          "text": "نعم، قليلاً.",
+          "audioUrl": "true",
+          "options": [
+            "هل يمكنك مساعدتي؟",
+            "أتمنى لك يوماً سعيداً.",
+            "عائلة",
+            "نعم، قليلاً."
+          ]
+        },
+        {
+          "id": "day_30_9",
+          "type": "listening",
+          "correctAnswer": "هل يمكنك مساعدتي؟",
+          "text": "هل يمكنك مساعدتي؟",
+          "audioUrl": "true",
+          "options": [
+            "عائلة",
+            "هل يمكنك مساعدتي؟",
+            "أربعة",
+            "جميل"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 31,
+      "questions": [
+        {
+          "id": "day_31_0",
+          "type": "multipleChoice",
+          "correctAnswer": "سيء",
+          "text": {
+            "en": "Translate: Bad",
+            "ar": "ترجم: سيء",
+            "de": "Übersetzen: Bad",
+            "fr": "Traduire : Bad",
+            "ru": "Перевести: Bad",
+            "zh": "翻译：Bad"
+          },
+          "options": [
+            "أنا لا أفهم.",
+            "سيء",
+            "أريد أن أشرب ماء.",
+            "حزين"
+          ]
+        },
+        {
+          "id": "day_31_1",
+          "type": "multipleChoice",
+          "correctAnswer": "اليوم",
+          "text": {
+            "en": "Translate: Today",
+            "ar": "ترجم: اليوم",
+            "de": "Übersetzen: Today",
+            "fr": "Traduire : Today",
+            "ru": "Перевести: Today",
+            "zh": "翻译：Today"
+          },
+          "options": [
+            "سيارة",
+            "أنا لا أفهم.",
+            "حزين",
+            "اليوم"
+          ]
+        },
+        {
+          "id": "day_31_2",
+          "type": "multipleChoice",
+          "correctAnswer": "سيارة",
+          "text": {
+            "en": "Translate: Car",
+            "ar": "ترجم: سيارة",
+            "de": "Übersetzen: Car",
+            "fr": "Traduire : Car",
+            "ru": "Перевести: Car",
+            "zh": "翻译：Car"
+          },
+          "options": [
+            "سيارة",
+            "أريد أن أشرب ماء.",
+            "حزين",
+            "لا يعجبني ذلك."
+          ]
+        },
+        {
+          "id": "day_31_3",
+          "type": "audioOptions",
+          "correctAnswer": "الآن",
+          "text": "الآن",
+          "audioUrl": "true",
+          "options": [
+            "ما اسمك؟",
+            "اليوم",
+            "حزين",
+            "الآن"
+          ]
+        },
+        {
+          "id": "day_31_4",
+          "type": "audioOptions",
+          "correctAnswer": "حزين",
+          "text": "حزين",
+          "audioUrl": "true",
+          "options": [
+            "أريد أن أشرب ماء.",
+            "مساء الخير.",
+            "لا يعجبني ذلك.",
+            "حزين"
+          ]
+        },
+        {
+          "id": "day_31_5",
+          "type": "speaking",
+          "correctAnswer": "ما اسمك؟",
+          "text": "ما اسمك؟"
+        },
+        {
+          "id": "day_31_6",
+          "type": "speaking",
+          "correctAnswer": "أريد أن أشرب ماء.",
+          "text": "أريد أن أشرب ماء."
+        },
+        {
+          "id": "day_31_7",
+          "type": "speaking",
+          "correctAnswer": "لا يعجبني ذلك.",
+          "text": "لا يعجبني ذلك."
+        },
+        {
+          "id": "day_31_8",
+          "type": "listening",
+          "correctAnswer": "أنا لا أفهم.",
+          "text": "أنا لا أفهم.",
+          "audioUrl": "true",
+          "options": [
+            "أنا لا أفهم.",
+            "أريد أن أشرب ماء.",
+            "ما اسمك؟",
+            "مساء الخير."
+          ]
+        },
+        {
+          "id": "day_31_9",
+          "type": "listening",
+          "correctAnswer": "مساء الخير.",
+          "text": "مساء الخير.",
+          "audioUrl": "true",
+          "options": [
+            "مساء الخير.",
+            "حزين",
+            "ما اسمك؟",
+            "أريد أن أشرب ماء."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 32,
+      "questions": [
+        {
+          "id": "day_32_0",
+          "type": "multipleChoice",
+          "correctAnswer": "جميل",
+          "text": {
+            "en": "Translate: Beautiful",
+            "ar": "ترجم: جميل",
+            "de": "Übersetzen: Beautiful",
+            "fr": "Traduire : Beautiful",
+            "ru": "Перевести: Beautiful",
+            "zh": "翻译：Beautiful"
+          },
+          "options": [
+            "أتمنى لك يوماً سعيداً.",
+            "سنة",
+            "هنا",
+            "جميل"
+          ]
+        },
+        {
+          "id": "day_32_1",
+          "type": "multipleChoice",
+          "correctAnswer": "سنة",
+          "text": {
+            "en": "Translate: Year",
+            "ar": "ترجم: سنة",
+            "de": "Übersetzen: Year",
+            "fr": "Traduire : Year",
+            "ru": "Перевести: Year",
+            "zh": "翻译：Year"
+          },
+          "options": [
+            "جميل",
+            "أشعر بالسعادة اليوم.",
+            "أراك لاحقاً.",
+            "سنة"
+          ]
+        },
+        {
+          "id": "day_32_2",
+          "type": "multipleChoice",
+          "correctAnswer": "مرحباً",
+          "text": {
+            "en": "Translate: Hello",
+            "ar": "ترجم: مرحباً",
+            "de": "Übersetzen: Hello",
+            "fr": "Traduire : Hello",
+            "ru": "Перевести: Hello",
+            "zh": "翻译：Hello"
+          },
+          "options": [
+            "مرحباً",
+            "أريد أن أشرب ماء.",
+            "جميل",
+            "أتمنى لك يوماً سعيداً."
+          ]
+        },
+        {
+          "id": "day_32_3",
+          "type": "audioOptions",
+          "correctAnswer": "أرز",
+          "text": "أرز",
+          "audioUrl": "true",
+          "options": [
+            "أرز",
+            "أراك لاحقاً.",
+            "أنا أحب عائلتي.",
+            "أشعر بالسعادة اليوم."
+          ]
+        },
+        {
+          "id": "day_32_4",
+          "type": "audioOptions",
+          "correctAnswer": "هنا",
+          "text": "هنا",
+          "audioUrl": "true",
+          "options": [
+            "هنا",
+            "أتمنى لك يوماً سعيداً.",
+            "أرز",
+            "أشعر بالسعادة اليوم."
+          ]
+        },
+        {
+          "id": "day_32_5",
+          "type": "speaking",
+          "correctAnswer": "أشعر بالسعادة اليوم.",
+          "text": "أشعر بالسعادة اليوم."
+        },
+        {
+          "id": "day_32_6",
+          "type": "speaking",
+          "correctAnswer": "أتمنى لك يوماً سعيداً.",
+          "text": "أتمنى لك يوماً سعيداً."
+        },
+        {
+          "id": "day_32_7",
+          "type": "speaking",
+          "correctAnswer": "أراك لاحقاً.",
+          "text": "أراك لاحقاً."
+        },
+        {
+          "id": "day_32_8",
+          "type": "listening",
+          "correctAnswer": "أريد أن أشرب ماء.",
+          "text": "أريد أن أشرب ماء.",
+          "audioUrl": "true",
+          "options": [
+            "أريد أن أشرب ماء.",
+            "جميل",
+            "أرز",
+            "أتمنى لك يوماً سعيداً."
+          ]
+        },
+        {
+          "id": "day_32_9",
+          "type": "listening",
+          "correctAnswer": "أنا أحب عائلتي.",
+          "text": "أنا أحب عائلتي.",
+          "audioUrl": "true",
+          "options": [
+            "جميل",
+            "سنة",
+            "أنا أحب عائلتي.",
+            "أراك لاحقاً."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 33,
+      "questions": [
+        {
+          "id": "day_33_0",
+          "type": "multipleChoice",
+          "correctAnswer": "يكتب",
+          "text": {
+            "en": "Translate: Write",
+            "ar": "ترجم: يكتب",
+            "de": "Übersetzen: Write",
+            "fr": "Traduire : Write",
+            "ru": "Перевести: Write",
+            "zh": "翻译：Write"
+          },
+          "options": [
+            "شمس",
+            "يكتب",
+            "هيا بنا.",
+            "أنا أتعلم العربية."
+          ]
+        },
+        {
+          "id": "day_33_1",
+          "type": "multipleChoice",
+          "correctAnswer": "أزرق",
+          "text": {
+            "en": "Translate: Blue",
+            "ar": "ترجم: أزرق",
+            "de": "Übersetzen: Blue",
+            "fr": "Traduire : Blue",
+            "ru": "Перевести: Blue",
+            "zh": "翻译：Blue"
+          },
+          "options": [
+            "كم الساعة؟",
+            "أزرق",
+            "يكتب",
+            "غداء"
+          ]
+        },
+        {
+          "id": "day_33_2",
+          "type": "multipleChoice",
+          "correctAnswer": "غداء",
+          "text": {
+            "en": "Translate: Lunch",
+            "ar": "ترجم: غداء",
+            "de": "Übersetzen: Lunch",
+            "fr": "Traduire : Lunch",
+            "ru": "Перевести: Lunch",
+            "zh": "翻译：Lunch"
+          },
+          "options": [
+            "كم الساعة؟",
+            "غداء",
+            "هل تتحدث الإنجليزية؟",
+            "أزرق"
+          ]
+        },
+        {
+          "id": "day_33_3",
+          "type": "audioOptions",
+          "correctAnswer": "عمل",
+          "text": "عمل",
+          "audioUrl": "true",
+          "options": [
+            "غداء",
+            "عمل",
+            "هيا بنا.",
+            "يكتب"
+          ]
+        },
+        {
+          "id": "day_33_4",
+          "type": "audioOptions",
+          "correctAnswer": "شمس",
+          "text": "شمس",
+          "audioUrl": "true",
+          "options": [
+            "أراك لاحقاً.",
+            "يكتب",
+            "غداء",
+            "شمس"
+          ]
+        },
+        {
+          "id": "day_33_5",
+          "type": "speaking",
+          "correctAnswer": "هيا بنا.",
+          "text": "هيا بنا."
+        },
+        {
+          "id": "day_33_6",
+          "type": "speaking",
+          "correctAnswer": "كم الساعة؟",
+          "text": "كم الساعة؟"
+        },
+        {
+          "id": "day_33_7",
+          "type": "speaking",
+          "correctAnswer": "أراك لاحقاً.",
+          "text": "أراك لاحقاً."
+        },
+        {
+          "id": "day_33_8",
+          "type": "listening",
+          "correctAnswer": "أنا أتعلم العربية.",
+          "text": "أنا أتعلم العربية.",
+          "audioUrl": "true",
+          "options": [
+            "أزرق",
+            "كم الساعة؟",
+            "هيا بنا.",
+            "أنا أتعلم العربية."
+          ]
+        },
+        {
+          "id": "day_33_9",
+          "type": "listening",
+          "correctAnswer": "هل تتحدث الإنجليزية؟",
+          "text": "هل تتحدث الإنجليزية؟",
+          "audioUrl": "true",
+          "options": [
+            "أراك لاحقاً.",
+            "أنا أتعلم العربية.",
+            "غداء",
+            "هل تتحدث الإنجليزية؟"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 34,
+      "questions": [
+        {
+          "id": "day_34_0",
+          "type": "multipleChoice",
+          "correctAnswer": "يقرأ",
+          "text": {
+            "en": "Translate: Read",
+            "ar": "ترجم: يقرأ",
+            "de": "Übersetzen: Read",
+            "fr": "Traduire : Read",
+            "ru": "Перевести: Read",
+            "zh": "翻译：Read"
+          },
+          "options": [
+            "طائر",
+            "تحت",
+            "يقرأ",
+            "أنا في السوق."
+          ]
+        },
+        {
+          "id": "day_34_1",
+          "type": "multipleChoice",
+          "correctAnswer": "قطة",
+          "text": {
+            "en": "Translate: Cat",
+            "ar": "ترجم: قطة",
+            "de": "Übersetzen: Cat",
+            "fr": "Traduire : Cat",
+            "ru": "Перевести: Cat",
+            "zh": "翻译：Cat"
+          },
+          "options": [
+            "أنا في السوق.",
+            "تصبح على خير.",
+            "قطة",
+            "هذا لذيذ جداً."
+          ]
+        },
+        {
+          "id": "day_34_2",
+          "type": "multipleChoice",
+          "correctAnswer": "تحت",
+          "text": {
+            "en": "Translate: Down",
+            "ar": "ترجم: تحت",
+            "de": "Übersetzen: Down",
+            "fr": "Traduire : Down",
+            "ru": "Перевести: Down",
+            "zh": "翻译：Down"
+          },
+          "options": [
+            "من أين أنت؟",
+            "تحت",
+            "تصبح على خير.",
+            "أراك لاحقاً."
+          ]
+        },
+        {
+          "id": "day_34_3",
+          "type": "audioOptions",
+          "correctAnswer": "طائر",
+          "text": "طائر",
+          "audioUrl": "true",
+          "options": [
+            "هذا لذيذ جداً.",
+            "من أين أنت؟",
+            "طائر",
+            "تصبح على خير."
+          ]
+        },
+        {
+          "id": "day_34_4",
+          "type": "audioOptions",
+          "correctAnswer": "لا",
+          "text": "لا",
+          "audioUrl": "true",
+          "options": [
+            "يقرأ",
+            "لا",
+            "أراك لاحقاً.",
+            "قطة"
+          ]
+        },
+        {
+          "id": "day_34_5",
+          "type": "speaking",
+          "correctAnswer": "أنا في السوق.",
+          "text": "أنا في السوق."
+        },
+        {
+          "id": "day_34_6",
+          "type": "speaking",
+          "correctAnswer": "هذا لذيذ جداً.",
+          "text": "هذا لذيذ جداً."
+        },
+        {
+          "id": "day_34_7",
+          "type": "speaking",
+          "correctAnswer": "أراك لاحقاً.",
+          "text": "أراك لاحقاً."
+        },
+        {
+          "id": "day_34_8",
+          "type": "listening",
+          "correctAnswer": "من أين أنت؟",
+          "text": "من أين أنت؟",
+          "audioUrl": "true",
+          "options": [
+            "تحت",
+            "من أين أنت؟",
+            "تصبح على خير.",
+            "طائر"
+          ]
+        },
+        {
+          "id": "day_34_9",
+          "type": "listening",
+          "correctAnswer": "تصبح على خير.",
+          "text": "تصبح على خير.",
+          "audioUrl": "true",
+          "options": [
+            "لا",
+            "من أين أنت؟",
+            "قطة",
+            "تصبح على خير."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 35,
+      "questions": [
+        {
+          "id": "day_35_0",
+          "type": "multipleChoice",
+          "correctAnswer": "يقرأ",
+          "text": {
+            "en": "Translate: Read",
+            "ar": "ترجم: يقرأ",
+            "de": "Übersetzen: Read",
+            "fr": "Traduire : Read",
+            "ru": "Перевести: Read",
+            "zh": "翻译：Read"
+          },
+          "options": [
+            "شمس",
+            "أين الحمام؟",
+            "ليل",
+            "يقرأ"
+          ]
+        },
+        {
+          "id": "day_35_1",
+          "type": "multipleChoice",
+          "correctAnswer": "أخضر",
+          "text": {
+            "en": "Translate: Green",
+            "ar": "ترجم: أخضر",
+            "de": "Übersetzen: Green",
+            "fr": "Traduire : Green",
+            "ru": "Перевести: Green",
+            "zh": "翻译：Green"
+          },
+          "options": [
+            "أين الحمام؟",
+            "أحتاج أن أذهب للنوم.",
+            "ليل",
+            "أخضر"
+          ]
+        },
+        {
+          "id": "day_35_2",
+          "type": "multipleChoice",
+          "correctAnswer": "سوق",
+          "text": {
+            "en": "Translate: Market",
+            "ar": "ترجم: سوق",
+            "de": "Übersetzen: Market",
+            "fr": "Traduire : Market",
+            "ru": "Перевести: Market",
+            "zh": "翻译：Market"
+          },
+          "options": [
+            "أحتاج أن أذهب للنوم.",
+            "أخضر",
+            "يعجبني هذا.",
+            "سوق"
+          ]
+        },
+        {
+          "id": "day_35_3",
+          "type": "audioOptions",
+          "correctAnswer": "ليل",
+          "text": "ليل",
+          "audioUrl": "true",
+          "options": [
+            "ليل",
+            "يقرأ",
+            "أحتاج أن أذهب للنوم.",
+            "ما اسمك؟"
+          ]
+        },
+        {
+          "id": "day_35_4",
+          "type": "audioOptions",
+          "correctAnswer": "شمس",
+          "text": "شمس",
+          "audioUrl": "true",
+          "options": [
+            "أين الحمام؟",
+            "ليل",
+            "سوق",
+            "شمس"
+          ]
+        },
+        {
+          "id": "day_35_5",
+          "type": "speaking",
+          "correctAnswer": "يعجبني هذا.",
+          "text": "يعجبني هذا."
+        },
+        {
+          "id": "day_35_6",
+          "type": "speaking",
+          "correctAnswer": "أين الحمام؟",
+          "text": "أين الحمام؟"
+        },
+        {
+          "id": "day_35_7",
+          "type": "speaking",
+          "correctAnswer": "أنا عطشان.",
+          "text": "أنا عطشان."
+        },
+        {
+          "id": "day_35_8",
+          "type": "listening",
+          "correctAnswer": "أحتاج أن أذهب للنوم.",
+          "text": "أحتاج أن أذهب للنوم.",
+          "audioUrl": "true",
+          "options": [
+            "أحتاج أن أذهب للنوم.",
+            "يقرأ",
+            "أين الحمام؟",
+            "أخضر"
+          ]
+        },
+        {
+          "id": "day_35_9",
+          "type": "listening",
+          "correctAnswer": "ما اسمك؟",
+          "text": "ما اسمك؟",
+          "audioUrl": "true",
+          "options": [
+            "أنا عطشان.",
+            "يقرأ",
+            "ما اسمك؟",
+            "يعجبني هذا."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 36,
+      "questions": [
+        {
+          "id": "day_36_0",
+          "type": "multipleChoice",
+          "correctAnswer": "كلب",
+          "text": {
+            "en": "Translate: Dog",
+            "ar": "ترجم: كلب",
+            "de": "Übersetzen: Dog",
+            "fr": "Traduire : Dog",
+            "ru": "Перевести: Dog",
+            "zh": "翻译：Dog"
+          },
+          "options": [
+            "لقد فقدت مفاتيحي.",
+            "هل يمكنك مساعدتي؟",
+            "كلب",
+            "الفاتورة، من فضلك؟"
+          ]
+        },
+        {
+          "id": "day_36_1",
+          "type": "multipleChoice",
+          "correctAnswer": "أسود",
+          "text": {
+            "en": "Translate: Black",
+            "ar": "ترجم: أسود",
+            "de": "Übersetzen: Black",
+            "fr": "Traduire : Black",
+            "ru": "Перевести: Black",
+            "zh": "翻译：Black"
+          },
+          "options": [
+            "أسود",
+            "واحد",
+            "ليل",
+            "كل شيء على ما يرام."
+          ]
+        },
+        {
+          "id": "day_36_2",
+          "type": "multipleChoice",
+          "correctAnswer": "طعام",
+          "text": {
+            "en": "Translate: Food",
+            "ar": "ترجم: طعام",
+            "de": "Übersetzen: Food",
+            "fr": "Traduire : Food",
+            "ru": "Перевести: Food",
+            "zh": "翻译：Food"
+          },
+          "options": [
+            "لقد فقدت مفاتيحي.",
+            "الفاتورة، من فضلك؟",
+            "كل شيء على ما يرام.",
+            "طعام"
+          ]
+        },
+        {
+          "id": "day_36_3",
+          "type": "audioOptions",
+          "correctAnswer": "ليل",
+          "text": "ليل",
+          "audioUrl": "true",
+          "options": [
+            "طعام",
+            "كلب",
+            "هل يمكنك مساعدتي؟",
+            "ليل"
+          ]
+        },
+        {
+          "id": "day_36_4",
+          "type": "audioOptions",
+          "correctAnswer": "واحد",
+          "text": "واحد",
+          "audioUrl": "true",
+          "options": [
+            "أسود",
+            "واحد",
+            "لقد فقدت مفاتيحي.",
+            "ليل"
+          ]
+        },
+        {
+          "id": "day_36_5",
+          "type": "speaking",
+          "correctAnswer": "هل يمكنك مساعدتي؟",
+          "text": "هل يمكنك مساعدتي؟"
+        },
+        {
+          "id": "day_36_6",
+          "type": "speaking",
+          "correctAnswer": "كل شيء على ما يرام.",
+          "text": "كل شيء على ما يرام."
+        },
+        {
+          "id": "day_36_7",
+          "type": "speaking",
+          "correctAnswer": "الفاتورة، من فضلك؟",
+          "text": "الفاتورة، من فضلك؟"
+        },
+        {
+          "id": "day_36_8",
+          "type": "listening",
+          "correctAnswer": "الكتاب على الطاولة.",
+          "text": "الكتاب على الطاولة.",
+          "audioUrl": "true",
+          "options": [
+            "هل يمكنك مساعدتي؟",
+            "واحد",
+            "طعام",
+            "الكتاب على الطاولة."
+          ]
+        },
+        {
+          "id": "day_36_9",
+          "type": "listening",
+          "correctAnswer": "لقد فقدت مفاتيحي.",
+          "text": "لقد فقدت مفاتيحي.",
+          "audioUrl": "true",
+          "options": [
+            "طعام",
+            "واحد",
+            "لقد فقدت مفاتيحي.",
+            "أسود"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 37,
+      "questions": [
+        {
+          "id": "day_37_0",
+          "type": "multipleChoice",
+          "correctAnswer": "مال",
+          "text": {
+            "en": "Translate: Money",
+            "ar": "ترجم: مال",
+            "de": "Übersetzen: Money",
+            "fr": "Traduire : Money",
+            "ru": "Перевести: Money",
+            "zh": "翻译：Money"
+          },
+          "options": [
+            "الطقس جميل اليوم.",
+            "هل أنت مستعد؟",
+            "قمر",
+            "مال"
+          ]
+        },
+        {
+          "id": "day_37_1",
+          "type": "multipleChoice",
+          "correctAnswer": "فوق",
+          "text": {
+            "en": "Translate: Up",
+            "ar": "ترجم: فوق",
+            "de": "Übersetzen: Up",
+            "fr": "Traduire : Up",
+            "ru": "Перевести: Up",
+            "zh": "翻译：Up"
+          },
+          "options": [
+            "الطقس جميل اليوم.",
+            "أنا آسف.",
+            "هل أنت مستعد؟",
+            "فوق"
+          ]
+        },
+        {
+          "id": "day_37_2",
+          "type": "multipleChoice",
+          "correctAnswer": "سمك",
+          "text": {
+            "en": "Translate: Fish",
+            "ar": "ترجم: سمك",
+            "de": "Übersetzen: Fish",
+            "fr": "Traduire : Fish",
+            "ru": "Перевести: Fish",
+            "zh": "翻译：Fish"
+          },
+          "options": [
+            "هل أنت مستعد؟",
+            "فوق",
+            "هل يمكنك مساعدتي؟",
+            "سمك"
+          ]
+        },
+        {
+          "id": "day_37_3",
+          "type": "audioOptions",
+          "correctAnswer": "قمر",
+          "text": "قمر",
+          "audioUrl": "true",
+          "options": [
+            "أنا آسف.",
+            "قمر",
+            "مال",
+            "سمك"
+          ]
+        },
+        {
+          "id": "day_37_4",
+          "type": "audioOptions",
+          "correctAnswer": "قديم",
+          "text": "قديم",
+          "audioUrl": "true",
+          "options": [
+            "أنا آسف.",
+            "فوق",
+            "أحتاج أن أذهب للنوم.",
+            "قديم"
+          ]
+        },
+        {
+          "id": "day_37_5",
+          "type": "speaking",
+          "correctAnswer": "هل يمكنك مساعدتي؟",
+          "text": "هل يمكنك مساعدتي؟"
+        },
+        {
+          "id": "day_37_6",
+          "type": "speaking",
+          "correctAnswer": "أحتاج أن أذهب للنوم.",
+          "text": "أحتاج أن أذهب للنوم."
+        },
+        {
+          "id": "day_37_7",
+          "type": "speaking",
+          "correctAnswer": "هل أنت مستعد؟",
+          "text": "هل أنت مستعد؟"
+        },
+        {
+          "id": "day_37_8",
+          "type": "listening",
+          "correctAnswer": "الطقس جميل اليوم.",
+          "text": "الطقس جميل اليوم.",
+          "audioUrl": "true",
+          "options": [
+            "أحتاج أن أذهب للنوم.",
+            "الطقس جميل اليوم.",
+            "أنا آسف.",
+            "قمر"
+          ]
+        },
+        {
+          "id": "day_37_9",
+          "type": "listening",
+          "correctAnswer": "أنا آسف.",
+          "text": "أنا آسف.",
+          "audioUrl": "true",
+          "options": [
+            "أنا آسف.",
+            "الطقس جميل اليوم.",
+            "هل أنت مستعد؟",
+            "قديم"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 38,
+      "questions": [
+        {
+          "id": "day_38_0",
+          "type": "multipleChoice",
+          "correctAnswer": "خمسة",
+          "text": {
+            "en": "Translate: Five",
+            "ar": "ترجم: خمسة",
+            "de": "Übersetzen: Five",
+            "fr": "Traduire : Five",
+            "ru": "Перевести: Five",
+            "zh": "翻译：Five"
+          },
+          "options": [
+            "أين الحمام؟",
+            "هذه السيارة سريعة.",
+            "سريع",
+            "خمسة"
+          ]
+        },
+        {
+          "id": "day_38_1",
+          "type": "multipleChoice",
+          "correctAnswer": "سريع",
+          "text": {
+            "en": "Translate: Fast",
+            "ar": "ترجم: سريع",
+            "de": "Übersetzen: Fast",
+            "fr": "Traduire : Fast",
+            "ru": "Перевести: Fast",
+            "zh": "翻译：Fast"
+          },
+          "options": [
+            "سريع",
+            "أرز",
+            "هذه السيارة سريعة.",
+            "أنا متعب."
+          ]
+        },
+        {
+          "id": "day_38_2",
+          "type": "multipleChoice",
+          "correctAnswer": "فطور",
+          "text": {
+            "en": "Translate: Breakfast",
+            "ar": "ترجم: فطور",
+            "de": "Übersetzen: Breakfast",
+            "fr": "Traduire : Breakfast",
+            "ru": "Перевести: Breakfast",
+            "zh": "翻译：Breakfast"
+          },
+          "options": [
+            "الجو حار في الخارج.",
+            "فطور",
+            "خمسة",
+            "يأتي"
+          ]
+        },
+        {
+          "id": "day_38_3",
+          "type": "audioOptions",
+          "correctAnswer": "يأتي",
+          "text": "يأتي",
+          "audioUrl": "true",
+          "options": [
+            "أين الحمام؟",
+            "أرز",
+            "خمسة",
+            "يأتي"
+          ]
+        },
+        {
+          "id": "day_38_4",
+          "type": "audioOptions",
+          "correctAnswer": "أرز",
+          "text": "أرز",
+          "audioUrl": "true",
+          "options": [
+            "ماذا تفعل؟",
+            "فطور",
+            "أرز",
+            "سريع"
+          ]
+        },
+        {
+          "id": "day_38_5",
+          "type": "speaking",
+          "correctAnswer": "أين الحمام؟",
+          "text": "أين الحمام؟"
+        },
+        {
+          "id": "day_38_6",
+          "type": "speaking",
+          "correctAnswer": "هذه السيارة سريعة.",
+          "text": "هذه السيارة سريعة."
+        },
+        {
+          "id": "day_38_7",
+          "type": "speaking",
+          "correctAnswer": "ماذا تفعل؟",
+          "text": "ماذا تفعل؟"
+        },
+        {
+          "id": "day_38_8",
+          "type": "listening",
+          "correctAnswer": "الجو حار في الخارج.",
+          "text": "الجو حار في الخارج.",
+          "audioUrl": "true",
+          "options": [
+            "سريع",
+            "الجو حار في الخارج.",
+            "يأتي",
+            "خمسة"
+          ]
+        },
+        {
+          "id": "day_38_9",
+          "type": "listening",
+          "correctAnswer": "أنا متعب.",
+          "text": "أنا متعب.",
+          "audioUrl": "true",
+          "options": [
+            "يأتي",
+            "الجو حار في الخارج.",
+            "سريع",
+            "أنا متعب."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 39,
+      "questions": [
+        {
+          "id": "day_39_0",
+          "type": "multipleChoice",
+          "correctAnswer": "دجاج",
+          "text": {
+            "en": "Translate: Chicken",
+            "ar": "ترجم: دجاج",
+            "de": "Übersetzen: Chicken",
+            "fr": "Traduire : Chicken",
+            "ru": "Перевести: Chicken",
+            "zh": "翻译：Chicken"
+          },
+          "options": [
+            "دجاج",
+            "عذراً.",
+            "حار",
+            "مساء الخير."
+          ]
+        },
+        {
+          "id": "day_39_1",
+          "type": "multipleChoice",
+          "correctAnswer": "أحمر",
+          "text": {
+            "en": "Translate: Red",
+            "ar": "ترجم: أحمر",
+            "de": "Übersetzen: Red",
+            "fr": "Traduire : Red",
+            "ru": "Перевести: Red",
+            "zh": "翻译：Red"
+          },
+          "options": [
+            "أنا متعب.",
+            "عذراً.",
+            "أحمر",
+            "كل شيء على ما يرام."
+          ]
+        },
+        {
+          "id": "day_39_2",
+          "type": "multipleChoice",
+          "correctAnswer": "حار",
+          "text": {
+            "en": "Translate: Hot",
+            "ar": "ترجم: حار",
+            "de": "Übersetzen: Hot",
+            "fr": "Traduire : Hot",
+            "ru": "Перевести: Hot",
+            "zh": "翻译：Hot"
+          },
+          "options": [
+            "حار",
+            "كل شيء على ما يرام.",
+            "أنا متعب.",
+            "خبز"
+          ]
+        },
+        {
+          "id": "day_39_3",
+          "type": "audioOptions",
+          "correctAnswer": "يشرب",
+          "text": "يشرب",
+          "audioUrl": "true",
+          "options": [
+            "يشرب",
+            "كل شيء على ما يرام.",
+            "لا يعجبني ذلك.",
+            "دجاج"
+          ]
+        },
+        {
+          "id": "day_39_4",
+          "type": "audioOptions",
+          "correctAnswer": "خبز",
+          "text": "خبز",
+          "audioUrl": "true",
+          "options": [
+            "عذراً.",
+            "دجاج",
+            "خبز",
+            "يشرب"
+          ]
+        },
+        {
+          "id": "day_39_5",
+          "type": "speaking",
+          "correctAnswer": "أنا متعب.",
+          "text": "أنا متعب."
+        },
+        {
+          "id": "day_39_6",
+          "type": "speaking",
+          "correctAnswer": "لا يعجبني ذلك.",
+          "text": "لا يعجبني ذلك."
+        },
+        {
+          "id": "day_39_7",
+          "type": "speaking",
+          "correctAnswer": "مساء الخير.",
+          "text": "مساء الخير."
+        },
+        {
+          "id": "day_39_8",
+          "type": "listening",
+          "correctAnswer": "عذراً.",
+          "text": "عذراً.",
+          "audioUrl": "true",
+          "options": [
+            "حار",
+            "أنا متعب.",
+            "أحمر",
+            "عذراً."
+          ]
+        },
+        {
+          "id": "day_39_9",
+          "type": "listening",
+          "correctAnswer": "كل شيء على ما يرام.",
+          "text": "كل شيء على ما يرام.",
+          "audioUrl": "true",
+          "options": [
+            "كل شيء على ما يرام.",
+            "مساء الخير.",
+            "عذراً.",
+            "خبز"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 40,
+      "questions": [
+        {
+          "id": "day_40_0",
+          "type": "multipleChoice",
+          "correctAnswer": "يقرأ",
+          "text": {
+            "en": "Translate: Read",
+            "ar": "ترجم: يقرأ",
+            "de": "Übersetzen: Read",
+            "fr": "Traduire : Read",
+            "ru": "Перевести: Read",
+            "zh": "翻译：Read"
+          },
+          "options": [
+            "يقرأ",
+            "سررت بلقائك.",
+            "نعم، قليلاً.",
+            "يتحدث"
+          ]
+        },
+        {
+          "id": "day_40_1",
+          "type": "multipleChoice",
+          "correctAnswer": "يتحدث",
+          "text": {
+            "en": "Translate: Speak",
+            "ar": "ترجم: يتحدث",
+            "de": "Übersetzen: Speak",
+            "fr": "Traduire : Speak",
+            "ru": "Перевести: Speak",
+            "zh": "翻译：Speak"
+          },
+          "options": [
+            "سررت بلقائك.",
+            "أخضر",
+            "يقرأ",
+            "يتحدث"
+          ]
+        },
+        {
+          "id": "day_40_2",
+          "type": "multipleChoice",
+          "correctAnswer": "أخضر",
+          "text": {
+            "en": "Translate: Green",
+            "ar": "ترجم: أخضر",
+            "de": "Übersetzen: Green",
+            "fr": "Traduire : Green",
+            "ru": "Перевести: Green",
+            "zh": "翻译：Green"
+          },
+          "options": [
+            "أخضر",
+            "أنا جائع.",
+            "نعم، قليلاً.",
+            "يتحدث"
+          ]
+        },
+        {
+          "id": "day_40_3",
+          "type": "audioOptions",
+          "correctAnswer": "قديم",
+          "text": "قديم",
+          "audioUrl": "true",
+          "options": [
+            "يتحدث",
+            "سررت بلقائك.",
+            "قديم",
+            "نعم، قليلاً."
+          ]
+        },
+        {
+          "id": "day_40_4",
+          "type": "audioOptions",
+          "correctAnswer": "أزرق",
+          "text": "أزرق",
+          "audioUrl": "true",
+          "options": [
+            "يقرأ",
+            "أزرق",
+            "أنا جائع.",
+            "أشعر بالسعادة اليوم."
+          ]
+        },
+        {
+          "id": "day_40_5",
+          "type": "speaking",
+          "correctAnswer": "أشعر بالسعادة اليوم.",
+          "text": "أشعر بالسعادة اليوم."
+        },
+        {
+          "id": "day_40_6",
+          "type": "speaking",
+          "correctAnswer": "أنا جائع.",
+          "text": "أنا جائع."
+        },
+        {
+          "id": "day_40_7",
+          "type": "speaking",
+          "correctAnswer": "أنا بخير، شكراً.",
+          "text": "أنا بخير، شكراً."
+        },
+        {
+          "id": "day_40_8",
+          "type": "listening",
+          "correctAnswer": "سررت بلقائك.",
+          "text": "سررت بلقائك.",
+          "audioUrl": "true",
+          "options": [
+            "يتحدث",
+            "أخضر",
+            "نعم، قليلاً.",
+            "سررت بلقائك."
+          ]
+        },
+        {
+          "id": "day_40_9",
+          "type": "listening",
+          "correctAnswer": "نعم، قليلاً.",
+          "text": "نعم، قليلاً.",
+          "audioUrl": "true",
+          "options": [
+            "نعم، قليلاً.",
+            "أنا جائع.",
+            "قديم",
+            "يتحدث"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 41,
+      "questions": [
+        {
+          "id": "day_41_0",
+          "type": "multipleChoice",
+          "correctAnswer": "نعم",
+          "text": {
+            "en": "Translate: Yes",
+            "ar": "ترجم: نعم",
+            "de": "Übersetzen: Yes",
+            "fr": "Traduire : Yes",
+            "ru": "Перевести: Yes",
+            "zh": "翻译：Yes"
+          },
+          "options": [
+            "أنا أتعلم العربية.",
+            "نعم",
+            "هل تتحدث الإنجليزية؟",
+            "قبيح"
+          ]
+        },
+        {
+          "id": "day_41_1",
+          "type": "multipleChoice",
+          "correctAnswer": "مع السلامة",
+          "text": {
+            "en": "Translate: Goodbye",
+            "ar": "ترجم: مع السلامة",
+            "de": "Übersetzen: Goodbye",
+            "fr": "Traduire : Goodbye",
+            "ru": "Перевести: Goodbye",
+            "zh": "翻译：Goodbye"
+          },
+          "options": [
+            "مع السلامة",
+            "قبيح",
+            "سمك",
+            "نعم"
+          ]
+        },
+        {
+          "id": "day_41_2",
+          "type": "multipleChoice",
+          "correctAnswer": "قبيح",
+          "text": {
+            "en": "Translate: Ugly",
+            "ar": "ترجم: قبيح",
+            "de": "Übersetzen: Ugly",
+            "fr": "Traduire : Ugly",
+            "ru": "Перевести: Ugly",
+            "zh": "翻译：Ugly"
+          },
+          "options": [
+            "أنا من مصر.",
+            "عذراً.",
+            "مع السلامة",
+            "قبيح"
+          ]
+        },
+        {
+          "id": "day_41_3",
+          "type": "audioOptions",
+          "correctAnswer": "قهوة",
+          "text": "قهوة",
+          "audioUrl": "true",
+          "options": [
+            "نعم",
+            "قبيح",
+            "أنا أتعلم العربية.",
+            "قهوة"
+          ]
+        },
+        {
+          "id": "day_41_4",
+          "type": "audioOptions",
+          "correctAnswer": "سمك",
+          "text": "سمك",
+          "audioUrl": "true",
+          "options": [
+            "مع السلامة",
+            "هل أنت مستعد؟",
+            "سمك",
+            "قهوة"
+          ]
+        },
+        {
+          "id": "day_41_5",
+          "type": "speaking",
+          "correctAnswer": "أنا أتعلم العربية.",
+          "text": "أنا أتعلم العربية."
+        },
+        {
+          "id": "day_41_6",
+          "type": "speaking",
+          "correctAnswer": "هل أنت مستعد؟",
+          "text": "هل أنت مستعد؟"
+        },
+        {
+          "id": "day_41_7",
+          "type": "speaking",
+          "correctAnswer": "عذراً.",
+          "text": "عذراً."
+        },
+        {
+          "id": "day_41_8",
+          "type": "listening",
+          "correctAnswer": "أنا من مصر.",
+          "text": "أنا من مصر.",
+          "audioUrl": "true",
+          "options": [
+            "أنا أتعلم العربية.",
+            "أنا من مصر.",
+            "نعم",
+            "هل تتحدث الإنجليزية؟"
+          ]
+        },
+        {
+          "id": "day_41_9",
+          "type": "listening",
+          "correctAnswer": "هل تتحدث الإنجليزية؟",
+          "text": "هل تتحدث الإنجليزية؟",
+          "audioUrl": "true",
+          "options": [
+            "هل تتحدث الإنجليزية؟",
+            "أنا من مصر.",
+            "مع السلامة",
+            "قهوة"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 42,
+      "questions": [
+        {
+          "id": "day_42_0",
+          "type": "multipleChoice",
+          "correctAnswer": "بنت",
+          "text": {
+            "en": "Translate: Girl",
+            "ar": "ترجم: بنت",
+            "de": "Übersetzen: Girl",
+            "fr": "Traduire : Girl",
+            "ru": "Перевести: Girl",
+            "zh": "翻译：Girl"
+          },
+          "options": [
+            "أنا متعب.",
+            "أراك لاحقاً.",
+            "هذه السيارة سريعة.",
+            "بنت"
+          ]
+        },
+        {
+          "id": "day_42_1",
+          "type": "multipleChoice",
+          "correctAnswer": "أمس",
+          "text": {
+            "en": "Translate: Yesterday",
+            "ar": "ترجم: أمس",
+            "de": "Übersetzen: Yesterday",
+            "fr": "Traduire : Yesterday",
+            "ru": "Перевести: Yesterday",
+            "zh": "翻译：Yesterday"
+          },
+          "options": [
+            "أمس",
+            "أسود",
+            "تصبح على خير.",
+            "من أين أنت؟"
+          ]
+        },
+        {
+          "id": "day_42_2",
+          "type": "multipleChoice",
+          "correctAnswer": "يأتي",
+          "text": {
+            "en": "Translate: Come",
+            "ar": "ترجم: يأتي",
+            "de": "Übersetzen: Come",
+            "fr": "Traduire : Come",
+            "ru": "Перевести: Come",
+            "zh": "翻译：Come"
+          },
+          "options": [
+            "من أين أنت؟",
+            "أسود",
+            "أنا متعب.",
+            "يأتي"
+          ]
+        },
+        {
+          "id": "day_42_3",
+          "type": "audioOptions",
+          "correctAnswer": "أسود",
+          "text": "أسود",
+          "audioUrl": "true",
+          "options": [
+            "يأتي",
+            "يتحدث",
+            "أسود",
+            "تصبح على خير."
+          ]
+        },
+        {
+          "id": "day_42_4",
+          "type": "audioOptions",
+          "correctAnswer": "يتحدث",
+          "text": "يتحدث",
+          "audioUrl": "true",
+          "options": [
+            "هذه السيارة سريعة.",
+            "يتحدث",
+            "يأتي",
+            "بنت"
+          ]
+        },
+        {
+          "id": "day_42_5",
+          "type": "speaking",
+          "correctAnswer": "أنا متعب.",
+          "text": "أنا متعب."
+        },
+        {
+          "id": "day_42_6",
+          "type": "speaking",
+          "correctAnswer": "هذه السيارة سريعة.",
+          "text": "هذه السيارة سريعة."
+        },
+        {
+          "id": "day_42_7",
+          "type": "speaking",
+          "correctAnswer": "أراك لاحقاً.",
+          "text": "أراك لاحقاً."
+        },
+        {
+          "id": "day_42_8",
+          "type": "listening",
+          "correctAnswer": "من أين أنت؟",
+          "text": "من أين أنت؟",
+          "audioUrl": "true",
+          "options": [
+            "أنا متعب.",
+            "تصبح على خير.",
+            "بنت",
+            "من أين أنت؟"
+          ]
+        },
+        {
+          "id": "day_42_9",
+          "type": "listening",
+          "correctAnswer": "تصبح على خير.",
+          "text": "تصبح على خير.",
+          "audioUrl": "true",
+          "options": [
+            "تصبح على خير.",
+            "من أين أنت؟",
+            "أمس",
+            "أراك لاحقاً."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 43,
+      "questions": [
+        {
+          "id": "day_43_0",
+          "type": "multipleChoice",
+          "correctAnswer": "أبيض",
+          "text": {
+            "en": "Translate: White",
+            "ar": "ترجم: أبيض",
+            "de": "Übersetzen: White",
+            "fr": "Traduire : White",
+            "ru": "Перевести: White",
+            "zh": "翻译：White"
+          },
+          "options": [
+            "هذا لذيذ جداً.",
+            "أنا من مصر.",
+            "كل شيء على ما يرام.",
+            "أبيض"
+          ]
+        },
+        {
+          "id": "day_43_1",
+          "type": "multipleChoice",
+          "correctAnswer": "طائر",
+          "text": {
+            "en": "Translate: Bird",
+            "ar": "ترجم: طائر",
+            "de": "Übersetzen: Bird",
+            "fr": "Traduire : Bird",
+            "ru": "Перевести: Bird",
+            "zh": "翻译：Bird"
+          },
+          "options": [
+            "طعام",
+            "أتمنى لك يوماً سعيداً.",
+            "هذا لذيذ جداً.",
+            "طائر"
+          ]
+        },
+        {
+          "id": "day_43_2",
+          "type": "multipleChoice",
+          "correctAnswer": "طعام",
+          "text": {
+            "en": "Translate: Food",
+            "ar": "ترجم: طعام",
+            "de": "Übersetzen: Food",
+            "fr": "Traduire : Food",
+            "ru": "Перевести: Food",
+            "zh": "翻译：Food"
+          },
+          "options": [
+            "صباح",
+            "كل شيء على ما يرام.",
+            "أنا من مصر.",
+            "طعام"
+          ]
+        },
+        {
+          "id": "day_43_3",
+          "type": "audioOptions",
+          "correctAnswer": "شجرة",
+          "text": "شجرة",
+          "audioUrl": "true",
+          "options": [
+            "هذا لذيذ جداً.",
+            "شجرة",
+            "أبيض",
+            "صباح"
+          ]
+        },
+        {
+          "id": "day_43_4",
+          "type": "audioOptions",
+          "correctAnswer": "صباح",
+          "text": "صباح",
+          "audioUrl": "true",
+          "options": [
+            "هذا لذيذ جداً.",
+            "أنا في السوق.",
+            "صباح",
+            "شجرة"
+          ]
+        },
+        {
+          "id": "day_43_5",
+          "type": "speaking",
+          "correctAnswer": "هذا لذيذ جداً.",
+          "text": "هذا لذيذ جداً."
+        },
+        {
+          "id": "day_43_6",
+          "type": "speaking",
+          "correctAnswer": "أتمنى لك يوماً سعيداً.",
+          "text": "أتمنى لك يوماً سعيداً."
+        },
+        {
+          "id": "day_43_7",
+          "type": "speaking",
+          "correctAnswer": "أنا من مصر.",
+          "text": "أنا من مصر."
+        },
+        {
+          "id": "day_43_8",
+          "type": "listening",
+          "correctAnswer": "أنا في السوق.",
+          "text": "أنا في السوق.",
+          "audioUrl": "true",
+          "options": [
+            "هذا لذيذ جداً.",
+            "شجرة",
+            "طائر",
+            "أنا في السوق."
+          ]
+        },
+        {
+          "id": "day_43_9",
+          "type": "listening",
+          "correctAnswer": "كل شيء على ما يرام.",
+          "text": "كل شيء على ما يرام.",
+          "audioUrl": "true",
+          "options": [
+            "شجرة",
+            "هذا لذيذ جداً.",
+            "أنا من مصر.",
+            "كل شيء على ما يرام."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 44,
+      "questions": [
+        {
+          "id": "day_44_0",
+          "type": "multipleChoice",
+          "correctAnswer": "شجرة",
+          "text": {
+            "en": "Translate: Tree",
+            "ar": "ترجم: شجرة",
+            "de": "Übersetzen: Tree",
+            "fr": "Traduire : Tree",
+            "ru": "Перевести: Tree",
+            "zh": "翻译：Tree"
+          },
+          "options": [
+            "ولد",
+            "لقد فقدت مفاتيحي.",
+            "شجرة",
+            "تحت"
+          ]
+        },
+        {
+          "id": "day_44_1",
+          "type": "multipleChoice",
+          "correctAnswer": "تحت",
+          "text": {
+            "en": "Translate: Down",
+            "ar": "ترجم: تحت",
+            "de": "Übersetzen: Down",
+            "fr": "Traduire : Down",
+            "ru": "Перевести: Down",
+            "zh": "翻译：Down"
+          },
+          "options": [
+            "سريع",
+            "اسمي أحمد.",
+            "تحت",
+            "هذه السيارة سريعة."
+          ]
+        },
+        {
+          "id": "day_44_2",
+          "type": "multipleChoice",
+          "correctAnswer": "ولد",
+          "text": {
+            "en": "Translate: Boy",
+            "ar": "ترجم: ولد",
+            "de": "Übersetzen: Boy",
+            "fr": "Traduire : Boy",
+            "ru": "Перевести: Boy",
+            "zh": "翻译：Boy"
+          },
+          "options": [
+            "سريع",
+            "لقد فقدت مفاتيحي.",
+            "ولد",
+            "تحت"
+          ]
+        },
+        {
+          "id": "day_44_3",
+          "type": "audioOptions",
+          "correctAnswer": "سريع",
+          "text": "سريع",
+          "audioUrl": "true",
+          "options": [
+            "هذا لذيذ جداً.",
+            "سريع",
+            "أنا في السوق.",
+            "تحت"
+          ]
+        },
+        {
+          "id": "day_44_4",
+          "type": "audioOptions",
+          "correctAnswer": "مدرسة",
+          "text": "مدرسة",
+          "audioUrl": "true",
+          "options": [
+            "هذه السيارة سريعة.",
+            "ولد",
+            "مدرسة",
+            "اسمي أحمد."
+          ]
+        },
+        {
+          "id": "day_44_5",
+          "type": "speaking",
+          "correctAnswer": "لقد فقدت مفاتيحي.",
+          "text": "لقد فقدت مفاتيحي."
+        },
+        {
+          "id": "day_44_6",
+          "type": "speaking",
+          "correctAnswer": "اسمي أحمد.",
+          "text": "اسمي أحمد."
+        },
+        {
+          "id": "day_44_7",
+          "type": "speaking",
+          "correctAnswer": "هذا لذيذ جداً.",
+          "text": "هذا لذيذ جداً."
+        },
+        {
+          "id": "day_44_8",
+          "type": "listening",
+          "correctAnswer": "أنا في السوق.",
+          "text": "أنا في السوق.",
+          "audioUrl": "true",
+          "options": [
+            "هذا لذيذ جداً.",
+            "اسمي أحمد.",
+            "شجرة",
+            "أنا في السوق."
+          ]
+        },
+        {
+          "id": "day_44_9",
+          "type": "listening",
+          "correctAnswer": "هذه السيارة سريعة.",
+          "text": "هذه السيارة سريعة.",
+          "audioUrl": "true",
+          "options": [
+            "هذا لذيذ جداً.",
+            "تحت",
+            "اسمي أحمد.",
+            "هذه السيارة سريعة."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 45,
+      "questions": [
+        {
+          "id": "day_45_0",
+          "type": "multipleChoice",
+          "correctAnswer": "أسود",
+          "text": {
+            "en": "Translate: Black",
+            "ar": "ترجم: أسود",
+            "de": "Übersetzen: Black",
+            "fr": "Traduire : Black",
+            "ru": "Перевести: Black",
+            "zh": "翻译：Black"
+          },
+          "options": [
+            "لا تقلق.",
+            "أنا أعمل الآن.",
+            "جيد",
+            "أسود"
+          ]
+        },
+        {
+          "id": "day_45_1",
+          "type": "multipleChoice",
+          "correctAnswer": "جميل",
+          "text": {
+            "en": "Translate: Beautiful",
+            "ar": "ترجم: جميل",
+            "de": "Übersetzen: Beautiful",
+            "fr": "Traduire : Beautiful",
+            "ru": "Перевести: Beautiful",
+            "zh": "翻译：Beautiful"
+          },
+          "options": [
+            "أتمنى لك يوماً سعيداً.",
+            "جميل",
+            "أنا متعب.",
+            "لا تقلق."
+          ]
+        },
+        {
+          "id": "day_45_2",
+          "type": "multipleChoice",
+          "correctAnswer": "جيد",
+          "text": {
+            "en": "Translate: Good",
+            "ar": "ترجم: جيد",
+            "de": "Übersetzen: Good",
+            "fr": "Traduire : Good",
+            "ru": "Перевести: Good",
+            "zh": "翻译：Good"
+          },
+          "options": [
+            "أسود",
+            "جيد",
+            "أنا أعمل الآن.",
+            "كل شيء على ما يرام."
+          ]
+        },
+        {
+          "id": "day_45_3",
+          "type": "audioOptions",
+          "correctAnswer": "يحب",
+          "text": "يحب",
+          "audioUrl": "true",
+          "options": [
+            "أنا متعب.",
+            "يحب",
+            "حليب",
+            "لا تقلق."
+          ]
+        },
+        {
+          "id": "day_45_4",
+          "type": "audioOptions",
+          "correctAnswer": "حليب",
+          "text": "حليب",
+          "audioUrl": "true",
+          "options": [
+            "كل شيء على ما يرام.",
+            "أنا أعمل الآن.",
+            "أتمنى لك يوماً سعيداً.",
+            "حليب"
+          ]
+        },
+        {
+          "id": "day_45_5",
+          "type": "speaking",
+          "correctAnswer": "أنا أعمل الآن.",
+          "text": "أنا أعمل الآن."
+        },
+        {
+          "id": "day_45_6",
+          "type": "speaking",
+          "correctAnswer": "لا تقلق.",
+          "text": "لا تقلق."
+        },
+        {
+          "id": "day_45_7",
+          "type": "speaking",
+          "correctAnswer": "كل شيء على ما يرام.",
+          "text": "كل شيء على ما يرام."
+        },
+        {
+          "id": "day_45_8",
+          "type": "listening",
+          "correctAnswer": "أتمنى لك يوماً سعيداً.",
+          "text": "أتمنى لك يوماً سعيداً.",
+          "audioUrl": "true",
+          "options": [
+            "أتمنى لك يوماً سعيداً.",
+            "أسود",
+            "أنا أعمل الآن.",
+            "جيد"
+          ]
+        },
+        {
+          "id": "day_45_9",
+          "type": "listening",
+          "correctAnswer": "أنا متعب.",
+          "text": "أنا متعب.",
+          "audioUrl": "true",
+          "options": [
+            "لا تقلق.",
+            "أنا أعمل الآن.",
+            "أنا متعب.",
+            "جميل"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 46,
+      "questions": [
+        {
+          "id": "day_46_0",
+          "type": "multipleChoice",
+          "correctAnswer": "لاحقاً",
+          "text": {
+            "en": "Translate: Later",
+            "ar": "ترجم: لاحقاً",
+            "de": "Übersetzen: Later",
+            "fr": "Traduire : Later",
+            "ru": "Перевести: Later",
+            "zh": "翻译：Later"
+          },
+          "options": [
+            "أريد أن أشرب ماء.",
+            "أراك لاحقاً.",
+            "أنا آسف.",
+            "لاحقاً"
+          ]
+        },
+        {
+          "id": "day_46_1",
+          "type": "multipleChoice",
+          "correctAnswer": "يذهب",
+          "text": {
+            "en": "Translate: Go",
+            "ar": "ترجم: يذهب",
+            "de": "Übersetzen: Go",
+            "fr": "Traduire : Go",
+            "ru": "Перевести: Go",
+            "zh": "翻译：Go"
+          },
+          "options": [
+            "يذهب",
+            "سمك",
+            "أنا آسف.",
+            "هل أنت مستعد؟"
+          ]
+        },
+        {
+          "id": "day_46_2",
+          "type": "multipleChoice",
+          "correctAnswer": "سمك",
+          "text": {
+            "en": "Translate: Fish",
+            "ar": "ترجم: سمك",
+            "de": "Übersetzen: Fish",
+            "fr": "Traduire : Fish",
+            "ru": "Перевести: Fish",
+            "zh": "翻译：Fish"
+          },
+          "options": [
+            "سمك",
+            "أريد أن أشرب ماء.",
+            "أراك لاحقاً.",
+            "أنا آسف."
+          ]
+        },
+        {
+          "id": "day_46_3",
+          "type": "audioOptions",
+          "correctAnswer": "لا",
+          "text": "لا",
+          "audioUrl": "true",
+          "options": [
+            "لا",
+            "أريد أن أشرب ماء.",
+            "كتاب",
+            "أراك لاحقاً."
+          ]
+        },
+        {
+          "id": "day_46_4",
+          "type": "audioOptions",
+          "correctAnswer": "كتاب",
+          "text": "كتاب",
+          "audioUrl": "true",
+          "options": [
+            "كتاب",
+            "سمك",
+            "أراك لاحقاً.",
+            "أنا آسف."
+          ]
+        },
+        {
+          "id": "day_46_5",
+          "type": "speaking",
+          "correctAnswer": "أنا آسف.",
+          "text": "أنا آسف."
+        },
+        {
+          "id": "day_46_6",
+          "type": "speaking",
+          "correctAnswer": "أريد أن أشرب ماء.",
+          "text": "أريد أن أشرب ماء."
+        },
+        {
+          "id": "day_46_7",
+          "type": "speaking",
+          "correctAnswer": "أراك لاحقاً.",
+          "text": "أراك لاحقاً."
+        },
+        {
+          "id": "day_46_8",
+          "type": "listening",
+          "correctAnswer": "هل أنت مستعد؟",
+          "text": "هل أنت مستعد؟",
+          "audioUrl": "true",
+          "options": [
+            "أريد أن أشرب ماء.",
+            "هل أنت مستعد؟",
+            "كتاب",
+            "لاحقاً"
+          ]
+        },
+        {
+          "id": "day_46_9",
+          "type": "listening",
+          "correctAnswer": "أحتاج أن أذهب للنوم.",
+          "text": "أحتاج أن أذهب للنوم.",
+          "audioUrl": "true",
+          "options": [
+            "يذهب",
+            "أحتاج أن أذهب للنوم.",
+            "أريد أن أشرب ماء.",
+            "لا"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 47,
+      "questions": [
+        {
+          "id": "day_47_0",
+          "type": "multipleChoice",
+          "correctAnswer": "يسار",
+          "text": {
+            "en": "Translate: Left",
+            "ar": "ترجم: يسار",
+            "de": "Übersetzen: Left",
+            "fr": "Traduire : Left",
+            "ru": "Перевести: Left",
+            "zh": "翻译：Left"
+          },
+          "options": [
+            "يسار",
+            "كيف حالك؟",
+            "أنا بخير، شكراً.",
+            "نعم، قليلاً."
+          ]
+        },
+        {
+          "id": "day_47_1",
+          "type": "multipleChoice",
+          "correctAnswer": "جيد",
+          "text": {
+            "en": "Translate: Good",
+            "ar": "ترجم: جيد",
+            "de": "Übersetzen: Good",
+            "fr": "Traduire : Good",
+            "ru": "Перевести: Good",
+            "zh": "翻译：Good"
+          },
+          "options": [
+            "قهوة",
+            "نعم، قليلاً.",
+            "جيد",
+            "لاحقاً"
+          ]
+        },
+        {
+          "id": "day_47_2",
+          "type": "multipleChoice",
+          "correctAnswer": "لاحقاً",
+          "text": {
+            "en": "Translate: Later",
+            "ar": "ترجم: لاحقاً",
+            "de": "Übersetzen: Later",
+            "fr": "Traduire : Later",
+            "ru": "Перевести: Later",
+            "zh": "翻译：Later"
+          },
+          "options": [
+            "كيف حالك؟",
+            "لاحقاً",
+            "من أين أنت؟",
+            "أنا بخير، شكراً."
+          ]
+        },
+        {
+          "id": "day_47_3",
+          "type": "audioOptions",
+          "correctAnswer": "قهوة",
+          "text": "قهوة",
+          "audioUrl": "true",
+          "options": [
+            "يسار",
+            "أنا بخير، شكراً.",
+            "قهوة",
+            "كل شيء على ما يرام."
+          ]
+        },
+        {
+          "id": "day_47_4",
+          "type": "audioOptions",
+          "correctAnswer": "كبير",
+          "text": "كبير",
+          "audioUrl": "true",
+          "options": [
+            "كبير",
+            "لاحقاً",
+            "نعم، قليلاً.",
+            "يسار"
+          ]
+        },
+        {
+          "id": "day_47_5",
+          "type": "speaking",
+          "correctAnswer": "من أين أنت؟",
+          "text": "من أين أنت؟"
+        },
+        {
+          "id": "day_47_6",
+          "type": "speaking",
+          "correctAnswer": "كل شيء على ما يرام.",
+          "text": "كل شيء على ما يرام."
+        },
+        {
+          "id": "day_47_7",
+          "type": "speaking",
+          "correctAnswer": "أنا بخير، شكراً.",
+          "text": "أنا بخير، شكراً."
+        },
+        {
+          "id": "day_47_8",
+          "type": "listening",
+          "correctAnswer": "كيف حالك؟",
+          "text": "كيف حالك؟",
+          "audioUrl": "true",
+          "options": [
+            "كيف حالك؟",
+            "أنا بخير، شكراً.",
+            "كبير",
+            "يسار"
+          ]
+        },
+        {
+          "id": "day_47_9",
+          "type": "listening",
+          "correctAnswer": "نعم، قليلاً.",
+          "text": "نعم، قليلاً.",
+          "audioUrl": "true",
+          "options": [
+            "قهوة",
+            "كل شيء على ما يرام.",
+            "نعم، قليلاً.",
+            "كيف حالك؟"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 48,
+      "questions": [
+        {
+          "id": "day_48_0",
+          "type": "multipleChoice",
+          "correctAnswer": "ثلاثة",
+          "text": {
+            "en": "Translate: Three",
+            "ar": "ترجم: ثلاثة",
+            "de": "Übersetzen: Three",
+            "fr": "Traduire : Three",
+            "ru": "Перевести: Three",
+            "zh": "翻译：Three"
+          },
+          "options": [
+            "ثلاثة",
+            "أراك لاحقاً.",
+            "أنا من مصر.",
+            "تصبح على خير."
+          ]
+        },
+        {
+          "id": "day_48_1",
+          "type": "multipleChoice",
+          "correctAnswer": "خمسة",
+          "text": {
+            "en": "Translate: Five",
+            "ar": "ترجم: خمسة",
+            "de": "Übersetzen: Five",
+            "fr": "Traduire : Five",
+            "ru": "Перевести: Five",
+            "zh": "翻译：Five"
+          },
+          "options": [
+            "شكراً",
+            "الطقس جميل اليوم.",
+            "خمسة",
+            "أراك لاحقاً."
+          ]
+        },
+        {
+          "id": "day_48_2",
+          "type": "multipleChoice",
+          "correctAnswer": "أسبوع",
+          "text": {
+            "en": "Translate: Week",
+            "ar": "ترجم: أسبوع",
+            "de": "Übersetzen: Week",
+            "fr": "Traduire : Week",
+            "ru": "Перевести: Week",
+            "zh": "翻译：Week"
+          },
+          "options": [
+            "أسبوع",
+            "أنا من مصر.",
+            "أراك لاحقاً.",
+            "الطقس جميل اليوم."
+          ]
+        },
+        {
+          "id": "day_48_3",
+          "type": "audioOptions",
+          "correctAnswer": "مع السلامة",
+          "text": "مع السلامة",
+          "audioUrl": "true",
+          "options": [
+            "مع السلامة",
+            "شكراً",
+            "هل تتحدث الإنجليزية؟",
+            "خمسة"
+          ]
+        },
+        {
+          "id": "day_48_4",
+          "type": "audioOptions",
+          "correctAnswer": "شكراً",
+          "text": "شكراً",
+          "audioUrl": "true",
+          "options": [
+            "هل تتحدث الإنجليزية؟",
+            "مع السلامة",
+            "شكراً",
+            "تصبح على خير."
+          ]
+        },
+        {
+          "id": "day_48_5",
+          "type": "speaking",
+          "correctAnswer": "هل تتحدث الإنجليزية؟",
+          "text": "هل تتحدث الإنجليزية؟"
+        },
+        {
+          "id": "day_48_6",
+          "type": "speaking",
+          "correctAnswer": "أنا من مصر.",
+          "text": "أنا من مصر."
+        },
+        {
+          "id": "day_48_7",
+          "type": "speaking",
+          "correctAnswer": "أراك لاحقاً.",
+          "text": "أراك لاحقاً."
+        },
+        {
+          "id": "day_48_8",
+          "type": "listening",
+          "correctAnswer": "الطقس جميل اليوم.",
+          "text": "الطقس جميل اليوم.",
+          "audioUrl": "true",
+          "options": [
+            "الطقس جميل اليوم.",
+            "أراك لاحقاً.",
+            "شكراً",
+            "هل تتحدث الإنجليزية؟"
+          ]
+        },
+        {
+          "id": "day_48_9",
+          "type": "listening",
+          "correctAnswer": "تصبح على خير.",
+          "text": "تصبح على خير.",
+          "audioUrl": "true",
+          "options": [
+            "الطقس جميل اليوم.",
+            "شكراً",
+            "تصبح على خير.",
+            "مع السلامة"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 49,
+      "questions": [
+        {
+          "id": "day_49_0",
+          "type": "multipleChoice",
+          "correctAnswer": "قهوة",
+          "text": {
+            "en": "Translate: Coffee",
+            "ar": "ترجم: قهوة",
+            "de": "Übersetzen: Coffee",
+            "fr": "Traduire : Coffee",
+            "ru": "Перевести: Coffee",
+            "zh": "翻译：Coffee"
+          },
+          "options": [
+            "أنا عطشان.",
+            "تصبح على خير.",
+            "قهوة",
+            "أنا في السوق."
+          ]
+        },
+        {
+          "id": "day_49_1",
+          "type": "multipleChoice",
+          "correctAnswer": "عائلة",
+          "text": {
+            "en": "Translate: Family",
+            "ar": "ترجم: عائلة",
+            "de": "Übersetzen: Family",
+            "fr": "Traduire : Family",
+            "ru": "Перевести: Family",
+            "zh": "翻译：Family"
+          },
+          "options": [
+            "أنا في السوق.",
+            "اثنان",
+            "عائلة",
+            "قهوة"
+          ]
+        },
+        {
+          "id": "day_49_2",
+          "type": "multipleChoice",
+          "correctAnswer": "اثنان",
+          "text": {
+            "en": "Translate: Two",
+            "ar": "ترجم: اثنان",
+            "de": "Übersetzen: Two",
+            "fr": "Traduire : Two",
+            "ru": "Перевести: Two",
+            "zh": "翻译：Two"
+          },
+          "options": [
+            "أتمنى لك يوماً سعيداً.",
+            "صباح الخير.",
+            "تصبح على خير.",
+            "اثنان"
+          ]
+        },
+        {
+          "id": "day_49_3",
+          "type": "audioOptions",
+          "correctAnswer": "لا",
+          "text": "لا",
+          "audioUrl": "true",
+          "options": [
+            "عائلة",
+            "لا",
+            "صباح الخير.",
+            "جيد"
+          ]
+        },
+        {
+          "id": "day_49_4",
+          "type": "audioOptions",
+          "correctAnswer": "جيد",
+          "text": "جيد",
+          "audioUrl": "true",
+          "options": [
+            "جيد",
+            "تصبح على خير.",
+            "أنا عطشان.",
+            "لا"
+          ]
+        },
+        {
+          "id": "day_49_5",
+          "type": "speaking",
+          "correctAnswer": "تصبح على خير.",
+          "text": "تصبح على خير."
+        },
+        {
+          "id": "day_49_6",
+          "type": "speaking",
+          "correctAnswer": "أنا عطشان.",
+          "text": "أنا عطشان."
+        },
+        {
+          "id": "day_49_7",
+          "type": "speaking",
+          "correctAnswer": "أتمنى لك يوماً سعيداً.",
+          "text": "أتمنى لك يوماً سعيداً."
+        },
+        {
+          "id": "day_49_8",
+          "type": "listening",
+          "correctAnswer": "أنا في السوق.",
+          "text": "أنا في السوق.",
+          "audioUrl": "true",
+          "options": [
+            "أنا عطشان.",
+            "اثنان",
+            "أنا في السوق.",
+            "صباح الخير."
+          ]
+        },
+        {
+          "id": "day_49_9",
+          "type": "listening",
+          "correctAnswer": "صباح الخير.",
+          "text": "صباح الخير.",
+          "audioUrl": "true",
+          "options": [
+            "أتمنى لك يوماً سعيداً.",
+            "اثنان",
+            "لا",
+            "صباح الخير."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 50,
+      "questions": [
+        {
+          "id": "day_50_0",
+          "type": "multipleChoice",
+          "correctAnswer": "كلب",
+          "text": {
+            "en": "Translate: Dog",
+            "ar": "ترجم: كلب",
+            "de": "Übersetzen: Dog",
+            "fr": "Traduire : Dog",
+            "ru": "Перевести: Dog",
+            "zh": "翻译：Dog"
+          },
+          "options": [
+            "عمل",
+            "مساء الخير.",
+            "هذا لذيذ جداً.",
+            "كلب"
+          ]
+        },
+        {
+          "id": "day_50_1",
+          "type": "multipleChoice",
+          "correctAnswer": "عمل",
+          "text": {
+            "en": "Translate: Work",
+            "ar": "ترجم: عمل",
+            "de": "Übersetzen: Work",
+            "fr": "Traduire : Work",
+            "ru": "Перевести: Work",
+            "zh": "翻译：Work"
+          },
+          "options": [
+            "سررت بلقائك.",
+            "نعم، قليلاً.",
+            "خبز",
+            "عمل"
+          ]
+        },
+        {
+          "id": "day_50_2",
+          "type": "multipleChoice",
+          "correctAnswer": "يأتي",
+          "text": {
+            "en": "Translate: Come",
+            "ar": "ترجم: يأتي",
+            "de": "Übersetzen: Come",
+            "fr": "Traduire : Come",
+            "ru": "Перевести: Come",
+            "zh": "翻译：Come"
+          },
+          "options": [
+            "مساء الخير.",
+            "هل أنت مستعد؟",
+            "كلب",
+            "يأتي"
+          ]
+        },
+        {
+          "id": "day_50_3",
+          "type": "audioOptions",
+          "correctAnswer": "خبز",
+          "text": "خبز",
+          "audioUrl": "true",
+          "options": [
+            "هل أنت مستعد؟",
+            "خبز",
+            "كلب",
+            "ينام"
+          ]
+        },
+        {
+          "id": "day_50_4",
+          "type": "audioOptions",
+          "correctAnswer": "ينام",
+          "text": "ينام",
+          "audioUrl": "true",
+          "options": [
+            "ينام",
+            "هل أنت مستعد؟",
+            "سررت بلقائك.",
+            "نعم، قليلاً."
+          ]
+        },
+        {
+          "id": "day_50_5",
+          "type": "speaking",
+          "correctAnswer": "هذا لذيذ جداً.",
+          "text": "هذا لذيذ جداً."
+        },
+        {
+          "id": "day_50_6",
+          "type": "speaking",
+          "correctAnswer": "مساء الخير.",
+          "text": "مساء الخير."
+        },
+        {
+          "id": "day_50_7",
+          "type": "speaking",
+          "correctAnswer": "هل أنت مستعد؟",
+          "text": "هل أنت مستعد؟"
+        },
+        {
+          "id": "day_50_8",
+          "type": "listening",
+          "correctAnswer": "نعم، قليلاً.",
+          "text": "نعم، قليلاً.",
+          "audioUrl": "true",
+          "options": [
+            "سررت بلقائك.",
+            "ينام",
+            "خبز",
+            "نعم، قليلاً."
+          ]
+        },
+        {
+          "id": "day_50_9",
+          "type": "listening",
+          "correctAnswer": "سررت بلقائك.",
+          "text": "سررت بلقائك.",
+          "audioUrl": "true",
+          "options": [
+            "عمل",
+            "هذا لذيذ جداً.",
+            "خبز",
+            "سررت بلقائك."
+          ]
+        }
+      ]
+    }
+  ]
+}

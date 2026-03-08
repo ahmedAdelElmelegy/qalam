@@ -1,0 +1,3302 @@
+{
+    "grammar_levels": [
+        {
+            "id": "beginner",
+            "level_code": "A1-A2",
+            "emoji": "🟢",
+            "titles": {
+                "en": "Beginner",
+                "ar": "مبتدئ",
+                "fr": "Débutant",
+                "de": "Anfänger",
+                "ru": "Начинающий",
+                "zh": "初学者"
+            },
+            "description": {
+                "en": "Start your journey with the basics of Arabic grammar.",
+                "ar": "ابدأ رحلتك مع أساسيات قواعد اللغة العربية.",
+                "fr": "Commencez votre voyage avec les bases de la grammaire arabe.",
+                "de": "Beginne deine Reise mit den Grundlagen der arabischen Grammatik.",
+                "ru": "Начните свое путешествие с основ арабской грамматики.",
+                "zh": "从阿拉伯语语法基础开始您的旅程。"
+            },
+            "topics": [
+                {
+                    "id": "alphabet_writing",
+                    "titles": {
+                        "en": "Alphabet & Writing System",
+                        "ar": "الأبجدية ونظام الكتابة",
+                        "fr": "Alphabet et système d'écriture",
+                        "de": "Alphabet und Schriftsystem",
+                        "ru": "Алфавит и система письма",
+                        "zh": "字母和书写系统"
+                    },
+                    "lessons": [
+                        {
+                            "id": "arabic_letters",
+                            "titles": {
+                                "en": "Arabic Letters Overview",
+                                "ar": "نظرة عامة على الحروف العربية"
+                            },
+                            "content": "The Arabic alphabet consists of 28 letters. It is written from right to left. All letters are consonants, while vowels are indicated by marks above or below the letters.",
+                            "examples": [
+                                {
+                                    "arabic": "أ",
+                                    "english": "Alif",
+                                    "audio_url": "audio/letters/alif.mp3"
+                                },
+                                {
+                                    "arabic": "ب",
+                                    "english": "Ba",
+                                    "audio_url": "audio/letters/ba.mp3"
+                                },
+                                {
+                                    "arabic": "ت",
+                                    "english": "Ta",
+                                    "audio_url": "audio/letters/ta.mp3"
+                                },
+                                {
+                                    "arabic": "ث",
+                                    "english": "Tha",
+                                    "audio_url": "audio/letters/tha.mp3"
+                                },
+                                {
+                                    "arabic": "ج",
+                                    "english": "Jim",
+                                    "audio_url": "audio/letters/jim.mp3"
+                                },
+                                {
+                                    "arabic": "ح",
+                                    "english": "Ha",
+                                    "audio_url": "audio/letters/ha.mp3"
+                                },
+                                {
+                                    "arabic": "خ",
+                                    "english": "Kha",
+                                    "audio_url": "audio/letters/kha.mp3"
+                                },
+                                {
+                                    "arabic": "د",
+                                    "english": "Dal",
+                                    "audio_url": "audio/letters/dal.mp3"
+                                },
+                                {
+                                    "arabic": "ذ",
+                                    "english": "Dhal",
+                                    "audio_url": "audio/letters/dhal.mp3"
+                                },
+                                {
+                                    "arabic": "ر",
+                                    "english": "Ra",
+                                    "audio_url": "audio/letters/ra.mp3"
+                                },
+                                {
+                                    "arabic": "ز",
+                                    "english": "Zay",
+                                    "audio_url": "audio/letters/zay.mp3"
+                                },
+                                {
+                                    "arabic": "س",
+                                    "english": "Sin",
+                                    "audio_url": "audio/letters/sin.mp3"
+                                },
+                                {
+                                    "arabic": "ش",
+                                    "english": "Shin",
+                                    "audio_url": "audio/letters/shin.mp3"
+                                },
+                                {
+                                    "arabic": "ص",
+                                    "english": "Sad",
+                                    "audio_url": "audio/letters/sad.mp3"
+                                },
+                                {
+                                    "arabic": "ض",
+                                    "english": "Dad",
+                                    "audio_url": "audio/letters/dad.mp3"
+                                },
+                                {
+                                    "arabic": "ط",
+                                    "english": "Tah",
+                                    "audio_url": "audio/letters/tah.mp3"
+                                },
+                                {
+                                    "arabic": "ظ",
+                                    "english": "Zah",
+                                    "audio_url": "audio/letters/zah.mp3"
+                                },
+                                {
+                                    "arabic": "ع",
+                                    "english": "'Ayn",
+                                    "audio_url": "audio/letters/ayn.mp3"
+                                },
+                                {
+                                    "arabic": "غ",
+                                    "english": "Ghayn",
+                                    "audio_url": "audio/letters/ghayn.mp3"
+                                },
+                                {
+                                    "arabic": "ف",
+                                    "english": "Fa",
+                                    "audio_url": "audio/letters/fa.mp3"
+                                },
+                                {
+                                    "arabic": "ق",
+                                    "english": "Qaf",
+                                    "audio_url": "audio/letters/qaf.mp3"
+                                },
+                                {
+                                    "arabic": "ك",
+                                    "english": "Kaf",
+                                    "audio_url": "audio/letters/kaf.mp3"
+                                },
+                                {
+                                    "arabic": "ل",
+                                    "english": "Lam",
+                                    "audio_url": "audio/letters/lam.mp3"
+                                },
+                                {
+                                    "arabic": "م",
+                                    "english": "Mim",
+                                    "audio_url": "audio/letters/mim.mp3"
+                                },
+                                {
+                                    "arabic": "ن",
+                                    "english": "Nun",
+                                    "audio_url": "audio/letters/nun.mp3"
+                                },
+                                {
+                                    "arabic": "ه",
+                                    "english": "Ha",
+                                    "audio_url": "audio/letters/ha_big.mp3"
+                                },
+                                {
+                                    "arabic": "و",
+                                    "english": "Waw",
+                                    "audio_url": "audio/letters/waw.mp3"
+                                },
+                                {
+                                    "arabic": "ي",
+                                    "english": "Ya",
+                                    "audio_url": "audio/letters/ya.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "letter_shapes",
+                            "titles": {
+                                "en": "Letter Shapes (Positions)",
+                                "ar": "أشكال الحروف (المواضع)"
+                            },
+                            "content": "Arabic letters change their shape depending on their position in the word: beginning, middle, end, or isolated. Most letters connect to both sides, but some 'stubborn' letters only connect to the right.",
+                            "examples": [
+                                {
+                                    "arabic": "ب ـبـ ـب ب",
+                                    "english": "Letter Ba in 4 positions",
+                                    "audio_url": null
+                                },
+                                {
+                                    "arabic": "كِتَاب",
+                                    "english": "Kitab (Book) - Notice how letters connect",
+                                    "audio_url": "audio/words/kitab.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "letters_group_1",
+                            "titles": {
+                                "en": "Letters: Alif to Tha (أ - ث)",
+                                "ar": "الحروف: أ - ث"
+                            },
+                            "content": "This group includes Alif (the first letter) and the 'Boat Family' (Ba, Ta, Tha) which share a similar base shape but differ in dot placement.",
+                            "examples": [
+                                {
+                                    "arabic": "أَسَد",
+                                    "english": "Asad (Lion) - Starts with Alif",
+                                    "audio_url": "audio/letters/asad.mp3"
+                                },
+                                {
+                                    "arabic": "بَيْت",
+                                    "english": "Bayt (House) - Starts with Ba (1 dot below)",
+                                    "audio_url": "audio/letters/bayt.mp3"
+                                },
+                                {
+                                    "arabic": "تُفَّاح",
+                                    "english": "Tuffah (Apple) - Starts with Ta (2 dots above)",
+                                    "audio_url": "audio/letters/tuffah.mp3"
+                                },
+                                {
+                                    "arabic": "ثَعْلَب",
+                                    "english": "Tha'lab (Fox) - Starts with Tha (3 dots above)",
+                                    "audio_url": "audio/letters/thalab.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "letters_group_2",
+                            "titles": {
+                                "en": "Letters: Jim to Kha (ج - خ)",
+                                "ar": "الحروف: ج - خ"
+                            },
+                            "content": "Jim, Ha, and Kha share a similar semi-circle shape. Jim has a dot inside, Ha has no dots, and Kha has a dot above.",
+                            "examples": [
+                                {
+                                    "arabic": "جَمَل",
+                                    "english": "Jamal (Camel) - Jim",
+                                    "audio_url": "audio/letters/jamal.mp3"
+                                },
+                                {
+                                    "arabic": "حِصَان",
+                                    "english": "Hisan (Horse) - Ha",
+                                    "audio_url": "audio/letters/hisan.mp3"
+                                },
+                                {
+                                    "arabic": "خَرُوف",
+                                    "english": "Kharoof (Sheep) - Kha",
+                                    "audio_url": "audio/letters/kharoof.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "letters_group_3",
+                            "titles": {
+                                "en": "Letters: Dal to Zay (د - ز)",
+                                "ar": "الحروف: د - ز"
+                            },
+                            "content": "These letters are 'non-connectors' from the left side. Dal/Dhal are small curves; Ra/Zay dip below the line.",
+                            "examples": [
+                                {
+                                    "arabic": "دُبّ",
+                                    "english": "Dubb (Bear) - Dal",
+                                    "audio_url": "audio/letters/dubb.mp3"
+                                },
+                                {
+                                    "arabic": "ذِئْب",
+                                    "english": "Dhi'b (Wolf) - Dhal (dot above)",
+                                    "audio_url": "audio/letters/dhib.mp3"
+                                },
+                                {
+                                    "arabic": "رُمَّان",
+                                    "english": "Rumman (Pomegranate) - Ra",
+                                    "audio_url": "audio/letters/rumman.mp3"
+                                },
+                                {
+                                    "arabic": "زَرَافَة",
+                                    "english": "Zarafa (Giraffe) - Zay (dot above)",
+                                    "audio_url": "audio/letters/zarafa.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "letters_group_4",
+                            "titles": {
+                                "en": "Letters: Sin to Dad (س - ض)",
+                                "ar": "الحروف: س - ض"
+                            },
+                            "content": "Sin/Shin have 'teeth'. Sad/Dad have a loop shape. Note the emphasis in Sad and Dad (heavy letters).",
+                            "examples": [
+                                {
+                                    "arabic": "سَمَكَة",
+                                    "english": "Samaka (Fish) - Sin",
+                                    "audio_url": "audio/letters/samaka.mp3"
+                                },
+                                {
+                                    "arabic": "شَمْس",
+                                    "english": "Shams (Sun) - Shin (3 dots)",
+                                    "audio_url": "audio/letters/shams.mp3"
+                                },
+                                {
+                                    "arabic": "صَقْر",
+                                    "english": "Saqr (Falcon) - Sad",
+                                    "audio_url": "audio/letters/saqr.mp3"
+                                },
+                                {
+                                    "arabic": "ضِفْدَع",
+                                    "english": "Difda' (Frog) - Dad (dot above)",
+                                    "audio_url": "audio/letters/difda.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "letters_group_5",
+                            "titles": {
+                                "en": "Letters: Tah to Ghayn (ط - غ)",
+                                "ar": "الحروف: ط - غ"
+                            },
+                            "content": "Tah and Zah are emphasized loops. 'Ayn and Ghayn have a small curve above and a larger one below. Ghayn has a dot.",
+                            "examples": [
+                                {
+                                    "arabic": "طَبِيب",
+                                    "english": "Tabib (Doctor) - Tah",
+                                    "audio_url": "audio/letters/tabib.mp3"
+                                },
+                                {
+                                    "arabic": "ظَرْف",
+                                    "english": "Zarf (Envelope) - Zah",
+                                    "audio_url": "audio/letters/zarf.mp3"
+                                },
+                                {
+                                    "arabic": "عَيْن",
+                                    "english": "'Ayn (Eye) - 'Ayn",
+                                    "audio_url": "audio/letters/ayn_eye.mp3"
+                                },
+                                {
+                                    "arabic": "غُرَاب",
+                                    "english": "Ghurab (Crow) - Ghayn",
+                                    "audio_url": "audio/letters/ghurab.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "letters_group_6",
+                            "titles": {
+                                "en": "Letters: Fa to Kaf (ف - ك)",
+                                "ar": "الحروف: ف - ك"
+                            },
+                            "content": "Fa has one dot, Qaf has two dots. Kaf has a unique 'S' shape inside when at the end.",
+                            "examples": [
+                                {
+                                    "arabic": "فِيل",
+                                    "english": "Fil (Elephant) - Fa",
+                                    "audio_url": "audio/letters/fil.mp3"
+                                },
+                                {
+                                    "arabic": "قَمَر",
+                                    "english": "Qamar (Moon) - Qaf",
+                                    "audio_url": "audio/letters/qamar.mp3"
+                                },
+                                {
+                                    "arabic": "كِتَاب",
+                                    "english": "Kitab (Book) - Kaf",
+                                    "audio_url": "audio/letters/kitab.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "letters_group_7",
+                            "titles": {
+                                "en": "Letters: Lam to Ya (ل - ي)",
+                                "ar": "الحروف: ل - ي"
+                            },
+                            "content": "The final group. Lam looks like a hook. Mim is a small loop. Nun has a dot. Ha is a circle. Waw and Ya are also long vowels.",
+                            "examples": [
+                                {
+                                    "arabic": "لَيْمُون",
+                                    "english": "Laymun (Lemon) - Lam",
+                                    "audio_url": "audio/letters/laymun.mp3"
+                                },
+                                {
+                                    "arabic": "مَوْز",
+                                    "english": "Mawz (Banana) - Mim",
+                                    "audio_url": "audio/letters/mawz.mp3"
+                                },
+                                {
+                                    "arabic": "نَمِر",
+                                    "english": "Namir (Tiger) - Nun",
+                                    "audio_url": "audio/letters/namir.mp3"
+                                },
+                                {
+                                    "arabic": "هُدْهُد",
+                                    "english": "Hudhud (Hoopoe) - Ha",
+                                    "audio_url": "audio/letters/hudhud.mp3"
+                                },
+                                {
+                                    "arabic": "وَرْدَة",
+                                    "english": "Warda (Rose) - Waw",
+                                    "audio_url": "audio/letters/warda.mp3"
+                                },
+                                {
+                                    "arabic": "يَد",
+                                    "english": "Yad (Hand) - Ya",
+                                    "audio_url": "audio/letters/yad.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "short_vowels",
+                            "titles": {
+                                "en": "Short Vowels (Harakat)",
+                                "ar": "الحركات القصيرة"
+                            },
+                            "content": "Short vowels are marks placed above or below letters to determine pronunciation. The three main short vowels are Fatha (a), Kasra (i), and Damma (u).",
+                            "examples": [
+                                {
+                                    "arabic": "أَ",
+                                    "english": "Alif + Fatha (a)",
+                                    "audio_url": "audio/vowels/a_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "إِ",
+                                    "english": "Alif + Kasra (i)",
+                                    "audio_url": "audio/vowels/a_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "أُ",
+                                    "english": "Alif + Damma (u)",
+                                    "audio_url": "audio/vowels/a_damma.mp3"
+                                },
+                                {
+                                    "arabic": "بَ",
+                                    "english": "Ba + Fatha (ba)",
+                                    "audio_url": "audio/vowels/ba_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "بِ",
+                                    "english": "Ba + Kasra (bi)",
+                                    "audio_url": "audio/vowels/ba_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "بُ",
+                                    "english": "Ba + Damma (bu)",
+                                    "audio_url": "audio/vowels/ba_damma.mp3"
+                                },
+                                {
+                                    "arabic": "تَ",
+                                    "english": "Ta + Fatha (ta)",
+                                    "audio_url": "audio/vowels/ta_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "تِ",
+                                    "english": "Ta + Kasra (ti)",
+                                    "audio_url": "audio/vowels/ta_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "تُ",
+                                    "english": "Ta + Damma (tu)",
+                                    "audio_url": "audio/vowels/ta_damma.mp3"
+                                },
+                                {
+                                    "arabic": "ثَ",
+                                    "english": "Tha + Fatha (tha)",
+                                    "audio_url": "audio/vowels/tha_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "ثِ",
+                                    "english": "Tha + Kasra (thi)",
+                                    "audio_url": "audio/vowels/tha_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "ثُ",
+                                    "english": "Tha + Damma (thu)",
+                                    "audio_url": "audio/vowels/tha_damma.mp3"
+                                },
+                                {
+                                    "arabic": "جَ",
+                                    "english": "Jim + Fatha (ja)",
+                                    "audio_url": "audio/vowels/ja_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "جِ",
+                                    "english": "Jim + Kasra (ji)",
+                                    "audio_url": "audio/vowels/ja_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "جُ",
+                                    "english": "Jim + Damma (ju)",
+                                    "audio_url": "audio/vowels/ja_damma.mp3"
+                                },
+                                {
+                                    "arabic": "حَ",
+                                    "english": "Ha + Fatha (ha)",
+                                    "audio_url": "audio/vowels/ha_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "حِ",
+                                    "english": "Ha + Kasra (hi)",
+                                    "audio_url": "audio/vowels/ha_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "حُ",
+                                    "english": "Ha + Damma (hu)",
+                                    "audio_url": "audio/vowels/ha_damma.mp3"
+                                },
+                                {
+                                    "arabic": "خَ",
+                                    "english": "Kha + Fatha (kha)",
+                                    "audio_url": "audio/vowels/kha_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "خِ",
+                                    "english": "Kha + Kasra (khi)",
+                                    "audio_url": "audio/vowels/kha_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "خُ",
+                                    "english": "Kha + Damma (khu)",
+                                    "audio_url": "audio/vowels/kha_damma.mp3"
+                                },
+                                {
+                                    "arabic": "دَ",
+                                    "english": "Dal + Fatha (da)",
+                                    "audio_url": "audio/vowels/da_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "دِ",
+                                    "english": "Dal + Kasra (di)",
+                                    "audio_url": "audio/vowels/da_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "دُ",
+                                    "english": "Dal + Damma (du)",
+                                    "audio_url": "audio/vowels/da_damma.mp3"
+                                },
+                                {
+                                    "arabic": "ذَ",
+                                    "english": "Dhal + Fatha (dha)",
+                                    "audio_url": "audio/vowels/dha_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "ذِ",
+                                    "english": "Dhal + Kasra (dhi)",
+                                    "audio_url": "audio/vowels/dha_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "ذُ",
+                                    "english": "Dhal + Damma (dhu)",
+                                    "audio_url": "audio/vowels/dha_damma.mp3"
+                                },
+                                {
+                                    "arabic": "رَ",
+                                    "english": "Ra + Fatha (ra)",
+                                    "audio_url": "audio/vowels/ra_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "رِ",
+                                    "english": "Ra + Kasra (ri)",
+                                    "audio_url": "audio/vowels/ra_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "رُ",
+                                    "english": "Ra + Damma (ru)",
+                                    "audio_url": "audio/vowels/ra_damma.mp3"
+                                },
+                                {
+                                    "arabic": "زَ",
+                                    "english": "Zay + Fatha (za)",
+                                    "audio_url": "audio/vowels/za_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "زِ",
+                                    "english": "Zay + Kasra (zi)",
+                                    "audio_url": "audio/vowels/za_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "زُ",
+                                    "english": "Zay + Damma (zu)",
+                                    "audio_url": "audio/vowels/za_damma.mp3"
+                                },
+                                {
+                                    "arabic": "سَ",
+                                    "english": "Sin + Fatha (sa)",
+                                    "audio_url": "audio/vowels/sa_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "سِ",
+                                    "english": "Sin + Kasra (si)",
+                                    "audio_url": "audio/vowels/sa_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "سُ",
+                                    "english": "Sin + Damma (su)",
+                                    "audio_url": "audio/vowels/sa_damma.mp3"
+                                },
+                                {
+                                    "arabic": "شَ",
+                                    "english": "Shin + Fatha (sha)",
+                                    "audio_url": "audio/vowels/sha_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "شِ",
+                                    "english": "Shin + Kasra (shi)",
+                                    "audio_url": "audio/vowels/sha_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "شُ",
+                                    "english": "Shin + Damma (shu)",
+                                    "audio_url": "audio/vowels/sha_damma.mp3"
+                                },
+                                {
+                                    "arabic": "صَ",
+                                    "english": "Sad + Fatha (sa)",
+                                    "audio_url": "audio/vowels/sad_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "صِ",
+                                    "english": "Sad + Kasra (si)",
+                                    "audio_url": "audio/vowels/sad_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "صُ",
+                                    "english": "Sad + Damma (su)",
+                                    "audio_url": "audio/vowels/sad_damma.mp3"
+                                },
+                                {
+                                    "arabic": "ضَ",
+                                    "english": "Dad + Fatha (da)",
+                                    "audio_url": "audio/vowels/dad_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "ضِ",
+                                    "english": "Dad + Kasra (di)",
+                                    "audio_url": "audio/vowels/dad_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "ضُ",
+                                    "english": "Dad + Damma (du)",
+                                    "audio_url": "audio/vowels/dad_damma.mp3"
+                                },
+                                {
+                                    "arabic": "طَ",
+                                    "english": "Tah + Fatha (ta)",
+                                    "audio_url": "audio/vowels/tah_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "طِ",
+                                    "english": "Tah + Kasra (ti)",
+                                    "audio_url": "audio/vowels/tah_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "طُ",
+                                    "english": "Tah + Damma (tu)",
+                                    "audio_url": "audio/vowels/tah_damma.mp3"
+                                },
+                                {
+                                    "arabic": "ظَ",
+                                    "english": "Zah + Fatha (za)",
+                                    "audio_url": "audio/vowels/zah_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "ظِ",
+                                    "english": "Zah + Kasra (zi)",
+                                    "audio_url": "audio/vowels/zah_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "ظُ",
+                                    "english": "Zah + Damma (zu)",
+                                    "audio_url": "audio/vowels/zah_damma.mp3"
+                                },
+                                {
+                                    "arabic": "عَ",
+                                    "english": "Ain + Fatha ('a)",
+                                    "audio_url": "audio/vowels/ain_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "عِ",
+                                    "english": "Ain + Kasra ('i)",
+                                    "audio_url": "audio/vowels/ain_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "عُ",
+                                    "english": "Ain + Damma ('u)",
+                                    "audio_url": "audio/vowels/ain_damma.mp3"
+                                },
+                                {
+                                    "arabic": "غَ",
+                                    "english": "Ghayn + Fatha (gha)",
+                                    "audio_url": "audio/vowels/ghayn_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "غِ",
+                                    "english": "Ghayn + Kasra (ghi)",
+                                    "audio_url": "audio/vowels/ghayn_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "غُ",
+                                    "english": "Ghayn + Damma (ghu)",
+                                    "audio_url": "audio/vowels/ghayn_damma.mp3"
+                                },
+                                {
+                                    "arabic": "فَ",
+                                    "english": "Fa + Fatha (fa)",
+                                    "audio_url": "audio/vowels/fa_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "فِ",
+                                    "english": "Fa + Kasra (fi)",
+                                    "audio_url": "audio/vowels/fa_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "فُ",
+                                    "english": "Fa + Damma (fu)",
+                                    "audio_url": "audio/vowels/fa_damma.mp3"
+                                },
+                                {
+                                    "arabic": "قَ",
+                                    "english": "Qaf + Fatha (qa)",
+                                    "audio_url": "audio/vowels/qaf_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "قِ",
+                                    "english": "Qaf + Kasra (qi)",
+                                    "audio_url": "audio/vowels/qaf_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "قُ",
+                                    "english": "Qaf + Damma (qu)",
+                                    "audio_url": "audio/vowels/qaf_damma.mp3"
+                                },
+                                {
+                                    "arabic": "كَ",
+                                    "english": "Kaf + Fatha (ka)",
+                                    "audio_url": "audio/vowels/kaf_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "كِ",
+                                    "english": "Kaf + Kasra (ki)",
+                                    "audio_url": "audio/vowels/kaf_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "كُ",
+                                    "english": "Kaf + Damma (ku)",
+                                    "audio_url": "audio/vowels/kaf_damma.mp3"
+                                },
+                                {
+                                    "arabic": "لَ",
+                                    "english": "Lam + Fatha (la)",
+                                    "audio_url": "audio/vowels/lam_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "لِ",
+                                    "english": "Lam + Kasra (li)",
+                                    "audio_url": "audio/vowels/lam_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "لُ",
+                                    "english": "Lam + Damma (lu)",
+                                    "audio_url": "audio/vowels/lam_damma.mp3"
+                                },
+                                {
+                                    "arabic": "مَ",
+                                    "english": "Mim + Fatha (ma)",
+                                    "audio_url": "audio/vowels/mim_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "مِ",
+                                    "english": "Mim + Kasra (mi)",
+                                    "audio_url": "audio/vowels/mim_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "مُ",
+                                    "english": "Mim + Damma (mu)",
+                                    "audio_url": "audio/vowels/mim_damma.mp3"
+                                },
+                                {
+                                    "arabic": "نَ",
+                                    "english": "Nun + Fatha (na)",
+                                    "audio_url": "audio/vowels/nun_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "نِ",
+                                    "english": "Nun + Kasra (ni)",
+                                    "audio_url": "audio/vowels/nun_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "نُ",
+                                    "english": "Nun + Damma (nu)",
+                                    "audio_url": "audio/vowels/nun_damma.mp3"
+                                },
+                                {
+                                    "arabic": "هَ",
+                                    "english": "Ha + Fatha (ha)",
+                                    "audio_url": "audio/vowels/ha2_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "هِ",
+                                    "english": "Ha + Kasra (hi)",
+                                    "audio_url": "audio/vowels/ha2_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "هُ",
+                                    "english": "Ha + Damma (hu)",
+                                    "audio_url": "audio/vowels/ha2_damma.mp3"
+                                },
+                                {
+                                    "arabic": "وَ",
+                                    "english": "Waw + Fatha (wa)",
+                                    "audio_url": "audio/vowels/waw_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "وِ",
+                                    "english": "Waw + Kasra (wi)",
+                                    "audio_url": "audio/vowels/waw_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "وُ",
+                                    "english": "Waw + Damma (wu)",
+                                    "audio_url": "audio/vowels/waw_damma.mp3"
+                                },
+                                {
+                                    "arabic": "يَ",
+                                    "english": "Ya + Fatha (ya)",
+                                    "audio_url": "audio/vowels/ya_fatha.mp3"
+                                },
+                                {
+                                    "arabic": "يِ",
+                                    "english": "Ya + Kasra (yi)",
+                                    "audio_url": "audio/vowels/ya_kasra.mp3"
+                                },
+                                {
+                                    "arabic": "يُ",
+                                    "english": "Ya + Damma (yu)",
+                                    "audio_url": "audio/vowels/ya_damma.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "long_vowels",
+                            "titles": {
+                                "en": "Long Vowels (Mad)",
+                                "ar": "المدود (الحركات الطويلة)"
+                            },
+                            "content": "Long vowels are elongations of short vowels. Alif extends Fatha, Ya extends Kasra, and Waw extends Damma.",
+                            "examples": [
+                                {
+                                    "arabic": "بَا",
+                                    "english": "Baa (Long 'a')",
+                                    "audio_url": "audio/vowels/baa_long.mp3"
+                                },
+                                {
+                                    "arabic": "بِي",
+                                    "english": "Bii (Long 'i')",
+                                    "audio_url": "audio/vowels/bii_long.mp3"
+                                },
+                                {
+                                    "arabic": "بُو",
+                                    "english": "Buu (Long 'u')",
+                                    "audio_url": "audio/vowels/buu_long.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sukoon_shadda",
+                            "titles": {
+                                "en": "Sukoon & Shadda",
+                                "ar": "السكون والشدة"
+                            },
+                            "content": "Sukoon indicates the absence of a vowel (stop). Shadda indicates a doubled consonant, emphasized by holding the sound slightly longer.",
+                            "examples": [
+                                {
+                                    "arabic": "بْ",
+                                    "english": "Sukoon (Stop)",
+                                    "audio_url": null
+                                },
+                                {
+                                    "arabic": "شَدَّة",
+                                    "english": "Shadda (Stress)",
+                                    "audio_url": "audio/vowels/shadda.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "pronouns",
+                    "titles": {
+                        "en": "Pronouns",
+                        "ar": "الضمائر",
+                        "fr": "Pronoms",
+                        "de": "Pronomen",
+                        "ru": "Местоимения",
+                        "zh": "代词"
+                    },
+                    "lessons": [
+                        {
+                            "id": "subject_pronouns",
+                            "titles": {
+                                "en": "Subject Pronouns",
+                                "ar": "ضمائر الرفع المنفصلة"
+                            },
+                            "content": "Subject pronouns are used to indicate the doer of the action or the subject of a nominal sentence. They are detached and independent.",
+                            "examples": [
+                                {
+                                    "arabic": "أَنَا",
+                                    "english": "Ana (I am)",
+                                    "audio_url": "audio/pronouns/ana.mp3"
+                                },
+                                {
+                                    "arabic": "هُوَ",
+                                    "english": "Huwa (He is)",
+                                    "audio_url": "audio/pronouns/huwa.mp3"
+                                },
+                                {
+                                    "arabic": "هِيَ",
+                                    "english": "Hiya (She is)",
+                                    "audio_url": "audio/pronouns/hiya.mp3"
+                                },
+                                {
+                                    "arabic": "نَحْنُ",
+                                    "english": "Nahnu (We are)",
+                                    "audio_url": "audio/pronouns/nahnu.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "object_pronouns",
+                            "titles": {
+                                "en": "Object Pronouns",
+                                "ar": "ضمائر النصب"
+                            },
+                            "content": "Object pronouns are attached suffixes connected to verbs to indicate who receive the action.",
+                            "examples": [
+                                {
+                                    "arabic": "رَآهُ",
+                                    "english": "Ra'a-hu (He saw *him*)",
+                                    "audio_url": "audio/pronouns/raahu.mp3"
+                                },
+                                {
+                                    "arabic": "رَآهَا",
+                                    "english": "Ra'a-ha (He saw *her*)",
+                                    "audio_url": "audio/pronouns/raaha.mp3"
+                                },
+                                {
+                                    "arabic": "رَآنِي",
+                                    "english": "Ra'a-ni (He saw *me*)",
+                                    "audio_url": "audio/pronouns/raani.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "possessive_pronouns",
+                            "titles": {
+                                "en": "Possessive Pronouns",
+                                "ar": "ضمائر الملكية"
+                            },
+                            "content": "Possession is expressed by attaching suffix pronouns to the end of nouns.",
+                            "examples": [
+                                {
+                                    "arabic": "كِتَابِي",
+                                    "english": "Kitabi (My book)",
+                                    "audio_url": "audio/pronouns/kitabi.mp3"
+                                },
+                                {
+                                    "arabic": "كِتَابُكَ",
+                                    "english": "Kitabuka (Your book - masc.)",
+                                    "audio_url": "audio/pronouns/kitabuka.mp3"
+                                },
+                                {
+                                    "arabic": "كِتَابُكِ",
+                                    "english": "Kitabuki (Your book - fem.)",
+                                    "audio_url": "audio/pronouns/kitabuki.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sentence_basics",
+                    "titles": {
+                        "en": "Sentence Basics",
+                        "ar": "أساسيات الجملة",
+                        "fr": "Bases de la phrase",
+                        "de": "Satzgrundlagen",
+                        "ru": "Основы предложения",
+                        "zh": "句子基础"
+                    },
+                    "lessons": [
+                        {
+                            "id": "nominal_sentence",
+                            "titles": {
+                                "en": "Nominal Sentence",
+                                "ar": "الجملة الاسمية"
+                            },
+                            "content": "A nominal sentence (Jumla Ismiyya) starts with a noun or pronoun. It consists of a Subject (Mubtada) and Predicate (Khabar) and typically corresponds to 'is/are' sentences in English.",
+                            "examples": [
+                                {
+                                    "arabic": "الْبَيْتُ كَبِيرٌ",
+                                    "english": "Al-baytu kabirun (The house is big)",
+                                    "audio_url": "audio/sentences/house_big.mp3"
+                                },
+                                {
+                                    "arabic": "أَنَا طَالِبٌ",
+                                    "english": "Ana talibun (I am a student)",
+                                    "audio_url": "audio/sentences/ana_talib.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "verbal_sentence",
+                            "titles": {
+                                "en": "Verbal Sentence",
+                                "ar": "الجملة الفعلية"
+                            },
+                            "content": "A verbal sentence (Jumla Fi'liyya) starts with a verb. The standard order is: Verb + Subject + Object.",
+                            "examples": [
+                                {
+                                    "arabic": "كَتَبَ الطَّالِبُ الدَّرْسَ",
+                                    "english": "Kataba al-talibu al-darsa (The student wrote the lesson)",
+                                    "audio_url": "audio/sentences/kataba_talib.mp3"
+                                },
+                                {
+                                    "arabic": "يَأْكُلُ الرَّجُلُ التُّفَّاحَةَ",
+                                    "english": "Ya'kulu al-rajulu al-tuffaha (The man eats the apple)",
+                                    "audio_url": "audio/sentences/yakulu_rajul.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "word_order",
+                            "titles": {
+                                "en": "Word Order",
+                                "ar": "ترتيب الكلمات"
+                            },
+                            "content": "While Verb-Subject-Object (VSO) is standard for verbal sentences, Subject-Verb-Object (SVO) is also common in nominal sentences or for emphasis.",
+                            "examples": [
+                                {
+                                    "arabic": "ذَهَبَ أَحْمَدُ إِلَى الْمَدْرَسَةِ",
+                                    "english": "Dhahaba Ahmed ila al-madrasa (Ahmed went to school - VSO)",
+                                    "audio_url": "audio/sentences/dhahaba_ahmed.mp3"
+                                },
+                                {
+                                    "arabic": "أَحْمَدُ ذَهَبَ إِلَى الْمَدْرَسَةِ",
+                                    "english": "Ahmed dhahaba ila al-madrasa (Ahmed went to school - SVO)",
+                                    "audio_url": "audio/sentences/ahmed_dhahaba.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "agreement_rules",
+                            "titles": {
+                                "en": "Agreement Rules",
+                                "ar": "قواعد المطابقة"
+                            },
+                            "content": "In verbal sentences starting with a verb, the verb is usually singular even if the subject is plural. However, in nominal sentences, the verb must match the subject in number.",
+                            "examples": [
+                                {
+                                    "arabic": "دَخَلَ الطُّلَّابُ",
+                                    "english": "Dakhala al-tullabu (The students entered - Verb Singular)",
+                                    "audio_url": "audio/sentences/dakhala_tullab.mp3"
+                                },
+                                {
+                                    "arabic": "الطُّلَّابُ دَخَلُوا",
+                                    "english": "Al-tullabu dakhalu (The students entered - Verb Plural)",
+                                    "audio_url": "audio/sentences/tullab_dakhalu.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "nouns",
+                    "titles": {
+                        "en": "Nouns",
+                        "ar": "الاسم",
+                        "fr": "Noms",
+                        "de": "Nomen",
+                        "ru": "Существительные",
+                        "zh": "名词"
+                    },
+                    "lessons": [
+                        {
+                            "id": "noun_gender",
+                            "titles": {
+                                "en": "Gender (Masculine / Feminine)",
+                                "ar": "المذكر والمؤنث"
+                            },
+                            "content": "All Arabic nouns are either masculine or feminine. Feminine nouns usually end with Taa Marbuta (ة).",
+                            "examples": [
+                                {
+                                    "arabic": "وَلَدٌ",
+                                    "english": "Walad (Boy - Masculine)",
+                                    "audio_url": "audio/nouns/walad.mp3"
+                                },
+                                {
+                                    "arabic": "بِنْتٌ",
+                                    "english": "Bint (Girl - Feminine)",
+                                    "audio_url": "audio/nouns/bint.mp3"
+                                },
+                                {
+                                    "arabic": "مَدْرَسَةٌ",
+                                    "english": "Madrasa (School - Feminine with ة)",
+                                    "audio_url": "audio/nouns/madrasa.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "noun_number",
+                            "titles": {
+                                "en": "Singular / Dual / Plural",
+                                "ar": "المفرد والمثنى والجمع"
+                            },
+                            "content": "Arabic has three numbers: Singular (one), Dual (two), and Plural (three or more). Dual ends in 'aan' (ان) or 'ayn' (ين).",
+                            "examples": [
+                                {
+                                    "arabic": "كِتَابٌ",
+                                    "english": "Kitab (Book - Singular)",
+                                    "audio_url": "audio/nouns/kitab.mp3"
+                                },
+                                {
+                                    "arabic": "كِتَابَانِ",
+                                    "english": "Kitaban (Two books - Dual)",
+                                    "audio_url": "audio/nouns/kitaban.mp3"
+                                },
+                                {
+                                    "arabic": "كُتُبٌ",
+                                    "english": "Kutub (Books - Plural)",
+                                    "audio_url": "audio/nouns/kutub.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sound_plurals",
+                            "titles": {
+                                "en": "Sound Plurals",
+                                "ar": "الجمع السالم"
+                            },
+                            "content": "Sound Masculine Plural adds 'oon' (ون) or 'een' (ين). Sound Feminine Plural adds 'aat' (ات).",
+                            "examples": [
+                                {
+                                    "arabic": "مُعَلِّمُونَ",
+                                    "english": "Mu'allimoon (Teachers - Masc. Plural)",
+                                    "audio_url": "audio/nouns/muallimoon.mp3"
+                                },
+                                {
+                                    "arabic": "مُعَلِّمَاتٌ",
+                                    "english": "Mu'allimaat (Teachers - Fem. Plural)",
+                                    "audio_url": "audio/nouns/muallimaat.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "broken_plurals",
+                            "titles": {
+                                "en": "Broken Plurals",
+                                "ar": "جمع التكسير"
+                            },
+                            "content": "Broken plurals do not follow a regular rule; the internal structure of the word changes. These must be memorized.",
+                            "examples": [
+                                {
+                                    "arabic": "قَلَمٌ - أَقْلَامٌ",
+                                    "english": "Qalam - Aqlam (Pen - Pens)",
+                                    "audio_url": "audio/nouns/qalam_aqlam.mp3"
+                                },
+                                {
+                                    "arabic": "وَلَدٌ - أَوْلَادٌ",
+                                    "english": "Walad - Awlad (Boy - Boys)",
+                                    "audio_url": "audio/nouns/walad_awlad.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "definite_indefinite",
+                            "titles": {
+                                "en": "Definite & Indefinite",
+                                "ar": "النكرة والمعرفة"
+                            },
+                            "content": "Indefinite nouns usually take Tanween (un/an/in). Definite nouns start with 'Al-' (ال) and lose the Tanween.",
+                            "examples": [
+                                {
+                                    "arabic": "بَيْتٌ",
+                                    "english": "Baytun (A house)",
+                                    "audio_url": "audio/nouns/baytun.mp3"
+                                },
+                                {
+                                    "arabic": "الْبَيْتُ",
+                                    "english": "Al-baytu (The house)",
+                                    "audio_url": "audio/nouns/albaytu.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "case_endings_basics",
+                            "titles": {
+                                "en": "Case Endings Basics",
+                                "ar": "أساسيات الإعراب"
+                            },
+                            "content": "Arabic nouns change their ending vowel based on their role in the sentence: Marfu' (Nominative - u), Mansub (Accusative - a), Majrur (Genitive - i).",
+                            "examples": [
+                                {
+                                    "arabic": "جَاءَ زَيْدٌ",
+                                    "english": "Ja'a Zaidun (Zaid came - Subject/Marfu')",
+                                    "audio_url": "audio/nouns/zaidun.mp3"
+                                },
+                                {
+                                    "arabic": "رَأَيْتُ زَيْدًا",
+                                    "english": "Ra'aytu Zaidan (I saw Zaid - Object/Mansub)",
+                                    "audio_url": "audio/nouns/zaidan.mp3"
+                                },
+                                {
+                                    "arabic": "سَلَّمْتُ عَلَى زَيْدٍ",
+                                    "english": "Sallamtu 'ala Zaidin (I greeted Zaid - Genitive/Majrur)",
+                                    "audio_url": "audio/nouns/zaidin.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "adjectives",
+                    "titles": {
+                        "en": "Adjectives",
+                        "ar": "الصفة",
+                        "fr": "Adjectifs",
+                        "de": "Adjektive",
+                        "ru": "Прилагательные",
+                        "zh": "形容词"
+                    },
+                    "lessons": [
+                        {
+                            "id": "adj_agreement",
+                            "titles": {
+                                "en": "Agreement Rules",
+                                "ar": "قواعد المطابقة"
+                            },
+                            "content": "Adjectives follow the noun they describe. They must match in Gender, Number, Definiteness, and Case.",
+                            "examples": [
+                                {
+                                    "arabic": "وَلَدٌ طَوِيلٌ",
+                                    "english": "Waladun taweelun (A tall boy)",
+                                    "audio_url": "audio/adjectives/walad_taweel.mp3"
+                                },
+                                {
+                                    "arabic": "الْبِنْتُ الطَّوِيلَةُ",
+                                    "english": "Al-bintu al-taweelatu (The tall girl)",
+                                    "audio_url": "audio/adjectives/bint_taweela.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "descriptions",
+                            "titles": {
+                                "en": "Descriptions",
+                                "ar": "الوصف"
+                            },
+                            "content": "Common adjectives for describing people, objects, and places.",
+                            "examples": [
+                                {
+                                    "arabic": "كَبِيرٌ / صَغِيرٌ",
+                                    "english": "Kabir / Saghir (Big / Small)",
+                                    "audio_url": "audio/adjectives/kabir_saghir.mp3"
+                                },
+                                {
+                                    "arabic": "جَدِيدٌ / قَدِيمٌ",
+                                    "english": "Jadid / Qadim (New / Old)",
+                                    "audio_url": "audio/adjectives/jadid_qadim.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "demonstratives",
+                    "titles": {
+                        "en": "Demonstratives & Articles",
+                        "ar": "أسماء الإشارة والأدوات",
+                        "fr": "Démonstratifs et articles",
+                        "de": "Demonstrativpronomen und Artikel",
+                        "ru": "Указательные местоимения и артикли",
+                        "zh": "指示代词和冠词"
+                    },
+                    "lessons": [
+                        {
+                            "id": "demonstrative_pronouns",
+                            "titles": {
+                                "en": "Demonstrative Pronouns",
+                                "ar": "أسماء الإشارة"
+                            },
+                            "content": "Demonstratives point to specific things. 'Hadha' (this) is for masculine near, 'Hadhihi' (this) for feminine near. 'Dhalika' (that) is for masculine far, 'Tilka' (that) for feminine far.",
+                            "examples": [
+                                {
+                                    "arabic": "هَذَا كِتَابٌ",
+                                    "english": "Hadha kitabun (This is a book)",
+                                    "audio_url": "audio/demonstratives/hadha_kitab.mp3"
+                                },
+                                {
+                                    "arabic": "هَذِهِ بِنْتٌ",
+                                    "english": "Hadhihi bintun (This is a girl)",
+                                    "audio_url": "audio/demonstratives/hadhihi_bint.mp3"
+                                },
+                                {
+                                    "arabic": "ذَلِكَ بَيْتٌ",
+                                    "english": "Dhalika baytun (That is a house)",
+                                    "audio_url": "audio/demonstratives/dhalika_bayt.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "definite_article_2",
+                            "titles": {
+                                "en": "Definite Article (ال)",
+                                "ar": "ال التعريف"
+                            },
+                            "content": "Adding 'Al-' makes a noun definite. Note the visible difference between Moon letters (pronounced clearly) and Sun letters (merged with the following letter).",
+                            "examples": [
+                                {
+                                    "arabic": "الْقَمَرُ",
+                                    "english": "Al-qamaru (The moon - Moon Letter)",
+                                    "audio_url": "audio/demonstratives/alqamar.mp3"
+                                },
+                                {
+                                    "arabic": "الشَّمْسُ",
+                                    "english": "Al-shamsu -> Ash-shamsu (The sun - Sun Letter)",
+                                    "audio_url": "audio/demonstratives/ashshams.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "indefinite_forms",
+                            "titles": {
+                                "en": "Indefinite Forms",
+                                "ar": "صيغ النكرة"
+                            },
+                            "content": "A noun without 'Al-' and typically with Tanween is indefinite, equivalent to 'a' or 'an' in English.",
+                            "examples": [
+                                {
+                                    "arabic": "رَأَيْتُ رَجُلًا",
+                                    "english": "Ra'aytu rajulan (I saw a man)",
+                                    "audio_url": "audio/demonstratives/rajulan.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "prepositions",
+                    "titles": {
+                        "en": "Prepositions",
+                        "ar": "حروف الجر",
+                        "fr": "Prépositions",
+                        "de": "Präpositionen",
+                        "ru": "Предлоги",
+                        "zh": "介词"
+                    },
+                    "lessons": [
+                        {
+                            "id": "basic_prepositions",
+                            "titles": {
+                                "en": "Basic Prepositions",
+                                "ar": "حروف الجر الأساسية"
+                            },
+                            "content": "Prepositions connect words. Common ones include: Min (from), Ila (to), Fi (in), 'Ala (on). They cause the following noun to take the Genitive case (Kasra).",
+                            "examples": [
+                                {
+                                    "arabic": "فِي الْمَدْرَسَةِ",
+                                    "english": "Fi al-madrasati (In the school)",
+                                    "audio_url": "audio/prepositions/fil_madrasa.mp3"
+                                },
+                                {
+                                    "arabic": "عَلَى الْمَكْتَبِ",
+                                    "english": "'Ala al-maktabi (On the desk)",
+                                    "audio_url": "audio/prepositions/alal_maktab.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "prepositional_phrases",
+                            "titles": {
+                                "en": "Prepositional Phrases",
+                                "ar": "شبه الجملة"
+                            },
+                            "content": "A combination of a preposition/adverb and a noun forms a 'Shibh Jumla' (Quote-sentence) which often acts as the Predicate (Khabar) in a nominal sentence.",
+                            "examples": [
+                                {
+                                    "arabic": "الْكِتَابُ عَلَى الْمَكْتَبِ",
+                                    "english": "Al-kitabu 'ala al-maktabi (The book is on the desk)",
+                                    "audio_url": "audio/prepositions/kitabu_ala_maktab.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "question_tools",
+                    "titles": {
+                        "en": "Question Tools",
+                        "ar": "أدوات الاستفهام",
+                        "fr": "Outils interrogatifs",
+                        "de": "Frage-Tools",
+                        "ru": "Вопросительные инструменты",
+                        "zh": "疑问工具"
+                    },
+                    "lessons": [
+                        {
+                            "id": "question_words",
+                            "titles": {
+                                "en": "Question Words",
+                                "ar": "أدوات الاستفهام"
+                            },
+                            "content": "Arabic uses specific tools to form questions. Most are particles or nouns placed at the beginning of the sentence. Key tools include: Ma/Madha (What), Man (Who), Ayna (Where), Kayfa (How), Mata (When), Limadha (Why), Kam (How many), Ayy (Which).",
+                            "examples": [
+                                {
+                                    "arabic": "مَا هَذَا؟",
+                                    "english": "Ma hadha? (What is this? - for nouns)",
+                                    "audio_url": "audio/questions/ma_hadha.mp3"
+                                },
+                                {
+                                    "arabic": "مَاذَا تَفْعَلُ؟",
+                                    "english": "Madha taf'alu? (What are you doing? - for verbs)",
+                                    "audio_url": "audio/questions/madha_tafalu.mp3"
+                                },
+                                {
+                                    "arabic": "مَنْ أَنْتَ؟",
+                                    "english": "Man anta? (Who are you?)",
+                                    "audio_url": "audio/questions/man_anta.mp3"
+                                },
+                                {
+                                    "arabic": "أَيْنَ الْبَيْتُ؟",
+                                    "english": "Ayna al-baytu? (Where is the house?)",
+                                    "audio_url": "audio/questions/ayna_bayt.mp3"
+                                },
+                                {
+                                    "arabic": "كَيْفَ حَالُكَ؟",
+                                    "english": "Kayfa haluka? (How are you?)",
+                                    "audio_url": "audio/questions/kayfa_haluka.mp3"
+                                },
+                                {
+                                    "arabic": "مَتَى السَّفَرُ؟",
+                                    "english": "Mata as-safaru? (When is the travel?)",
+                                    "audio_url": "audio/questions/mata_safaru.mp3"
+                                },
+                                {
+                                    "arabic": "لِمَاذَا؟",
+                                    "english": "Limadha? (Why?)",
+                                    "audio_url": "audio/questions/limadha.mp3"
+                                },
+                                {
+                                    "arabic": "كَمْ السَّاعَةُ؟",
+                                    "english": "Kam as-sa'atu? (What time is it? / How much?)",
+                                    "audio_url": "audio/questions/kam_saatu.mp3"
+                                },
+                                {
+                                    "arabic": "أَيُّ كِتَابٍ؟",
+                                    "english": "Ayyu kitabin? (Which book?)",
+                                    "audio_url": "audio/questions/ayyu_kitabin.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "yes_no_questions",
+                            "titles": {
+                                "en": "Yes / No Questions",
+                                "ar": "أسئلة نعم / لا"
+                            },
+                            "content": "To form Yes/No questions, place 'Hal' (هل) or 'A' (أ) at the beginning of the sentence.",
+                            "examples": [
+                                {
+                                    "arabic": "هَلْ أَنْتَ طَالِبٌ؟",
+                                    "english": "Hal anta talibun? (Are you a student?)",
+                                    "audio_url": "audio/questions/hal_anta_talib.mp3"
+                                },
+                                {
+                                    "arabic": "نَعَمْ، أَنَا طَالِبٌ",
+                                    "english": "Na'am, ana talibun (Yes, I am a student)",
+                                    "audio_url": "audio/questions/naam_ana_talib.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "numbers_basics",
+                    "titles": {
+                        "en": "Numbers Basics",
+                        "ar": "أساسيات الأرقام",
+                        "fr": "Bases des nombres",
+                        "de": "Zahlen Grundlagen",
+                        "ru": "Основы чисел",
+                        "zh": "数字基础"
+                    },
+                    "lessons": [
+                        {
+                            "id": "cardinal_numbers",
+                            "titles": {
+                                "en": "Cardinal Numbers (1–10)",
+                                "ar": "الأعداد الأصلية (1–10)"
+                            },
+                            "content": "Wahid (1), Ithnan (2), Thalatha (3), Arba'a (4), Khamsa (5), Sitta (6), Sab'a (7), Thamaniya (8), Tis'a (9), Ashara (10).",
+                            "examples": [
+                                {
+                                    "arabic": "وَاحِد",
+                                    "english": "Wahid (1)",
+                                    "audio_url": "audio/numbers/1.mp3"
+                                },
+                                {
+                                    "arabic": "اِثْنَان",
+                                    "english": "Ithnan (2)",
+                                    "audio_url": "audio/numbers/2.mp3"
+                                },
+                                {
+                                    "arabic": "ثَلَاثَة",
+                                    "english": "Thalatha (3)",
+                                    "audio_url": "audio/numbers/3.mp3"
+                                },
+                                {
+                                    "arabic": "أَرْبَعَة",
+                                    "english": "Arba'a (4)",
+                                    "audio_url": "audio/numbers/4.mp3"
+                                },
+                                {
+                                    "arabic": "خَمْسَة",
+                                    "english": "Khamsa (5)",
+                                    "audio_url": "audio/numbers/5.mp3"
+                                },
+                                {
+                                    "arabic": "سِتَّة",
+                                    "english": "Sitta (6)",
+                                    "audio_url": "audio/numbers/6.mp3"
+                                },
+                                {
+                                    "arabic": "سَبْعَة",
+                                    "english": "Sab'a (7)",
+                                    "audio_url": "audio/numbers/7.mp3"
+                                },
+                                {
+                                    "arabic": "ثَمَانِيَة",
+                                    "english": "Thamaniya (8)",
+                                    "audio_url": "audio/numbers/8.mp3"
+                                },
+                                {
+                                    "arabic": "تِسْعَة",
+                                    "english": "Tis'a (9)",
+                                    "audio_url": "audio/numbers/9.mp3"
+                                },
+                                {
+                                    "arabic": "عَشَرَة",
+                                    "english": "Ashara (10)",
+                                    "audio_url": "audio/numbers/10.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ordinal_numbers",
+                            "titles": {
+                                "en": "Ordinal Numbers (Basics)",
+                                "ar": "الأعداد الترتيبية (أساسيات)"
+                            },
+                            "content": "Awwal (1st), Thani (2nd), Thalith (3rd), Rabi' (4th), Khamis (5th).",
+                            "examples": [
+                                {
+                                    "arabic": "الدَّرْسُ الْأَوَّلُ",
+                                    "english": "Al-darsu al-awwalu (The first lesson)",
+                                    "audio_url": "audio/numbers/dars_awwal.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "intermediate",
+            "level_code": "B1-B2",
+            "emoji": "🟡",
+            "titles": {
+                "en": "Intermediate",
+                "ar": "متوسط",
+                "fr": "Intermédiaire",
+                "de": "Mittelstufe",
+                "ru": "Средний",
+                "zh": "中级"
+            },
+            "description": {
+                "en": "Expand your knowledge with complex sentence structures and verb forms.",
+                "ar": "وسع معرفتك بتراكيب الجمل المعقدة وصيغ الأفعال.",
+                "fr": "Développez vos connaissances avec des structures de phrases complexes et des formes verbales.",
+                "de": "Erweitere dein Wissen mit komplexen Satzstrukturen und Verbformen.",
+                "ru": "Расширьте свои знания с помощью сложных структур предложений и глагольных форм.",
+                "zh": "通过复杂的句子结构和动词形式扩展您的知识。"
+            },
+            "topics": [
+                {
+                    "id": "verb_system",
+                    "titles": {
+                        "en": "Verb System",
+                        "ar": "نظام الأفعال",
+                        "fr": "Système verbal",
+                        "de": "Verbsystem",
+                        "ru": "Глагольная система",
+                        "zh": "动词系统"
+                    },
+                    "lessons": [
+                        {
+                            "id": "past_tense",
+                            "titles": {
+                                "en": "Past Tense",
+                                "ar": "الماضي"
+                            },
+                            "content": "The Past Tense (Al-Madi) indicates an action completed in the past. It is the base form of the verb (root). Example: 'Kataba' (He wrote).",
+                            "examples": [
+                                {
+                                    "arabic": "كَتَبَ الطَّالِبُ الدَّرْسَ",
+                                    "english": "Kataba at-talibu ad-darsa (The student wrote the lesson)",
+                                    "audio_url": "audio/verbs/kataba_talib.mp3"
+                                },
+                                {
+                                    "arabic": "ذَهَبْتُ إِلَى السُّوقِ",
+                                    "english": "Dhahabtu ila as-suqi (I went to the market)",
+                                    "audio_url": "audio/verbs/dhahabtu_suq.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "present_tense",
+                            "titles": {
+                                "en": "Present Tense",
+                                "ar": "المضارع"
+                            },
+                            "content": "The Present Tense (Al-Mudaric) indicates an ongoing or habitual action. It starts with a prefix (Alif, Nun, Ya, Ta). Example: 'Yaktubu' (He writes).",
+                            "examples": [
+                                {
+                                    "arabic": "يَكْتُبُ الطَّالِبُ الدَّرْسَ",
+                                    "english": "Yaktubu at-talibu ad-darsa (The student writes the lesson)",
+                                    "audio_url": "audio/verbs/yaktubu_talib.mp3"
+                                },
+                                {
+                                    "arabic": "نَذْهَبُ إِلَى الْمَدْرَسَةِ",
+                                    "english": "Nadhhabu ila al-madrasati (We go to school)",
+                                    "audio_url": "audio/verbs/nadhhabu_madrasa.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "imperative",
+                            "titles": {
+                                "en": "Imperative",
+                                "ar": "الأمر"
+                            },
+                            "content": "The Imperative (Al-Amr) is used for commands. It is derived from the Present Jussive. Example: 'Uktub' (Write!).",
+                            "examples": [
+                                {
+                                    "arabic": "اُكْتُبْ الدَّرْسَ",
+                                    "english": "Uktub ad-darsa (Write the lesson!)",
+                                    "audio_url": "audio/verbs/uktub_dars.mp3"
+                                },
+                                {
+                                    "arabic": "اِجْلِسْ هُنَا",
+                                    "english": "Ijlis huna (Sit here!)",
+                                    "audio_url": "audio/verbs/ijlis_huna.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "negation_verbs",
+                            "titles": {
+                                "en": "Negation of Verbs",
+                                "ar": "نفي الأفعال"
+                            },
+                            "content": "To negate Past: 'Ma' + Past. To negate Present: 'La' + Present. Future negation: 'Lan' + Present (Accusative). Past negation (Formal): 'Lam' + Present (Jussive).",
+                            "examples": [
+                                {
+                                    "arabic": "مَا كَتَبَ",
+                                    "english": "Ma kataba (He did not write)",
+                                    "audio_url": "audio/verbs/ma_kataba.mp3"
+                                },
+                                {
+                                    "arabic": "لاَ يَكْتُبُ",
+                                    "english": "La yaktubu (He does not write)",
+                                    "audio_url": "audio/verbs/la_yaktubu.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "weak_verbs",
+                            "titles": {
+                                "en": "Weak Verbs",
+                                "ar": "الأفعال المعتلة"
+                            },
+                            "content": "Weak verbs contain a vowel (Waw, Ya, Alif) in the root. They follow special conjugation rules. Example: 'Wajada' (He found - Assimilated), 'Qala' (He said - Hollow), 'Daa' (He called - Defective).",
+                            "examples": [
+                                {
+                                    "arabic": "وَجَدَ الْقَلَمَ",
+                                    "english": "Wajada al-qalama (He found the pen)",
+                                    "audio_url": "audio/verbs/wajada_qalam.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "hollow_verbs",
+                            "titles": {
+                                "en": "Hollow Verbs",
+                                "ar": "الأفعال الجوفاء"
+                            },
+                            "content": "Hollow verbs have a vowel as the middle radical (e.g., Qala, Nama). The middle vowel often changes or disappears in conjugation.",
+                            "examples": [
+                                {
+                                    "arabic": "قَالَ الْحَقَّ",
+                                    "english": "Qala al-haqqa (He spoke the truth)",
+                                    "audio_url": "audio/verbs/qala_haqq.mp3"
+                                },
+                                {
+                                    "arabic": "يَقُولُ الصِّدْقَ",
+                                    "english": "Yaqoolu as-sidqa (He tells the truth)",
+                                    "audio_url": "audio/verbs/yaqoolu_sidq.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "hamzated_verbs",
+                            "titles": {
+                                "en": "Hamzated Verbs",
+                                "ar": "الأفعال المهموزة"
+                            },
+                            "content": "Verbs with a Hamza in the root (e.g., Akala, Sa'ala, Qara'a). The Hamza is treated as a strong consonant but has spelling rules.",
+                            "examples": [
+                                {
+                                    "arabic": "أَكَلَ الطَّعَامَ",
+                                    "english": "Akala at-ta'ama (He ate the food)",
+                                    "audio_url": "audio/verbs/akala_taam.mp3"
+                                },
+                                {
+                                    "arabic": "سَأَلَ الْمُعَلِّمَ",
+                                    "english": "Sa'ala al-mu'allima (He asked the teacher)",
+                                    "audio_url": "audio/verbs/saala_muallim.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "verb_patterns",
+                    "titles": {
+                        "en": "Verb Patterns",
+                        "ar": "الأوزان الصرفية",
+                        "fr": "Modèles de verbes",
+                        "de": "Verb-Muster",
+                        "ru": "Глагольные шаблоны",
+                        "zh": "动词模式"
+                    },
+                    "lessons": [
+                        {
+                            "id": "form_i",
+                            "titles": {
+                                "en": "Form I (Fa'ala)",
+                                "ar": "الوزن الأول (فعل)"
+                            },
+                            "content": "The base form of the verb. Most 3-letter verbs belong to this form. It expresses the basic meaning.",
+                            "examples": [
+                                {
+                                    "arabic": "كَتَبَ",
+                                    "english": "Kataba (He wrote)",
+                                    "audio_url": "audio/patterns/kataba.mp3"
+                                },
+                                {
+                                    "arabic": "شَرِبَ",
+                                    "english": "Shariba (He drank)",
+                                    "audio_url": "audio/patterns/shariba.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "form_ii",
+                            "titles": {
+                                "en": "Form II (Fa''ala)",
+                                "ar": "الوزن الثاني (فعّل)"
+                            },
+                            "content": "Doubling the middle letter. Often indicates causation or intensity. 'Alima (knew) -> 'Allama (taught).",
+                            "examples": [
+                                {
+                                    "arabic": "عَلَّمَ",
+                                    "english": "'Allama (He taught)",
+                                    "audio_url": "audio/patterns/allama.mp3"
+                                },
+                                {
+                                    "arabic": "كَسَّرَ",
+                                    "english": "Kassara (He smashed/shattered)",
+                                    "audio_url": "audio/patterns/kassara.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "form_iii",
+                            "titles": {
+                                "en": "Form III (Fa'ala)",
+                                "ar": "الوزن الثالث (فاعل)"
+                            },
+                            "content": "Adding Alif after the first letter. Often expresses an action done with someone else (associative).",
+                            "examples": [
+                                {
+                                    "arabic": "كَاتَبَ",
+                                    "english": "Kataba (He corresponded with)",
+                                    "audio_url": "audio/patterns/kataba_iii.mp3"
+                                },
+                                {
+                                    "arabic": "سَافَرَ",
+                                    "english": "Safara (He traveled)",
+                                    "audio_url": "audio/patterns/safara.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "form_iv",
+                            "titles": {
+                                "en": "Form IV (Af'ala)",
+                                "ar": "الوزن الرابع (أفعل)"
+                            },
+                            "content": "Prefixed with Alif. Isative (making someone do something). Jalasa (sat) -> Ajlasa (seated someone).",
+                            "examples": [
+                                {
+                                    "arabic": "أَجْلَسَ",
+                                    "english": "Ajlasa (He seated [someone])",
+                                    "audio_url": "audio/patterns/ajlasa.mp3"
+                                },
+                                {
+                                    "arabic": "أَرْسَلَ",
+                                    "english": "Arsala (He sent)",
+                                    "audio_url": "audio/patterns/arsala.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "form_v",
+                            "titles": {
+                                "en": "Form V (Tafa''ala)",
+                                "ar": "الوزن الخامس (تفعّل)"
+                            },
+                            "content": "Reflexive of Form II. 'Allama (taught) -> Ta'allama (learned/taught himself).",
+                            "examples": [
+                                {
+                                    "arabic": "تَعَلَّمَ",
+                                    "english": "Ta'allama (He learned)",
+                                    "audio_url": "audio/patterns/taallama.mp3"
+                                },
+                                {
+                                    "arabic": "تَكَلَّمَ",
+                                    "english": "Takallama (He spoke/talked)",
+                                    "audio_url": "audio/patterns/takallama.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "form_vi",
+                            "titles": {
+                                "en": "Form VI (Tafa'ala)",
+                                "ar": "الوزن السادس (تفاعل)"
+                            },
+                            "content": "Reflexive/Reciprocal of Form III. Ta'awana (cooperated with each other).",
+                            "examples": [
+                                {
+                                    "arabic": "تَعَاوَنَ",
+                                    "english": "Ta'awana (He cooperated)",
+                                    "audio_url": "audio/patterns/taawana.mp3"
+                                },
+                                {
+                                    "arabic": "تَسَاءَلَ",
+                                    "english": "Tasa'ala (He asked himself/wondered)",
+                                    "audio_url": "audio/patterns/tasaala.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "form_vii",
+                            "titles": {
+                                "en": "Form VII (Infa'ala)",
+                                "ar": "الوزن السابع (انفعل)"
+                            },
+                            "content": "Prefixed with In-. Passive/Reflexive. Kasara (broke) -> Inkasara (got broken).",
+                            "examples": [
+                                {
+                                    "arabic": "اِنْكَسَرَ",
+                                    "english": "Inkasara (It broke/shattered)",
+                                    "audio_url": "audio/patterns/inkasara.mp3"
+                                },
+                                {
+                                    "arabic": "اِنْقَلَبَ",
+                                    "english": "Inqalaba (It overturned)",
+                                    "audio_url": "audio/patterns/inqalaba.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "form_viii",
+                            "titles": {
+                                "en": "Form VIII (Ifta'ala)",
+                                "ar": "الوزن الثامن (افتعل)"
+                            },
+                            "content": "Inserted 'ta' after first radical. Reflexive/Middle voice. Jama'a (gathered) -> Ijtama'a (met/gathered together).",
+                            "examples": [
+                                {
+                                    "arabic": "اِجْتَمَعَ",
+                                    "english": "Ijtama'a (He met)",
+                                    "audio_url": "audio/patterns/ijtamaa.mp3"
+                                },
+                                {
+                                    "arabic": "اِسْتَمَعَ",
+                                    "english": "Istama'a (He listened)",
+                                    "audio_url": "audio/patterns/istamaa.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "form_ix",
+                            "titles": {
+                                "en": "Form IX (If'alla)",
+                                "ar": "الوزن التاسع (افعلّ)"
+                            },
+                            "content": "Rare. Mostly for colors and defects. Amar (red) -> Ihmara (turned red/blushed).",
+                            "examples": [
+                                {
+                                    "arabic": "اِحْمَرَّ",
+                                    "english": "Ihmara (He turned red)",
+                                    "audio_url": "audio/patterns/ihmara.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "form_x",
+                            "titles": {
+                                "en": "Form X (Istaf'ala)",
+                                "ar": "الوزن العاشر (استفعل)"
+                            },
+                            "content": "Prefixed with Ista-. Requesting or seeking something. Ghafara (forgave) -> Istaghfara (sought forgiveness).",
+                            "examples": [
+                                {
+                                    "arabic": "اِسْتَغْفَرَ",
+                                    "english": "Istaghfara (He asked for forgiveness)",
+                                    "audio_url": "audio/patterns/istaghfara.mp3"
+                                },
+                                {
+                                    "arabic": "اِسْتَخْدَمَ",
+                                    "english": "Istakhdama (He used [sought service of])",
+                                    "audio_url": "audio/patterns/istakhdama.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sentence_expansion",
+                    "titles": {
+                        "en": "Sentence Expansion",
+                        "ar": "توسيع الجملة",
+                        "fr": "Expansion de la phrase",
+                        "de": "Satzerweiterung",
+                        "ru": "Расширение предложения",
+                        "zh": "句子扩展"
+                    },
+                    "lessons": [
+                        {
+                            "id": "adverbs",
+                            "titles": {
+                                "en": "Adverbs (Zaman & Makan)",
+                                "ar": "ظرف الزمان والمكان"
+                            },
+                            "content": "Adverbs of time (Zaman) and place (Makan) specify when or where an action happens. They are usually Accusative (Mansub). Examples: Yawm (day), Layl (night), Fawqa (above), Tahta (below).",
+                            "examples": [
+                                {
+                                    "arabic": "سَافَرْتُ لَيْلاً",
+                                    "english": "Safartu laylan (I traveled at night)",
+                                    "audio_url": "audio/intermediate/safartu_laylan.mp3"
+                                },
+                                {
+                                    "arabic": "الْكِتَابُ فَوْقَ الْمَكْتَبِ",
+                                    "english": "Al-kitabu fawqa al-maktabi (The book is above the desk)",
+                                    "audio_url": "audio/intermediate/kitab_fawqa.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "objects",
+                            "titles": {
+                                "en": "Direct Object (Maf'ul Bihi)",
+                                "ar": "المفعول به"
+                            },
+                            "content": "The receiver of the action. It is always Accusative (Mansub). Signs: Fatha (singular), Ya (dual/plural masculine), Kasra (plural feminine).",
+                            "examples": [
+                                {
+                                    "arabic": "أَكَلَ الْوَلَدُ التُّفَّاحَةَ",
+                                    "english": "Akala al-waladu at-tuffahata (The boy ate the apple)",
+                                    "audio_url": "audio/intermediate/akala_tuffaha.mp3"
+                                },
+                                {
+                                    "arabic": "قَرَأْتُ كِتَابَيْنِ",
+                                    "english": "Qara'tu kitabayni (I read two books)",
+                                    "audio_url": "audio/intermediate/qaratu_kitabayni.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "absolute_object",
+                            "titles": {
+                                "en": "Absolute Object (Maf'ul Mutlaq)",
+                                "ar": "المفعول المطلق"
+                            },
+                            "content": "A noun derived from the same root as the verb, used for emphasis or to describe the type/number of action.",
+                            "examples": [
+                                {
+                                    "arabic": "ضَرَبْتُهُ ضَرْباً",
+                                    "english": "Darabtuhu darban (I hit him a hitting [severely])",
+                                    "audio_url": "audio/intermediate/darabtuhu_darban.mp3"
+                                },
+                                {
+                                    "arabic": "مَشَيْتُ مَشْيَ الْأَسَدِ",
+                                    "english": "Mashaytu mashya al-asadi (I walked the walk of a lion)",
+                                    "audio_url": "audio/intermediate/mashaytu_mashya.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "purpose_object",
+                            "titles": {
+                                "en": "Purpose Object (Maf'ul Li-ajlihi)",
+                                "ar": "المفعول لأجله"
+                            },
+                            "content": "Explains the reason for the action. Usually an indefinite noun in Accusative case. Answers 'Why?'.",
+                            "examples": [
+                                {
+                                    "arabic": "وَقَفْتُ اِحْتِرَاماً لِلْمُعَلِّمِ",
+                                    "english": "Waqaftu ihtiraman lil-mu'allimi (I stood up out of respect for the teacher)",
+                                    "audio_url": "audio/intermediate/waqaftu_ihtiraman.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "circumstantial_adverb",
+                            "titles": {
+                                "en": "Circumstantial Adverb (Hal)",
+                                "ar": "الحال"
+                            },
+                            "content": "Describes the state of the subject or object when the action took place. Answers 'How?'. Usually indefinite and Accusative.",
+                            "examples": [
+                                {
+                                    "arabic": "جَاءَ الْوَلَدُ بَاكِياً",
+                                    "english": "Ja'a al-waladu bakiyan (The boy came crying)",
+                                    "audio_url": "audio/intermediate/jaa_bakiyan.mp3"
+                                },
+                                {
+                                    "arabic": "شَرِبْتُ الْمَاءَ بَارِداً",
+                                    "english": "Sharibtu al-ma'a baridan (I drank the water [while it was] cold)",
+                                    "audio_url": "audio/intermediate/sharibtu_baridan.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "idafa_structure",
+                    "titles": {
+                        "en": "Idafa Structure",
+                        "ar": "الإضافة",
+                        "fr": "Structure Idafa",
+                        "de": "Idafa-Struktur",
+                        "ru": "Структура Идафа",
+                        "zh": "Idafa 结构"
+                    },
+                    "lessons": [
+                        {
+                            "id": "possession_rules",
+                            "titles": {
+                                "en": "Possession Rules (Idafa)",
+                                "ar": "قواعد الإضافة"
+                            },
+                            "content": "Idafa consists of Mudaf (Possessed - No 'Al', No Tanween) + Mudaf Ilayhi (Possessor - Genitive case). Example: 'Kitab al-waladi' (The boy's book).",
+                            "examples": [
+                                {
+                                    "arabic": "بَابُ الْبَيْتِ",
+                                    "english": "Babu al-bayti (The door of the house)",
+                                    "audio_url": "audio/intermediate/bab_bayt.mp3"
+                                },
+                                {
+                                    "arabic": "سَيَّارَةُ الْمُدِيرِ",
+                                    "english": "Sayyaratu al-mudiri (The manager's car)",
+                                    "audio_url": "audio/intermediate/sayyara_mudir.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "compound_nouns",
+                            "titles": {
+                                "en": "Compound Nouns",
+                                "ar": "الأسماء المركبة"
+                            },
+                            "content": "Many modern terms are formed using Idafa. Example: 'Ghurfat an-nawm' (Room of sleep -> Bedroom).",
+                            "examples": [
+                                {
+                                    "arabic": "غُرْفَةُ النَّوْمِ",
+                                    "english": "Ghurfat an-nawmi (Bedroom)",
+                                    "audio_url": "audio/intermediate/ghurfa_nawm.mp3"
+                                },
+                                {
+                                    "arabic": "كُرَةُ الْقَدَمِ",
+                                    "english": "Kurat al-qadami (Football/Soccer)",
+                                    "audio_url": "audio/intermediate/kura_qadam.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "numbers_advanced",
+                    "titles": {
+                        "en": "Numbers Advanced",
+                        "ar": "الأرقام المتقدمة",
+                        "fr": "Nombres avancés",
+                        "de": "Zahlen Fortgeschritten",
+                        "ru": "Числа (продвинутый)",
+                        "zh": "高级数字"
+                    },
+                    "lessons": [
+                        {
+                            "id": "numbers_21_99",
+                            "titles": {
+                                "en": "21 – 99",
+                                "ar": "21 – 99"
+                            },
+                            "content": "Compound numbers. Read the ones digit first, then the tens. Example: 21 is 'Wahid wa 'ishrun' (One and twenty).",
+                            "examples": [
+                                {
+                                    "arabic": "خَمْسَةٌ وَعِشْرُونَ طَالِباً",
+                                    "english": "Khamsatun wa 'ishruna taliban (25 students)",
+                                    "audio_url": "audio/intermediate/25_students.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "hundreds_thousands",
+                            "titles": {
+                                "en": "Hundreds & Thousands",
+                                "ar": "المئات والآلاف"
+                            },
+                            "content": "Mi'a (100), Alf (1000). They do not change gender.",
+                            "examples": [
+                                {
+                                    "arabic": "مِائَةُ رَجُلٍ",
+                                    "english": "Mi'atu rajulin (100 men)",
+                                    "audio_url": "audio/intermediate/100_men.mp3"
+                                },
+                                {
+                                    "arabic": "أَلْفُ لَيْلَةٍ",
+                                    "english": "Alfu laylatin (1000 nights)",
+                                    "audio_url": "audio/intermediate/1000_nights.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "number_agreement",
+                            "titles": {
+                                "en": "Number Agreement",
+                                "ar": "مطابقة العدد والمعدود"
+                            },
+                            "content": "Rules summary: 3-10 (Plural Genitive, Opposite Gender), 11-99 (Singular Accusative), 100+ (Singular Genitive).",
+                            "examples": [
+                                {
+                                    "arabic": "ثَلَاثَةُ كُتُبٍ",
+                                    "english": "Thalathatu kutubin (3 books - Opposite gender, plural majrur)",
+                                    "audio_url": "audio/intermediate/3_books.mp3"
+                                },
+                                {
+                                    "arabic": "أَحَدَ عَشَرَ كَوْكَباً",
+                                    "english": "Ahada 'ashara kawkaban (11 stars - Matching gender, singular mansub)",
+                                    "audio_url": "audio/intermediate/11_stars.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "negation_tools",
+                    "titles": {
+                        "en": "Negation Tools",
+                        "ar": "أدوات النفي",
+                        "fr": "Outils de négation",
+                        "de": "Negationswerkzeuge",
+                        "ru": "Инструменты отрицания",
+                        "zh": "否定工具"
+                    },
+                    "lessons": [
+                        {
+                            "id": "negation_la",
+                            "titles": {
+                                "en": "La (No/Not)",
+                                "ar": "لا"
+                            },
+                            "content": "Negates Present tense (General negation). Also used for prohibition (La Taf'al - Don't do).",
+                            "examples": [
+                                {
+                                    "arabic": "لاَ أَعْرِفُ",
+                                    "english": "La a'rifu (I don't know)",
+                                    "audio_url": "audio/intermediate/la_arifu.mp3"
+                                },
+                                {
+                                    "arabic": "لاَ تَكْذِبْ",
+                                    "english": "La takdhib (Don't lie - Prohibition)",
+                                    "audio_url": "audio/intermediate/la_takdhib.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "negation_lam",
+                            "titles": {
+                                "en": "Lam (Did not)",
+                                "ar": "لم"
+                            },
+                            "content": "Negates Past meaning using Jussive Present form. 'Lam yadhhab' (He did not go). Formal and strong.",
+                            "examples": [
+                                {
+                                    "arabic": "لَمْ يَحْضُرْ أَحَدٌ",
+                                    "english": "Lam yahdur ahadun (No one came)",
+                                    "audio_url": "audio/intermediate/lam_yahdur.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "negation_lan",
+                            "titles": {
+                                "en": "Lan (Will not)",
+                                "ar": "لن"
+                            },
+                            "content": "Negates Future tense. Followed by Accusative (Mansub) Present form. 'Lan adhhaba' (I will not go).",
+                            "examples": [
+                                {
+                                    "arabic": "لَنْ أَسْتَسْلِمَ",
+                                    "english": "Lan astaslima (I will not surrender)",
+                                    "audio_url": "audio/intermediate/lan_astaslima.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "negation_laysa",
+                            "titles": {
+                                "en": "Laysa (Is not)",
+                                "ar": "ليس"
+                            },
+                            "content": "Negates Nominal Sentences. It acts like Kana (Sisters of Kana). 'Laysa al-jawwu baridan' (The weather is not cold).",
+                            "examples": [
+                                {
+                                    "arabic": "لَيْسَ الْمُدِيرُ مَوْجُوداً",
+                                    "english": "Laysa al-mudiru mawjudan (The manager is not present)",
+                                    "audio_url": "audio/intermediate/laysa_mudir.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "negation_ma",
+                            "titles": {
+                                "en": "Ma (Did not)",
+                                "ar": "ما"
+                            },
+                            "content": "Negates Past tense verbs mostly. 'Ma akaltu' (I did not eat). Can also negate nominal sentences (Ma al-Hjaziyya).",
+                            "examples": [
+                                {
+                                    "arabic": "مَا فَهِمْتُ",
+                                    "english": "Ma fahimtu (I did not understand)",
+                                    "audio_url": "audio/intermediate/ma_fahimtu.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "conjunctions",
+                    "titles": {
+                        "en": "Conjunctions",
+                        "ar": "حروف العطف",
+                        "fr": "Conjonctions",
+                        "de": "Konjunktionen",
+                        "ru": "Союзы",
+                        "zh": "连词"
+                    },
+                    "lessons": [
+                        {
+                            "id": "conj_wa",
+                            "titles": {
+                                "en": "Wa (And)",
+                                "ar": "و"
+                            },
+                            "content": "The most common conjunction. Links words or sentences without implying order. 'Ahmad wa Zaid' (Ahmad and Zaid).",
+                            "examples": [
+                                {
+                                    "arabic": "جَاءَ أَحْمَدُ وَمُحَمَّدٌ",
+                                    "english": "Ja'a Ahmadu wa Muhammadun (Ahmad and Muhammad came)",
+                                    "audio_url": "audio/intermediate/ahmad_wa_muhammad.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "conj_fa",
+                            "titles": {
+                                "en": "Fa (So/Then)",
+                                "ar": "ف"
+                            },
+                            "content": "Implies immediate sequence or cause. 'Dakhalat al-mu'allim fa-waqafa at-tullab' (The teacher entered, so the students stood up).",
+                            "examples": [
+                                {
+                                    "arabic": "سَقَطَ الْكُوبُ فَانْكَسَرَ",
+                                    "english": "Saqata al-kubu fa-inkasara (The cup fell and broke immediately)",
+                                    "audio_url": "audio/intermediate/saqata_fa_inkasara.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "conj_thumma",
+                            "titles": {
+                                "en": "Thumma (Then)",
+                                "ar": "ثم"
+                            },
+                            "content": "Implies sequence with a time delay. 'Dhahabtu ila al-madrasa thumma raja'tu' (I went to school, then returned [after a while]).",
+                            "examples": [
+                                {
+                                    "arabic": "زَرَعَ الْفَلَّاحُ الْقَمْحَ ثُمَّ حَصَدَهُ",
+                                    "english": "Zara'a al-fallahu al-qamha thumma hasadahu (The farmer planted wheat then harvested it)",
+                                    "audio_url": "audio/intermediate/zaraa_thumma_hasada.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "conj_aw",
+                            "titles": {
+                                "en": "Aw (Or)",
+                                "ar": "أو"
+                            },
+                            "content": "Used for choice or doubt. 'Tuffah aw Burtuqal' (Apple or Orange).",
+                            "examples": [
+                                {
+                                    "arabic": "اشْرَبْ مَاءً أَوْ عَصِيراً",
+                                    "english": "Ishrab ma'an aw 'asiran (Drink water or juice)",
+                                    "audio_url": "audio/intermediate/ishrab_ma_aw_asir.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "conj_bal",
+                            "titles": {
+                                "en": "Bal (Rather/But)",
+                                "ar": "بل"
+                            },
+                            "content": "Used to correct a previous statement. 'Ma ja'a Zaidun bal 'Amrun' (Zaid didn't come, rather Amr [came]).",
+                            "examples": [
+                                {
+                                    "arabic": "لاَ أُرِيدُ شَايًا بَلْ قَهْوَةً",
+                                    "english": "La uridu shayan bal qahwatan (I don't want tea, but rather coffee)",
+                                    "audio_url": "audio/intermediate/bal_qahwa.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "conj_lakin",
+                            "titles": {
+                                "en": "Lakin (But/However)",
+                                "ar": "لكن"
+                            },
+                            "content": "Used for contrast. 'Al-baytu saghirun lakinnehu jamilun' (The house is small but beautiful).",
+                            "examples": [
+                                {
+                                    "arabic": "الشَّمْسُ سَاطِعَةٌ لَكِنَّ الْجَوَّ بَارِدٌ",
+                                    "english": "Ash-shamsu sati'atun lakinna al-jawwa baridun (The sun is bright but the weather is cold)",
+                                    "audio_url": "audio/intermediate/lakinna_jaw_barid.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "relative_pronouns",
+                    "titles": {
+                        "en": "Relative Pronouns Basics",
+                        "ar": "الأسماء الموصولة (أساسيات)",
+                        "fr": "Pronoms relatifs (bases)",
+                        "de": "Relativpronomen Grundlagen",
+                        "ru": "Относительные местоимения (основы)",
+                        "zh": "关系代词基础"
+                    },
+                    "lessons": [
+                        {
+                            "id": "rel_alladhi",
+                            "titles": {
+                                "en": "Alladhi (Who/Which - Masc. Sing.)",
+                                "ar": "الذي"
+                            },
+                            "content": "Used for singular masculine nouns (animate or inanimate). 'Al-waladu alladhi...' (The boy who...).",
+                            "examples": [
+                                {
+                                    "arabic": "جَاءَ الطَّالِبُ الَّذِي نَجَحَ",
+                                    "english": "Ja'a at-talibu alladhi najaha (The student who passed came)",
+                                    "audio_url": "audio/intermediate/talib_alladhi_najaha.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "rel_allati",
+                            "titles": {
+                                "en": "Allati (Who/Which - Fem. Sing.)",
+                                "ar": "التي"
+                            },
+                            "content": "Used for singular feminine nouns and plural irrational nouns. 'Al-bintu allati...' (The girl who...).",
+                            "examples": [
+                                {
+                                    "arabic": "هَذِهِ الْبِنْتُ الَّتِي فَازَتْ",
+                                    "english": "Hadhihi al-bintu allati fazat (This is the girl who won)",
+                                    "audio_url": "audio/intermediate/bint_allati_fazat.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "rel_alladhina",
+                            "titles": {
+                                "en": "Alladhina (Who - Masc. Plural)",
+                                "ar": "الذين"
+                            },
+                            "content": "Used for masculine plural persons. 'Ar-rijalu alladhina...' (The men who...).",
+                            "examples": [
+                                {
+                                    "arabic": "أُحِبُّ الَّذِينَ يَصْدُقُونَ",
+                                    "english": "Uhibbu alladhina yasduquna (I like those who tell the truth)",
+                                    "audio_url": "audio/intermediate/uhibbu_alladhina.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "rel_man",
+                            "titles": {
+                                "en": "Man (Who/Whoever)",
+                                "ar": "من"
+                            },
+                            "content": "General relative pronoun for rational beings (people). 'Ahsin ila man ahsana ilayka' (Do good to whoever did good to you).",
+                            "examples": [
+                                {
+                                    "arabic": "مَنْ يَجْتَهِدْ يَنْجَحْ",
+                                    "english": "Man yajtahid yanjah (Whoever works hard succeeds)",
+                                    "audio_url": "audio/intermediate/man_yajtahid.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "rel_ma",
+                            "titles": {
+                                "en": "Ma (What/Whatever)",
+                                "ar": "ما"
+                            },
+                            "content": "General relative pronoun for irrational things. 'Af'alu ma uridu' (I do what I want).",
+                            "examples": [
+                                {
+                                    "arabic": "سَأَشْتَرِي مَا تُحِبُّ",
+                                    "english": "Sa-ashtari ma tuhibbu (I will buy what you like)",
+                                    "audio_url": "audio/intermediate/sashtari_ma.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "advanced",
+            "level_code": "C1-C2",
+            "emoji": "🔴",
+            "titles": {
+                "en": "Advanced",
+                "ar": "متقدم",
+                "fr": "Avancé",
+                "de": "Fortgeschritten",
+                "ru": "Продвинутый",
+                "zh": "高级"
+            },
+            "description": {
+                "en": "Master stylistic nuances and complex grammatical structures.",
+                "ar": "أتقن الفروق الدقيقة والمكتبات النحوية المعقدة.",
+                "fr": "Maîtrisez les nuances stylistiques et les structures grammaticales complexes.",
+                "de": "Meistern Sie stilistische Nuancen und komplexe grammatikalische Strukturen.",
+                "ru": "Освойте стилистические нюансы и сложные грамматические структуры.",
+                "zh": "掌握风格细微差别和复杂的语法结构。"
+            },
+            "topics": [
+                {
+                    "id": "complex_grammar",
+                    "titles": {
+                        "en": "Complex Grammar Structures",
+                        "ar": "تراكيب نحوية معقدة"
+                    },
+                    "lessons": [
+                        {
+                            "id": "inna_sisters",
+                            "titles": {
+                                "en": "Inna & Sisters",
+                                "ar": "إن وأخواتها"
+                            },
+                            "content": "Particles that enter a nominal sentence. They make the Subject Accusative (Mansub) and the Predicate Nominative (Marfu). Includes: Inna (Emphasis), Anna (That), Lakinna (But), Layta (Wish), La'alla (Hope).",
+                            "examples": [
+                                {
+                                    "arabic": "إِنَّ الْعِلْمَ نُورٌ",
+                                    "english": "Inna al-'ilma nurun (Verily, knowledge is light)",
+                                    "audio_url": "audio/advanced/inna_ilm_nur.mp3"
+                                },
+                                {
+                                    "arabic": "لَيْتَ الشَّبَابَ يَعُودُ",
+                                    "english": "Layta ash-shababa ya'udu (I wish youth would return)",
+                                    "audio_url": "audio/advanced/layta_shabab.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "kana_sisters",
+                            "titles": {
+                                "en": "Kana & Sisters",
+                                "ar": "كان وأخواتها"
+                            },
+                            "content": "Verbs that enter a nominal sentence. They make the Subject Nominative (Marfu) and the Predicate Accusative (Mansub). Includes: Kana (Was), Asbaha (Became), Laysa (Is not), Mazala (Still is).",
+                            "examples": [
+                                {
+                                    "arabic": "كَانَ الْجَوُّ بَارِداً",
+                                    "english": "Kana al-jawwu baridan (The weather was cold)",
+                                    "audio_url": "audio/advanced/kana_jaw_barid.mp3"
+                                },
+                                {
+                                    "arabic": "أَصْبَحَ الْعَالَمُ قَرْيَةً صَغِيرَةً",
+                                    "english": "Asbaha al-'alamu qaryatan saghiratan (The world became a small village)",
+                                    "audio_url": "audio/advanced/asbaha_alam.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "zanna_sisters",
+                            "titles": {
+                                "en": "Zanna & Sisters",
+                                "ar": "ظن وأخواتها"
+                            },
+                            "content": "Verbs of thought/certainty. They take two objects (both Accusative). Examples: Zanna (Thought), Ra'a (Saw/Considered), 'Alima (Knew).",
+                            "examples": [
+                                {
+                                    "arabic": "ظَنَنْتُ الْمِتْحَانَ سَهْلاً",
+                                    "english": "Zanantu al-imtihana sahlan (I thought the exam was easy)",
+                                    "audio_url": "audio/advanced/zanantu_imtihan.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "passive_voice",
+                    "titles": {
+                        "en": "Passive Voice",
+                        "ar": "المبني للمجهول"
+                    },
+                    "lessons": [
+                        {
+                            "id": "past_passive",
+                            "titles": {
+                                "en": "Past Passive",
+                                "ar": "الماضي للمجهول"
+                            },
+                            "content": "Formed by changing vowels: Damma on first letter, Kasra before last. 'Kataba' -> 'Kutiba' (It was written).",
+                            "examples": [
+                                {
+                                    "arabic": "كُتِبَ الدَّرْسُ",
+                                    "english": "Kutiba ad-darsu (The lesson was written)",
+                                    "audio_url": "audio/advanced/kutiba_dars.mp3"
+                                },
+                                {
+                                    "arabic": "كُسِرَ الزُّجَاجُ",
+                                    "english": "Kusira az-zujaju (The glass was broken)",
+                                    "audio_url": "audio/advanced/kusira_zujaj.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "present_passive",
+                            "titles": {
+                                "en": "Present Passive",
+                                "ar": "المضارع للمجهول"
+                            },
+                            "content": "Formed by changing vowels: Damma on prefix, Fatha before last. 'Yaktubu' -> 'Yuktabu' (It is written).",
+                            "examples": [
+                                {
+                                    "arabic": "يُشْرَبُ الْحَلِيبُ",
+                                    "english": "Yushrabu al-halibu (The milk is [being] drunk)",
+                                    "audio_url": "audio/advanced/yushrabu_halib.mp3"
+                                },
+                                {
+                                    "arabic": "يُفْتَحُ الْبَابُ",
+                                    "english": "Yuftahu al-babu (The door is opened)",
+                                    "audio_url": "audio/advanced/yuftahu_bab.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "conditional_sentences",
+                    "titles": {
+                        "en": "Conditional Sentences",
+                        "ar": "أسلوب الشرط"
+                    },
+                    "lessons": [
+                        {
+                            "id": "cond_in",
+                            "titles": {
+                                "en": "In (If - Possible)",
+                                "ar": "إن"
+                            },
+                            "content": "Used for possible conditions in the future. Takes Jussive (Majzum) verbs if they are Present tense. 'In tadhhab adhhab' (If you go, I go).",
+                            "examples": [
+                                {
+                                    "arabic": "إِنْ تَدْرُسْ تَنْجَحْ",
+                                    "english": "In tadrus tanjah (If you study, you succeed)",
+                                    "audio_url": "audio/advanced/in_tadrus.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "cond_idha",
+                            "titles": {
+                                "en": "Idha (If/When - Likely)",
+                                "ar": "إذا"
+                            },
+                            "content": "Used for likely or certain conditions. Often followed by Past tense verbs with Future meaning.",
+                            "examples": [
+                                {
+                                    "arabic": "إِذَا جَاءَ نَصْرُ اللَّهِ",
+                                    "english": "Idha ja'a nasru Allah (When the victory of Allah comes)",
+                                    "audio_url": "audio/advanced/idha_jaa_nasr.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "cond_law",
+                            "titles": {
+                                "en": "Law (If - Hypothetical)",
+                                "ar": "لو"
+                            },
+                            "content": "Used for impossible or hypothetical conditions (Counterfactual). 'Law' implies the abstention of the result due to the abstention of the condition.",
+                            "examples": [
+                                {
+                                    "arabic": "لَوْ اجْتَهَدْتَ لَنَجَحْتَ",
+                                    "english": "Law ijtahadta la-najahta (If you had worked hard, you would have succeeded [but you didn't])",
+                                    "audio_url": "audio/advanced/law_ijtahadta.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "cond_lawla",
+                            "titles": {
+                                "en": "Lawla (If it were not for)",
+                                "ar": "لولا"
+                            },
+                            "content": "Followed by a noun (Nominative). 'Lawla al-'ilmu la-halaka an-nasu' (If not for knowledge, people would have perished).",
+                            "examples": [
+                                {
+                                    "arabic": "لَوْلاَ الْمَاءُ لَمَاتَ الزَّرْعُ",
+                                    "english": "Lawla al-ma'u la-mata az-zar'u (If not for water, the crops would have died)",
+                                    "audio_url": "audio/advanced/lawla_maa.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "cond_jazima",
+                            "titles": {
+                                "en": "Jazima Particles",
+                                "ar": "أدوات الشرط الجازمة"
+                            },
+                            "content": "Particles that affect two verbs (Condition and Result), making them Jussive. Includes: In, Man, Ma, Mahma, Ayna, Mata.",
+                            "examples": [
+                                {
+                                    "arabic": "مَنْ يَعْمَلْ سُوءاً يُجْزَ بِهِ",
+                                    "english": "Man ya'mal su'an yujza bihi (Whoever does evil will be recompensed for it)",
+                                    "audio_url": "audio/advanced/man_yamal_suan.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "relative_clauses",
+                    "titles": {
+                        "en": "Relative Clauses",
+                        "ar": "جمل الصلة"
+                    },
+                    "lessons": [
+                        {
+                            "id": "full_relative",
+                            "titles": {
+                                "en": "Full Relative Sentence Structure",
+                                "ar": "تركيب جملة الصلة الكاملة"
+                            },
+                            "content": "A relative clause (Jumlat as-Sila) describes a definite noun. It must contain a pronoun (A'id) referring back to the noun.",
+                            "examples": [
+                                {
+                                    "arabic": "الرَّجُلُ الَّذِي رَأَيْتُهُ كَرِيمٌ",
+                                    "english": "Ar-rajulu alladhi ra'aytuhu karimun (The man whom I saw is generous - 'hu' matches 'Ar-rajul')",
+                                    "audio_url": "audio/advanced/rajul_alladhi_raaytuhu.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "advanced_rel_pronouns",
+                            "titles": {
+                                "en": "Relative Pronouns Advanced",
+                                "ar": "الأسماء الموصولة المتقدمة"
+                            },
+                            "content": "Special uses of 'Ma' and 'Man'. Using 'Alladhi' as a connector in complex narration. Omitting the relative pronoun (in indefinite clauses).",
+                            "examples": [
+                                {
+                                    "arabic": "رَأَيْتُ طَالِباً يَقْرَأُ",
+                                    "english": "Ra'aytu taliban yaqra'u (I saw a student [who is] reading - No 'Alladhi' for indefinite)",
+                                    "audio_url": "audio/advanced/raaytu_taliban_yaqrau.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "subordinate_clauses",
+                    "titles": {
+                        "en": "Subordinate Clauses",
+                        "ar": "الجمل الفرعية"
+                    },
+                    "lessons": [
+                        {
+                            "id": "sub_cause",
+                            "titles": {
+                                "en": "Cause (Li-anna, Bi-sabab)",
+                                "ar": "السببية"
+                            },
+                            "content": "Connectors that explain the reason. 'Li-anna' is followed by a nominal sentence. 'Bi-sabab' is followed by a noun.",
+                            "examples": [
+                                {
+                                    "arabic": "غَابَ لِأَنَّهُ مَرِيضٌ",
+                                    "english": "Ghaba li-annahu maridun (He was absent because he is sick)",
+                                    "audio_url": "audio/advanced/ghaba_liannahu_marid.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sub_purpose",
+                            "titles": {
+                                "en": "Purpose (Kay, Li)",
+                                "ar": "الغرضية"
+                            },
+                            "content": "Connectors showing purpose. Followed by Subjunctive (Mansub) Present tense. 'Adrusu li-anjaha' (I study to succeed).",
+                            "examples": [
+                                {
+                                    "arabic": "جِئْتُ لِأَتَعَلَّمَ",
+                                    "english": "Ji'tu li-ata'allama (I came to learn)",
+                                    "audio_url": "audio/advanced/jitu_liataallama.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sub_result",
+                            "titles": {
+                                "en": "Result (Fa, Idhan)",
+                                "ar": "النتيجة"
+                            },
+                            "content": "Connectors showing the result or consequence. 'Fa' implies immediate result.",
+                            "examples": [
+                                {
+                                    "arabic": "اجْتَهَدْتُ فَنَجَحْتُ",
+                                    "english": "Ijtahadtu fa-najahtu (I worked hard, so I succeeded)",
+                                    "audio_url": "audio/advanced/ijtahadtu_fanajahtu.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "emphasis_restriction",
+                    "titles": {
+                        "en": "Emphasis & Restriction",
+                        "ar": "التوكيد والقصر"
+                    },
+                    "lessons": [
+                        {
+                            "id": "tawkid",
+                            "titles": {
+                                "en": "Tawkid (Emphasis)",
+                                "ar": "التوكيد"
+                            },
+                            "content": "Using particles like 'Inna', 'Lam al-Ibtida', 'Qad' (with Past tense) to emphasize meaning.",
+                            "examples": [
+                                {
+                                    "arabic": "قَدْ أَفْلَحَ الْمُؤْمِنُونَ",
+                                    "english": "Qad aflaha al-mu'minuna (Certainly, the believers have succeeded)",
+                                    "audio_url": "audio/advanced/qad_aflaha.mp3"
+                                },
+                                {
+                                    "arabic": "وَاللَّهِ إِنَّهُ لَصَادِقٌ",
+                                    "english": "Wallahi innahu la-sadiqun (By Allah, he is indeed truthful)",
+                                    "audio_url": "audio/advanced/wallahi_innahu.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "qasr",
+                            "titles": {
+                                "en": "Qasr (Restriction)",
+                                "ar": "القصر"
+                            },
+                            "content": "Restricting the meaning using 'Innama' (Only/Just) or 'Ma... Illa' (Nothing... Except).",
+                            "examples": [
+                                {
+                                    "arabic": "إِنَّمَا الْمُؤْمِنُونَ إِخْوَةٌ",
+                                    "english": "Innama al-mu'minuna ikhwatun (The believers are but brothers)",
+                                    "audio_url": "audio/advanced/innama_muminun.mp3"
+                                },
+                                {
+                                    "arabic": "مَا مُحَمَّدٌ إِلاَّ رَسُولٌ",
+                                    "english": "Ma Muhammadun illa rasulun (Muhammad is but a messenger)",
+                                    "audio_url": "audio/advanced/ma_muhammad_illa.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "exception_structures",
+                    "titles": {
+                        "en": "Exception Structures",
+                        "ar": "الاستثناء"
+                    },
+                    "lessons": [
+                        {
+                            "id": "excep_illa",
+                            "titles": {
+                                "en": "Illa (Except)",
+                                "ar": "إلا"
+                            },
+                            "content": "The main tool for exception. The noun after 'Illa' is usually Accusative (Mansub) if the sentence is affirmative. If negative, it can be Accusative or match the case of the person/thing excepted from (Badal).",
+                            "examples": [
+                                {
+                                    "arabic": "حَضَرَ الطُّلَّابُ إِلاَّ سَعِيداً",
+                                    "english": "Hadara at-tullabu illa Sa'idan (The students attended except Sa'id)",
+                                    "audio_url": "audio/advanced/illa_saidan.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "excep_ghayr",
+                            "titles": {
+                                "en": "Ghayr / Siwa",
+                                "ar": "غير / سوى"
+                            },
+                            "content": "These act as nouns. The word after them is always Genitive (Mudaf Ilayh). The tools 'Ghayr' and 'Siwa' themselves take the case that the word after 'Illa' would have taken.",
+                            "examples": [
+                                {
+                                    "arabic": "حَضَرَ الطُّلَّابُ غَيْرَ سَعِيدٍ",
+                                    "english": "Hadara at-tullabu ghayra Sa'idin (The students attended except [other than] Sa'id)",
+                                    "audio_url": "audio/advanced/ghayr_saidin.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "apposition",
+                    "titles": {
+                        "en": "Apposition",
+                        "ar": "البدل"
+                    },
+                    "lessons": [
+                        {
+                            "id": "apposition_lesson",
+                            "titles": {
+                                "en": "Apposition (Badal)",
+                                "ar": "البدل"
+                            },
+                            "content": "A noun that follows another noun to clarify or represent it. Types include: Total Badal (The leader Ahmad), Partial Badal (I ate the apple, its half), or Quality Badal (I liked the student, his knowledge).",
+                            "examples": [
+                                {
+                                    "arabic": "جَاءَ الْقَائِدُ أَحْمَدُ",
+                                    "english": "Ja'a al-qa'idu Ahmadu (The leader, Ahmad, came - Total Badal)",
+                                    "audio_url": "audio/advanced/qaid_ahmad.mp3"
+                                },
+                                {
+                                    "arabic": "أَكَلْتُ الرَّغِيفَ نِصْفَهُ",
+                                    "english": "Akaltu ar-raghifa nisfahu (I ate the loaf, half of it - Partial Badal)",
+                                    "audio_url": "audio/advanced/raghif_nisfahu.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "specification",
+                    "titles": {
+                        "en": "Specification",
+                        "ar": "التمييز"
+                    },
+                    "lessons": [
+                        {
+                            "id": "specification_lesson",
+                            "titles": {
+                                "en": "Specification (Tamyiz)",
+                                "ar": "التمييز"
+                            },
+                            "content": "An indefinite Accusative (Mansub) noun used to remove ambiguity from a preceding word (Number, Weight, Measure) or a sentence.",
+                            "examples": [
+                                {
+                                    "arabic": "اشْتَرَيْتُ عِشْرِينَ كِتَاباً",
+                                    "english": "Ishtaraytu 'ishrina kitaban (I bought twenty books - Specification for number)",
+                                    "audio_url": "audio/advanced/ishrina_kitaban.mp3"
+                                },
+                                {
+                                    "arabic": "أَنَا أَكْثَرُ مِنْكَ مَالاً",
+                                    "english": "Ana aktharu minka malan (I have more wealth than you - Specification for sentence)",
+                                    "audio_url": "audio/advanced/aktharu_malan.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "expert",
+            "level_code": "Native",
+            "emoji": "🟣",
+            "titles": {
+                "en": "Expert",
+                "ar": "خبير",
+                "fr": "Expert",
+                "de": "Experte",
+                "ru": "Эксперт",
+                "zh": "专家"
+            },
+            "description": {
+                "en": "Dive deep into classical Arabic, rhetoric, and advanced linguistic analysis.",
+                "ar": "تعمق في اللغة العربية الفصحى والبلاغة والتحليل اللغوي المتقدم.",
+                "fr": "Plongez dans l'arabe classique, la rhétorique et l'analyse linguistique avancée.",
+                "de": "Tauchen Sie tief in das klassische Arabisch, Rhetorik und fortgeschrittene linguistische Analysen ein.",
+                "ru": "Погрузитесь в классический арабский язык, риторику и продвинутый лингвистический анализ.",
+                "zh": "深入研究古典阿拉伯语、修辞学和高级语言分析。"
+            },
+            "topics": [
+                {
+                    "id": "full_irab",
+                    "titles": {
+                        "en": "Full I‘rab System",
+                        "ar": "الإعراب الكامل"
+                    },
+                    "lessons": [
+                        {
+                            "id": "irab_mabni_murab",
+                            "titles": {
+                                "en": "Mabni vs Mu'rab",
+                                "ar": "المبني والمعرب"
+                            },
+                            "content": "Most Arabic nouns and verbs change their endings (Mu'rab), but some are fixed (Mabni) regardless of their position. Mabni include pronouns, demonstratives, and past tense verbs.",
+                            "examples": [
+                                {
+                                    "arabic": "هَؤُلَاءِ",
+                                    "english": "Ha'ula'i (These - Always ends with Kasra/Mabni)",
+                                    "audio_url": "audio/expert/haulai.mp3"
+                                },
+                                {
+                                    "arabic": "قَتَلَ",
+                                    "english": "Qatala (He killed - Past tense is Mabni on Fatha)",
+                                    "audio_url": "audio/expert/qatala_mabni.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "irab_nominative",
+                            "titles": {
+                                "en": "Nominative (Marfu')",
+                                "ar": "المرفوعات"
+                            },
+                            "content": "Nouns are Marfu' when they are: Subject (Fa'il), Nominal Subject (Mubtada), Predicate (Khabar), Name of Kana, Predicate of Inna.",
+                            "examples": [
+                                {
+                                    "arabic": "جَاءَ الْحَقُّ",
+                                    "english": "Ja'a al-haqqu (The truth came - Fa'il)",
+                                    "audio_url": "audio/expert/jaa_haqq.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "irab_accusative",
+                            "titles": {
+                                "en": "Accusative (Mansub')",
+                                "ar": "المنصوبات"
+                            },
+                            "content": "Nouns are Mansub when they are: Object (Maf'ul), Adverb (Zarf), State (Hal), Specification (Tamyiz), Name of Inna, Predicate of Kana.",
+                            "examples": [
+                                {
+                                    "arabic": "رَأَيْتُ الْهِلَالَ",
+                                    "english": "Ra'aytu al-hilala (I saw the crescent - Maf'ul Bihi)",
+                                    "audio_url": "audio/expert/raaytu_hilala.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "irab_genitive",
+                            "titles": {
+                                "en": "Genitive (Majrur')",
+                                "ar": "المجرورات"
+                            },
+                            "content": "Nouns are Majrur when preceded by a preposition or are the second part of Idafa.",
+                            "examples": [
+                                {
+                                    "arabic": "كِتَابُ الطَّالِبِ",
+                                    "english": "Kitabu at-talibi (The student's book - Mudaf Ilayh)",
+                                    "audio_url": "audio/expert/kitabu_talibi.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "irab_jussive",
+                            "titles": {
+                                "en": "Jussive (Majzum')",
+                                "ar": "المجزومات"
+                            },
+                            "content": "The Present Tense verb is Majzum when preceded by a Jazim particle (e.g., Lam, La An-Nahiya).",
+                            "examples": [
+                                {
+                                    "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+                                    "english": "Lam yalid wa-lam yulad (He neither begot nor was He begotten)",
+                                    "audio_url": "audio/expert/lam_yalid.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "advanced_morphology",
+                    "titles": {
+                        "en": "Advanced Morphology",
+                        "ar": "الصرف المتقدم"
+                    },
+                    "lessons": [
+                        {
+                            "id": "root_pattern",
+                            "titles": {
+                                "en": "Root & Pattern System",
+                                "ar": "نظام الجذر والوزن"
+                            },
+                            "content": "Most Arabic words are derived from a 3-letter root (Jidhr). The pattern (Wazn) determines the meaning (e.g., doer, place, tool).",
+                            "examples": [
+                                {
+                                    "arabic": "كَتَبَ - كَاتِب - مَكْتَب",
+                                    "english": "Kataba (wrote) - Katib (writer) - Maktab (office) [Root: K-T-B]",
+                                    "audio_url": "audio/expert/ktb_derivations.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "verb_derivation",
+                            "titles": {
+                                "en": "Verb Derivation",
+                                "ar": "اشتقاق الأفعال"
+                            },
+                            "content": "Deriving verbs from nouns or other verbs to add meanings like intensity, reciprocity, or causation.",
+                            "examples": [
+                                {
+                                    "arabic": "حَجَّ -> تَحَاجَّ",
+                                    "english": "Hajja (performed Hajj) -> Tahajja (argued with each other)",
+                                    "audio_url": "audio/expert/hajja_tahajja.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "noun_derivation",
+                            "titles": {
+                                "en": "Noun Derivation",
+                                "ar": "اشتقاق الأسماء"
+                            },
+                            "content": "Forming Active Participle (Ism Fa'il), Passive Participle (Ism Maf'ul), and Verbal Noun (Masdar).",
+                            "examples": [
+                                {
+                                    "arabic": "نَصَرَ -> نَاصِر - مَنْصُور - نَصْر",
+                                    "english": "Nasara -> Nasir (Helper) - Mansur (Helped) - Nasr (Victory)",
+                                    "audio_url": "audio/expert/nasara_derivations.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "weak_morphology",
+                            "titles": {
+                                "en": "Weak Verb Morphology",
+                                "ar": "صرف الأفعال المعتلة"
+                            },
+                            "content": "Rules of 'Ilal (Vowel alteration) and Ibdal (Substitution) in weak verbs (Mithal, Ajwaf, Naqis).",
+                            "examples": [
+                                {
+                                    "arabic": "قَالَ (أَصْلُهُ قَوَلَ)",
+                                    "english": "Qala (He said) - Originally 'Qawala' (Waw changed to Alif)",
+                                    "audio_url": "audio/expert/qala_origin.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "balagha",
+                    "titles": {
+                        "en": "Balagha (Rhetoric)",
+                        "ar": "البلاغة"
+                    },
+                    "lessons": [
+                        {
+                            "id": "ilm_al_maani",
+                            "titles": {
+                                "en": "Ilm Al-Ma‘ani",
+                                "ar": "علم المعاني"
+                            },
+                            "content": "Study of sentence meanings and structures (Context). Includes: Khabar (Informative) vs Insha (Performative), Ijaz (Conciseness), Itnab (Elaboration).",
+                            "examples": [
+                                {
+                                    "arabic": "رَبِّ إِنِّي وَهَنَ الْعَظْمُ مِنِّي",
+                                    "english": "Rabbi inni wahana al-'azmu minni (My Lord, indeed my bones have weakened - Showing weakness/prayer)",
+                                    "audio_url": "audio/expert/wahana_azm.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ilm_al_bayan",
+                            "titles": {
+                                "en": "Ilm Al-Bayan",
+                                "ar": "علم البيان"
+                            },
+                            "content": "Study of imagery and figures of speech. Includes: Tashbih (Simile), Isti'ara (Metaphor), Kinaya (Metonymy).",
+                            "examples": [
+                                {
+                                    "arabic": "زَيْدٌ كَالْأَسَدِ",
+                                    "english": "Zaidun ka-al-asadi (Zaid is like a lion - Simile)",
+                                    "audio_url": "audio/expert/zaid_asad.mp3"
+                                },
+                                {
+                                    "arabic": "رَأَيْتُ أَسَدًا يَخْطُبُ",
+                                    "english": "Ra'aytu asadan yakhtubu (I saw a lion giving a speech - Metaphor for a brave man)",
+                                    "audio_url": "audio/expert/asad_yakhtub.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ilm_al_badi",
+                            "titles": {
+                                "en": "Ilm Al-Badi‘",
+                                "ar": "علم البديع"
+                            },
+                            "content": "Study of rhetorical embellishments. Includes: Saj' (Rhymed Prose), Jinas (Pun/Paronomasia), Tibaq (Antithesis).",
+                            "examples": [
+                                {
+                                    "arabic": "وَتَحْسَبُهُمْ أَيْقَاظًا وَهُمْ رُقُودٌ",
+                                    "english": "Wa-tahsabuhum ayqazan wa-hum ruqud (You would think them awake, while they were asleep - Tibaq)",
+                                    "audio_url": "audio/expert/ayqaz_ruqud.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "classical_syntax",
+                    "titles": {
+                        "en": "Classical Syntax",
+                        "ar": "النحو الكلاسيكي"
+                    },
+                    "lessons": [
+                        {
+                            "id": "quranic_grammar",
+                            "titles": {
+                                "en": "Quranic Grammar Analysis",
+                                "ar": "إعراب القرآن"
+                            },
+                            "content": "Detailed grammatical analysis of Quranic verses, highlighting unique structures and eloquence.",
+                            "examples": [
+                                {
+                                    "arabic": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+                                    "english": "Al-hamdu (Mubtada) lillahi (Khabar) Rabbi (Badal/Na't) al-'alamina (Mudaf Ilayh)",
+                                    "audio_url": "audio/expert/hamdu_lillah_irab.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "poetry_grammar",
+                            "titles": {
+                                "en": "Poetry Grammar Analysis",
+                                "ar": "إعراب الشعر"
+                            },
+                            "content": "Analyzing classical poetry (Mu'allaqat) for grammatical structure and rhetorical devices.",
+                            "examples": [
+                                {
+                                    "arabic": "قِفَا نَبْكِ مِنْ ذِكْرَى حَبِيبٍ وَمَنْزِلِ",
+                                    "english": "Qifa (Imperative Dual) nabki (Jussive Answer to Command) - Stop, let us weep...",
+                                    "audio_url": "audio/expert/imru_al_qays.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "linguistic_rhetoric",
+                    "titles": {
+                        "en": "Linguistic Rhetoric",
+                        "ar": "البلاغة اللغوية"
+                    },
+                    "lessons": [
+                        {
+                            "id": "metaphor",
+                            "titles": {
+                                "en": "Metaphor (Isti'ara)",
+                                "ar": "الاستعارة"
+                            },
+                            "content": "A comparison where one party is omitted. 'In the library are stars' (meaning scholars).",
+                            "examples": [
+                                {
+                                    "arabic": "وَاشْتَعَلَ الرَّأْسُ شَيْبًا",
+                                    "english": "Wa-ishta'ala ar-ra'su shayban (And the head flared up with gray hair - Metaphor for aging spreading like fire)",
+                                    "audio_url": "audio/expert/ishtaala_ras.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "simile",
+                            "titles": {
+                                "en": "Simile (Tashbih)",
+                                "ar": "التشبيه"
+                            },
+                            "content": "comparing two things using particles like 'Ka' or 'Mithla'. 'Anta ka-al-qamari' (You are like the moon).",
+                            "examples": [
+                                {
+                                    "arabic": "الْعِلْمُ كَالنُّورِ يَهْدِي",
+                                    "english": "Al-'ilmu ka-an-nuri yahdi (Knowledge is like light, it guides)",
+                                    "audio_url": "audio/expert/ilm_ka_nur.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "allegory",
+                            "titles": {
+                                "en": "Allegory (Kinaya)",
+                                "ar": "الكناية"
+                            },
+                            "content": "Using a phrase to mean something else indirectly. 'Kathir ar-ramad' (Much ash) means generous (cooking for many).",
+                            "examples": [
+                                {
+                                    "arabic": "فُلاَنٌ نَظِيفُ الْيَدِ",
+                                    "english": "Fulanun nazifu al-yadi (So-and-so has a clean hand - Metonymy for honesty)",
+                                    "audio_url": "audio/expert/nazif_yad.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "advanced_parsing",
+                    "titles": {
+                        "en": "Advanced Parsing Practice",
+                        "ar": "تطبيقات إعرابية متقدمة"
+                    },
+                    "lessons": [
+                        {
+                            "id": "sentence_parsing",
+                            "titles": {
+                                "en": "Sentence Parsing (Mahall al-I'rab)",
+                                "ar": "إعراب الجمل"
+                            },
+                            "content": "Sentences that have a grammatical place (e.g., Khabar, Hal, Sifah) and those that don't (e.g., Ibtida'iyyah, Silah).",
+                            "examples": [
+                                {
+                                    "arabic": "رَأَيْتُ رَجُلاً يَضْحَكُ",
+                                    "english": "Ra'aytu rajulan yadhaku ('Yadhaku' is a verbal sentence in place of Adjective/Na't for 'Rajulan')",
+                                    "audio_url": "audio/expert/rajul_yadhaku.mp3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "text_parsing",
+                            "titles": {
+                                "en": "Full Text Parsing Practice",
+                                "ar": "إعراب نصوص كاملة"
+                            },
+                            "content": "Practical practice on parsing complete paragraphs or verses, focusing on the relationship between sentences and the overall grammatical structure.",
+                            "examples": [
+                                {
+                                    "arabic": "إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ",
+                                    "english": "Idha (Conditional Adverb) ja'a (Past verb) nasru (Fa'il) Allahi (Mudaf Ilayh) wa (Conj) al-fathu (Ma'tuf on Nasru).",
+                                    "audio_url": "audio/expert/idha_jaa_nasr_full.mp3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

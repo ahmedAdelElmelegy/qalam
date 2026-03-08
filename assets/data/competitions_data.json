@@ -1,0 +1,1457 @@
+{
+    "levels": [
+        {
+            "id": "beginner",
+            "label": "Beginner",
+            "labelAr": "مبتدئ",
+            "xpRequired": 0,
+            "icon": "start",
+            "color": "#10B981"
+        },
+        {
+            "id": "elementary",
+            "label": "Elementary",
+            "labelAr": "أساسي",
+            "xpRequired": 500,
+            "icon": "walk",
+            "color": "#3B82F6"
+        },
+        {
+            "id": "intermediate",
+            "label": "Intermediate",
+            "labelAr": "متوسط",
+            "xpRequired": 1500,
+            "icon": "hiking",
+            "color": "#8B5CF6"
+        },
+        {
+            "id": "advanced",
+            "label": "Advanced",
+            "labelAr": "متقدم",
+            "xpRequired": 3000,
+            "icon": "flight",
+            "color": "#F59E0B"
+        },
+        {
+            "id": "expert",
+            "label": "Expert",
+            "labelAr": "خبير",
+            "xpRequired": 6000,
+            "icon": "rocket",
+            "color": "#EC4899"
+        },
+        {
+            "id": "hero",
+            "label": "Hero",
+            "labelAr": "بطل",
+            "xpRequired": 10000,
+            "icon": "trophy",
+            "color": "#EF4444"
+        }
+    ],
+    "competitions": {
+        "word_challenge": {
+            "id": "word_challenge",
+            "icon": "abc",
+            "color": "#10B981",
+            "levels": {
+                "beginner": {
+                    "xpReward": 50,
+                    "timeLimit": 60,
+                    "questions": [
+                        {
+                            "id": "wc_b_1",
+                            "type": "match_translation",
+                            "arabic": "كِتَاب",
+                            "transliteration": "kitāb",
+                            "english": "Book",
+                            "options": [
+                                "Book",
+                                "Pen",
+                                "Table",
+                                "Chair"
+                            ],
+                            "hint": "You read this",
+                            "xp": 10
+                        },
+                        {
+                            "id": "wc_b_2",
+                            "type": "match_translation",
+                            "arabic": "بَيْت",
+                            "transliteration": "bayt",
+                            "english": "House",
+                            "options": [
+                                "Car",
+                                "House",
+                                "School",
+                                "Market"
+                            ],
+                            "hint": "You live here",
+                            "xp": 10
+                        },
+                        {
+                            "id": "wc_b_3",
+                            "type": "match_translation",
+                            "arabic": "مَاء",
+                            "transliteration": "mā'",
+                            "english": "Water",
+                            "options": [
+                                "Water",
+                                "Food",
+                                "Juice",
+                                "Milk"
+                            ],
+                            "hint": "Essential for life",
+                            "xp": 10
+                        },
+                        {
+                            "id": "wc_b_4",
+                            "type": "match_translation",
+                            "arabic": "شَمْس",
+                            "transliteration": "shams",
+                            "english": "Sun",
+                            "options": [
+                                "Moon",
+                                "Star",
+                                "Sun",
+                                "Cloud"
+                            ],
+                            "hint": "Shines in the sky during the day",
+                            "xp": 10
+                        },
+                        {
+                            "id": "wc_b_5",
+                            "type": "match_translation",
+                            "arabic": "وَلَد",
+                            "transliteration": "walad",
+                            "english": "Boy",
+                            "options": [
+                                "Girl",
+                                "Man",
+                                "Boy",
+                                "Baby"
+                            ],
+                            "hint": "A young male child",
+                            "xp": 10
+                        },
+                        {
+                            "id": "wc_b_6",
+                            "type": "match_translation",
+                            "arabic": "كَلب",
+                            "transliteration": "kalb",
+                            "english": "Dog",
+                            "options": [
+                                "Cat",
+                                "Dog",
+                                "Bird",
+                                "Fish"
+                            ],
+                            "hint": "A loyal animal companion",
+                            "xp": 10
+                        }
+                    ]
+                },
+                "elementary": {
+                    "xpReward": 80,
+                    "timeLimit": 55,
+                    "questions": [
+                        {
+                            "id": "wc_e_1",
+                            "type": "match_translation",
+                            "arabic": "مَدْرَسَة",
+                            "transliteration": "madrasa",
+                            "english": "School",
+                            "options": [
+                                "Hospital",
+                                "School",
+                                "Library",
+                                "Airport"
+                            ],
+                            "hint": "Where children learn",
+                            "xp": 15
+                        },
+                        {
+                            "id": "wc_e_2",
+                            "type": "fill_blank",
+                            "arabic": "أَنَا ___ مِنَ المَدْرَسَة",
+                            "transliteration": "anā ___ min al-madrasa",
+                            "english": "I ___ from school",
+                            "answer": "رَجَعْت",
+                            "answerEn": "returned",
+                            "options": [
+                                "رَجَعْت",
+                                "أَكَلْت",
+                                "نِمْت",
+                                "كَتَبْت"
+                            ],
+                            "xp": 15
+                        },
+                        {
+                            "id": "wc_e_3",
+                            "type": "match_translation",
+                            "arabic": "طَبِيب",
+                            "transliteration": "ṭabīb",
+                            "english": "Doctor",
+                            "options": [
+                                "Teacher",
+                                "Engineer",
+                                "Doctor",
+                                "Lawyer"
+                            ],
+                            "hint": "Works in a hospital",
+                            "xp": 15
+                        },
+                        {
+                            "id": "wc_e_4",
+                            "type": "match_translation",
+                            "arabic": "سَيَّارَة",
+                            "transliteration": "sayyāra",
+                            "english": "Car",
+                            "options": [
+                                "Bicycle",
+                                "Car",
+                                "Bus",
+                                "Train"
+                            ],
+                            "hint": "A common road vehicle",
+                            "xp": 15
+                        },
+                        {
+                            "id": "wc_e_5",
+                            "type": "fill_blank",
+                            "arabic": "هَذَا ___ جَمِيل",
+                            "transliteration": "hādhā ___ jamīl",
+                            "english": "This ___ is beautiful",
+                            "answer": "زَهْر",
+                            "answerEn": "flower",
+                            "options": [
+                                "زَهْر",
+                                "حَجَر",
+                                "مَاء",
+                                "خَشَب"
+                            ],
+                            "xp": 15
+                        }
+                    ]
+                },
+                "intermediate": {
+                    "xpReward": 120,
+                    "timeLimit": 50,
+                    "questions": [
+                        {
+                            "id": "wc_i_1",
+                            "type": "match_translation",
+                            "arabic": "اِقْتِصَاد",
+                            "transliteration": "iqtiṣād",
+                            "english": "Economy",
+                            "options": [
+                                "Politics",
+                                "Economy",
+                                "History",
+                                "Science"
+                            ],
+                            "hint": "Related to trade and money",
+                            "xp": 20
+                        },
+                        {
+                            "id": "wc_i_2",
+                            "type": "fill_blank",
+                            "arabic": "يَجِب أَن ___ اللُّغَةَ العَرَبِيَّة",
+                            "transliteration": "yajib an ___ al-lugha al-'arabiyya",
+                            "english": "You must ___ the Arabic language",
+                            "answer": "تَتَعَلَّم",
+                            "answerEn": "learn",
+                            "options": [
+                                "تَتَعَلَّم",
+                                "تَكْسِر",
+                                "تَنْسَى",
+                                "تُغْلِق"
+                            ],
+                            "xp": 20
+                        },
+                        {
+                            "id": "wc_i_3",
+                            "type": "match_translation",
+                            "arabic": "مُسْتَشْفَى",
+                            "transliteration": "mustashfā",
+                            "english": "Hospital",
+                            "options": [
+                                "School",
+                                "Hospital",
+                                "Hotel",
+                                "Market"
+                            ],
+                            "hint": "Place for medical treatment",
+                            "xp": 20
+                        },
+                        {
+                            "id": "wc_i_4",
+                            "type": "match_translation",
+                            "arabic": "حَضَارَة",
+                            "transliteration": "ḥaḍāra",
+                            "english": "Civilization",
+                            "options": [
+                                "Desert",
+                                "Village",
+                                "Civilization",
+                                "Tribe"
+                            ],
+                            "hint": "Advanced human development",
+                            "xp": 20
+                        },
+                        {
+                            "id": "wc_i_5",
+                            "type": "fill_blank",
+                            "arabic": "هَذِهِ المَدِينَة ___ بِالتَّارِيخ",
+                            "transliteration": "hādhihi al-madīna ___ bil-tārīkh",
+                            "english": "This city is ___ with history",
+                            "answer": "غَنِيَّة",
+                            "answerEn": "rich",
+                            "options": [
+                                "غَنِيَّة",
+                                "فَقِيرَة",
+                                "صَغِيرَة",
+                                "قَدِيمَة"
+                            ],
+                            "xp": 20
+                        }
+                    ]
+                },
+                "advanced": {
+                    "xpReward": 180,
+                    "timeLimit": 45,
+                    "questions": [
+                        {
+                            "id": "wc_a_1",
+                            "type": "match_translation",
+                            "arabic": "اِسْتِدَامَة",
+                            "transliteration": "istidāma",
+                            "english": "Sustainability",
+                            "options": [
+                                "Sustainability",
+                                "Continuity",
+                                "Persistence",
+                                "Revolution"
+                            ],
+                            "xp": 25
+                        },
+                        {
+                            "id": "wc_a_2",
+                            "type": "fill_blank",
+                            "arabic": "تَسْعَى الدُّوَل إِلَى ___ السَّلام",
+                            "transliteration": "tas'ā al-duwal ilā ___ al-salām",
+                            "english": "Countries strive to ___ peace",
+                            "answer": "تَحْقِيق",
+                            "answerEn": "achieve",
+                            "options": [
+                                "تَحْقِيق",
+                                "تَدْمِير",
+                                "إِنْهَاء",
+                                "تَجَاهُل"
+                            ],
+                            "xp": 25
+                        },
+                        {
+                            "id": "wc_a_3",
+                            "type": "match_translation",
+                            "arabic": "مُسْتَدَام",
+                            "transliteration": "mustadām",
+                            "english": "Sustainable",
+                            "options": [
+                                "Temporary",
+                                "Sustainable",
+                                "Fragile",
+                                "Modern"
+                            ],
+                            "xp": 25
+                        },
+                        {
+                            "id": "wc_a_4",
+                            "type": "match_translation",
+                            "arabic": "فَلْسَفَة",
+                            "transliteration": "falsafa",
+                            "english": "Philosophy",
+                            "options": [
+                                "Theology",
+                                "Philosophy",
+                                "Logic",
+                                "Rhetoric"
+                            ],
+                            "xp": 25
+                        }
+                    ]
+                },
+                "expert": {
+                    "xpReward": 250,
+                    "timeLimit": 40,
+                    "questions": [
+                        {
+                            "id": "wc_ex_1",
+                            "type": "match_translation",
+                            "arabic": "مُتَشَعِّب",
+                            "transliteration": "mutasha''ib",
+                            "english": "Ramified / Branching",
+                            "options": [
+                                "Branching",
+                                "Unified",
+                                "Simple",
+                                "Linear"
+                            ],
+                            "xp": 35
+                        },
+                        {
+                            "id": "wc_ex_2",
+                            "type": "fill_blank",
+                            "arabic": "النَّصُّ الأَدَبِيُّ ___ مِن طَبَقَات مَعْنَوِيَّة",
+                            "transliteration": "al-naṣṣ al-adabīy ___ min ṭabaqāt ma'nawiyya",
+                            "english": "The literary text ___ of semantic layers",
+                            "answer": "يَتَأَلَّف",
+                            "answerEn": "is composed",
+                            "options": [
+                                "يَتَأَلَّف",
+                                "يَخْلُو",
+                                "يَبْتَعِد",
+                                "يَتَجَاوَز"
+                            ],
+                            "xp": 35
+                        },
+                        {
+                            "id": "wc_ex_3",
+                            "type": "match_translation",
+                            "arabic": "التَّدَاوُلِيَّة",
+                            "transliteration": "al-tadāwuliyya",
+                            "english": "Pragmatics (linguistics)",
+                            "options": [
+                                "Pragmatics",
+                                "Semantics",
+                                "Phonology",
+                                "Syntax"
+                            ],
+                            "xp": 35
+                        }
+                    ]
+                },
+                "hero": {
+                    "xpReward": 400,
+                    "timeLimit": 35,
+                    "questions": [
+                        {
+                            "id": "wc_h_1",
+                            "type": "match_translation",
+                            "arabic": "الاِسْتِعَارَة المَكْنِيَّة",
+                            "transliteration": "al-isti'āra al-makniyya",
+                            "english": "Implied Metaphor",
+                            "options": [
+                                "Implied Metaphor",
+                                "Simile",
+                                "Metonymy",
+                                "Personification"
+                            ],
+                            "xp": 50
+                        },
+                        {
+                            "id": "wc_h_2",
+                            "type": "fill_blank",
+                            "arabic": "يَنْبَغِي لِلفَيْلَسُوف أَن يَكُون ___ وَمُتَأَمِّلاً",
+                            "transliteration": "yanbaghi lil-faylasūf an yakūn ___ wa-muta'ammilan",
+                            "english": "A philosopher should be ___ and contemplative",
+                            "answer": "مُتَفَطِّناً",
+                            "answerEn": "perceptive",
+                            "options": [
+                                "مُتَفَطِّناً",
+                                "مُتَهَوِّراً",
+                                "مُتَسَرِّعاً",
+                                "مُتَعَجِّلاً"
+                            ],
+                            "xp": 50
+                        },
+                        {
+                            "id": "wc_h_3",
+                            "type": "match_translation",
+                            "arabic": "انْتِقَائِيَّة",
+                            "transliteration": "intiqā'iyya",
+                            "english": "Eclecticism",
+                            "options": [
+                                "Eclecticism",
+                                "Fatalism",
+                                "Absolutism",
+                                "Nihilism"
+                            ],
+                            "xp": 50
+                        }
+                    ]
+                }
+            }
+        },
+        "sentence_puzzle": {
+            "id": "sentence_puzzle",
+            "icon": "extension",
+            "color": "#3B82F6",
+            "levels": {
+                "beginner": {
+                    "xpReward": 50,
+                    "timeLimit": 90,
+                    "questions": [
+                        {
+                            "id": "sp_b_1",
+                            "type": "arrange_words",
+                            "english": "I drink water every day",
+                            "words": [
+                                "أَشْرَب",
+                                "مَاء",
+                                "أَنَا",
+                                "كُل",
+                                "يَوم"
+                            ],
+                            "correctOrder": [
+                                "أَنَا",
+                                "أَشْرَب",
+                                "مَاء",
+                                "كُل",
+                                "يَوم"
+                            ],
+                            "answer": "أَنَا أَشْرَب مَاءً كُلَّ يَوم",
+                            "xp": 10
+                        },
+                        {
+                            "id": "sp_b_2",
+                            "type": "arrange_words",
+                            "english": "This is a big house",
+                            "words": [
+                                "بَيْت",
+                                "هَذَا",
+                                "كَبِير"
+                            ],
+                            "correctOrder": [
+                                "هَذَا",
+                                "بَيْت",
+                                "كَبِير"
+                            ],
+                            "answer": "هَذَا بَيْتٌ كَبِير",
+                            "xp": 10
+                        },
+                        {
+                            "id": "sp_b_3",
+                            "type": "arrange_words",
+                            "english": "She goes to school",
+                            "words": [
+                                "تَذْهَب",
+                                "هِيَ",
+                                "المَدْرَسَة",
+                                "إِلَى"
+                            ],
+                            "correctOrder": [
+                                "هِيَ",
+                                "تَذْهَب",
+                                "إِلَى",
+                                "المَدْرَسَة"
+                            ],
+                            "answer": "هِيَ تَذْهَبُ إِلَى المَدْرَسَة",
+                            "xp": 10
+                        },
+                        {
+                            "id": "sp_b_4",
+                            "type": "arrange_words",
+                            "english": "The sun is beautiful",
+                            "words": [
+                                "جَمِيلَة",
+                                "الشَّمْس"
+                            ],
+                            "correctOrder": [
+                                "الشَّمْس",
+                                "جَمِيلَة"
+                            ],
+                            "answer": "الشَّمْسُ جَمِيلَة",
+                            "xp": 10
+                        }
+                    ]
+                },
+                "elementary": {
+                    "xpReward": 80,
+                    "timeLimit": 80,
+                    "questions": [
+                        {
+                            "id": "sp_e_1",
+                            "type": "arrange_words",
+                            "english": "I like to read books in the library",
+                            "words": [
+                                "أُحِب",
+                                "القِرَاءَة",
+                                "الكُتُب",
+                                "فِي",
+                                "المَكْتَبَة",
+                                "أَنَا"
+                            ],
+                            "correctOrder": [
+                                "أَنَا",
+                                "أُحِب",
+                                "القِرَاءَة",
+                                "فِي",
+                                "المَكْتَبَة"
+                            ],
+                            "answer": "أَنَا أُحِبُّ القِرَاءَةَ فِي المَكْتَبَة",
+                            "xp": 15
+                        },
+                        {
+                            "id": "sp_e_2",
+                            "type": "fix_error",
+                            "wrongSentence": "أَنَا ذَهَبَت إِلَى المَدْرَسَة",
+                            "correctSentence": "أَنَا ذَهَبْتُ إِلَى المَدْرَسَة",
+                            "english": "I went to school",
+                            "explanation": "Use ذَهَبْتُ (first person) not ذَهَبَت (third person feminine)",
+                            "xp": 15
+                        },
+                        {
+                            "id": "sp_e_3",
+                            "type": "arrange_words",
+                            "english": "He works in a hospital",
+                            "words": [
+                                "يَعْمَل",
+                                "هُوَ",
+                                "فِي",
+                                "المُسْتَشْفَى"
+                            ],
+                            "correctOrder": [
+                                "هُوَ",
+                                "يَعْمَل",
+                                "فِي",
+                                "المُسْتَشْفَى"
+                            ],
+                            "answer": "هُوَ يَعْمَلُ فِي المُسْتَشْفَى",
+                            "xp": 15
+                        }
+                    ]
+                },
+                "intermediate": {
+                    "xpReward": 120,
+                    "timeLimit": 70,
+                    "questions": [
+                        {
+                            "id": "sp_i_1",
+                            "type": "arrange_words",
+                            "english": "The Arabic language is one of the most beautiful languages in the world",
+                            "words": [
+                                "اللُّغَة",
+                                "العَرَبِيَّة",
+                                "مِن",
+                                "أَجْمَل",
+                                "لُغَات",
+                                "العَالَم",
+                                "هِيَ"
+                            ],
+                            "correctOrder": [
+                                "اللُّغَة",
+                                "العَرَبِيَّة",
+                                "هِيَ",
+                                "مِن",
+                                "أَجْمَل",
+                                "لُغَات",
+                                "العَالَم"
+                            ],
+                            "answer": "اللُّغَةُ العَرَبِيَّةُ هِيَ مِن أَجْمَلِ لُغَاتِ العَالَم",
+                            "xp": 20
+                        },
+                        {
+                            "id": "sp_i_2",
+                            "type": "fix_error",
+                            "wrongSentence": "الكِتَاب الذِي كَتَبَهُ الأَدِيب جَمِيلٌ جِدًا",
+                            "correctSentence": "الكِتَابُ الَّذِي كَتَبَهُ الأَدِيبُ جَمِيلٌ جِدًا",
+                            "english": "The book that the author wrote is very beautiful",
+                            "explanation": "Use الَّذِي for relative pronoun referring to masculine singular",
+                            "xp": 20
+                        },
+                        {
+                            "id": "sp_i_3",
+                            "type": "arrange_words",
+                            "english": "She studies at the university every morning",
+                            "words": [
+                                "تَدْرُس",
+                                "هِيَ",
+                                "فِي",
+                                "الجَامِعَة",
+                                "كُل",
+                                "صَبَاح"
+                            ],
+                            "correctOrder": [
+                                "هِيَ",
+                                "تَدْرُس",
+                                "فِي",
+                                "الجَامِعَة",
+                                "كُلَّ",
+                                "صَبَاح"
+                            ],
+                            "answer": "هِيَ تَدْرُسُ فِي الجَامِعَةِ كُلَّ صَبَاح",
+                            "xp": 20
+                        }
+                    ]
+                },
+                "advanced": {
+                    "xpReward": 180,
+                    "timeLimit": 60,
+                    "questions": [
+                        {
+                            "id": "sp_a_1",
+                            "type": "fix_error",
+                            "wrongSentence": "إِن الطُّلَّاب الذِين اجْتَهَدُوا يَنَالُوا جَوَائِز",
+                            "correctSentence": "إِنَّ الطُّلَّابَ الَّذِينَ اجْتَهَدُوا يَنَالُونَ جَوَائِزَ",
+                            "english": "The students who worked hard will receive prizes",
+                            "explanation": "إِنَّ requires accusative case; verb يَنَالُونَ (plural) not يَنَالُوا (jussive)",
+                            "xp": 30
+                        },
+                        {
+                            "id": "sp_a_2",
+                            "type": "arrange_words",
+                            "english": "The cultural heritage reflects the identity of peoples",
+                            "words": [
+                                "التُّرَاث",
+                                "الثَّقَافِي",
+                                "يَعْكِس",
+                                "هُوِيَّة",
+                                "الشُّعُوب"
+                            ],
+                            "correctOrder": [
+                                "التُّرَاث",
+                                "الثَّقَافِي",
+                                "يَعْكِس",
+                                "هُوِيَّة",
+                                "الشُّعُوب"
+                            ],
+                            "answer": "التُّرَاثُ الثَّقَافِيُّ يَعْكِسُ هُوِيَّةَ الشُّعُوب",
+                            "xp": 30
+                        }
+                    ]
+                },
+                "expert": {
+                    "xpReward": 250,
+                    "timeLimit": 50,
+                    "questions": [
+                        {
+                            "id": "sp_ex_1",
+                            "type": "fix_error",
+                            "wrongSentence": "لَوْلَا العِلْم لَمَا تَقَدَّمَ الإِنْسَانِيَّة",
+                            "correctSentence": "لَوْلَا العِلْمُ لَمَا تَقَدَّمَتِ الإِنْسَانِيَّة",
+                            "english": "Were it not for science, humanity would not have advanced",
+                            "explanation": "لَوْلَا requires nominative; الإِنْسَانِيَّة is feminine so use تَقَدَّمَتِ",
+                            "xp": 40
+                        },
+                        {
+                            "id": "sp_ex_2",
+                            "type": "arrange_words",
+                            "english": "The manuscripts preserved by scholars are a treasure for humanity",
+                            "words": [
+                                "المَخْطُوطَات",
+                                "التِي",
+                                "حَفِظَهَا",
+                                "العُلَمَاء",
+                                "كَنْز",
+                                "لِلبَشَرِيَّة"
+                            ],
+                            "correctOrder": [
+                                "المَخْطُوطَات",
+                                "التِي",
+                                "حَفِظَهَا",
+                                "العُلَمَاء",
+                                "كَنْزٌ",
+                                "لِلبَشَرِيَّة"
+                            ],
+                            "answer": "المَخْطُوطَاتُ الَّتِي حَفِظَهَا العُلَمَاءُ كَنْزٌ لِلبَشَرِيَّة",
+                            "xp": 40
+                        }
+                    ]
+                },
+                "hero": {
+                    "xpReward": 400,
+                    "timeLimit": 40,
+                    "questions": [
+                        {
+                            "id": "sp_h_1",
+                            "type": "fix_error",
+                            "wrongSentence": "مَا مِن أُمَّةٌ ازْدَهَرَت إِلَّا وَقَد أَوْلَت الثَّقَافَة أَهَمِّيَّة قُصْوَى",
+                            "correctSentence": "مَا مِن أُمَّةٍ ازْدَهَرَتْ إِلَّا وَقَدْ أَوْلَتِ الثَّقَافَةَ أَهَمِّيَّةً قُصْوَى",
+                            "english": "No nation has flourished without giving culture utmost importance",
+                            "explanation": "After مِن use tanwin jarr (ـٍ); proper tashkeel on verbs in connected speech",
+                            "xp": 60
+                        }
+                    ]
+                }
+            }
+        },
+        "conversation_master": {
+            "id": "conversation_master",
+            "icon": "forum",
+            "color": "#8B5CF6",
+            "levels": {
+                "beginner": {
+                    "xpReward": 60,
+                    "timeLimit": 120,
+                    "questions": [
+                        {
+                            "id": "cm_b_1",
+                            "type": "choose_response",
+                            "situation": "Someone greets you: مَرْحَبَا! (Hello!)",
+                            "options": [
+                                {
+                                    "text": "مَرْحَبَا! كَيْفَ حَالُك؟",
+                                    "correct": true,
+                                    "feedback": "Perfect greeting response!"
+                                },
+                                {
+                                    "text": "وَدَاعاً",
+                                    "correct": false,
+                                    "feedback": "This means 'Goodbye' - wrong context"
+                                },
+                                {
+                                    "text": "شُكْراً جَزِيلاً",
+                                    "correct": false,
+                                    "feedback": "This is 'Thank you' - use it when thanked"
+                                }
+                            ],
+                            "xp": 15
+                        },
+                        {
+                            "id": "cm_b_2",
+                            "type": "choose_response",
+                            "situation": "Someone asks: مَا اسْمُك؟ (What is your name?)",
+                            "options": [
+                                {
+                                    "text": "أَنَا بِخَيْر",
+                                    "correct": false,
+                                    "feedback": "This means 'I am fine' - for 'how are you?'"
+                                },
+                                {
+                                    "text": "اسْمِي أَحْمَد",
+                                    "correct": true,
+                                    "feedback": "Correct! اسْمِي means 'My name is'"
+                                },
+                                {
+                                    "text": "مِن أَيْن أَنْت؟",
+                                    "correct": false,
+                                    "feedback": "This asks 'Where are you from?' - a new question"
+                                }
+                            ],
+                            "xp": 15
+                        },
+                        {
+                            "id": "cm_b_3",
+                            "type": "choose_response",
+                            "situation": "You want to order water in a restaurant. What do you say?",
+                            "options": [
+                                {
+                                    "text": "أُرِيد مَاءً مِن فَضْلَك",
+                                    "correct": true,
+                                    "feedback": "Perfect! أُرِيد means 'I want', مِن فَضْلَك = please"
+                                },
+                                {
+                                    "text": "الحِسَاب مِن فَضْلَك",
+                                    "correct": false,
+                                    "feedback": "This asks for the bill, not water"
+                                },
+                                {
+                                    "text": "الطَّعَام لَذِيذ",
+                                    "correct": false,
+                                    "feedback": "This means 'The food is delicious'"
+                                }
+                            ],
+                            "xp": 15
+                        }
+                    ]
+                },
+                "elementary": {
+                    "xpReward": 90,
+                    "timeLimit": 110,
+                    "questions": [
+                        {
+                            "id": "cm_e_1",
+                            "type": "choose_response",
+                            "situation": "At a shop, the price is 50 dirhams. You think it's too expensive. What do you say?",
+                            "options": [
+                                {
+                                    "text": "هَذَا غَالٍ جِدًا، هَل يُمْكِن التَّخْفِيض؟",
+                                    "correct": true,
+                                    "feedback": "Great! Natural bargaining in Arabic"
+                                },
+                                {
+                                    "text": "الطَّقْس جَمِيل اليَوم",
+                                    "correct": false,
+                                    "feedback": "This talks about the weather, not the price"
+                                },
+                                {
+                                    "text": "أُرِيد أَن أَذْهَب إِلَى المَطَار",
+                                    "correct": false,
+                                    "feedback": "This says you want to go to the airport"
+                                }
+                            ],
+                            "xp": 20
+                        },
+                        {
+                            "id": "cm_e_2",
+                            "type": "choose_response",
+                            "situation": "Your friend looks sad. You ask: مَا الأَمْر؟ They respond: أَنَا مَرِيض. What do you say?",
+                            "options": [
+                                {
+                                    "text": "سَلَامَتَك! آمُل أَن تَتَعَافَى سَرِيعاً",
+                                    "correct": true,
+                                    "feedback": "سَلَامَتَك is the perfect response to illness"
+                                },
+                                {
+                                    "text": "مَبْرُوك!",
+                                    "correct": false,
+                                    "feedback": "مَبْرُوك means Congratulations - wrong here"
+                                },
+                                {
+                                    "text": "مَع السَّلَامَة",
+                                    "correct": false,
+                                    "feedback": "This is a farewell, not appropriate here"
+                                }
+                            ],
+                            "xp": 20
+                        }
+                    ]
+                },
+                "intermediate": {
+                    "xpReward": 140,
+                    "timeLimit": 100,
+                    "questions": [
+                        {
+                            "id": "cm_i_1",
+                            "type": "choose_response",
+                            "situation": "In a business meeting: زَمِيلُك يَقُول: أَعْتَقِد أَنَّ خُطَّتَنَا تَحْتَاج إِلَى مُرَاجَعَة. (Your colleague says: I think our plan needs review.)",
+                            "options": [
+                                {
+                                    "text": "أَتَّفِق مَعَك، دَعْنَا نَنْظُر فِي التَّفَاصِيل",
+                                    "correct": true,
+                                    "feedback": "Professional and collaborative response"
+                                },
+                                {
+                                    "text": "لَا أُرِيد أَن أتَكَلَّم الآن",
+                                    "correct": false,
+                                    "feedback": "Too dismissive for a business context"
+                                },
+                                {
+                                    "text": "هَذَا لَيْس مُشْكِلَتِي",
+                                    "correct": false,
+                                    "feedback": "Unprofessional and unhelpful"
+                                }
+                            ],
+                            "xp": 25
+                        },
+                        {
+                            "id": "cm_i_2",
+                            "type": "choose_response",
+                            "situation": "Someone asks your opinion on a cultural topic: مَا رَأْيُك فِي الأَدَب العَرَبِي؟",
+                            "options": [
+                                {
+                                    "text": "الأَدَب العَرَبِي غَنِيٌّ جِدًا، أُحِب أَشْعَار المُتَنَبِّي",
+                                    "correct": true,
+                                    "feedback": "Rich, informed response showing cultural knowledge"
+                                },
+                                {
+                                    "text": "لَا أَعْرِف",
+                                    "correct": false,
+                                    "feedback": "Too short, shows no engagement"
+                                },
+                                {
+                                    "text": "الطَّعَام العَرَبِي لَذِيذ",
+                                    "correct": false,
+                                    "feedback": "Off-topic – that's food not literature"
+                                }
+                            ],
+                            "xp": 25
+                        }
+                    ]
+                },
+                "advanced": {
+                    "xpReward": 200,
+                    "timeLimit": 90,
+                    "questions": [
+                        {
+                            "id": "cm_a_1",
+                            "type": "choose_response",
+                            "situation": "During a debate: خَصْمُك يَقُول: التَّكْنُولُوجيَا دَمَّرَت التَّوَاصُل الإِنْسَانِي. كَيْف تَرُد؟",
+                            "options": [
+                                {
+                                    "text": "بَل عَزَّزَت التَّكْنُولُوجيَا التَّوَاصُل لِأَنَّهَا رَبَطَت الشُّعُوب عَبْرَ القَارَّات",
+                                    "correct": true,
+                                    "feedback": "Strong counter-argument with evidence"
+                                },
+                                {
+                                    "text": "أَنْتَ مُحِق تَمَامًا",
+                                    "correct": false,
+                                    "feedback": "Yields the debate without argument"
+                                },
+                                {
+                                    "text": "هَذَا سُؤَال صَعْب",
+                                    "correct": false,
+                                    "feedback": "Avoids the debate"
+                                }
+                            ],
+                            "xp": 35
+                        }
+                    ]
+                },
+                "expert": {
+                    "xpReward": 280,
+                    "timeLimit": 80,
+                    "questions": [
+                        {
+                            "id": "cm_ex_1",
+                            "type": "choose_response",
+                            "situation": "مُحَاضِر يَسْأَل عَن الفَرْق بَيْن الفُصْحَى والعَامِّيَّة: مَا هُوَ دَوْر الفُصْحَى فِي العَالَم العَرَبِي الحَدِيث؟",
+                            "options": [
+                                {
+                                    "text": "الفُصْحَى هِيَ لُغَة التَّعْلِيم والأَدَب والإِعْلَام الرَّسْمِي، وَتُوَحِّد العَرَب بِثَقَافَة مُشْتَرَكَة",
+                                    "correct": true,
+                                    "feedback": "Accurate academic response"
+                                },
+                                {
+                                    "text": "الفُصْحَى قَدِيمَة وَلَا أَحَد يَسْتَخْدِمُهَا",
+                                    "correct": false,
+                                    "feedback": "Inaccurate and dismissive of a rich tradition"
+                                },
+                                {
+                                    "text": "لَا أَعْرِف الفَرْق",
+                                    "correct": false,
+                                    "feedback": "Not appropriate at expert level"
+                                }
+                            ],
+                            "xp": 45
+                        }
+                    ]
+                },
+                "hero": {
+                    "xpReward": 450,
+                    "timeLimit": 70,
+                    "questions": [
+                        {
+                            "id": "cm_h_1",
+                            "type": "choose_response",
+                            "situation": "In an advanced literary discussion: كَيْف تَرَى دَوْر الاسْتِعَارَة فِي الشِّعْر الجَاهِلِي مُقَارَنَةً بِالشِّعْر الحَدِيث؟",
+                            "options": [
+                                {
+                                    "text": "فِي الجَاهِلِيَّة كَانَت الاسْتِعَارَة مُرْتَبِطَة بِالطَّبِيعَة والحَرْب، بَيْنَمَا حَمَلَت فِي الحَدِيث أَبْعَادًا وُجُودِيَّة وَنَفْسِيَّة",
+                                    "correct": true,
+                                    "feedback": "Excellent literary-historical comparison"
+                                },
+                                {
+                                    "text": "الاسْتِعَارَة قَدِيمَة وَلَيْسَت مُهِمَّة",
+                                    "correct": false,
+                                    "feedback": "Dismisses core rhetorical device"
+                                },
+                                {
+                                    "text": "لَا فَرْق بَيْنَهُمَا",
+                                    "correct": false,
+                                    "feedback": "Historically inaccurate"
+                                }
+                            ],
+                            "xp": 65
+                        }
+                    ]
+                }
+            }
+        },
+        "voice_pro": {
+            "id": "voice_pro",
+            "icon": "mic",
+            "color": "#F59E0B",
+            "levels": {
+                "beginner": {
+                    "xpReward": 50,
+                    "timeLimit": 60,
+                    "questions": [
+                        {
+                            "id": "vp_b_1",
+                            "type": "pronounce",
+                            "arabic": "مَرْحَبَا",
+                            "transliteration": "mar-ḥa-bā",
+                            "english": "Hello",
+                            "focusSound": "ح (ḥ) - deep throat H",
+                            "xp": 10
+                        },
+                        {
+                            "id": "vp_b_2",
+                            "type": "pronounce",
+                            "arabic": "شُكْراً",
+                            "transliteration": "shuk-ran",
+                            "english": "Thank you",
+                            "focusSound": "ش (sh)",
+                            "xp": 10
+                        },
+                        {
+                            "id": "vp_b_3",
+                            "type": "pronounce",
+                            "arabic": "أَهْلاً",
+                            "transliteration": "ah-lan",
+                            "english": "Welcome",
+                            "focusSound": "أ (') glottal stop",
+                            "xp": 10
+                        },
+                        {
+                            "id": "vp_b_4",
+                            "type": "pronounce",
+                            "arabic": "صَبَاح الخَيْر",
+                            "transliteration": "ṣa-bāḥ al-khayr",
+                            "english": "Good morning",
+                            "focusSound": "ص (ṣ) emphatic S",
+                            "xp": 10
+                        }
+                    ]
+                },
+                "elementary": {
+                    "xpReward": 80,
+                    "timeLimit": 55,
+                    "questions": [
+                        {
+                            "id": "vp_e_1",
+                            "type": "pronounce",
+                            "arabic": "اسْتَمَع",
+                            "transliteration": "is-ta-ma'",
+                            "english": "Listen!",
+                            "focusSound": "ع (') pharyngeal",
+                            "xp": 15
+                        },
+                        {
+                            "id": "vp_e_2",
+                            "type": "pronounce",
+                            "arabic": "ضَرُورِي",
+                            "transliteration": "ḍa-rū-rī",
+                            "english": "Necessary",
+                            "focusSound": "ض (ḍ) emphatic D",
+                            "xp": 15
+                        },
+                        {
+                            "id": "vp_e_3",
+                            "type": "pronounce",
+                            "arabic": "طَرِيق",
+                            "transliteration": "ṭa-rīq",
+                            "english": "Road",
+                            "focusSound": "ط (ṭ) emphatic T",
+                            "xp": 15
+                        },
+                        {
+                            "id": "vp_e_4",
+                            "type": "pronounce",
+                            "arabic": "غُرْفَة",
+                            "transliteration": "ghur-fa",
+                            "english": "Room",
+                            "focusSound": "غ (gh) voiced uvular",
+                            "xp": 15
+                        }
+                    ]
+                },
+                "intermediate": {
+                    "xpReward": 120,
+                    "timeLimit": 50,
+                    "questions": [
+                        {
+                            "id": "vp_i_1",
+                            "type": "pronounce",
+                            "arabic": "اسْتَخْدَام",
+                            "transliteration": "is-tikh-dām",
+                            "english": "Usage / Use",
+                            "focusSound": "خ (kh) uvular fricative",
+                            "xp": 20
+                        },
+                        {
+                            "id": "vp_i_2",
+                            "type": "pronounce",
+                            "arabic": "مُسْتَقْبَل",
+                            "transliteration": "mus-taq-bal",
+                            "english": "Future",
+                            "focusSound": "ق (q) uvular stop",
+                            "xp": 20
+                        },
+                        {
+                            "id": "vp_i_3",
+                            "type": "pronounce",
+                            "arabic": "يَتَعَلَّم",
+                            "transliteration": "ya-ta-'al-lam",
+                            "english": "He learns",
+                            "focusSound": "تَشْدِيد (shadda) on ل",
+                            "xp": 20
+                        }
+                    ]
+                },
+                "advanced": {
+                    "xpReward": 180,
+                    "timeLimit": 45,
+                    "questions": [
+                        {
+                            "id": "vp_a_1",
+                            "type": "pronounce",
+                            "arabic": "اِسْتِغْرَاب",
+                            "transliteration": "is-tigh-rāb",
+                            "english": "Bewilderment",
+                            "focusSound": "غ + ر combined",
+                            "xp": 25
+                        },
+                        {
+                            "id": "vp_a_2",
+                            "type": "pronounce",
+                            "arabic": "حَضَارَة",
+                            "transliteration": "ḥa-ḍā-ra",
+                            "english": "Civilization",
+                            "focusSound": "ح then ض together",
+                            "xp": 25
+                        },
+                        {
+                            "id": "vp_a_3",
+                            "type": "pronounce",
+                            "arabic": "تَخَصُّص",
+                            "transliteration": "ta-kha-ṣṣuṣ",
+                            "english": "Specialization",
+                            "focusSound": "خ + ص emphatic",
+                            "xp": 25
+                        }
+                    ]
+                },
+                "expert": {
+                    "xpReward": 260,
+                    "timeLimit": 40,
+                    "questions": [
+                        {
+                            "id": "vp_ex_1",
+                            "type": "pronounce",
+                            "arabic": "الضَّالِّين",
+                            "transliteration": "al-ḍāl-līn",
+                            "english": "The misguided ones",
+                            "focusSound": "ض + shadda on ل",
+                            "xp": 35
+                        },
+                        {
+                            "id": "vp_ex_2",
+                            "type": "pronounce",
+                            "arabic": "اِعْتِزَاز",
+                            "transliteration": "i'-ti-zāz",
+                            "english": "Pride / Honor",
+                            "focusSound": "ع glottal + ز",
+                            "xp": 35
+                        }
+                    ]
+                },
+                "hero": {
+                    "xpReward": 420,
+                    "timeLimit": 35,
+                    "questions": [
+                        {
+                            "id": "vp_h_1",
+                            "type": "pronounce",
+                            "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم",
+                            "transliteration": "bis-mil-lā-hir-raḥ-mā-nir-ra-ḥīm",
+                            "english": "In the name of God, the Most Gracious, the Most Merciful",
+                            "focusSound": "Full tajweed: idgham, ikhfaa, ح sounds",
+                            "xp": 60
+                        },
+                        {
+                            "id": "vp_h_2",
+                            "type": "pronounce",
+                            "arabic": "وَالعَصْر إِنَّ الإِنسَانَ لَفِي خُسْر",
+                            "transliteration": "wal-'aṣr in-nal-in-sā-na la-fī khusr",
+                            "english": "By time, indeed mankind is in loss (Quran 103:1-2)",
+                            "focusSound": "Proper hamzat wasl, tanwin, madda",
+                            "xp": 60
+                        }
+                    ]
+                }
+            }
+        },
+        "riddles": {
+            "id": "riddles",
+            "icon": "psychology",
+            "color": "#EC4899",
+            "levels": {
+                "beginner": {
+                    "xpReward": 60,
+                    "timeLimit": 120,
+                    "questions": [
+                        {
+                            "id": "rd_b_1",
+                            "riddle": "لَهُ أَوْرَاق وَلَيْس شَجَرَة، وَيُعَلِّمُك وَلَيْس مُعَلِّمًا. مَا هُوَ؟",
+                            "riddleEn": "It has pages but is not a tree, and it teaches you but is not a teacher. What is it?",
+                            "answer": "كِتَاب",
+                            "answerEn": "A book",
+                            "options": [
+                                "كِتَاب",
+                                "قَلَم",
+                                "مَدْرَسَة",
+                                "لَوْح"
+                            ],
+                            "xp": 15
+                        },
+                        {
+                            "id": "rd_b_2",
+                            "riddle": "أَكُون حَارًّا فِي النَّهَار وَأَغِيب فِي اللَّيْل. مَا أَنَا؟",
+                            "riddleEn": "I am hot during the day and disappear at night. What am I?",
+                            "answer": "الشَّمْس",
+                            "answerEn": "The sun",
+                            "options": [
+                                "القَمَر",
+                                "النَّار",
+                                "الشَّمْس",
+                                "النَّجْم"
+                            ],
+                            "xp": 15
+                        },
+                        {
+                            "id": "rd_b_3",
+                            "riddle": "يَسَعُ كُلَّ شَيْء لَكِن لَا يَسَعُهُ شَيْء. مَا هُوَ؟",
+                            "riddleEn": "It can hold everything but nothing can hold it. What is it?",
+                            "answer": "المَكَان",
+                            "answerEn": "Space / Place",
+                            "options": [
+                                "البَحْر",
+                                "المَكَان",
+                                "الهَوَاء",
+                                "الزَّمَان"
+                            ],
+                            "xp": 15
+                        }
+                    ]
+                },
+                "elementary": {
+                    "xpReward": 90,
+                    "timeLimit": 110,
+                    "questions": [
+                        {
+                            "id": "rd_e_1",
+                            "riddle": "أَنَا بِلَا عَيْنَيْن وَمَع ذَلِك أَرَى المَاضِي وَالحَاضِر. مَا أَنَا؟",
+                            "riddleEn": "I have no eyes yet I see the past and present. What am I?",
+                            "answer": "التَّارِيخ",
+                            "answerEn": "History",
+                            "options": [
+                                "الكِتَاب",
+                                "التَّارِيخ",
+                                "المَوْسِيقَى",
+                                "الفَن"
+                            ],
+                            "xp": 20
+                        },
+                        {
+                            "id": "rd_e_2",
+                            "riddle": "كُلَّمَا أَخَذْت مِنِّي أَزْدَاد. مَا أَنَا؟",
+                            "riddleEn": "The more you take from me, the bigger I get. What am I?",
+                            "answer": "الحُفْرَة",
+                            "answerEn": "A hole",
+                            "options": [
+                                "المَاء",
+                                "الحُفْرَة",
+                                "الخُبْز",
+                                "الرَّمَال"
+                            ],
+                            "xp": 20
+                        }
+                    ]
+                },
+                "intermediate": {
+                    "xpReward": 130,
+                    "timeLimit": 100,
+                    "questions": [
+                        {
+                            "id": "rd_i_1",
+                            "riddle": "أَنَا مَوْجُود فِي دَقِيقَة لَكِن لَيْس فِي سَنَة. مَوْجُود فِي لَحْظَة لَكِن لَيْس فِي وَقْت. مَا أَنَا؟",
+                            "riddleEn": "I exist in a minute but not in a year. In a moment but not in time. What am I?",
+                            "answer": "حَرْف النُّون",
+                            "answerEn": "The letter N (in minute/moment but not year/time)",
+                            "hint": "Think about the Arabic letters in these words",
+                            "options": [
+                                "حَرْف النُّون",
+                                "حَرْف الأَلِف",
+                                "حَرْف اللَّام",
+                                "حَرْف المِيم"
+                            ],
+                            "xp": 25
+                        },
+                        {
+                            "id": "rd_i_2",
+                            "riddle": "لِي رَأْس وَلَا أَعِيش، وَلِي ذَيْل وَلَا أَمِيل. مَا أَنَا؟",
+                            "riddleEn": "I have a head but don't live, a tail but don't sway. What am I?",
+                            "answer": "العُمْلَة (القِطْعَة النَّقْدِيَّة)",
+                            "answerEn": "A coin",
+                            "options": [
+                                "السَّمَكَة",
+                                "العُمْلَة",
+                                "الدُّودَة",
+                                "الثُّعْبَان"
+                            ],
+                            "xp": 25
+                        }
+                    ]
+                },
+                "advanced": {
+                    "xpReward": 190,
+                    "timeLimit": 90,
+                    "questions": [
+                        {
+                            "id": "rd_a_1",
+                            "riddle": "أَنَا كَلِمَة مِن سِتَّة أَحْرُف. اقْلِبْنِي وَأَصْبَحْت اثْنَيْ عَشَر. مَا أَنَا؟",
+                            "riddleEn": "I am a word of six letters. Flip me and I become twelve. What am I?",
+                            "answer": "دَرْجَة (درجة → درجات is 12 steps metaphorically, or جذور/root games)",
+                            "hint": "Think about numbers and Arabic word roots",
+                            "options": [
+                                "سِتَّة",
+                                "دَرْجَة",
+                                "نِصْف",
+                                "ثَمَانِيَة"
+                            ],
+                            "xp": 30
+                        },
+                        {
+                            "id": "rd_a_2",
+                            "riddle": "مَا الشَّيْء الَّذِي يَتَكَلَّم بِكُل اللُّغَات دُون أَن يَتَعَلَّمَهَا؟",
+                            "riddleEn": "What speaks all languages without having learned them?",
+                            "answer": "الصَّدَى (Echo)",
+                            "answerEn": "The Echo",
+                            "options": [
+                                "الكِتَاب",
+                                "الصَّدَى",
+                                "الإِنْسَان",
+                                "الحَاسُوب"
+                            ],
+                            "xp": 30
+                        }
+                    ]
+                },
+                "expert": {
+                    "xpReward": 270,
+                    "timeLimit": 80,
+                    "questions": [
+                        {
+                            "id": "rd_ex_1",
+                            "riddle": "أَنَا أَجْمَع وَلَا أُحْصَى، وَأَبْقَى وَلَا أُرَى، يَشْتَرِيني الفُقَرَاء وَيَبِيعُنِي الأَغْنِيَاء. مَا أَنَا؟",
+                            "riddleEn": "I am collected yet uncountable, I remain but unseen, the poor buy me and the rich sell me. What am I?",
+                            "answer": "الوَقْت (Time)",
+                            "answerEn": "Time",
+                            "options": [
+                                "الذَّهَب",
+                                "الوَقْت",
+                                "الكَلَام",
+                                "الهَوَاء"
+                            ],
+                            "xp": 45
+                        }
+                    ]
+                },
+                "hero": {
+                    "xpReward": 450,
+                    "timeLimit": 70,
+                    "questions": [
+                        {
+                            "id": "rd_h_1",
+                            "riddle": "فِيَّ بِدَايَة كُل شَيْء وَنِهَايَة الزَّمَان، وَأَنَا مَوْجُود فِي المَكَان لَكِن لَيْس فِي أَيِّ وَقْت. مَا الحَرْف الَّذِي يَصِفُنِي?",
+                            "riddleEn": "I am in the beginning of everything and the end of time, I exist in place but not in any time. What letter/concept am I?",
+                            "answer": "حَرْف الكَاف في 'كُل' + المَعْرِفَة الفَلْسَفِيَّة",
+                            "hint": "A deep philosophical and linguistic riddle",
+                            "options": [
+                                "حَرْف الكَاف",
+                                "حَرْف الأَلِف",
+                                "الوُجُود",
+                                "الزَّمَن"
+                            ],
+                            "explanation": "كُل شَيْء starts with ك, نِهَايَة الزَّمَان = ن in زمان, المَكَان has ك but الزَّمَن/وَقْت don't start with same letter — this tests meta-linguistic awareness",
+                            "xp": 70
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,614 @@
+{
+    "arabic_food": [
+        {
+            "id": "koshari",
+            "title": {
+                "ar": "الكشري",
+                "en": "Koshari",
+                "fr": "Koshari",
+                "de": "Koshari",
+                "zh": "库莎丽 (Koshari)",
+                "ru": "Кошари"
+            },
+            "description": {
+                "ar": "طبق مصري شهير يعتبر من الأطباق الوطنية، يجمع بين البقوليات والحبوب في مزيج مشبع ولذيذ.",
+                "en": "A famous Egyptian dish considered a national staple, combining legumes and grains in a hearty and delicious mix.",
+                "fr": "Un plat égyptien célèbre considéré comme un plat national, combinant légumineuses et céréales dans un mélange copieux et délicieux.",
+                "de": "Ein berühmtes ägyptisches Gericht, das als Nationalgericht gilt und Hülsenfrüchte mit Getreide in einer herzhaften Mischung vereint.",
+                "zh": "著名的埃及菜肴，被视为国菜，将豆类和谷物完美结合，美味又管饱。",
+                "ru": "Знаменитое египетское блюдо, считающееся национальным. Сочетает бобовые и злаки в сытном и вкусном миксе."
+            },
+            "details": {
+                "ar": [
+                    "المنشأ: مصر (القاهرة)",
+                    "المكونات الرئيسية: أرز، معكرونة، عدس، حمص، بصل مقلي، وصلصة طماطم حارة مع دقة الثوم.",
+                    "طريقة التقديم: يُقدم في أطباق أو علب، وتُضاف الصلصة والدقة حسب الرغبة.",
+                    "ملاحظة ثقافية: يُعرف بأنه 'طعام الفقراء' لثمنه الزهيد وقيمته الغذائية العالية، وهو أشهر أكل الشارع في مصر."
+                ],
+                "en": [
+                    "Origin: Egypt (Cairo)",
+                    "Main Ingredients: Rice, macaroni, lentils, chickpeas, fried onions, and spicy tomato sauce with garlic vinegar (Dakka).",
+                    "Serving Style: Served in bowls or takeaway boxes, with sauce and vinegar added to taste.",
+                    "Cultural Note: Known as a 'poor man's feast' for its low cost and high nutrition, it is the most popular street food in Egypt."
+                ],
+                "fr": [
+                    "Origine : Égypte (Le Caire)",
+                    "Ingrédients principaux : Riz, macaronis, lentilles, pois chiches, oignons frits, sauce tomate épicée et vinaigre à l'ail (Dakka).",
+                    "Présentation : Servi dans des bols ou des boîtes, avec la sauce et le vinaigre ajoutés selon les goûts.",
+                    "Note culturelle : Connu comme le 'festin du pauvre' pour son faible coût et sa haute valeur nutritive, c'est la cuisine de rue la plus populaire d'Égypte."
+                ],
+                "de": [
+                    "Herkunft: Ägypten (Kairo)",
+                    "Hauptzutaten: Reis, Makkaroni, Linsen, Kichererbsen, Röstzwiebeln, pikante Tomatensauce und Knoblauch-Essig (Dakka).",
+                    "Servierart: Wird in Schalen oder Boxen serviert; Sauce und Essig werden nach Geschmack hinzugefügt.",
+                    "Kulturelle Notiz: Bekannt als 'Festmahl des armen Mannes' wegen der geringen Kosten und hohen Nährwerte; das beliebteste Streetfood in Ägypten."
+                ],
+                "zh": [
+                    "起源：埃及 (开罗)",
+                    "主要成分：米饭、通心粉、扁豆、鹰嘴豆、炸洋葱、辣番茄酱和蒜醋汁 (Dakka)。",
+                    "食用方式：通常装在碗或盒子里，根据口味添加酱汁和醋。",
+                    "文化注脚：因价格低廉且营养丰富而被称为“穷人的盛宴”，是埃及最受欢迎的街头小吃。"
+                ],
+                "ru": [
+                    "Происхождение: Египет (Каир)",
+                    "Основные ингредиенты: Рис, макароны, чечевица, нут, жареный лук, острая томатная паста и чесночный уксус (Дакка).",
+                    "Подача: Подается в мисках или коробочках, соус и уксус добавляются по вкусу.",
+                    "Культурная заметка: Известно как «пир бедняка» из-за низкой цены и сытности; самая популярная уличная еда в Египте."
+                ]
+            },
+            "gallery": [
+                "https://www.seriouseats.com/thmb/EtJeUnCi_CRK2-1g1Qh37njsSME=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/20240524-SEA-KevinWhite-Koshari-7135-c500ac8ef6234d598fc7343799743e21.jpg"
+            ],
+            "video_idea": "https://www.youtube.com/watch?v=bGM2gh4bxmM"
+        },
+        {
+            "id": "kabsa",
+            "title": {
+                "ar": "الكبسة",
+                "en": "Kabsa",
+                "fr": "Kabsa",
+                "de": "Kabsa",
+                "zh": "卡布萨 (Kabsa)",
+                "ru": "Кабса"
+            },
+            "description": {
+                "ar": "الطبق الوطني للمملكة العربية السعودية، يتكون من أرز طويل الحبة مطهو مع اللحم والتوابل الغنية.",
+                "en": "The national dish of Saudi Arabia, consisting of long-grain rice cooked with meat and rich spices.",
+                "fr": "Le plat national de l'Arabie saoudite, composé de riz à long grain cuit avec de la viande et des épices riches.",
+                "de": "Das Nationalgericht Saudi-Arabiens, bestehend aus Langkornreis, der mit Fleisch und reichhaltigen Gewürzen gekocht wird.",
+                "zh": "沙特阿拉伯的国菜，由长粒米与肉类和丰富的香料一起烹制而成。",
+                "ru": "Национальное блюдо Саудовской Аравии, состоящее из длиннозерного риса, приготовленного с мясом и богатыми специями."
+            },
+            "details": {
+                "ar": [
+                    "المنشأ: المملكة العربية السعودية / دول الخليج",
+                    "المكونات الرئيسية: أرز بسمتي، لحم (ضأن أو دجاج)، بهارات الكبسة (لومي، هيل، زعفران)، مكسرات وزبيب.",
+                    "طريقة التقديم: يُسكب الأرز في طبق كبير ويوضع اللحم فوقه، ويشارك الجميع في الأكل منه.",
+                    "ملاحظة ثقافية: رمز للكرم والضيافة، وهي الوجبة الأساسية في العزائم والمناسبات والأعياد."
+                ],
+                "en": [
+                    "Origin: Saudi Arabia / Gulf Region",
+                    "Main Ingredients: Basmati rice, meat (lamb or chicken), Kabsa spices (dried lime, cardamom, saffron), nuts, and raisins.",
+                    "Serving Style: Rice is piled on a large communal platter with meat on top, shared by everyone.",
+                    "Cultural Note: A symbol of generosity and hospitality, it is the main meal served at gatherings and celebrations."
+                ],
+                "fr": [
+                    "Origine : Arabie Saoudite / Golfe",
+                    "Ingrédients principaux : Riz basmati, viande (agneau ou poulet), épices Kabsa (citron noir, cardamome, safran), noix et raisins secs.",
+                    "Présentation : Le riz est servi sur un grand plat commun avec la viande au-dessus, partagé par tous.",
+                    "Note culturelle : Symbole de générosité et d'hospitalité, c'est le plat principal des rassemblements et des fêtes."
+                ],
+                "de": [
+                    "Herkunft: Saudi-Arabien / Golfregion",
+                    "Hauptzutaten: Basmatireis, Fleisch (Lamm oder Huhn), Kabsa-Gewürze (getrocknete Limette, Kardamom, Safran), Nüsse und Rosinen.",
+                    "Servierart: Reis wird auf einer großen gemeinsamen Platte mit Fleisch darauf serviert und von allen geteilt.",
+                    "Kulturelle Notiz: Ein Symbol für Großzügigkeit und Gastfreundschaft, die Hauptmahlzeit bei Versammlungen und Feiern."
+                ],
+                "zh": [
+                    "起源：沙特阿拉伯 / 海湾地区",
+                    "主要成分：巴斯马蒂香米、肉（羊肉或鸡肉）、卡布萨香料（干酸橙、豆蔻、藏红花）、坚果和葡萄干。",
+                    "食用方式：米饭盛在大盘子里，肉放在上面，大家围坐共享。",
+                    "文化注脚：慷慨和好客的象征，是聚会和庆典上的主菜。"
+                ],
+                "ru": [
+                    "Происхождение: Саудовская Аравия / Персидский залив",
+                    "Основные ингредиенты: Рис басмати, мясо (баранина или курица), специи для Кабсы (сушеный лайм, кардамон, шафран), орехи и изюм.",
+                    "Подача: Рис выкладывается на большое общее блюдо с мясом сверху, едят все вместе.",
+                    "Культурная заметка: Символ щедрости и гостеприимства, главное блюдо на собраниях и праздниках."
+                ]
+            },
+            "gallery": [
+                "https://authenticroyal.com/wp-content/uploads/2024/10/16703_22Ramadan_Lamb-Kabsa-1024x1024-1.jpg"
+            ],
+            "video_idea": "https://www.youtube.com/watch?v=bGM2gh4bxmM"
+        },
+        {
+            "id": "molokhia",
+            "title": {
+                "ar": "الملوخية",
+                "en": "Molokhia",
+                "fr": "Molokhia",
+                "de": "Molochia",
+                "zh": "莫洛基亚 (Molokhia)",
+                "ru": "Молохия"
+            },
+            "description": {
+                "ar": "حساء أخضر كثيف مصنوع من أوراق نبات الملوخية، محبوب جداً في مصر وبلاد الشام.",
+                "en": "A thick green soup made from jute mallow leaves, deeply loved in Egypt and the Levant.",
+                "fr": "Une soupe verte épaisse faite de feuilles de corète potagère, très appréciée en Égypte et au Levant.",
+                "de": "Eine dicke grüne Suppe aus Jute-Blättern, sehr beliebt in Ägypten und der Levante.",
+                "zh": "一种由黄麻叶制成的浓稠绿汤，深受埃及和黎凡特地区的喜爱。",
+                "ru": "Густой зеленый суп из листьев джута, очень любимый в Египте и Леванте."
+            },
+            "details": {
+                "ar": [
+                    "المنشأ: مصر القديمة وانتقلت لبلاد الشام",
+                    "المكونات الرئيسية: أوراق الملوخية المفرومة، مرق الدجاج أو اللحم، الثوم، والكزبرة.",
+                    "طريقة التقديم: تُقدم فوق الأرز أو تُغمس بالخبز (في مصر)، أو كمرق بجانب الأرز (في الشام).",
+                    "ملاحظة ثقافية: يُقال إن أصلها يعود للفراعنة، وتعتبر أكلة مريحة للنفس ومرتبطة بلمة العائلة."
+                ],
+                "en": [
+                    "Origin: Ancient Egypt, spread to the Levant",
+                    "Main Ingredients: Minced jute mallow leaves, chicken or meat broth, garlic, and coriander.",
+                    "Serving Style: Served over rice or dipped with bread (Egypt), or as a broth alongside rice (Levant).",
+                    "Cultural Note: Said to date back to the Pharaohs, it is considered the ultimate comfort food associated with family gatherings."
+                ],
+                "fr": [
+                    "Origine : Égypte antique, répandue au Levant",
+                    "Ingrédients principaux : Feuilles de corète hachées, bouillon de poulet ou de viande, ail et coriandre.",
+                    "Présentation : Servie sur du riz ou trempée avec du pain (Égypte), ou comme bouillon à côté du riz (Levant).",
+                    "Note culturelle : On dit qu'elle remonte aux pharaons, considérée comme un plat réconfortant associé aux réunions de famille."
+                ],
+                "de": [
+                    "Herkunft: Altes Ägypten, verbreitet in der Levante",
+                    "Hauptzutaten: Gehackte Jute-Blätter, Hühner- oder Fleischbrühe, Knoblauch und Koriander.",
+                    "Servierart: Wird über Reis serviert oder mit Brot gegessen (Ägypten) oder als Brühe neben Reis (Levante).",
+                    "Kulturelle Notiz: Soll auf die Pharaonen zurückgehen; gilt als ultimatives Wohlfühlessen bei Familientreffen."
+                ],
+                "zh": [
+                    "起源：古埃及，后传至黎凡特",
+                    "主要成分：切碎的黄麻叶、鸡肉或肉汤、大蒜和香菜。",
+                    "食用方式：浇在米饭上或用面包蘸食（埃及），或作为配汤佐餐（黎凡特）。",
+                    "文化注脚：据说起源于法老时期，被视为家庭团聚时的终极治愈系美食。"
+                ],
+                "ru": [
+                    "Происхождение: Древний Египет, распространилось в Левант",
+                    "Основные ингредиенты: Измельченные листья джута, куриный или мясной бульон, чеснок и кориандр.",
+                    "Подача: Подается с рисом или хлебом (Египет), или как бульон к рису (Левант).",
+                    "Культурная заметка: Считается, что блюдо восходит к фараонам; ассоциируется с домашним уютом и семейными встречами."
+                ]
+            },
+            "gallery": [
+                "https://i0.wp.com/eyesclosedcooking.com/wp-content/uploads/2023/01/Egyptian_Molokhia_1.jpg?resize=750%2C500&ssl=1"
+            ],
+            "video_idea": "https://www.youtube.com/watch?v=w6iSeF1cWa4"
+        },
+        {
+            "id": "shawarma",
+            "title": {
+                "ar": "الشاورما",
+                "en": "Shawarma",
+                "fr": "Chawarma",
+                "de": "Schawarma",
+                "zh": "沙威玛 (Shawarma)",
+                "ru": "Шаурма"
+            },
+            "description": {
+                "ar": "شرائح لحم أو دجاج متبلة ومشوية على سيخ عمودي، تُعد أشهر أكل شارع في العالم العربي.",
+                "en": "Marinated slices of meat or chicken roasted on a vertical spit, considered the most famous Arab street food.",
+                "fr": "Tranches de viande ou de poulet marinées rôties sur une broche verticale, la cuisine de rue arabe la plus célèbre.",
+                "de": "Marinierte Fleisch- oder Hähnchenscheiben, die an einem vertikalen Spieß gebraten werden; das berühmteste arabische Streetfood.",
+                "zh": "腌制的肉片或鸡肉片在垂直烤肉架上烤制，被认为是最著名的阿拉伯街头小吃。",
+                "ru": "Маринованные ломтики мяса или курицы, жаренные на вертика вертеле, самая известная арабская уличная еدا."
+            },
+            "details": {
+                "ar": [
+                    "المنشأ: بلاد الشام (تأثرت بالمطبخ العثماني)",
+                    "المكونات الرئيسية: دجاج أو لحم (ضأن/بقر)، توابل خاصة، صلصة ثوم أو طحينة، ومخلل.",
+                    "طريقة التقديم: تُلَف في خبز عربي أو مرقوق كشطيرة، أو تُقدم في طبق مع البطاطس.",
+                    "ملاحظة ثقافية: وجبة سريعة ومحبوبة عالمياً، وتختلف تتبيلتها قليلاً من بلد لآخر في العالم العربي."
+                ],
+                "en": [
+                    "Origin: Levant (Ottoman influence)",
+                    "Main Ingredients: Chicken or meat (lamb/beef), spices, garlic sauce or tahini, and pickles.",
+                    "Serving Style: Wrapped in Arabic or flatbread as a sandwich, or served on a plate with fries.",
+                    "Cultural Note: A globally beloved fast food, with marinade recipes varying slightly across Arab countries."
+                ],
+                "fr": [
+                    "Origine : Levant (influence ottomane)",
+                    "Ingrédients principaux : Poulet ou viande (agneau/bœuf), épices, sauce à l'ail ou tahini, et cornichons.",
+                    "Présentation : Enveloppée dans du pain arabe ou plat comme un sandwich, ou servie sur une assiette avec des frites.",
+                    "Note culturelle : Un fast-food mondialement apprécié, dont les recettes de marinade varient légèrement selon les pays arabes."
+                ],
+                "de": [
+                    "Herkunft: Levante (Osmanischer Einfluss)",
+                    "Hauptzutaten: Huhn oder Fleisch (Lamm/Rind), Gewürze, Knoblauchsauce oder Tahini und Gewürzgurken.",
+                    "Servierart: In arabisches oder Fladenbrot gewickelt als Sandwich oder auf einem Teller mit Pommes serviert.",
+                    "Kulturelle Notiz: Weltweit beliebtes Fast Food, wobei die Marinadenrezepte in den arabischen Ländern leicht variieren."
+                ],
+                "zh": [
+                    "起源：黎凡特 (受奥斯曼影响)",
+                    "主要成分：鸡肉或肉（羊肉/牛肉）、香料、蒜酱或芝麻酱以及腌菜。",
+                    "食用方式：用阿拉伯面包或薄饼卷成三明治，或放在盘子里配薯条食用。",
+                    "文化注脚：全球喜爱的快餐，腌料配方在不同的阿拉伯国家略有不同。"
+                ],
+                "ru": [
+                    "Происхождение: Левант (Османское влияние)",
+                    "Основные ингредиенты: Курица или мясо (баранина/говядина), специи, чесночный соус или тахини, соленья.",
+                    "Подача: Заворачивается в арабский хлеб или лаваш как сэндвич, или подается на тарелке с картофелем.",
+                    "Культурная заметка: Всемирно любимый фастфуд, рецепты маринада слегка различаются в разных арабских странах."
+                ]
+            },
+            "gallery": [
+                "https://cookingorgeous.com/wp-content/uploads/2024/01/easy-homemade-lebanese-chicken-shawarma-18.jpg"
+            ],
+            "video_idea": "https://www.youtube.com/watch?v=LmLeFQ0_iXM"
+        },
+        {
+            "id": "falafel",
+            "title": {
+                "ar": "الفلافل",
+                "en": "Falafel",
+                "fr": "Falafel",
+                "de": "Falafel",
+                "zh": "法拉费 (Falafel)",
+                "ru": "Фалафель"
+            },
+            "description": {
+                "ar": "أقراص مقلية مصنوعة من الحمص أو الفول المطحون، تعتبر وجبة إفطار أساسية ونباتية.",
+                "en": "Deep-fried balls or patties made from ground chickpeas or fava beans, a staple vegetarian breakfast.",
+                "fr": "Boulettes ou galettes frites faites de pois chiches ou de fèves moulus, un petit-déjeuner végétarien incontournable.",
+                "de": "Frittierte Bällchen oder Bratlinge aus gemahlenen Kichererbsen oder Ackerbohnen, ein vegetarisches Grundnahrungsmittel zum Frühstück.",
+                "zh": "用鹰嘴豆或蚕豆磨碎制成的炸丸子 or 肉饼，是主要的素食早餐。",
+                "ru": "Жареные шарики или котлетки из измельченного нута или бобов, основное вегетарианское блюдо на завтрак."
+            },
+            "details": {
+                "ar": [
+                    "المنشأ: مصر (تسمى طعمية) وبلاد الشام",
+                    "المكونات الرئيسية: حمص (في الشام) أو فول (في مصر)، خضرة (كزبرة وبقدونس)، وبهارات.",
+                    "طريقة التقديم: ساخنة في ساندويش مع الطحينة والسلطة، أو في طبق جانبي.",
+                    "ملاحظة ثقافية: بديل اللحوم الشهير للفقراء قديماً، والآن هي أيقونة عالمية للأكل النباتي."
+                ],
+                "en": [
+                    "Origin: Egypt (called Ta'ameya) and Levant",
+                    "Main Ingredients: Chickpeas (Levant) or fava beans (Egypt), herbs (coriander and parsley), and spices.",
+                    "Serving Style: Hot in a sandwich with tahini and salad, or as a side dish.",
+                    "Cultural Note: Historically a meat substitute available to all, now a global icon of vegetarian cuisine."
+                ],
+                "fr": [
+                    "Origine : Égypte (appelé Ta'ameya) et Levant",
+                    "Ingrédients principaux : Pois chiches (Levant) ou fèves (Égypte), herbes (coriandre et persil) et épices.",
+                    "Présentation : Chaud dans un sandwich avec du tahini et de la salade, ou comme plat d'accompagnement.",
+                    "Note culturelle : Historiquement un substitut de viande accessible à tous, aujourd'hui une icône mondiale de la cuisine végétarienne."
+                ],
+                "de": [
+                    "Herkunft: Ägypten (genannt Ta'ameya) und Levante",
+                    "Hauptzutaten: Kichererbsen (Levante) oder Ackerbohnen (Ägypten), Kräuter (Koriander und Petersilie) und Gewürze.",
+                    "Servierart: Heiß im Sandwich mit Tahini und Salat oder als Beilage.",
+                    "Kulturelle Notiz: Historisch ein Fleischersatz für alle, heute eine weltweite Ikone der vegetarischen Küche."
+                ],
+                "zh": [
+                    "起源：埃及 (称为 Ta'ameya) 和黎凡特",
+                    "主要成分：鹰嘴豆（黎凡特）或蚕豆（埃及）、香草（香菜和欧芹）和香料。",
+                    "食用方式：夹在三明治里热食，配芝麻酱和沙拉，或作为配菜。",
+                    "文化注脚：历史上是人人都能吃到的肉类替代品，现在是全球素食的标志。"
+                ],
+                "ru": [
+                    "Происхождение: Египет (называется Таамея) и Левант",
+                    "Основные ингредиенты: Нут (Левант) или бобы (Египет), зелень (кориандр и петрушка) и специи.",
+                    "Подача: Горячим в сэндвиче с тахини и салатом или как гарнир.",
+                    "Культурная заметка: Исторически заменитель мяса, доступный каждому, теперь глобальный символ вегетарианской кухни."
+                ]
+            },
+            "gallery": [
+                "https://www.allrecipes.com/thmb/9YMZd3FALUJGpL98c_b3hFpvV_w=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ALR-241705-chef-johns-falafel-VAT-4x3-1-840506899da648f69ba383639bba1ea2.jpg"
+            ],
+            "video_idea": "https://www.youtube.com/watch?v=NZcWedPKysk"
+        },
+        {
+            "id": "hummus",
+            "title": {
+                "ar": "الحمص",
+                "en": "Hummus",
+                "fr": "Houmous",
+                "de": "Hummus",
+                "zh": "鹰嘴豆泥 (Hummus)",
+                "ru": "Хумус"
+            },
+            "description": {
+                "ar": "مقبلات كريمية ناعمة مصنوعة من الحمص والطحينة، لا تخلو منها أي مائدة شامية.",
+                "en": "A smooth, creamy appetizer made from chickpeas and tahini, essential to any Levantine table.",
+                "fr": "Une entrée onctueuse et crémeuse à base de pois chiches et de tahini, indispensable à toute table levantine.",
+                "de": "Eine glatte, cremige Vorspeise aus Kichererbsen und Tahini, unverzichtbar auf jedem levantinischen Tisch.",
+                "zh": "一种由鹰嘴豆和芝麻酱制成的顺滑奶油开胃菜，是黎凡特餐桌上必不可少的。",
+                "ru": "Гладкая кремовая закуска из нута и тахини, обязательная на любом левантийском столе."
+            },
+            "details": {
+                "ar": [
+                    "المنشأ: بلاد الشام",
+                    "المكونات الرئيسية: حبوب حمص مطبوخة ومطحونة، طحينة، عصير ليمون، ثوم، وزيت زيتون.",
+                    "طريقة التقديم: يُقدم بارداً في طبق مع زيت الزيتون والخبز العربي للتغميس.",
+                    "ملاحظة ثقافية: جزء أساسي من 'المازة' (المقبلات)، وهو طبق يتنازع الكثيرون حول أصل ابتكاره لكنه شامي بامتياز."
+                ],
+                "en": [
+                    "Origin: Levant",
+                    "Main Ingredients: Cooked and blended chickpeas, tahini, lemon juice, garlic, and olive oil.",
+                    "Serving Style: Served cold nicely plated with olive oil and Arabic bread for dipping.",
+                    "Cultural Note: A key part of 'Mezze' (appetizers), its origin is often debated but it is quintessentially Levantine."
+                ],
+                "fr": [
+                    "Origine : Levant",
+                    "Ingrédients principaux : Pois chiches cuits et mixés, tahini, jus de citron, ail et huile d'olive.",
+                    "Présentation : Servi froid joliment dressé avec de l'huile d'olive et du pain arabe pour tremper.",
+                    "Note culturelle : Élément clé du 'Mezze' (apéritifs), son origine est souvent débattue mais il est typiquement levantin."
+                ],
+                "de": [
+                    "Herkunft: Levante",
+                    "Hauptzutaten: Gekochte und pürierte Kichererbsen, Tahini, Zitronensaft, Knoblauch und Olivenöl.",
+                    "Servierart: Kalt serviert, schön angerichtet mit Olivenöl und arabischem Brot zum Dippen.",
+                    "Kulturelle Notiz: Ein wichtiger Teil der 'Mezze' (Vorspeisen); sein Ursprung ist oft umstritten, aber es ist typisch levantinisch."
+                ],
+                "zh": [
+                    "起源：黎凡特",
+                    "主要成分：煮熟捣碎的鹰嘴豆、芝麻酱、柠檬汁、大蒜和橄榄油。",
+                    "食用方式：冷盘上桌，淋上橄榄油，配阿拉伯面包蘸食。",
+                    "文化注脚：“Mezze”（开胃菜）的关键部分，虽然其起源常有争议，但它是典型的黎凡特美食。"
+                ],
+                "ru": [
+                    "Происхождение: Левант",
+                    "Основные ингредиенты: Вареный и измельченный нут, тахини, лимонный сок, чеснок и оливковое масло.",
+                    "Подача: Подается холодным, красиво выложенным, с оливковым маслом и арабским хлебом для макания.",
+                    "Культурная заметка: Ключевая часть «Мезе» (закусок), его происхождение часто оспаривается, но оно по своей сути левантийское."
+                ]
+            },
+            "gallery": [
+                "https://www.themediterraneandish.com/wp-content/uploads/2024/05/TMD-Hummus-Leads-02-Vertical.jpg"
+            ],
+            "video_idea": "https://www.youtube.com/watch?v=EtU2f0qrGrY"
+        },
+        {
+            "id": "mansaf",
+            "title": {
+                "ar": "المنسف",
+                "en": "Mansaf",
+                "fr": "Mansaf",
+                "de": "Mansaf",
+                "zh": "曼萨夫 (Mansaf)",
+                "ru": "Мансаф"
+            },
+            "description": {
+                "ar": "الطبق الوطني للأردن، يتكون من لحم الضأن المطبوخ في لبن الجميد ويقدم فوق الأرز والخبز.",
+                "en": "Jordan's national dish, consisting of lamb cooked in Jameed (dried yogurt) served over rice and bread.",
+                "fr": "Plat national de la Jordanie, composé d'agneau cuit dans du Jameed (yaourt séché) servi sur du riz et du pain.",
+                "de": "Jordaniens Nationalgericht, bestehend aus Lammfleisch, das in Jameed (getrocknetem Joghurt) gekocht und auf Reis und Brot serviert wird.",
+                "zh": "约旦的国菜，由在 Jameed（干酸奶）中烹制的羊肉制成，配以米饭和面包。",
+                "ru": "Национальное блюдо Иордании, состоящее из баранины, приготовленной в джамиде (сушеном йогурте), подается с рисом и хлебом."
+            },
+            "details": {
+                "ar": [
+                    "المنشأ: الأردن",
+                    "المكونات الرئيسية: لحم ضأن، جميد (لبن مجفف)، أرز أصفر، خبز شراك، وصنوبر/لوز.",
+                    "طريقة التقديم: سدر كبير (طبق معدني) يوضع عليه الخبز ثم الأرز ثم اللحم، ويُشرب اللبن بجانبه.",
+                    "ملاحظة ثقافية: يُؤكل تقليدياً باليد اليمنى (بدون ملعقة) وهو رمز لحل النزاعات والمناسبات الكبرى."
+                ],
+                "en": [
+                    "Origin: Jordan",
+                    "Main Ingredients: Lamb, Jameed (dried fermented yogurt), yellow rice, Shrak bread, and pine nuts/almonds.",
+                    "Serving Style: Large communal tray layered with bread, rice, and meat, with sauce on the side.",
+                    "Cultural Note: Traditionally eaten with the right hand (no spoons) and serves as a symbol of conflict resolution and major events."
+                ],
+                "fr": [
+                    "Origine : Jordanie",
+                    "Ingrédients principaux : Agneau, Jameed (yaourt fermenté séché), riz jaune, pain Shrak et pignons de pin/amandes.",
+                    "Présentation : Grand plateau commun avec des couches de pain, de riz et de viande, avec la sauce à côté.",
+                    "Note culturelle : Traditionnellement mangé avec la main droite (sans cuillère), symbole de résolution de conflits et de grands événements."
+                ],
+                "de": [
+                    "Herkunft: Jordanien",
+                    "Hauptzutaten: Lamm, Jameed (getrockneter fermentierter Joghurt), gelber Reis, Shrak-Brot und Pinienkerne/Mandeln.",
+                    "Servierart: Großes gemeinsames Tablett, geschichtet mit Brot, Reis und Fleisch, mit Sauce an der Seite.",
+                    "Kulturelle Notiz: Traditionell mit der rechten Hand gegessen (keine Löffel) und dient als Symbol für Konfliktlösung und große Ereignisse."
+                ],
+                "zh": [
+                    "起源：约旦",
+                    "主要成分：羊肉、Jameed（干发酵酸奶）、黄米饭、Shrak 面包和松子/杏仁。",
+                    "食用方式：大型公用托盘，分层放置面包、米饭和肉，旁边配有酱汁。",
+                    "文化注脚：传统上用右手抓食（不用勺子），是解决冲突和重大活动的象征。"
+                ],
+                "ru": [
+                    "Происхождение: Иордания",
+                    "Основные ингредиенты: Баранина, Джамид (сушеный ферментированный йогурт), желтый рис, хлеб Шрак и кедровые орехи/миндаль.",
+                    "Подача: Большой общий поднос со слоями хлеба, риса и мяса, соус подается отдельно.",
+                    "Куلтурная заметка: Традиционно едят правой рукой (без ложек); служит символом разрешения конфликтов и важных событий."
+                ]
+            },
+            "gallery": [
+                "https://www.seriouseats.com/thmb/XfVXS5zkmDJzEAeU4y2flIyOZXk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/20221208-Mansaf-Mai-Kakish-hero-ec9c515c00d24b5c9ef567854036f044.JPG"
+            ],
+            "video_idea": "https://www.youtube.com/watch?v=oGceczux7ys"
+        },
+        {
+            "id": "mandi",
+            "title": {
+                "ar": "المندي",
+                "en": "Mandi",
+                "fr": "Mandi",
+                "de": "Mandi",
+                "zh": "曼迪 (Mandi)",
+                "ru": "Манди"
+            },
+            "description": {
+                "ar": "لحم وأرز يُطهى في حفرة تحت الأرض، مما يعطيه نكهة مدخنة فريدة وشهية.",
+                "en": "Meat and rice cooked in an underground pit, giving it a unique and delicious smoky flavor.",
+                "fr": "Viande et riz cuits dans une fosse souterraine, ce qui lui donne une saveur fumée unique et délicieuse.",
+                "de": "Fleisch und Reis, die in einer unterirdischen Grube gegart werden, was ihnen einen einzigartigen, köstlichen Rauchgeschmack verleiht.",
+                "zh": "在地下坑中烹制的肉和米饭，使其具有独特而美味的烟熏风味。",
+                "ru": "Мясо и рис, приготовленные в подземной яме, что придает блюду уникальный и вкусный дымный аромат."
+            },
+            "details": {
+                "ar": [
+                    "المنشأ: اليمن (حضرموت) وانتشر في الخليج",
+                    "المكونات الرئيسية: لحم ضأن أو دجاج، أرز بسمتي، مزيج بهارات يمنية، ودهن.",
+                    "طريقة التقديم: طبق كبير مشترك، ويكون اللحم طرياً جداً يذوب في الفم.",
+                    "ملاحظة ثقافية: طريقة الطهي التقليدية في 'التنور' (فرن الطين المدفون) هي سر نكهته المميزة."
+                ],
+                "en": [
+                    "Origin: Yemen (Hadhramaut), spread to the Gulf",
+                    "Main Ingredients: Lamb or chicken, Basmati rice, Yemeni spice mix, and animal fat.",
+                    "Serving Style: Large communal platter, with extremely tender meat that melts in the mouth.",
+                    "Cultural Note: The traditional cooking method in a 'Tandoor' (clay oven buried in sand) is the secret to its distinct flavor."
+                ],
+                "fr": [
+                    "Origine : Yémen (Hadramaout), répandu dans le Golfe",
+                    "Ingrédients principaux : Agneau ou poulet, riz basmati, mélange d'épices yéménite et graisse.",
+                    "Présentation : Grand plat commun, avec une viande extrêmement tendre qui fond dans la bouche.",
+                    "Note culturelle : La méthode de cuisson traditionnelle dans un 'Tandoor' (four en argile enterré dans le sable) est le secret de sa saveur distincte."
+                ],
+                "de": [
+                    "Herkunft: Jemen (Hadramaut), verbreitet im Golf",
+                    "Hauptzutaten: Lamm oder Huhn, Basmatireis, jemenitische Gewürzmischung und Fett.",
+                    "Servierart: Große gemeinsame Platte mit extrem zartem Fleisch, das auf der Zunge zergeht.",
+                    "Kulturelle Notiz: Die traditionelle Garmethode in einem 'Tandoor' (im Sand vergrabener Lehmofen) ist das Geheimnis seines unverwechselbaren Geschmacks."
+                ],
+                "zh": [
+                    "起源：也门 (哈德拉毛)，传播至海湾地区",
+                    "主要成分：羊肉或鸡肉、巴斯马蒂香米、也门混合香料和动物脂肪。",
+                    "食用方式：大型公用拼盘，肉质极其鲜嫩，入口即化。",
+                    "文化注脚：在“Tandoor”（埋在沙子里的粘土烤箱）中的传统烹饪方法是其独特风味的秘诀。"
+                ],
+                "ru": [
+                    "Происхождение: Йемен (Хадрамаут), распространилось в Залив",
+                    "Основные ингредиенты: Баранина или курица, рис басмати, смесь йеменских специй и жир.",
+                    "Подача: Большое общее блюдо с очень нежным мясом, которое тает во рту.",
+                    "Культурная заметка: Традиционный метод приготовления в «Тандыре» (глиняной печи, закопанной в песок) — секрет его особого вкуса."
+                ]
+            },
+            "gallery": [
+                "https://theodehlicious.com/wp-content/uploads/2023/10/Beef-Mandi-II-1024x768.jpg"
+            ],
+            "video_idea": "https://www.youtube.com/watch?v=_74TwRyyyH8"
+        },
+        {
+            "id": "maqluba",
+            "title": {
+                "ar": "المقلوبة",
+                "en": "Maqluba",
+                "fr": "Maqlouba",
+                "de": "Maqluba",
+                "zh": "马格卢巴 (Maqluba)",
+                "ru": "Маклюба"
+            },
+            "description": {
+                "ar": "أكلة شهية تتكون من طبقات اللحم والخضروات والأرز، وتُقلب رأساً على عقب عند التقديم.",
+                "en": "A delicious layered dish of meat, vegetables, and rice, flipped upside down when served.",
+                "fr": "Un délicieux plat étagé de viande, de légumes et de riz, retourné à l'envers au moment de servir.",
+                "de": "Ein köstliches Schichtgericht aus Fleisch, Gemüse und Reis, das beim Servieren auf den Kopf gestürzt wird.",
+                "zh": "一道美味的分层菜肴，由肉、蔬菜和米饭组成，上桌时翻转倒扣。",
+                "ru": "Вкусное слоеное блюдо из мяса, овощей и риса, которое переворачивают вверх дном при подаче."
+            },
+            "details": {
+                "ar": [
+                    "المنشأ: فلسطين وبلاد الشام",
+                    "المكونات الرئيسية: أرز، خضروات مقلية (باذنجان أو زهرة/قرنبيط)، لحم أو دجاج، وبهارات.",
+                    "طريقة التقديم: تُقلب الحلة (القدر) بأكملها في صينية كبيرة لتبدو كالكعكة.",
+                    "ملاحظة ثقافية: تعني حرفياً 'المقلوبة' لأنها تُقلب، وهي طبق يوم الجمعة المفضل للعائلات الفلسطينية."
+                ],
+                "en": [
+                    "Origin: Palestine and Levant",
+                    "Main Ingredients: Rice, fried vegetables (eggplant or cauliflower), meat or chicken, and spices.",
+                    "Serving Style: The entire pot is flipped onto a large tray to look like a savory cake.",
+                    "Cultural Note: Literally means 'Upside Down', it is a favorite Friday family meal for Palestinians."
+                ],
+                "fr": [
+                    "Origine : Palestine et Levant",
+                    "Ingrédients principaux : Riz, légumes frits (aubergine ou chou-fleur), viande ou poulet et épices.",
+                    "Présentation : La marmite entière est retournée sur un grand plateau pour ressembler à un gâteau salé.",
+                    "Note culturelle : Signifie littéralement 'À l'envers', c'est un repas familial du vendredi préféré des Palestiniens."
+                ],
+                "de": [
+                    "Herkunft: Palästina und Levante",
+                    "Hauptzutaten: Reis, gebratenes Gemüse (Aubergine oder Blumenkohl), Fleisch oder Huhn und Gewürze.",
+                    "Servierart: Der ganze Topf wird auf ein großes Tablett gestürzt, sodass es wie ein herzhafter Kuchen aussieht.",
+                    "Kulturelle Notiz: Bedeutet wörtlich 'Die Umgedrehte'; es ist ein beliebtes Freitags-Familienessen für Palästinenser."
+                ],
+                "zh": [
+                    "起源：巴勒斯坦和黎凡特",
+                    "主要成分：米饭、油炸蔬菜（茄子或花椰菜）、肉或鸡肉以及香料。",
+                    "食用方式：将整锅饭倒扣在大托盘上，看起来像一个咸味蛋糕。",
+                    "文化注脚：字面意思是“倒置”，是巴勒斯坦人周五家庭聚餐的最爱。"
+                ],
+                "ru": [
+                    "Происхождение: Палестина и Левант",
+                    "Основные ингредиенты: Рис, жареные овощи (баклажаны или цветная капуста), мясо или курица, специи.",
+                    "Подача: Вся кастрюля переворачивается на большой поднос, напоминая пикантный торт.",
+                    "Культурная заметка: Буквально означает «Перевернутая», любимое пятничное семейное блюдо палестинцев."
+                ]
+            },
+            "gallery": [
+                "https://modo3.com/thumbs/fit630x300/160942/1493759767/%D8%A7%D9%84%D9%85%D9%82%D9%84%D9%88%D8%A8%D8%A9_%D8%B9%D9%84%D9%89_%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82%D8%A9_%D8%A7%D9%84%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A%D8%A9.jpg"
+            ],
+            "video_idea": "https://www.youtube.com/watch?v=D4fzOvudnLw"
+        },
+        {
+            "id": "mahshi",
+            "title": {
+                "ar": "المحشي",
+                "en": "Mahshi",
+                "fr": "Mahshi",
+                "de": "Mahshi",
+                "zh": "玛希 (Mahshi)",
+                "ru": "Махши"
+            },
+            "description": {
+                "ar": "خضروات محشوة بخلطة الأرز والأعشاب العطرية، أشهرها ورق العنب والكوسا.",
+                "en": "Vegetables stuffed with a mix of rice and aromatic herbs, most notably grape leaves and zucchini.",
+                "fr": "Légumes farcis d'un mélange de riz et d'herbes aromatiques, notamment des feuilles de vigne et des courgettes.",
+                "de": "Mit einer Mischung aus Reis und aromatischen Kräutern gefülltes Gemüse, vor allem Weinblätter und Zucchini.",
+                "zh": "塞满米饭和香草混合物的蔬菜，最著名的是葡萄叶和西葫芦。",
+                "ru": "Овощи, фаршированные смесью риса и ароматных трав, в частности виноградные листья и кабачки."
+            },
+            "details": {
+                "ar": [
+                    "المنشأ: مصر وبلاد الشام (شائع في تركيا أيضاً)",
+                    "المكونات الرئيسية: ورق عنب/كوسا/باذنجان، أرز، طماطم، بقدونس، شبت، وأحياناً لحم مفروم.",
+                    "طريقة التقديم: ساخناً كوجبة رئيسية، أو بارداً (ورق العنب بالزيت) كمقبلات.",
+                    "ملاحظة ثقافية: إعداده يتطلب وقتاً ومهارة في اللف، لذا هو تعبير عن الحب والتقدير للضيف."
+                ],
+                "en": [
+                    "Origin: Egypt and Levant (also common in Turkey)",
+                    "Main Ingredients: Grape leaves/zucchini/eggplant, rice, tomatoes, parsley, dill, and sometimes minced meat.",
+                    "Serving Style: Served hot as a main meal, or cold (grape leaves with oil) as an appetizer.",
+                    "Cultural Note: Preparation requires time and rolling skill, so serving it is an expression of love and appreciation for the guest."
+                ],
+                "fr": [
+                    "Origine : Égypte et Levant (aussi courant en Turquie)",
+                    "Ingrédients principaux : Feuilles de vigne/courgettes/aubergines, riz, tomates, persil, aneth et parfois viande hachée.",
+                    "Présentation : Servi chaud comme plat principal, ou froid (feuilles de vigne à l'huile) comme entrée.",
+                    "Note culturelle : La préparation demande du temps et une habileté au roulage, c'est donc une expression d'amour et d'estime pour l'invité."
+                ],
+                "de": [
+                    "Herkunft: Ägypten und Levante (auch in der Türkei verbreitet)",
+                    "Hauptzutaten: Weinblätter/Zucchini/Auberginen, Reis, Tomaten, Petersilie, Dill und manchmal Hackfleisch.",
+                    "Servierart: Heiß als Hauptgericht oder kalt (Weinblätter mit Öl) als Vorsпеise serviert.",
+                    "Kulturelle Notiz: Die Zubereitung erfordert Zeit und Geschick beim Rollen, daher ist es ein Ausdruck von Liebe und Wertschätzung für den Gast."
+                ],
+                "zh": [
+                    "起源：埃及和黎凡特 (在土耳其也很常见)",
+                    "主要成分：葡萄叶/西葫芦/茄子、米饭、番茄、欧芹、莳萝，有时还有肉末。",
+                    "食用方式：作为主菜热食，或作为开胃菜冷食（油渍葡萄叶）。",
+                    "文化注脚：准备工作需要时间和卷制的技巧，因此招待客人这道菜是爱和尊重的表达。"
+                ],
+                "ru": [
+                    "Происхождение: Египет и Левант (также распространено в Турции)",
+                    "Основные ингредиенты: Виноградные листья/кабачки/баклажаны, рис, помидоры, петрушка, укроп и иногда мясной фарш.",
+                    "Подача: Подается горячим как основное блюдо или холодным (виноградные листья с маслом) как закуска.",
+                    "Культурная заметка: Приготовление требует времени и умения сворачивать, поэтому это выражение любви и уважения к гостю."
+                ]
+            },
+            "gallery": [
+                "https://egyptianrecipe.com/wp-content/uploads/2024/09/Malfouf-Mahshi-Stuffed-Cabbage-Rolls.jpg"
+            ],
+            "video_idea": "https://www.youtube.com/watch?v=F5AEmp5CokA"
+        }
+    ]
+}

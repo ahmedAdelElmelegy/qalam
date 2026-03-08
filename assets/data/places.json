@@ -1,0 +1,56 @@
+{
+    "places": [
+        {
+            "id": "550e8400-e29b-41d4-a716-446655440000",
+            "category": "restaurant",
+            "location": {
+                "city": "Cairo",
+                "country": "Egypt"
+            },
+            "names": {
+                "ar": "مطعم النيل الأزرق",
+                "en": "Blue Nile Restaurant",
+                "fr": "Restaurant Le Nil Bleu",
+                "de": "Blauer Nil Restaurant",
+                "zh": "蓝尼罗河餐厅",
+                "ru": "Ресторан Голубой Нил"
+            },
+            "short_descriptions": {
+                "ar": "مطعم عائلي تقليدي يقدم أشهى المأكولات المصرية مع إطلالة رائعة على النيل.",
+                "en": "A traditional family restaurant serving delicious Egyptian cuisine with a wonderful view of the Nile.",
+                "fr": "Un restaurant familial traditionnel servant une délicieuse cuisine égyptienne avec une vue magnifique sur le Nil.",
+                "de": "Ein traditionelles Familienrestaurant, das köstliche ägyptische Küche mit herrlichem Blick auf den Nil serviert.",
+                "zh": "一家以此尼罗河美景为背景，供应美味埃及美食的传统家庭餐厅。",
+                "ru": "Традиционный семейный ресторан, предлагающий вкусную египетскую кухню с прекрасным видом на Нил."
+            },
+            "imageUrl": "https://api.together.xyz/img/...",
+            "objects": []
+        },
+        {
+            "id": "770e8400-e29b-41d4-a716-446655440022",
+            "category": "museum",
+            "location": {
+                "city": "Alexandria",
+                "country": "Egypt"
+            },
+            "names": {
+                "ar": "متحف الفن الحديث",
+                "en": "Museum of Modern Art",
+                "fr": "Musée d'Art Moderne",
+                "de": "Museum für Moderne Kunst",
+                "zh": "现代艺术博物馆",
+                "ru": "Музей современного искусства"
+            },
+            "short_descriptions": {
+                "ar": "متحف يعرض مجموعة رائعة من الفن المصري المعاصر.",
+                "en": "A museum displaying a fascinating collection of contemporary Egyptian art.",
+                "fr": "Un musée exposant une fascinante collection d'art égyptien contemporain.",
+                "de": "Ein Museum, das eine faszinierende Sammlung zeitgenössischer ägyptischer Kunst zeigt.",
+                "zh": "一个展示当代埃及艺术迷人收藏的博物馆。",
+                "ru": "Музей, демонстрирующий увлекательную коллекцию современного египетского искусства."
+            },
+            "imageUrl": "https://api.together.xyz/img/...",
+            "objects": []
+        }
+    ]
+}

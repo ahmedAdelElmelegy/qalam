@@ -1,0 +1,3826 @@
+{
+  "curriculum_title": {
+    "en": "Arabic Mastery: From Script to Sophistication",
+    "ar": "Arabic Mastery: From Script to Sophistication",
+    "fr": "Arabic Mastery: From Script to Sophistication",
+    "de": "Arabic Mastery: From Script to Sophistication",
+    "ru": "Arabic Mastery: From Script to Sophistication",
+    "zh": "Arabic Mastery: From Script to Sophistication"
+  },
+  "curriculum_description": {
+    "en": "A comprehensive journey through the Arabic language, following CEFR standards with a focus on classical and modern standard Arabic.",
+    "ar": "A comprehensive journey through the Arabic language, following CEFR standards with a focus on classical and modern standard Arabic.",
+    "fr": "A comprehensive journey through the Arabic language, following CEFR standards with a focus on classical and modern standard Arabic.",
+    "de": "A comprehensive journey through the Arabic language, following CEFR standards with a focus on classical and modern standard Arabic.",
+    "ru": "A comprehensive journey through the Arabic language, following CEFR standards with a focus on classical and modern standard Arabic.",
+    "zh": "A comprehensive journey through the Arabic language, following CEFR standards with a focus on classical and modern standard Arabic."
+  },
+  "levels": [
+    {
+      "cefr": "A1",
+      "units": [
+        {
+          "unit_id": "A1-U1",
+          "unit_title": {
+            "en": "The Foundations: Phonetics & Script",
+            "ar": "The Foundations: Phonetics & Script",
+            "fr": "The Foundations: Phonetics & Script",
+            "de": "The Foundations: Phonetics & Script",
+            "ru": "The Foundations: Phonetics & Script",
+            "zh": "The Foundations: Phonetics & Script"
+          },
+          "unit_description": {
+            "en": "Master the Arabic alphabet, basic sounds, and initial word construction.",
+            "ar": "Master the Arabic alphabet, basic sounds, and initial word construction.",
+            "fr": "Master the Arabic alphabet, basic sounds, and initial word construction.",
+            "de": "Master the Arabic alphabet, basic sounds, and initial word construction.",
+            "ru": "Master the Arabic alphabet, basic sounds, and initial word construction.",
+            "zh": "Master the Arabic alphabet, basic sounds, and initial word construction."
+          },
+          "lessons": [
+            {
+              "lesson_id": "A1-U1-L1",
+              "lesson_title": {
+                "en": "The Whispering Alif (Letters & Sounds)",
+                "ar": "The Whispering Alif (Letters & Sounds)",
+                "fr": "The Whispering Alif (Letters & Sounds)",
+                "de": "The Whispering Alif (Letters & Sounds)",
+                "ru": "The Whispering Alif (Letters & Sounds)",
+                "zh": "The Whispering Alif (Letters & Sounds)"
+              },
+              "lesson_objectives": [
+                "Identify Alif, Ba, Ta, Tha.",
+                "Understand vowel markers (Fatha, Kasra, Damma).",
+                "Pronounce initial sounds accurately."
+              ],
+              "content": {
+                "vocabulary": [
+                  {
+                    "term": "أَب",
+                    "transliteration": "Ab",
+                    "translations": {
+                      "en": "Father"
+                    }
+                  },
+                  {
+                    "term": "أَرْنَب",
+                    "transliteration": "Arnab",
+                    "translations": {
+                      "en": "Rabbit"
+                    }
+                  },
+                  {
+                    "term": "بَيْت",
+                    "transliteration": "Bayt",
+                    "translations": {
+                      "en": "House"
+                    }
+                  },
+                  {
+                    "term": "تَمْر",
+                    "transliteration": "Tamr",
+                    "translations": {
+                      "en": "Dates"
+                    }
+                  },
+                  {
+                    "term": "ثَوْب",
+                    "transliteration": "Thawb",
+                    "translations": {
+                      "en": "Garment"
+                    }
+                  }
+                ],
+                "grammar": [
+                  "Short Vowels: Fatha (a), Kasra (i), Damma (u). Sukun represents no vowel."
+                ],
+                "reading": {
+                  "text": "أَبِي فِي الْبَيْتِ. الْأَرْنَبُ يَأْكُلُ التَّمْرَ."
+                }
+              },
+              "lesson_test": {
+                "questions": [
+                  {
+                    "id": "Q1",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Ab'?",
+                      "ar": "What is 'Ab'?",
+                      "fr": "What is 'Ab'?",
+                      "de": "What is 'Ab'?",
+                      "ru": "What is 'Ab'?",
+                      "zh": "What is 'Ab'?"
+                    },
+                    "options": [
+                      "Mother",
+                      "Father",
+                      "Brother",
+                      "Sister"
+                    ],
+                    "answer": "Father"
+                  },
+                  {
+                    "id": "Q2",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What sound does 'Ba' with a Fatha make?",
+                      "ar": "What sound does 'Ba' with a Fatha make?",
+                      "fr": "What sound does 'Ba' with a Fatha make?",
+                      "de": "What sound does 'Ba' with a Fatha make?",
+                      "ru": "What sound does 'Ba' with a Fatha make?",
+                      "zh": "What sound does 'Ba' with a Fatha make?"
+                    },
+                    "options": [
+                      "Bi",
+                      "Bu",
+                      "Ba",
+                      "Be"
+                    ],
+                    "answer": "Ba"
+                  },
+                  {
+                    "id": "Q3",
+                    "type": "mcq",
+                    "question": {
+                      "en": "Translate 'Bayt' to English",
+                      "ar": "Translate 'Bayt' to English",
+                      "fr": "Translate 'Bayt' to English",
+                      "de": "Translate 'Bayt' to English",
+                      "ru": "Translate 'Bayt' to English",
+                      "zh": "Translate 'Bayt' to English"
+                    },
+                    "options": [
+                      "Car",
+                      "School",
+                      "House",
+                      "Garden"
+                    ],
+                    "answer": "House"
+                  },
+                  {
+                    "id": "Q4",
+                    "type": "mcq",
+                    "question": {
+                      "en": "Identify 'Arnab'",
+                      "ar": "Identify 'Arnab'",
+                      "fr": "Identify 'Arnab'",
+                      "de": "Identify 'Arnab'",
+                      "ru": "Identify 'Arnab'",
+                      "zh": "Identify 'Arnab'"
+                    },
+                    "options": [
+                      "Cat",
+                      "Rabbit",
+                      "Dog",
+                      "Lion"
+                    ],
+                    "answer": "Rabbit"
+                  },
+                  {
+                    "id": "Q5",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is the English for 'Tamr'?",
+                      "ar": "What is the English for 'Tamr'?",
+                      "fr": "What is the English for 'Tamr'?",
+                      "de": "What is the English for 'Tamr'?",
+                      "ru": "What is the English for 'Tamr'?",
+                      "zh": "What is the English for 'Tamr'?"
+                    },
+                    "options": [
+                      "Apple",
+                      "Orange",
+                      "Dates",
+                      "Banana"
+                    ],
+                    "answer": "Dates"
+                  },
+                  {
+                    "id": "Q6",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Father' in Arabic",
+                      "ar": "Write 'Father' in Arabic",
+                      "fr": "Write 'Father' in Arabic",
+                      "de": "Write 'Father' in Arabic",
+                      "ru": "Write 'Father' in Arabic",
+                      "zh": "Write 'Father' in Arabic"
+                    },
+                    "answer": "أب"
+                  },
+                  {
+                    "id": "Q7",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'House' in Arabic",
+                      "ar": "Write 'House' in Arabic",
+                      "fr": "Write 'House' in Arabic",
+                      "de": "Write 'House' in Arabic",
+                      "ru": "Write 'House' in Arabic",
+                      "zh": "Write 'House' in Arabic"
+                    },
+                    "answer": "بيت"
+                  },
+                  {
+                    "id": "Q8",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Rabbit' in Arabic",
+                      "ar": "Write 'Rabbit' in Arabic",
+                      "fr": "Write 'Rabbit' in Arabic",
+                      "de": "Write 'Rabbit' in Arabic",
+                      "ru": "Write 'Rabbit' in Arabic",
+                      "zh": "Write 'Rabbit' in Arabic"
+                    },
+                    "answer": "أرنب"
+                  },
+                  {
+                    "id": "Q9",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Dates' in Arabic",
+                      "ar": "Write 'Dates' in Arabic",
+                      "fr": "Write 'Dates' in Arabic",
+                      "de": "Write 'Dates' in Arabic",
+                      "ru": "Write 'Dates' in Arabic",
+                      "zh": "Write 'Dates' in Arabic"
+                    },
+                    "answer": "تمر"
+                  },
+                  {
+                    "id": "Q10",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Garment' in Arabic",
+                      "ar": "Write 'Garment' in Arabic",
+                      "fr": "Write 'Garment' in Arabic",
+                      "de": "Write 'Garment' in Arabic",
+                      "ru": "Write 'Garment' in Arabic",
+                      "zh": "Write 'Garment' in Arabic"
+                    },
+                    "answer": "ثوب"
+                  },
+                  {
+                    "id": "Q11",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: أَب",
+                      "ar": "Say: أَب",
+                      "fr": "Say: أَب",
+                      "de": "Say: أَب",
+                      "ru": "Say: أَب",
+                      "zh": "Say: أَب"
+                    },
+                    "answer": "أب"
+                  },
+                  {
+                    "id": "Q12",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: بَيْت",
+                      "ar": "Say: بَيْت",
+                      "fr": "Say: بَيْت",
+                      "de": "Say: بَيْت",
+                      "ru": "Say: بَيْت",
+                      "zh": "Say: بَيْت"
+                    },
+                    "answer": "بيت"
+                  },
+                  {
+                    "id": "Q13",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: تَمْر",
+                      "ar": "Say: تَمْر",
+                      "fr": "Say: تَمْر",
+                      "de": "Say: تَمْر",
+                      "ru": "Say: تَمْر",
+                      "zh": "Say: تَمْر"
+                    },
+                    "answer": "تمر"
+                  },
+                  {
+                    "id": "Q14",
+                    "type": "reading",
+                    "question": {
+                      "en": "Read: أَبِي فِي الْبَيْتِ",
+                      "ar": "Read: أَبِي فِي الْبَيْتِ",
+                      "fr": "Read: أَبِي فِي الْبَيْتِ",
+                      "de": "Read: أَبِي فِي الْبَيْتِ",
+                      "ru": "Read: أَبِي فِي الْبَيْتِ",
+                      "zh": "Read: أَبِي فِي الْبَيْتِ"
+                    },
+                    "answer": "done"
+                  },
+                  {
+                    "id": "Q15",
+                    "type": "mcq",
+                    "question": {
+                      "en": "Is 'Bayt' masculine?",
+                      "ar": "Is 'Bayt' masculine?",
+                      "fr": "Is 'Bayt' masculine?",
+                      "de": "Is 'Bayt' masculine?",
+                      "ru": "Is 'Bayt' masculine?",
+                      "zh": "Is 'Bayt' masculine?"
+                    },
+                    "options": [
+                      "Yes",
+                      "No"
+                    ],
+                    "answer": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "lesson_id": "A1-U1-L2",
+              "lesson_title": {
+                "en": "The Dancing Jeem (Middle Sounds)",
+                "ar": "The Dancing Jeem (Middle Sounds)",
+                "fr": "The Dancing Jeem (Middle Sounds)",
+                "de": "The Dancing Jeem (Middle Sounds)",
+                "ru": "The Dancing Jeem (Middle Sounds)",
+                "zh": "The Dancing Jeem (Middle Sounds)"
+              },
+              "lesson_objectives": [
+                "Identify Jeem, Ha, Kha.",
+                "Understand letter connectivity.",
+                "Write letters in different positions."
+              ],
+              "content": {
+                "vocabulary": [
+                  {
+                    "term": "جَمَل",
+                    "transliteration": "Jamal",
+                    "translations": {
+                      "en": "Camel"
+                    }
+                  },
+                  {
+                    "term": "حَلِيب",
+                    "transliteration": "Halīb",
+                    "translations": {
+                      "en": "Milk"
+                    }
+                  },
+                  {
+                    "term": "خُبْز",
+                    "transliteration": "Khubz",
+                    "translations": {
+                      "en": "Bread"
+                    }
+                  },
+                  {
+                    "term": "جَبَل",
+                    "transliteration": "Jabal",
+                    "translations": {
+                      "en": "Mountain"
+                    }
+                  },
+                  {
+                    "term": "حَقِيبَة",
+                    "transliteration": "Haqībah",
+                    "translations": {
+                      "en": "Bag"
+                    }
+                  }
+                ],
+                "grammar": [
+                  "Connectivity: Letters change shape at the beginning, middle, and end of a word."
+                ],
+                "reading": {
+                  "text": "الْجَمَلُ فِي الْجَبَلِ. مَعِي حَلِيبٌ وَخُبْزٌ."
+                }
+              },
+              "lesson_test": {
+                "questions": [
+                  {
+                    "id": "Q1",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Jamal'?",
+                      "ar": "What is 'Jamal'?",
+                      "fr": "What is 'Jamal'?",
+                      "de": "What is 'Jamal'?",
+                      "ru": "What is 'Jamal'?",
+                      "zh": "What is 'Jamal'?"
+                    },
+                    "options": [
+                      "Horse",
+                      "Camel",
+                      "Cow",
+                      "Goat"
+                    ],
+                    "answer": "Camel"
+                  },
+                  {
+                    "id": "Q2",
+                    "type": "mcq",
+                    "question": {
+                      "en": "Translate 'Milk' to Arabic",
+                      "ar": "Translate 'Milk' to Arabic",
+                      "fr": "Translate 'Milk' to Arabic",
+                      "de": "Translate 'Milk' to Arabic",
+                      "ru": "Translate 'Milk' to Arabic",
+                      "zh": "Translate 'Milk' to Arabic"
+                    },
+                    "options": [
+                      "Ma'",
+                      "Halib",
+                      "Asir",
+                      "Shay"
+                    ],
+                    "answer": "Halib"
+                  },
+                  {
+                    "id": "Q3",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Khubz'?",
+                      "ar": "What is 'Khubz'?",
+                      "fr": "What is 'Khubz'?",
+                      "de": "What is 'Khubz'?",
+                      "ru": "What is 'Khubz'?",
+                      "zh": "What is 'Khubz'?"
+                    },
+                    "options": [
+                      "Cake",
+                      "Meat",
+                      "Bread",
+                      "Rice"
+                    ],
+                    "answer": "Bread"
+                  },
+                  {
+                    "id": "Q4",
+                    "type": "mcq",
+                    "question": {
+                      "en": "Sound of 'Jeem' with Damma?",
+                      "ar": "Sound of 'Jeem' with Damma?",
+                      "fr": "Sound of 'Jeem' with Damma?",
+                      "de": "Sound of 'Jeem' with Damma?",
+                      "ru": "Sound of 'Jeem' with Damma?",
+                      "zh": "Sound of 'Jeem' with Damma?"
+                    },
+                    "options": [
+                      "Ja",
+                      "Ji",
+                      "Ju",
+                      "Je"
+                    ],
+                    "answer": "Ju"
+                  },
+                  {
+                    "id": "Q5",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Jabal'?",
+                      "ar": "What is 'Jabal'?",
+                      "fr": "What is 'Jabal'?",
+                      "de": "What is 'Jabal'?",
+                      "ru": "What is 'Jabal'?",
+                      "zh": "What is 'Jabal'?"
+                    },
+                    "options": [
+                      "River",
+                      "Ocean",
+                      "Forest",
+                      "Mountain"
+                    ],
+                    "answer": "Mountain"
+                  },
+                  {
+                    "id": "Q6",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Camel' in Arabic",
+                      "ar": "Write 'Camel' in Arabic",
+                      "fr": "Write 'Camel' in Arabic",
+                      "de": "Write 'Camel' in Arabic",
+                      "ru": "Write 'Camel' in Arabic",
+                      "zh": "Write 'Camel' in Arabic"
+                    },
+                    "answer": "جمل"
+                  },
+                  {
+                    "id": "Q7",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Bread' in Arabic",
+                      "ar": "Write 'Bread' in Arabic",
+                      "fr": "Write 'Bread' in Arabic",
+                      "de": "Write 'Bread' in Arabic",
+                      "ru": "Write 'Bread' in Arabic",
+                      "zh": "Write 'Bread' in Arabic"
+                    },
+                    "answer": "خبز"
+                  },
+                  {
+                    "id": "Q8",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Milk' in Arabic",
+                      "ar": "Write 'Milk' in Arabic",
+                      "fr": "Write 'Milk' in Arabic",
+                      "de": "Write 'Milk' in Arabic",
+                      "ru": "Write 'Milk' in Arabic",
+                      "zh": "Write 'Milk' in Arabic"
+                    },
+                    "answer": "حليب"
+                  },
+                  {
+                    "id": "Q9",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Bag' in Arabic",
+                      "ar": "Write 'Bag' in Arabic",
+                      "fr": "Write 'Bag' in Arabic",
+                      "de": "Write 'Bag' in Arabic",
+                      "ru": "Write 'Bag' in Arabic",
+                      "zh": "Write 'Bag' in Arabic"
+                    },
+                    "answer": "حقيبة"
+                  },
+                  {
+                    "id": "Q10",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Mountain' in Arabic",
+                      "ar": "Write 'Mountain' in Arabic",
+                      "fr": "Write 'Mountain' in Arabic",
+                      "de": "Write 'Mountain' in Arabic",
+                      "ru": "Write 'Mountain' in Arabic",
+                      "zh": "Write 'Mountain' in Arabic"
+                    },
+                    "answer": "جبل"
+                  },
+                  {
+                    "id": "Q11",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: جَمَل",
+                      "ar": "Say: جَمَل",
+                      "fr": "Say: جَمَل",
+                      "de": "Say: جَمَل",
+                      "ru": "Say: جَمَل",
+                      "zh": "Say: جَمَل"
+                    },
+                    "answer": "جمل"
+                  },
+                  {
+                    "id": "Q12",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: حَلِيب",
+                      "ar": "Say: حَلِيب",
+                      "fr": "Say: حَلِيب",
+                      "de": "Say: حَلِيب",
+                      "ru": "Say: حَلِيب",
+                      "zh": "Say: حَلِيب"
+                    },
+                    "answer": "حليب"
+                  },
+                  {
+                    "id": "Q13",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: خُبْز",
+                      "ar": "Say: خُبْز",
+                      "fr": "Say: خُبْز",
+                      "de": "Say: خُبْز",
+                      "ru": "Say: خُبْز",
+                      "zh": "Say: خُبْز"
+                    },
+                    "answer": "خبز"
+                  },
+                  {
+                    "id": "Q14",
+                    "type": "reading",
+                    "question": {
+                      "en": "Read: الْجَمَلُ فِي الْجَبَلِ",
+                      "ar": "Read: الْجَمَلُ فِي الْجَبَلِ",
+                      "fr": "Read: الْجَمَلُ فِي الْجَبَلِ",
+                      "de": "Read: الْجَمَلُ فِي الْجَبَلِ",
+                      "ru": "Read: الْجَمَلُ فِي الْجَبَلِ",
+                      "zh": "Read: الْجَمَلُ فِي الْجَبَلِ"
+                    },
+                    "answer": "done"
+                  },
+                  {
+                    "id": "Q15",
+                    "type": "mcq",
+                    "question": {
+                      "en": "Does 'Kha' have a dot?",
+                      "ar": "Does 'Kha' have a dot?",
+                      "fr": "Does 'Kha' have a dot?",
+                      "de": "Does 'Kha' have a dot?",
+                      "ru": "Does 'Kha' have a dot?",
+                      "zh": "Does 'Kha' have a dot?"
+                    },
+                    "options": [
+                      "Above",
+                      "Below",
+                      "No dot"
+                    ],
+                    "answer": "Above"
+                  }
+                ]
+              }
+            },
+            {
+              "lesson_id": "A1-U1-L3",
+              "lesson_title": {
+                "en": "The Sharp Dal (Connectors)",
+                "ar": "The Sharp Dal (Connectors)",
+                "fr": "The Sharp Dal (Connectors)",
+                "de": "The Sharp Dal (Connectors)",
+                "ru": "The Sharp Dal (Connectors)",
+                "zh": "The Sharp Dal (Connectors)"
+              },
+              "lesson_objectives": [
+                "Identify Dal, Dhal, Ra, Zay.",
+                "Identify non-connector letters.",
+                "Apply Tanween (aN, iN, uN)."
+              ],
+              "content": {
+                "vocabulary": [
+                  {
+                    "term": "دَجَاجَة",
+                    "transliteration": "Dajajah",
+                    "translations": {
+                      "en": "Chicken"
+                    }
+                  },
+                  {
+                    "term": "ذَهَب",
+                    "transliteration": "Dhahab",
+                    "translations": {
+                      "en": "Gold"
+                    }
+                  },
+                  {
+                    "term": "رَجُل",
+                    "transliteration": "Rajul",
+                    "translations": {
+                      "en": "Man"
+                    }
+                  },
+                  {
+                    "term": "زَهْرَة",
+                    "transliteration": "Zahrah",
+                    "translations": {
+                      "en": "Flower"
+                    }
+                  },
+                  {
+                    "term": "دَار",
+                    "transliteration": "Dar",
+                    "translations": {
+                      "en": "House/Home"
+                    }
+                  }
+                ],
+                "grammar": [
+                  "Non-connectors: Dal, Dhal, Ra, Zay, Alif, Waw do not connect to the following letter."
+                ],
+                "reading": {
+                  "text": "الرَّجُلُ مَعَهُ ذَهَبٌ. هُنَا دَارٌ وَزَهْرَةٌ."
+                }
+              },
+              "lesson_test": {
+                "questions": [
+                  {
+                    "id": "Q1",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Dajajah'?",
+                      "ar": "What is 'Dajajah'?",
+                      "fr": "What is 'Dajajah'?",
+                      "de": "What is 'Dajajah'?",
+                      "ru": "What is 'Dajajah'?",
+                      "zh": "What is 'Dajajah'?"
+                    },
+                    "options": [
+                      "Duck",
+                      "Chicken",
+                      "Bird",
+                      "Cat"
+                    ],
+                    "answer": "Chicken"
+                  },
+                  {
+                    "id": "Q2",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Dhahab'?",
+                      "ar": "What is 'Dhahab'?",
+                      "fr": "What is 'Dhahab'?",
+                      "de": "What is 'Dhahab'?",
+                      "ru": "What is 'Dhahab'?",
+                      "zh": "What is 'Dhahab'?"
+                    },
+                    "options": [
+                      "Silver",
+                      "Gold",
+                      "Iron",
+                      "Wood"
+                    ],
+                    "answer": "Gold"
+                  },
+                  {
+                    "id": "Q3",
+                    "type": "mcq",
+                    "question": {
+                      "en": "Translate 'Man' to Arabic",
+                      "ar": "Translate 'Man' to Arabic",
+                      "fr": "Translate 'Man' to Arabic",
+                      "de": "Translate 'Man' to Arabic",
+                      "ru": "Translate 'Man' to Arabic",
+                      "zh": "Translate 'Man' to Arabic"
+                    },
+                    "options": [
+                      "Bint",
+                      "Walad",
+                      "Rajul",
+                      "Imra'ah"
+                    ],
+                    "answer": "Rajul"
+                  },
+                  {
+                    "id": "Q4",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Zahrah'?",
+                      "ar": "What is 'Zahrah'?",
+                      "fr": "What is 'Zahrah'?",
+                      "de": "What is 'Zahrah'?",
+                      "ru": "What is 'Zahrah'?",
+                      "zh": "What is 'Zahrah'?"
+                    },
+                    "options": [
+                      "Tree",
+                      "Grass",
+                      "Flower",
+                      "Fruit"
+                    ],
+                    "answer": "Flower"
+                  },
+                  {
+                    "id": "Q5",
+                    "type": "mcq",
+                    "question": {
+                      "en": "Which letter is a non-connector?",
+                      "ar": "Which letter is a non-connector?",
+                      "fr": "Which letter is a non-connector?",
+                      "de": "Which letter is a non-connector?",
+                      "ru": "Which letter is a non-connector?",
+                      "zh": "Which letter is a non-connector?"
+                    },
+                    "options": [
+                      "Ba",
+                      "Jeem",
+                      "Dal",
+                      "Ta"
+                    ],
+                    "answer": "Dal"
+                  },
+                  {
+                    "id": "Q6",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Man' in Arabic",
+                      "ar": "Write 'Man' in Arabic",
+                      "fr": "Write 'Man' in Arabic",
+                      "de": "Write 'Man' in Arabic",
+                      "ru": "Write 'Man' in Arabic",
+                      "zh": "Write 'Man' in Arabic"
+                    },
+                    "answer": "رجل"
+                  },
+                  {
+                    "id": "Q7",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Gold' in Arabic",
+                      "ar": "Write 'Gold' in Arabic",
+                      "fr": "Write 'Gold' in Arabic",
+                      "de": "Write 'Gold' in Arabic",
+                      "ru": "Write 'Gold' in Arabic",
+                      "zh": "Write 'Gold' in Arabic"
+                    },
+                    "answer": "ذهب"
+                  },
+                  {
+                    "id": "Q8",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Flower' in Arabic",
+                      "ar": "Write 'Flower' in Arabic",
+                      "fr": "Write 'Flower' in Arabic",
+                      "de": "Write 'Flower' in Arabic",
+                      "ru": "Write 'Flower' in Arabic",
+                      "zh": "Write 'Flower' in Arabic"
+                    },
+                    "answer": "زهرة"
+                  },
+                  {
+                    "id": "Q9",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Chicken' in Arabic",
+                      "ar": "Write 'Chicken' in Arabic",
+                      "fr": "Write 'Chicken' in Arabic",
+                      "de": "Write 'Chicken' in Arabic",
+                      "ru": "Write 'Chicken' in Arabic",
+                      "zh": "Write 'Chicken' in Arabic"
+                    },
+                    "answer": "دجاجة"
+                  },
+                  {
+                    "id": "Q10",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'House' in Arabic",
+                      "ar": "Write 'House' in Arabic",
+                      "fr": "Write 'House' in Arabic",
+                      "de": "Write 'House' in Arabic",
+                      "ru": "Write 'House' in Arabic",
+                      "zh": "Write 'House' in Arabic"
+                    },
+                    "answer": "دار"
+                  },
+                  {
+                    "id": "Q11",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: رَجُل",
+                      "ar": "Say: رَجُل",
+                      "fr": "Say: رَجُل",
+                      "de": "Say: رَجُل",
+                      "ru": "Say: رَجُل",
+                      "zh": "Say: رَجُل"
+                    },
+                    "answer": "رجل"
+                  },
+                  {
+                    "id": "Q12",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: ذَهَب",
+                      "ar": "Say: ذَهَب",
+                      "fr": "Say: ذَهَب",
+                      "de": "Say: ذَهَب",
+                      "ru": "Say: ذَهَب",
+                      "zh": "Say: ذَهَب"
+                    },
+                    "answer": "ذهب"
+                  },
+                  {
+                    "id": "Q13",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: زَهْرَة",
+                      "ar": "Say: زَهْرَة",
+                      "fr": "Say: زَهْرَة",
+                      "de": "Say: زَهْرَة",
+                      "ru": "Say: زَهْرَة",
+                      "zh": "Say: زَهْرَة"
+                    },
+                    "answer": "زهرة"
+                  },
+                  {
+                    "id": "Q14",
+                    "type": "reading",
+                    "question": {
+                      "en": "Read: الرَّجُلُ مَعَهُ ذَهَبٌ",
+                      "ar": "Read: الرَّجُلُ مَعَهُ ذَهَبٌ",
+                      "fr": "Read: الرَّجُلُ مَعَهُ ذَهَبٌ",
+                      "de": "Read: الرَّجُلُ مَعَهُ ذَهَبٌ",
+                      "ru": "Read: الرَّجُلُ مَعَهُ ذَهَبٌ",
+                      "zh": "Read: الرَّجُلُ مَعَهُ ذَهَبٌ"
+                    },
+                    "answer": "done"
+                  },
+                  {
+                    "id": "Q15",
+                    "type": "mcq",
+                    "question": {
+                      "en": "Does 'Ra' connect to the left?",
+                      "ar": "Does 'Ra' connect to the left?",
+                      "fr": "Does 'Ra' connect to the left?",
+                      "de": "Does 'Ra' connect to the left?",
+                      "ru": "Does 'Ra' connect to the left?",
+                      "zh": "Does 'Ra' connect to the left?"
+                    },
+                    "options": [
+                      "Yes",
+                      "No"
+                    ],
+                    "answer": "No"
+                  }
+                ]
+              }
+            },
+            {
+              "lesson_id": "A1-U1-L4",
+              "lesson_title": {
+                "en": "The Hissing Seen (Sibilants)",
+                "ar": "The Hissing Seen (Sibilants)",
+                "fr": "The Hissing Seen (Sibilants)",
+                "de": "The Hissing Seen (Sibilants)",
+                "ru": "The Hissing Seen (Sibilants)",
+                "zh": "The Hissing Seen (Sibilants)"
+              },
+              "lesson_objectives": [
+                "Identify Seen, Sheen, Sad, Dad.",
+                "Master emphatic sounds.",
+                "Understand the Shadda marker."
+              ],
+              "content": {
+                "vocabulary": [
+                  {
+                    "term": "سَمَك",
+                    "transliteration": "Samak",
+                    "translations": {
+                      "en": "Fish"
+                    }
+                  },
+                  {
+                    "term": "شَمْس",
+                    "transliteration": "Shams",
+                    "translations": {
+                      "en": "Sun"
+                    }
+                  },
+                  {
+                    "term": "صَقْر",
+                    "transliteration": "Saqr",
+                    "translations": {
+                      "en": "Falcon"
+                    }
+                  },
+                  {
+                    "term": "ضَوْء",
+                    "transliteration": "Daw'",
+                    "translations": {
+                      "en": "Light"
+                    }
+                  },
+                  {
+                    "term": "سَيَّارَة",
+                    "transliteration": "Sayyarah",
+                    "translations": {
+                      "en": "Car"
+                    }
+                  }
+                ],
+                "grammar": [
+                  "Shadda: Doubling a consonant sound (e.g., Say-ya-rah). Emphatic letters: Sad, Dad, Ta, Za."
+                ],
+                "reading": {
+                  "text": "السَّمَكُ فِي الْمَاءِ. الشَّمْسُ تُعْطِي ضَوْءًا."
+                }
+              },
+              "lesson_test": {
+                "questions": [
+                  {
+                    "id": "Q1",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Samak'?",
+                      "ar": "What is 'Samak'?",
+                      "fr": "What is 'Samak'?",
+                      "de": "What is 'Samak'?",
+                      "ru": "What is 'Samak'?",
+                      "zh": "What is 'Samak'?"
+                    },
+                    "options": [
+                      "Meat",
+                      "Fish",
+                      "Water",
+                      "Sky"
+                    ],
+                    "answer": "Fish"
+                  },
+                  {
+                    "id": "Q2",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Shams'?",
+                      "ar": "What is 'Shams'?",
+                      "fr": "What is 'Shams'?",
+                      "de": "What is 'Shams'?",
+                      "ru": "What is 'Shams'?",
+                      "zh": "What is 'Shams'?"
+                    },
+                    "options": [
+                      "Moon",
+                      "Sun",
+                      "Star",
+                      "Cloud"
+                    ],
+                    "answer": "Sun"
+                  },
+                  {
+                    "id": "Q3",
+                    "type": "mcq",
+                    "question": {
+                      "en": "Translate 'Car' to Arabic",
+                      "ar": "Translate 'Car' to Arabic",
+                      "fr": "Translate 'Car' to Arabic",
+                      "de": "Translate 'Car' to Arabic",
+                      "ru": "Translate 'Car' to Arabic",
+                      "zh": "Translate 'Car' to Arabic"
+                    },
+                    "options": [
+                      "Tayyarah",
+                      "Sayyarah",
+                      "Hafilah",
+                      "Qitar"
+                    ],
+                    "answer": "Sayyarah"
+                  },
+                  {
+                    "id": "Q4",
+                    "type": "mcq",
+                    "question": {
+                      "en": "Identify 'Saqr'",
+                      "ar": "Identify 'Saqr'",
+                      "fr": "Identify 'Saqr'",
+                      "de": "Identify 'Saqr'",
+                      "ru": "Identify 'Saqr'",
+                      "zh": "Identify 'Saqr'"
+                    },
+                    "options": [
+                      "Owl",
+                      "Eagle",
+                      "Falcon",
+                      "Hawk"
+                    ],
+                    "answer": "Falcon"
+                  },
+                  {
+                    "id": "Q5",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What does a Shadda mean?",
+                      "ar": "What does a Shadda mean?",
+                      "fr": "What does a Shadda mean?",
+                      "de": "What does a Shadda mean?",
+                      "ru": "What does a Shadda mean?",
+                      "zh": "What does a Shadda mean?"
+                    },
+                    "options": [
+                      "Silence",
+                      "Double sound",
+                      "Long vowel",
+                      "Short vowel"
+                    ],
+                    "answer": "Double sound"
+                  },
+                  {
+                    "id": "Q6",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Sun' in Arabic",
+                      "ar": "Write 'Sun' in Arabic",
+                      "fr": "Write 'Sun' in Arabic",
+                      "de": "Write 'Sun' in Arabic",
+                      "ru": "Write 'Sun' in Arabic",
+                      "zh": "Write 'Sun' in Arabic"
+                    },
+                    "answer": "شمس"
+                  },
+                  {
+                    "id": "Q7",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Fish' in Arabic",
+                      "ar": "Write 'Fish' in Arabic",
+                      "fr": "Write 'Fish' in Arabic",
+                      "de": "Write 'Fish' in Arabic",
+                      "ru": "Write 'Fish' in Arabic",
+                      "zh": "Write 'Fish' in Arabic"
+                    },
+                    "answer": "سمك"
+                  },
+                  {
+                    "id": "Q8",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Car' in Arabic",
+                      "ar": "Write 'Car' in Arabic",
+                      "fr": "Write 'Car' in Arabic",
+                      "de": "Write 'Car' in Arabic",
+                      "ru": "Write 'Car' in Arabic",
+                      "zh": "Write 'Car' in Arabic"
+                    },
+                    "answer": "سيارة"
+                  },
+                  {
+                    "id": "Q9",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Light' in Arabic",
+                      "ar": "Write 'Light' in Arabic",
+                      "fr": "Write 'Light' in Arabic",
+                      "de": "Write 'Light' in Arabic",
+                      "ru": "Write 'Light' in Arabic",
+                      "zh": "Write 'Light' in Arabic"
+                    },
+                    "answer": "ضوء"
+                  },
+                  {
+                    "id": "Q10",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Falcon' in Arabic",
+                      "ar": "Write 'Falcon' in Arabic",
+                      "fr": "Write 'Falcon' in Arabic",
+                      "de": "Write 'Falcon' in Arabic",
+                      "ru": "Write 'Falcon' in Arabic",
+                      "zh": "Write 'Falcon' in Arabic"
+                    },
+                    "answer": "صقر"
+                  },
+                  {
+                    "id": "Q11",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: شَمْس",
+                      "ar": "Say: شَمْس",
+                      "fr": "Say: شَمْس",
+                      "de": "Say: شَمْس",
+                      "ru": "Say: شَمْس",
+                      "zh": "Say: شَمْس"
+                    },
+                    "answer": "شمس"
+                  },
+                  {
+                    "id": "Q12",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: سَمَك",
+                      "ar": "Say: سَمَك",
+                      "fr": "Say: سَمَك",
+                      "de": "Say: سَمَك",
+                      "ru": "Say: سَمَك",
+                      "zh": "Say: سَمَك"
+                    },
+                    "answer": "سمك"
+                  },
+                  {
+                    "id": "Q13",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: سَيَّارَة",
+                      "ar": "Say: سَيَّارَة",
+                      "fr": "Say: سَيَّارَة",
+                      "de": "Say: سَيَّارَة",
+                      "ru": "Say: سَيَّارَة",
+                      "zh": "Say: سَيَّارَة"
+                    },
+                    "answer": "سيارة"
+                  },
+                  {
+                    "id": "Q14",
+                    "type": "reading",
+                    "question": {
+                      "en": "Read: السَّمَكُ فِي الْمَاءِ",
+                      "ar": "Read: السَّمَكُ فِي الْمَاءِ",
+                      "fr": "Read: السَّمَكُ فِي الْمَاءِ",
+                      "de": "Read: السَّمَكُ فِي الْمَاءِ",
+                      "ru": "Read: السَّمَكُ فِي الْمَاءِ",
+                      "zh": "Read: السَّمَكُ فِي الْمَاءِ"
+                    },
+                    "answer": "done"
+                  },
+                  {
+                    "id": "Q15",
+                    "type": "mcq",
+                    "question": {
+                      "en": "Is 'Sheen' representing SH?",
+                      "ar": "Is 'Sheen' representing SH?",
+                      "fr": "Is 'Sheen' representing SH?",
+                      "de": "Is 'Sheen' representing SH?",
+                      "ru": "Is 'Sheen' representing SH?",
+                      "zh": "Is 'Sheen' representing SH?"
+                    },
+                    "options": [
+                      "Yes",
+                      "No"
+                    ],
+                    "answer": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "lesson_id": "A1-U1-L5",
+              "lesson_title": {
+                "en": "The Tall Tah (Emphatics)",
+                "ar": "The Tall Tah (Emphatics)",
+                "fr": "The Tall Tah (Emphatics)",
+                "de": "The Tall Tah (Emphatics)",
+                "ru": "The Tall Tah (Emphatics)",
+                "zh": "The Tall Tah (Emphatics)"
+              },
+              "lesson_objectives": [
+                "Identify Tah, Zah, Ayn, Ghayn.",
+                "Practice deep throat sounds.",
+                "Learn Solar vs. Lunar letters."
+              ],
+              "content": {
+                "vocabulary": [
+                  {
+                    "term": "طَيْر",
+                    "transliteration": "Tayr",
+                    "translations": {
+                      "en": "Bird"
+                    }
+                  },
+                  {
+                    "term": "ظِل",
+                    "transliteration": "Zil",
+                    "translations": {
+                      "en": "Shadow"
+                    }
+                  },
+                  {
+                    "term": "عَيْن",
+                    "transliteration": "Ayn",
+                    "translations": {
+                      "en": "Eye"
+                    }
+                  },
+                  {
+                    "term": "غُرَاب",
+                    "transliteration": "Ghurab",
+                    "translations": {
+                      "en": "Crow"
+                    }
+                  },
+                  {
+                    "term": "طَعَام",
+                    "transliteration": "Ta'am",
+                    "translations": {
+                      "en": "Food"
+                    }
+                  }
+                ],
+                "grammar": [
+                  "Ayn and Ghayn are unique pharyngeal sounds. Solar letters assimilate the 'L' of 'Al-'."
+                ],
+                "reading": {
+                  "text": "الطَّعَامُ لَذِيذٌ. الْعَيْنُ تَرَى الطَّيْرَ."
+                }
+              },
+              "lesson_test": {
+                "questions": [
+                  {
+                    "id": "Q1",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Ayn'?",
+                      "ar": "What is 'Ayn'?",
+                      "fr": "What is 'Ayn'?",
+                      "de": "What is 'Ayn'?",
+                      "ru": "What is 'Ayn'?",
+                      "zh": "What is 'Ayn'?"
+                    },
+                    "options": [
+                      "Ear",
+                      "Eye",
+                      "Nose",
+                      "Mouth"
+                    ],
+                    "answer": "Eye"
+                  },
+                  {
+                    "id": "Q2",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Tayr'?",
+                      "ar": "What is 'Tayr'?",
+                      "fr": "What is 'Tayr'?",
+                      "de": "What is 'Tayr'?",
+                      "ru": "What is 'Tayr'?",
+                      "zh": "What is 'Tayr'?"
+                    },
+                    "options": [
+                      "Insects",
+                      "Bird",
+                      "Animal",
+                      "Fish"
+                    ],
+                    "answer": "Bird"
+                  },
+                  {
+                    "id": "Q3",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Ta'am'?",
+                      "ar": "What is 'Ta'am'?",
+                      "fr": "What is 'Ta'am'?",
+                      "de": "What is 'Ta'am'?",
+                      "ru": "What is 'Ta'am'?",
+                      "zh": "What is 'Ta'am'?"
+                    },
+                    "options": [
+                      "Drink",
+                      "Water",
+                      "Food",
+                      "Store"
+                    ],
+                    "answer": "Food"
+                  },
+                  {
+                    "id": "Q4",
+                    "type": "mcq",
+                    "question": {
+                      "en": "Which one is an emphatic 'T'?",
+                      "ar": "Which one is an emphatic 'T'?",
+                      "fr": "Which one is an emphatic 'T'?",
+                      "de": "Which one is an emphatic 'T'?",
+                      "ru": "Which one is an emphatic 'T'?",
+                      "zh": "Which one is an emphatic 'T'?"
+                    },
+                    "options": [
+                      "Ta",
+                      "Tah",
+                      "Te",
+                      "Ti"
+                    ],
+                    "answer": "Tah"
+                  },
+                  {
+                    "id": "Q5",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Ghurab'?",
+                      "ar": "What is 'Ghurab'?",
+                      "fr": "What is 'Ghurab'?",
+                      "de": "What is 'Ghurab'?",
+                      "ru": "What is 'Ghurab'?",
+                      "zh": "What is 'Ghurab'?"
+                    },
+                    "options": [
+                      "Eagle",
+                      "Pigeon",
+                      "Crow",
+                      "Duck"
+                    ],
+                    "answer": "Crow"
+                  },
+                  {
+                    "id": "Q6",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Eye' in Arabic",
+                      "ar": "Write 'Eye' in Arabic",
+                      "fr": "Write 'Eye' in Arabic",
+                      "de": "Write 'Eye' in Arabic",
+                      "ru": "Write 'Eye' in Arabic",
+                      "zh": "Write 'Eye' in Arabic"
+                    },
+                    "answer": "عين"
+                  },
+                  {
+                    "id": "Q7",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Bird' in Arabic",
+                      "ar": "Write 'Bird' in Arabic",
+                      "fr": "Write 'Bird' in Arabic",
+                      "de": "Write 'Bird' in Arabic",
+                      "ru": "Write 'Bird' in Arabic",
+                      "zh": "Write 'Bird' in Arabic"
+                    },
+                    "answer": "طير"
+                  },
+                  {
+                    "id": "Q8",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Food' in Arabic",
+                      "ar": "Write 'Food' in Arabic",
+                      "fr": "Write 'Food' in Arabic",
+                      "de": "Write 'Food' in Arabic",
+                      "ru": "Write 'Food' in Arabic",
+                      "zh": "Write 'Food' in Arabic"
+                    },
+                    "answer": "طعام"
+                  },
+                  {
+                    "id": "Q9",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Shadow' in Arabic",
+                      "ar": "Write 'Shadow' in Arabic",
+                      "fr": "Write 'Shadow' in Arabic",
+                      "de": "Write 'Shadow' in Arabic",
+                      "ru": "Write 'Shadow' in Arabic",
+                      "zh": "Write 'Shadow' in Arabic"
+                    },
+                    "answer": "ظل"
+                  },
+                  {
+                    "id": "Q10",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Crow' in Arabic",
+                      "ar": "Write 'Crow' in Arabic",
+                      "fr": "Write 'Crow' in Arabic",
+                      "de": "Write 'Crow' in Arabic",
+                      "ru": "Write 'Crow' in Arabic",
+                      "zh": "Write 'Crow' in Arabic"
+                    },
+                    "answer": "غراب"
+                  },
+                  {
+                    "id": "Q11",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: عَيْن",
+                      "ar": "Say: عَيْن",
+                      "fr": "Say: عَيْن",
+                      "de": "Say: عَيْن",
+                      "ru": "Say: عَيْن",
+                      "zh": "Say: عَيْن"
+                    },
+                    "answer": "عين"
+                  },
+                  {
+                    "id": "Q12",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: طَيْر",
+                      "ar": "Say: طَيْر",
+                      "fr": "Say: طَيْر",
+                      "de": "Say: طَيْر",
+                      "ru": "Say: طَيْر",
+                      "zh": "Say: طَيْر"
+                    },
+                    "answer": "طير"
+                  },
+                  {
+                    "id": "Q13",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: طَعَام",
+                      "ar": "Say: طَعَام",
+                      "fr": "Say: طَعَام",
+                      "de": "Say: طَعَام",
+                      "ru": "Say: طَعَام",
+                      "zh": "Say: طَعَام"
+                    },
+                    "answer": "طعام"
+                  },
+                  {
+                    "id": "Q14",
+                    "type": "reading",
+                    "question": {
+                      "en": "Read: الطَّعَامُ لَذِيذٌ",
+                      "ar": "Read: الطَّعَامُ لَذِيذٌ",
+                      "fr": "Read: الطَّعَامُ لَذِيذٌ",
+                      "de": "Read: الطَّعَامُ لَذِيذٌ",
+                      "ru": "Read: الطَّعَامُ لَذِيذٌ",
+                      "zh": "Read: الطَّعَامُ لَذِيذٌ"
+                    },
+                    "answer": "done"
+                  },
+                  {
+                    "id": "Q15",
+                    "type": "mcq",
+                    "question": {
+                      "en": "Does Ghayn sound like a French R?",
+                      "ar": "Does Ghayn sound like a French R?",
+                      "fr": "Does Ghayn sound like a French R?",
+                      "de": "Does Ghayn sound like a French R?",
+                      "ru": "Does Ghayn sound like a French R?",
+                      "zh": "Does Ghayn sound like a French R?"
+                    },
+                    "options": [
+                      "Yes",
+                      "No"
+                    ],
+                    "answer": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "lesson_id": "A1-U1-L6",
+              "lesson_title": {
+                "en": "The Final Flourish (Closing the Alphabet)",
+                "ar": "The Final Flourish (Closing the Alphabet)",
+                "fr": "The Final Flourish (Closing the Alphabet)",
+                "de": "The Final Flourish (Closing the Alphabet)",
+                "ru": "The Final Flourish (Closing the Alphabet)",
+                "zh": "The Final Flourish (Closing the Alphabet)"
+              },
+              "lesson_objectives": [
+                "Identify Fa, Qaf, Kaf, Lam, Meem, Nun, Heh, Waw, Yeh.",
+                "Master long vowels (Alif, Waw, Yeh).",
+                "Read complete simple words."
+              ],
+              "content": {
+                "vocabulary": [
+                  {
+                    "term": "قَلَم",
+                    "transliteration": "Qalam",
+                    "translations": {
+                      "en": "Pen"
+                    }
+                  },
+                  {
+                    "term": "كِتَاب",
+                    "transliteration": "Kitab",
+                    "translations": {
+                      "en": "Book"
+                    }
+                  },
+                  {
+                    "term": "مَاء",
+                    "transliteration": "Ma'",
+                    "translations": {
+                      "en": "Water"
+                    }
+                  },
+                  {
+                    "term": "نُور",
+                    "transliteration": "Nur",
+                    "translations": {
+                      "en": "Light"
+                    }
+                  },
+                  {
+                    "term": "وَلَد",
+                    "transliteration": "Walad",
+                    "translations": {
+                      "en": "Boy"
+                    }
+                  }
+                ],
+                "grammar": [
+                  "Long Vowels: Alif (aa), Waw (uu), Yeh (ee). These extend the short vowel sounds significantly."
+                ],
+                "reading": {
+                  "text": "مَعِي قَلَمٌ وَكِتَابٌ. الْوَلَدُ يَشْرَبُ الْمَاءَ."
+                }
+              },
+              "lesson_test": {
+                "questions": [
+                  {
+                    "id": "Q1",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Qalam'?",
+                      "ar": "What is 'Qalam'?",
+                      "fr": "What is 'Qalam'?",
+                      "de": "What is 'Qalam'?",
+                      "ru": "What is 'Qalam'?",
+                      "zh": "What is 'Qalam'?"
+                    },
+                    "options": [
+                      "Book",
+                      "Pen",
+                      "Bag",
+                      "Desk"
+                    ],
+                    "answer": "Pen"
+                  },
+                  {
+                    "id": "Q2",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Kitab'?",
+                      "ar": "What is 'Kitab'?",
+                      "fr": "What is 'Kitab'?",
+                      "de": "What is 'Kitab'?",
+                      "ru": "What is 'Kitab'?",
+                      "zh": "What is 'Kitab'?"
+                    },
+                    "options": [
+                      "Paper",
+                      "Book",
+                      "Office",
+                      "School"
+                    ],
+                    "answer": "Book"
+                  },
+                  {
+                    "id": "Q3",
+                    "type": "mcq",
+                    "question": {
+                      "en": "Translate 'Water' to Arabic",
+                      "ar": "Translate 'Water' to Arabic",
+                      "fr": "Translate 'Water' to Arabic",
+                      "de": "Translate 'Water' to Arabic",
+                      "ru": "Translate 'Water' to Arabic",
+                      "zh": "Translate 'Water' to Arabic"
+                    },
+                    "options": [
+                      "Ma'",
+                      "Asir",
+                      "Halib",
+                      "Laban"
+                    ],
+                    "answer": "Ma'"
+                  },
+                  {
+                    "id": "Q4",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Walad'?",
+                      "ar": "What is 'Walad'?",
+                      "fr": "What is 'Walad'?",
+                      "de": "What is 'Walad'?",
+                      "ru": "What is 'Walad'?",
+                      "zh": "What is 'Walad'?"
+                    },
+                    "options": [
+                      "Girl",
+                      "Boy",
+                      "Man",
+                      "Woman"
+                    ],
+                    "answer": "Boy"
+                  },
+                  {
+                    "id": "Q5",
+                    "type": "mcq",
+                    "question": {
+                      "en": "Identify 'Nur'",
+                      "ar": "Identify 'Nur'",
+                      "fr": "Identify 'Nur'",
+                      "de": "Identify 'Nur'",
+                      "ru": "Identify 'Nur'",
+                      "zh": "Identify 'Nur'"
+                    },
+                    "options": [
+                      "Darkness",
+                      "Shadow",
+                      "Light",
+                      "Color"
+                    ],
+                    "answer": "Light"
+                  },
+                  {
+                    "id": "Q6",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Pen' in Arabic",
+                      "ar": "Write 'Pen' in Arabic",
+                      "fr": "Write 'Pen' in Arabic",
+                      "de": "Write 'Pen' in Arabic",
+                      "ru": "Write 'Pen' in Arabic",
+                      "zh": "Write 'Pen' in Arabic"
+                    },
+                    "answer": "قلم"
+                  },
+                  {
+                    "id": "Q7",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Book' in Arabic",
+                      "ar": "Write 'Book' in Arabic",
+                      "fr": "Write 'Book' in Arabic",
+                      "de": "Write 'Book' in Arabic",
+                      "ru": "Write 'Book' in Arabic",
+                      "zh": "Write 'Book' in Arabic"
+                    },
+                    "answer": "كتاب"
+                  },
+                  {
+                    "id": "Q8",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Water' in Arabic",
+                      "ar": "Write 'Water' in Arabic",
+                      "fr": "Write 'Water' in Arabic",
+                      "de": "Write 'Water' in Arabic",
+                      "ru": "Write 'Water' in Arabic",
+                      "zh": "Write 'Water' in Arabic"
+                    },
+                    "answer": "ماء"
+                  },
+                  {
+                    "id": "Q9",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Boy' in Arabic",
+                      "ar": "Write 'Boy' in Arabic",
+                      "fr": "Write 'Boy' in Arabic",
+                      "de": "Write 'Boy' in Arabic",
+                      "ru": "Write 'Boy' in Arabic",
+                      "zh": "Write 'Boy' in Arabic"
+                    },
+                    "answer": "ولد"
+                  },
+                  {
+                    "id": "Q10",
+                    "type": "writing",
+                    "question": {
+                      "en": "Write 'Light' in Arabic",
+                      "ar": "Write 'Light' in Arabic",
+                      "fr": "Write 'Light' in Arabic",
+                      "de": "Write 'Light' in Arabic",
+                      "ru": "Write 'Light' in Arabic",
+                      "zh": "Write 'Light' in Arabic"
+                    },
+                    "answer": "نور"
+                  },
+                  {
+                    "id": "Q11",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: قَلَم",
+                      "ar": "Say: قَلَم",
+                      "fr": "Say: قَلَم",
+                      "de": "Say: قَلَم",
+                      "ru": "Say: قَلَم",
+                      "zh": "Say: قَلَم"
+                    },
+                    "answer": "قلم"
+                  },
+                  {
+                    "id": "Q12",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: كِتَاب",
+                      "ar": "Say: كِتَاب",
+                      "fr": "Say: كِتَاب",
+                      "de": "Say: كِتَاب",
+                      "ru": "Say: كِتَاب",
+                      "zh": "Say: كِتَاب"
+                    },
+                    "answer": "كتاب"
+                  },
+                  {
+                    "id": "Q13",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: مَاء",
+                      "ar": "Say: مَاء",
+                      "fr": "Say: مَاء",
+                      "de": "Say: مَاء",
+                      "ru": "Say: مَاء",
+                      "zh": "Say: مَاء"
+                    },
+                    "answer": "ماء"
+                  },
+                  {
+                    "id": "Q14",
+                    "type": "reading",
+                    "question": {
+                      "en": "Read: مَعِي قَلَمٌ وَكِتَابٌ",
+                      "ar": "Read: مَعِي قَلَمٌ وَكِتَابٌ",
+                      "fr": "Read: مَعِي قَلَمٌ وَكِتَابٌ",
+                      "de": "Read: مَعِي قَلَمٌ وَكِتَابٌ",
+                      "ru": "Read: مَعِي قَلَمٌ وَكِتَابٌ",
+                      "zh": "Read: مَعِي قَلَمٌ وَكِتَابٌ"
+                    },
+                    "answer": "done"
+                  },
+                  {
+                    "id": "Q15",
+                    "type": "mcq",
+                    "question": {
+                      "en": "Does Arabic have 28 letters?",
+                      "ar": "Does Arabic have 28 letters?",
+                      "fr": "Does Arabic have 28 letters?",
+                      "de": "Does Arabic have 28 letters?",
+                      "ru": "Does Arabic have 28 letters?",
+                      "zh": "Does Arabic have 28 letters?"
+                    },
+                    "options": [
+                      "Yes",
+                      "No"
+                    ],
+                    "answer": "Yes"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "unit_id": "A1-U2",
+          "unit_title": {
+            "en": "Identity & Connection",
+            "ar": "Identity & Connection",
+            "fr": "Identity & Connection",
+            "de": "Identity & Connection",
+            "ru": "Identity & Connection",
+            "zh": "Identity & Connection"
+          },
+          "unit_description": {
+            "en": "Learn to introduce yourself, your family, and talk about your origins.",
+            "ar": "Learn to introduce yourself, your family, and talk about your origins.",
+            "fr": "Learn to introduce yourself, your family, and talk about your origins.",
+            "de": "Learn to introduce yourself, your family, and talk about your origins.",
+            "ru": "Learn to introduce yourself, your family, and talk about your origins.",
+            "zh": "Learn to introduce yourself, your family, and talk about your origins."
+          },
+          "lessons": [
+            {
+              "lesson_id": "A1-U2-L1",
+              "lesson_title": {
+                "en": "Art of Greeting",
+                "ar": "Art of Greeting",
+                "fr": "Art of Greeting",
+                "de": "Art of Greeting",
+                "ru": "Art of Greeting",
+                "zh": "Art of Greeting"
+              },
+              "lesson_objectives": [
+                "Greetings for all times.",
+                "Respond appropriately to welcomes.",
+                "Understand cultural nuances of greetings."
+              ],
+              "content": {
+                "vocabulary": [
+                  {
+                    "term": "السَّلَامُ عَلَيْكُمْ",
+                    "transliteration": "As-salamu alaykum",
+                    "translations": {
+                      "en": "Peace be upon you"
+                    }
+                  },
+                  {
+                    "term": "أَهْلًا وَسَهْلًا",
+                    "transliteration": "Ahlan wa sahlan",
+                    "translations": {
+                      "en": "Welcome"
+                    }
+                  },
+                  {
+                    "term": "صَبَاحُ الْخَيْر",
+                    "transliteration": "Sabahu alkhayr",
+                    "translations": {
+                      "en": "Good morning"
+                    }
+                  },
+                  {
+                    "term": "مَسَاءُ الْخَيْر",
+                    "transliteration": "Masau alkhayr",
+                    "translations": {
+                      "en": "Good evening"
+                    }
+                  },
+                  {
+                    "term": "كَيْفَ الْحَال؟",
+                    "transliteration": "Kayfa al-hal?",
+                    "translations": {
+                      "en": "How are you?"
+                    }
+                  },
+                  {
+                    "term": "بِخَيْر",
+                    "transliteration": "Bikhayr",
+                    "translations": {
+                      "en": "Well/Good"
+                    }
+                  },
+                  {
+                    "term": "الْحَمْدُ لله",
+                    "transliteration": "Alhamdulillah",
+                    "translations": {
+                      "en": "Praise be to God"
+                    }
+                  },
+                  {
+                    "term": "شُكْرًا",
+                    "transliteration": "Shukran",
+                    "translations": {
+                      "en": "Thank you"
+                    }
+                  },
+                  {
+                    "term": "عَفْوًا",
+                    "transliteration": "Afwan",
+                    "translations": {
+                      "en": "You are welcome/Excuse me"
+                    }
+                  },
+                  {
+                    "term": "مَعَ السَّلَامَة",
+                    "transliteration": "Ma'a as-salamah",
+                    "translations": {
+                      "en": "Goodbye"
+                    }
+                  }
+                ],
+                "grammar": [
+                  "Response structure: Sabahu al-Nur response to Sabahu al-Khayr. Alaykumu al-Salam response to As-Salamu alaykum."
+                ],
+                "reading": {
+                  "text": "أَهْلًا وَسَهْلًا. كَيْفَ الْحَال؟ أَنَا بِخَيْر، الْحَمْدُ لله."
+                }
+              },
+              "lesson_test": {
+                "questions": [
+                  {
+                    "id": "Q1",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is the response to 'As-salamu alaykum'?",
+                      "ar": "What is the response to 'As-salamu alaykum'?",
+                      "fr": "What is the response to 'As-salamu alaykum'?",
+                      "de": "What is the response to 'As-salamu alaykum'?",
+                      "ru": "What is the response to 'As-salamu alaykum'?",
+                      "zh": "What is the response to 'As-salamu alaykum'?"
+                    },
+                    "options": [
+                      "Ahlan",
+                      "Wa alaykumu s-salam",
+                      "Sabahu l-khayr",
+                      "Shukran"
+                    ],
+                    "answer": "Wa alaykumu s-salam"
+                  },
+                  {
+                    "id": "Q2",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Good morning'?",
+                      "ar": "What is 'Good morning'?",
+                      "fr": "What is 'Good morning'?",
+                      "de": "What is 'Good morning'?",
+                      "ru": "What is 'Good morning'?",
+                      "zh": "What is 'Good morning'?"
+                    },
+                    "options": [
+                      "Masau l-khayr",
+                      "Sabahu l-khayr",
+                      "Ahlan",
+                      "Shukran"
+                    ],
+                    "answer": "Sabahu l-khayr"
+                  },
+                  {
+                    "id": "Q3",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'How are you?'",
+                      "ar": "What is 'How are you?'",
+                      "fr": "What is 'How are you?'",
+                      "de": "What is 'How are you?'",
+                      "ru": "What is 'How are you?'",
+                      "zh": "What is 'How are you?'"
+                    },
+                    "options": [
+                      "Kayfa l-hal?",
+                      "Masmu-ka?",
+                      "Min ayna anta?",
+                      "Bikhayr"
+                    ],
+                    "answer": "Kayfa l-hal?"
+                  },
+                  {
+                    "id": "Q4",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Shukran'?",
+                      "ar": "What is 'Shukran'?",
+                      "fr": "What is 'Shukran'?",
+                      "de": "What is 'Shukran'?",
+                      "ru": "What is 'Shukran'?",
+                      "zh": "What is 'Shukran'?"
+                    },
+                    "options": [
+                      "Please",
+                      "Thank you",
+                      "Welcome",
+                      "Hello"
+                    ],
+                    "answer": "Thank you"
+                  },
+                  {
+                    "id": "Q5",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Goodbye'?",
+                      "ar": "What is 'Goodbye'?",
+                      "fr": "What is 'Goodbye'?",
+                      "de": "What is 'Goodbye'?",
+                      "ru": "What is 'Goodbye'?",
+                      "zh": "What is 'Goodbye'?"
+                    },
+                    "options": [
+                      "Ahlan",
+                      "Ma'a as-salamah",
+                      "Sabahu l-khayr",
+                      "Afwan"
+                    ],
+                    "answer": "Ma'a as-salamah"
+                  },
+                  {
+                    "id": "Q6",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: Thank you",
+                      "ar": "Translate: Thank you",
+                      "fr": "Translate: Thank you",
+                      "de": "Translate: Thank you",
+                      "ru": "Translate: Thank you",
+                      "zh": "Translate: Thank you"
+                    },
+                    "answer": "شكرا"
+                  },
+                  {
+                    "id": "Q7",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: Good morning",
+                      "ar": "Translate: Good morning",
+                      "fr": "Translate: Good morning",
+                      "de": "Translate: Good morning",
+                      "ru": "Translate: Good morning",
+                      "zh": "Translate: Good morning"
+                    },
+                    "answer": "صباح الخير"
+                  },
+                  {
+                    "id": "Q8",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: Welcome",
+                      "ar": "Translate: Welcome",
+                      "fr": "Translate: Welcome",
+                      "de": "Translate: Welcome",
+                      "ru": "Translate: Welcome",
+                      "zh": "Translate: Welcome"
+                    },
+                    "answer": "أهلا وسهلا"
+                  },
+                  {
+                    "id": "Q9",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: I am well",
+                      "ar": "Translate: I am well",
+                      "fr": "Translate: I am well",
+                      "de": "Translate: I am well",
+                      "ru": "Translate: I am well",
+                      "zh": "Translate: I am well"
+                    },
+                    "answer": "أنا بخير"
+                  },
+                  {
+                    "id": "Q10",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: Goodbye",
+                      "ar": "Translate: Goodbye",
+                      "fr": "Translate: Goodbye",
+                      "de": "Translate: Goodbye",
+                      "ru": "Translate: Goodbye",
+                      "zh": "Translate: Goodbye"
+                    },
+                    "answer": "مع السلامة"
+                  },
+                  {
+                    "id": "Q11",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: السَّلَامُ عَلَيْكُمْ",
+                      "ar": "Say: السَّلَامُ عَلَيْكُمْ",
+                      "fr": "Say: السَّلَامُ عَلَيْكُمْ",
+                      "de": "Say: السَّلَامُ عَلَيْكُمْ",
+                      "ru": "Say: السَّلَامُ عَلَيْكُمْ",
+                      "zh": "Say: السَّلَامُ عَلَيْكُمْ"
+                    },
+                    "answer": "السلام عليكم"
+                  },
+                  {
+                    "id": "Q12",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: كَيْفَ الْحَال؟",
+                      "ar": "Say: كَيْفَ الْحَال؟",
+                      "fr": "Say: كَيْفَ الْحَال؟",
+                      "de": "Say: كَيْفَ الْحَال؟",
+                      "ru": "Say: كَيْفَ الْحَال؟",
+                      "zh": "Say: كَيْفَ الْحَال؟"
+                    },
+                    "answer": "كيف الحال؟"
+                  },
+                  {
+                    "id": "Q13",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: صَبَاحُ الْخَيْر",
+                      "ar": "Say: صَبَاحُ الْخَيْر",
+                      "fr": "Say: صَبَاحُ الْخَيْر",
+                      "de": "Say: صَبَاحُ الْخَيْر",
+                      "ru": "Say: صَبَاحُ الْخَيْر",
+                      "zh": "Say: صَبَاحُ الْخَيْر"
+                    },
+                    "answer": "صباح الخير"
+                  },
+                  {
+                    "id": "Q14",
+                    "type": "reading",
+                    "question": {
+                      "en": "Read: أَهْلًا وَسَهْلًا. كَيْفَ الْحَال؟",
+                      "ar": "Read: أَهْلًا وَسَهْلًا. كَيْفَ الْحَال؟",
+                      "fr": "Read: أَهْلًا وَسَهْلًا. كَيْفَ الْحَال؟",
+                      "de": "Read: أَهْلًا وَسَهْلًا. كَيْفَ الْحَال؟",
+                      "ru": "Read: أَهْلًا وَسَهْلًا. كَيْفَ الْحَال؟",
+                      "zh": "Read: أَهْلًا وَسَهْلًا. كَيْفَ الْحَال؟"
+                    },
+                    "answer": "done"
+                  },
+                  {
+                    "id": "Q15",
+                    "type": "mcq",
+                    "question": {
+                      "en": "Is 'Ahlan' casual?",
+                      "ar": "Is 'Ahlan' casual?",
+                      "fr": "Is 'Ahlan' casual?",
+                      "de": "Is 'Ahlan' casual?",
+                      "ru": "Is 'Ahlan' casual?",
+                      "zh": "Is 'Ahlan' casual?"
+                    },
+                    "options": [
+                      "Yes",
+                      "No"
+                    ],
+                    "answer": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "lesson_id": "A1-U2-L2",
+              "lesson_title": {
+                "en": "Self Introduction",
+                "ar": "Self Introduction",
+                "fr": "Self Introduction",
+                "de": "Self Introduction",
+                "ru": "Self Introduction",
+                "zh": "Self Introduction"
+              },
+              "lesson_objectives": [
+                "State your name and origin.",
+                "Use 'I am' (Ana) and 'You are' (Anta/Anti).",
+                "Ask 'What is your name?'"
+              ],
+              "content": {
+                "vocabulary": [
+                  {
+                    "term": "أَنَا",
+                    "transliteration": "Ana",
+                    "translations": {
+                      "en": "I"
+                    }
+                  },
+                  {
+                    "term": "أَنْتَ",
+                    "transliteration": "Anta",
+                    "translations": {
+                      "en": "You (m)"
+                    }
+                  },
+                  {
+                    "term": "أَنْتِ",
+                    "transliteration": "Anti",
+                    "translations": {
+                      "en": "You (f)"
+                    }
+                  },
+                  {
+                    "term": "هُوَ",
+                    "transliteration": "Huwa",
+                    "translations": {
+                      "en": "He"
+                    }
+                  },
+                  {
+                    "term": "هِيَ",
+                    "transliteration": "Hiya",
+                    "translations": {
+                      "en": "She"
+                    }
+                  },
+                  {
+                    "term": "اِسْمِي",
+                    "transliteration": "Ismi",
+                    "translations": {
+                      "en": "My name"
+                    }
+                  },
+                  {
+                    "term": "مَا اِسْمُكَ؟",
+                    "transliteration": "Ma ismuka?",
+                    "translations": {
+                      "en": "What is your name? (m)"
+                    }
+                  },
+                  {
+                    "term": "مِنْ أَيْنَ أَنْتَ؟",
+                    "transliteration": "Min ayna anta?",
+                    "translations": {
+                      "en": "Where are you from?"
+                    }
+                  },
+                  {
+                    "term": "مِصْر",
+                    "transliteration": "Misr",
+                    "translations": {
+                      "en": "Egypt"
+                    }
+                  },
+                  {
+                    "term": "فَرَنْسَا",
+                    "transliteration": "Faransa",
+                    "translations": {
+                      "en": "France"
+                    }
+                  }
+                ],
+                "grammar": [
+                  "Arabic Pronouns: No verb 'to be' in present tense. 'Ana Ahmad' means 'I am Ahmad'."
+                ],
+                "reading": {
+                  "text": "اِسْمِي أَحْمَد. أَنَا مِنْ مِصْر. وَأَنْتَ، مِنْ أَيْنَ أَنْتَ؟"
+                }
+              },
+              "lesson_test": {
+                "questions": [
+                  {
+                    "id": "Q1",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Ana'?",
+                      "ar": "What is 'Ana'?",
+                      "fr": "What is 'Ana'?",
+                      "de": "What is 'Ana'?",
+                      "ru": "What is 'Ana'?",
+                      "zh": "What is 'Ana'?"
+                    },
+                    "options": [
+                      "You",
+                      "I",
+                      "He",
+                      "She"
+                    ],
+                    "answer": "I"
+                  },
+                  {
+                    "id": "Q2",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'You' (feminine)?",
+                      "ar": "What is 'You' (feminine)?",
+                      "fr": "What is 'You' (feminine)?",
+                      "de": "What is 'You' (feminine)?",
+                      "ru": "What is 'You' (feminine)?",
+                      "zh": "What is 'You' (feminine)?"
+                    },
+                    "options": [
+                      "Anta",
+                      "Anti",
+                      "Huwa",
+                      "Hiya"
+                    ],
+                    "answer": "Anti"
+                  },
+                  {
+                    "id": "Q3",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Min ayna anta?'",
+                      "ar": "What is 'Min ayna anta?'",
+                      "fr": "What is 'Min ayna anta?'",
+                      "de": "What is 'Min ayna anta?'",
+                      "ru": "What is 'Min ayna anta?'",
+                      "zh": "What is 'Min ayna anta?'"
+                    },
+                    "options": [
+                      "Who are you?",
+                      "Where are you from?",
+                      "How are you?",
+                      "What is your name?"
+                    ],
+                    "answer": "Where are you from?"
+                  },
+                  {
+                    "id": "Q4",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'He' in Arabic?",
+                      "ar": "What is 'He' in Arabic?",
+                      "fr": "What is 'He' in Arabic?",
+                      "de": "What is 'He' in Arabic?",
+                      "ru": "What is 'He' in Arabic?",
+                      "zh": "What is 'He' in Arabic?"
+                    },
+                    "options": [
+                      "Huwa",
+                      "Hiya",
+                      "Anta",
+                      "Ana"
+                    ],
+                    "answer": "Huwa"
+                  },
+                  {
+                    "id": "Q5",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'My name'?",
+                      "ar": "What is 'My name'?",
+                      "fr": "What is 'My name'?",
+                      "de": "What is 'My name'?",
+                      "ru": "What is 'My name'?",
+                      "zh": "What is 'My name'?"
+                    },
+                    "options": [
+                      "Ismu-ka",
+                      "Ismi",
+                      "Ismu-ha",
+                      "Ana"
+                    ],
+                    "answer": "Ismi"
+                  },
+                  {
+                    "id": "Q6",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: My name",
+                      "ar": "Translate: My name",
+                      "fr": "Translate: My name",
+                      "de": "Translate: My name",
+                      "ru": "Translate: My name",
+                      "zh": "Translate: My name"
+                    },
+                    "answer": "اسمي"
+                  },
+                  {
+                    "id": "Q7",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: Egypt",
+                      "ar": "Translate: Egypt",
+                      "fr": "Translate: Egypt",
+                      "de": "Translate: Egypt",
+                      "ru": "Translate: Egypt",
+                      "zh": "Translate: Egypt"
+                    },
+                    "answer": "مصر"
+                  },
+                  {
+                    "id": "Q8",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: France",
+                      "ar": "Translate: France",
+                      "fr": "Translate: France",
+                      "de": "Translate: France",
+                      "ru": "Translate: France",
+                      "zh": "Translate: France"
+                    },
+                    "answer": "فرنسا"
+                  },
+                  {
+                    "id": "Q9",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: I am from",
+                      "ar": "Translate: I am from",
+                      "fr": "Translate: I am from",
+                      "de": "Translate: I am from",
+                      "ru": "Translate: I am from",
+                      "zh": "Translate: I am from"
+                    },
+                    "answer": "أنا من"
+                  },
+                  {
+                    "id": "Q10",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: She",
+                      "ar": "Translate: She",
+                      "fr": "Translate: She",
+                      "de": "Translate: She",
+                      "ru": "Translate: She",
+                      "zh": "Translate: She"
+                    },
+                    "answer": "هي"
+                  },
+                  {
+                    "id": "Q11",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: اِسْمِي أَحْمَد",
+                      "ar": "Say: اِسْمِي أَحْمَد",
+                      "fr": "Say: اِسْمِي أَحْمَد",
+                      "de": "Say: اِسْمِي أَحْمَد",
+                      "ru": "Say: اِسْمِي أَحْمَد",
+                      "zh": "Say: اِسْمِي أَحْمَد"
+                    },
+                    "answer": "اسمي أحمد"
+                  },
+                  {
+                    "id": "Q12",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: أَنَا مِنْ مِصْر",
+                      "ar": "Say: أَنَا مِنْ مِصْر",
+                      "fr": "Say: أَنَا مِنْ مِصْر",
+                      "de": "Say: أَنَا مِنْ مِصْر",
+                      "ru": "Say: أَنَا مِنْ مِصْر",
+                      "zh": "Say: أَنَا مِنْ مِصْر"
+                    },
+                    "answer": "أنا من مصر"
+                  },
+                  {
+                    "id": "Q13",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: أَنَا مِنْ فَرَنْسَا",
+                      "ar": "Say: أَنَا مِنْ فَرَنْسَا",
+                      "fr": "Say: أَنَا مِنْ فَرَنْسَا",
+                      "de": "Say: أَنَا مِنْ فَرَنْسَا",
+                      "ru": "Say: أَنَا مِنْ فَرَنْسَا",
+                      "zh": "Say: أَنَا مِنْ فَرَنْسَا"
+                    },
+                    "answer": "أنا من فرنسا"
+                  },
+                  {
+                    "id": "Q14",
+                    "type": "reading",
+                    "question": {
+                      "en": "Read: اِسْمِي أَحْمَد. أَنَا مِنْ مِصْر.",
+                      "ar": "Read: اِسْمِي أَحْمَد. أَنَا مِنْ مِصْر.",
+                      "fr": "Read: اِسْمِي أَحْمَد. أَنَا مِنْ مِصْر.",
+                      "de": "Read: اِسْمِي أَحْمَد. أَنَا مِنْ مِصْر.",
+                      "ru": "Read: اِسْمِي أَحْمَد. أَنَا مِنْ مِصْر.",
+                      "zh": "Read: اِسْمِي أَحْمَد. أَنَا مِنْ مِصْر."
+                    },
+                    "answer": "done"
+                  },
+                  {
+                    "id": "Q15",
+                    "type": "mcq",
+                    "question": {
+                      "en": "Is 'Anti' for females?",
+                      "ar": "Is 'Anti' for females?",
+                      "fr": "Is 'Anti' for females?",
+                      "de": "Is 'Anti' for females?",
+                      "ru": "Is 'Anti' for females?",
+                      "zh": "Is 'Anti' for females?"
+                    },
+                    "options": [
+                      "Yes",
+                      "No"
+                    ],
+                    "answer": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "lesson_id": "A1-U2-L3",
+              "lesson_title": {
+                "en": "Family Roots (The Family)",
+                "ar": "Family Roots (The Family)",
+                "fr": "Family Roots (The Family)",
+                "de": "Family Roots (The Family)",
+                "ru": "Family Roots (The Family)",
+                "zh": "Family Roots (The Family)"
+              },
+              "lesson_objectives": [
+                "Identify family members.",
+                "Understand possessive pronouns (my, your).",
+                "Describe family relations simply."
+              ],
+              "content": {
+                "vocabulary": [
+                  {
+                    "term": "أُمّ",
+                    "transliteration": "Umm",
+                    "translations": {
+                      "en": "Mother"
+                    }
+                  },
+                  {
+                    "term": "أَب",
+                    "transliteration": "Ab",
+                    "translations": {
+                      "en": "Father"
+                    }
+                  },
+                  {
+                    "term": "أَخ",
+                    "transliteration": "Akh",
+                    "translations": {
+                      "en": "Brother"
+                    }
+                  },
+                  {
+                    "term": "أُخْت",
+                    "transliteration": "Ukht",
+                    "translations": {
+                      "en": "Sister"
+                    }
+                  },
+                  {
+                    "term": "جَدّ",
+                    "transliteration": "Jadd",
+                    "translations": {
+                      "en": "Grandfather"
+                    }
+                  },
+                  {
+                    "term": "جَدَّة",
+                    "transliteration": "Jaddah",
+                    "translations": {
+                      "en": "Grandmother"
+                    }
+                  },
+                  {
+                    "term": "اِبْن",
+                    "transliteration": "Ibn",
+                    "translations": {
+                      "en": "Son"
+                    }
+                  },
+                  {
+                    "term": "اِبْنَة",
+                    "transliteration": "Ibnah",
+                    "translations": {
+                      "en": "Daughter"
+                    }
+                  },
+                  {
+                    "term": "عَمّ",
+                    "transliteration": "Amm",
+                    "translations": {
+                      "en": "Paternal Uncle"
+                    }
+                  },
+                  {
+                    "term": "خَال",
+                    "transliteration": "Khāl",
+                    "translations": {
+                      "en": "Maternal Uncle"
+                    }
+                  }
+                ],
+                "grammar": [
+                  "Possession: Add 'yee' for my (Ummi), 'uka' for your-m (Abooka), 'uki' for your-f (Abouki)."
+                ],
+                "reading": {
+                  "text": "هَذِهِ أُمِّي. هَذَا أَخِي. اِسْمُ أَبِي أَحْمَد."
+                }
+              },
+              "lesson_test": {
+                "questions": [
+                  {
+                    "id": "Q1",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Umm'?",
+                      "ar": "What is 'Umm'?",
+                      "fr": "What is 'Umm'?",
+                      "de": "What is 'Umm'?",
+                      "ru": "What is 'Umm'?",
+                      "zh": "What is 'Umm'?"
+                    },
+                    "options": [
+                      "Sister",
+                      "Mother",
+                      "Father",
+                      "Daughter"
+                    ],
+                    "answer": "Mother"
+                  },
+                  {
+                    "id": "Q2",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Akh'?",
+                      "ar": "What is 'Akh'?",
+                      "fr": "What is 'Akh'?",
+                      "de": "What is 'Akh'?",
+                      "ru": "What is 'Akh'?",
+                      "zh": "What is 'Akh'?"
+                    },
+                    "options": [
+                      "Brother",
+                      "Uncle",
+                      "Son",
+                      "Sister"
+                    ],
+                    "answer": "Brother"
+                  },
+                  {
+                    "id": "Q3",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'My mother'?",
+                      "ar": "What is 'My mother'?",
+                      "fr": "What is 'My mother'?",
+                      "de": "What is 'My mother'?",
+                      "ru": "What is 'My mother'?",
+                      "zh": "What is 'My mother'?"
+                    },
+                    "options": [
+                      "Ummi",
+                      "Ummuka",
+                      "Ummuki",
+                      "Umm"
+                    ],
+                    "answer": "Ummi"
+                  },
+                  {
+                    "id": "Q4",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Ukht'?",
+                      "ar": "What is 'Ukht'?",
+                      "fr": "What is 'Ukht'?",
+                      "de": "What is 'Ukht'?",
+                      "ru": "What is 'Ukht'?",
+                      "zh": "What is 'Ukht'?"
+                    },
+                    "options": [
+                      "Sister",
+                      "Brother",
+                      "Mother",
+                      "Aunt"
+                    ],
+                    "answer": "Sister"
+                  },
+                  {
+                    "id": "Q5",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Jadd'?",
+                      "ar": "What is 'Jadd'?",
+                      "fr": "What is 'Jadd'?",
+                      "de": "What is 'Jadd'?",
+                      "ru": "What is 'Jadd'?",
+                      "zh": "What is 'Jadd'?"
+                    },
+                    "options": [
+                      "Father",
+                      "Uncle",
+                      "Grandfather",
+                      "Son"
+                    ],
+                    "answer": "Grandfather"
+                  },
+                  {
+                    "id": "Q6",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: My brother",
+                      "ar": "Translate: My brother",
+                      "fr": "Translate: My brother",
+                      "de": "Translate: My brother",
+                      "ru": "Translate: My brother",
+                      "zh": "Translate: My brother"
+                    },
+                    "answer": "أخي"
+                  },
+                  {
+                    "id": "Q7",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: Sister",
+                      "ar": "Translate: Sister",
+                      "fr": "Translate: Sister",
+                      "de": "Translate: Sister",
+                      "ru": "Translate: Sister",
+                      "zh": "Translate: Sister"
+                    },
+                    "answer": "أخت"
+                  },
+                  {
+                    "id": "Q8",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: Father",
+                      "ar": "Translate: Father",
+                      "fr": "Translate: Father",
+                      "de": "Translate: Father",
+                      "ru": "Translate: Father",
+                      "zh": "Translate: Father"
+                    },
+                    "answer": "أب"
+                  },
+                  {
+                    "id": "Q9",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: Son",
+                      "ar": "Translate: Son",
+                      "fr": "Translate: Son",
+                      "de": "Translate: Son",
+                      "ru": "Translate: Son",
+                      "zh": "Translate: Son"
+                    },
+                    "answer": "ابن"
+                  },
+                  {
+                    "id": "Q10",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: Grandfather",
+                      "ar": "Translate: Grandfather",
+                      "fr": "Translate: Grandfather",
+                      "de": "Translate: Grandfather",
+                      "ru": "Translate: Grandfather",
+                      "zh": "Translate: Grandfather"
+                    },
+                    "answer": "جد"
+                  },
+                  {
+                    "id": "Q11",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: هَذِه أُمِّي",
+                      "ar": "Say: هَذِه أُمِّي",
+                      "fr": "Say: هَذِه أُمِّي",
+                      "de": "Say: هَذِه أُمِّي",
+                      "ru": "Say: هَذِه أُمِّي",
+                      "zh": "Say: هَذِه أُمِّي"
+                    },
+                    "answer": "هذه أمي"
+                  },
+                  {
+                    "id": "Q12",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: هَذَا أَخِي",
+                      "ar": "Say: هَذَا أَخِي",
+                      "fr": "Say: هَذَا أَخِي",
+                      "de": "Say: هَذَا أَخِي",
+                      "ru": "Say: هَذَا أَخِي",
+                      "zh": "Say: هَذَا أَخِي"
+                    },
+                    "answer": "هذا أخي"
+                  },
+                  {
+                    "id": "Q13",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: اِسْمِ أَبِي أَحْمَد",
+                      "ar": "Say: اِسْمِ أَبِي أَحْمَد",
+                      "fr": "Say: اِسْمِ أَبِي أَحْمَد",
+                      "de": "Say: اِسْمِ أَبِي أَحْمَد",
+                      "ru": "Say: اِسْمِ أَبِي أَحْمَد",
+                      "zh": "Say: اِسْمِ أَبِي أَحْمَد"
+                    },
+                    "answer": "اسم أبي أحمد"
+                  },
+                  {
+                    "id": "Q14",
+                    "type": "reading",
+                    "question": {
+                      "en": "Read: هَذِهِ أُمِّي. هَذَا أَخِي.",
+                      "ar": "Read: هَذِهِ أُمِّي. هَذَا أَخِي.",
+                      "fr": "Read: هَذِهِ أُمِّي. هَذَا أَخِي.",
+                      "de": "Read: هَذِهِ أُمِّي. هَذَا أَخِي.",
+                      "ru": "Read: هَذِهِ أُمِّي. هَذَا أَخِي.",
+                      "zh": "Read: هَذِهِ أُمِّي. هَذَا أَخِي."
+                    },
+                    "answer": "done"
+                  },
+                  {
+                    "id": "Q15",
+                    "type": "mcq",
+                    "question": {
+                      "en": "Is 'Ukht' feminine?",
+                      "ar": "Is 'Ukht' feminine?",
+                      "fr": "Is 'Ukht' feminine?",
+                      "de": "Is 'Ukht' feminine?",
+                      "ru": "Is 'Ukht' feminine?",
+                      "zh": "Is 'Ukht' feminine?"
+                    },
+                    "options": [
+                      "Yes",
+                      "No"
+                    ],
+                    "answer": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "lesson_id": "A1-U2-L4",
+              "lesson_title": {
+                "en": "My World (Personal Belongings)",
+                "ar": "My World (Personal Belongings)",
+                "fr": "My World (Personal Belongings)",
+                "de": "My World (Personal Belongings)",
+                "ru": "My World (Personal Belongings)",
+                "zh": "My World (Personal Belongings)"
+              },
+              "lesson_objectives": [
+                "Identify common objects.",
+                "Use 'Lī' (I have) correctly.",
+                "Describe ownership."
+              ],
+              "content": {
+                "vocabulary": [
+                  {
+                    "term": "لِي",
+                    "transliteration": "Lī",
+                    "translations": {
+                      "en": "I have"
+                    }
+                  },
+                  {
+                    "term": "عِنْدِي",
+                    "transliteration": "Indī",
+                    "translations": {
+                      "en": "I have / at me"
+                    }
+                  },
+                  {
+                    "term": "كِتَاب",
+                    "transliteration": "Kitāb",
+                    "translations": {
+                      "en": "Book"
+                    }
+                  },
+                  {
+                    "term": "قَلَم",
+                    "transliteration": "Qalam",
+                    "translations": {
+                      "en": "Pen"
+                    }
+                  },
+                  {
+                    "term": "مِفْتَاح",
+                    "transliteration": "Miftāḥ",
+                    "translations": {
+                      "en": "Key"
+                    }
+                  },
+                  {
+                    "term": "هَاتِف",
+                    "transliteration": "Hātif",
+                    "translations": {
+                      "en": "Phone"
+                    }
+                  },
+                  {
+                    "term": "حَقِيبَة",
+                    "transliteration": "Ḥaqībah",
+                    "translations": {
+                      "en": "Bag"
+                    }
+                  },
+                  {
+                    "term": "نَظَّارَة",
+                    "transliteration": "Naẓẓārah",
+                    "translations": {
+                      "en": "Glasses"
+                    }
+                  },
+                  {
+                    "term": "سَاعَة",
+                    "transliteration": "Sā'ah",
+                    "translations": {
+                      "en": "Watch/Clock"
+                    }
+                  },
+                  {
+                    "term": "نُقُود",
+                    "transliteration": "Nuqūd",
+                    "translations": {
+                      "en": "Money"
+                    }
+                  }
+                ],
+                "grammar": [
+                  "Li is used for personal attributes or family. Indi is used for physical objects. Indi Kitab (I have a book)."
+                ],
+                "reading": {
+                  "text": "عِنْدِي كِتَابٌ وَقَلَمٌ. لِي أَخٌ وَاحِدٌ."
+                }
+              },
+              "lesson_test": {
+                "questions": [
+                  {
+                    "id": "Q1",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Indi'?",
+                      "ar": "What is 'Indi'?",
+                      "fr": "What is 'Indi'?",
+                      "de": "What is 'Indi'?",
+                      "ru": "What is 'Indi'?",
+                      "zh": "What is 'Indi'?"
+                    },
+                    "options": [
+                      "I have",
+                      "You have",
+                      "He has",
+                      "She has"
+                    ],
+                    "answer": "I have"
+                  },
+                  {
+                    "id": "Q2",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Hatif'?",
+                      "ar": "What is 'Hatif'?",
+                      "fr": "What is 'Hatif'?",
+                      "de": "What is 'Hatif'?",
+                      "ru": "What is 'Hatif'?",
+                      "zh": "What is 'Hatif'?"
+                    },
+                    "options": [
+                      "Radio",
+                      "Phone",
+                      "Computer",
+                      "TV"
+                    ],
+                    "answer": "Phone"
+                  },
+                  {
+                    "id": "Q3",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Haqibah'?",
+                      "ar": "What is 'Haqibah'?",
+                      "fr": "What is 'Haqibah'?",
+                      "de": "What is 'Haqibah'?",
+                      "ru": "What is 'Haqibah'?",
+                      "zh": "What is 'Haqibah'?"
+                    },
+                    "options": [
+                      "Bag",
+                      "Box",
+                      "Paper",
+                      "Pen"
+                    ],
+                    "answer": "Bag"
+                  },
+                  {
+                    "id": "Q4",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Miftah'?",
+                      "ar": "What is 'Miftah'?",
+                      "fr": "What is 'Miftah'?",
+                      "de": "What is 'Miftah'?",
+                      "ru": "What is 'Miftah'?",
+                      "zh": "What is 'Miftah'?"
+                    },
+                    "options": [
+                      "Door",
+                      "Key",
+                      "Wall",
+                      "Floor"
+                    ],
+                    "answer": "Key"
+                  },
+                  {
+                    "id": "Q5",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Sa'ah'?",
+                      "ar": "What is 'Sa'ah'?",
+                      "fr": "What is 'Sa'ah'?",
+                      "de": "What is 'Sa'ah'?",
+                      "ru": "What is 'Sa'ah'?",
+                      "zh": "What is 'Sa'ah'?"
+                    },
+                    "options": [
+                      "Minute",
+                      "Hour/Watch",
+                      "Second",
+                      "Day"
+                    ],
+                    "answer": "Hour/Watch"
+                  },
+                  {
+                    "id": "Q6",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: I have a pen",
+                      "ar": "Translate: I have a pen",
+                      "fr": "Translate: I have a pen",
+                      "de": "Translate: I have a pen",
+                      "ru": "Translate: I have a pen",
+                      "zh": "Translate: I have a pen"
+                    },
+                    "answer": "عندي قلم"
+                  },
+                  {
+                    "id": "Q7",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: Money",
+                      "ar": "Translate: Money",
+                      "fr": "Translate: Money",
+                      "de": "Translate: Money",
+                      "ru": "Translate: Money",
+                      "zh": "Translate: Money"
+                    },
+                    "answer": "نقود"
+                  },
+                  {
+                    "id": "Q8",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: Key",
+                      "ar": "Translate: Key",
+                      "fr": "Translate: Key",
+                      "de": "Translate: Key",
+                      "ru": "Translate: Key",
+                      "zh": "Translate: Key"
+                    },
+                    "answer": "مفتاح"
+                  },
+                  {
+                    "id": "Q9",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: Bag",
+                      "ar": "Translate: Bag",
+                      "fr": "Translate: Bag",
+                      "de": "Translate: Bag",
+                      "ru": "Translate: Bag",
+                      "zh": "Translate: Bag"
+                    },
+                    "answer": "حقيبة"
+                  },
+                  {
+                    "id": "Q10",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: Phone",
+                      "ar": "Translate: Phone",
+                      "fr": "Translate: Phone",
+                      "de": "Translate: Phone",
+                      "ru": "Translate: Phone",
+                      "zh": "Translate: Phone"
+                    },
+                    "answer": "هاتف"
+                  },
+                  {
+                    "id": "Q11",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: عِنْدِي كِتَاب",
+                      "ar": "Say: عِنْدِي كِتَاب",
+                      "fr": "Say: عِنْدِي كِتَاب",
+                      "de": "Say: عِنْدِي كِتَاب",
+                      "ru": "Say: عِنْدِي كِتَاب",
+                      "zh": "Say: عِنْدِي كِتَاب"
+                    },
+                    "answer": "عندي كتاب"
+                  },
+                  {
+                    "id": "Q12",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: لِي أَخ",
+                      "ar": "Say: لِي أَخ",
+                      "fr": "Say: لِي أَخ",
+                      "de": "Say: لِي أَخ",
+                      "ru": "Say: لِي أَخ",
+                      "zh": "Say: لِي أَخ"
+                    },
+                    "answer": "لي أخ"
+                  },
+                  {
+                    "id": "Q13",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: سَاعَة جَمِيلَة",
+                      "ar": "Say: سَاعَة جَمِيلَة",
+                      "fr": "Say: سَاعَة جَمِيلَة",
+                      "de": "Say: سَاعَة جَمِيلَة",
+                      "ru": "Say: سَاعَة جَمِيلَة",
+                      "zh": "Say: سَاعَة جَمِيلَة"
+                    },
+                    "answer": "ساعة جميلة"
+                  },
+                  {
+                    "id": "Q14",
+                    "type": "reading",
+                    "question": {
+                      "en": "Read: عِنْدِي كِتَابٌ وَقَلَمٌ.",
+                      "ar": "Read: عِنْدِي كِتَابٌ وَقَلَمٌ.",
+                      "fr": "Read: عِنْدِي كِتَابٌ وَقَلَمٌ.",
+                      "de": "Read: عِنْدِي كِتَابٌ وَقَلَمٌ.",
+                      "ru": "Read: عِنْدِي كِتَابٌ وَقَلَمٌ.",
+                      "zh": "Read: عِنْدِي كِتَابٌ وَقَلَمٌ."
+                    },
+                    "answer": "done"
+                  },
+                  {
+                    "id": "Q15",
+                    "type": "mcq",
+                    "question": {
+                      "en": "Is 'Haqibah' feminine?",
+                      "ar": "Is 'Haqibah' feminine?",
+                      "fr": "Is 'Haqibah' feminine?",
+                      "de": "Is 'Haqibah' feminine?",
+                      "ru": "Is 'Haqibah' feminine?",
+                      "zh": "Is 'Haqibah' feminine?"
+                    },
+                    "options": [
+                      "Yes",
+                      "No"
+                    ],
+                    "answer": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "lesson_id": "A1-U2-L5",
+              "lesson_title": {
+                "en": "Global Ties (Nationalities)",
+                "ar": "Global Ties (Nationalities)",
+                "fr": "Global Ties (Nationalities)",
+                "de": "Global Ties (Nationalities)",
+                "ru": "Global Ties (Nationalities)",
+                "zh": "Global Ties (Nationalities)"
+              },
+              "lesson_objectives": [
+                "Distinguish between countries and nationalities.",
+                "Apply Nisbah suffix (iyyun/iyyah).",
+                "Identify major Arab countries."
+              ],
+              "content": {
+                "vocabulary": [
+                  {
+                    "term": "مِصْرِيّ",
+                    "transliteration": "Miṣrī",
+                    "translations": {
+                      "en": "Egyptian (m)"
+                    }
+                  },
+                  {
+                    "term": "مِصْرِيَّة",
+                    "transliteration": "Miṣriyyah",
+                    "translations": {
+                      "en": "Egyptian (f)"
+                    }
+                  },
+                  {
+                    "term": "أَمْرِيكِيّ",
+                    "transliteration": "Amrīkī",
+                    "translations": {
+                      "en": "American (m)"
+                    }
+                  },
+                  {
+                    "term": "فَرَنْسِيّ",
+                    "transliteration": "Faransī",
+                    "translations": {
+                      "en": "French (m)"
+                    }
+                  },
+                  {
+                    "term": "سُورِيّ",
+                    "transliteration": "Sūrī",
+                    "translations": {
+                      "en": "Syrian (m)"
+                    }
+                  },
+                  {
+                    "term": "لُبْنَانِيّ",
+                    "transliteration": "Lubnānī",
+                    "translations": {
+                      "en": "Lebanese (m)"
+                    }
+                  },
+                  {
+                    "term": "سَعُودِيّ",
+                    "transliteration": "Sa'ūdī",
+                    "translations": {
+                      "en": "Saudi (m)"
+                    }
+                  },
+                  {
+                    "term": "مَغْرِبِيّ",
+                    "transliteration": "Maghribī",
+                    "translations": {
+                      "en": "Moroccan (m)"
+                    }
+                  },
+                  {
+                    "term": "كُوَيْتِيّ",
+                    "transliteration": "Kuwaytī",
+                    "translations": {
+                      "en": "Kuwaiti (m)"
+                    }
+                  },
+                  {
+                    "term": "عَرَبِيّ",
+                    "transliteration": "'Arabī",
+                    "translations": {
+                      "en": "Arab (m)"
+                    }
+                  }
+                ],
+                "grammar": [
+                  "Nisbah: Add 'iyyun' (ّي) for male and 'iyyah' (يّة) for female to the country name to form a nationality."
+                ],
+                "reading": {
+                  "text": "أَنَا مِصْرِيٌّ. هُوَ أَمْرِيكِيٌّ. هِيَ فَرَنْسِيَّةٌ."
+                }
+              },
+              "lesson_test": {
+                "questions": [
+                  {
+                    "id": "Q1",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Misri'?",
+                      "ar": "What is 'Misri'?",
+                      "fr": "What is 'Misri'?",
+                      "de": "What is 'Misri'?",
+                      "ru": "What is 'Misri'?",
+                      "zh": "What is 'Misri'?"
+                    },
+                    "options": [
+                      "Egypt",
+                      "Egyptian",
+                      "France",
+                      "French"
+                    ],
+                    "answer": "Egyptian"
+                  },
+                  {
+                    "id": "Q2",
+                    "type": "mcq",
+                    "question": {
+                      "en": "How to make a feminine nationality?",
+                      "ar": "How to make a feminine nationality?",
+                      "fr": "How to make a feminine nationality?",
+                      "de": "How to make a feminine nationality?",
+                      "ru": "How to make a feminine nationality?",
+                      "zh": "How to make a feminine nationality?"
+                    },
+                    "options": [
+                      "Add Alif",
+                      "Add Ta Marbuta",
+                      "Add Waw",
+                      "Add Nun"
+                    ],
+                    "answer": "Add Ta Marbuta"
+                  },
+                  {
+                    "id": "Q3",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Amriki'?",
+                      "ar": "What is 'Amriki'?",
+                      "fr": "What is 'Amriki'?",
+                      "de": "What is 'Amriki'?",
+                      "ru": "What is 'Amriki'?",
+                      "zh": "What is 'Amriki'?"
+                    },
+                    "options": [
+                      "England",
+                      "America",
+                      "American",
+                      "British"
+                    ],
+                    "answer": "American"
+                  },
+                  {
+                    "id": "Q4",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Suri'?",
+                      "ar": "What is 'Suri'?",
+                      "fr": "What is 'Suri'?",
+                      "de": "What is 'Suri'?",
+                      "ru": "What is 'Suri'?",
+                      "zh": "What is 'Suri'?"
+                    },
+                    "options": [
+                      "Syria",
+                      "Syrian",
+                      "Jordan",
+                      "Jordanian"
+                    ],
+                    "answer": "Syrian"
+                  },
+                  {
+                    "id": "Q5",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Huwa'?",
+                      "ar": "What is 'Huwa'?",
+                      "fr": "What is 'Huwa'?",
+                      "de": "What is 'Huwa'?",
+                      "ru": "What is 'Huwa'?",
+                      "zh": "What is 'Huwa'?"
+                    },
+                    "options": [
+                      "I",
+                      "You",
+                      "He",
+                      "She"
+                    ],
+                    "answer": "He"
+                  },
+                  {
+                    "id": "Q6",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: He is Egyptian",
+                      "ar": "Translate: He is Egyptian",
+                      "fr": "Translate: He is Egyptian",
+                      "de": "Translate: He is Egyptian",
+                      "ru": "Translate: He is Egyptian",
+                      "zh": "Translate: He is Egyptian"
+                    },
+                    "answer": "هو مصري"
+                  },
+                  {
+                    "id": "Q7",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: She is French",
+                      "ar": "Translate: She is French",
+                      "fr": "Translate: She is French",
+                      "de": "Translate: She is French",
+                      "ru": "Translate: She is French",
+                      "zh": "Translate: She is French"
+                    },
+                    "answer": "هي فرنسية"
+                  },
+                  {
+                    "id": "Q8",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: Arab",
+                      "ar": "Translate: Arab",
+                      "fr": "Translate: Arab",
+                      "de": "Translate: Arab",
+                      "ru": "Translate: Arab",
+                      "zh": "Translate: Arab"
+                    },
+                    "answer": "عربي"
+                  },
+                  {
+                    "id": "Q9",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: Saudi",
+                      "ar": "Translate: Saudi",
+                      "fr": "Translate: Saudi",
+                      "de": "Translate: Saudi",
+                      "ru": "Translate: Saudi",
+                      "zh": "Translate: Saudi"
+                    },
+                    "answer": "سعودي"
+                  },
+                  {
+                    "id": "Q10",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: American (f)",
+                      "ar": "Translate: American (f)",
+                      "fr": "Translate: American (f)",
+                      "de": "Translate: American (f)",
+                      "ru": "Translate: American (f)",
+                      "zh": "Translate: American (f)"
+                    },
+                    "answer": "أمريكية"
+                  },
+                  {
+                    "id": "Q11",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: أَنَا مِصْرِي",
+                      "ar": "Say: أَنَا مِصْرِي",
+                      "fr": "Say: أَنَا مِصْرِي",
+                      "de": "Say: أَنَا مِصْرِي",
+                      "ru": "Say: أَنَا مِصْرِي",
+                      "zh": "Say: أَنَا مِصْرِي"
+                    },
+                    "answer": "أنا مصري"
+                  },
+                  {
+                    "id": "Q12",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: هُوَ سُورِي",
+                      "ar": "Say: هُوَ سُورِي",
+                      "fr": "Say: هُوَ سُورِي",
+                      "de": "Say: هُوَ سُورِي",
+                      "ru": "Say: هُوَ سُورِي",
+                      "zh": "Say: هُوَ سُورِي"
+                    },
+                    "answer": "هو سوري"
+                  },
+                  {
+                    "id": "Q13",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: هِيَ لُبْنَانِيَّة",
+                      "ar": "Say: هِيَ لُبْنَانِيَّة",
+                      "fr": "Say: هِيَ لُبْنَانِيَّة",
+                      "de": "Say: هِيَ لُبْنَانِيَّة",
+                      "ru": "Say: هِيَ لُبْنَانِيَّة",
+                      "zh": "Say: هِيَ لُبْنَانِيَّة"
+                    },
+                    "answer": "هي لبنانية"
+                  },
+                  {
+                    "id": "Q14",
+                    "type": "reading",
+                    "question": {
+                      "en": "Read: أَنَا مِصْرِيٌّ. هُوَ أَمْرِيكِيٌّ.",
+                      "ar": "Read: أَنَا مِصْرِيٌّ. هُوَ أَمْرِيكِيٌّ.",
+                      "fr": "Read: أَنَا مِصْرِيٌّ. هُوَ أَمْرِيكِيٌّ.",
+                      "de": "Read: أَنَا مِصْرِيٌّ. هُوَ أَمْرِيكِيٌّ.",
+                      "ru": "Read: أَنَا مِصْرِيٌّ. هُوَ أَمْرِيكِيٌّ.",
+                      "zh": "Read: أَنَا مِصْرِيٌّ. هُوَ أَمْرِيكِيٌّ."
+                    },
+                    "answer": "done"
+                  },
+                  {
+                    "id": "Q15",
+                    "type": "mcq",
+                    "question": {
+                      "en": "Is 'Hiya' for females?",
+                      "ar": "Is 'Hiya' for females?",
+                      "fr": "Is 'Hiya' for females?",
+                      "de": "Is 'Hiya' for females?",
+                      "ru": "Is 'Hiya' for females?",
+                      "zh": "Is 'Hiya' for females?"
+                    },
+                    "options": [
+                      "Yes",
+                      "No"
+                    ],
+                    "answer": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "lesson_id": "A1-U2-L6",
+              "lesson_title": {
+                "en": "Identity Master Review",
+                "ar": "Identity Master Review",
+                "fr": "Identity Master Review",
+                "de": "Identity Master Review",
+                "ru": "Identity Master Review",
+                "zh": "Identity Master Review"
+              },
+              "lesson_objectives": [
+                "Synthesize all identity topics.",
+                "Review complete family and nationality sets.",
+                "Prepare for Unit Test."
+              ],
+              "content": {
+                "vocabulary": [
+                  {
+                    "term": "طَالِب",
+                    "transliteration": "Ṭālib",
+                    "translations": {
+                      "en": "Student"
+                    }
+                  },
+                  {
+                    "term": "طَبِيب",
+                    "transliteration": "Ṭabīb",
+                    "translations": {
+                      "en": "Doctor"
+                    }
+                  },
+                  {
+                    "term": "مُهَنْدِس",
+                    "transliteration": "Muhandis",
+                    "translations": {
+                      "en": "Engineer"
+                    }
+                  },
+                  {
+                    "term": "صَدِيق",
+                    "transliteration": "Ṣadīq",
+                    "translations": {
+                      "en": "Friend"
+                    }
+                  },
+                  {
+                    "term": "سَعِيد",
+                    "transliteration": "Sa'īd",
+                    "translations": {
+                      "en": "Happy"
+                    }
+                  },
+                  {
+                    "term": "مَشْغُول",
+                    "transliteration": "Mashghūl",
+                    "translations": {
+                      "en": "Busy"
+                    }
+                  },
+                  {
+                    "term": "تَعْبَان",
+                    "transliteration": "Ta'bān",
+                    "translations": {
+                      "en": "Tired"
+                    }
+                  },
+                  {
+                    "term": "عَمَل",
+                    "transliteration": "Amal",
+                    "translations": {
+                      "en": "Work"
+                    }
+                  },
+                  {
+                    "term": "جَامِعَة",
+                    "transliteration": "Jāmi'ah",
+                    "translations": {
+                      "en": "University"
+                    }
+                  },
+                  {
+                    "term": "مَدِينَة",
+                    "transliteration": "Madīnah",
+                    "translations": {
+                      "en": "City"
+                    }
+                  }
+                ],
+                "grammar": [
+                  "Review: Pronouns (Ana, Anta, Anti, Huwa, Hiya), Possession markers, and Nationality Nisbah. You are now identity-complete in Arabic!"
+                ],
+                "reading": {
+                  "text": "أَنَا طَالِبٌ فِي الْجَامِعَة. صَدِيقِي مُهَنْدِسٌ سَعِيدٌ."
+                }
+              },
+              "lesson_test": {
+                "questions": [
+                  {
+                    "id": "Q1",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Talib'?",
+                      "ar": "What is 'Talib'?",
+                      "fr": "What is 'Talib'?",
+                      "de": "What is 'Talib'?",
+                      "ru": "What is 'Talib'?",
+                      "zh": "What is 'Talib'?"
+                    },
+                    "options": [
+                      "Teacher",
+                      "Student",
+                      "Doctor",
+                      "Driver"
+                    ],
+                    "answer": "Student"
+                  },
+                  {
+                    "id": "Q2",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Sa'id'?",
+                      "ar": "What is 'Sa'id'?",
+                      "fr": "What is 'Sa'id'?",
+                      "de": "What is 'Sa'id'?",
+                      "ru": "What is 'Sa'id'?",
+                      "zh": "What is 'Sa'id'?"
+                    },
+                    "options": [
+                      "Sad",
+                      "Happy",
+                      "Angry",
+                      "Calm"
+                    ],
+                    "answer": "Happy"
+                  },
+                  {
+                    "id": "Q3",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Sadiq'?",
+                      "ar": "What is 'Sadiq'?",
+                      "fr": "What is 'Sadiq'?",
+                      "de": "What is 'Sadiq'?",
+                      "ru": "What is 'Sadiq'?",
+                      "zh": "What is 'Sadiq'?"
+                    },
+                    "options": [
+                      "Enemy",
+                      "Friend",
+                      "Brother",
+                      "Sister"
+                    ],
+                    "answer": "Friend"
+                  },
+                  {
+                    "id": "Q4",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Jamiah'?",
+                      "ar": "What is 'Jamiah'?",
+                      "fr": "What is 'Jamiah'?",
+                      "de": "What is 'Jamiah'?",
+                      "ru": "What is 'Jamiah'?",
+                      "zh": "What is 'Jamiah'?"
+                    },
+                    "options": [
+                      "School",
+                      "College",
+                      "University",
+                      "Hospital"
+                    ],
+                    "answer": "University"
+                  },
+                  {
+                    "id": "Q5",
+                    "type": "mcq",
+                    "question": {
+                      "en": "What is 'Mashghul'?",
+                      "ar": "What is 'Mashghul'?",
+                      "fr": "What is 'Mashghul'?",
+                      "de": "What is 'Mashghul'?",
+                      "ru": "What is 'Mashghul'?",
+                      "zh": "What is 'Mashghul'?"
+                    },
+                    "options": [
+                      "Free",
+                      "Empty",
+                      "Busy",
+                      "Full"
+                    ],
+                    "answer": "Busy"
+                  },
+                  {
+                    "id": "Q6",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: My friend is a student",
+                      "ar": "Translate: My friend is a student",
+                      "fr": "Translate: My friend is a student",
+                      "de": "Translate: My friend is a student",
+                      "ru": "Translate: My friend is a student",
+                      "zh": "Translate: My friend is a student"
+                    },
+                    "answer": "صديقي طالب"
+                  },
+                  {
+                    "id": "Q7",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: I am tired",
+                      "ar": "Translate: I am tired",
+                      "fr": "Translate: I am tired",
+                      "de": "Translate: I am tired",
+                      "ru": "Translate: I am tired",
+                      "zh": "Translate: I am tired"
+                    },
+                    "answer": "أنا تعبان"
+                  },
+                  {
+                    "id": "Q8",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: City",
+                      "ar": "Translate: City",
+                      "fr": "Translate: City",
+                      "de": "Translate: City",
+                      "ru": "Translate: City",
+                      "zh": "Translate: City"
+                    },
+                    "answer": "مدينة"
+                  },
+                  {
+                    "id": "Q9",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: Work",
+                      "ar": "Translate: Work",
+                      "fr": "Translate: Work",
+                      "de": "Translate: Work",
+                      "ru": "Translate: Work",
+                      "zh": "Translate: Work"
+                    },
+                    "answer": "عمل"
+                  },
+                  {
+                    "id": "Q10",
+                    "type": "writing",
+                    "question": {
+                      "en": "Translate: Engineer",
+                      "ar": "Translate: Engineer",
+                      "fr": "Translate: Engineer",
+                      "de": "Translate: Engineer",
+                      "ru": "Translate: Engineer",
+                      "zh": "Translate: Engineer"
+                    },
+                    "answer": "مهندس"
+                  },
+                  {
+                    "id": "Q11",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: أَنَا طَالِب",
+                      "ar": "Say: أَنَا طَالِب",
+                      "fr": "Say: أَنَا طَالِب",
+                      "de": "Say: أَنَا طَالِب",
+                      "ru": "Say: أَنَا طَالِب",
+                      "zh": "Say: أَنَا طَالِب"
+                    },
+                    "answer": "أنا طالب"
+                  },
+                  {
+                    "id": "Q12",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: صَدِيقِي مِصْرِي",
+                      "ar": "Say: صَدِيقِي مِصْرِي",
+                      "fr": "Say: صَدِيقِي مِصْرِي",
+                      "de": "Say: صَدِيقِي مِصْرِي",
+                      "ru": "Say: صَدِيقِي مِصْرِي",
+                      "zh": "Say: صَدِيقِي مِصْرِي"
+                    },
+                    "answer": "صديقي مصري"
+                  },
+                  {
+                    "id": "Q13",
+                    "type": "recording",
+                    "question": {
+                      "en": "Say: مَدِينَة جَمِيلَة",
+                      "ar": "Say: مَدِينَة جَمِيلَة",
+                      "fr": "Say: مَدِينَة جَمِيلَة",
+                      "de": "Say: مَدِينَة جَمِيلَة",
+                      "ru": "Say: مَدِينَة جَمِيلَة",
+                      "zh": "Say: مَدِينَة جَمِيلَة"
+                    },
+                    "answer": "مدينة جميلة"
+                  },
+                  {
+                    "id": "Q14",
+                    "type": "reading",
+                    "question": {
+                      "en": "Read: أَنَا طَالِبٌ فِي الْجَامِعَة.",
+                      "ar": "Read: أَنَا طَالِبٌ فِي الْجَامِعَة.",
+                      "fr": "Read: أَنَا طَالِبٌ فِي الْجَامِعَة.",
+                      "de": "Read: أَنَا طَالِبٌ فِي الْجَامِعَة.",
+                      "ru": "Read: أَنَا طَالِبٌ فِي الْجَامِعَة.",
+                      "zh": "Read: أَنَا طَالِبٌ فِي الْجَامِعَة."
+                    },
+                    "answer": "done"
+                  },
+                  {
+                    "id": "Q15",
+                    "type": "mcq",
+                    "question": {
+                      "en": "Is 'Talib' masculine?",
+                      "ar": "Is 'Talib' masculine?",
+                      "fr": "Is 'Talib' masculine?",
+                      "de": "Is 'Talib' masculine?",
+                      "ru": "Is 'Talib' masculine?",
+                      "zh": "Is 'Talib' masculine?"
+                    },
+                    "options": [
+                      "Yes",
+                      "No"
+                    ],
+                    "answer": "Yes"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cefr": "A2",
+      "units": []
+    },
+    {
+      "cefr": "B1",
+      "units": []
+    },
+    {
+      "cefr": "B2",
+      "units": []
+    },
+    {
+      "cefr": "C1",
+      "units": []
+    },
+    {
+      "cefr": "C2",
+      "units": []
+    }
+  ]
+}

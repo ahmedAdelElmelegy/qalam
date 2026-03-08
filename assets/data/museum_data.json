@@ -1,0 +1,624 @@
+{
+    "places": [
+        {
+            "id": "1",
+            "name": "Restaurant",
+            "description": "Learn dining vocabulary and food-related words",
+            "iconName": "restaurant",
+            "scenes": [
+                {
+                    "id": "scene_rest_1",
+                    "imageUrl": "https://res.cloudinary.com/djr9wbmet/image/upload/v1771088033/kzswx4hbohruji0l0awn.jpg",
+                    "objects": [
+                        {
+                            "id": "r1",
+                            "icon": "table_restaurant",
+                            "positionX": 0.35,
+                            "positionY": 0.78,
+                            "localizedNames": {
+                                "ar": "طاولة",
+                                "en": "Table",
+                                "fr": "Table",
+                                "de": "Tisch",
+                                "zh": "桌子",
+                                "ru": "Стол"
+                            },
+                            "localizedSentences": {
+                                "ar": "هذه الطاولة كبيرة ومريحة",
+                                "en": "This table is big and comfortable",
+                                "fr": "Cette table est grande et confortable",
+                                "de": "Dieser Tisch ist groß und bequem",
+                                "zh": "这张桌子又大又舒服",
+                                "ru": "Этот стол большой и удобный"
+                            }
+                        },
+                        {
+                            "id": "r2",
+                            "icon": "chair",
+                            "positionX": 0.82,
+                            "positionY": 0.65,
+                            "localizedNames": {
+                                "ar": "كرسي",
+                                "en": "Chair",
+                                "fr": "Chaise",
+                                "de": "Stuhl",
+                                "zh": "椅子",
+                                "ru": "Стул"
+                            },
+                            "localizedSentences": {
+                                "ar": "أجلس على الكرسي عند الطاولة",
+                                "en": "I sit on the chair at the table",
+                                "fr": "Je m'assois sur la chaise à la table",
+                                "de": "Ich sitze auf dem Stuhl am Tisch",
+                                "zh": "我坐在桌边的椅子上",
+                                "ru": "Я сижу на стуле за столом"
+                            }
+                        },
+                        {
+                            "id": "r3",
+                            "icon": "water_drop",
+                            "positionX": 0.24,
+                            "positionY": 0.62,
+                            "localizedNames": {
+                                "ar": "ماء",
+                                "en": "Water",
+                                "fr": "Eau",
+                                "de": "Wasser",
+                                "zh": "水",
+                                "ru": "Вода"
+                            },
+                            "localizedSentences": {
+                                "ar": "أريد كوب من الماء من فضلك",
+                                "en": "I would like a glass of water please",
+                                "fr": "Je voudrais un verre d'eau s'il vous plaît",
+                                "de": "Ich möchte bitte ein Glas Wasser",
+                                "zh": "我想请一杯水",
+                                "ru": "Я хотел бы стакан воды, пожалуйста"
+                            }
+                        },
+                        {
+                            "id": "r4",
+                            "icon": "restaurant",
+                            "positionX": 0.45,
+                            "positionY": 0.68,
+                            "localizedNames": {
+                                "ar": "طبق",
+                                "en": "Plate",
+                                "fr": "Assiette",
+                                "de": "Teller",
+                                "zh": "盘子",
+                                "ru": "Тарелка"
+                            },
+                            "localizedSentences": {
+                                "ar": "الطبق مليء بالطعام اللذيذ",
+                                "en": "The plate is full of delicious food",
+                                "fr": "L'assiette est pleine de nourriture délicieuse",
+                                "de": "Der Teller ist voll mit leckerem Essen",
+                                "zh": "盘子里装满了美味的食物",
+                                "ru": "Тарелка полна вкусной еды"
+                            }
+                        },
+                        {
+                            "id": "r5",
+                            "icon": "soup_kitchen",
+                            "positionX": 0.58,
+                            "positionY": 0.71,
+                            "localizedNames": {
+                                "ar": "ملعقة",
+                                "en": "Spoon",
+                                "fr": "Cuillère",
+                                "de": "Löffel",
+                                "zh": "勺子",
+                                "ru": "Ложка"
+                            },
+                            "localizedSentences": {
+                                "ar": "أستخدم الملعقة لتناول الحساء",
+                                "en": "I use the spoon to eat soup",
+                                "fr": "J'utilise la cuillère pour manger la soupe",
+                                "de": "Ich benutze den Löffel, um Suppe zu essen",
+                                "zh": "我用勺子喝汤",
+                                "ru": "Я использую ложку, чтобы есть суп"
+                            }
+                        },
+                        {
+                            "id": "r6",
+                            "icon": "menu_book",
+                            "positionX": 0.18,
+                            "positionY": 0.55,
+                            "localizedNames": {
+                                "ar": "قائمة الطعام",
+                                "en": "Menu",
+                                "fr": "Menu",
+                                "de": "Speisekarte",
+                                "zh": "菜单",
+                                "ru": "Меню"
+                            },
+                            "localizedSentences": {
+                                "ar": "دعني أنظر إلى قائمة الطعام",
+                                "en": "Let me look at the menu",
+                                "fr": "Laissez-moi regarder le menu",
+                                "de": "Lassen Sie mich die Speisekarte ansehen",
+                                "zh": "让我看看菜单",
+                                "ru": "Позвольте мне взглянуть на меню"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Train Station",
+            "description": "Master travel vocabulary and transportation terms",
+            "iconName": "train",
+            "scenes": [
+                {
+                    "id": "scene_train_1",
+                    "imageUrl": "https://res.cloudinary.com/djr9wbmet/image/upload/v1771090305/ezmlaj9htvwc6xhaojfl.jpg",
+                    "objects": [
+                        {
+                            "id": "t1",
+                            "icon": "train",
+                            "positionX": 0.5,
+                            "positionY": 0.5,
+                            "localizedNames": {
+                                "ar": "قطار",
+                                "en": "Train",
+                                "fr": "Train",
+                                "de": "Zug",
+                                "zh": "火车",
+                                "ru": "Поезд"
+                            },
+                            "localizedSentences": {
+                                "ar": "القطار سيصل في الموعد المحدد",
+                                "en": "The train will arrive on time",
+                                "fr": "Le train arrivera à l'heure",
+                                "de": "Der Zug wird pünktlich ankommen",
+                                "zh": "火车将准时到达",
+                                "ru": "Поезд прибудет вовремя"
+                            }
+                        },
+                        {
+                            "id": "t2",
+                            "icon": "confirmation_number",
+                            "positionX": 0.3,
+                            "positionY": 0.4,
+                            "localizedNames": {
+                                "ar": "تذكرة",
+                                "en": "Ticket",
+                                "fr": "Billet",
+                                "de": "Fahrkarte",
+                                "zh": "票",
+                                "ru": "Билет"
+                            },
+                            "localizedSentences": {
+                                "ar": "أحتاج إلى شراء تذكرة إلى القاهرة",
+                                "en": "I need to buy a ticket to Cairo",
+                                "fr": "Je dois acheter un billet pour Le Caire",
+                                "de": "Ich muss eine Fahrkarte nach Kairo kaufen",
+                                "zh": "我需要买一张去开罗的票",
+                                "ru": "Мне нужно купить билет в Каир"
+                            }
+                        },
+                        {
+                            "id": "t3",
+                            "icon": "signpost",
+                            "positionX": 0.6,
+                            "positionY": 0.7,
+                            "localizedNames": {
+                                "ar": "رصيف",
+                                "en": "Platform",
+                                "fr": "Peron",
+                                "de": "Bahnsteig",
+                                "zh": "站台",
+                                "ru": "Платформа"
+                            },
+                            "localizedSentences": {
+                                "ar": "الرصيف رقم خمسة على اليمين",
+                                "en": "Platform number five is on the right",
+                                "fr": "Le quai numéro cinq est à droite",
+                                "de": "Bahnsteig Nummer fünf ist rechts",
+                                "zh": "5号站台在右边",
+                                "ru": "Платформа номер пять справа"
+                            }
+                        },
+                        {
+                            "id": "t4",
+                            "icon": "luggage",
+                            "positionX": 0.4,
+                            "positionY": 0.6,
+                            "localizedNames": {
+                                "ar": "حقيبة",
+                                "en": "Suitcase",
+                                "fr": "Valise",
+                                "de": "Koffer",
+                                "zh": "手提箱",
+                                "ru": "Чемодан"
+                            },
+                            "localizedSentences": {
+                                "ar": "حقيبتي ثقيلة جداً",
+                                "en": "My suitcase is very heavy",
+                                "fr": "Ma valise est très lourde",
+                                "de": "Mein Koffer ist sehr schwer",
+                                "zh": "我的手提箱很重",
+                                "ru": "Мой чемодан очень тяжелый"
+                            }
+                        },
+                        {
+                            "id": "t5",
+                            "icon": "schedule",
+                            "positionX": 0.2,
+                            "positionY": 0.3,
+                            "localizedNames": {
+                                "ar": "جدول المواعيد",
+                                "en": "Schedule",
+                                "fr": "Horaire",
+                                "de": "Fahrplan",
+                                "zh": "时刻表",
+                                "ru": "Расписание"
+                            },
+                            "localizedSentences": {
+                                "ar": "دعني أفحص جدول المواعيد",
+                                "en": "Let me check the schedule",
+                                "fr": "Laissez-moi vérifier l'horaire",
+                                "de": "Lassen Sie mich den Fahrplan überprüfen",
+                                "zh": "让我查一下时刻表",
+                                "ru": "Позвольте мне проверить расписание"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Pyramids",
+            "description": "Explore historical and cultural vocabulary",
+            "iconName": "pyramid",
+            "scenes": [
+                {
+                    "id": "scene_pyramids_1",
+                    "imageUrl": "https://images.unsplash.com/photo-1574864745093-5566c5be5855?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                    "objects": [
+                        {
+                            "id": "p1",
+                            "icon": "change_history",
+                            "positionX": 0.5,
+                            "positionY": 0.3,
+                            "localizedNames": {
+                                "ar": "هرم",
+                                "en": "Pyramid",
+                                "fr": "Pyramide",
+                                "de": "Pyramide",
+                                "zh": "金字塔",
+                                "ru": "Пирамида"
+                            },
+                            "localizedSentences": {
+                                "ar": "الهرم الأكبر يعد من عجائب الدنيا",
+                                "en": "The Great Pyramid is a wonder of the world",
+                                "fr": "La Grande Pyramide est une merveille du monde",
+                                "de": "Die Große Pyramide ist ein Weltwunder",
+                                "zh": "大金字塔是世界奇迹",
+                                "ru": "Великая пирамида — одно из чудес света"
+                            }
+                        },
+                        {
+                            "id": "p2",
+                            "icon": "face",
+                            "positionX": 0.3,
+                            "positionY": 0.6,
+                            "localizedNames": {
+                                "ar": "أبو الهول",
+                                "en": "Sphinx",
+                                "fr": "Sphinx",
+                                "de": "Sphinx",
+                                "zh": "狮身人面像",
+                                "ru": "Сфинкс"
+                            },
+                            "localizedSentences": {
+                                "ar": "أبو الهول يحرس الأهرامات",
+                                "en": "The Sphinx guards the pyramids",
+                                "fr": "Le Sphinx garde les pyramides",
+                                "de": "Die Sphinx bewacht die Pyramiden",
+                                "zh": "狮身人面像守护着金字塔",
+                                "ru": "Сфинкс охраняет пирамиды"
+                            }
+                        },
+                        {
+                            "id": "p3",
+                            "icon": "king_bed",
+                            "positionX": 0.7,
+                            "positionY": 0.5,
+                            "localizedNames": {
+                                "ar": "فرعون",
+                                "en": "Pharaoh",
+                                "fr": "Pharaon",
+                                "de": "Pharao",
+                                "zh": "法老",
+                                "ru": "Фараон"
+                            },
+                            "localizedSentences": {
+                                "ar": "الفرعون كان ملك مصر القديمة",
+                                "en": "The Pharaoh was the king of ancient Egypt",
+                                "fr": "Le Pharaon était le roi de l'Égypte ancienne",
+                                "de": "Der Pharao war der König des alten Ägypten",
+                                "zh": "法老是古埃及的国王",
+                                "ru": "Фараон был царем древнего Египта"
+                            }
+                        },
+                        {
+                            "id": "p4",
+                            "icon": "landscape",
+                            "positionX": 0.6,
+                            "positionY": 0.7,
+                            "localizedNames": {
+                                "ar": "صحراء",
+                                "en": "Desert",
+                                "fr": "Désert",
+                                "de": "Wüste",
+                                "zh": "沙漠",
+                                "ru": "Пустыня"
+                            },
+                            "localizedSentences": {
+                                "ar": "الصحراء حارة وجافة",
+                                "en": "The desert is hot and dry",
+                                "fr": "Le désert est chaud et sec",
+                                "de": "Die Wüste ist heiß und trocken",
+                                "zh": "沙漠又热又干",
+                                "ru": "Пустыня жаркая и сухая"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "name": "University",
+            "description": "Learn academic and educational terminology",
+            "iconName": "school",
+            "scenes": [
+                {
+                    "id": "scene_univ_1",
+                    "imageUrl": "https://images.unsplash.com/photo-1607013407627-6ee814329547?q=80&w=964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                    "objects": [
+                        {
+                            "id": "u1",
+                            "icon": "book",
+                            "positionX": 0.4,
+                            "positionY": 0.5,
+                            "localizedNames": {
+                                "ar": "كتاب",
+                                "en": "Book",
+                                "fr": "Livre",
+                                "de": "Buch",
+                                "zh": "书",
+                                "ru": "Книга"
+                            },
+                            "localizedSentences": {
+                                "ar": "أقرأ الكتاب كل يوم",
+                                "en": "I read the book every day",
+                                "fr": "Je lis le livre tous les jours",
+                                "de": "Ich lese das Buch jeden Tag",
+                                "zh": "我每天都读书",
+                                "ru": "Я читаю книгу каждый день"
+                            }
+                        },
+                        {
+                            "id": "u2",
+                            "icon": "edit",
+                            "positionX": 0.5,
+                            "positionY": 0.6,
+                            "localizedNames": {
+                                "ar": "قلم",
+                                "en": "Pen",
+                                "fr": "Stylo",
+                                "de": "Stift",
+                                "zh": "钢笔",
+                                "ru": "Ручка"
+                            },
+                            "localizedSentences": {
+                                "ar": "أكتب بالقلم في الدفتر",
+                                "en": "I write with the pen in the notebook",
+                                "fr": "J'écris avec le stylo dans le cahier",
+                                "de": "Ich schreibe mit dem Stift ins Heft",
+                                "zh": "我用钢笔在笔记本上写字",
+                                "ru": "Я пишу ручкой в тетради"
+                            }
+                        },
+                        {
+                            "id": "u3",
+                            "icon": "tv",
+                            "positionX": 0.3,
+                            "positionY": 0.3,
+                            "localizedNames": {
+                                "ar": "سبورة",
+                                "en": "Blackboard",
+                                "fr": "Tableau noir",
+                                "de": "Tafel",
+                                "zh": "黑板",
+                                "ru": "Доска"
+                            },
+                            "localizedSentences": {
+                                "ar": "المعلم يكتب على السبورة",
+                                "en": "The teacher writes on the blackboard",
+                                "fr": "L'enseignant écrit sur le tableau noir",
+                                "de": "Der Lehrer schreibt an die Tafel",
+                                "zh": "老师在黑板上写字",
+                                "ru": "Учитель пишет на доске"
+                            }
+                        },
+                        {
+                            "id": "u4",
+                            "icon": "local_library",
+                            "positionX": 0.6,
+                            "positionY": 0.4,
+                            "localizedNames": {
+                                "ar": "مكتبة",
+                                "en": "Library",
+                                "fr": "Bibliothèque",
+                                "de": "Bibliothek",
+                                "zh": "图书馆",
+                                "ru": "Библиотека"
+                            },
+                            "localizedSentences": {
+                                "ar": "أذهب إلى المكتبة للدراسة",
+                                "en": "I go to the library to study",
+                                "fr": "Je vais à la bibliothèque pour étudier",
+                                "de": "Ich gehe in die Bibliothek, um zu lernen",
+                                "zh": "我去图书馆学习",
+                                "ru": "Я хожу в библиотеку учиться"
+                            }
+                        },
+                        {
+                            "id": "u5",
+                            "icon": "person",
+                            "positionX": 0.7,
+                            "positionY": 0.6,
+                            "localizedNames": {
+                                "ar": "طالب",
+                                "en": "Student",
+                                "fr": "Étudiant",
+                                "de": "Student",
+                                "zh": "学生",
+                                "ru": "Студент"
+                            },
+                            "localizedSentences": {
+                                "ar": "الطالب يدرس بجد",
+                                "en": "The student studies hard",
+                                "fr": "L'étudiant étudie dur",
+                                "de": "Der Student lernt fleißig",
+                                "zh": "学生努力学习",
+                                "ru": "Студент усердно учится"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Market",
+            "description": "Practice shopping and marketplace vocabulary",
+            "iconName": "store",
+            "scenes": [
+                {
+                    "id": "scene_market_1",
+                    "imageUrl": "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                    "objects": [
+                        {
+                            "id": "m1",
+                            "icon": "storefront",
+                            "positionX": 0.5,
+                            "positionY": 0.3,
+                            "localizedNames": {
+                                "ar": "سوق",
+                                "en": "Market",
+                                "fr": "Marché",
+                                "de": "Markt",
+                                "zh": "市场",
+                                "ru": "Рынок"
+                            },
+                            "localizedSentences": {
+                                "ar": "السوق مزدحم اليوم",
+                                "en": "The market is crowded today",
+                                "fr": "Le marché est bondé aujourd'hui",
+                                "de": "Der Markt ist heute voll",
+                                "zh": "今天市场很拥挤",
+                                "ru": "Сегодня на рынке многолюдно"
+                            }
+                        },
+                        {
+                            "id": "m2",
+                            "icon": "restaurant",
+                            "positionX": 0.3,
+                            "positionY": 0.5,
+                            "localizedNames": {
+                                "ar": "فاكهة",
+                                "en": "Fruit",
+                                "fr": "Fruit",
+                                "de": "Obst",
+                                "zh": "水果",
+                                "ru": "Фрукты"
+                            },
+                            "localizedSentences": {
+                                "ar": "الفاكهة طازجة ولذيذة",
+                                "en": "The fruit is fresh and delicious",
+                                "fr": "Le fruit est frais et délicieux",
+                                "de": "Das Obst ist frisch und lecker",
+                                "zh": "水果既新鲜又美味",
+                                "ru": "Фрукты свежие и вкусные"
+                            }
+                        },
+                        {
+                            "id": "m3",
+                            "icon": "local_grocery_store",
+                            "positionX": 0.4,
+                            "positionY": 0.6,
+                            "localizedNames": {
+                                "ar": "خضروات",
+                                "en": "Vegetables",
+                                "fr": "Légumes",
+                                "de": "Gemüse",
+                                "zh": "蔬菜",
+                                "ru": "Овощи"
+                            },
+                            "localizedSentences": {
+                                "ar": "أشتري الخضروات كل أسبوع",
+                                "en": "I buy vegetables every week",
+                                "fr": "J'achète des légumes chaque semaine",
+                                "de": "Ich kaufe jede Woche Gemüse",
+                                "zh": "我每周买蔬菜",
+                                "ru": "Я покупаю овощи каждую неделю"
+                            }
+                        },
+                        {
+                            "id": "m4",
+                            "icon": "attach_money",
+                            "positionX": 0.6,
+                            "positionY": 0.5,
+                            "localizedNames": {
+                                "ar": "نقود",
+                                "en": "Money",
+                                "fr": "Argent",
+                                "de": "Geld",
+                                "zh": "钱",
+                                "ru": "Деньги"
+                            },
+                            "localizedSentences": {
+                                "ar": "كم سعر هذا؟ هل لديك نقود؟",
+                                "en": "How much is this? Do you have money?",
+                                "fr": "Combien ça coûte? As-tu de l'argent?",
+                                "de": "Was kostet das? Hast du Geld?",
+                                "zh": "这个多少钱？你有钱吗？",
+                                "ru": "Сколько это стоит? У тебя есть деньги?"
+                            }
+                        },
+                        {
+                            "id": "m5",
+                            "icon": "person_search",
+                            "positionX": 0.7,
+                            "positionY": 0.4,
+                            "localizedNames": {
+                                "ar": "بائع",
+                                "en": "Seller",
+                                "fr": "Vendeur",
+                                "de": "Verkäufer",
+                                "zh": "卖家",
+                                "ru": "Продавец"
+                            },
+                            "localizedSentences": {
+                                "ar": "البائع يعرض بضائعه",
+                                "en": "The seller is displaying his goods",
+                                "fr": "Le vendeur expose ses marchandises",
+                                "de": "Der Verkäufer präsentiert seine Waren",
+                                "zh": "卖家正在展示他的商品",
+                                "ru": "Продавец выставляет свои товары"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

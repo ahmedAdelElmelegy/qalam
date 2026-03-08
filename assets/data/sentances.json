@@ -1,0 +1,41 @@
+{
+  "place_id": "550e8400-e29b-41d4-a716-446655440000", 
+  "objects": [
+    {
+      "id": "110e8400-e29b-41d4-a716-446655440111",
+      "imageUrl": "https://api.together.xyz/img/...",
+      "texts": {
+        "ar": "قراءة قائمة الطعام",
+        "en": "Reading the menu",
+        "fr": "Lire le menu",
+        "de": "Die Speisekarte lesen",
+        "zh": "阅读菜单",
+        "ru": "Чтение меню"
+      }
+    },
+    {
+      "id": "220e8400-e29b-41d4-a716-446655440222",
+      "imageUrl": "https://api.together.xyz/img/...",
+      "texts": {
+        "ar": "تناول الكشري اللذيذ",
+        "en": "Eating delicious Koshary",
+        "fr": "Manger du délicieux Koshary",
+        "de": "Leckeres Koshary essen",
+        "zh": "吃美味的Koshary",
+        "ru": "Есть вкусный Кошари"
+      }
+    },
+    {
+      "id": "330e8400-e29b-41d4-a716-446655440333",
+      "imageUrl": "https://api.together.xyz/img/...",
+      "texts": {
+        "ar": "طلب الفاتورة والدفع",
+        "en": "Asking for the bill and paying",
+        "fr": "Demander l'addition et payer",
+        "de": "Die Rechnung fragen und bezahlen",
+        "zh": "索要账单并付款",
+        "ru": "Просить счет и платить"
+      }
+    }
+  ]
+}

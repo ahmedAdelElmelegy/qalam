@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f0f0f0;
+        }
+        canvas {
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="iconCanvas" width="1024" height="1024"></canvas>
+    <script>
+        const canvas = document.getElementById('iconCanvas');
+        const ctx = canvas.getContext('2d');
+        
+        // Create gradient background
+        const gradient = ctx.createRadialGradient(512, 512, 100, 512, 512, 700);
+        gradient.addColorStop(0, '#1a4d7a');
+        gradient.addColorStop(0.5, '#0d2f4d');
+        gradient.addColorStop(1, '#061524');
+        
+        ctx.fillStyle = gradient;
+        ctx.fillRect(0, 0, 1024, 1024);
+        
+        // Add subtle pattern
+        ctx.strokeStyle = 'rgba(255, 255, 255, 0.05)';
+        ctx.lineWidth = 2;
+        for (let i = 0; i < 20; i++) {
+            ctx.beginPath();
+            ctx.arc(512, 512, 50 + i * 40, 0, Math.PI * 2);
+            ctx.stroke();
+        }
+        
+        // Draw pen/qalam shape
+        ctx.save();
+        ctx.translate(512, 512);
+        ctx.rotate(-Math.PI / 4);
+        
+        // Pen body gradient
+        const penGradient = ctx.createLinearGradient(0, -200, 0, 200);
+        penGradient.addColorStop(0, '#d4af37');
+        penGradient.addColorStop(0.5, '#f4d03f');
+        penGradient.addColorStop(1, '#c5a028');
+        
+        // Pen body
+        ctx.fillStyle = penGradient;
+        ctx.beginPath();
+        ctx.moveTo(-40, -200);
+        ctx.lineTo(40, -200);
+        ctx.lineTo(30, 150);
+        ctx.lineTo(-30, 150);
+        ctx.closePath();
+        ctx.fill();
+        
+        // Pen nib
+        ctx.fillStyle = '#2c2c2c';
+        ctx.beginPath();
+        ctx.moveTo(-30, 150);
+        ctx.lineTo(30, 150);
+        ctx.lineTo(0, 220);
+        ctx.closePath();
+        ctx.fill();
+        
+        // Pen tip highlight
+        ctx.fillStyle = '#4a4a4a';
+        ctx.beginPath();
+        ctx.moveTo(-15, 150);
+        ctx.lineTo(15, 150);
+        ctx.lineTo(0, 190);
+        ctx.closePath();
+        ctx.fill();
+        
+        // Add decorative elements on pen
+        ctx.strokeStyle = '#8b7220';
+        ctx.lineWidth = 3;
+        for (let y = -150; y < 100; y += 30) {
+            ctx.beginPath();
+            ctx.moveTo(-35, y);
+            ctx.lineTo(35, y);
+            ctx.stroke();
+        }
+        
+        // Add shine effect
+        const shineGradient = ctx.createLinearGradient(-20, -200, 20, -200);
+        shineGradient.addColorStop(0, 'rgba(255, 255, 255, 0)');
+        shineGradient.addColorStop(0.5, 'rgba(255, 255, 255, 0.4)');
+        shineGradient.addColorStop(1, 'rgba(255, 255, 255, 0)');
+        
+        ctx.fillStyle = shineGradient;
+        ctx.fillRect(-15, -200, 30, 350);
+        
+        ctx.restore();
+        
+        // Add Arabic-inspired decorative curves
+        ctx.strokeStyle = 'rgba(212, 175, 55, 0.3)';
+        ctx.lineWidth = 4;
+        ctx.beginPath();
+        ctx.arc(300, 300, 150, 0, Math.PI);
+        ctx.stroke();
+        
+        ctx.beginPath();
+        ctx.arc(724, 724, 150, Math.PI, Math.PI * 2);
+        ctx.stroke();
+        
+        // Download the icon
+        setTimeout(() => {
+            const link = document.createElement('a');
+            link.download = 'app_icon.png';
+            link.href = canvas.toDataURL();
+            link.click();
+        }, 100);
+    </script>
+</body>
+</html>

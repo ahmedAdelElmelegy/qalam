@@ -1,0 +1,309 @@
+{
+    "traditions": [
+        {
+            "id": "greetings",
+            "title": {
+                "ar": "آداب التحية",
+                "en": "Etiquette of Greeting",
+                "fr": "Étiquette de salutation",
+                "de": "Begrüßungsetikette",
+                "zh": "问候礼仪",
+                "ru": "Этикет приветствия"
+            },
+            "description": {
+                "ar": "التحية في العالم العربي لها قواعد محددة تعكس الاحترام والمودة بين الناس.",
+                "en": "Greetings in the Arab world have specific rules that reflect respect and affection among people.",
+                "fr": "Les salutations dans le monde arabe ont des règles spécifiques qui reflètent le respect et l'affection entre les gens.",
+                "de": "Begrüßungen in der arabischen Welt unterliegen spezifischen Regeln, die Respekt und Zuneigung zwischen den Menschen widerspiegeln.",
+                "zh": "阿拉伯世界的问候有特定的规则，反映了人与人之间的尊重和情感。",
+                "ru": "Приветствия в арабском мире имеют свои правила, отражающие уважение и привязанность между людьми."
+            },
+            "details": {
+                "ar": [
+                    "تعتبر 'السلام عليكم' هي التحية الرسمية والأكثر شيوعاً وتُرد بـ 'وعليكم السلام'.",
+                    "المصافحة باليد اليمنى فقط هي القاعدة المتبعة.",
+                    "يسلم الصغير على الكبير، والماشي على الجالس، والراكب على الماشي.",
+                    "في بعض المناطق، تقبيل الوجنتين أو تلامس الأنوف هو تعبير عن المودة العميقة بين الرجال."
+                ],
+                "en": [
+                    "'As-salamu alaykum' is the official and most common greeting, answered with 'Wa alaykum as-salam'.",
+                    "Shaking hands with the right hand only is the rule.",
+                    "The younger greets the older, the walking greets the sitting, and the riding greets the walking.",
+                    "In some regions, kissing cheeks or touching noses is an expression of deep affection among men."
+                ],
+                "fr": [
+                    "'As-salamu alaykum' est la salutation officielle et la plus courante, répondue par 'Wa alaykum as-salam'.",
+                    "Serrer la main avec la main droite uniquement est la règle.",
+                    "Le plus jeune salue le plus âgé, celui qui marche salue celui qui est assis, et celui qui monte salue celui qui marche.",
+                    "Dans certaines régions, s'embrasser sur les joues ou se toucher le nez est une expression d'affection profonde entre hommes."
+                ],
+                "de": [
+                    "„As-salamu alaykum“ ist der offizielle und am weitesten verbreitete Gruß, der mit „Wa alaykum as-salam“ beantwortet wird.",
+                    "Händeschütteln nur mit der rechten Hand ist die Regel.",
+                    "Der Jüngere grüßt den Älteren, der Gehende grüßt den Sitzenden und der Fahrende grüßt den Gehenden.",
+                    "In einigen Regionen ist das Küssen der Wangen oder das Berühren der Nasen ein Ausdruck tiefer Zuneigung unter Männern."
+                ],
+                "zh": [
+                    "“As-salamu alaykum”是官方且最常用的问候语，回答为“Wa alaykum as-salam”。",
+                    "规则是只能用右手握手。",
+                    "年幼者向年长者问候，行走者向静坐者问候，骑行者向行走者问候。",
+                    "在某些地区，亲吻脸颊或接触鼻子是男性之间深厚感情的表达方式。"
+                ],
+                "ru": [
+                    "«Ас-саляму алейкум» — официальное и наиболее распространенное приветствие, на которое отвечают «Ва алейкум ас-салям».",
+                    "Правило — пожимать руку только правой рукой.",
+                    "Младший приветствует старшего, идущий — сидящего, едущий — идущего.",
+                    "В некоторых регионах поцелуи в щеки или соприкосновение носами являются выражением глубокой привязанности между мужчинами."
+                ]
+            },
+            "gallery": [
+                "https://res.cloudinary.com/djr9wbmet/image/upload/v1771142313/dvxwk06pumftfhyyj0jq.jpg"
+            ],
+            "video_idea": "https://res.cloudinary.com/djr9wbmet/video/upload/v1771143582/t1xxiekn6ps7qjzfkxh8.mp4"
+        },
+        {
+            "id": "hospitality",
+            "title": {
+                "ar": "الكرم والضيافة",
+                "en": "Hospitality (Karam)",
+                "fr": "L'hospitalité (Karam)",
+                "de": "Gastfreundschaft (Karam)",
+                "zh": "招待 (Karam)",
+                "ru": "Гостеприимство (Карам)"
+            },
+            "description": {
+                "ar": "تعتبر الضيافة ركناً أساسياً في الثقافة العربية، حيث يُستقبل الضيف بكل حفاوة وتُقدم له أفضل أنواع الطعام والشراب.",
+                "en": "Hospitality is a cornerstone of Arab culture, where guests are welcomed with great warmth and served the finest food and drink.",
+                "fr": "L'hospitalité est une pierre angulaire de la culture arabe, où les invités sont accueillis avec beaucoup de chaleur et se voient servir les meilleurs plats et boissons.",
+                "de": "Gastfreundschaft ist ein Eckpfeiler der arabischen Kultur, in der Gäste mit großer Herzlichkeit empfangen werden und feinste Speisen und Getränke serviert bekommen.",
+                "zh": "招待是阿拉伯文化的基石，客人在这里受到热烈欢迎，并享用最好的食物和饮料。",
+                "ru": "Гостеприимство является краеугольным камнем арабской культуры, где гостей приветствуют с большой теплотой и подают самые изысканные блюда и напитки."
+            },
+            "details": {
+                "ar": [
+                    "يُعرف الكرم عند العرب منذ القدم كصفة نبيلة تميزهم.",
+                    "القاعدة الأساسية هي استضافة الضيف لمدة ثلاثة أيام قبل سؤاله عن حاجته.",
+                    "يُعتبر تقديم القهوة العربية والتمور أول مراسم الترحيب.",
+                    "في البادية، كان إشعال النار ليلاً دليلاً للمسافرين ليعرفوا مكان الضيافة."
+                ],
+                "en": [
+                    "Generosity has been known among Arabs since ancient times as a noble trait that distinguishes them.",
+                    "The basic rule is to host a guest for three days before asking about their needs.",
+                    "Serving Arabic coffee and dates is considered the first ceremony of welcome.",
+                    "In the desert, lighting a fire at night served as a guide for travelers to find a place of hospitality."
+                ],
+                "fr": [
+                    "La générosité est connue chez les Arabes depuis l'Antiquité comme un trait noble qui les distingue.",
+                    "La règle de base est d'accueillir un invité pendant trois jours avant de s'enquérir de ses besoins.",
+                    "Servir du café arabe et des dattes est considéré comme la première cérémonie d'accueil.",
+                    "Dans le désert, allumer un feu la nuit servait de guide aux voyageurs pour trouver un lieu d'hospitalité."
+                ],
+                "de": [
+                    "Großzügigkeit ist bei Arabern seit der Antike als edler Wesenszug bekannt, der sie auszeichnet.",
+                    "Die Grundregel lautet, einen Gast drei Tage lang zu bewirten, bevor man nach seinen Bedürfnissen fragt.",
+                    "Das Servieren von arabischem Kaffee und Datteln gilt als erste Willkommenszeremonie.",
+                    "In der Wüste diente das Entzünden eines Gefährten in der Nacht als Wegweiser für Reisende, um einen Ort der Gastfreundschaft zu finden."
+                ],
+                "zh": [
+                    "自古以来，慷慨就一直是阿拉伯人的一种高尚品质，使他们与众不同。",
+                    "基本规则是在询问客人的需求之前先招待他们三天。",
+                    "提供阿拉伯咖啡和甜枣被视为欢迎的首个仪式。",
+                    "在沙漠中，夜间点火可作为旅行者寻找招待所的指南。"
+                ],
+                "ru": [
+                    "Щедрость издавна известна среди арабов как благородная черта, отличающая их.",
+                    "Основное правило — принимать гостя в течение трех дней, прежде чем спрашивать о его нуждах.",
+                    "Подача арабского кофе и фиников считается первой церемонией приветствия.",
+                    "В пустыне разжигание костра ночью служило ориентиром для путешественников, позволяющим найти место гостеприимства."
+                ]
+            },
+            "gallery": [
+                "https://res.cloudinary.com/djr9wbmet/image/upload/v1771142312/rojfpbtefgwnm1hd49fp.jpg"
+            ],
+            "video_idea": "https://res.cloudinary.com/djr9wbmet/video/upload/v1771145242/ubbi1jb8nkhkkmy9o449.mp4"
+        },
+        {
+            "id": "family_visits",
+            "title": {
+                "ar": "الزيارات العائلية",
+                "en": "Family Visits",
+                "fr": "Visites familiales",
+                "de": "Familienbesuche",
+                "zh": "家庭访问",
+                "ru": "Семейные визиты"
+            },
+            "description": {
+                "ar": "تعتبر الزيارات العائلية وصلة الرحم من أهم التقاليد الاجتماعية التي تعزز الروابط بين الأقارب.",
+                "en": "Family visits and kinship ties (Silat al-Rahim) are among the most important social traditions that strengthen bonds among relatives.",
+                "fr": "Les visites familiales et les liens de parenté (Silat al-Rahim) sont parmi les traditions sociales les plus importantes qui renforcent les liens entre parents.",
+                "de": "Familienbesuche und Verwandtschaftsbeziehungen (Silat al-Rahim) gehören zu den wichtigsten sozialen Traditionen, die die Bindungen unter Verwandten stärken.",
+                "zh": "家庭访问和亲属关系（Silat al-Rahim）是加强亲属之间纽带的最重要社会传统之一。",
+                "ru": "Семейные визиты и родственные связи (Силат ар-Рахим) являются одними из важнейших социальных традиций, укрепляющих связи между родственниками."
+            },
+            "details": {
+                "ar": [
+                    "يُخصص يوم الجمعة غالباً لاجتماع العائلة الكبيرة.",
+                    "تبادل الزيارات في الأعياد والمناسبات واجب اجتماعي وديني.",
+                    "يُحضر الضيف معه غالباً هدايا بسيطة مثل الحلويات أو الفواكه.",
+                    "تستمر الجلسة العائلية لساعات يتخللها تبادل الأخبار والأحاديث الودية."
+                ],
+                "en": [
+                    "Friday is often dedicated to large family gatherings.",
+                    "Exchanging visits during holidays and occasions is a social and religious duty.",
+                    "Guests often bring simple gifts like sweets or fruits with them.",
+                    "Family sessions last for hours, interspersed with news exchange and friendly conversation."
+                ],
+                "fr": [
+                    "Le vendredi est souvent dédié aux grands rassemblements familiaux.",
+                    "L'échange de visites pendant les vacances et les occasions est un devoir social et religieux.",
+                    "Les invités apportent souvent avec eux des cadeaux simples comme des bonbons ou des fruits.",
+                    "Les sessions familiales durent des heures, parsemées d'échanges de nouvelles et de conversations amicales."
+                ],
+                "de": [
+                    "Der Freitag ist oft großen Familientreffen gewidmet.",
+                    "Der Austausch von Besuchen an Feiertagen und zu Anlässen ist eine soziale und religiöse Pflicht.",
+                    "Gäste bringen oft einfache Geschenke wie Süßigkeiten oder Obst mit.",
+                    "Familiensitzungen dauern Stunden, unterbrochen vom Nachrichtenaustausch und freundlichen Gesprächen."
+                ],
+                "zh": [
+                    "周五通常专门用于大型家庭聚会。",
+                    "在节日和场合互相访问是一种社会和宗教义务。",
+                    "客人通常会随身携带糖果或水果等简单礼物。",
+                    "家庭会议持续数小时，其间穿插着新闻交流和友好对话。"
+                ],
+                "ru": [
+                    "Пятница часто посвящена большим семейным собраниям.",
+                    "Обмен визитами во время праздников и торжеств является общественным и религиозным долгом.",
+                    "Гости часто приносят с собой простые подарки, например сладости или фрукты.",
+                    "Семейные посиделки длятся часами, перемежаясь обменом новостями и дружескими беседами."
+                ]
+            },
+            "gallery": [
+                "https://res.cloudinary.com/djr9wbmet/image/upload/v1771142316/v7efpbh9f9nqhwi4yvf0.png"
+            ],
+            "video_idea": "https://res.cloudinary.com/djr9wbmet/video/upload/v1771144358/imxqrsghvzfvn5mgjsqa.mp4"
+        },
+        {
+            "id": "respect_for_elders",
+            "title": {
+                "ar": "احترام الكبير",
+                "en": "Respect for Elders",
+                "fr": "Respect des aînés",
+                "de": "Respekt vor Älteren",
+                "zh": "尊老",
+                "ru": "Уважение к старшим"
+            },
+            "description": {
+                "ar": "يعتبر توقير كبار السن قيمة أخلاقية عليا في المجتمع العربي، تظهر في كافة التعاملات اليومية.",
+                "en": "Venerating elders is a supreme moral value in Arab society, manifested in all daily interactions.",
+                "fr": "Vénérer les aînés est une valeur morale suprême dans la société arabe, manifestée dans toutes les interactions quotidiennes.",
+                "de": "Die Verehrung Älterer ist ein oberster moralischer Wert in der arabischen Gesellschaft, der sich in allen täglichen Interaktionen manifestiert.",
+                "zh": "尊老是阿拉伯社会的至高道德价值，体现在日常交往中。",
+                "ru": "Почтение к старшим является высшей моральной ценностью в арабском обществе, проявляющейся во всех повседневных взаимодействиях."
+            },
+            "details": {
+                "ar": [
+                    "تقبيل يد ورأس الوالدين والأجداد علامة على البر والاحترام.",
+                    "يُعطى الكبير الأولوية في الجلوس والدخول من الأبواب.",
+                    "يُنادى الكبير بألقاب توقيرية مثل 'عمي' أو 'خالي' حتى لغير الأقارب.",
+                    "يُنصت الجميع باهتمام عندما يتحدث الأكبر سناً في المجلس."
+                ],
+                "en": [
+                    "Kissing the hands and heads of parents and grandparents is a sign of piety and respect.",
+                    "Elders are given priority in seating and entering through doors.",
+                    "Elders are addressed with respectful titles like 'Uncle' or 'Auntie' even for non-relatives.",
+                    "Everyone listens attentively when the eldest speaks in the council (Majlis)."
+                ],
+                "fr": [
+                    "Embrasser les mains et la tête des parents et grands-parents est un signe de piété et de respect.",
+                    "Les aînés ont la priorité pour s'asseoir et entrer par les portes.",
+                    "Les aînés sont interpellés avec des titres respectueux comme 'Oncle' ou 'Tante' même pour les non-parents.",
+                    "Tout le monde écoute attentivement quand l'aîné parle au conseil (Majlis)."
+                ],
+                "de": [
+                    "Das Küssen der Hände und des Kopfes von Eltern und Großeltern ist ein Zeichen von Frömmigkeit und Respekt.",
+                    "Älteren wird beim Sitzen und beim Eintreten durch Türen Vorrang gewährt.",
+                    "Ältere werden auch bei Nichtverwandten mit respektvollen Titeln wie „Onkel“ oder „Tante“ angesprochen.",
+                    "Alle hören aufmerksam zu, wenn der Älteste im Rat (Majlis) spricht."
+                ],
+                "zh": [
+                    "亲吻父母和祖父母的手和头是虔诚和尊重的象征。",
+                    "长辈在就座和进门时享有优先权。",
+                    "即使是非亲属，长辈也会被冠以“叔叔”或“阿姨”等尊重称号。",
+                    "当长辈在议会（Majlis）发言时，每个人都会专心倾听。"
+                ],
+                "ru": [
+                    "Целование рук и головы родителей, бабушек и дедушек является признаком благочестия и уважения.",
+                    "Старшим отдается приоритет при рассадке и входе в двери.",
+                    "К старшим обращаются с уважительными титулами, такими как «дядя» или «тетя», даже если они не являются родственниками.",
+                    "Все внимательно слушают, когда говорит самый старший в совете (Меджлисе)."
+                ]
+            },
+            "gallery": [
+                "https://res.cloudinary.com/djr9wbmet/image/upload/v1771142316/awah5y7wnm5gaipzfms4.png"
+            ],
+            "video_idea": "https://res.cloudinary.com/djr9wbmet/video/upload/v1771144748/nbk1bbzfulifcyks2egk.mp4"
+        },
+        {
+            "id": "coffee_etiquette",
+            "title": {
+                "ar": "آداب القهوة والشاي",
+                "en": "Coffee and Tea Etiquette",
+                "fr": "Étiquette du café et du thé",
+                "de": "Kaffee- und Tee-Etikette",
+                "zh": "咖啡和茶的礼仪",
+                "ru": "Этикет кофе и чая"
+            },
+            "description": {
+                "ar": "تقديم القهوة العربية والزي ليس مجرد ضيافة، بل هو فن له قواعد وبروتوكولات صارمة.",
+                "en": "Serving Arabic coffee and tea is not just hospitality, but an art with strict rules and protocols.",
+                "fr": "Servir le café et le thé arabes n'est pas seulement de l'hospitalité, mais un art avec des règles et des protocoles stricts.",
+                "de": "Das Servieren von arabischem Kaffee und Tee ist nicht nur Gastfreundschaft, sondern eine Kunst mit strengen Regeln und Protokollen.",
+                "zh": "提供阿拉伯咖啡和茶不仅是款待，更是一门有着严格规则和协议的艺术。",
+                "ru": "Подача арабского кофе и чая — это не просто гостеприимство, а искусство со строгими правилами и протоколами."
+            },
+            "details": {
+                "ar": [
+                    "يُمسك الدلة (إبريق القهوة) باليد اليسرى والفناجين باليد اليمنى.",
+                    "يبدأ التقديم من يمين المجلس أو من الضيف الأهم.",
+                    "يُهز الفنجان يميناً ويساراً عند الاكتفاء، وإلا سيستمر المضيف في الصب.",
+                    "يملأ المضيف ثلث الفنجان فقط، فملؤه بالكامل يعتبر إشارة للضيف بالمغادرة."
+                ],
+                "en": [
+                    "The Dallah (coffee pot) is held in the left hand and the cups in the right hand.",
+                    "Serving starts from the right side of the Majlis or from the most important guest.",
+                    "The cup is shaken side to side to indicate you have had enough; otherwise, the host will keep pouring.",
+                    "The host fills only a third of the cup; filling it completely is a signal for the guest to leave."
+                ],
+                "fr": [
+                    "La Dallah (cafetière) est tenue de la main gauche et les tasses de la main droite.",
+                    "Le service commence par le côté droit du Majlis ou par l'invité le plus important.",
+                    "La tasse est secouée d'un côté à l'autre pour indiquer que vous en avez eu assez ; sinon, l'hôte continuera à verser.",
+                    "L'hôte ne remplit qu'un tiers de la tasse ; la remplir complètement est un signal pour que l'invité parte."
+                ],
+                "de": [
+                    "Die Dallah (Kaffeekanne) wird in der linken Hand und die Tassen in der rechten Hand gehalten.",
+                    "Das Servieren beginnt auf der rechten Seite des Majlis oder beim wichtigsten Gast.",
+                    "Die Tasse wird hin und her geschüttelt, um anzuzeigen, dass man genug hat; andernfalls schenkt der Gastgeber weiter ein.",
+                    "Der Gastgeber füllt die Tasse nur zu einem Drittel; sie ganz zu füllen, ist ein Signal für den Gast, zu gehen."
+                ],
+                "zh": [
+                    "左手拿 Dallah（咖啡壶），右手拿杯子。",
+                    "供应从 Majlis 的右侧或最重要的客人开始。",
+                    "杯子左右摇动表示你已经喝够了；否则，主人会继续倒酒。",
+                    "主人只倒满杯子的三分之一；倒满整个杯子是示意客人离开的信号。"
+                ],
+                "ru": [
+                    "Даллу (кофейник) держат в левой руке, а чашки — в правой.",
+                    "Подача начинается с правой стороны Меджлиса или с самого важного гостя.",
+                    "Чашку встряхивают из стороны в сторону, чтобы показать, что вы уже напились; в противном случае хозяин будет продолжать подливать.",
+                    "Хозяин наполняет чашку только на треть; наполнение ее доверху — это сигнал гостю уходить."
+                ]
+            },
+            "gallery": [
+                "https://res.cloudinary.com/djr9wbmet/image/upload/v1771142315/vr2fcepyzoga4zusdv3g.png"
+            ],
+            "video_idea": "https://res.cloudinary.com/djr9wbmet/video/upload/v1771143872/lz1skt0eq46l9huqdya2.mp4"
+        }
+    ]
+}

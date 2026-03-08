@@ -1,0 +1,919 @@
+{
+    "cities": [
+        {
+            "id": "cairo",
+            "title": {
+                "ar": "القاهرة",
+                "en": "Cairo",
+                "fr": "Le Caire",
+                "de": "Kairo",
+                "zh": "开罗",
+                "ru": "Каир"
+            },
+            "description": {
+                "ar": "القاهرة هي عاصمة مصر وأكبر مدنها، تُلقب بمدينة الألف مئذنة وتجمع بين التاريخ الفرعوني والإسلامي والمعاصر.",
+                "en": "Cairo is the capital of Egypt and its largest city, known as the 'City of a Thousand Minarets,' blending Pharaonic, Islamic, and modern history.",
+                "fr": "Le Caire est la capitale de l'Égypte et sa plus grande ville, connue comme la 'Ville aux mille minarets', mêlant l'histoire pharaonique, islamique et moderne.",
+                "de": "Kairo ist die Hauptstadt Ägyptens und seine größte Stadt, bekannt als die 'Stadt der tausend Minarette', die pharaonische, islamische und moderne Geschichte verbindet.",
+                "zh": "开罗是埃及的首都及其最大的城市，被称为“千塔之城”，融合了法老、伊斯兰和现代历史。",
+                "ru": "Каир — столица Египта и его крупнейший город, известный как «Город тысячи минаретов», сочетающий в себе фараонскую, исламскую и современную историю."
+            },
+            "details": {
+                "ar": [
+                    "الثقافة المحلية: مزيج حيوي من التراث الشعبي المتمثل في الأسواق التقليدية وكرم الضيافة المصري الأصيل.",
+                    "متى تزورها وأجواءها: يُفضل زيارتها في فصلي الشتاء والربيع (نوفمبر إلى أبريل) حيث تكون الأجواء معتدلة ومثالية للتنزه.",
+                    "أشهر المعالم: أهرامات الجيزة، خان الخليلي، المتحف المصري بالتحرير، وقلعة صلاح الدين الأيوبي.",
+                    "معلومة لطيفة: هل تعلم أن اسم 'القاهرة' يعني 'المنتصرة' أو 'القاهرة للأعداء'؟"
+                ],
+                "en": [
+                    "Local culture: A vibrant mix of folk heritage seen in traditional markets and authentic Egyptian hospitality.",
+                    "Best time / vibe: Best visited in winter and spring (November to April) when the weather is mild and ideal for sightseeing.",
+                    "Famous landmarks: Giza Pyramids, Khan el-Khalili, The Egyptian Museum in Tahrir, and Saladin Citadel.",
+                    "Fun fact: Did you know that the name 'Cairo' means 'The Victorious' or 'The Vanquisher'?"
+                ],
+                "fr": [
+                    "Culture locale : Un mélange vibrant de patrimoine populaire visible dans les marchés traditionnels et l'hospitalité égyptienne authentique.",
+                    "Meilleure période / ambiance : Mieux visité en hiver et au printemps (novembre à avril) lorsque le climat est doux et idéal pour le tourisme.",
+                    "Sites célèbres : Les pyramides de Gizeh, Khan el-Khalili, le musée égyptien du Caire et la citadelle de Saladin.",
+                    "Fait amusant : Saviez-vous que le nom 'Le Caire' (Al-Qahira) signifie 'La Victorieuse' ?"
+                ],
+                "de": [
+                    "Lokale Kultur: Eine lebendige Mischung aus volkstümlichem Erbe, das in traditionellen Märkten und authentischer ägyptischer Gastfreundschaft sichtbar wird.",
+                    "Beste Zeit / Stimmung: Am besten im Winter und Frühling (November bis April) zu besuchen, wenn das Wetter mild und ideal für Besichtigungen ist.",
+                    "Berühmte Sehenswürdigkeiten: Die Pyramiden von Gizeh, Khan el-Khalili, das Ägyptische Museum in Tahrir und die Zitadelle von Saladin.",
+                    "Wissenswertes: Wussten Sie, dass der Name 'Kairo' (Al-Qahira) 'Die Siegreiche' bedeutet?"
+                ],
+                "zh": [
+                    "当地文化：充满活力的民俗遗产融合，体现在传统市场和地道的埃及热情款待中。",
+                    "最佳时间/氛围：最佳旅游时间是冬季和春季（11 月至 4 月），此时气候温和，非常适合观光。",
+                    "著名地标：吉萨金字塔、汗·哈利利市场、解放广场埃及博物馆和萨拉丁城堡。",
+                    "有趣小知识：您知道吗？“开罗”（Al-Qahira）这个名字的意思是“胜利者”或“征服者”。"
+                ],
+                "ru": [
+                    "Местная культура: Яркое сочетание народного наследия, проявляющееся в традиционных рынках и подлинном египетском гостеприимстве.",
+                    "Лучшее время / атмосфера: Лучшее время для посещения — зима и весна (ноябрь–апрель), когда погода мягкая и идеальна для осмотра достопримечательностей.",
+                    "Знаковые места: Пирамиды Гизы, Хан эль-Халили, Египетский музей на Тахрире и Цитадель Саладина.",
+                    "Интересный факт: Знаете ли вы, что название «Каир» (Аль-Кахира) означает «Победительница»?"
+                ]
+            },
+            "gallery": [
+               "https://d3rr2gvhjw0wwy.cloudfront.net/uploads/mandators/49581/file-manager/cairo-city-egypt-2020.jpg"
+            ],
+            "video_idea": "https://www.youtube.com/watch?v=RKzeyrlzwt4"
+        },
+        {
+            "id": "mecca",
+            "title": {
+                "ar": "مكة المكرمة",
+                "en": "Mecca",
+                "fr": "La Mecque",
+                "de": "Mekka",
+                "zh": "麦加",
+                "ru": "Мекка"
+            },
+            "description": {
+                "ar": "مكة المكرمة هي أقدس مدينة في الإسلام، تضم المسجد الحرام وظهور الكعبة المشرفة، وهي وجهة ملايين المسلمين للحج والعمرة.",
+                "en": "Mecca is the holiest city in Islam, home to the Masjid al-Haram and the Kaaba, the destination for millions of Muslims for Hajj and Umrah.",
+                "fr": "La Mecque est la ville la plus sainte de l'islam, abritant la Masjid al-Haram et la Kaaba, destination de millions de musulmans pour le Hajj et l'Umrah.",
+                "de": "Mekka ist die heiligste Stadt des Islam, Heimat der Masjid al-Haram und der Kaaba, das Ziel von Millionen von Muslimen für Hajj und Umrah.",
+                "zh": "麦加是伊斯兰教最神圣的城市，是禁寺和大房子的所在地，也是数百万人穆斯林朝觐和副朝的目的地。",
+                "ru": "Мекка — самый священный город в исламе, где находится Масджид аль-Харам и Кааба, конечный пункт паломничества миллионов мусульман (хаджа и умры)."
+            },
+            "details": {
+                "ar": [
+                    "الثقافة المحلية: ثقافة روحانية عميقة تتميز ببيئة التسامح والتقاء الشعوب من كل أنحاء العالم في صعيد واحد.",
+                    "متى تزورها وأجواءها: تستقبل الزوار طوال العام، وتكون ذروة الزحام في موسم الحج وشهر رمضان المبارك.",
+                    "أشهر المعالم: المسجد الحرام، غار حراء، جبل عرفات، ومجمع أبراج البيت وبرج الساعة الشهير.",
+                    "معلومة لطيفة: هل تعلم أن الكعبة المشرفة هي أول بيت وُضع للناس في الأرض لعبادة الله؟"
+                ],
+                "en": [
+                    "Local culture: A deep spiritual culture characterized by tolerance and the gathering of people from all over the world.",
+                    "Best time / vibe: Receives visitors year-round, peaking during the Hajj season and the holy month of Ramadan.",
+                    "Famous landmarks: Masjid al-Haram, Cave of Hira, Mount Arafat, and the Abraj Al-Bait Complex.",
+                    "Fun fact: Did you know that the Kaaba is considered the first house of worship established for mankind on Earth?"
+                ],
+                "fr": [
+                    "Culture locale : Une culture spirituelle profonde caractérisée par la tolérance et le rassemblement de personnes du monde entier.",
+                    "Meilleure période / ambiance : Reçoit des visiteurs toute l'année, avec un pic pendant la saison du Hajj et le mois sacré du Ramadan.",
+                    "Sites célèbres : Masjid al-Haram, grotte de Hira, mont Arafat et le complexe Abraj Al-Bait.",
+                    "Fait amusant : Saviez-vous que la Kaaba est considérée comme le premier lieu de culte établi pour l'humanité sur Terre ?"
+                ],
+                "de": [
+                    "Lokale Kultur: Eine tiefe spirituelle Kultur, die von Toleranz und der Versammlung von Menschen aus der ganzen Welt geprägt ist.",
+                    "Beste Zeit / Stimmung: Empfängt das ganze Jahr über Besucher, am stärksten während der Hajj-Saison und des heiligen Monats Ramadan.",
+                    "Berühmte Sehenswürdigkeiten: Masjid al-Haram, Hira-Höhle, Berg Arafat und der Abraj Al-Bait-Komplex.",
+                    "Wissenswertes: Wussten Sie, dass die Kaaba als das erste für die Menschheit errichtete Gotteshaus auf der Erde gilt?"
+                ],
+                "zh": [
+                    "当地文化：深厚的精神文化，以包容性和来自世界各地的人们聚集在一起为特色。",
+                    "最佳时间/氛围：全年接待游客，高峰期在朝觐季节和神圣的斋月期间。",
+                    "著名地标：禁寺、希拉山、阿拉法特山和阿布拉吉·阿尔·拜特建筑群。",
+                    "有趣小知识：您知道吗？天房被认为是地球上为人类建立的第一座礼拜场所。"
+                ],
+                "ru": [
+                    "Местная культура: Глубокая духовная культура, характеризующаяся толерантностью и объединением людей со всего мира.",
+                    "Лучшее время / атмосфера: Принимает посетителей круглый год, пик посещаемости приходится на сезон хаджа и священный месяц Рамадан.",
+                    "Знаковые места: Масджид аль-Харам, пещера Хира, гора Арафат и комплекс Абрадж аль-Бейт.",
+                    "Интересный факт: Знаете ли вы, что Кааба считается первым молитвенным домом, возведенным для человечества на Земле?"
+                ]
+            },
+            "gallery": [
+               "https://www.pbs.org/wgbh/sacredjourneys/media/images/42-18223663_430x242.jpg"
+            ],
+            "video_idea": "https://www.youtube.com/watch?v=PWo6jjGOjTg"
+        },
+        {
+            "id": "medina",
+            "title": {
+                "ar": "المدينة المنورة",
+                "en": "Medina",
+                "fr": "Médine",
+                "de": "Medina",
+                "zh": "麦地那",
+                "ru": "Медина"
+            },
+            "description": {
+                "ar": "المدينة المنورة هي 'طيبة الطيبة' وثاني أقدس المدن، عاصمة الإسلام الأولى ومثوى رسول الله صلى الله عليه وسلم.",
+                "en": "Medina is 'Tayba' and the second holiest city, the first capital of Islam and the resting place of Prophet Muhammad (PBUH).",
+                "fr": "Médine est 'Tayba' et la deuxième ville la plus sainte, la première capitale de l'islam et le lieu de repos du prophète Muhammad (PSL).",
+                "de": "Medina ist 'Tayba' und die zweitheiligste Stadt, die erste Hauptstadt des Islam und die Ruhestätte des Propheten Muhammad (PBUH).",
+                "zh": "麦地那是“塔伊巴”，也是第二神圣的城市，是伊斯兰教的第一个首都，也是先知穆罕默德（愿主福安之）的安息之地。",
+                "ru": "Медина, также известная как «Тайба», — второй по святости город ислама, его первая столица и место упокоения Пророка Мухаммеда (мир ему)."
+            },
+            "details": {
+                "ar": [
+                    "الثقافة المحلية: تتميز بالهدوء والسكينة وكرم أهل المدينة وحفاوتهم بـ 'زوار النبي'، مع أجواء إيمانية فريدة.",
+                    "متى تزورها وأجواءها: تعتبر زيارتها محببة في أي وقت، خاصة في فصل الشتاء لملاءمة الجو للزيارات الخارجية.",
+                    "أشهر المعالم: المسجد النبوي، مسجد قباء، مقبرة البقيع، وجبل أحد.",
+                    "معلومة لطيفة: هل تعلم أن المسجد النبوي شهد توسعات تاريخية جعلته أحد أكبر المساجد في العالم؟"
+                ],
+                "en": [
+                    "Local culture: Characterized by tranquility, peace, and the generosity of its people towards 'visitors of the Prophet'.",
+                    "Best time / vibe: Visiting is pleasant at all times, especially in winter when the weather is ideal for outdoor visits.",
+                    "Famous landmarks: Al-Masjid an-Nabawi, Quba Mosque, Al-Baqi Cemetery, and Mount Uhud.",
+                    "Fun fact: Did you know that the Prophet's Mosque has seen historical expansions making it one of the largest in the world?"
+                ],
+                "fr": [
+                    "Culture locale : Caractérisée par la tranquillité, la paix et la générosité de ses habitants envers les 'visiteurs du Prophète'.",
+                    "Meilleure période / ambiance : La visite est agréable à tout moment, surtout en hiver lorsque le climat est idéal pour les visites en extérieur.",
+                    "Sites célèbres : Al-Masjid an-Nabawi, mosquée de Quba, cimetière d'Al-Baqi et mont Uhud.",
+                    "Fait amusant : Saviez-vous que la Mosquée du Prophète a connu des extensions historiques en faisant l'une des plus grandes au monde ?"
+                ],
+                "de": [
+                    "Lokale Kultur: Geprägt von Beschaulichkeit, Frieden und der Großzügigkeit der Menschen gegenüber den 'Besuchern des Propheten'.",
+                    "Beste Zeit / Stimmung: Der Besuch ist zu jeder Zeit angenehm, besonders im Winter, wenn das Wetter ideal für Besuch in der freien Natur ist.",
+                    "Berühmte Sehenswürdigkeiten: Al-Masjid an-Nabawi, Quba-Moschee, Al-Baqi-Friedhof und Berg Uhud.",
+                    "Wissenswertes: Wussten Sie, dass die Prophetenmoschee im Laufe der Geschichte erweitert wurde und heute eine der größten der Welt ist?"
+                ],
+                "zh": [
+                    "当地文化：以宁静、和平以及当地人对“先知的访客”的慷慨款待为特色。",
+                    "最佳时间/氛围：任何时间游览都很愉快，特别是冬季，天气非常适合户外活动。",
+                    "著名地标：先知寺、库巴清真寺、巴奇墓地和乌胡德山。",
+                    "有趣小知识：您知道吗？先知清真寺经历了历史性的扩张，使其成为世界上最大的清真寺之一。"
+                ],
+                "ru": [
+                    "Местная культура: Характеризуется спокойствием, миром и щедростью жителей по отношению к «гостям Пророка».",
+                    "Лучшее время / атмосфера: Посещение приятно в любое время, особенно зимой, когда погода идеальна для прогулок на свежем воздухе.",
+                    "Знаковые места: Аль-Масджид ан-Набави, мечеть Куба, кладбище Аль-Баки и гора Ухуд.",
+                    "Интересный факт: Знаете ли вы, что Мечеть Пророка претерпела исторические расширения, сделавшие её одной из крупнейших в мире?"
+                ]
+            },
+            "gallery": [
+               "https://www.komar.de/media/catalog/product/cache/5/image/9df78eab33525d08d6e5fb8d27136e95/import/api-v1.1-file-public-files-pim-assets-97-ad-84-62-6284ad972eff292d45ce1a2e-images-2e-44-f8-65-65f8442ee95865a273d91876-8-107-medina-mosque-web.jpg"
+            ],
+            "video_idea": "https://www.youtube.com/watch?v=L9YKx7srZmc"
+        },
+        {
+            "id": "dubai",
+            "title": {
+                "ar": "دبي",
+                "en": "Dubai",
+                "fr": "Dubaï",
+                "de": "Dubai",
+                "zh": "迪拜",
+                "ru": "Дубай"
+            },
+            "description": {
+                "ar": "دبي هي لؤلؤة الخليج ومدينة المستقبل، وجهة عالمية للتسوق والفخامة وتضم أطول ناطحات سحاب في العالم في الإمارات العربية المتحدة.",
+                "en": "Dubai is the pearl of the Gulf and the city of the future, a global destination for shopping and luxury, home to the world's tallest skyscrapers in the UAE.",
+                "fr": "Dubaï est la perle du Golfe et la ville du futur, une destination mondiale pour le shopping et le luxe, abritant les plus hauts gratte-ciel du monde aux Émirats Arabes Unis.",
+                "de": "Dubai ist die Perle des Golfs und die Stadt der Zukunft, ein globales Ziel für Shopping und Luxus und Heimat der höchsten Wolkenkratzer der Welt in den VAE.",
+                "zh": "迪拜是海湾明珠，也是未来之城。这里是全球购物和奢华目的地，拥有阿拉伯联合酋长国乃至世界上最高的摩天大楼。",
+                "ru": "Дубай — жемчужина Персидского залива и город будущего, мировое направление для шопинга и роскоши, в котором находятся самые высокие небоскребы мира (ОАЭ)."
+            },
+            "details": {
+                "ar": [
+                    "الثقافة المحلية: مزيج مبهر من التقاليد العربية الأصيلة وأسلوب الحياة المعاصر فائق التطور والتنوع الثقافي العالمي.",
+                    "متى تزورها وأجواءها: يُنصح بزيارتها من أكتوبر إلى أبريل للاستمتاع بالأنشطة الخارجية والفعاليات والطقس الرائع.",
+                    "أشهر المعالم: برج خليفة، برواز دبي، جزيرة نخلة جميرا، ومتحف المستقبل.",
+                    "معلومة لطيفة: هل تعلم أن دبي تضم أكبر مركز تسوق في العالم من حيث المساحة الإجمالية وهو دبي مول؟"
+                ],
+                "en": [
+                    "Local culture: A dazzling mix of authentic Arab traditions and an ultra-sophisticated modern lifestyle with global cultural diversity.",
+                    "Best time / vibe: Best visited from October to April to enjoy outdoor activities, events, and wonderful weather.",
+                    "Famous landmarks: Burj Khalifa, Dubai Frame, Palm Jumeirah, and the Museum of the Future.",
+                    "Fun fact: Did you know that Dubai is home to the world's largest shopping mall by total area, which is the Dubai Mall?"
+                ],
+                "fr": [
+                    "Culture locale : Un mélange éblouissant de traditions arabes authentiques et d'un mode de vie moderne ultra-sophistiqué avec une diversité culturelle mondiale.",
+                    "Meilleure période / ambiance : Idéal à visiter d'octobre à avril pour profiter des activités de plein air, des événements et d'un temps magnifique.",
+                    "Sites célèbres : Burj Khalifa, Dubai Frame, Palm Jumeirah et le Musée du futur.",
+                    "Fait amusant : Saviez-vous que Dubaï abrite le plus grand centre commercial du monde en termes de superficie totale, le Dubai Mall ?"
+                ],
+                "de": [
+                    "Lokale Kultur: Eine schillernde Mischung aus authentischen arabischen Traditionen und einem hochentwickelten modernen Lebensstil mit globaler kultureller Vielfalt.",
+                    "Beste Zeit / Stimmung: Am besten von Oktober bis April besuchen, um Outdoor-Aktivitäten, Veranstaltungen und das wunderbare Wetter zu genießen.",
+                    "Berühmte Sehenswürdigkeiten: Burj Khalifa, Dubai Frame, Palm Jumeirah und das Museum der Zukunft.",
+                    "Wissenswertes: Wussten Sie, dass in Dubai das flächenmäßig größte Einkaufszentrum der Welt steht – die Dubai Mall?"
+                ],
+                "zh": [
+                    "当地文化：地道的阿拉伯传统与超先进的现代生活方式及全球文化多样性的炫目融合。",
+                    "最佳时间/氛围：建议从 10 月到次年 4 月游览，以享受户外活动、各类盛事和美妙的天气。",
+                    "著名地标：哈利法塔、迪拜之框、朱美拉棕榈岛和未来博物馆。",
+                    "有趣小知识：您知道吗？迪拜拥有按总面积计算世界上最大的购物中心——迪拜购物中心。"
+                ],
+                "ru": [
+                    "Местная культура: Ослепительное сочетание подлинных арабских традиций и ультрасовременного образа жизни с глобальным культурным разнообразием.",
+                    "Лучшее время / атмосфера: Рекомендуется посещать с октября по апрель, чтобы насладиться активным отдыхом на свежем воздухе, мероприятиями и прекрасной погодой.",
+                    "Знаковые места: Бурдж-Халифа, Дубайская рамка, Пальма Джумейра и Музей будущего.",
+                    "Интересный факт: Знаете ли вы, что в Дубае находится крупнейший в мире торговый центр по общей площади — Дубай Молл?"
+                ]
+            },
+            "gallery": [
+               "https://upload.wikimedia.org/wikipedia/en/c/c7/Burj_Khalifa_2021.jpg"
+            ],
+            "video_idea": "https://www.youtube.com/watch?v=MnUh9nVYqjg"
+        },
+        {
+            "id": "marrakech",
+            "title": {
+                "ar": "مراكش",
+                "en": "Marrakech",
+                "fr": "Marrakech",
+                "de": "Marrakesch",
+                "zh": "马拉喀什",
+                "ru": "Марракеш"
+            },
+            "description": {
+                "ar": "مراكش هي 'المدينة الحمراء' في المغرب، قلب التاريخ النابض ومركز الفنون التقليدية والأسواق الساحرة تحت جبال الأطلس.",
+                "en": "Marrakech is the 'Red City' in Morocco, the beating heart of history and the center of traditional arts and charming markets under the Atlas Mountains.",
+                "fr": "Marrakech est la 'Ville Rouge' du Maroc, le cœur battant de l'histoire et le centre des arts traditionnels et des marchés charmants au pied des montagnes de l'Atlas.",
+                "de": "Marrakesch ist die 'Rote Stadt' Marokkos, das schlagende Herz der Geschichte und das Zentrum traditioneller Künste und charmanter Märkte am Fuße des Atlasgebirges.",
+                "zh": "马拉喀什是摩洛哥的“红城”，是历史搏动的心脏，也是阿特拉斯山脉下传统艺术和迷人市场的中心。",
+                "ru": "Марракеш — «Красный город» в Марокко, бьющееся сердце истории, центр традиционных искусств и очаровательных рынков у подножия Атласских гор."
+            },
+            "details": {
+                "ar": [
+                    "الثقافة المحلية: ثقافة مغربية أصيلة تتجلى في فنون الحكواتي بساحة جامع الفنا، وعمارة الرياضات التقليدية والنقوش اليدوية.",
+                    "متى تزورها وأجواءها: فصلا الربيع والخريف هما الأفضل للزيارة حيث يعم الاعتدال والجمال الطبيعي لكل ركن.",
+                    "أشهر المعالم: ساحة جامع الفنا، مسجد الكتبية، حدائق ماجوريل، وقصر الباهية.",
+                    "معلومة لطيفة: هل تعلم أن مراكش تُلقب بالمدينة الحمراء بسبب لون جدرانها ومبانيها القديمة المبنية من الطوب اللبن والصلصال؟"
+                ],
+                "en": [
+                    "Local culture: Authentic Moroccan culture manifested in storytelling arts at Jemaa el-Fnaa square, traditional Riad architecture, and manual inscriptions.",
+                    "Best time / vibe: Spring and autumn are the best for visiting when moderate weather and natural beauty prevail everywhere.",
+                    "Famous landmarks: Jemaa el-Fnaa Square, Koutoubia Mosque, Majorelle Gardens, and Bahia Palace.",
+                    "Fun fact: Did you know that Marrakech is nicknamed the Red City because of the color of its walls and old buildings built of sun-dried mud and clay?"
+                ],
+                "fr": [
+                    "Culture locale : Culture marocaine authentique manifestée dans les arts du conte sur la place Jemaa el-Fnaa, l'architecture traditionnelle des Riads et les inscriptions manuelles.",
+                    "Meilleure période / ambiance : Le printemps et l'automne sont les meilleurs pour visiter quand le temps modéré et la beauté naturelle prédominent partout.",
+                    "Sites célèbres : Place Jemaa el-Fnaa, mosquée de la Koutoubia, jardins Majorelle et palais de la Bahia.",
+                    "Fait amusant : Saviez-vous que Marrakech est surnommée la Ville Rouge en raison de la couleur de ses murs et de ses vieux bâtiments construits en boue et en argile ?"
+                ],
+                "de": [
+                    "Lokale Kultur: Authentische marokkanische Kultur, die sich in den Erzählkünsten auf dem Jemaa el-Fnaa-Platz, der traditionellen Riad-Architektur und Handgravuren manifestiert.",
+                    "Beste Zeit / Stimmung: Frühling und Herbst eignen sich am besten für einen Besuch, wenn überall mildes Wetter und natürliche Schönheit herrschen.",
+                    "Berühmte Sehenswürdigkeiten: Jemaa el-Fnaa-Platz, Koutoubia-Moschee, Majorelle-Gärten und Bahia-Palast.",
+                    "Wissenswertes: Wussten Sie, dass Marrakesch den Spitznamen Rote Stadt trägt, weil seine Mauern und alten Gebäude aus sonnengetrocknetem Lehm und Ton bestehen?"
+                ],
+                "zh": [
+                    "当地文化：地道的摩洛哥文化，体现在德吉玛广场的说书艺术、传统里亚德建筑和手工雕刻中。",
+                    "最佳时间/氛围：春季和秋季是最佳游览时间，此时气候温和，随处可见自然美景。",
+                    "著名地标：德吉玛广场、库图比亚清真寺、马若雷勒花园和巴希亚宫。",
+                    "有趣小知识：您知道吗？马拉喀什因其城墙和古建筑使用日晒泥砖和粘土建造呈现出的色彩而被称为“红城”。"
+                ],
+                "ru": [
+                    "Местная культура: Подлинная марокканская культура, проявляющаяся в искусстве сказителей на площади Джемаа-эль-Фна, архитектуре традиционных риадов и ручной резьбе.",
+                    "Лучшее время / атмосфера: Весна и осень — лучшие времена года для посещения, когда повсюду царит умеренная погода и природная красота.",
+                    "Знаковые места: Площадь Джемаа-эль-Фна, мечеть Кутубия, сады Мажорель и дворец Бахия.",
+                    "Интересный факт: Знаете ли вы, что Марракеш прозвали Красным городом из-за цвета стен и старых зданий, построенных из высушенной на солнце глины?"
+                ]
+            },
+            "gallery": [
+              "https://marrakechbestof.com/wp-content/uploads/2022/08/08B55E43-BC48-4A02-9A24-2854D864E0AE.jpeg"
+            ],
+            "video_idea": "https://www.youtube.com/watch?v=3eJBBwR8u2g"
+        },
+        {
+            "id": "damascus",
+            "title": {
+                "ar": "دمشق",
+                "en": "Damascus",
+                "fr": "Damas",
+                "de": "Damaskus",
+                "zh": "大马士革",
+                "ru": "Дамаск"
+            },
+            "description": {
+                "ar": "دمشق هي أقدم عاصمة مأهولة في التاريخ، لؤلؤة الشرق ومركز الحضارة العريق في سوريا، تشتهر بمدينتها القديمة المحاطة بالأسوار.",
+                "en": "Damascus is the oldest continuously inhabited capital in history, the Pearl of the East and ancient center of civilization in Syria, famous for its walled old city.",
+                "fr": "Damas est la plus ancienne capitale habitée en continu de l'histoire, la Perle de l'Orient et l'ancien centre de civilisation en Syrie, célèbre pour sa vieille ville fortifiée.",
+                "de": "Damaskus ist die älteste durchgehend bewohnte Hauptstadt der Geschichte, die Perle des Orients und das antike Zentrum der Zivilisation in Syrien, bekannt für seine ummauerte Altstadt.",
+                "zh": "大马士革是历史上最古老且持续有人居住的首都，被称为东方之珠，是叙利亚古老的文明中心，以其带有城墙的古城而闻名。",
+                "ru": "Дамаск — старейшая в истории непрерывно населенная столица, «Жемчужина Востока» и древний центр цивилизации в Сирии, знаменитый своим старым городом, окруженным стенами."
+            },
+            "details": {
+                "ar": [
+                    "الثقافة المحلية: ثقافة شامية عريقة تتميز بروح التسامح، الفنون اليدوية الدمشقية، المطبخ الغني، والبيوت العربية ذات البحرات والياسمين.",
+                    "متى تزورها وأجواءها: يُفضل زيارتها في فصلي الربيع والخريف للاستمتاع بريحة الياسمين الدمشقي والطقس اللطيف.",
+                    "أشهر المعالم: الجامع الأموي، سوق الحميدية، قصر العظم، وشارع المستقيم (سوق مدحت باشا).",
+                    "معلومة لطيفة: هل تعلم أن دمشق تُلقب بـ 'مدينة الياسمين' لكثرة زراعة الياسمين في بيوتها وشوارعها القديمة؟"
+                ],
+                "en": [
+                    "Local culture: Ancient Levantine culture characterized by tolerance, Damascene handicrafts, rich cuisine, and Arab houses with courtyards and jasmine.",
+                    "Best time / vibe: Best visited in spring and autumn to enjoy the scent of Damascene jasmine and the pleasant weather.",
+                    "Famous landmarks: Umayyad Mosque, Al-Hamidiyah Souq, Azem Palace, and Straight Street (Midhat Pasha Souq).",
+                    "Fun fact: Did you know that Damascus is nicknamed the 'City of Jasmine' due to the widespread planting of jasmine in its old houses and streets?"
+                ],
+                "fr": [
+                    "Culture locale : Ancienne culture levantine caractérisée par la tolérance, l'artisanat damascène, une cuisine riche et des maisons arabes avec patios et jasmin.",
+                    "Meilleure période / ambiance : Mieux visité au printemps et en automne pour profiter du parfum du jasmin damascène et d'un temps agréable.",
+                    "Sites célèbres : Mosquée des Omeyyades, Souk Al-Hamidiyah, Palais Azem et la Rue Droite (Souk Midhat Pasha).",
+                    "Fait amusant : Saviez-vous que Damas est surnommée la 'Ville du Jasmin' en raison de la plantation généralisée de jasmin dans ses vieilles maisons et rues ?"
+                ],
+                "de": [
+                    "Lokale Kultur: Antike levantinische Kultur, geprägt von Toleranz, damaszenischem Handwerk, reicher Küche und arabischen Häusern mit Innenhöfen und Jasmin.",
+                    "Beste Zeit / Stimmung: Am besten im Frühling und Herbst besuchen, um den Duft des damaszenischen Jasmins und das angenehme Wetter zu genießen.",
+                    "Berühmte Sehenswürdigkeiten: Umayyaden-Moschee, Al-Hamidiyah Souq, Azem-Palast und die Gerade Straße (Midhat-Pascha-Souq).",
+                    "Wissenswertes: Wussten Sie, dass Damaskus wegen der weiten Verbreitung von Jasmin in seinen alten Häusern und Straßen den Spitznamen 'Stadt des Jasmins' trägt?"
+                ],
+                "zh": [
+                    "当地文化：古老的黎凡特文化，以宽容、大马士革手工艺品、丰富的饮食以及带有庭院和茉莉花的阿拉伯建筑为特色。",
+                    "最佳时间/氛围：建议春季和秋季游览，以闻一闻大马士革茉莉花的芬芳，享受宜人的天气。",
+                    "著名地标：倭马亚大清真寺、哈米迪亚市场、阿兹姆宫和直街（米德哈特·帕夏市场）。",
+                    "有趣小知识：您知道吗？由于大马士革古老的房屋和街道广泛种植茉莉花，它被称为“茉莉之城”。"
+                ],
+                "ru": [
+                    "Местная культура: Древняя левантийская культура, характеризующаяся толерантностью, дамасским ремеслом, богатой кухней и арабскими домами с двориками и жасмином.",
+                    "Лучшее время / атмосфера: Лучше всего посещать весной и осенью, чтобы насладиться ароматом дамасского жасмина и приятной погодой.",
+                    "Знаковые места: Мечеть Омейядов, рынок Аль-Хамидия, дворец Азем и Прямая улица (рынок Мидхат-паши).",
+                    "Интересный факт: Знаете ли вы, что Дамаск называют «Городом жасмина» из-за повсеместного выращивания жасмина в его старых домах и переулках?"
+                ]
+            },
+            "gallery": [
+                "https://static.srpcdigital.com/styles/1037xauto/public/2024-09/774967.jpeg.webp"
+            ],
+            "video_idea": "https://www.youtube.com/watch?v=qBVr1-PrKYY"
+        },
+        {
+            "id": "riyadh",
+            "title": {
+                "ar": "الرياض",
+                "en": "Riyadh",
+                "fr": "Riyad",
+                "de": "Riad",
+                "zh": "利雅得",
+                "ru": "Эр-Рияд"
+            },
+            "description": {
+                "ar": "الرياض هي عاصمة المملكة العربية السعودية، مدينة الطموح التي تمزج بين التاريخ العريق في الدرعية والنهضة العمرانية الحديثة الفائقة.",
+                "en": "Riyadh is the capital of Saudi Arabia, the city of ambition that blends ancient history in Diriyah with ultra-modern urban development.",
+                "fr": "Riyad est la capitale de l'Arabie saoudite, la ville de l'ambition qui mêle l'histoire ancienne de Diriyah au développement urbain ultra-moderne.",
+                "de": "Riad ist die Hauptstadt von Saudi-Arabien, die Stadt des Ehrgeizes, die die alte Geschichte in Diriyah mit hochmoderner Stadtentwicklung verbindet.",
+                "zh": "利雅得是沙特阿拉伯的首都，也是一座雄心勃勃的城市，它将德拉伊耶的悠久历史与超现代的城市复兴融为一体。",
+                "ru": "Эр-Рияд — столица Саудовской Аравии, город амбиций, в котором древняя история Дирии сочетается с ультрасовременным городским развитием."
+            },
+            "details": {
+                "ar": [
+                    "الثقافة المحلية: ثقافة نجدية أصيلة تطورت لتصبح مركزاً للابتكار والترفيه العالمي مع الحفاظ على قيم الكرم والتقاليد السعودية.",
+                    "متى تزورها وأجواءها: يُفضل زيارتها من نوفمبر إلى مارس للاستمتاع بفعاليات 'موسم الرياض' والطقس الشتوي الرائع في المتنزهات.",
+                    "أشهر المعالم: حي الطريف التاريخي (الدرعية)، قصر المصمك، برج المملكة، والمتنزهات البرية (روضة خريم).",
+                    "معلومة لطيفة: هل تعلم أن اسم 'الرياض' هو جمع كلمة 'روضة' ويعني البساتين والحدائق الغناء؟"
+                ],
+                "en": [
+                    "Local culture: Authentic Najdi culture that has evolved into a center for global innovation and entertainment while maintaining values of Saudi hospitality.",
+                    "Best time / vibe: Best visited from November to March to enjoy 'Riyadh Season' events and the wonderful winter weather in parks.",
+                    "Famous landmarks: At-Turaif District (Diriyah), Masmak Fortress, Kingdom Centre, and Wild Parks (Rawdat Khuraim).",
+                    "Fun fact: Did you know that the name 'Riyadh' is the plural of 'Rawdah', which means gardens and lush meadows?"
+                ],
+                "fr": [
+                    "Culture locale : Culture authentique du Najd qui est devenue un centre d'innovation et de divertissement mondial tout en préservant les valeurs de l'hospitalité saoudienne.",
+                    "Meilleure période / ambiance : Préférable de novembre à mars pour profiter des événements de la 'Saison de Riyad' et d'un temps hivernal magnifique.",
+                    "Sites célèbres : Quartier d'At-Turaif (Diriyah), forteresse de Masmak, Kingdom Centre et parcs sauvages (Rawdat Khuraim).",
+                    "Fait amusant : Saviez-vous que le nom 'Riyad' est le pluriel de 'Rawdah', qui signifie jardins et prairies luxuriantes ?"
+                ],
+                "de": [
+                    "Lokale Kultur: Authentische Najdi-Kultur, die sich zu einem Zentrum für globale Innovation und Unterhaltung entwickelt hat und gleichzeitig die Werte der saudi-arabischen Gastfreundschaft bewahrt.",
+                    "Beste Zeit / Stimmung: Am besten von November bis März besuchen, um die Veranstaltungen der 'Riad-Saison' und das herrliche Winterwetter in den Parks zu genießen.",
+                    "Berühmte Sehenswürdigkeiten: At-Turaif-Viertel (Diriyah), Masmak-Festung, Kingdom Centre und Wildparks (Rawdat Khuraim).",
+                    "Wissenswertes: Wussten Sie, dass der Name 'Riad' der Plural von 'Rawdah' ist, was Gärten und üppige Wiesen bedeutet?"
+                ],
+                "zh": [
+                    "当地文化：地道的内志文化，目前已发展成为全球创新和娱乐中心，同时保留了沙特热情款待的传统价值观。",
+                    "最佳时间/氛围：建议从 11 月到次年 3 月游览，以享受“利雅得季”的一系列活动和公园里美妙的冬季天气。",
+                    "著名地标：图赖夫区（德拉伊耶）、马斯马克城堡、王国中心大厦和荒野公园（Rawdat Khuraim）。",
+                    "有趣小知识：您知道吗？“利雅得”这个名字是“Rawdah”的复数形式，意思是果园和繁茂的花园。"
+                ],
+                "ru": [
+                    "Местная культура: Самобытная культура Неджда, превратившаяся в центр мировых инноваций и развлечений при сохранении ценностей саудовского гостеприимства.",
+                    "Лучшее время / атмосфера: Лучше всего посещать с ноября по март, чтобы насладиться мероприятиями «Эр-Риядского сезона» и прекрасной зимней погодой в парках.",
+                    "Знаковые места: Район Ат-Тураиф (Дирия), крепость Масмак, Центр Королевства и дикие парки (Равдат Хурайм).",
+                    "Интересный факт: Знаете ли вы, что название «Эр-Рияд» является множественным числом от слова «равда», что означает сады и пышные луга?"
+                ]
+            },
+            "gallery": [
+             "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Riyadh_Skyline.jpg/1920px-Riyadh_Skyline.jpg"
+            ],
+            "video_idea": "https://www.youtube.com/watch?v=LpABBCz6qdQ"
+        },
+        {
+            "id": "jeddah",
+            "title": {
+                "ar": "جدة",
+                "en": "Jeddah",
+                "fr": "Djeddah",
+                "de": "Dschidda",
+                "zh": "吉达",
+                "ru": "Джидда"
+            },
+            "description": {
+                "ar": "جدة هي 'عروس البحر الأحمر' والبوابة التاريخية لمكة المكرمة، مدينة نابضة بالحياة تجمع بين التاريخ القديم والواجهة البحرية العصرية.",
+                "en": "Jeddah is the 'Bride of the Red Sea' and the historical gateway to Mecca, a vibrant city blending ancient history with a modern waterfront.",
+                "fr": "Djeddah est la 'Mariée de la mer Rouge' et la porte historique de La Mecque, une ville vibrante mêlant histoire ancienne et front de mer moderne.",
+                "de": "Dschidda ist die 'Braut des Roten Meeres' und das historische Tor nach Mekka, eine lebendige Stadt, die alte Geschichte mit einer modernen Uferpromenade verbindet.",
+                "zh": "吉达是“红海新娘”，也是通往麦加的历史门户。这是一座充满活力的城市，将悠久的历史与现代的海滨风光融为一体。",
+                "ru": "Джидда — «Невеста Красного моря» и исторические ворота в Мекку, оживленный город, сочетающий в себе древнюю историю и современную набережную."
+            },
+            "details": {
+                "ar": [
+                    "الثقافة المحلية: ثقافة بحرية منفتحة تتميز بروح الترحيب بالتجار والحجاج عبر العصور، وفنون المطبخ الحجازي الفريد.",
+                    "متى تزورها وأجواءها: يُفضل زيارتها من أكتوبر إلى مارس للاستمتاع بالكورنيش والأنشطة البحرية والأجواء المنعشة.",
+                    "أشهر المعالم: منطقة 'البلد' التاريخية، نافورة الملك فهد، كورنيش جدة، ومتحف مدينة الطيبات.",
+                    "معلومة لطيفة: هل تعلم أن منطقة 'البلد' في جدة مُدرجة ضمن مواقع التراث العالمي لليونسكو لتميز عمارتها وتاريخها؟"
+                ],
+                "en": [
+                    "Local culture: An open maritime culture characterized by a spirit of welcoming traders and pilgrims throughout ages, and unique Hijazi cuisine.",
+                    "Best time / vibe: Best visited from October to March to enjoy the corniche, sea activities, and refreshing atmosphere.",
+                    "Famous landmarks: Historical 'Al-Balad' district, King Fahd's Fountain, Jeddah Corniche, and Tayebat City Museum.",
+                    "Fun fact: Did you know that Jeddah's 'Al-Balad' area is a UNESCO World Heritage site due to its unique architecture and history?"
+                ],
+                "fr": [
+                    "Culture locale : Une culture maritime ouverte caractérisée par un esprit d'accueil des commerçants et pèlerins à travers les âges, et une cuisine Hijazi unique.",
+                    "Meilleure période / ambiance : Idéal à visiter d'octobre à mars pour profiter de la corniche, des activités maritimes et d'une atmosphère rafraîchissante.",
+                    "Sites célèbres : Quartier historique 'Al-Balad', fontaine du roi Fahd, corniche de Djeddah et musée de la ville de Tayebat.",
+                    "Fait amusant : Saviez-vous que le quartier 'Al-Balad' de Djeddah est classé au patrimoine mondial de l'UNESCO pour son architecture et son histoire uniques ?"
+                ],
+                "de": [
+                    "Lokale Kultur: Eine offene maritime Kultur, geprägt von der Tradition, Händler und Pilger willkommen zu heißen, und der einzigartigen Hidschāz-Küche.",
+                    "Beste Zeit / Stimmung: Am besten von Oktober bis März besuchen, um die Corniche, Meeresaktivitäten und die erfrischende Atmosphäre zu genießen.",
+                    "Berühmte Sehenswürdigkeiten: Historisches Viertel 'Al-Balad', König-Fahd-Fontäne, Dschidda Corniche und Tayebat City Museum.",
+                    "Wissenswertes: Wussten Sie, dass das Viertel 'Al-Balad' in Dschidda aufgrund seiner einzigartigen Architektur und Geschichte zum UNESCO-Weltkulturerbe gehört?"
+                ],
+                "zh": [
+                    "当地文化：开放的海洋文化，其特色是历代欢迎商人和朝圣者的精神，以及独特的希贾兹美食。",
+                    "最佳时间/氛围：建议从 10 月到次年 3 月游览，以享受海滨大道、海上活动和清新的氛围。",
+                    "著名地标：历史悠久的“Al-Balad”区、法赫德国王喷泉、吉达海滨大道和塔耶巴特城市博物馆。",
+                    "有趣小知识：您知道吗？吉达的“Al-Balad”地区因其独特的建筑和历史被列为联合国教科文组织世界遗产。"
+                ],
+                "ru": [
+                    "Местная культура: Открытая морская культура, характеризующаяся духом гостеприимства по отношению к торговцам и паломникам, а также уникальной хиджазской кухней.",
+                    "Лучшее время / атмосфера: Лучше всего посещать с октября по март, чтобы насладиться набережной, морскими развлечениями и освежающей атмосферой.",
+                    "Знаковые места: Исторический район «Аль-Балад», фонтан короля Фахда, набережная Джидды и музей города Тайебат.",
+                    "Интересный факт: Знаете ли вы, что район «Аль-Балад» в Джидде включен в список Всемирного наследия ЮНЕСКО благодаря своей уникальной архитектуре и истории?"
+                ]
+            },
+            "gallery": [
+              "https://static.arrajol.com/styles/800x533_webp/public/2023-12/%D8%B4%D8%A7%D8%B7%D8%A6-%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%AC%D8%AF%D8%A9%281%29.jpg.webp"
+            ],
+            "video_idea": "https://www.youtube.com/watch?v=GkVpBfUk0Eo"
+        },
+        {
+            "id": "beirut",
+            "title": {
+                "ar": "بيروت",
+                "en": "Beirut",
+                "fr": "Beyrouth",
+                "de": "Beirut",
+                "zh": "贝鲁特",
+                "ru": "Бейрут"
+            },
+            "description": {
+                "ar": "بيروت هي 'ست الدنيا' وعاصمة لبنان، مدينة الثقافة والفن والمطبخ العالمي، تشتهر بجمالها على ساحل البحر المتوسط.",
+                "en": "Beirut is the capital of Lebanon, a city of culture, art, and world-class cuisine, famous for its beauty on the Mediterranean coast.",
+                "fr": "Beyrouth est la capitale du Liban, une ville de culture, d'art et de cuisine de classe mondiale, célèbre pour sa beauté sur la côte méditerranéenne.",
+                "de": "Beirut ist die Hauptstadt des Libanon, eine Stadt der Kultur, Kunst und erstklassigen Küche, bekannt für ihre Schönheit an der Mittelmeerküste.",
+                "zh": "贝鲁特是黎巴嫩的首都。这是一座集文化、艺术和世界级美食于一体的城市，以其在地中海沿岸的美貌而闻名。",
+                "ru": "Бейрут — столица Ливана, город культуры, искусства и кухни мирового уровня, знаменитый своей красотой на побережье Средиземного моря."
+            },
+            "details": {
+                "ar": [
+                    "الثقافة المحلية: تميج بنسيج فريد من التنوع الثقافي والفكري، روح الصمود، والإبداع في مجالات الموضة والفنون والموسيقى.",
+                    "متى تزورها وأجواءها: يُفضل زيارتها في فصلي الربيع والخريف حيث تكون الأجواء لطيفة ومثالية للاستمتاع بالمقاهي والجلسات الخارجية.",
+                    "أشهر المعالم: صخرة الروشة، ساحة النجمة، وسط بيروت، والمتحف الوطني.",
+                    "معلومة لطيفة: هل تعلم أن بيروت لُقبت بـ 'باريس الشرق' في منتصف القرن العشرين لازدهارها الثقافي والسياحي؟"
+                ],
+                "en": [
+                    "Local culture: Characterized by a unique fabric of cultural and intellectual diversity, resilience, and creativity in fashion, arts, and music.",
+                    "Best time / vibe: Best visited in spring and autumn when the weather is pleasant and ideal for enjoying cafes and outdoor seatings.",
+                    "Famous landmarks: Raouche Rocks, Nejmeh Square, Downtown Beirut, and the National Museum.",
+                    "Fun fact: Did you know that Beirut was nicknamed 'Paris of the East' in the mid-20th century due to its cultural and tourism boom?"
+                ],
+                "fr": [
+                    "Culture locale : Caractérisée par un tissu unique de diversité culturelle et intellectuelle, de résilience et de créativité dans la mode, les arts et la musique.",
+                    "Meilleure période / ambiance : Mieux visité au printemps et en automne lorsque le temps est agréable et idéal pour profiter des cafés et des terrasses.",
+                    "Sites célèbres : Le rocher de Raouché, la place de l'Étoile, le centre-ville de Beyrouth et le musée national.",
+                    "Fait amusant : Saviez-vous que Beyrouth était surnommée le 'Paris de l'Orient' au milieu du XXe siècle en raison de son essor culturel et touristique ?"
+                ],
+                "de": [
+                    "Lokale Kultur: Geprägt von einer einzigartigen kulturellen und intellektuellen Vielfalt, Widerstandsfähigkeit und Kreativität in Mode, Kunst und Musik.",
+                    "Beste Zeit / Stimmung: Am besten im Frühling und Herbst besuchen, wenn das Wetter angenehm und ideal für Cafés und Außenbereiche ist.",
+                    "Berühmte Sehenswürdigkeiten: Raouche-Felsen, Nejmeh-Platz, Innenstadt von Beirut und das Nationalmuseum.",
+                    "Wissenswertes: Wussten Sie, dass Beirut Mitte des 20. Jahrhunderts wegen seines Kultur- und Tourismusbooms als 'Paris des Ostens' bezeichnet wurde?"
+                ],
+                "zh": [
+                    "当地文化：以独特的文化和智慧多样性、韧性以及在时尚、艺术和音乐方面的创造力为特色。",
+                    "最佳时间/氛围：建议春季和秋季游览，此时气候宜人，非常适合在咖啡馆和户外坐坐。",
+                    "著名地标：鸽子岩、内泽默广场、贝鲁特市中心和国家博物馆。",
+                    "有趣小知识：您知道吗？由于那里的文化和旅游繁荣，贝鲁特在 20 世纪中叶被称为“东方巴黎”。"
+                ],
+                "ru": [
+                    "Местная культура: Характеризуется уникальным переплетением культурного и интеллектуального разнообразия, стойкостью и творчеством в моде, искусстве и музыке.",
+                    "Лучшее время / атмосфера: Лучше всего посещать весной и осенью, когда погода приятная и идеальна для отдыха в кафе на открытом воздухе.",
+                    "Знаковые места: Скала Рауше, площадь Нежме, центр Бейрута и Национальный музей.",
+                    "Интересный факт: Знаете ли вы, что в середине XX века Бейрут называли «Парижем Востока» из-за его культурного и туристического расцвета?"
+                ]
+            },
+            "gallery": [
+                "https://cdn.dash.sve.cc/images/20240316/202403161429274876-720x.webp"
+            ],
+            "video_idea": "https://www.youtube.com/watch?v=wWS6Si-C9T8"
+        },
+        {
+            "id": "amman",
+            "title": {
+                "ar": "عمان",
+                "en": "Amman",
+                "fr": "Amman",
+                "de": "Amman",
+                "zh": "安曼",
+                "ru": "Амман"
+            },
+            "description": {
+                "ar": "عمان هي عاصمة الأردن، مدينة بيضاء مبنية على الجبال، تمزج بين الآثار الرومانية القديمة وكرم الضيافة الأردني في قلب الشرق.",
+                "en": "Amman is the capital of Jordan, a white city built on mountains, blending ancient Roman ruins with Jordanian hospitality in the heart of the East.",
+                "fr": "Amman est la capitale de la Jordanie, une ville blanche bâtie sur des montagnes, mêlant d'anciennes ruines romaines à l'hospitalité jordanienne au cœur de l'Orient.",
+                "de": "Amman ist die Hauptstadt von Jordanien, eine auf Bergen erbaute weiße Stadt, die antike römische Ruinen mit jordanischer Gastfreundschaft im Herzen des Ostens verbindet.",
+                "zh": "安曼是约旦的首都。这是一座建在山上的白色城市，在东方中心将古罗马遗址与约旦人的热情款待融为一体。",
+                "ru": "Амман — столица Иордании, «белый город», построенный на горах, сочетающий в себе древнеримские руины и иорданское гостеприимство в самом сердце Востока."
+            },
+            "details": {
+                "ar": [
+                    "الثقافة المحلية: ثقافة عربية أصيلة تتميز بالترابط المجتمعي القوي، المطبخ التقليدي (بالأخص المنسف)، وروح الترحيب والشهامة.",
+                    "متى تزورها وأجواءها: فصلا الربيع والخريف هما الأجمل حيث يعم اللطف والأجواء الرائعة المناسبة للرحلات الخارجية.",
+                    "أشهر المعالم: جبل القلعة، المدرج الروماني، وسط البلد، ومسجد الملك عبد الله الأول.",
+                    "معلومة لطيفة: هل تعلم أن عمان كانت تُعرف باسم 'فيلادلفيا' (مدينة الحب الأخوي) في العصور اليونانية والرومانية؟"
+                ],
+                "en": [
+                    "Local culture: Authentic Arab culture characterized by strong community ties, traditional cuisine (especially Mansaf), and a welcoming spirit.",
+                    "Best time / vibe: Spring and autumn are the most beautiful when the weather is wonderful for outdoor trips.",
+                    "Famous landmarks: Amman Citadel, Roman Theatre, Downtown Amman (Al-Balad), and King Abdullah I Mosque.",
+                    "Fun fact: Did you know that Amman was known as 'Philadelphia' (the city of brotherly love) in Greek and Roman times?"
+                ],
+                "fr": [
+                    "Culture locale : Culture arabe authentique caractérisée par des liens communautaires forts, une cuisine traditionnelle (surtout le Mansaf) et un esprit accueillant.",
+                    "Meilleure période / ambiance : Le printemps et l'automne sont les plus beaux quand le temps est magnifique pour les excursions en extérieur.",
+                    "Sites célèbres : Citadelle d'Amman, théâtre romain, centre-ville d'Amman (Al-Balad) et mosquée du roi Abdallah Ier.",
+                    "Fait amusant : Saviez-vous qu'Amman était connue sous le nom de 'Philadelphie' (la ville de l'amour fraternel) à l'époque grecque et romaine ?"
+                ],
+                "de": [
+                    "Lokale Kultur: Authentische arabische Kultur, geprägt von starken Gemeinschaftsbindungen, traditioneller Küche (insbesondere Mansaf) und Gastfreundschaft.",
+                    "Beste Zeit / Stimmung: Frühling und Herbst sind am schönsten, wenn das Wetter wunderbar für Outdoor-Ausflüge ist.",
+                    "Berühmte Sehenswürdigkeiten: Zitadelle von Amman, Römisches Theater, Innenstadt von Amman (Al-Balad) und König-Abdullah-I.-Moschee.",
+                    "Wissenswertes: Wussten Sie, dass Amman in griechischer und römischer Zeit als 'Philadelphia' (Stadt der brüderlichen Liebe) bekannt war?"
+                ],
+                "zh": [
+                    "当地文化：地道的阿拉伯文化，以强大的社区联系、传统美食（特别是曼萨夫）和欢迎精神为特色。",
+                    "最佳时间/氛围：春季和秋季最美，此时天气极佳，适合户外旅行。",
+                    "著名地标：安曼城堡、罗马剧场、安曼市中心 (Al-Balad) 和国王阿卜杜拉一世清真寺。",
+                    "有趣小知识：您知道吗？安曼在希腊和罗马时代被称为“费城”（兄弟之爱之城）。"
+                ],
+                "ru": [
+                    "Местная культура: Самобытная арабская культура, характеризующаяся крепкими общественными связями, традиционной кухней (особенно мансафом) и духом гостеприимства.",
+                    "Лучшее время / атмосфера: Весна и осень — самое прекрасное время, когда погода великолепна для загородных поездок.",
+                    "Знаковые места: Цитадель Аммана, Римский театр, центр Аммана (Аль-Балад) и мечеть короля Абдаллы I.",
+                    "Интересный факт: Знаете ли вы, что в греческие и римские времена Амман был известен как «Филадельфия» (город братской любви)?"
+                ]
+            },
+            "gallery": [
+               "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/E14E/production/_94787675_31333997-3509-4811-a518-26b60c3248c0.jpg.webp"
+            ],
+            "video_idea": "https://www.youtube.com/watch?v=p7qMrcLMbOk"
+        },
+        {
+            "id": "jerusalem",
+            "title": {
+                "ar": "القدس",
+                "en": "Jerusalem",
+                "fr": "Jérusalem",
+                "de": "Jerusalem",
+                "zh": "耶路撒冷",
+                "ru": "Иерусалим"
+            },
+            "description": {
+                "ar": "القدس هي زهرة المدائن، مدينة السلام العريقة، تضم المسجد الأقصى والعديد من المقدسات التاريخية في قلب فلسطين.",
+                "en": "Jerusalem is the 'Flower of Cities', an ancient city of peace, home to the Al-Aqsa Mosque and many historical sanctuaries in the heart of Palestine.",
+                "fr": "Jérusalem est la 'Fleur des villes', une ancienne cité de paix, abritant la mosquée Al-Aqsa et de nombreux sanctuaires historiques au cœur de la Palestine.",
+                "de": "Jerusalem ist die 'Blume der Städte', eine antike Stadt des Friedens, Heimat der Al-Aqsa-Moschee und vieler historischer Heiligtümer im Herzen Palästinas.",
+                "zh": "耶路撒冷是“众城之花”。这是一座古老的和平之城，也是巴勒斯坦中心地带阿克萨清真寺和许多历史圣地的所在地。",
+                "ru": "Иерусалим — «Цветок городов», древний город мира, где находится мечеть Аль-Акса и многие исторические святыни в самом сердце Палестины."
+            },
+            "details": {
+                "ar": [
+                    "الثقافة المحلية: ثقافة فلسطينية متجذرة تتميز بروح الصمود والتمسك بالهوية العربية والإسلامية العريقة والتقاليد الموروثة.",
+                    "متى تزورها وأجواءها: تستقبل الزوار طوال العام بجمالها المهيب، ويُفضل الربيع لاعتدال المناخ والخضرة حول المدينة.",
+                    "أشهر المعالم: المسجد الأقصى (قبة الصخرة)، كنيسة القيامة، حائط البراق، وأسوار المدينة القديمة وأبوابها.",
+                    "معلومة لطيفة: هل تعلم أن البلدة القديمة في القدس تضم معالم مقدسة للمسلمين والمسيحيين تعايشت جنباً إلى جنب لقرون؟"
+                ],
+                "en": [
+                    "Local culture: Deep-rooted Palestinian culture characterized by resilience, adherence to ancient Arab and Islamic identity, and inherited traditions.",
+                    "Best time / vibe: Receives visitors year-round with majestic beauty; spring is preferred for its mild climate and verdant surroundings.",
+                    "Famous landmarks: Al-Aqsa Mosque (Dome of the Rock), Church of the Holy Sepulchre, Al-Buraq Wall (Western Wall), and the Old City walls.",
+                    "Fun fact: Did you know that the Old City of Jerusalem houses sacred sites for Muslims and Christians that have coexisted for centuries?"
+                ],
+                "fr": [
+                    "Culture locale : Culture palestinienne profondément enracinée caractérisée par la résilience, l'adhésion à l'identité arabe et islamique et les traditions héritées.",
+                    "Meilleure période / ambiance : Reçoit des visiteurs toute l'année avec une beauté majestueuse ; le printemps est préféré pour son climat doux.",
+                    "Sites célèbres : Mosquée Al-Aqsa (Dôme du Rocher), église du Saint-Sépulcre, Mur d'Al-Buraq et les remparts de la vieille ville.",
+                    "Fait amusant : Saviez-vous que la vieille ville de Jérusalem abrite des sites sacrés pour les musulmans et les chrétiens qui ont coexisté pendant des siècles ?"
+                ],
+                "de": [
+                    "Lokale Kultur: Tief verwurzelte palästinensische Kultur, geprägt von Widerstandsfähigkeit, Festhalten an der alten arabischen und islamischen Identität und Tradition.",
+                    "Beste Zeit / Stimmung: Empfängt das ganze Jahr über Besucher mit majestätischer Schönheit; der Frühling wird wegen seines milden Klimas bevorzugt.",
+                    "Berühmte Sehenswürdigkeiten: Al-Aqsa-Moschee (Felsendom), Grabeskirche, Al-Buraq-Mauer und die Altstadtmauern.",
+                    "Wissenswertes: Wussten Sie, dass die Altstadt von Jerusalem heilige Stätten für Muslime und Christen beherbergt, die seit Jahrhunderten nebeneinander existieren?"
+                ],
+                "zh": [
+                    "当地文化：根深蒂固的巴勒斯坦文化，以韧性、对古老阿拉伯和伊斯兰身份的坚持以及传承的传统为特色。",
+                    "最佳时间/氛围：全年以壮丽的景色接待访客；春季因其温和的气候和绿色的周围环境而备受青睐。",
+                    "著名地标：阿克萨清真寺（岩石圆顶）、圣墓教堂、阿布拉克墙（西墙）和老城城墙。",
+                    "有趣小知识：您知道吗？耶路撒冷老城拥有穆斯林和基督徒的圣地，这些圣地已经并存了几个世纪。"
+                ],
+                "ru": [
+                    "Местная культура: Глубоко укоренившаяся палестинская культура, характеризующаяся стойкостью, приверженностью древней арабской и исламской идентичности и унаследованным традициям.",
+                    "Лучшее время / атмосфера: Принимает посетителей круглый год благодаря своей величественной красоте; весна предпочтительнее из-за мягкого климата.",
+                    "Знаковые места: Мечеть Аль-Акса (Купол Скалы), Храм Гроба Господня, Стена Аль-Бурак и стены Старого города.",
+                    "Интересный факт: Знаете ли вы, что в Старом городе Иерусалима находятся священные места для мусульман и христиан, которые сосуществуют веками?"
+                ]
+            },
+            "gallery": [
+               "https://static.majalla.com/styles/1200xauto/public/2025-10/197604.jpeg?VersionId=WEqQUo.353HNDkvNXvVI2b1XiI9vObTz"
+            ],
+            "video_idea": "https://www.youtube.com/watch?v=BanxqagThQI"
+        },
+        {
+            "id": "tunis",
+            "title": {
+                "ar": "تونس",
+                "en": "Tunis",
+                "fr": "Tunis",
+                "de": "Tunis",
+                "zh": "突尼斯市",
+                "ru": "Тунис"
+            },
+            "description": {
+                "ar": "تونس هي عاصمة الخضراء، مدينة عريقة تمزج بين عطر المدينة العتيقة بأسواقها وسحر ضاحية سيدي بوسعيد ذات الألوان والجمال.",
+                "en": "Tunis is the capital of 'Green Tunisia', an ancient city blending the scent of the old medina with the charm of the colorful Sidi Bou Said suburb.",
+                "fr": "Tunis est la capitale de la 'Tunisie Verte', une ville ancienne mêlant le parfum de la vieille médina au charme de la banlieue colorée de Sidi Bou Said.",
+                "de": "Tunis ist die Hauptstadt des 'grünen Tunesiens', eine alte Stadt, die den Duft der alten Medina mit dem Charme des farbenfrohen Vororts Sidi Bou Said verbindet.",
+                "zh": "突尼斯市是“绿色突尼斯”的首都。这是一座将老城区的气息与多彩的西迪·布·赛义德郊区的魅力融为一体的古老城市。",
+                "ru": "Тунис — столица «Зеленого Туниса», древний город, сочетающий в себе дух старой медины и очарование красочного пригорода Сиди-Бу-Саид."
+            },
+            "details": {
+                "ar": [
+                    "الثقافة المحلية: ثقافة تونسية منفتحة وجامعة لتراث قرطاج والفتح الإسلامي، وتشتهر بتطريزات الشاشية وأطباق الكسكسي الفاخرة.",
+                    "متى تزورها وأجواءها: يُفضل الربيع وبداية الصيف للاستمتاع بشواطئ الضاحية الشمالية وزيارة المعالم التاريخية في جو معتدل.",
+                    "أشهر المعالم: المدينة العتيقة، جامع الزيتونة، ضاحية سيدي بوسعيد، ومتحف باردو الوطني.",
+                    "معلومة لطيفة: هل تعلم أن جامع الزيتونة في مدينة تونس هو ثاني أقدم مسجد بُني في تونس بعد جامع عقبة بن نافع؟"
+                ],
+                "en": [
+                    "Local culture: Open Tunisian culture combining the heritage of Carthage and the Islamic era, famous for Chechia embroidery and fine Couscous dishes.",
+                    "Best time / vibe: Spring and early summer are preferred to enjoy the northern beaches and historical sites in mild weather.",
+                    "Famous landmarks: Old Medina, Al-Zaytuna Mosque, Sidi Bou Said suburb, and Bardo National Museum.",
+                    "Fun fact: Did you know that Al-Zaytuna Mosque in Tunis is the second oldest mosque built in Tunisia after the Mosque of Uqba?"
+                ],
+                "fr": [
+                    "Culture locale : Culture tunisienne ouverte combinant l'héritage de Carthage et l'ère islamique, célèbre pour la Chéchia et le Couscous.",
+                    "Meilleure période / ambiance : Le printemps et le début de l'été sont préférés pour profiter des plages du nord et des sites historiques.",
+                    "Sites célèbres : Vieille médina, mosquée Al-Zaytuna, village de Sidi Bou Saïd et musée national du Bardo.",
+                    "Fait amusant : Saviez-vous que la mosquée Al-Zaytuna est la deuxième plus ancienne mosquée de Tunisie après celle d'Uqba ?"
+                ],
+                "de": [
+                    "Lokale Kultur: Offene tunesische Kultur, die das Erbe von Karthago und der islamischen Ära verbindet, bekannt für Chechia-Stickerei und feine Couscous-Gerichte.",
+                    "Beste Zeit / Stimmung: Frühling und Frühsommer werden bevorzugt, um die nördlichen Strände und historischen Stätten bei mildem Wetter zu genießen.",
+                    "Berühmte Sehenswürdigkeiten: Alte Medina, Al-Zaytuna-Moschee, Vorort Sidi Bou Said und Bardo National Museum.",
+                    "Wissenswertes: Wussten Sie, dass die Al-Zaytuna-Moschee in Tunis die zweitälteste Moschee Tunesiens nach der Moschee von Uqba ist?"
+                ],
+                "zh": [
+                    "当地文化：开放的突尼斯文化，结合了迦太基遗产和伊斯兰时代，因舍希亚刺绣和精美的库斯库斯菜肴而闻名。",
+                    "最佳时间/氛围：建议春季和初夏游览，此时气候温和，适合享受北部海滩并参观历史遗迹。",
+                    "著名地标：老城区、宰图纳大清真寺、西迪·布·赛义德郊区和巴尔多国家博物馆。",
+                    "有趣小知识：您知道吗？突尼斯市的宰图纳大清真寺是突尼斯继奥克巴清真寺之后建造的第二古老的清真寺。"
+                ],
+                "ru": [
+                    "Местная культура: Открытая тунисская культура, сочетающая наследие Карфагена и исламской эпохи, знаменитая вышивкой шешии и изысканным кускусом.",
+                    "Лучшее время / атмосфера: Весна и начало лета предпочтительны для отдыха на северных пляжах и посещения исторических мест при умеренной погоде.",
+                    "Знаковые места: Старая Медина, мечеть Аз-Зайтуна, пригород Сиди-Бу-Саид и Национальный музей Бардо.",
+                    "Интересный факт: Знаете ли вы, что мечеть Аз-Зайтуна в Тунисе — вторая по возрасту мечеть в стране после мечети Укбы?"
+                ]
+            },
+            "gallery": [
+               "https://todotriplist.com/wp-content/uploads/2023/08/Tunis-City-2.jpg"
+            ],
+            "video_idea": "https://res.cloudinary.com/djr9wbmet/video/upload/v1771264381/tckgp5bfnrys3scxooxj.mp4"
+        },
+        {
+            "id": "algiers",
+            "title": {
+                "ar": "الجزائر",
+                "en": "Algiers",
+                "fr": "Alger",
+                "de": "Algier",
+                "zh": "阿尔及尔",
+                "ru": "Алжир"
+            },
+            "description": {
+                "ar": "الجزائر هي 'البهجة' وعاصمة الجزائر، مدينة بيضاء تطل على المتوسط بجمال خلاب، تجمع بين القصبة العتيقة والطابع الأوروبي الحديث.",
+                "en": "Algiers is the 'Behidja' and the capital of Algeria, a white city overlooking the Mediterranean, blending the ancient Casbah with modern European style.",
+                "fr": "Alger est la 'Joyeuse' (El Bahdja) et la capitale de l'Algérie, une ville blanche surplombant la Méditerranée, mêlant l'ancienne Casbah au style européen moderne.",
+                "de": "Algier ist die 'Behidja' und die Hauptstadt von Algerien, eine weiße Stadt mit Blick auf das Mittelmeer, die die antike Kasbah mit modernem europäischem Stil verbindet.",
+                "zh": "阿尔及尔是阿尔及利亚的首都，绰号为“幸福之城”。这是一座俯瞰地中海的白色城市，将古老的卡斯巴区与现代欧洲风格融为一体。",
+                "ru": "Алжир — «Эль-Бахджа» и столица Алжира, «белый город» на берегу Средиземного моря, сочетающий в себе древнюю Касбу и современный европейский стиль."
+            },
+            "details": {
+                "ar": [
+                    "الثقافة المحلية: ثقافة عريقة تتجلى في فنون الشعبي والمالوف، وحياة الزوارق التاريخية في القصبة، وكرم الضيافة الجزائري القوي.",
+                    "متى تزورها وأجواءها: يُفضل زيارتها في فصلي الربيع والخريف حيث تكون الأجواء معتدلة ومثالية للتنزه في شوارعها العريضة وتاريخها.",
+                    "أشهر المعالم: القصبة التاريخية، مقام الشهيد، جامع الجزائر الكبير، وحديقة الحامة.",
+                    "معلومة لطيفة: هل تعلم أن 'قصبة الجزائر' مُدرجة ضمن التراث العالمي لليونسكو بوصفها واحدة من أجمل المدن البحرية في البحر المتوسط؟"
+                ],
+                "en": [
+                    "Local culture: Ancient culture manifested in Chaabi and Maalouf music, historical life in the Casbah, and strong Algerian hospitality.",
+                    "Best time / vibe: Best visited in spring and autumn when the weather is mild and ideal for walking its wide streets and exploring history.",
+                    "Famous landmarks: Historical Casbah, Martyrs' Memorial, Great Mosque of Algiers, and Botanical Garden Hama.",
+                    "Fun fact: Did you know that the 'Casbah of Algiers' is a UNESCO World Heritage site, described as one of the most beautiful coastal cities on the Mediterranean?"
+                ],
+                "fr": [
+                    "Culture locale : Culture ancienne manifestée dans la musique Chaâbi et Maalouf, la vie historique dans la Casbah et la forte hospitalité algérienne.",
+                    "Meilleure période / ambiance : Idéal à visiter au printemps et en automne quand le temps est doux pour se promener dans ses larges rues.",
+                    "Sites célèbres : Casbah historique, Mémorial du Martyr, Grande Mosquée d'Alger et Jardin d'Essai du Hamma.",
+                    "Fait amusant : Saviez-vous que la 'Casbah d'Alger' est classée à l'UNESCO comme l'une des plus belles cités maritimes de la Méditerranée ?"
+                ],
+                "de": [
+                    "Lokale Kultur: Antike Kultur, die sich in Chaabi- und Maalouf-Musik, dem historischen Leben in der Kasbah und der starken algerischen Gastfreundschaft manifestiert.",
+                    "Beste Zeit / Stimmung: Am besten im Frühling und Herbst besuchen, wenn das Wetter mild ist und ideal für Spaziergänge durch seine weiten Straßen.",
+                    "Berühmte Sehenswürdigkeiten: Historische Kasbah, Märtyrer-Denkmal, Große Moschee von Algier und Botanischer Garten Hama.",
+                    "Wissenswertes: Wussten Sie, dass die 'Kasbah von Algier' ein UNESCO-Weltkulturerbe ist und als eine der schönsten Küstenstädte am Mittelmeer gilt?"
+                ],
+                "zh": [
+                    "当地文化：古老的文化体现在 Chaabi 和 Maalouf 音乐、卡斯巴的历史生活中，以及阿尔及利亚人强烈的热情好客。",
+                    "最佳时间/氛围：建议在春季和秋季游览，此时气候温和，非常适合漫步在宽阔的街道上探索历史。",
+                    "著名地标：历史悠久的卡斯巴、烈士纪念塔、阿尔及尔大清真寺和哈马植物园。",
+                    "有趣小知识：您知道吗？“阿尔及尔卡斯巴”是联合国教科文组织世界遗产，被描述为地中海最美丽的海滨城市之一。"
+                ],
+                "ru": [
+                    "Местная культура: Древняя культура, проявляющаяся в музыке шааби и маалуф, историческом укладе жизни в Касбе и крепком алжирском гостеприимстве.",
+                    "Лучшее время / атмосфера: Рекомендуется посещать весной и осенью, когда погода мягкая и идеальна для прогулок по широким улицам и изучения истории.",
+                    "Знаковые места: Историческая Касба, памятник Макам-эль-Шахид, Большая мечеть Алжира и сад Хамма.",
+                    "Интересный факт: Знаете ли вы, что «Касба Алжира» включена в список Всемирного наследия ЮНЕСКО как один из красивейших приморских городов Средиземноморья?"
+                ]
+            },
+            "gallery": [
+              "https://www.travelcenter.uk/blog/wp-content/uploads/2017/12/Algiers.jpg"
+            ],
+            "video_idea": "https://www.youtube.com/watch?v=ga5S8OAnMFI"
+        },
+        {
+            "id": "khartoum",
+            "title": {
+                "ar": "الخرطوم",
+                "en": "Khartoum",
+                "fr": "Khartoum",
+                "de": "Khartum",
+                "zh": "喀土穆",
+                "ru": "Хартум"
+            },
+            "description": {
+                "ar": "الخرطوم هي عاصمة السودان، مدينة النيلين حيث يلتقي النيل الأبيض بالنيل الأزرق، تمثل جسراً ثقافياً عريقاً بين العرب وأفريقيا.",
+                "en": "Khartoum is the capital of Sudan, the city of the two Niles where the White Nile meets the Blue Nile, representing an ancient cultural bridge between Arabs and Africa.",
+                "fr": "Khartoum est la capitale du Soudan, la ville des deux Nils où le Nil Blanc rencontre le Nil Bleu, représentant un pont culturel ancien entre les Arabes et l'Afrique.",
+                "de": "Khartum ist die Hauptstadt des Sudan, die Stadt der zwei Nile, wo der Weiße Nil auf den Blauen Nil trifft und eine alte Kulturbrücke zwischen Arabern und Afrika darstellt.",
+                "zh": "喀土穆是苏丹的首都，是“双尼罗河之城”，白尼罗河与青尼罗河在此交汇，代表了阿拉伯人与非洲之间古老的文化桥梁。",
+                "ru": "Хартум — столица Судана, город двух Нилов, где Белый Нил встречается с Голубым, представляющий собой древний культурный мост между арабами и Африкой."
+            },
+            "details": {
+                "ar": [
+                    "الثقافة المحلية: ثقافة سودانية غنية بالأدب والموسيقى الخماسية، وتشتهر بروح التكافل الاجتماعي وكرم الضيافة الفريد لدى أهل السودان.",
+                    "متى تزورها وأجواءها: يُفضل زيارتها من ديسمبر إلى فبراير حيث تنخفض درجات الحرارة وتكون الأجواء الشتوية مناسبة للاستمتاع بالنيل.",
+                    "أشهر المعالم: نقطة مقرن النيلين، المتحف الوطني السوداني، القصر الجمهوري، وجزيرة توتي.",
+                    "معلومة لطيفة: هل تعلم أن الخرطوم سُميت بهذا الاسم لأن شكل ملتقى النيلين عندها يشبه 'خرطوم الفيل'؟"
+                ],
+                "en": [
+                    "Local culture: Rich Sudanese culture in literature and Pentatonic music, famous for social solidarity and unique hospitality of Sudanese people.",
+                    "Best time / vibe: Best visited from December to February when temperatures drop and winter weather is suitable for enjoying the Nile.",
+                    "Famous landmarks: Mogran (Meeting point of the two Niles), Sudan National Museum, Republican Palace, and Tuti Island.",
+                    "Fun fact: Did you know that Khartoum was named so because the meeting shape of the two Niles resembles an elephant's trunk (Khartoum)?"
+                ],
+                "fr": [
+                    "Culture locale : Riche culture soudanaise en littérature et musique pentatonique, célèbre pour la solidarité sociale et l'hospitalité unique des Soudanais.",
+                    "Meilleure période / ambiance : Idéal de décembre à février quand les températures baissent, météo hivernale parfaite pour profiter du Nil.",
+                    "Sites célèbres : Le Mogran (confluent des deux Nils), musée national du Soudan, palais républicain et île de Tuti.",
+                    "Fait amusant : Saviez-vous que Khartoum a été nommée ainsi parce que le point de rencontre des deux Nils ressemble à une trompe d'éléphant (Khartoum) ?"
+                ],
+                "de": [
+                    "Lokale Kultur: Reiche sudanesische Kultur in Literatur und pentatonischer Musik, bekannt für soziale Solidarität und die einzigartige Gastfreundschaft der Sudanesen.",
+                    "Beste Zeit / Stimmung: Am besten von Dezember bis Februar besuchen, wenn die Temperaturen sinken und das Winterwetter ideal ist, um den Nil zu genießen.",
+                    "Berühmte Sehenswürdigkeiten: Mogran (Zusammenfluss der beiden Nile), Sudanesisches Nationalmuseum, Republikanischer Palast und Insel Tuti.",
+                    "Wissenswertes: Wussten Sie, dass Khartum so genannt wurde, weil die Form des Zusammenflusses der beiden Nile einem Elefantenrüssel (Khartum) ähnelt?"
+                ],
+                "zh": [
+                    "当地文化：在文学和五声音阶音乐方面拥有丰富的苏丹文化，以其社会团结精神和苏丹人独特的热情好客而闻名。",
+                    "最佳时间/氛围：建议从 12 月到次年 2 月游览，此时气温下降，冬季天气非常适合欣赏尼罗河风光。",
+                    "著名地标：尼罗河汇流点 (Mogran)、苏丹国家博物馆、共和国宫和图提岛。",
+                    "有趣小知识：您知道吗？喀土穆之所以得名，是因为两条尼罗河交汇的形状像象鼻（Khartoum）。"
+                ],
+                "ru": [
+                    "Местная культура: Богатая суданская культура в литературе и пентатонической музыке, известная социальной сплоченностью и уникальным гостеприимством суданцев.",
+                    "Лучшее время / атмосфера: Рекомендуется посещать с декабря по февраль, когда температура падает и зимняя погода позволяет насладиться Нилом.",
+                    "Знаковые места: Слияние двух Нилов (Аль-Могран), Национальный музей Судана, Республиканский дворец и остров Тути.",
+                    "Интересный факт: Знаете ли вы, что Хартум получил такое название потому, что форма слияния двух Нилов напоминает хобот слона («хартум»)?"
+                ]
+            },
+            "gallery": [
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIRJVNKtJvWYN3JT1fjgjGSYfNiDiFR3XC4d6NMzQ-AMPnTj4e8Z29XHI&s"
+            ],
+            "video_idea": "https://res.cloudinary.com/djr9wbmet/video/upload/v1771264747/awzfbqb5ujpaa6xffarw.mp4"
+        },
+        {
+            "id": "muscat",
+            "title": {
+                "ar": "مسقط",
+                "en": "Muscat",
+                "fr": "Mascate",
+                "de": "Maskat",
+                "zh": "马斯喀特",
+                "ru": "Маскат"
+            },
+            "description": {
+                "ar": "مسقط هي عاصمة سلطنة عُمان، مدينة هادئة تجمع بين الجبال والبحر، وتشتهر بعمارتها العُمانية الفريدة والأسواق التقليدية العريقة.",
+                "en": "Muscat is the capital of Oman, a quiet city combining mountains and sea, famous for its unique Omani architecture and ancient traditional markets.",
+                "fr": "Mascate est la capitale d'Oman, une ville paisible alliant montagnes et mer, célèbre pour son architecture omanaise unique et ses vieux marchés traditionnels.",
+                "de": "Maskat ist die Hauptstadt von Oman, eine ruhige Stadt, die Berge und Meer verbindet, bekannt für ihre einzigartige omanische Architektur und alte traditionelle Märkte.",
+                "zh": "马斯喀特是阿曼的首都。这是一座结合了山脉和海洋的宁静城市，以其独特的阿曼建筑和古老的传统市场而闻名。",
+                "ru": "Маскат — столица Омана, спокойный город, объединяющий горы и море, знаменитый своей уникальной оманской архитектурой и древними традиционными рынками."
+            },
+            "details": {
+                "ar": [
+                    "الثقافة المحلية: ثقافة عُمانية رصينة تركز على الحفاظ على التراث، وتشتهر بصناعة اللبان، الخناجر العُمانية، وكرم الضيافة الهادئ.",
+                    "متى تزورها وأجواءها: يُفضل زيارتها من نوفمبر إلى مارس حيث تكون الأجواء معتدلة ومثالية للرحلات البحرية والأنشطة الجبلية.",
+                    "أشهر المعالم: جامع السلطان قابوس الأكبر، سوق مطرح، قصر العلم، والمتحف الوطني العُماني.",
+                    "معلومة لطيفة: هل تعلم أن مسقط تُعد واحدة من أكثر العواصم العربية حفاظاً على طابعها المعماري التقليدي مع ارتفاعات محدودة للمباني؟"
+                ],
+                "en": [
+                    "Local culture: A dignified Omani culture focusing on heritage preservation, famous for frankincense production, Omani daggers, and quiet hospitality.",
+                    "Best time / vibe: Best visited from November to March when the weather is mild and ideal for sea cruises and mountain activities.",
+                    "Famous landmarks: Sultan Qaboos Grand Mosque, Mutrah Souq, Al-Alam Palace, and the National Museum of Oman.",
+                    "Fun fact: Did you know that Muscat is one of the most Arab capitals that preserves its traditional architectural style with limited building heights?"
+                ],
+                "fr": [
+                    "Culture locale : Une culture omanaise digne axée sur la préservation du patrimoine, célèbre pour l'encens, les poignards omanais et l'hospitalité calme.",
+                    "Meilleure période / ambiance : Idéal de novembre à mars quand le temps est doux, parfait pour les croisières et les activités de montagne.",
+                    "Sites célèbres : Grande Mosquée du Sultan Qaboos, souk de Mutrah, palais Al-Alam et musée national d'Oman.",
+                    "Fait amusant : Saviez-vous que Mascate est l'une des capitales arabes qui préserve le mieux son style architectural traditionnel ?"
+                ],
+                "de": [
+                    "Lokale Kultur: Eine würdevolle omanische Kultur, die sich auf die Bewahrung des Erbes konzentriert, bekannt für Weihrauch, omanische Dolche und Gastfreundschaft.",
+                    "Beste Zeit / Stimmung: Am besten von November bis März besuchen, wenn das Wetter mild ist und ideal für Kreuzfahrten und Bergaktivitäten.",
+                    "Berühmte Sehenswürdigkeiten: Große Sultan-Qaboos-Moschee, Mutrah Souq, Al-Alam Palast und Nationalmuseum von Oman.",
+                    "Wissenswertes: Wussten Sie, dass Maskat eine der arabischen Hauptstädte ist, die ihren traditionellen Baustil mit begrenzten Gebäudehöhen am besten bewahrt?"
+                ],
+                "zh": [
+                    "当地文化：庄重的阿曼文化，专注于遗产保护，乳香生产、阿曼短剑以及宁静的热情好客而闻名。",
+                    "最佳时间/氛围：建议从 11 月到次年 3 月游览，此时气候温和，非常适合海上巡航和登山活动。",
+                    "著名地标：苏丹卡布斯大清真寺、马特拉集市、阿拉姆宫和阿曼国家博物馆。",
+                    "有趣小知识：您知道吗？马斯喀特是保留其传统建筑风格最完好的阿拉伯首都之一，建筑高度受到严格限制。"
+                ],
+                "ru": [
+                    "Местная культура: Достойная оманская культура, ориентированная на сохранение наследия, знаменитая производством ладана, оманскими кинжалами и спокойным гостеприимством.",
+                    "Лучшее время / атмосфера: Лучше всего посещать с ноября по март, когда погода мягкая и идеальна для морских круизов и походов в горы.",
+                    "Знаковые места: Великая мечеть султана Кабуса, рынок Мутрах, дворец Аль-Алам и Национальный музей Омана.",
+                    "Интересный факт: Знаете ли вы, что Маскат — одна из самых сохранивших традиционный архитектурный стиль арабских столиц с ограниченной высотой зданий?"
+                ]
+            },
+            "gallery": [
+                "https://images.trvl-media.com/place/2238/bdb79a6d-1a76-4c2e-8bf6-7518537fd40f.jpg?impolicy=fcrop&w=1040&h=580&q=mediumHigh"
+            ],
+            "video_idea": "https://www.youtube.com/watch?v=es6PsfmbXX8&vl=ar"
+        }
+    ]
+}

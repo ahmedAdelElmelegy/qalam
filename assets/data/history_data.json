@@ -1,0 +1,424 @@
+{
+  "periods": [
+    {
+      "id": "pre_islamic",
+      "yearRange": "Pre-610 CE",
+      "title": {
+        "ar": "العَصْرُ الجَاهِلِيُّ",
+        "en": "Pre-Islamic Era",
+        "fr": "L'ère préislamique",
+        "de": "Vorislamische Zeit",
+        "zh": "前伊斯兰时期",
+        "ru": "Доисламская эпоха"
+      },
+      "description": {
+        "ar": "نَشَأَتِ اللُّغَةُ العَرَبِيَّةُ فِي شِبْهِ الجَزِيرَةِ العَرَبِيَّةِ وَتَمَيَّزَتْ بِالشِّعْرِ الفَصِيحِ وَالمُعَلَّقَاتِ الَّتِي خَلَّدَتْ بَلَاغَةَ العَرَبِ قَبْلَ الإِسْلَامِ.",
+        "en": "Arabic originated in the Arabian Peninsula, distinguished by eloquent poetry and the Mu'allaqat, immortalizing Arab rhetoric before Islam.",
+        "fr": "L'arabe est née dans la péninsule arabique, distinguée par une poésie éloquente et les Mu'allaqat, immortalisant la rhétorique arabe avant l'Islam.",
+        "de": "Das Arabische entstand auf der Arabischen Halbinsel, ausgezeichnet durch eloquente Poesie und die Mu'allaqat, die die arabische Rhetorik vor dem Islam verewigten.",
+        "zh": "阿拉伯语起源于阿拉伯半岛，以雄辩的诗歌和悬诗著称，这些作品永垂不朽地记录了伊斯兰教之前的阿拉伯修辞。",
+        "ru": "Арабский язык зародился на Аравийском полуострове, отличаясь красноречивой поэзией и Муаллакат, увековечивающими арабскую риторику до ислама."
+      },
+      "detailedDescription": {
+        "ar": [
+          "يَعُودُ أَصْلُ اللُّغَةِ العَرَبِيَّةِ إِلَى الأُسْرَةِ السَّامِيَّةِ، وَقَدْ نَشَأَتْ فِي شِبْهِ الجَزِيرَةِ العَرَبِيَّةِ.",
+          "تَمَيَّزَ العَصْرُ الجَاهِلِيُّ بِفَصَاحَةِ اللِّسَانِ وَقُوَّةِ البَيَانِ، حَيْثُ كَانَ الشِّعْرُ هُوَ دِيوَانَ العَرَبِ وَسِجِلَّ مَآثِرِهِمْ.",
+          "تُعْتَبَرُ المُعَلَّقَاتُ مِنْ أَهَمِّ النَّمَاذِجِ الأَدَبِيَّةِ فِي هَذَا العَصْرِ، وَهِيَ قَصَائِدُ طَوِيلَةٌ عُلِّقَتْ عَلَى أَسْتَارِ الكَعْبَةِ تَقْدِيراً لِبَلَاغَتِهَا.",
+          "كَانَتِ اللُّغَةُ العَرَبِيَّةُ فِي هَذَا العَصْرِ نَقِيَّةً لَمْ تُخَالِطْهَا العُجْمَةُ، وَكَانَتِ القَبَائِلُ تَتَنَافَسُ فِي نَظْمِ الشِّعْرِ وَالخَطَابَةِ."
+        ],
+        "en": [
+          "The origins of Arabic trace back to the Semitic family, emerging within the Arabian Peninsula.",
+          "The Pre-Islamic era was marked by linguistic eloquence and powerful expression, where poetry served as the record of Arab achievements.",
+          "The Mu'allaqat are considered the most important literary examples of this era, long poems hung on the Kaaba curtains in honor of their rhetoric.",
+          "Arabic in this era was pure and unmixed with foreign tongues, with tribes competing in poetry composition and oratory."
+        ],
+        "fr": [
+          "Les origines de l'arabe remontent à la famille sémitique, émergeant dans la péninsule arabique.",
+          "L'ère préislamique était marquée par l'éloquence linguistique et l'expression puissante, où la poésie servait de registre des réalisations arabes.",
+          "Les Mu'allaqat sont considérées comme les exemples littéraires les plus importants de cette époque, de longs poèmes accrochés aux rideaux de la Kaaba en l'honneur de leur rhétorique.",
+          "L'arabe à cette époque était pur et non mélangé avec des langues étrangères, les tribus rivalisant dans la composition poétique et l'art oratoire."
+        ],
+        "de": [
+          "Die Ursprünge des Arabischen gehen auf die semitische Familie zurück und entstanden auf der Arabischen Halbinsel.",
+          "Die vorislamische Ära war geprägt von sprachlicher Eloquenz und kraftvollem Ausdruck, wo Poesie als Aufzeichnung arabischer Errungenschaften diente.",
+          "Die Mu'allaqat gelten als die wichtigsten literarischen Beispiele dieser Epoche, lange Gedichte, die zu Ehren ihrer Rhetorik an den Vorhängen der Kaaba aufgehängt wurden.",
+          "Das Arabische war in dieser Ära rein und unvermischt mit fremden Sprachen, wobei Stämme in der Poesiekomposition und Redekunst konkurrierten."
+        ],
+        "zh": [
+          "阿拉伯语的起源可以追溯到闪米特语系，出现在阿拉伯半岛。",
+          "前伊斯兰时期以语言的雄辩和强大的表达为标志，诗歌作为阿拉伯成就的记录。",
+          "悬诗被认为是这个时代最重要的文学典范，这些长诗因其修辞而被悬挂在天房的帷幕上。",
+          "这个时代的阿拉伯语是纯粹的，没有与外来语言混合，部落之间在诗歌创作和演讲方面展开竞争。"
+        ],
+        "ru": [
+          "Происхождение арабского языка восходит к семитской семье, возникшей на Аравийском полуострове.",
+          "Доисламская эпоха отличалась языковым красноречием и мощным выражением, где поэзия служила записью арабских достижений.",
+          "Муаллакат считаются самыми важными литературными примерами этой эпохи, длинными поэмами, повешенными на занавесях Каабы в честь их риторики.",
+          "Арабский язык в эту эпоху был чистым и не смешанным с иностранными языками, племена соревновались в сочинении поэзии и ораторском искусстве."
+        ]
+      },
+      "imageUrl": "https://cdn.thecollector.com/wp-content/uploads/2023/06/alabaster-votive-figurines-from-yemen.jpg?width=671&quality=100&dpr=2",
+      "audioUrl": ""
+    },
+    {
+      "id": "early_islam",
+      "yearRange": "610 - 661 CE",
+      "title": {
+        "ar": "العَصْرُ الإِسْلَامِيُّ",
+        "en": "Early Islamic Era",
+        "fr": "Début de l'Islam",
+        "de": "Frühislamische Zeit",
+        "zh": "伊斯兰教早期",
+        "ru": "Ранний ислам"
+      },
+      "description": {
+        "ar": "نُزُولُ القُرْآنِ الكَرِيمِ بِلِسَانٍ عَرَبِيٍّ مُبِينٍ وَحَّدَ اللَّهَجَاتِ العَرَبِيَّةَ وَحَفِظَ اللُّغَةَ مِنَ الضَّيَاعِ، وَبَدَأَتْ كِتَابَةُ المُصْحَفِ.",
+        "en": "The revelation of the Quran in clear Arabic unified dialects and preserved the language. The writing of the Mushaf began.",
+        "fr": "La révélation du Coran en arabe clair a unifié les dialectes et préservé la langue. L'écriture du Mushaf a commencé.",
+        "de": "Die Offenbarung des Korans in klarem Arabisch vereinte Dialekte und bewahrte die Sprache. Das Schreiben des Mushaf begann.",
+        "zh": "《古兰经》以清晰的阿拉伯语启示统一了方言并保存了语言。《古兰经》的书写开始了。",
+        "ru": "Откровение Корана на ясном арабском языке объединило диалекты и сохранило язык. Началось написание Мусхафа."
+      },
+      "detailedDescription": {
+        "ar": [
+          "مَعَ نُزُولِ القُرْآنِ الكَرِيمِ، اكْتَسَبَتِ اللُّغَةُ العَرَبِيَّةُ قُدْسِيَّةً خَاصَّةً وَأَصْبَحَتْ لُغَةَ الدِّينِ الإِسْلَامِيِّ.",
+          "سَاهَمَ القُرْآنُ فِي تَوْحِيدِ لَهَجَاتِ القَبَائِلِ العَرَبِيَّةِ المُخْتَلِفَةِ فِي لُغَةِ قُرَيْشٍ الفُصْحَى.",
+          "بَدَأَتْ فِي هَذَا العَصْرِ حَرَكَةُ تَدْوِينِ القُرْآنِ الكَرِيمِ لِحِفْظِهِ، مِمَّا أَدَّى لَاحِقاً إِلَى تَطَوُّرِ الكِتَابَةِ العَرَبِيَّةِ.",
+          "دَخَلَتْ كَلِمَاتٌ وَعِبَارَاتٌ إِسْلَامِيَّةٌ جَدِيدَةٌ إِلَى القَامُوسِ العَرَبِيِّ، مِمَّا أَثْرَى اللُّغَةَ بِمُصْطَلَحَاتٍ دِينِيَّةٍ وَفِقْهِيَّةٍ."
+        ],
+        "en": [
+          "With the revelation of the Quran, Arabic gained a special sanctity and became the language of the Islamic faith.",
+          "The Quran contributed to unifying the dialects of different Arab tribes into the classical Quraysh dialect.",
+          "The movement to record the Quran began in this era to preserve it, leading subsequently to the development of Arabic script.",
+          "New Islamic words and phrases entered the Arabic dictionary, enriching the language with religious and jurisprudential terms."
+        ],
+        "fr": [
+          "Avec la révélation du Coran, l'arabe a acquis une sainteté spéciale et est devenu la langue de la foi islamique.",
+          "Le Coran a contribué à unifier les dialectes des différentes tribus arabes dans le dialecte classique de Quraysh.",
+          "Le mouvement d'enregistrement du Coran a commencé à cette époque pour le préserver, conduisant par la suite au développement de l'écriture arabe.",
+          "De nouveaux mots et expressions islamiques sont entrés dans le dictionnaire arabe, enrichissant la langue de termes religieux et juridiques."
+        ],
+        "de": [
+          "Mit der Offenbarung des Korans erlangte das Arabische eine besondere Heiligkeit und wurde zur Sprache des islamischen Glaubens.",
+          "Der Koran trug dazu bei, die Dialekte verschiedener arabischer Stämme in den klassischen Quraysh-Dialekt zu vereinen.",
+          "Die Bewegung zur Aufzeichnung des Korans begann in dieser Ära, um ihn zu bewahren, was anschließend zur Entwicklung der arabischen Schrift führte.",
+          "Neue islamische Wörter und Phrasen gelangten in das arabische Wörterbuch und bereicherten die Sprache mit religiösen und juristischen Begriffen."
+        ],
+        "zh": [
+          "随着《古兰经》的启示，阿拉伯语获得了特殊的神圣性，成为伊斯兰信仰的语言。",
+          "《古兰经》有助于将不同阿拉伯部落的方言统一为古来氏的古典方言。",
+          "这个时代开始了记录《古兰经》的运动以保存它，随后导致了阿拉伯文字的发展。",
+          "新的伊斯兰词汇和短语进入了阿拉伯词典，用宗教和法学术语丰富了语言。"
+        ],
+        "ru": [
+          "С откровением Корана арабский язык приобрел особую святость и стал языком исламской веры.",
+          "Коран способствовал объединению диалектов различных арабских племен в классический диалект курайшитов.",
+          "Движение по записи Корана началось в эту эпоху для его сохранения, что впоследствии привело к развитию арабской письменности.",
+          "Новые исламские слова и фразы вошли в арабский словарь, обогатив язык религиозными и юридическими терминами."
+        ]
+      },
+      "imageUrl": "https://blog.ravulacharan.com/wp-content/uploads/2024/08/A-Comprehensive-History-of-Islam.webp",
+      "audioUrl": ""
+    },
+    {
+      "id": "umayyad",
+      "yearRange": "661 - 750 CE",
+      "title": {
+        "ar": "العَصْرُ الأُمَوِيُّ",
+        "en": "Umayyad Period",
+        "fr": "Période Omeyyade",
+        "de": "Umayyaden-Zeit",
+        "zh": "伍麦叶王朝时期",
+        "ru": "Омейядский период"
+      },
+      "description": {
+        "ar": "أَصْبَحَتِ العَرَبِيَّةُ لُغَةَ الدَّوْلَةِ الرَّسْمِيَّةَ وَالدَّوَاوِينَ. تَمَّ وَضْعُ قَوَاعِدِ النَّحْوِ وَتَنْقِيطِ الحُرُوفِ لِلحِفَاظِ عَلَى سَلَامَةِ النُّطْقِ.",
+        "en": "Arabic became the official state language. Grammar rules were established and dotting added to preserve pronunciation.",
+        "fr": "L'arabe est devenu la langue officielle de l'État. Les règles de grammaire ont été établies et les points ajoutés pour préserver la prononciation.",
+        "de": "Arabisch wurde zur offiziellen Staatssprache. Grammatikregeln wurden etabliert und Punkte hinzugefügt, um die Aussprache zu bewahren.",
+        "zh": "阿拉伯语成为官方国家语言。建立了语法规则并添加了点以保留发音。",
+        "ru": "Арабский стал официальным государственным языком. Были установлены грамматические правила и добавлены точки для сохранения произношения."
+      },
+      "detailedDescription": {
+        "ar": [
+          "فِي العَصْرِ الأُمَوِيِّ، أَصْبَحَتِ اللُّغَةُ العَرَبِيَّةُ اللُّغَةَ الرَّسْمِيَّةَ لِلدَّوْلَةِ الإِسْلَامِيَّةِ المُتَّسِعَةِ، وَحَلَّتْ مَحَلَّ اللُّغَاتِ المَحَلِّيَّةِ فِي الدَّوَاوِينِ.",
+          "خَوْفاً مِنَ اللَّحْنِ (الخَطَأِ فِي اللُّغَةِ) بِسَبَبِ اخْتِلَاطِ العَرَبِ بِغَيْرِهِمْ، قَامَ أَبُو الأَسْوَدِ الدُّؤَلِيُّ بِوَضْعِ قَوَاعِدِ النَّحْوِ.",
+          "تَمَّ تَنْقِيطُ المُصْحَفِ الشَّرِيفِ وَالحُرُوفِ العَرَبِيَّةِ فِي عَهْدِ عَبْدِ المَلِكِ بْنِ مَرْوَانَ لِتَمْيِيزِ الحُرُوفِ المُتَشَابِهَةِ.",
+          "ازْدَهَرَ الشِّعْرُ السِّيَاسِيُّ وَشِعْرُ النَّقَائِضِ، وَتَطَوَّرَتِ الخَطَابَةُ لِتُنَاسِبَ احْتِيَاجَاتِ الدَّوْلَةِ."
+        ],
+        "en": [
+          "In the Umayyad era, Arabic became the official language of the expanding Islamic state, replacing local languages in administration.",
+          "Fearing linguistic errors due to Arabs mixing with non-Arabs, Abu al-Aswad al-Du'ali established the rules of grammar.",
+          "The Quran and Arabic letters were dotted during the reign of Abd al-Malik ibn Marwan to distinguish similar letters.",
+          "Political poetry and Naqa'id poetry flourished, and oratory developed to suit the needs of the state."
+        ],
+        "fr": [
+          "À l'époque des Omeyyades, l'arabe est devenu la langue officielle de l'État islamique en expansion, remplaçant les langues locales dans l'administration.",
+          "Craignant les erreurs linguistiques dues au mélange des Arabes avec les non-Arabes, Abu al-Aswad al-Du'ali a établi les règles de la grammaire.",
+          "Le Coran et les lettres arabes ont été pointés pendant le règne d'Abd al-Malik ibn Marwan pour distinguer les lettres similaires.",
+          "La poésie politique et la poésie Naqa'id ont prospéré, et l'art oratoire s'est développé pour répondre aux besoins de l'État."
+        ],
+        "de": [
+          "In der Umayyaden-Ära wurde Arabisch zur offiziellen Sprache des expandierenden islamischen Staates und ersetzte lokale Sprachen in der Verwaltung.",
+          "Aus Angst vor sprachlichen Fehlern aufgrund der Vermischung von Arabern mit Nicht-Arabern etablierte Abu al-Aswad al-Du'ali die Grammatikregeln.",
+          "Der Koran und arabische Buchstaben wurden während der Herrschaft von Abd al-Malik ibn Marwan gepunktet, um ähnliche Buchstaben zu unterscheiden.",
+          "Politische Poesie und Naqa'id-Poesie blühten auf, und die Redekunst entwickelte sich, um den Bedürfnissen des Staates gerecht zu werden."
+        ],
+        "zh": [
+          "在倭马亚时代，阿拉伯语成为不断扩张的伊斯兰国家的官方语言，在行政管理中取代了当地语言。",
+          "由于担心阿拉伯人与非阿拉伯人混合会导致语言错误，阿布·阿斯瓦德·杜阿利建立了语法规则。",
+          "在阿卜杜勒-马利克·伊本·马尔万统治期间，《古兰经》和阿拉伯字母被加点以区分相似的字母。",
+          "政治诗歌和纳卡伊德诗歌蓬勃发展，演讲艺术也发展以适应国家的需要。"
+        ],
+        "ru": [
+          "В эпоху Омейядов арабский стал официальным языком расширяющегося исламского государства, заменив местные языки в администрации.",
+          "Опасаясь лингвистических ошибок из-за смешения арабов с неарабами, Абу аль-Асвад ад-Дуали установил правила грамматики.",
+          "Коран и арабские буквы были снабжены точками во время правления Абд аль-Малика ибн Марвана, чтобы различать похожие буквы.",
+          "Политическая поэзия и поэзия Накаид процветали, а ораторское искусство развивалось в соответствии с потребностями государства."
+        ]
+      },
+      "imageUrl": "https://www.syria.tv/sites/default/files/styles/article_870_490/public/2021-08/abbasssid_edited.jpg?itok=jhxd8uTz",
+      "audioUrl": ""
+    },
+    {
+      "id": "abbasid",
+      "yearRange": "750 - 1258 CE",
+      "title": {
+        "ar": "العَصْرُ العَبَّاسِيُّ",
+        "en": "Abbasid Period",
+        "fr": "Période Abbasside",
+        "de": "Abbasiden-Zeit",
+        "zh": "阿拔斯王朝时期",
+        "ru": "Аббасидский период"
+      },
+      "description": {
+        "ar": "العَصْرُ الذَّهَبِيُّ لِلْعُلُومِ وَالتَّرْجَمَةِ. ازْدَهَرَتِ اللُّغَةُ بِمُصْطَلَحَاتٍ عِلْمِيَّةٍ وَفَلْسَفِيَّةٍ جَدِيدَةٍ فِي بَيْتِ الحِكْمَةِ بِمَغْدَادَ.",
+        "en": "The Golden Age of science and translation. The language flourished with new scientific terms at the House of Wisdom.",
+        "fr": "L'âge d'or de la science et de la traduction. La langue a prospéré avec de nouveaux termes scientifiques à la Maison de la Sagesse.",
+        "de": "Das Goldene Zeitalter der Wissenschaft und Übersetzung. Die Sprache blühte mit neuen wissenschaftlichen Begriffen im Haus der Weisheit auf.",
+        "zh": "科学与翻译的黄金时代。语言在智慧宫以新的科学术语蓬勃发展。",
+        "ru": "Золотой век науки и перевода. Язык процветал с новыми научными терминами в Доме мудрости."
+      },
+      "detailedDescription": {
+        "ar": [
+          "يُعْتَبَرُ العَصْرُ العَبَّاسِيُّ العَصْرَ الذَّهَبِيَّ لِلْحَضَارَةِ الإِسْلَامِيَّةِ، حَيْثُ شَهِدَتِ اللُّغَةُ العَرَبِيَّةُ نَهْضةً عِلْمِيَّةً كُبْرَى.",
+          "تَمَّ إِنْشَاءُ بَيْتِ الحِكْمَةِ فِي بَغْدَادَ، وَنَشِطَتْ حَرَكَةُ التَّرْجَمَةِ مِنَ اليُونَانِيَّةِ وَالفَارِسِيَّةِ وَالهِنْدِيَّةِ إِلَى العَرَبِيَّةِ.",
+          "تَطَوَّرَتِ اللُّغَةُ العَرَبِيَّةُ لِتَسْتَوْعِبَ المُصْطَلَحَاتِ العِلْمِيَّةَ وَالفَلْسَفِيَّةَ وَالطِّبِّيَّةَ المُعَقَّدَةَ.",
+          "ظَهَرَتِ المَدَارِسُ اللُّغَوِيَّةُ الكُبْرَى مِثْلَ مَدْرَسَةِ البَصْرَةِ وَمَدْرَسَةِ الكُوفَةِ، وَتَحَدَّدَتْ قَوَاعِدُ النَّحْوِ وَالصَّرْفِ بِشَكْلٍ نِهَائِيٍّ."
+        ],
+        "en": [
+          "The Abbasid era is considered the Golden Age of Islamic civilization, where Arabic witnessed a major scientific renaissance.",
+          "The House of Wisdom was established in Baghdad, and the translation movement from Greek, Persian, and Indian to Arabic flourished.",
+          "Arabic evolved to accommodate complex scientific, philosophical, and medical terms.",
+          "Major linguistic schools like the Basra and Kufa schools emerged, and grammar and morphology rules were definitively established."
+        ],
+        "fr": [
+          "L'ère abbasside est considérée comme l'âge d'or de la civilisation islamique, où l'arabe a connu une renaissance scientifique majeure.",
+          "La Maison de la Sagesse a été établie à Bagdad, et le mouvement de traduction du grec, du persan et de l'indien vers l'arabe a prospéré.",
+          "L'arabe a évolué pour accueillir des termes scientifiques, philosophiques et médicaux complexes.",
+          "Des écoles linguistiques majeures comme les écoles de Bassora et de Koufa ont émergé, et les règles de grammaire et de morphologie ont été définitivement établies."
+        ],
+        "de": [
+          "Die Abbasiden-Ära gilt als das Goldene Zeitalter der islamischen Zivilisation, in der das Arabische eine große wissenschaftliche Renaissance erlebte.",
+          "Das Haus der Weisheit wurde in Bagdad gegründet, und die Übersetzungsbewegung aus dem Griechischen, Persischen und Indischen ins Arabische blühte auf.",
+          "Arabisch entwickelte sich, um komplexe wissenschaftliche, philosophische und medizinische Begriffe aufzunehmen.",
+          "Große Sprachschulen wie die Schulen von Basra und Kufa entstanden, und Grammatik- und Morphologieregeln wurden endgültig etabliert."
+        ],
+        "zh": [
+          "阿拔斯时代被认为是伊斯兰文明的黄金时代，阿拉伯语见证了重大的科学复兴。",
+          "巴格达建立了智慧宫，从希腊语、波斯语和印度语到阿拉伯语的翻译运动蓬勃发展。",
+          "阿拉伯语发展以容纳复杂的科学、哲学和医学术语。",
+          "巴士拉学派和库法学派等主要语言学校出现了，语法和词法规则最终得以确立。"
+        ],
+        "ru": [
+          "Аббасидская эпоха считается Золотым веком исламской цивилизации, когда арабский язык пережил крупный научный ренессанс.",
+          "Дом мудрости был основан в Багдаде, и процветало движение перевода с греческого, персидского и индийского на арабский.",
+          "Арабский язык эволюционировал, чтобы вместить сложные научные, философские и медицинские термины.",
+          "Появились крупные лингвистические школы, такие как школы Басры и Куфы, и грамматические и морфологические правила были окончательно установлены."
+        ]
+      },
+      "imageUrl": "https://res.cloudinary.com/djr9wbmet/image/upload/v1770879255/nsqzvqkgp1afp01nptiu.jpg",
+      "audioUrl": ""
+    },
+    {
+      "id": "andalusian",
+      "yearRange": "711 - 1492 CE",
+      "title": {
+        "ar": "العَصْرُ الأَنْدَلُسِيُّ",
+        "en": "Andalusian Period",
+        "fr": "Période Andalouse",
+        "de": "Andalusische Zeit",
+        "zh": "安达卢西亚时期",
+        "ru": "Андалузский период"
+      },
+      "description": {
+        "ar": "ازْدِهَارُ الثَّقَافَةِ وَالأَدَبِ فِي الأَنْدَلُسِ. تَمَيَّزَتْ هَذِهِ الفَتْرَةُ بِالمُوَشَّحَاتِ الشِّعْرِيَّةِ وَالتَّبَادُلِ الثَّقَافِيِّ الفَرِيدِ بَيْنَ الشَّرْقِ وَالغَرْبِ.",
+        "en": "Flourishing of culture and literature in Andalusia. This period was marked by Muwashshah poetry and unique cultural exchange.",
+        "fr": "Épanouissement de la culture et de la littérature en Andalousie. Cette période a été marquée par la poésie Muwashshah et un échange culturel unique.",
+        "de": "Blütezeit von Kultur und Literatur in Andalusien. Diese Zeit war geprägt von Muwaschschah-Poesie und einzigartigem kulturellem Austausch.",
+        "zh": "安达卢西亚文化和文学的繁荣。这一时期的特点是 Muwashshah 诗歌和独特的文化交流。",
+        "ru": "Расцвет культуры и литературы в Андалусии. Этот период ознаменовался поэзией Мувашшах и уникальным культурным обменом."
+      },
+      "detailedDescription": {
+        "ar": [
+          "مَثَّلَتِ الأَنْدَلُسُ جِسْراً حَضَارِيّاً بَيْنَ الشَّرْقِ وَالغَرْبِ، حَيْثُ امْتَزَجَتِ الثَّقَافَاتُ العَرَبِيَّةُ وَالأُورُوبِّيَّةُ.",
+          "ظَهَرَ فَنُّ المُوَشَّحَاتِ الأَنْدَلُسِيَّةِ، وَهُوَ نَمَطٌ جَدِيدٌ مِنَ الشِّعْرِ خَرَجَ عَنِ القَوَاعِدِ التَّقْلِيدِيَّةِ لِلقَصِيدَةِ العَرَبِيَّةِ.",
+          "انْتَقَلَتْ عُلُومُ اليُونَانِ وَالعَرَبِ عَبْرَ الأَنْدَلُسِ إِلَى أُورُوبَّا، مِمَّا سَاهَمَ فِي انْطِلَاقِ النَّهْضَةِ الأُورُوبِّيَّةِ.",
+          "ازْدَهَرَ العِمَارَةُ وَالزَّخْرَفَةُ بِلَمَسَاتٍ عَرَبِيَّةٍ فَرِيدَةٍ لَا تَزَالُ مَاثِلَةً فِي قُصُورِ الحَمْرَاءِ وَجَامِعِ قُرْطُبَةَ."
+        ],
+        "en": [
+          "Andalusia represented a civilizational bridge between East and West, where Arab and European cultures merged.",
+          "The art of Andalusian Muwashshahat emerged, a new style of poetry that diverged from traditional Arabic poem rules.",
+          "Greek and Arab sciences passed through Andalusia to Europe, contributing to the start of the European Renaissance.",
+          "Architecture and decoration flourished with unique Arab touches still present in the Alhambra and Cordoba Mosque."
+        ],
+        "fr": [
+          "L'Andalousie représentait un pont civilisationnel entre l'Orient et l'Occident, où les cultures arabe et européenne fusionnaient.",
+          "L'art des Muwashshahat andalous est apparu, un nouveau style de poésie qui s'écartait des règles traditionnelles des poèmes arabes.",
+          "Les sciences grecques et arabes sont passées par l'Andalousie vers l'Europe, contribuant au début de la Renaissance européenne.",
+          "L'architecture et la décoration ont prospéré avec des touches arabes uniques toujours présentes à l'Alhambra et à la mosquée de Cordoue."
+        ],
+        "de": [
+          "Andalusien stellte eine zivilisatorische Brücke zwischen Ost und West dar, wo arabische und europäische Kulturen verschmolzen.",
+          "Die Kunst der andalusischen Muwaschschah entstand, ein neuer Poesiestil, der von den traditionellen Regeln arabischer Gedichte abwich.",
+          "Griechische und arabische Wissenschaften gelangten über Andalusien nach Europa und trugen zum Beginn der europäischen Renaissance bei.",
+          "Architektur und Dekoration blühten mit einzigartigen arabischen Nuancen auf, die noch heute in der Alhambra und der Moschee von Cordoba präsent sind."
+        ],
+        "zh": [
+          "安达卢西亚代表了东西方之间的文明桥梁，阿拉伯和欧洲文化在这里融合。",
+          "安达卢西亚 Muwashshahat 艺术出现，这是一种脱离传统阿拉伯诗歌规则的新诗歌风格。",
+          "希腊和阿拉伯科学通过安达卢西亚传到欧洲，促进了欧洲文艺复兴的开始。",
+          "建筑和装饰随着独特的阿拉伯风格而繁荣，阿尔罕布拉宫和科尔多瓦清真寺至今仍保留着这些风格。"
+        ],
+        "ru": [
+          "Андалусия представляла собой цивилизационный мост между Востоком и Западом, где сливались арабская и европейская культуры.",
+          "Появилось искусство андалузских мувашшахат — новый стиль поэзии, отошедший от традиционных правил арабских стихотворений.",
+          "Греческие и арабские науки передавались через Андалусию в Европу, что способствовало началу европейского Возрождения.",
+          "Архитектура и декораторское искусство процветали с уникальными арабскими чертами, которые до сих пор присутствуют в Альгамбре и Кордовской мечети."
+        ]
+      },
+      "imageUrl": "https://res.cloudinary.com/djr9wbmet/image/upload/v1770879287/jsss1fe1o0hjst26lbbj.jpg",
+      "audioUrl": ""
+    },
+    {
+      "id": "ottoman",
+      "yearRange": "1299 - 1922 CE",
+      "title": {
+        "ar": "العَصْرُ العُثْمَانِيُّ",
+        "en": "Ottoman Period",
+        "fr": "Période Ottomane",
+        "de": "Osmanische Zeit",
+        "zh": "奥斯曼时期",
+        "ru": "Османский период"
+      },
+      "description": {
+        "ar": "تَطَوُّرُ الخَطِّ العَرَبِيِّ وَظَهَرَتْ حُطُوطٌ جَدِيدَةٌ مِثْلَ الدِّيوَانِيِّ. تَأَثَّرَتِ اللُّغَةُ بِالتُّرْكِيَّةِ وَالفَارِسِيَّةِ وَلَكِنْ ظَلَّتْ لُغَةَ الدِّينِ وَالعِلْمِ.",
+        "en": "Arabic calligraphy evolved with styles like Diwani. The language was influenced by Turkish/Persian but remained key for religion.",
+        "fr": "La calligraphie arabe a évolué avec des styles comme le Diwani. La langue a été influencée par le turc et le persan mais est restée essentielle pour la religion.",
+        "de": "Die arabische Kalligrafie entwickelte sich mit Stilen wie Diwani weiter. Die Sprache wurde vom Türkischen und Persischen beeinflusst, blieb aber entscheidend für die Religion.",
+        "zh": "阿拉伯书法随迪瓦尼等风格而演变。该语言受到土耳其语/波斯语的影响，但仍是宗教的关键。",
+        "ru": "Арабская каллиграфия развивалась вместе с такими стилями, как дивани. Язык находился под влиянием турецкого и персидского языков, но оставался ключевым для религии."
+      },
+      "detailedDescription": {
+        "ar": [
+          "رَغْمَ سَيْطَرَةِ اللُّغَةِ التُّرْكِيَّةِ كَلُغَةٍ رَسْمِيَّةٍ، احْتَفَظَتِ العَرَبِيَّةُ بِمَكَانَتِهَا كَلُغَةٍ لِلدِّينِ وَالعِلْمِ وَالقَانُونِ.",
+          "بَلَغَ الخَطُّ العَرَبِيُّ ذُرْوَةَ جَمَالِهِ وَتَطَوُّرِهِ، وَظَهَرَتْ خُطُوطٌ جَدِيدَةٌ مُبْتَكَرَةٌ مِثْلَ خَطِّ الرُّقْعَةِ وَالخَطِّ الدِّيوَانِيِّ.",
+          "تَأَثَّرَتِ العَرَبِيَّةُ بِالمُفْرَدَاتِ التُّرْكِيَّةِ وَالفَارِسِيَّةِ، وَدَخَلَتْ بَعْضُ التَّرََاكِيبِ الأَعْجَمِيَّةِ إِلَى اللُّغَةِ المَحْكِيَّةِ.",
+          "ظَلَّتِ المَخْطُوطَاتُ وَالكُتُبُ الدِّينِيَّةُ تُكْتَبُ بِالعَرَبِيَّةِ، مِمَّا حَافَظَ عَلَى اسْتِمْرَارِيَّةِ اللُّغَةِ الفُصْحَى."
+        ],
+        "en": [
+          "Despite Turkish being the official language, Arabic retained its status as the language of religion, science, and law.",
+          "Arabic calligraphy reached its peak of beauty and development, with innovative new scripts like Ruq'ah and Diwani appearing.",
+          "Arabic was influenced by Turkish and Persian vocabulary, and some foreign structures entered the spoken language.",
+          "Manuscripts and religious books continued to be written in Arabic, preserving the continuity of Classical Arabic."
+        ],
+        "fr": [
+          "Bien que le turc soit la langue officielle, l'arabe a conservé son statut de langue de la religion, de la science et du droit.",
+          "La calligraphie arabe a atteint son apogée de beauté et de développement, avec l'apparition de nouvelles écritures innovantes comme le Ruq'ah et le Diwani.",
+          "L'arabe a été influencé par le vocabulaire turc et persan, et certaines structures étrangères sont entrées dans la langue parlée.",
+          "Les manuscrits et les livres religieux ont continué à être écrits en arabe, préservant la continuité de l'arabe classique."
+        ],
+        "de": [
+          "Obwohl Türkisch die Amtssprache war, behielt Arabisch seinen Status als Sprache der Religion, Wissenschaft und des Rechts bei.",
+          "Die arabische Kalligrafie erreichte ihren Höhepunkt an Schönheit und Entwicklung, wobei innovative neue Schriften wie Ruq'ah und Diwani auftauchten.",
+          "Arabisch wurde vom türkischen und persischen Vokabular beeinflusst, und einige fremde Strukturen hielten Einzug in die gesprochene Sprache.",
+          "Manuskripte und religiöse Bücher wurden weiterhin auf Arabisch verfasst, wodurch die Kontinuität des klassischen Arabisch gewahrt blieb."
+        ],
+        "zh": [
+          "尽管土耳其语是官方语言，但阿拉伯语仍保留其作为宗教、科学和法律语言的地位。",
+          "阿拉伯书法达到了美感和发展的顶峰，出现了 Ruq'ah 和 Diwani 等创新文字。",
+          "阿拉伯语受到土耳其语和波斯语词汇的影响，一些外国结构进入了口语。",
+          "手稿和宗教书籍继续用阿拉伯语编写，保持了古典阿拉伯语的连续性。"
+        ],
+        "ru": [
+          "Несмотря на то, что турецкий язык был официальным, арабский сохранил свой статус языка религии, науки и права.",
+          "Арабская каллиграфия достигла пика красоты и развития, появились новые инновационные шрифты, такие как рукка и дивани.",
+          "На арабский язык повлиял турецкий и персидский словарный запас, а в разговорный язык вошли некоторые иностранные структуры.",
+          "Рукописи и религиозные книги продолжали писаться на арабском языке, сохраняя преемственность классического арабского языка."
+        ]
+      },
+      "imageUrl": "https://res.cloudinary.com/djr9wbmet/image/upload/v1770880174/ypbl3mpflkqznt3jcbgu.jpg",
+      "audioUrl": ""
+    },
+    {
+      "id": "modern",
+      "yearRange": "19th Century - Present",
+      "title": {
+        "ar": "العَصْرُ الحَدِيثُ",
+        "en": "Modern Era",
+        "fr": "L'ère moderne",
+        "de": "Moderne Zeit",
+        "zh": "现代",
+        "ru": "Современная эпоха"
+      },
+      "description": {
+        "ar": "النَّهْضَةُ الأَدَبِيَّةُ وَظُهُورُ الصَّحَافَةِ. أَصْبَحَتِ العَرَبِيَّةُ لُغَةً مُعْتَرَفاً بِهَا عَالَمِيّاً فِي الأُمَمِ المُتَّحِدَةِ وَتَكَيَّفَتْ مَعَ التِّكْنُولُوجِيَا.",
+        "en": "Literary renaissance and journalism. Arabic became a UN official language and adapted to modern technology.",
+        "fr": "Renaissance littéraire et journalisme. L'arabe est devenu une langue officielle de l'ONU et s'est adapté à la technologie moderne.",
+        "de": "Literarische Renaissance und Journalismus. Arabisch wurde eine offizielle UN-Sprache und passte sich der modernen Technologie an.",
+        "zh": "文学复兴和新闻业。阿拉伯语成为联合国官方语言并适应了现代技术。",
+        "ru": "Литературный ренессанс и журналистика. Арабский язык стал официальным языком ООН и адаптировался к современным технологиям."
+      },
+      "detailedDescription": {
+        "ar": [
+          "شَهِدَ العَصْرُ الحَدِيثُ نَهْضَةً أَدَبِيَّةً وَثَقَافِيَّةً كُبْرَى، وَظَهَرَتِ الصَّحَافَةُ وَالمَطْبُوعَاتُ الَّتِي سَاهَمَتْ فِي نَشْرِ اللُّغَةِ.",
+          "تَمَّ اعْتِمَادُ اللُّغَةِ العَرَبِيَّةِ كَوَاحِدَةٍ مِنَ اللُّغَاتِ الرَّسْمِيَّةِ السِّتِّ فِي الأُمَمِ المُتَّحِدَةِ عَامَ 1973.",
+          "تَكَيَّفَتِ اللُّغَةُ العَرَبِيَّةُ مَعَ التِّكْنُولُوجِيَا الحَدِيثَةِ وَالإِنْتِرْنِت، وَأَصْبَحَتْ لُغَةً رَئِيسِيَّةً فِي المُحْتَوَى الرقمِيِّ.",
+          "ظَهَرَتِ المَجَامِعُ اللُّغَوِيَّةُ فِي العَوَاصِمِ العَرَبِيَّةِ لِلحِفَاظِ عَلَى اللُّغَةِ وَتَحْدِيثِ مُصْطَلَحَاتِهَا لِتُوَاكِبَ العَصْرَ."
+        ],
+        "en": [
+          "The modern era witnessed a major literary and cultural renaissance, with the emergence of press and publications spreading the language.",
+          "Arabic was adopted as one of the six official languages of the United Nations in 1973.",
+          "Arabic adapted to modern technology and the internet, becoming a major language in digital content.",
+          "Language academies emerged in Arab capitals to preserve the language and update its terminology to keep pace with the times."
+        ],
+        "fr": [
+          "L'ère moderne a été témoin d'une renaissance littéraire et culturelle majeure, avec l'émergence de la presse et des publications diffusant la langue.",
+          "L'arabe a été adopté comme l'une des six langues officielles des Nations Unies en 1973.",
+          "L'arabe s'est adapté à la technologie moderne et à Internet, devenant une langue majeure du contenu numérique.",
+          "Des académies linguistiques ont vu le jour dans les capitales arabes pour préserver la langue et mettre à jour sa terminologie afin de suivre le rythme de l'époque."
+        ],
+        "de": [
+          "Die moderne Ära erlebte eine bedeutende literarische und kulturelle Renaissance, wobei Presse und Publikationen zur Verbreitung der Sprache beitrugen.",
+          "Arabisch wurde 1973 als eine der sechs Amtssprachen der Vereinten Nationen anerkannt.",
+          "Arabisch passte sich der modernen Technologie und dem Internet an und wurde zu einer wichtigen Sprache in digitalen Inhalten.",
+          "In arabischen Hauptstädten entstanden Sprachakademien, um die Sprache zu bewahren und ihre Terminologie zu aktualisieren, um mit der Zeit Schritt zu halten."
+        ],
+        "zh": [
+          "现代见证了一场重大的文学和文化复兴，新闻和出版物的出现传播了这种语言。",
+          "1973年，阿拉伯语被采纳为联合国六种官方语言之一。",
+          "阿拉伯语适应了现代技术和互联网，成为数字内容的主要语言。",
+          "阿拉伯各国首都出现了语言学院，以保护该语言并更新其词汇以跟上时代的步伐。"
+        ],
+        "ru": [
+          "Современная эпоха ознаменовалась крупным литературным и культурным ренессансом, появлением прессы и публикаций, распространяющих язык.",
+          "Арабский язык был принят в качестве одного из шести официальных языков Организации Объединенных Наций в 1973 году.",
+          "Арабский язык адаптировался к современным технологиям и Интернету, став основным языком цифрового контента.",
+          "В арабских столицах возникли языковые академии для сохранения языка и обновления его терминологии в ногу со временем."
+        ]
+      },
+      "imageUrl": "https://modo3.com/thumbs/fit630x300/284537/1649861000/%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D8%A9_%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D8%B7%D8%A8%D9%82%D9%8A%D8%A9_%D8%A7%D9%84%D8%B9%D8%B5%D8%B1_%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB.jpg",
+      "audioUrl": ""
+    }
+  ]
+}

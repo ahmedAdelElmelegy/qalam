@@ -1,0 +1,553 @@
+{
+    "clothing": [
+        {
+            "id": "abaya",
+            "title": {
+                "ar": "العباءة",
+                "en": "Abaya",
+                "fr": "Abaya",
+                "de": "Abaya",
+                "zh": "长袍 (Abaya)",
+                "ru": "Абайя"
+            },
+            "description": {
+                "ar": "العباءة هي رداء أسود بسيط وفضفاض يغطي الجسم بالكامل، وتعتبر رمزاً للحشمة والأناقة في الثقافة العربية.",
+                "en": "The Abaya is a simple, loose black robe that covers the entire body, serving as a symbol of modesty and elegance in Arab culture.",
+                "fr": "L'Abaya est une robe noire simple et ample qui couvre tout le corps, servant de symbole de pudeur et d'élégance dans la culture arabe.",
+                "de": "Die Abaya ist ein einfaches, loses schwarzes Gewand, das den ganzen Körper bedeckt und als Symbol für Bescheidenheit und Eleganz in der arabischen Kultur dient.",
+                "zh": "长袍 (Abaya) 是一种简单的黑色宽松长袍，覆盖全身，是阿拉伯文化中谦逊和优雅的象征。",
+                "ru": "Абайя — это простое свободное черное платье, закрывающее все тело, которое служит символом скромности и элегантности в арабской культуре."
+            },
+            "details": {
+                "ar": [
+                    "تنتشر بشكل واسع في منطقة الخليج العربي والعديد من الدول الإسلامية.",
+                    "تلبس عادة في المناسبات الرسمية والحياة اليومية فوق الملابس العادية.",
+                    "ترمز للستر والوقار والهوية الثقافية للمرأة العربية.",
+                    "تتنوع اليوم بتصاميم عصرية وتطريزات فنية راقية."
+                ],
+                "en": [
+                    "Widely spread in the Arabian Gulf region and many Islamic countries.",
+                    "Usually worn on formal occasions and in daily life over regular clothes.",
+                    "Symbolizes modesty, dignity, and the cultural identity of Arab women.",
+                    "Today, it varies with modern designs and high-end artistic embroideries."
+                ],
+                "fr": [
+                    "Largement répandu dans la région du Golfe Arabe et dans de nombreux pays islamiques.",
+                    "Généralement porté lors d'occasions formelles et dans la vie quotidienne sur des vêtements ordinaires.",
+                    "Symbolise la pudeur, la dignité et l'identité culturelle des femmes arabes.",
+                    "Aujourd'hui, il varie avec des designs modernes et des broderies artistiques haut de gamme."
+                ],
+                "de": [
+                    "Weit verbreitet in der arabischen Golfregion und vielen islamischen Ländern.",
+                    "Wird normalerweise zu formellen Anlässen und im täglichen Leben über normaler Kleidung getragen.",
+                    "Symbolisiert Bescheidenheit, Würde und die kulturelle Identität arabischer Frauen.",
+                    "Heute variiert sie mit modernen Designs und hochwertigen künstlerischen Stickereien."
+                ],
+                "zh": [
+                    "广泛分布于阿拉伯湾地区和许多伊斯兰国家。",
+                    "通常在正式场合和日常生活中穿在普通衣服外面。",
+                    "象征着阿拉伯女性的谦逊、尊严和文化身份。",
+                    "如今，它的设计多样，融合了现代设计和高端艺术刺绣。"
+                ],
+                "ru": [
+                    "Широко распространена в регионе Персидского залива и многих исламских странах.",
+                    "Обычно носится на официальных мероприятиях и в повседневной жизни поверх обычной одежды.",
+                    "Символизирует скромность, достоинство и культурную самобытность арабских женщин.",
+                    "Сегодня она отличается современным дизайном и изысканной художественной вышивкой."
+                ]
+            },
+            "gallery": [
+                "https://res.cloudinary.com/djr9wbmet/image/upload/v1771215789/nvp7rhr8394pnmbpryn4.webp"
+            ],
+            "video_idea": "A short video showcasing the history of the Abaya and its transformation from a simple black robe to a modern fashion statement."
+        },
+        {
+            "id": "jilbab",
+            "title": {
+                "ar": "الجلباب (الجلابية)",
+                "en": "Jilbab (Galabeya)",
+                "fr": "Jilbab (Galabeya)",
+                "de": "Jilbab (Galabeya)",
+                "zh": "吉尔巴布 (加拉比亚)",
+                "ru": "Джильбаб (Галабея)"
+            },
+            "description": {
+                "ar": "الجلباب هو لباس تقليدي واسع ومريح يلبس في مصر والسودان وبلاد الشام، ويتميز ببساطته وملاءمته للأجواء الحارة.",
+                "en": "The Jilbab is a loose and comfortable traditional garment worn in Egypt, Sudan, and the Levant, known for its simplicity and suitability for hot weather.",
+                "fr": "Le Jilbab est un vêtement traditionnel ample et confortable porté en Égypte, au Soudan et au Levant, connu pour sa simplicité et son adéquation aux climats chauds.",
+                "de": "Der Jilbab ist ein loses und bequemes traditionelles Kleidungsstück, das in Ägypten, im Sudan und in der Levante getragen wird und für seine Einfachheit und Eignung für heißes Wetter bekannt ist.",
+                "zh": "吉尔巴布是埃及、苏丹和黎凡特地区穿着的一种宽松舒适的传统服装，以其简单和适合炎热天气而闻名。",
+                "ru": "Джильбаб — это свободная и удобная традиционная одежда, которую носят в Египте, Судане и Леванте, известная своей простотой и пригодностью для жаркой погоды."
+            },
+            "details": {
+                "ar": [
+                    "يشتهر في مصر والسودان وبلاد الشام بأسماء وتصاميم متقاربة.",
+                    "يصنع عادة من القطن أو الكتان لتوفير الراحة والتهوية.",
+                    "يعتبر اللباس اليومي الأساسي للرجال في المناطق الريفية والشعبية.",
+                    "يعكس البساطة والترابط الوثيق مع البيئة والهوية المحلية."
+                ],
+                "en": [
+                    "Famous in Egypt, Sudan, and the Levant with similar names and designs.",
+                    "Usually made of cotton or linen to provide comfort and ventilation.",
+                    "Considered the primary daily wear for men in rural and popular areas.",
+                    "Reflects simplicity and a close link with the environment and local identity."
+                ],
+                "fr": [
+                    "Célèbre en Égypte, au Soudan et au Levant avec des noms et des designs similaires.",
+                    "Généralement en coton ou en lin pour assurer confort et ventilation.",
+                    "Considéré comme le vêtement quotidien principal pour les hommes dans les zones rurales et populaires.",
+                    "Reflète la simplicité et un lien étroit avec l'environnement et l'identité locale."
+                ],
+                "de": [
+                    "Berühmt in Ägypten, im Sudan und in der Levante mit ähnlichen Namen und Designs.",
+                    "Normalerweise aus Baumwolle oder Leinen gefertigt, um Komfort und Belüftung zu bieten.",
+                    "Gilt als die wichtigste Alltagskleidung für Männer in ländlichen und beliebten Gegenden.",
+                    "Spiegelt Einfachheit und eine enge Verbindung mit der Umwelt und der lokalen Identität wider."
+                ],
+                "zh": [
+                    "在埃及、苏丹和黎凡特地区很有名，名称和设计相似。",
+                    "通常由棉或亚麻制成，以提供舒适和通风。",
+                    "被认为是农村和流行地区男性的主要日常穿着。",
+                    "体现了简单性以及与环境和当地身份的紧密联系。"
+                ],
+                "ru": [
+                    "Популярен в Египте, Судане и Леванте под похожими названиями и дизайнами.",
+                    "Обычно изготавливается из хлопка или льна для обеспечения комфорта и вентиляции.",
+                    "Считается основной повседневной одеждой для мужчин в сельской местности и популярных районах.",
+                    "Отражает простоту и тесную связь с окружающей средой и местной спецификой."
+                ]
+            },
+            "gallery": [
+                "https://res.cloudinary.com/djr9wbmet/image/upload/v1771215865/gff29dqvtdpvbifpru0j.jpg"
+            ],
+            "video_idea": "A short documentary piece showing the different styles of Galabeya across Egypt and Sudan."
+        },
+        {
+            "id": "kaftan",
+            "title": {
+                "ar": "القفطان",
+                "en": "Kaftan",
+                "fr": "Caftan",
+                "de": "Kaftan",
+                "zh": "长袍 (Kaftan)",
+                "ru": "Кафтан"
+            },
+            "description": {
+                "ar": "القفطان هو رداء طويل وفخم يتميز بتطريزه اليدوي الدقيق، ويعتبر تاج الملابس التقليدية في دول المغرب العربي، خاصة المغرب.",
+                "en": "The Kaftan is a long, luxurious robe characterized by intricate hand embroidery, considered the crown of traditional clothing in the Maghreb, especially Morocco.",
+                "fr": "Le Caftan est une longue robe luxueuse caractérisée par des broderies manuelles complexes, considérée comme le joyau des vêtements traditionnels au Maghreb, particulièrement au Maroc.",
+                "de": "Der Kaftan ist ein langes, luxuriöses Gewand, das sich durch aufwendige Handstickerei auszeichnet und als die Krone der traditionellen Kleidung im Maghreb, insbesondere in Marokko, gilt.",
+                "zh": "长袍 (Kaftan) 是一种长而奢华的长袍，以复杂的纯手工刺绣为特色，被认为是马格里布地区（尤其是摩洛哥）传统服装的桂冠。",
+                "ru": "Кафтан — это длинный роскошный халат, украшенный сложной ручной вышивкой, который считается вершиной традиционной одежды в странах Магриба, особенно в Марокко."
+            },
+            "details": {
+                "ar": [
+                    "ينتشر بشكل خاص في المغرب والجزائر وتونس في المناسبات الكبرى.",
+                    "يصنع من الحرير والمخمل والأقمشة الراقية المطرزة بخيوط الذهب.",
+                    "يمثل الفخامة والأناقة والمهارة اليدوية الفائقة للمبدعين.",
+                    "يتم توريثه بين الأجيال كقطعة فنية ثمينة تعبر عن التاريخ."
+                ],
+                "en": [
+                    "Particularly widespread in Morocco, Algeria, and Tunisia during major occasions.",
+                    "Made of silk, velvet, and high-end fabrics embroidered with gold threads.",
+                    "Represents luxury, elegance, and superior craftsmanship of the makers.",
+                    "Inherited between generations as a precious piece of art representing history."
+                ],
+                "fr": [
+                    "Particulièrement répandu au Maroc, en Algérie et en Tunisie lors des grandes occasions.",
+                    "Fabriqué avec de la soie, du velours et des tissus haut de gamme brodés avec des fils d'or.",
+                    "Représente le luxe, l'élégance et le savoir-faire supérieur des artisans.",
+                    "Hérité de génération en génération comme une pièce d'art précieuse représentant l'histoire."
+                ],
+                "de": [
+                    "Besonders verbreitet in Marokko, Algerien und Tunesien zu wichtigen Anlässen.",
+                    "Hergestellt aus Seide, Samt und hochwertigen Stoffen, die mit Goldfäden bestickt sind.",
+                    "Repräsentiert Luxus, Eleganz und handwerkliches Können der Hersteller.",
+                    "Wird zwischen den Generationen als wertvolles Kunstwerk vererbt, das die Geschichte repräsentiert."
+                ],
+                "zh": [
+                    "在摩洛哥、阿尔及利亚和突尼斯的大型场合中尤为普遍。",
+                    "由丝绸、天鹅绒等高端面料制成，并绣有金线。",
+                    "代表了制作者的奢华、优雅和精湛工艺。",
+                    "作为代表历史的珍贵艺术品在代际间传承。"
+                ],
+                "ru": [
+                    "Особенно распространен в Марокко, Алжире и Тунисе во время важных торжеств.",
+                    "Изготавливается из шелка, бархата и высококачественных тканей, расшитых золотыми нитями.",
+                    "Олицетворяет роскошь, элегантность и высочайшее мастерство создателей.",
+                    "Передается из поколения в поколение как драгоценное произведение искусства, отражающее историю."
+                ]
+            },
+            "gallery": [
+                "https://res.cloudinary.com/djr9wbmet/image/upload/v1771215960/bpae6o8rcplew8mfn4bq.jpg"
+            ],
+            "video_idea": "A close-up video of the traditional embroidery process for a Moroccan Kaftan."
+        },
+        {
+            "id": "keffiyeh",
+            "title": {
+                "ar": "الكوفية / الشماغ (الغترة)",
+                "en": "Keffiyeh / Shemagh (Ghutra)",
+                "fr": "Keffieh / Shemagh (Ghutra)",
+                "de": "Keffiyeh / Shemagh (Ghutra)",
+                "zh": "库菲亚 / 什马格 (古特拉)",
+                "ru": "Куфия / Шемаг (Гутра)"
+            },
+            "description": {
+                "ar": "غطاء للرأس يلبسه الرجال في المنطقة العربية، يختلف لونه ونقشته حسب المنطقة؛ مثل الكوفية الفلسطينية المنقطة والشماغ الخليجي الأحمر.",
+                "en": "A headress worn by men in the Arab region, its color and pattern vary by region, like the spotted Palestinian Keffiyeh and the red Gulf Shemagh.",
+                "fr": "Une coiffe portée par les hommes dans la région arabe, sa couleur et son motif varient selon la région, comme le Keffieh palestinien à pois et le Shemagh rouge du Golfe.",
+                "de": "Eine von Männern im arabischen Raum getragene Kopfbedeckung, deren Farbe und Muster je nach Region variieren, wie der gepunktete palästinensische Keffiyeh und der rote Golf-Shemagh.",
+                "zh": "阿拉伯地区男性佩戴的一种头饰，其颜色和图案因地区而异，例如有斑点的巴勒斯坦库菲亚和红色的海湾什马格。",
+                "ru": "Головной убор, который носят мужчины в арабском регионе; его цвет и узор зависят от региона: например, пятнистая палестинская куфия и красный шемаг жителей Персидского залива."
+            },
+            "details": {
+                "ar": [
+                    "يستخدم لحماية الرأس والوجه من حرارة الشمس وغبار الصحراء.",
+                    "يميز الانتماء الجغرافي؛ فالأبيض (الغترة) خليجي والمنقوش بلاد الشام.",
+                    "أصبح رمزاً عالمياً للتضامن والهوية الوطنية في العديد من القضايا.",
+                    "يلبس بطرق مختلفة تعبر عن الحالة المزاجية أو المناسبة الاجتماعية."
+                ],
+                "en": [
+                    "Used to protect the head and face from sun heat and desert dust.",
+                    "Distinguishes geographical belonging; white (Ghutra) is Gulf, patterned is Levant.",
+                    "Has become a global symbol of solidarity and national identity in many causes.",
+                    "Worn in different ways expressing mood or social occasion."
+                ],
+                "fr": [
+                    "Utilisé pour protéger la tête et le visage de la chaleur du soleil et de la poussière du désert.",
+                    "Distingue l'appartenance géographique ; le blanc (Ghutra) est du Golfe, le motif est du Levant.",
+                    "Est devenu un symbole mondial de solidarité et d'identité nationale dans de nombreuses causes.",
+                    "Porté de différentes manières exprimant l'humeur ou l'occasion sociale."
+                ],
+                "de": [
+                    "Wird verwendet, um Kopf und Gesicht vor Sonnenhitze und Wüstenstaub zu schützen.",
+                    "Unterscheidet die geografische Zugehörigkeit; weiß (Ghutra) ist Golf, gemustert ist Levante.",
+                    "Ist zu einem weltweiten Symbol für Solidarität und nationale Identität in vielen Belangen geworden.",
+                    "Wird auf unterschiedliche Weise getragen, um Stimmung oder soziale Anlässe auszudrücken."
+                ],
+                "zh": [
+                    "用于保护头部和面部免受太阳热量和沙漠灰尘的侵害。",
+                    "区分地理归属：白色 (Ghutra) 代表海湾地区，带图案的代表黎凡特地区。",
+                    "在许多事业中已成为团结和民族身份的全球象征。",
+                    "有多种佩戴方式，表达心情或社交场合。"
+                ],
+                "ru": [
+                    "Используется для защиты головы и лица от солнечного жара и пустынной пыли.",
+                    "Различает географическую принадлежность: белая (гутра) характерна для Залива, узорчатая — для Леванта.",
+                    "Стал глобальным символом солидарности и национальной идентичности во многих вопрорах.",
+                    "Носится разными способами, выражающими настроение или социальный повод."
+                ]
+            },
+            "gallery": [
+                "https://res.cloudinary.com/djr9wbmet/image/upload/v1771216008/jt3yqlhacdtbbbyhyl2n.jpg"
+            ],
+            "video_idea": "A video demonstrating the various ways to wrap a Keffiyeh according to different regional styles."
+        },
+        {
+            "id": "agal",
+            "title": {
+                "ar": "العقال",
+                "en": "Agal",
+                "fr": "Agal",
+                "de": "Agal",
+                "zh": "阿加尔",
+                "ru": "Агаль"
+            },
+            "description": {
+                "ar": "العقال هو طوق أسود ثقيل يلبس فوق الشماغ لتثبيته، وهو رمز للوقار والرجولة والأصالة العربية.",
+                "en": "The Agal is a heavy black cord worn over the shemagh to keep it in place, symbolizing dignity, manhood, and Arab authenticity.",
+                "fr": "L'Agal est un cordon noir lourd porté sur le shemagh pour le maintenir en place, symbolisant la dignité, la masculinité et l'authenticité arabe.",
+                "de": "Der Agal ist eine schwere schwarze Kordel, die über dem Shemagh getragen wird, um ihn an seinem Platz zu halten, und Würde, Männlichkeit und arabische Authentizität symbolisiert.",
+                "zh": "阿加尔是佩戴在什马格上面的沉重黑色绳圈，用来固定头巾，象征着尊严、男子气概和阿拉伯的正统。",
+                "ru": "Агаль — это тяжелый черный шнур, который надевают поверх шемага для его фиксации; он символизирует достоинство, мужественность и арабскую самобытность."
+            },
+            "details": {
+                "ar": [
+                    "يصنع تقليدياً من صوف الماعز المفتول بإتقان.",
+                    "يعود أصله لاستخدامات عملية قديماً في ربط الإبل.",
+                    "يعتبر جزءاً لا يتجزأ من الزي الرسمي الخليجي مع الثوب والشماغ.",
+                    "يختلف سمكه وتصميمه بشكل طفيف بين دول الخليج المختلفة."
+                ],
+                "en": [
+                    "Traditionally made of finely twisted goat wool.",
+                    "Its origin goes back to ancient practical uses for tying camels.",
+                    "Considered an integral part of the official Gulf attire with the thobe and shemagh.",
+                    "Its thickness and design vary slightly between different Gulf countries."
+                ],
+                "fr": [
+                    "Traditionnellement fabriqué à partir de laine de chèvre finement torsadée.",
+                    "Son origine remonte à d'anciennes utilisations pratiques pour attacher les chameaux.",
+                    "Considéré comme une partie intégrante de la tenue officielle du Golfe avec le thobe et le shemagh.",
+                    "Son épaisseur et son design varient légèrement d'un pays du Golfe à l'autre."
+                ],
+                "de": [
+                    "Traditionell aus fein gedrehter Ziegenwolle hergestellt.",
+                    "Sein Ursprung geht auf alte praktische Verwendungszwecke zum Anbinden von Kamelen zurück.",
+                    "Gilt als integraler Bestandteil der offiziellen Golf-Kleidung mit Thobe und Shemagh.",
+                    "Seine Dicke und sein Design variieren leicht zwischen den verschiedenen Golfstaaten."
+                ],
+                "zh": [
+                    "传统上由精细扭曲的羊毛制成。",
+                    "其起源可以追溯到古代栓骆驼的实际用途。",
+                    "被认为是海湾地区正式服饰（包括长袍和什马格）不可或缺的一部分。",
+                    "不同海湾国家之间的厚度和设计略有不同。"
+                ],
+                "ru": [
+                    "Традиционно изготавливается из тонко скрученной козьей шерсти.",
+                    "Его происхождение восходит к древним практическим целям — привязыванию верблюдов.",
+                    "Считается неотъемлемой частью официального наряда жителей Залива вместе с тобом и шемагом.",
+                    "Его толщина и дизайн немного различаются в разных странах Персидского залива."
+                ]
+            },
+            "gallery": [
+                "https://res.cloudinary.com/djr9wbmet/image/upload/v1771216051/kmmvoxgo8cpcq9ozd00f.jpg"
+            ],
+            "video_idea": "An educational video about the historical evolution of the Agal from a camel rope to a symbol of dignity."
+        },
+        {
+            "id": "bisht",
+            "title": {
+                "ar": "البشت",
+                "en": "Bisht",
+                "fr": "Bisht",
+                "de": "Bisht",
+                "zh": "毕什特",
+                "ru": "Бишт"
+            },
+            "description": {
+                "ar": "البشت هو عباءة رجالية فاخرة ذات أطراف مذهبة، تلبس فوق الثوب في المناسبات الرسمية الكبرى والأعراس.",
+                "en": "The Bisht is a luxurious men's cloak with gilded borders, worn over the thobe on major formal occasions and weddings.",
+                "fr": "Le Bisht est une cape luxueuse pour hommes avec des bordures dorées, portée sur le thobe lors des grandes occasions formelles et des mariages.",
+                "de": "Der Bisht ist ein luxuriöser Herrenmantel mit vergoldeten Rändern, der zu wichtigen formellen Anlässen und Hochzeiten über dem Thobe getragen wird.",
+                "zh": "毕什特是一种带有镀金边框的豪华男性斗篷，在重大正式场合和婚礼上穿在长袍外面。",
+                "ru": "Бишт — это роскошная мужская накидка с позолоченной каймой, надеваемая поверх тоба на важные официальные мероприятия и свадьбы."
+            },
+            "details": {
+                "ar": [
+                    "يرتبط ارتداؤه بالوجاهة والمكانة الاجتماعية المرموقة.",
+                    "يتميز بتطريز 'الزري' الذهبي الصافي على الحواف والياقة.",
+                    "يصنع من أفخر أنواع أصواف الأغنام والجمال.",
+                    "يلبس عادة في الأعياد، وحفلات الزفاف، واللقاءات الرسمية المهمة."
+                ],
+                "en": [
+                    "Its wearing is linked with prestige and high social status.",
+                    "Characterized by 'Zari' pure gold embroidery on the edges and collar.",
+                    "Made from the finest types of sheep and camel wool.",
+                    "Usually worn during Eids, weddings, and important formal meetings."
+                ],
+                "fr": [
+                    "Son port est lié au prestige et à un statut social élevé.",
+                    "Caractérisé par des broderies d'or pur 'Zari' sur les bords et le col.",
+                    "Fabriqué à partir des types de laine de mouton et de chameau les plus fins.",
+                    "Généralement porté pendant les Eids, les mariages et les réunions formelles importantes."
+                ],
+                "de": [
+                    "Das Tragen ist mit Prestige und hohem sozialen Status verbunden.",
+                    "Gekennzeichnet durch 'Zari'-Stickerei aus reinem Gold an den Rändern und am Kragen.",
+                    "Hergestellt aus feinsten Schaf- und Kamelwollsorten.",
+                    "Wird normalerweise zu Eids, Hochzeiten und wichtigen formellen Treffen getragen."
+                ],
+                "zh": [
+                    "它的穿着与声望和崇高的社会地位相关联。",
+                    "特点是边缘和领口处有“Zari”纯金刺绣。",
+                    "由最优质的羊毛和骆驼毛制成。",
+                    "通常在开斋节、婚礼和重要的正式会议期间穿着。"
+                ],
+                "ru": [
+                    "Его ношение связано с престижем и высоким социальным статусом.",
+                    "Характеризуется вышивкой «Зари» из чистого золота по краям и на воротнике.",
+                    "Изготавливается из лучших видов овечьей и верблюжьей шерсти.",
+                    "Обычно надевается на праздники Ид, свадьбы и важные официальные встречи."
+                ]
+            },
+            "gallery": [
+                "https://res.cloudinary.com/djr9wbmet/image/upload/v1771216097/so7ysrineab7vr1pfkfp.webp"
+            ],
+            "video_idea": "A short video explaining the protocol of wearing a Bisht and the art of 'Zari' embroidery."
+        },
+        {
+            "id": "thobe",
+            "title": {
+                "ar": "الثوب (الدشداشة)",
+                "en": "Thobe (Dishdasha)",
+                "fr": "Thobe (Dishdasha)",
+                "de": "Thobe (Dishdasha)",
+                "zh": "长袍 (托布/迪什达沙)",
+                "ru": "Тоб (Дишдаша)"
+            },
+            "description": {
+                "ar": "الثوب هو الرداء الوطني اليومي للرجال في الجزيرة العربية، يتميز بتصميمه البسيط والمريح ولونه الأبيض السائد.",
+                "en": "The Thobe is the daily national garment for men in the Arabian Peninsula, characterized by its simple and comfortable design and its predominant white color.",
+                "fr": "Le Thobe est le vêtement national quotidien des hommes dans la péninsule arabique, caractérisé par son design simple et confortable et sa couleur blanche prédominante.",
+                "de": "Der Thobe ist das tägliche Nationalgewand für Männer auf der Arabischen Halbinsel, das sich durch sein einfaches und bequemes Design und seine vorherrschende weiße Farbe auszeichnet.",
+                "zh": "长袍 (Thobe) 是阿拉伯半岛男性的日常国家服饰，其特点是设计简单舒适，以白色为主色调。",
+                "ru": "Тоб — это ежедневная национальная одежда для мужчин на Аравийском полуострове, отличающаяся простым и удобным дизайном и преобладающим белым цветом."
+            },
+            "details": {
+                "ar": [
+                    "يعتبر رمزاً للهوية الوطنية في دول مجلس التعاون الخليجي.",
+                    "تختلف ياقة الثوب و 'كبكه' (أساور الأكمام) حسب الموضة والمنطقة.",
+                    "يصنع عادة من القطن الصيفيّ الخفيف أو الصوف الشتوي الثقيل.",
+                    "يعكس المحافظة على التقاليد مع لمسات من الأناقة العصرية."
+                ],
+                "en": [
+                    "Considered a symbol of national identity in GCC countries.",
+                    "The thobe's collar and 'Kabak' (cuffs) vary by fashion and region.",
+                    "Usually made of light summer cotton or heavy winter wool.",
+                    "Reflects the preservation of traditions with touches of modern elegance."
+                ],
+                "fr": [
+                    "Considéré comme un symbole d'identité nationale dans les pays du CCG.",
+                    "Le col du thobe et les 'Kabak' (poignets) varient selon la mode et la région.",
+                    "Généralement fait de coton d'été léger ou de laine d'hiver lourde.",
+                    "Reflète la préservation des traditions avec des touches d'élégance moderne."
+                ],
+                "de": [
+                    "Gilt als Symbol der nationalen Identität in den GCC-Staaten.",
+                    "Kragen und 'Kabak' (Manschetten) des Thobe variieren je nach Mode und Region.",
+                    "Meist aus leichter Sommerbaumwolle oder schwerer Winterwolle gefertigt.",
+                    "Spiegelt die Bewahrung von Traditionen mit einem Hauch moderner Eleganz wider."
+                ],
+                "zh": [
+                    "被视为海湾合作委员会国家民族身份的象征。",
+                    "长袍的领口和“Kabak”（袖口）因时尚和地区而异。",
+                    "通常由轻质夏季棉布或厚重冬季羊毛制成。",
+                    "体现了在保留传统的同时融入现代优雅的气息。"
+                ],
+                "ru": [
+                    "Считается символом национальный идентичности в странах ССАГПЗ.",
+                    "Воротник тоба и «кабак» (манжеты) варьируются в зависимости от моды и региона.",
+                    "Обычно изготавливается из легкого летнего хлопка или тяжелой зимней шерсти.",
+                    "Отражает сохранение традиций с элементами современной элегантности."
+                ]
+            },
+            "gallery": [
+                "https://res.cloudinary.com/djr9wbmet/image/upload/v1771216169/kah9e87khax8wa8nij3z.jpg"
+            ],
+            "video_idea": "A video tour showing the subtle differences in Thobe styles between Saudi Arabia, Kuwait, and the UAE."
+        },
+        {
+            "id": "burqa",
+            "title": {
+                "ar": "البرقع / النقاب",
+                "en": "Burqa / Niqab",
+                "fr": "Burqa / Niqab",
+                "de": "Burka / Niqab",
+                "zh": "罩袍 / 面纱",
+                "ru": "Бурка / Никаб"
+            },
+            "description": {
+                "ar": "غطاء للوجه تلبسه بعض النساء مع العباءة، تختلف أشكاله ومواده حسب المنطقة والقبيلة؛ من القماش الأسود إلى الصفائح الذهبية.",
+                "en": "A face covering worn by some women with the abaya, its shapes and materials vary by region and tribe; from black cloth to golden plates.",
+                "fr": "Un voile couvrant le visage porté par certaines femmes avec l'abaya, ses formes et ses matériaux varient selon la région et la tribu ; du tissu noir aux plaques dorées.",
+                "de": "Eine von einigen Frauen mit der Abaya getragene Gesichtsbedeckung, deren Formen und Materialien je nach Region und Stamm variieren; von schwarzem Stoff bis zu goldenen Platten.",
+                "zh": "一些女性穿着长袍时戴的脸部遮盖物，其形状和材料因地区和部落而异：从黑布到金片不等。",
+                "ru": "Покрывало для лица, носимое некоторыми женщинами вместе с абаей; его формы и материалы варьируются от региона к региону и от племени к племени: от черной ткани до золотых пластин."
+            },
+            "details": {
+                "ar": [
+                    "يعتبر البرقع الذهبي ميزة تراثية قوية في الإمارات وعمان.",
+                    "يرتبط ارتداؤه بمفاهيم الحشمة والخصوصية في المجتمع التقليدي.",
+                    "يصنع النقاب عادة من أقمشة حريرية ناعمة توفر الراحة والتهوية.",
+                    "شهد تغيرات كبيرة عبر العصور ليصبح جزءاً من الموضة المحتشمة."
+                ],
+                "en": [
+                    "The golden Burqa is a strong heritage feature in the UAE and Oman.",
+                    "Its wearing is linked with concepts of modesty and privacy in traditional society.",
+                    "The Niqab is usually made of soft silk fabrics providing comfort and ventilation.",
+                    "It has undergone major changes through ages to become part of modest fashion."
+                ],
+                "fr": [
+                    "Le Burqa doré est un élément fort du patrimoine aux Émirats Arabes Unis et à Oman.",
+                    "Son port est lié aux concepts de pudeur et d'intimité dans la société traditionnelle.",
+                    "Le Niqab est généralement fait de tissus de soie doux assurant confort et ventilation.",
+                    "Il a subi des changements majeurs à travers les âges pour faire partie de la mode pudique."
+                ],
+                "de": [
+                    "Die goldene Burka ist ein starkes Kulturerbe-Merkmal in den VAE und im Oman.",
+                    "Das Tragen ist mit Konzepten von Bescheidenheit und Privatsphäre in der traditionellen Gesellschaft verbunden.",
+                    "Der Niqab wird normalerweise aus weichen Seidenstoffen gefertigt, die Komfort und Belüftung bieten.",
+                    "Er hat im Laufe der Zeit große Veränderungen erfahren, um Teil der schlichten Mode zu werden."
+                ],
+                "zh": [
+                    "金色罩袍是阿联酋和阿曼重要的遗产特色。",
+                    "它的佩戴与传统社会中的谦逊和隐私观念相关联。",
+                    "面纱 (Niqab) 通常由柔软的丝绸面料制成，提供舒适感和通风。",
+                    "历经时代的重大演变，已成为端庄时尚的一部分。"
+                ],
+                "ru": [
+                    "Золотая бурка является важной чертой культурного наследия ОАЭ и Омана.",
+                    "Ее ношение связано с понятиями скромности и приватности в традиционном обществе.",
+                    "Никаб обычно изготавливается из мягких шелковых тканей, обеспечивающих комфорт и вентиляцию.",
+                    "На протяжении веков он претерпел значительные изменения, став частью скромной моды."
+                ]
+            },
+            "gallery": [
+                "https://res.cloudinary.com/djr9wbmet/image/upload/v1771216260/ro8syjuipqi2ozwuinyh.webp"
+            ],
+            "video_idea": "A video exploring the cultural differences between the Burqa in the UAE and the Niqab in other regions."
+        },
+        {
+            "id": "bedouin_clothing",
+            "title": {
+                "ar": "الملابس البدوية التقليدية",
+                "en": "Traditional Bedouin Clothing",
+                "fr": "Vêtements Bédouins Traditionnels",
+                "de": "Traditionelle Beduinenkleidung",
+                "zh": "传统贝都因服饰",
+                "ru": "Традиционная бедуинская одежда"
+            },
+            "description": {
+                "ar": "ملابس صممت لتلائم حياة الترحال في الصحراء، تتميز بالمتانة والألوان الداكنة التي تحمي من غبار الرمال وقسوة الطبيعة.",
+                "en": "Clothing designed to suit the nomadic life in the desert, characterized by durability and dark colors that protect from sand dust and harsh nature.",
+                "fr": "Des vêtements conçus pour s'adapter à la vie nomade dans le désert, caractérisés par leur durabilité et leurs couleurs sombres qui protègent de la poussière de sable et de la nature rude.",
+                "de": "Kleidung, die dem Nomadenleben in der Wüste gerecht wird und sich durch Langlebigkeit und dunkle Farben auszeichnet, die vor Sandstaub und rauer Natur schützen.",
+                "zh": "专为适应沙漠游牧生活而设计的服装，其特点是耐用且颜色较深，可以抵御沙尘和严酷的自然环境。",
+                "ru": "Одежда, созданная для кочевой жизни в пустыне; она отличается прочностью и темными цветами, защищающими от песка и суровой природы."
+            },
+            "details": {
+                "ar": [
+                    "تستخدم النساء أقمشة مطرزة يدوياً بنقشات تعبر عن هوية القبيلة.",
+                    "يلبس الرجال 'المقطع' أو 'الصاية' تحت العباءة البدوية الثقيلة.",
+                    "تعتمد التصاميم على الاتساع لضمان حرية الحركة أثناء التنقل.",
+                    "تعتبر مصدر فخر يعبر عن الصمود والتأقلم مع أقسى الظروف البيئية."
+                ],
+                "en": [
+                    "Women use hand-embroidered fabrics with patterns expressing tribal identity.",
+                    "Men wear 'Maqta' or 'Saiya' under the heavy Bedouin cloak.",
+                    "Designs rely on width to ensure freedom of movement during relocation.",
+                    "Considered a source of pride expressing resilience and adaptation to harsh conditions."
+                ],
+                "fr": [
+                    "Les femmes utilisent des tissus brodés à la main avec des motifs exprimant l'identité tribale.",
+                    "Les hommes portent le 'Maqta' ou le 'Saiya' sous la lourde cape bédouine.",
+                    "Les modèles misent sur l'ampleur pour assurer une liberté de mouvement pendant les déplacements.",
+                    "Considéré comme une source de fierté exprimant la résilience et l'adaptation aux conditions difficiles."
+                ],
+                "de": [
+                    "Frauen verwenden handbestickte Stoffe mit Mustern, die die Stammesidentität ausdrücken.",
+                    "Männer tragen 'Maqta' oder 'Saiya' unter dem schweren Beduinenmantel.",
+                    "Die Entwürfe setzen auf Weite, um Bewegungsfreiheit beim Umzug zu gewährleisten.",
+                    "Wird als Quelle des Stolzes angesehen, die Widerstandsfähigkeit und Anpassung an harte Bedingungen ausdrückt."
+                ],
+                "zh": [
+                    "女性使用带有表达部落身份图案的手工刺绣面料。",
+                    "男性在沉重的贝都因斗篷下穿着“Maqta”或“Saiya”。",
+                    "设计依靠宽度来确保搬迁期间的行动自由。",
+                    "被视为骄傲的源泉，表达了对恶劣环境的韧性和适应能力。"
+                ],
+                "ru": [
+                    "Женщины используют ткани с ручной вышивкой и узорами, выражающими принадлежность к племени.",
+                    "Мужчины носят «макта» или «сайя» под тяжелой бедуинской накидкой.",
+                    "Дизайны основаны на ширине кроя для обеспечения свободы движений при переездах.",
+                    "Считается поводом для гордости, выражающим стойкость и адаптацию к самым суровым условиям."
+                ]
+            },
+            "gallery": [
+                "https://res.cloudinary.com/djr9wbmet/image/upload/v1771216382/st4wytyjeuec0zql8uis.jpg"
+            ],
+            "video_idea": "A cinematic video capturing the movement of Bedouin fabrics in the wind of the Arabian desert."
+        }
+    ]
+}
