@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مشروع قلم - Qalam Project</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans+Arabic:wght@400;700&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1a1a1a;
+            --accent-color: #d4af37;
+            /* Gold */
+            --text-color: #333;
+            --bg-color: #ffffff;
+            --section-bg: #f9f9f9;
+        }
+
+        body {
+            font-family: 'Noto Sans Arabic', 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.8;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 40px;
+            background: var(--bg-color);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+            border-radius: 16px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            border-bottom: 3px solid var(--accent-color);
+            padding-bottom: 30px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            color: #666;
+            font-weight: 400;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-right: 5px solid var(--accent-color);
+            padding-right: 15px;
+            margin-top: 40px;
+            font-size: 1.8rem;
+        }
+
+        h3 {
+            color: var(--accent-color);
+            margin-top: 25px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .feature-card {
+            background: var(--section-bg);
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #eee;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-color);
+        }
+
+        .tools-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .tool-tag {
+            background: var(--primary-color);
+            color: white;
+            padding: 8px 18px;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        .footer {
+            margin-top: 60px;
+            text-align: center;
+            font-size: 0.95rem;
+            color: #888;
+            border-top: 1px solid #eee;
+            padding-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 0;
+                padding: 25px;
+                border-radius: 0;
+            }
+
+            h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>تطبيق قلم (Qalam)</h1>
+            <p class="tagline">تتبّع التراث.. وانطق بالمستقبل</p>
+        </header>
+
+        <section id="overview">
+            <h2>نظرة عامة على التطبيق</h2>
+            <p>يُعد تطبيق <strong>قلم</strong> رحلة تعليمية متكاملة تهدف إلى تمكين المستخدمين من احتراف اللغة العربية
+                الفصحى ولهجاتها المتنوعة من خلال تقنيات الذكاء الاصطناعي المتقدمة والبيئات الافتراضية الغامرة.</p>
+        </section>
+
+        <section id="features">
+            <h2>مميزات التطبيق</h2>
+            <p>تم تصميم التطبيق ليكون رفيقك الدائم في رحلة التعلم، بأسلوب تفاعلي يتجاوز الطرق التقليدية:</p>
+
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>🤖 محادثات الذكاء الاصطناعي</h3>
+                    <p>تحدث مع رفيقك التعليمي في مواقف حقيقية (مطعم، عمل، سفر) واحصل على تصحيحات فورية لنطقك وقواعدك
+                        اللغوية.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🏛️ المتحف الافتراضي ثلاثي الأبعاد</h3>
+                    <p>استكشف المعالم التاريخية والثقافية للعالم العربي في بيئة 3D تفاعلية، وتعلم الكلمات المرتبطة بكل
+                        موقع بأسلوب بصري ممتع.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📱 الدروس التفاعلية</h3>
+                    <p>منهج تعليمي شامل يتدرج بك من المستوى المبتدئ (A0) إلى الاحتراف (C2)، مع التركيز على المهارات
+                        الأربع: القراءة، الكتابة، الاستماع، والتحدث.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🎙️ تحدي النطق (Voice Pro)</h3>
+                    <p>اختبر دقة نطقك للكلمات والجمل العربية واحصل على تقييم دقيق يساعدك على تحسين مخارج الحروف.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🌍 لهجات العالم العربي</h3>
+                    <p>لا يقتصر التعلم على الفصحى فقط، بل يمكنك استكشاف وفهم اللهجات الإقليمية المختلفة لزيادة قدرتك على
+                        التواصل الواقعي.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🏆 التحديات والمسابقات</h3>
+                    <p>شارك في ألغاز لغوية، رتب الجمل، وحقق نقاط (XP) للمنافسة في لوحة الصدارة وزيادة حماسك للتعلم.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tools">
+            <h2>الأدوات والتقنيات المستخدمة</h2>
+            <p>تم بناء تطبيق قلم باستخدام أحدث التقنيات لضمان تجربة مستخدم سلسة وقوية:</p>
+            <div class="tools-list">
+                <span class="tool-tag">Flutter</span>
+                <span class="tool-tag">Google Gemini AI (Vertex AI)</span>
+                <span class="tool-tag">Firebase Core</span>
+                <span class="tool-tag">Hive DB (للتخزين المحلي)</span>
+                <span class="tool-tag">Text-to-Speech (TTS)</span>
+                <span class="tool-tag">Speech-to-Text (STT)</span>
+                <span class="tool-tag">Google Fonts (Inter & Noto Sans)</span>
+                <span class="tool-tag">Lottie Animations</span>
+            </div>
+        </section>
+
+        <div class="footer">
+            <p>&copy; 2026 جميع الحقوق محفوظة لتطبيق قلم</p>
+            <p>تم التحديث في: 8 مارس 2026</p>
+        </div>
+    </div>
+</body>
+
+</html>
