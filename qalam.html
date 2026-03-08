@@ -4,129 +4,346 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مشروع قلم - Qalam Project</title>
+    <title>قلم - تجربة تعلم العربية المستقبلية</title>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans+Arabic:wght@400;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+Arabic:wght@300;400;700;900&display=swap"
         rel="stylesheet">
     <style>
         :root {
-            --primary-color: #1a1a1a;
-            --accent-color: #d4af37;
-            /* Gold */
-            --text-color: #333;
-            --bg-color: #ffffff;
-            --section-bg: #f9f9f9;
+            --bg-dark: #0a0a0c;
+            --card-bg: rgba(255, 255, 255, 0.03);
+            --card-border: rgba(255, 255, 255, 0.08);
+            --accent-gold: #d4af37;
+            --accent-gold-glow: rgba(212, 175, 55, 0.3);
+            --text-main: #ffffff;
+            --text-dim: #a0a0a5;
+
+            /* Feature Colors from App */
+            --color-lessons: #8B5CF6;
+            --color-chat: #F59E0B;
+            --color-roleplay: #10B981;
+            --color-museum: #FFD700;
+            --color-challenge: #EF4444;
+            --color-translator: #3B82F6;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
         }
 
         body {
-            font-family: 'Noto Sans Arabic', 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.8;
-            color: var(--text-color);
-            background-color: var(--bg-color);
-            margin: 0;
-            padding: 0;
+            font-family: 'Noto Sans Arabic', 'Outfit', sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-image:
+                radial-gradient(circle at 10% 20%, rgba(139, 92, 246, 0.08) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(212, 175, 55, 0.08) 0%, transparent 40%);
         }
 
         .container {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 40px;
-            background: var(--bg-color);
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
-            border-radius: 16px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 24px;
         }
 
         header {
             text-align: center;
-            margin-bottom: 50px;
-            border-bottom: 3px solid var(--accent-color);
-            padding-bottom: 30px;
+            margin-bottom: 60px;
+            animation: fadeInDown 1s ease-out;
         }
 
-        h1 {
-            color: var(--primary-color);
-            font-size: 3rem;
+        .logo-area {
+            font-size: 6rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #fff 0%, var(--accent-gold) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             margin-bottom: 10px;
+            text-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
         }
 
         .tagline {
-            font-size: 1.2rem;
-            color: #666;
-            font-weight: 400;
+            font-size: 1.5rem;
+            color: var(--text-dim);
+            font-weight: 300;
+            letter-spacing: 2px;
         }
 
-        h2 {
-            color: var(--primary-color);
-            border-right: 5px solid var(--accent-color);
-            padding-right: 15px;
-            margin-top: 40px;
-            font-size: 1.8rem;
+        /* Quick Nav Summary Section */
+        .summary-section {
+            background: var(--card-bg);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--card-border);
+            border-radius: 40px;
+            padding: 40px;
+            margin-bottom: 80px;
+            animation: fadeInUp 1s ease-out 0.2s both;
         }
 
-        h3 {
-            color: var(--accent-color);
-            margin-top: 25px;
+        .summary-section h2 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            text-align: center;
+            color: var(--accent-gold);
         }
 
-        p {
-            margin-bottom: 20px;
-            font-size: 1.1rem;
-        }
-
-        .feature-grid {
+        .summary-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
-            margin-top: 30px;
+            gap: 20px;
         }
 
-        .feature-card {
-            background: var(--section-bg);
-            padding: 25px;
-            border-radius: 12px;
-            border: 1px solid #eee;
-            transition: transform 0.3s ease;
+        .summary-item {
+            padding: 20px;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid transparent;
+            text-decoration: none;
+            color: var(--text-main);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
         }
 
-        .feature-card:hover {
+        .summary-item:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: var(--card-border);
             transform: translateY(-5px);
-            border-color: var(--accent-color);
         }
 
-        .tools-list {
+        .summary-item .item-title {
+            font-weight: 700;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .summary-item .item-desc {
+            font-size: 0.95rem;
+            color: var(--text-dim);
+        }
+
+        /* Detailed Section Styling */
+        .detail-section {
+            padding: 80px 0;
+            border-top: 1px solid var(--card-border);
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+
+        .detail-section.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .detail-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .detail-content h3 {
+            font-size: 3rem;
+            margin-bottom: 25px;
+            font-weight: 800;
+        }
+
+        .detail-content .big-desc {
+            font-size: 1.3rem;
+            line-height: 1.8;
+            color: var(--text-main);
+            margin-bottom: 30px;
+        }
+
+        .detail-content .technical-pill {
+            display: inline-block;
+            padding: 8px 16px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--card-border);
+            border-radius: 100px;
+            font-size: 0.9rem;
+            color: var(--accent-gold);
+            margin-bottom: 40px;
+            font-weight: 600;
+        }
+
+        .access-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--card-border);
+            border-radius: 24px;
+            padding: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .access-card h4 {
+            color: var(--accent-gold);
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 0.9rem;
+        }
+
+        .access-card p {
+            color: var(--text-dim);
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .visual-box {
+            height: 400px;
+            border-radius: 40px;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 8rem;
+            position: relative;
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .visual-box::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: 40px;
+            background: radial-gradient(circle at center, var(--accent-gold-glow) 0%, transparent 70%);
+            opacity: 0.2;
+        }
+
+        /* Feature specific gradients */
+        .color-lessons {
+            color: var(--color-lessons);
+            background: linear-gradient(135deg, var(--color-lessons), #a78bfa);
+        }
+
+        .color-chat {
+            color: var(--color-chat);
+            background: linear-gradient(135deg, var(--color-chat), #fbbf24);
+        }
+
+        .color-roleplay {
+            color: var(--color-roleplay);
+            background: linear-gradient(135deg, var(--color-roleplay), #34d399);
+        }
+
+        .color-museum {
+            color: var(--color-museum);
+            background: linear-gradient(135deg, var(--color-museum), #fef08a);
+        }
+
+        .color-challenge {
+            color: var(--color-challenge);
+            background: linear-gradient(135deg, var(--color-challenge), #f87171);
+        }
+
+        .color-translator {
+            color: var(--color-translator);
+            background: linear-gradient(135deg, var(--color-translator), #60a5fa);
+        }
+
+        .tech-stack {
+            margin-top: 100px;
+            text-align: center;
+            padding-top: 80px;
+        }
+
+        .tech-tags {
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
             gap: 15px;
-            margin-top: 20px;
+            margin-top: 40px;
         }
 
-        .tool-tag {
-            background: var(--primary-color);
-            color: white;
-            padding: 8px 18px;
-            border-radius: 25px;
-            font-size: 0.9rem;
-            font-weight: bold;
+        .tag {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 12px 25px;
+            border-radius: 100px;
+            border: 1px solid var(--card-border);
+            font-weight: 600;
+            color: var(--text-dim);
+            transition: all 0.3s ease;
         }
 
-        .footer {
-            margin-top: 60px;
+        .tag:hover {
+            background: rgba(212, 175, 55, 0.1);
+            color: var(--accent-gold);
+            border-color: var(--accent-gold);
+        }
+
+        footer {
             text-align: center;
-            font-size: 0.95rem;
-            color: #888;
-            border-top: 1px solid #eee;
-            padding-top: 30px;
+            padding: 60px 24px;
+            color: var(--text-dim);
+            border-top: 1px solid var(--card-border);
+            margin-top: 100px;
         }
 
-        @media (max-width: 600px) {
-            .container {
-                margin: 0;
-                padding: 25px;
-                border-radius: 0;
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
             }
 
-            h1 {
-                font-size: 2.2rem;
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-40px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 992px) {
+            .detail-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .detail-content h3 {
+                font-size: 2.5rem;
+            }
+
+            .visual-box {
+                height: 300px;
+                order: -1;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .logo-area {
+                font-size: 4rem;
+            }
+
+            .summary-section {
+                padding: 25px;
+            }
+
+            .detail-content h3 {
+                font-size: 2rem;
             }
         }
     </style>
@@ -135,72 +352,182 @@
 <body>
     <div class="container">
         <header>
-            <h1>تطبيق قلم (Qalam)</h1>
-            <p class="tagline">تتبّع التراث.. وانطق بالمستقبل</p>
+            <div class="logo-area">قلم</div>
+            <p class="tagline">Trace the Heritage. Speak the Future.</p>
         </header>
 
-        <section id="overview">
-            <h2>نظرة عامة على التطبيق</h2>
-            <p>يُعد تطبيق <strong>قلم</strong> رحلة تعليمية متكاملة تهدف إلى تمكين المستخدمين من احتراف اللغة العربية
-                الفصحى ولهجاتها المتنوعة من خلال تقنيات الذكاء الاصطناعي المتقدمة والبيئات الافتراضية الغامرة.</p>
+        <!-- Summary "Quick Nav" Section -->
+        <section class="summary-section">
+            <h2>مكونات عالم قلم</h2>
+            <div class="summary-grid">
+                <a href="#lessons" class="summary-item">
+                    <span class="item-title">📚 المسار التعليمي</span>
+                    <span class="item-desc">وحدات دراسية منظمة من المستوى A0 إلى C2.</span>
+                </a>
+                <a href="#chat" class="summary-item">
+                    <span class="item-title">💬 رفيق الدردشة</span>
+                    <span class="item-desc">محادثات ذكية فورية مع معالجة لغوية متقدمة.</span>
+                </a>
+                <a href="#roleplay" class="summary-item">
+                    <span class="item-title">🎭 تمثيل الأدوار</span>
+                    <span class="item-desc">محاكاة مواقف واقعية عبر الصوت والذكاء الاصطناعي.</span>
+                </a>
+                <a href="#museum" class="summary-item">
+                    <span class="item-title">🏺 المتحف الافتراضي</span>
+                    <span class="item-desc">رحلة 3D تفاعلية في قلب التراث العربي.</span>
+                </a>
+                <a href="#challenge" class="summary-item">
+                    <span class="item-title">🔥 التحدي اليومي</span>
+                    <span class="item-desc">اختبر دقة نطقك ومهاراتك اللغوية يومياً.</span>
+                </a>
+                <a href="#translator" class="summary-item">
+                    <span class="item-title">🎙️ المترجم الصوتي</span>
+                    <span class="item-desc">ترجمة فورية ذكية لدعم التواصل السريع.</span>
+                </a>
+            </div>
         </section>
 
-        <section id="features">
-            <h2>مميزات التطبيق</h2>
-            <p>تم تصميم التطبيق ليكون رفيقك الدائم في رحلة التعلم، بأسلوب تفاعلي يتجاوز الطرق التقليدية:</p>
+        <!-- Detailed Feature Sections -->
 
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <h3>🤖 محادثات الذكاء الاصطناعي</h3>
-                    <p>تحدث مع رفيقك التعليمي في مواقف حقيقية (مطعم، عمل، سفر) واحصل على تصحيحات فورية لنطقك وقواعدك
-                        اللغوية.</p>
+        <!-- Lessons -->
+        <section id="lessons" class="detail-section active">
+            <div class="detail-grid">
+                <div class="detail-content">
+                    <span class="technical-pill">Core Feature: Curriculum System</span>
+                    <h3 style="color: var(--color-lessons)">المسار التعليمي</h3>
+                    <p class="big-desc">هذا هو العمود الفقري للتطبيق. تم تصميم المحتوى التعليمي ليتدرج معك من البداية
+                        المطلقة وحتى الإتقان التام، مع التركيز على القواعد والمفردات في سياقها الصحيح.</p>
+                    <div class="access-card">
+                        <h4>طريقة الوصول</h4>
+                        <p>Feature Name: <strong>lessons</strong> | Screen: <strong>LevelSelectorScreen</strong></p>
+                    </div>
                 </div>
-                <div class="feature-card">
-                    <h3>🏛️ المتحف الافتراضي ثلاثي الأبعاد</h3>
-                    <p>استكشف المعالم التاريخية والثقافية للعالم العربي في بيئة 3D تفاعلية، وتعلم الكلمات المرتبطة بكل
-                        موقع بأسلوب بصري ممتع.</p>
-                </div>
-                <div class="feature-card">
-                    <h3>📱 الدروس التفاعلية</h3>
-                    <p>منهج تعليمي شامل يتدرج بك من المستوى المبتدئ (A0) إلى الاحتراف (C2)، مع التركيز على المهارات
-                        الأربع: القراءة، الكتابة، الاستماع، والتحدث.</p>
-                </div>
-                <div class="feature-card">
-                    <h3>🎙️ تحدي النطق (Voice Pro)</h3>
-                    <p>اختبر دقة نطقك للكلمات والجمل العربية واحصل على تقييم دقيق يساعدك على تحسين مخارج الحروف.</p>
-                </div>
-                <div class="feature-card">
-                    <h3>🌍 لهجات العالم العربي</h3>
-                    <p>لا يقتصر التعلم على الفصحى فقط، بل يمكنك استكشاف وفهم اللهجات الإقليمية المختلفة لزيادة قدرتك على
-                        التواصل الواقعي.</p>
-                </div>
-                <div class="feature-card">
-                    <h3>🏆 التحديات والمسابقات</h3>
-                    <p>شارك في ألغاز لغوية، رتب الجمل، وحقق نقاط (XP) للمنافسة في لوحة الصدارة وزيادة حماسك للتعلم.</p>
+                <div class="visual-box color-lessons">📚</div>
+            </div>
+        </section>
+
+        <!-- Chat Buddy -->
+        <section id="chat" class="detail-section active">
+            <div class="detail-grid">
+                <div class="visual-box color-chat">💬</div>
+                <div class="detail-content">
+                    <span class="technical-pill">AI Engine: Groq LPU™ Integration</span>
+                    <h3 style="color: var(--color-chat)">رفيق الدردشة</h3>
+                    <p class="big-desc">لا تتعلم وحدك. رفيق الدردشة متاح دائماً ليتحاور معك، يصحح أخطاءك، ويقترح عليك
+                        طرقاً أفضل للتعبير، مما يبني ثقتك في استخدام اللغة في المحادثات النصية.</p>
+                    <div class="access-card">
+                        <h4>طريقة الوصول</h4>
+                        <p>Feature Name: <strong>chat_buddy</strong> | Screen: <strong>PenpalChatScreen</strong></p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="tools">
-            <h2>الأدوات والتقنيات المستخدمة</h2>
-            <p>تم بناء تطبيق قلم باستخدام أحدث التقنيات لضمان تجربة مستخدم سلسة وقوية:</p>
-            <div class="tools-list">
-                <span class="tool-tag">Flutter</span>
-                <span class="tool-tag">Google Gemini AI (Vertex AI)</span>
-                <span class="tool-tag">Firebase Core</span>
-                <span class="tool-tag">Hive DB (للتخزين المحلي)</span>
-                <span class="tool-tag">Text-to-Speech (TTS)</span>
-                <span class="tool-tag">Speech-to-Text (STT)</span>
-                <span class="tool-tag">Google Fonts (Inter & Noto Sans)</span>
-                <span class="tool-tag">Lottie Animations</span>
+        <!-- Voice Roleplay -->
+        <section id="roleplay" class="detail-section active">
+            <div class="detail-grid">
+                <div class="detail-content">
+                    <span class="technical-pill">Speech Tech: Real-time Audio AI</span>
+                    <h3 style="color: var(--color-roleplay)">تمثيل الأدوار الصوتي</h3>
+                    <p class="big-desc">تجاوز حاجز الخوف من التحدث. من خلال سيناريوهات تفاعلية (في المطار، المطعم، أو
+                        السوق)، يمكنك ممارسة النطق والاستماع في بيئة آمنة وتلقي ردود فعل صوتية واقعية.</p>
+                    <div class="access-card">
+                        <h4>طريقة الوصول</h4>
+                        <p>Feature Name: <strong>voice_roleplay</strong> | Screen:
+                            <strong>RoleplayScenariosScreen</strong></p>
+                    </div>
+                </div>
+                <div class="visual-box color-roleplay">🎭</div>
             </div>
         </section>
 
-        <div class="footer">
-            <p>&copy; 2026 جميع الحقوق محفوظة لتطبيق قلم</p>
-            <p>تم التحديث في: 8 مارس 2026</p>
-        </div>
+        <!-- Museum -->
+        <section id="museum" class="detail-section active">
+            <div class="detail-grid">
+                <div class="visual-box color-museum">🏺</div>
+                <div class="detail-content">
+                    <span class="technical-pill">Experience: 3D Immersive Environment</span>
+                    <h3 style="color: var(--color-museum)">المتحف الافتراضي</h3>
+                    <p class="big-desc">اللغة هي الثقافة. في المتحف، ستعيش تجربة بصرية وسمعية غامرة تشرح لك تاريخ القطع
+                        الأثرية والتراث العربي، مما يجعل عملية التعلم ممتعة وذات قيمة ثقافية عميقة.</p>
+                    <div class="access-card">
+                        <h4>طريقة الوصول</h4>
+                        <p>Feature Name: <strong>museum</strong> | Screen: <strong>MuseumHomeScreen</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Daily Challenge -->
+        <section id="challenge" class="detail-section active">
+            <div class="detail-grid">
+                <div class="detail-content">
+                    <span class="technical-pill">Gamification: Daily Speaking Assessment</span>
+                    <h3 style="color: var(--color-challenge)">التحدي اليومي</h3>
+                    <p class="big-desc">حافظ على استمرارية تعلمك. كل يوم هناك تحدٍ جديد ينتظرك لتقييم نطقك بكلمات أو جمل
+                        معينة، مما يساعدك على صقل مخارج الحروف العربية بشكل يومي وتنافسي.</p>
+                    <div class="access-card">
+                        <h4>طريقة الوصول</h4>
+                        <p>Feature Name: <strong>daily_challenge</strong> | Screen:
+                            <strong>SpeakingChallengeLevelsScreen</strong></p>
+                    </div>
+                </div>
+                <div class="visual-box color-challenge">🔥</div>
+            </div>
+        </section>
+
+        <!-- Translator -->
+        <section id="translator" class="detail-section active">
+            <div class="detail-grid">
+                <div class="visual-box color-translator">🎙️</div>
+                <div class="detail-content">
+                    <span class="technical-pill">Utility: Neural Voice Translation</span>
+                    <h3 style="color: var(--color-translator)">المترجم الصوتي</h3>
+                    <p class="big-desc">ادسر الفجوة في أي مكان. أداة ترجمة احترافية تتيح لك التحدث بلغتك والحصول على
+                        ترجمة فورية ونطق سليم باللغة العربية، أو العكس، لتسهيل تواصلك مع العالم.</p>
+                    <div class="access-card">
+                        <h4>طريقة الوصول</h4>
+                        <p>Feature Name: <strong>voice_translator</strong> | Screen:
+                            <strong>VoiceTranslatorScreen</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tech-stack">
+            <h2>التكنولوجيا خلف الإبداع</h2>
+            <div class="tech-tags">
+                <span class="tag">Flutter Ecosystem</span>
+                <span class="tag">Google Gemini Pro AI</span>
+                <span class="tag">Vertex AI Cloud</span>
+                <span class="tag">Firebase Infrastructure</span>
+                <span class="tag">High-Performance Hive DB</span>
+                <span class="tag">Advanced Speech Recognition</span>
+                <span class="tag">Interactive 3D Engine</span>
+                <span class="tag">Cloudinary Integration</span>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Qalam Project. تم تصميمه بكل فخر لخدمة اللغة العربية.</p>
+            <p style="font-size: 0.8rem; margin-top: 10px;">آخر تحديث للمحتوى: 8 مارس 2026</p>
+        </footer>
     </div>
+
+    <script>
+        // Intersection Observer to animate sections on scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.detail-section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
 </body>
 
 </html>
