@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مشروع قلم - Qalam Project</title>
+    <title>سياسة الخصوصية - مشروع قلم | Privacy Policy - Qalam Project</title>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans+Arabic:wght@400;700&display=swap"
         rel="stylesheet">
@@ -45,14 +45,14 @@
 
         h1 {
             color: var(--primary-color);
-            font-size: 3rem;
+            font-size: 2.5rem;
             margin-bottom: 10px;
         }
 
-        .tagline {
-            font-size: 1.2rem;
+        .date {
+            font-size: 1.1rem;
             color: #666;
-            font-weight: 400;
+            margin-bottom: 20px;
         }
 
         h2 {
@@ -61,6 +61,13 @@
             padding-right: 15px;
             margin-top: 40px;
             font-size: 1.8rem;
+        }
+
+        .lang-en h2 {
+            border-right: none;
+            border-left: 5px solid var(--accent-color);
+            padding-right: 0;
+            padding-left: 15px;
         }
 
         h3 {
@@ -73,40 +80,28 @@
             font-size: 1.1rem;
         }
 
-        .feature-grid {
+        ul {
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .section-bilingual {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
-            margin-top: 30px;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
         }
 
-        .feature-card {
-            background: var(--section-bg);
-            padding: 25px;
-            border-radius: 12px;
-            border: 1px solid #eee;
-            transition: transform 0.3s ease;
+        .lang-ar {
+            direction: rtl;
         }
 
-        .feature-card:hover {
-            transform: translateY(-5px);
-            border-color: var(--accent-color);
-        }
-
-        .tools-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-            margin-top: 20px;
-        }
-
-        .tool-tag {
-            background: var(--primary-color);
-            color: white;
-            padding: 8px 18px;
-            border-radius: 25px;
-            font-size: 0.9rem;
-            font-weight: bold;
+        .lang-en {
+            direction: ltr;
+            text-align: left;
         }
 
         .footer {
@@ -118,15 +113,15 @@
             padding-top: 30px;
         }
 
-        @media (max-width: 600px) {
+        @media (max-width: 850px) {
+            .section-bilingual {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
             .container {
                 margin: 0;
                 padding: 25px;
                 border-radius: 0;
-            }
-
-            h1 {
-                font-size: 2.2rem;
             }
         }
     </style>
@@ -135,94 +130,154 @@
 <body>
     <div class="container">
         <header>
-            <h1>تطبيق قلم (Qalam)</h1>
-            <p class="tagline">تتبّع التراث.. وانطق بالمستقبل</p>
+            <h1>سياسة الخصوصية <br> <small style="font-size: 0.6em; color: #666;">Privacy Policy</small></h1>
+            <p class="date">آخر تحديث: 8 مارس 2026 | Last updated: March 08, 2026</p>
         </header>
 
-        <section id="overview">
-            <h2>نظرة عامة على التطبيق</h2>
-            <p>يُعد تطبيق <strong>قلم</strong> رحلة تعليمية متكاملة تهدف إلى تمكين المستخدمين من احتراف اللغة العربية
-                الفصحى ولهجاتها المتنوعة من خلال تقنيات الذكاء الاصطناعي المتقدمة والبيئات الافتراضية الغامرة. يجمع
-                التطبيق بين متعة الاستكشاف وكفاءة التعلم الأكاديمي.</p>
-        </section>
+        <div class="section-bilingual">
+            <div class="lang-ar">
+                <section>
+                    <p>مرحباً بكم في <strong>تطبيق قلم</strong>. توضح سياسة الخصوصية هذه كيفية جمع معلوماتك واستخدامها والإفصاح عنها وحمايتها عند استخدام تطبيقنا للهاتف المحمول.</p>
+                </section>
 
-        <section id="features">
-            <h2>دليل مميزات التطبيق</h2>
-            <p>إليك شرح مفصل لكل خاصية في التطبيق وكيفية الاستفادة منها:</p>
+                <section>
+                    <h2>1. جمع المعلومات واستخدامها</h2>
+                    <p>للحصول على تجربة أفضل أثناء استخدام خدمتنا، قد نطلب منك تزويدنا ببعض معلومات الهوية الشخصية. سيتم الاحتفاظ بالمعلومات التي نطلبها على جهازك ولن نقوم بجمعها بأي شكل من الأشكال.</p>
 
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <h3>🤖 محادثات الذكاء الاصطناعي (AI Chat)</h3>
-                    <p><strong>كيفية الدخول:</strong> من الشاشة الرئيسية، اضغط على بطاقة "AI Chat".</p>
-                    <p>يسمح لك هذا القسم بممارسة المحادثة الواقعية مع مدرب ذكي. يمكنك اختيار "الدردشة الحرة" أو المشاركة
-                        في "سيناريوهات محددة" مثل طلب الطعام في مطعم أو إجراء مقابلة عمل، مع الحصول على تصحيح فوري
-                        للأخطاء النحوية والنطقية.</p>
-                </div>
-
-                <div class="feature-card">
-                    <h3>🏛️ المتحف الافتراضي (Virtual Museum)</h3>
-                    <p><strong>كيفية الدخول:</strong> اختر أيقونة "Museum" من الشاشة الرئيسية.</p>
-                    <p>تجربة غامرة تأخذك في جولة 3D بين المعالم التاريخية العربية. يمكنك التجول داخل القاعات، والضغط على
-                        المعروضات لتعلم أسماؤها ومعلومات عنها باللغتين العربية والإنجليزية، مما يربط اللغة بالثقافة
-                        والتاريخ.</p>
-                </div>
-
-                <div class="feature-card">
-                    <h3>📱 المسار التعليمي (Lessons)</h3>
-                    <p><strong>كيفية الدخول:</strong> اضغط على "Start Learning" في منتصف الشاشة الرئيسية.</p>
-                    <p>هذا هو قلب التطبيق، حيث تجد خطة دراسية متدرجة من المستوى المبتدئ (A0) إلى المستويات المتقدمة.
-                        يشمل كل درس شرحاً مبسطاً، تمارين تفاعلية، واختباراً قصيراً في النهاية لضمان استيعابك للمادة
-                        العلمية.</p>
-                </div>
-
-                <div class="feature-card">
-                    <h3>🎙️ تحدي النطق (Voice Pro)</h3>
-                    <p><strong>كيفية الدخول:</strong> ستجده ضمن التحديات اليومية أو قسم "Competitions".</p>
-                    <p>أداة متطورة لتحسين مخارج الحروف. استمع إلى التسجيل الصوتي الأصلي، ثم قم بتسجيل صوتك؛ سيقوم الذكاء
-                        الاصطناعي بمقارنة نطقك وإعطائك درجة دقة وتوجيهات لتحسين الأداء.</p>
-                </div>
-
-                <div class="feature-card">
-                    <h3>🌍 واحة اللهجات (Dialects)</h3>
-                    <p><strong>كيفية الدخول:</strong> انتقل إلى "Oasis" ثم اختر "Dialects".</p>
-                    <p>لأن اللغة العربية غنية بتنوعها، يتيح لك هذا القسم استكشاف اللهجات الإقليمية (مثل المصرية،
-                        الخليجية، والشامية). يمكنك تعلم كلمات وجمل شائعة في كل لهجة وكيفية نطقها بشكل صحيح.</p>
-                </div>
-
-                <div class="feature-card">
-                    <h3>🏆 الساحة التنافسية (Competitions)</h3>
-                    <p><strong>كيفية الدخول:</strong> اضغط على أيقونة "Quiz" أو "Competitions".</p>
-                    <p>حول تعلمك إلى لعبة ممتعة! شارك في مسابقات سريعة، حل الألغاز اللغوية، واجمع نقاط الخبرة (XP)
-                        لتتصدر قائمة المتفوقين وتنافس أصدقائك.</p>
-                </div>
-
-                <div class="feature-card">
-                    <h3>� الواحة الكاملة (Oasis Hub)</h3>
-                    <p><strong>كيفية الدخول:</strong> من شريط التنقل السفلي، اضغط على "Oasis".</p>
-                    <p>هي مركز التحكم الخاص بك؛ حيث يمكنك مراجعة الكلمات التي حفظتها، تعديل إعدادات الصوت وسرعة القراءة،
-                        وتخصيص تجربة التعلم بالكامل لتناسب احتياجاتك.</p>
-                </div>
+                    <h3>الأذونات المستخدمة:</h3>
+                    <ul>
+                        <li><strong>الميكروفون (RECORD_AUDIO):</strong> يُستخدم للتعرف على الكلام وميزات تدريب النطق. تتم معالجة البيانات الصوتية محلياً أو عبر مزودي الخدمة المعتمدين (مثل Google Speech Recognition) ولا يتم تخزينها على خوادمنا.</li>
+                        <li><strong>الإنترنت وحالة الشبكة:</strong> تُستخدم للوصول إلى موارد التعلم عبر الإنترنت، وميزات الذكاء الاصطناعي، والترجمات.</li>
+                        <li><strong>تحويل النص إلى كلام (TTS):</strong> يُستخدم لتوفير النطق الصوتي للنصوص العربية.</li>
+                    </ul>
+                </section>
             </div>
-        </section>
 
-        <section id="tools">
-            <h2>الأدوات والتقنيات المستخدمة</h2>
-            <p>يعتمد "قلم" على بنية تكنولوجية قوية لضمان استقرار الأداء وذكاء التفاعل:</p>
-            <div class="tools-list">
-                <span class="tool-tag">Flutter Framework</span>
-                <span class="tool-tag">Google Gemini AI (Vertex AI)</span>
-                <span class="tool-tag">Firebase Core & Auth</span>
-                <span class="tool-tag">Hive Local Database</span>
-                <span class="tool-tag">Google Text-to-Speech</span>
-                <span class="tool-tag">Advanced Speech Recognition</span>
-                <span class="tool-tag">Lottie Animations</span>
-                <span class="tool-tag">Cloudinary Media</span>
+            <div class="lang-en">
+                <section>
+                    <p>Welcome to <strong>Qalam Arabic</strong>. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application.</p>
+                </section>
+
+                <section>
+                    <h2>1. Information Collection and Use</h2>
+                    <p>For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information. The information that we request will be retained on your device and is not collected by us in any way.</p>
+
+                    <h3>Permissions Used:</h3>
+                    <ul>
+                        <li><strong>Microphone (RECORD_AUDIO):</strong> Used for speech recognition and pronunciation practice features. Audio data is processed locally or via designated service providers (like Google Speech Recognition) for functionality and is not stored on our servers.</li>
+                        <li><strong>Internet & Network State:</strong> Used to access online learning resources, AI-powered features, and translations.</li>
+                        <li><strong>Text-to-Speech (TTS):</strong> Used to provide audio pronunciations of Arabic text.</li>
+                    </ul>
+                </section>
             </div>
-        </section>
+        </div>
+
+        <div class="section-bilingual">
+            <div class="lang-ar">
+                <section>
+                    <h2>2. التخزين المحلي</h2>
+                    <p>نستخدم حلول قواعد البيانات المحلية (Hive) لتخزين تقدمك، وبيانات المنهج الدراسي غير المتصل بالإنترنت، وإعدادات التطبيق مباشرة على جهازك. تظل هذه البيانات على جهازك بغض النظر عما إذا كنت متصلاً بالإنترنت أو غير متصل.</p>
+                </section>
+            </div>
+            <div class="lang-en">
+                <section>
+                    <h2>2. Local Storage</h2>
+                    <p>We use local database solutions (Hive) to store your progress, offline curriculum data, and app settings directly on your device. This data remains on your device regardless of whether you are online or offline.</p>
+                </section>
+            </div>
+        </div>
+
+        <div class="section-bilingual">
+            <div class="lang-ar">
+                <section>
+                    <h2>3. مزودو الخدمة</h2>
+                    <p>قد نستعين بشركات وأفراد من جهات خارجية للأسباب التالية:</p>
+                    <ul>
+                        <li>تسهيل خدمتنا؛</li>
+                        <li>توفير الخدمة نيابة عنا؛</li>
+                        <li>أداء الخدمات المتعلقة بالخدمة؛ أو</li>
+                        <li>لمساعدتنا في تحليل كيفية استخدام خدمتنا.</li>
+                    </ul>
+                    <p>هذه الأطراف الثالثة (مثل Google Vertex AI لميزات الذكاء الاصطناعي) لديها حق الوصول إلى معلوماتك الشخصية فقط لأداء هذه المهام نيابة عنا وهي ملزمة بعدم الكشف عنها أو استخدامها لأي غرض آخر.</p>
+                </section>
+            </div>
+            <div class="lang-en">
+                <section>
+                    <h2>3. Service Providers</h2>
+                    <p>We may employ third-party companies and individuals due to the following reasons:</p>
+                    <ul>
+                        <li>To facilitate our Service;</li>
+                        <li>To provide the Service on our behalf;</li>
+                        <li>To perform Service-related services; or</li>
+                        <li>To assist us in analyzing how our Service is used.</li>
+                    </ul>
+                    <p>These third parties (such as Google Vertex AI for AI features) have access to your personal information only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</p>
+                </section>
+            </div>
+        </div>
+
+        <div class="section-bilingual">
+            <div class="lang-ar">
+                <section>
+                    <h2>4. الأمان</h2>
+                    <p>نحن نقدر ثقتك في تزويدنا بمعلوماتك الشخصية، وبالتالي فإننا نسعى جاهدين لاستخدام وسائل حماية مقبولة تجارياً لحمايتها. ولكن تذكر أنه لا توجد وسيلة نقل عبر الإنترنت، أو وسيلة تخزين إلكترونية آمنة وموثوقة بنسبة 100٪، ولا يمكننا ضمان أمنها المطلق.</p>
+                </section>
+            </div>
+            <div class="lang-en">
+                <section>
+                    <h2>4. Security</h2>
+                    <p>We value your trust in providing us your personal information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.</p>
+                </section>
+            </div>
+        </div>
+
+        <div class="section-bilingual">
+            <div class="lang-ar">
+                <section>
+                    <h2>5. خصوصية الأطفال</h2>
+                    <p>هذه الخدمات لا تتعامل مع أي شخص يقل عمره عن 13 عاماً. نحن لا نجمع عن علم معلومات تعريف شخصية من الأطفال دون سن 13 عاماً. في حالة اكتشافنا أن طفلاً يقل عمره عن 13 عاماً قد زودنا بمعلومات شخصية، فإننا نقوم بحذفها على الفور من خوادمنا. إذا كنت والداً أو وصياً وتعلم أن طفلك قد زودنا بمعلومات شخصية، فيرجى الاتصال بنا حتى نتمكن من اتخاذ الإجراءات اللازمة.</p>
+                </section>
+            </div>
+            <div class="lang-en">
+                <section>
+                    <h2>5. Children's Privacy</h2>
+                    <p>These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions.</p>
+                </section>
+            </div>
+        </div>
+
+        <div class="section-bilingual">
+            <div class="lang-ar">
+                <section>
+                    <h2>6. التغييرات في سياسة الخصوصية هذه</h2>
+                    <p>قد نقوم بتحديث سياسة الخصوصية الخاصة بنا من وقت لآخر. لذا، ننصحك بمراجعة هذه الصفحة بشكل دوري لمعرفة أي تغييرات. سنخطرك بأي تغييرات عن طريق نشر سياسة الخصوصية الجديدة على هذه الصفحة.</p>
+                </section>
+            </div>
+            <div class="lang-en">
+                <section>
+                    <h2>6. Changes to This Privacy Policy</h2>
+                    <p>We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+                </section>
+            </div>
+        </div>
+
+        <div class="section-bilingual">
+            <div class="lang-ar">
+                <section>
+                    <h2>7. اتصل بنا</h2>
+                    <p>إذا كان لديك أي أسئلة أو اقتراحات حول سياسة الخصوصية الخاصة بنا، فلا تتردد في الاتصال بنا على.</p>
+                </section>
+            </div>
+            <div class="lang-en">
+                <section>
+                    <h2>7. Contact Us</h2>
+                    <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us.</p>
+                </section>
+            </div>
+        </div>
 
         <div class="footer">
-            <p>&copy; 2026 جميع الحقوق محفوظة لتطبيق قلم</p>
-            <p>تم تحديث المحتوى في: 8 مارس 2026</p>
+            <p>&copy; 2026 جميع الحقوق محفوظة لتطبيق قلم | All rights reserved for Qalam App</p>
         </div>
     </div>
 </body>
