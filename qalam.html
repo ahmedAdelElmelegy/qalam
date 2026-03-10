@@ -4,28 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
-    <title>قلم - تجربة تعلم العربية المستقبلية</title>
+    <title>ملف توثيق قلم - Qalam Documentation</title>
     <link
         href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+Arabic:wght@300;400;700;900&display=swap"
         rel="stylesheet">
     <style>
         :root {
-            --bg-dark: #0a0a0c;
-            --card-bg: rgba(255, 255, 255, 0.03);
-            --card-border: rgba(255, 255, 255, 0.08);
-            --accent-gold: #d4af37;
-            --accent-gold-glow: rgba(212, 175, 55, 0.3);
-            --text-main: #ffffff;
-            --text-dim: #a0a0a5;
-
-            /* Feature Colors from App */
-            --color-lessons: #8B5CF6;
-            --color-chat: #F59E0B;
-            --color-roleplay: #10B981;
-            --color-museum: #FFD700;
-            --color-challenge: #EF4444;
-            --color-translator: #3B82F6;
+            --color-canvas-default: #ffffff;
+            --color-canvas-subtle: #f6f8fa;
+            --color-border-default: #d0d7de;
+            --color-fg-default: #1f2328;
+            --color-fg-muted: #656d76;
+            --color-accent-fg: #0969da;
+            --color-neutral-muted: rgba(175, 184, 193, 0.2);
+            --max-width: 1012px;
         }
 
         * {
@@ -34,717 +26,458 @@
             box-sizing: border-box;
         }
 
-        html {
-            scroll-behavior: smooth;
-        }
-
         body {
-            font-family: 'Noto Sans Arabic', 'Outfit', sans-serif;
-            background-color: var(--bg-dark);
-            color: var(--text-main);
-            line-height: 1.6;
-            overflow-x: hidden;
-            background-image:
-                radial-gradient(circle at 10% 20%, rgba(139, 92, 246, 0.08) 0%, transparent 40%),
-                radial-gradient(circle at 90% 80%, rgba(212, 175, 55, 0.08) 0%, transparent 40%);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans Arabic", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+            background-color: var(--color-canvas-default);
+            color: var(--color-fg-default);
+            line-height: 1.5;
+            word-wrap: break-word;
         }
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 40px 24px;
-=======
-    <title>مشروع قلم - Qalam Project</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans+Arabic:wght@400;700&display=swap"
-        rel="stylesheet">
-    <style>
-        :root {
-            --primary-color: #1a1a1a;
-            --accent-color: #d4af37;
-            /* Gold */
-            --text-color: #333;
-            --bg-color: #ffffff;
-            --section-bg: #f9f9f9;
+        /* GitHub Header Mockup */
+        .repo-header {
+            background-color: var(--color-canvas-subtle);
+            border-bottom: 1px solid var(--color-border-default);
+            padding: 16px 32px;
+            margin-bottom: 32px;
         }
 
-        body {
-            font-family: 'Noto Sans Arabic', 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.8;
-            color: var(--text-color);
-            background-color: var(--bg-color);
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 40px;
-            background: var(--bg-color);
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
-            border-radius: 16px;
->>>>>>> 6a0137e5117c14ca5d59592960b6db506813876f
-        }
-
-        header {
-            text-align: center;
-<<<<<<< HEAD
-            margin-bottom: 60px;
-            animation: fadeInDown 1s ease-out;
-        }
-
-        .logo-area {
-            font-size: 6rem;
-            font-weight: 900;
-            background: linear-gradient(135deg, #fff 0%, var(--accent-gold) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-bottom: 10px;
-            text-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-        }
-
-        .tagline {
-            font-size: 1.5rem;
-            color: var(--text-dim);
-            font-weight: 300;
-            letter-spacing: 2px;
-        }
-
-        /* Quick Nav Summary Section */
-        .summary-section {
-            background: var(--card-bg);
-            backdrop-filter: blur(20px);
-            border: 1px solid var(--card-border);
-            border-radius: 40px;
-            padding: 40px;
-            margin-bottom: 80px;
-            animation: fadeInUp 1s ease-out 0.2s both;
-        }
-
-        .summary-section h2 {
-            font-size: 2rem;
-            margin-bottom: 30px;
-            text-align: center;
-            color: var(--accent-gold);
-        }
-
-        .summary-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-        }
-
-        .summary-item {
-            padding: 20px;
-            border-radius: 20px;
-            background: rgba(255, 255, 255, 0.02);
-            border: 1px solid transparent;
-            text-decoration: none;
-            color: var(--text-main);
-            transition: all 0.3s ease;
+        .repo-path {
+            font-size: 1.25rem;
+            color: var(--color-accent-fg);
             display: flex;
-            flex-direction: column;
+            align-items: center;
             gap: 8px;
         }
 
-        .summary-item:hover {
-            background: rgba(255, 255, 255, 0.05);
-            border-color: var(--card-border);
-            transform: translateY(-5px);
-        }
-
-        .summary-item .item-title {
-            font-weight: 700;
-            font-size: 1.2rem;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .summary-item .item-desc {
-            font-size: 0.95rem;
-            color: var(--text-dim);
-        }
-
-        /* Detailed Section Styling */
-        .detail-section {
-            padding: 80px 0;
-            border-top: 1px solid var(--card-border);
-            opacity: 0;
-            transform: translateY(30px);
-            transition: all 0.8s ease-out;
-        }
-
-        .detail-section.active {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        .detail-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 60px;
-            align-items: center;
-        }
-
-        .detail-content h3 {
-            font-size: 3rem;
-            margin-bottom: 25px;
-            font-weight: 800;
-        }
-
-        .detail-content .big-desc {
-            font-size: 1.3rem;
-            line-height: 1.8;
-            color: var(--text-main);
-            margin-bottom: 30px;
-        }
-
-        .detail-content .technical-pill {
-            display: inline-block;
-            padding: 8px 16px;
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid var(--card-border);
-            border-radius: 100px;
-            font-size: 0.9rem;
-            color: var(--accent-gold);
-            margin-bottom: 40px;
+        .repo-path span {
+            color: var(--color-fg-default);
             font-weight: 600;
         }
 
-        .access-card {
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid var(--card-border);
-            border-radius: 24px;
-            padding: 30px;
-            position: relative;
-            overflow: hidden;
+        /* Markdown Body Container */
+        .markdown-body {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 45px;
+            border: 1px solid var(--color-border-default);
+            border-radius: 6px;
         }
 
-        .access-card h4 {
-            color: var(--accent-gold);
-            margin-bottom: 15px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-size: 0.9rem;
-        }
-
-        .access-card p {
-            color: var(--text-dim);
-            font-family: 'Outfit', sans-serif;
-        }
-
-        .visual-box {
-            height: 400px;
-            border-radius: 40px;
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 8rem;
-            position: relative;
-            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
-        }
-
-        .visual-box::after {
-            content: '';
-            position: absolute;
-            inset: 0;
-            border-radius: 40px;
-            background: radial-gradient(circle at center, var(--accent-gold-glow) 0%, transparent 70%);
-            opacity: 0.2;
-        }
-
-        /* Feature specific gradients */
-        .color-lessons {
-            color: var(--color-lessons);
-            background: linear-gradient(135deg, var(--color-lessons), #a78bfa);
-        }
-
-        .color-chat {
-            color: var(--color-chat);
-            background: linear-gradient(135deg, var(--color-chat), #fbbf24);
-        }
-
-        .color-roleplay {
-            color: var(--color-roleplay);
-            background: linear-gradient(135deg, var(--color-roleplay), #34d399);
-        }
-
-        .color-museum {
-            color: var(--color-museum);
-            background: linear-gradient(135deg, var(--color-museum), #fef08a);
-        }
-
-        .color-challenge {
-            color: var(--color-challenge);
-            background: linear-gradient(135deg, var(--color-challenge), #f87171);
-        }
-
-        .color-translator {
-            color: var(--color-translator);
-            background: linear-gradient(135deg, var(--color-translator), #60a5fa);
-        }
-
-        .tech-stack {
-            margin-top: 100px;
-            text-align: center;
-            padding-top: 80px;
-        }
-
-        .tech-tags {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 15px;
-            margin-top: 40px;
-        }
-
-        .tag {
-            background: rgba(255, 255, 255, 0.05);
-            padding: 12px 25px;
-            border-radius: 100px;
-            border: 1px solid var(--card-border);
-            font-weight: 600;
-            color: var(--text-dim);
-            transition: all 0.3s ease;
-        }
-
-        .tag:hover {
-            background: rgba(212, 175, 55, 0.1);
-            color: var(--accent-gold);
-            border-color: var(--accent-gold);
-        }
-
-        footer {
-            text-align: center;
-            padding: 60px 24px;
-            color: var(--text-dim);
-            border-top: 1px solid var(--card-border);
-            margin-top: 100px;
-        }
-
-        /* Animations */
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(40px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        @keyframes fadeInDown {
-            from {
-                opacity: 0;
-                transform: translateY(-40px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        @media (max-width: 992px) {
-            .detail-grid {
-                grid-template-columns: 1fr;
-                gap: 40px;
-            }
-
-            .detail-content h3 {
-                font-size: 2.5rem;
-            }
-
-            .visual-box {
-                height: 300px;
-                order: -1;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .logo-area {
-                font-size: 4rem;
-            }
-
-            .summary-section {
-                padding: 25px;
-            }
-
-            .detail-content h3 {
-                font-size: 2rem;
-=======
-            margin-bottom: 50px;
-            border-bottom: 3px solid var(--accent-color);
-            padding-bottom: 30px;
+        header {
+            padding-bottom: 16px;
+            margin-bottom: 32px;
+            border-bottom: 1px solid var(--color-border-default);
         }
 
         h1 {
-            color: var(--primary-color);
-            font-size: 3rem;
-            margin-bottom: 10px;
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
         }
 
-        .tagline {
-            font-size: 1.2rem;
-            color: #666;
-            font-weight: 400;
+        .lead {
+            font-size: 1.1rem;
+            color: var(--color-fg-muted);
+            margin-bottom: 16px;
         }
 
         h2 {
-            color: var(--primary-color);
-            border-right: 5px solid var(--accent-color);
-            padding-right: 15px;
-            margin-top: 40px;
-            font-size: 1.8rem;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-top: 24px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--color-border-default);
         }
 
         h3 {
-            color: var(--accent-color);
-            margin-top: 25px;
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-top: 24px;
+            margin-bottom: 16px;
         }
 
         p {
-            margin-bottom: 20px;
-            font-size: 1.1rem;
+            margin-bottom: 16px;
         }
 
-        .feature-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
-            margin-top: 30px;
+        .feature-block {
+            margin-bottom: 40px;
+            padding: 24px;
+            border: 1px solid var(--color-border-default);
+            border-radius: 6px;
+            background-color: var(--color-canvas-default);
         }
 
-        .feature-card {
-            background: var(--section-bg);
-            padding: 25px;
-            border-radius: 12px;
-            border: 1px solid #eee;
-            transition: transform 0.3s ease;
-        }
-
-        .feature-card:hover {
-            transform: translateY(-5px);
-            border-color: var(--accent-color);
-        }
-
-        .tools-list {
+        .feature-header {
             display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-            margin-top: 20px;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
         }
 
-        .tool-tag {
-            background: var(--primary-color);
-            color: white;
-            padding: 8px 18px;
-            border-radius: 25px;
+        .feature-header span {
+            color: var(--color-fg-muted);
             font-size: 0.9rem;
-            font-weight: bold;
+            font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
         }
 
-        .footer {
-            margin-top: 60px;
-            text-align: center;
-            font-size: 0.95rem;
-            color: #888;
-            border-top: 1px solid #eee;
-            padding-top: 30px;
+        .tech-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-top: 16px;
+            padding: 16px;
+            background-color: var(--color-canvas-subtle);
+            border-radius: 6px;
+            border: 1px solid var(--color-border-default);
         }
 
-        @media (max-width: 600px) {
-            .container {
-                margin: 0;
-                padding: 25px;
-                border-radius: 0;
+        .tech-item strong {
+            display: block;
+            font-size: 0.85rem;
+            color: var(--color-fg-muted);
+            margin-bottom: 4px;
+            text-transform: uppercase;
+        }
+
+        .tech-item p {
+            margin-bottom: 0;
+            font-size: 0.9rem;
+        }
+
+        code {
+            padding: .2em .4em;
+            margin: 0;
+            font-size: 85%;
+            white-space: break-spaces;
+            background-color: var(--color-neutral-muted);
+            border-radius: 6px;
+            font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 24px 0;
+            border-top: 1px solid var(--color-border-default);
+            color: var(--color-fg-muted);
+            font-size: 0.85rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        @media (max-width: 767px) {
+            .markdown-body {
+                padding: 15px;
+                border: none;
             }
 
-            h1 {
-                font-size: 2.2rem;
->>>>>>> 6a0137e5117c14ca5d59592960b6db506813876f
+            .tech-grid {
+                grid-template-columns: 1fr;
             }
         }
     </style>
 </head>
 
 <body>
-    <div class="container">
-        <header>
-<<<<<<< HEAD
-            <div class="logo-area">قلم</div>
-            <p class="tagline">Trace the Heritage. Speak the Future.</p>
-        </header>
-
-        <!-- Summary "Quick Nav" Section -->
-        <section class="summary-section">
-            <h2>مكونات عالم قلم</h2>
-            <div class="summary-grid">
-                <a href="#lessons" class="summary-item">
-                    <span class="item-title">📚 المسار التعليمي</span>
-                    <span class="item-desc">وحدات دراسية منظمة من المستوى A0 إلى C2.</span>
-                </a>
-                <a href="#chat" class="summary-item">
-                    <span class="item-title">💬 رفيق الدردشة</span>
-                    <span class="item-desc">محادثات ذكية فورية مع معالجة لغوية متقدمة.</span>
-                </a>
-                <a href="#roleplay" class="summary-item">
-                    <span class="item-title">🎭 تمثيل الأدوار</span>
-                    <span class="item-desc">محاكاة مواقف واقعية عبر الصوت والذكاء الاصطناعي.</span>
-                </a>
-                <a href="#museum" class="summary-item">
-                    <span class="item-title">🏺 المتحف الافتراضي</span>
-                    <span class="item-desc">رحلة 3D تفاعلية في قلب التراث العربي.</span>
-                </a>
-                <a href="#challenge" class="summary-item">
-                    <span class="item-title">🔥 التحدي اليومي</span>
-                    <span class="item-desc">اختبر دقة نطقك ومهاراتك اللغوية يومياً.</span>
-                </a>
-                <a href="#translator" class="summary-item">
-                    <span class="item-title">🎙️ المترجم الصوتي</span>
-                    <span class="item-desc">ترجمة فورية ذكية لدعم التواصل السريع.</span>
-                </a>
-            </div>
-        </section>
-
-        <!-- Detailed Feature Sections -->
-
-        <!-- Lessons -->
-        <section id="lessons" class="detail-section active">
-            <div class="detail-grid">
-                <div class="detail-content">
-                    <span class="technical-pill">Core Feature: Curriculum System</span>
-                    <h3 style="color: var(--color-lessons)">المسار التعليمي</h3>
-                    <p class="big-desc">هذا هو العمود الفقري للتطبيق. تم تصميم المحتوى التعليمي ليتدرج معك من البداية
-                        المطلقة وحتى الإتقان التام، مع التركيز على القواعد والمفردات في سياقها الصحيح.</p>
-                    <div class="access-card">
-                        <h4>طريقة الوصول</h4>
-                        <p>Feature Name: <strong>lessons</strong> | Screen: <strong>LevelSelectorScreen</strong></p>
-                    </div>
-                </div>
-                <div class="visual-box color-lessons">📚</div>
-            </div>
-        </section>
-
-        <!-- Chat Buddy -->
-        <section id="chat" class="detail-section active">
-            <div class="detail-grid">
-                <div class="visual-box color-chat">💬</div>
-                <div class="detail-content">
-                    <span class="technical-pill">AI Engine: Groq LPU™ Integration</span>
-                    <h3 style="color: var(--color-chat)">رفيق الدردشة</h3>
-                    <p class="big-desc">لا تتعلم وحدك. رفيق الدردشة متاح دائماً ليتحاور معك، يصحح أخطاءك، ويقترح عليك
-                        طرقاً أفضل للتعبير، مما يبني ثقتك في استخدام اللغة في المحادثات النصية.</p>
-                    <div class="access-card">
-                        <h4>طريقة الوصول</h4>
-                        <p>Feature Name: <strong>chat_buddy</strong> | Screen: <strong>PenpalChatScreen</strong></p>
-                    </div>
-=======
-            <h1>تطبيق قلم (Qalam)</h1>
-            <p class="tagline">تتبّع التراث.. وانطق بالمستقبل</p>
-        </header>
-
-        <section id="overview">
-            <h2>نظرة عامة على التطبيق</h2>
-            <p>يُعد تطبيق <strong>قلم</strong> رحلة تعليمية متكاملة تهدف إلى تمكين المستخدمين من احتراف اللغة العربية
-                الفصحى ولهجاتها المتنوعة من خلال تقنيات الذكاء الاصطناعي المتقدمة والبيئات الافتراضية الغامرة. يجمع
-                التطبيق بين متعة الاستكشاف وكفاءة التعلم الأكاديمي.</p>
-        </section>
-
-        <section id="features">
-            <h2>دليل مميزات التطبيق</h2>
-            <p>إليك شرح مفصل لكل خاصية في التطبيق وكيفية الاستفادة منها:</p>
-
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <h3>🤖 محادثات الذكاء الاصطناعي (AI Chat)</h3>
-                    <p><strong>كيفية الدخول:</strong> من الشاشة الرئيسية، اضغط على بطاقة "AI Chat".</p>
-                    <p>يسمح لك هذا القسم بممارسة المحادثة الواقعية مع مدرب ذكي. يمكنك اختيار "الدردشة الحرة" أو المشاركة
-                        في "سيناريوهات محددة" مثل طلب الطعام في مطعم أو إجراء مقابلة عمل، مع الحصول على تصحيح فوري
-                        للأخطاء النحوية والنطقية.</p>
-                </div>
-
-                <div class="feature-card">
-                    <h3>🏛️ المتحف الافتراضي (Virtual Museum)</h3>
-                    <p><strong>كيفية الدخول:</strong> اختر أيقونة "Museum" من الشاشة الرئيسية.</p>
-                    <p>تجربة غامرة تأخذك في جولة 3D بين المعالم التاريخية العربية. يمكنك التجول داخل القاعات، والضغط على
-                        المعروضات لتعلم أسماؤها ومعلومات عنها باللغتين العربية والإنجليزية، مما يربط اللغة بالثقافة
-                        والتاريخ.</p>
-                </div>
-
-                <div class="feature-card">
-                    <h3>📱 المسار التعليمي (Lessons)</h3>
-                    <p><strong>كيفية الدخول:</strong> اضغط على "Start Learning" في منتصف الشاشة الرئيسية.</p>
-                    <p>هذا هو قلب التطبيق، حيث تجد خطة دراسية متدرجة من المستوى المبتدئ (A0) إلى المستويات المتقدمة.
-                        يشمل كل درس شرحاً مبسطاً، تمارين تفاعلية، واختباراً قصيراً في النهاية لضمان استيعابك للمادة
-                        العلمية.</p>
-                </div>
-
-                <div class="feature-card">
-                    <h3>🎙️ تحدي النطق (Voice Pro)</h3>
-                    <p><strong>كيفية الدخول:</strong> ستجده ضمن التحديات اليومية أو قسم "Competitions".</p>
-                    <p>أداة متطورة لتحسين مخارج الحروف. استمع إلى التسجيل الصوتي الأصلي، ثم قم بتسجيل صوتك؛ سيقوم الذكاء
-                        الاصطناعي بمقارنة نطقك وإعطائك درجة دقة وتوجيهات لتحسين الأداء.</p>
-                </div>
-
-                <div class="feature-card">
-                    <h3>🌍 واحة اللهجات (Dialects)</h3>
-                    <p><strong>كيفية الدخول:</strong> انتقل إلى "Oasis" ثم اختر "Dialects".</p>
-                    <p>لأن اللغة العربية غنية بتنوعها، يتيح لك هذا القسم استكشاف اللهجات الإقليمية (مثل المصرية،
-                        الخليجية، والشامية). يمكنك تعلم كلمات وجمل شائعة في كل لهجة وكيفية نطقها بشكل صحيح.</p>
-                </div>
-
-                <div class="feature-card">
-                    <h3>🏆 الساحة التنافسية (Competitions)</h3>
-                    <p><strong>كيفية الدخول:</strong> اضغط على أيقونة "Quiz" أو "Competitions".</p>
-                    <p>حول تعلمك إلى لعبة ممتعة! شارك في مسابقات سريعة، حل الألغاز اللغوية، واجمع نقاط الخبرة (XP)
-                        لتتصدر قائمة المتفوقين وتنافس أصدقائك.</p>
-                </div>
-
-                <div class="feature-card">
-                    <h3>� الواحة الكاملة (Oasis Hub)</h3>
-                    <p><strong>كيفية الدخول:</strong> من شريط التنقل السفلي، اضغط على "Oasis".</p>
-                    <p>هي مركز التحكم الخاص بك؛ حيث يمكنك مراجعة الكلمات التي حفظتها، تعديل إعدادات الصوت وسرعة القراءة،
-                        وتخصيص تجربة التعلم بالكامل لتناسب احتياجاتك.</p>
->>>>>>> 6a0137e5117c14ca5d59592960b6db506813876f
-                </div>
-            </div>
-        </section>
-
-<<<<<<< HEAD
-        <!-- Voice Roleplay -->
-        <section id="roleplay" class="detail-section active">
-            <div class="detail-grid">
-                <div class="detail-content">
-                    <span class="technical-pill">Speech Tech: Real-time Audio AI</span>
-                    <h3 style="color: var(--color-roleplay)">تمثيل الأدوار الصوتي</h3>
-                    <p class="big-desc">تجاوز حاجز الخوف من التحدث. من خلال سيناريوهات تفاعلية (في المطار، المطعم، أو
-                        السوق)، يمكنك ممارسة النطق والاستماع في بيئة آمنة وتلقي ردود فعل صوتية واقعية.</p>
-                    <div class="access-card">
-                        <h4>طريقة الوصول</h4>
-                        <p>Feature Name: <strong>voice_roleplay</strong> | Screen:
-                            <strong>RoleplayScenariosScreen</strong></p>
-                    </div>
-                </div>
-                <div class="visual-box color-roleplay">🎭</div>
-            </div>
-        </section>
-
-        <!-- Museum -->
-        <section id="museum" class="detail-section active">
-            <div class="detail-grid">
-                <div class="visual-box color-museum">🏺</div>
-                <div class="detail-content">
-                    <span class="technical-pill">Experience: 3D Immersive Environment</span>
-                    <h3 style="color: var(--color-museum)">المتحف الافتراضي</h3>
-                    <p class="big-desc">اللغة هي الثقافة. في المتحف، ستعيش تجربة بصرية وسمعية غامرة تشرح لك تاريخ القطع
-                        الأثرية والتراث العربي، مما يجعل عملية التعلم ممتعة وذات قيمة ثقافية عميقة.</p>
-                    <div class="access-card">
-                        <h4>طريقة الوصول</h4>
-                        <p>Feature Name: <strong>museum</strong> | Screen: <strong>MuseumHomeScreen</strong></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Daily Challenge -->
-        <section id="challenge" class="detail-section active">
-            <div class="detail-grid">
-                <div class="detail-content">
-                    <span class="technical-pill">Gamification: Daily Speaking Assessment</span>
-                    <h3 style="color: var(--color-challenge)">التحدي اليومي</h3>
-                    <p class="big-desc">حافظ على استمرارية تعلمك. كل يوم هناك تحدٍ جديد ينتظرك لتقييم نطقك بكلمات أو جمل
-                        معينة، مما يساعدك على صقل مخارج الحروف العربية بشكل يومي وتنافسي.</p>
-                    <div class="access-card">
-                        <h4>طريقة الوصول</h4>
-                        <p>Feature Name: <strong>daily_challenge</strong> | Screen:
-                            <strong>SpeakingChallengeLevelsScreen</strong></p>
-                    </div>
-                </div>
-                <div class="visual-box color-challenge">🔥</div>
-            </div>
-        </section>
-
-        <!-- Translator -->
-        <section id="translator" class="detail-section active">
-            <div class="detail-grid">
-                <div class="visual-box color-translator">🎙️</div>
-                <div class="detail-content">
-                    <span class="technical-pill">Utility: Neural Voice Translation</span>
-                    <h3 style="color: var(--color-translator)">المترجم الصوتي</h3>
-                    <p class="big-desc">ادسر الفجوة في أي مكان. أداة ترجمة احترافية تتيح لك التحدث بلغتك والحصول على
-                        ترجمة فورية ونطق سليم باللغة العربية، أو العكس، لتسهيل تواصلك مع العالم.</p>
-                    <div class="access-card">
-                        <h4>طريقة الوصول</h4>
-                        <p>Feature Name: <strong>voice_translator</strong> | Screen:
-                            <strong>VoiceTranslatorScreen</strong></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="tech-stack">
-            <h2>التكنولوجيا خلف الإبداع</h2>
-            <div class="tech-tags">
-                <span class="tag">Flutter Ecosystem</span>
-                <span class="tag">Google Gemini Pro AI</span>
-                <span class="tag">Vertex AI Cloud</span>
-                <span class="tag">Firebase Infrastructure</span>
-                <span class="tag">High-Performance Hive DB</span>
-                <span class="tag">Advanced Speech Recognition</span>
-                <span class="tag">Interactive 3D Engine</span>
-                <span class="tag">Cloudinary Integration</span>
-            </div>
-        </section>
-
-        <footer>
-            <p>&copy; 2026 Qalam Project. تم تصميمه بكل فخر لخدمة اللغة العربية.</p>
-            <p style="font-size: 0.8rem; margin-top: 10px;">آخر تحديث للمحتوى: 8 مارس 2026</p>
-        </footer>
-    </div>
-
-    <script>
-        // Intersection Observer to animate sections on scroll
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('active');
-                }
-            });
-        }, { threshold: 0.1 });
-
-        document.querySelectorAll('.detail-section').forEach(section => {
-            observer.observe(section);
-        });
-    </script>
-=======
-        <section id="tools">
-            <h2>الأدوات والتقنيات المستخدمة</h2>
-            <p>يعتمد "قلم" على بنية تكنولوجية قوية لضمان استقرار الأداء وذكاء التفاعل:</p>
-            <div class="tools-list">
-                <span class="tool-tag">Flutter Framework</span>
-                <span class="tool-tag">Google Gemini AI (Vertex AI)</span>
-                <span class="tool-tag">Firebase Core & Auth</span>
-                <span class="tool-tag">Hive Local Database</span>
-                <span class="tool-tag">Google Text-to-Speech</span>
-                <span class="tool-tag">Advanced Speech Recognition</span>
-                <span class="tool-tag">Lottie Animations</span>
-                <span class="tool-tag">Cloudinary Media</span>
-            </div>
-        </section>
-
-        <div class="footer">
-            <p>&copy; 2026 جميع الحقوق محفوظة لتطبيق قلم</p>
-            <p>تم تحديث المحتوى في: 8 مارس 2026</p>
+    <div class="repo-header">
+        <div class="repo-path">
+            ahmedAdelElmelegy / <span>Qalam</span> / qalam.html
         </div>
     </div>
->>>>>>> 6a0137e5117c14ca5d59592960b6db506813876f
+    <div class="markdown-body">
+        <header>
+            <h1>توثيق المنصة الذكية لتعلم اللغة العربية</h1>
+            <p class="lead">دراسة تفصيلية للميزات، البنية التقنية، وتجربة المستخدم داخل نظام "قلم" التعليمي.</p>
+        </header>
+
+        <h2 class="section-title">تجربة البداية والدخول</h2>
+
+        <!-- Feature: Onboarding -->
+        <div class="feature-block">
+            <div class="feature-header">
+                <h3>شاشات التقديم</h3>
+                <span>(Onboarding Screens)</span>
+            </div>
+            <div class="feature-body">
+                <p class="feature-desc">أول ميزة يقابلها المستخدم، تهدف لتعريفك بأهم مميزات التطبيق بأسلوب بصري جذاب
+                    يعكس الهوية الفخمة للمشروع.</p>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <strong>المحتوى والمميزات</strong>
+                        <p>رحلة من 3 صفحات تعليمية بأسلوب "Glassmorphism"، مع إمكانية التخطي السريع (Skip) وتصميم
+                            متجاوب.</p>
+                    </div>
+                    <div class="tech-item">
+                        <strong>طريقة الظهور</strong>
+                        <p>تظهر تلقائياً عند فتح التطبيق لأول مرة (First launch) لتوجيه المستخدم وفهم قيمة المنصة.</p>
+                    </div>
+                    <div class="tech-item">
+                        <strong>المنطق التقني</strong>
+                        <p>إدارة الصفحات عبر <code>PageController</code> مع خلفيات متدرجة متحركة.</p>
+                    </div>
+                    <div class="tech-item">
+                        <strong>الأدوات</strong>
+                        <p>Flutter Animate, Glass Container, Custom Navigation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature: Auth -->
+        <div class="feature-block">
+            <div class="feature-header">
+                <h3>نظام الهوية والدخول</h3>
+                <span>(Authentication System)</span>
+            </div>
+            <div class="feature-body">
+                <p class="feature-desc">نظام آمن لإدارة حسابك وحفظ تقدمك التعليمي، يضمن لك تجربة شخصية ومستمرة عبر أجهزة
+                    مختلفة.</p>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <strong>المحتوى والمميزات</strong>
+                        <p>واجهات دخول (Sign In) وتسجيل (Sign Up) متطورة، أيقونات رمزية (Avatars) متحركة، وربط سحابي
+                            كامل.</p>
+                    </div>
+                    <div class="tech-item">
+                        <strong>طريقة الاستخدام</strong>
+                        <p>تظهر بعد شاشات التقديم، حيث يمكنك إنشاء حساب جديد أو العودة لحسابك القديم بلمسة واحدة.</p>
+                    </div>
+                    <div class="tech-item">
+                        <strong>المنطق التقني</strong>
+                        <p>تكامل مع <code>Firebase Auth</code> وإدارة الحالة عبر <code>AuthCubit</code>.</p>
+                    </div>
+                    <div class="tech-item">
+                        <strong>الأدوات</strong>
+                        <p>Firebase, Form Validation, Animated Assets.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-title">نظرة عامة على الميزات الرئيسية</h2>
+
+        <!-- Feature 1 -->
+        <div class="feature-block">
+            <div class="feature-header">
+                <h3>المسار التعليمي</h3>
+                <span>(Curriculum & Lessons)</span>
+            </div>
+            <div class="feature-body">
+                <p class="feature-desc">يعمل هذا المكون كعمود فقري أكاديمي، حيث يوفر رحلة تعلم منظمة تبدأ من الصفر حتى
+                    مرحلة الإتقان، متوافقة مع المعايير الدولية لتعليم اللغات.</p>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <strong>الهدف الاستراتيجي</strong>
+                        <p>توفير بيئة تعليمية متدرجة تضمن اكتساب المهارات اللغوية (A0 - C2) بوضوح.</p>
+                    </div>
+                    <div class="tech-item">
+                        <strong>طريقة الاستخدام</strong>
+                        <p>بالضغط على <strong>(Lessons)</strong>، ستتمكن من اختيار المستوى <strong>(Level)</strong> ثم
+                            اختيار الدروس من داخل الوحدات. ولإكمال المسار بنجاح، يجب عليك اجتياز الاختبار
+                            <strong>(Quiz)</strong> الخاص بكل مرحلة.
+                        </p>
+                    </div>
+                    <div class="tech-item">
+                        <strong>المنطق التقني</strong>
+                        <p>إدارة الحالة عبر <code>CurriculumCubit</code> مع تخزين محلي بواسطة <code>Hive</code>.</p>
+                    </div>
+                    <div class="tech-item">
+                        <strong>الأدوات</strong>
+                        <p>JSON structure, Flutter Bloc, Local Caching.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-block">
+            <div class="feature-header">
+                <h3>رفيق الدردشة الذكي</h3>
+                <span>(AI Chat Buddy)</span>
+            </div>
+            <div class="feature-body">
+                <p class="feature-desc">مدرس لغة خصوصي يتيح لك ممارسة اللغة من خلال محادثة حرة، مع مرونة كاملة في التحدث
+                    بلغتك الأم للاستفسار، وتلقي شرح مفصل للقواعد وتصحيحات فورية.</p>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <strong>المحتوى والمميزات</strong>
+                        <p>إمكانية السؤال بغير العربية للشرح، تصحيح ذكي (Correction Mode) للأخطاء مع ذكر السبب، وتوفير
+                            بدائل للجمل لتعزيز المفردات.</p>
+                    </div>
+                    <div class="tech-item">
+                        <strong>طريقة الاستخدام</strong>
+                        <p>ابحث عن البطاقة ذات <strong>اللون الكهرماني</strong> (أصفر مائل للبرتقالي) وأيقونة
+                            <strong>الدردشة (Chat)</strong>. ابدأ الكتابة وسيقوم الذكاء الاصطناعي بالرد والتصحيح فوراً.
+                        </p>
+                    </div>
+                    <div class="tech-item">
+                        <strong>المنطق التقني</strong>
+                        <p>معالجة النصوص عبر <code>Groq LPU</code> لضمان سرعة الرد اللحظي.</p>
+                    </div>
+                    <div class="tech-item">
+                        <strong>الأدوات</strong>
+                        <p>Groq API, Gemini Flash 1.5, Neural Correction.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-block">
+            <div class="feature-header">
+                <h3>تمثيل الأدوار الصوتي</h3>
+                <span>(Voice Roleplay)</span>
+            </div>
+            <div class="feature-body">
+                <p class="feature-desc">تحديات صوتية تضعك في مواقف حقيقية (مثل المطعم أو المطار) لتدريبك على التحدث
+                    والاستماع بشكل واقعي.</p>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <strong>الهدف الاستراتيجي</strong>
+                        <p>إدارة الحوارات الصوتية في مواقف الحياة اليومية وتحسين الاستماع.</p>
+                    </div>
+                    <div class="tech-item">
+                        <strong>طريقة الاستخدام</strong>
+                        <p>بالضغط على <strong>(Roleplay)</strong>، اختر السيناريو المفضل لديك. استمع لحديث التطبيق، ثم
+                            استخدم <strong>الميكروفون</strong> للرد صوتياً استكمالاً للحوار <strong>(Dialogue)</strong>.
+                        </p>
+                    </div>
+                    <div class="tech-item">
+                        <strong>المنطق التقني</strong>
+                        <p>نظام <code>Dialogue Flow</code> مخصص يربط بين الصوت والذكاء الاصطناعي.</p>
+                    </div>
+                    <div class="tech-item">
+                        <strong>الأدوات</strong>
+                        <p>Google STT/TTS, Real-time Logic, ElevenLabs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="feature-block">
+            <div class="feature-header">
+                <h3>المتحف الافتراضي</h3>
+                <span>(Interactive 3D Museum)</span>
+            </div>
+            <div class="feature-body">
+                <p class="feature-desc">رحلة غامرة تتكون من جزأين؛ "المعرض الافتراضي" للقطع التراثية، و"جزيرة الثقافة"
+                    التي تضم محاكاة لأماكن حقيقية من الحياة اليومية.</p>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <strong>المحتوى والمميزات</strong>
+                        <p>استكشاف مطارات، مقاهي، ومعابد؛ مع جمل واقعية تناسب كل موقف، وإمكانية إضافة أماكن جديدة تماماً
+                            بواسطة الذكاء الاصطناعي (AI Generator).</p>
+                    </div>
+                    <div class="tech-item">
+                        <strong>طريقة الاستخدام</strong>
+                        <p>اضغط على البطاقة ذات <strong>اللون الذهبي</strong> وأيقونة <strong>المتحف (Museum)</strong>.
+                            اختر بين المعرض أو الجزيرة، واستخدم زر "إضافة مكان" لتصميم موقفك الخاص.</p>
+                    </div>
+                    <div class="tech-item">
+                        <strong>المنطق التقني</strong>
+                        <p>رندرة النماذج ثلاثية الأبعاد المستضافة على <code>Cloudinary</code> مع توليد محتوى عبر Gemini.
+                        </p>
+                    </div>
+                    <div class="tech-item">
+                        <strong>الأدوات</strong>
+                        <p>o3d Engine, Gemini Pro, Interactive 3D Assets.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature 5 -->
+        <div class="feature-block">
+            <div class="feature-header">
+                <h3>التحدي اليومي</h3>
+                <span>(Daily Speaking Challenge)</span>
+            </div>
+            <div class="feature-body">
+                <p class="feature-desc">تقييم يومي دقيق لنطقك، يساعدك على تحسين مخارج الحروف العربية بشكل مستمر وتنافسي.
+                </p>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <strong>المحتوى والمميزات</strong>
+                        <p>جمل يومية متنوعة يتم تحليلها صوتياً لإعطائك نسبة دقة دقيقة وتصحيح مخارج الحروف.</p>
+                    </div>
+                    <div class="tech-item">
+                        <strong>طريقة الاستخدام</strong>
+                        <p>اضغط على البطاقة ذات <strong>اللون الأحمر</strong> وأيقونة <strong>الاختبار (Quiz)</strong>.
+                            سجل الجملة المطلوبة بصوتك وانتظر تحليل النظام لنطقك.</p>
+                    </div>
+                    <div class="tech-item">
+                        <strong>المنطق التقني</strong>
+                        <p>تحليل الموجات الصوتية ومطابقتها نصياً عبر نماذج متطورة.</p>
+                    </div>
+                    <div class="tech-item">
+                        <strong>الأدوات</strong>
+                        <p>Whisper AI, Phonetic Scoring, Audio Analysis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature 6 -->
+        <div class="feature-block">
+            <div class="feature-header">
+                <h3>المترجم الصوتي الذكي</h3>
+                <span>(Smart Voice Translator)</span>
+            </div>
+            <div class="feature-body">
+                <p class="feature-desc">أداة مساعدة تتيح لك ترجمة كلامك من خلال التحدث مباشرة بالصوت لسهولة التواصل
+                    وسرعة التعلم.</p>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <strong>المحتوى والمميزات</strong>
+                        <p>ترجمة فورية للنصوص المحولة من صوتك إلى اللغة العربية، مع إمكانية سماع الترجمة لتعلم النطق
+                            الصحيح.</p>
+                    </div>
+                    <div class="tech-item">
+                        <strong>طريقة الاستخدام</strong>
+                        <p>ابحث عن البطاقة ذات <strong>اللون الأزرق</strong> وأيقونة <strong>ميكروفون (Voice
+                                Over)</strong>. اضغط وتحدث ليقوم النظام بالترجمة والنطق فوراً.</p>
+                    </div>
+                    <div class="tech-item">
+                        <strong>المنطق التقني</strong>
+                        <p>تحويل الصوت إلى نص ثم ترجمته عبر محركات الذكاء الاصطناعي.</p>
+                    </div>
+                    <div class="tech-item">
+                        <strong>الأدوات</strong>
+                        <p>Google STT/TTS, Translation Engines.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-title">الملخص التقني العام</h2>
+        <div class="tech-grid" style="background: var(--accent-light); border: 1px solid var(--accent-color);">
+            <div class="tech-item">
+                <strong>إطار العمل الرئيسي</strong>
+                <p>Flutter SDK (Stable Channel)</p>
+            </div>
+            <div class="tech-item">
+                <strong>إدارة الحالة (State)</strong>
+                <p>BloC Architecture (Cubit)</p>
+            </div>
+            <div class="tech-item">
+                <strong>الذكاء الاصطناعي</strong>
+                <p>Gemini Pro, Groq, Vertex AI</p>
+            </div>
+            <div class="tech-item">
+                <strong>قواعد البيانات</strong>
+                <p>Firebase (Cloud) / Hive (Local)</p>
+            </div>
+        </div>
+
+        <footer>
+            <div>&copy; 2026 Qalam Project. Created with &hearts; for Arabic Heritage.</div>
+            <div>Trace the Heritage. Speak the Future.</div>
+        </footer>
+    </div>
 </body>
 
 </html>

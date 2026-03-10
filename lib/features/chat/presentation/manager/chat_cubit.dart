@@ -12,12 +12,6 @@ class ChatCubit extends Cubit<ChatState> {
     emit(ChatLoaded(messages: [], myWords: []));
   }
 
-  void toggleCorrectionMode() {
-    if (state is ChatLoaded) {
-      final s = state as ChatLoaded;
-      emit(s.copyWith(correctionMode: !s.correctionMode));
-    }
-  }
 
   void startScenario(RoleplayScenario scenario) {
     if (state is ChatLoaded) {
@@ -73,17 +67,9 @@ class ChatCubit extends Cubit<ChatState> {
       try {
         final response = await _chatService.sendMessage(
           history: updatedMessages,
-          correctionMode: s.correctionMode,
           scenario: s.activeScenario,
         );
 
-        // ... (rest of the logic)
-        // [Existing logic for Correction and Vocab]
-        CorrectionResult? correction;
-        if (response['correction'] != null &&
-            response['correction']['is_error'] == true) {
-          correction = CorrectionResult.fromJson(response['correction']);
-        }
 
         final List<VocabItem> newVocab = [];
         if (response['extracted_vocab'] != null) {
@@ -101,7 +87,6 @@ class ChatCubit extends Cubit<ChatState> {
         final aiMsg = ChatMessage(
           content: response['ai_message'] ?? response['message'] ?? '',
           role: MessageRole.assistant,
-          correction: correction,
         );
 
         final List<VocabItem> updatedWords = List.from(s.myWords);

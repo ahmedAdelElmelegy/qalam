@@ -130,8 +130,8 @@ class _PenpalChatViewState extends State<_PenpalChatView>
 
                 return Transform(
                   transform: Matrix4.identity()
-                    ..translate(isArabic ? -slide : slide)
-                    ..scale(scale)
+                    ..translate(isArabic ? -slide : slide, 0.0, 0.0)
+                    ..scale(scale, scale, 1.0)
                     ..rotateY(isArabic ? -rotation : rotation),
                   alignment: isArabic
                       ? Alignment.centerRight
@@ -347,17 +347,7 @@ class _PenpalChatViewState extends State<_PenpalChatView>
                                               1 -
                                               msgIndex];
 
-                                      return PenpalChatBubble(
-                                        message: message,
-                                        isCorrecting:
-                                            state.correctingMessageId ==
-                                            message.id,
-                                        onCorrectPressed: () {
-                                          context
-                                              .read<PenpalCubit>()
-                                              .correctMessage(message.id);
-                                        },
-                                      );
+                                      return PenpalChatBubble(message: message);
                                     },
                                   );
                                 },

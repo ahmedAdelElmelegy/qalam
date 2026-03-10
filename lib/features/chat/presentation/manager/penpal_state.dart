@@ -5,7 +5,6 @@ class PenpalState extends Equatable {
   final List<ChatSessionModel> sessions;
   final String? activeSessionId;
   final bool isAiTyping;
-  final String? correctingMessageId;
   final String? error;
   final bool isNetworkError;
 
@@ -13,7 +12,6 @@ class PenpalState extends Equatable {
     this.sessions = const [],
     this.activeSessionId,
     this.isAiTyping = false,
-    this.correctingMessageId,
     this.error,
     this.isNetworkError = false,
   });
@@ -31,7 +29,6 @@ class PenpalState extends Equatable {
     List<ChatSessionModel>? sessions,
     String? activeSessionId,
     bool? isAiTyping,
-    String? correctingMessageId,
     String? error,
     bool? isNetworkError,
     bool clearActiveSession = false,
@@ -40,7 +37,6 @@ class PenpalState extends Equatable {
       sessions: sessions ?? this.sessions,
       activeSessionId: clearActiveSession ? null : (activeSessionId ?? this.activeSessionId),
       isAiTyping: isAiTyping ?? this.isAiTyping,
-      correctingMessageId: correctingMessageId ?? this.correctingMessageId,
       error: error, // passing null clears it
       isNetworkError: isNetworkError ?? false,
     );
@@ -51,7 +47,6 @@ class PenpalState extends Equatable {
         sessions,
         activeSessionId,
         isAiTyping,
-        correctingMessageId,
         error,
         isNetworkError
       ];

@@ -105,15 +105,17 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
         minTextAdapt: true,
         splitScreenMode: true,
         builder: (context, child) {
-          return MaterialApp(
-            navigatorKey: navigator,
-            localizationsDelegates: context.localizationDelegates,
-            supportedLocales: context.supportedLocales,
-            locale: context.locale,
-            title: 'Qalam Arabic',
-            debugShowCheckedModeBanner: false,
-            theme: AppTheme.darkTheme,
-            home: SplashScreen(),
+          return RepaintBoundary(
+            child: MaterialApp(
+              navigatorKey: navigator,
+              localizationsDelegates: context.localizationDelegates,
+              supportedLocales: context.supportedLocales,
+              locale: context.locale,
+              title: 'Qalam Arabic',
+              debugShowCheckedModeBanner: false,
+              theme: AppTheme.darkTheme,
+              home: SplashScreen(),
+            ),
           );
         },
       ),

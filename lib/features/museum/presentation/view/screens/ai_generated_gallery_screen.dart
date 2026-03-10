@@ -209,99 +209,105 @@ class _AiGeneratedGalleryScreenState extends State<AiGeneratedGalleryScreen> {
                 children: [
                   SizedBox(height: 120.h),
 
-                  // Dynamic Header
-                  Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 40.w),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Row(
+                    // Dynamic Header
+                    RepaintBoundary(
+                      child: Padding(
+                        padding: EdgeInsets.symmetric(horizontal: 40.w),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Icon(
-                              Icons.auto_awesome,
-                              color: const Color(0xFF00FFFF),
-                              size: 16.sp,
+                            Row(
+                              children: [
+                                Icon(
+                                  Icons.auto_awesome,
+                                  color: const Color(0xFF00FFFF),
+                                  size: 16.sp,
+                                ),
+                                SizedBox(width: 8.w),
+                                Text(
+                                  'ai_generated_label'.tr(),
+                                  style: AppTextStyles.bodySmall.copyWith(
+                                    color: const Color(0xFF00FFFF),
+                                    letterSpacing: 2,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ],
                             ),
-                            SizedBox(width: 8.w),
+                            SizedBox(height: 8.h),
                             Text(
-                              'ai_generated_label'.tr(),
-                              style: AppTextStyles.bodySmall.copyWith(
-                                color: const Color(0xFF00FFFF),
-                                letterSpacing: 2,
-                                fontWeight: FontWeight.bold,
+                              'endless_exploration'.tr(),
+                              style: AppTextStyles.bodyMedium.copyWith(
+                                color: Colors.white70,
                               ),
                             ),
                           ],
                         ),
-                        SizedBox(height: 8.h),
-                        Text(
-                          'endless_exploration'.tr(),
-                          style: AppTextStyles.bodyMedium.copyWith(
-                            color: Colors.white70,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ).animate().fadeIn().slideX(),
+                      ),
+                    ).animate().fadeIn().slideX(),
 
-                  Expanded(
-                    child: PageView.builder(
-                      controller: _pageController,
-                      itemCount:
-                          state.aiPlaces.length + (showLoadingCard ? 1 : 0),
-                      itemBuilder: (context, index) {
-                        // Calculate 3D transformation
-                        double relativePosition = index - _currentPage;
-                        double scale = (1 - (relativePosition.abs() * 0.15))
-                            .clamp(0.0, 1.0);
-                        double rotation = (relativePosition * 0.3).clamp(
-                          -1.0,
-                          1.0,
-                        );
-                        double opacity = (1 - (relativePosition.abs() * 0.5))
-                            .clamp(0.0, 1.0);
+                    Expanded(
+                      child: PageView.builder(
+                        controller: _pageController,
+                        itemCount:
+                            state.aiPlaces.length + (showLoadingCard ? 1 : 0),
+                        itemBuilder: (context, index) {
+                          // Calculate 3D transformation
+                          double relativePosition = index - _currentPage;
+                          double scale = (1 - (relativePosition.abs() * 0.15))
+                              .clamp(0.0, 1.0);
+                          double rotation = (relativePosition * 0.3).clamp(
+                            -1.0,
+                            1.0,
+                          );
+                          double opacity = (1 - (relativePosition.abs() * 0.5))
+                              .clamp(0.0, 1.0);
 
-                        // If it's the loading card
-                        if (index == state.aiPlaces.length) {
-                          return Transform(
-                            transform: Matrix4.identity()
-                              ..setEntry(3, 2, 0.001)
-                              ..rotateY(rotation)
-                              ..multiply(
-                                Matrix4.diagonal3Values(scale, scale, 1.0),
+                          // If it's the loading card
+                          if (index == state.aiPlaces.length) {
+                            return RepaintBoundary(
+                              child: Transform(
+                                transform: Matrix4.identity()
+                                  ..setEntry(3, 2, 0.001)
+                                  ..rotateY(rotation)
+                                  ..multiply(
+                                    Matrix4.diagonal3Values(scale, scale, 1.0),
+                                  ),
+                                alignment: Alignment.center,
+                                child: Opacity(
+                                  opacity: opacity,
+                                  child: _buildLoadingCard(),
+                                ),
                               ),
-                            alignment: Alignment.center,
-                            child: Opacity(
-                              opacity: opacity,
-                              child: _buildLoadingCard(),
+                            );
+                          }
+
+                          final place = state.aiPlaces[index];
+
+                          return RepaintBoundary(
+                            child: Transform(
+                              transform: Matrix4.identity()
+                                ..setEntry(3, 2, 0.001) // Perspective
+                                ..rotateY(rotation)
+                                ..multiply(
+                                  Matrix4.diagonal3Values(scale, scale, 1.0),
+                                ),
+                              alignment: Alignment.center,
+                              child: Opacity(
+                                opacity: opacity,
+                                child: MuseumGalleryCard(
+                                  place: place,
+                                  onTap: () {
+                                    context.read<MuseumCubit>().selectPlace(place);
+                                    context.push(PlaceDetailsScreen(place: place));
+                                  },
+                                ),
+                              ),
                             ),
                           );
-                        }
-
-                        final place = state.aiPlaces[index];
-
-                        return Transform(
-                          transform: Matrix4.identity()
-                            ..setEntry(3, 2, 0.001) // Perspective
-                            ..rotateY(rotation)
-                            ..multiply(
-                              Matrix4.diagonal3Values(scale, scale, 1.0),
-                            ),
-                          alignment: Alignment.center,
-                          child: Opacity(
-                            opacity: opacity,
-                            child: MuseumGalleryCard(
-                              place: place,
-                              onTap: () {
-                                context.read<MuseumCubit>().selectPlace(place);
-                                context.push(PlaceDetailsScreen(place: place));
-                              },
-                            ),
-                          ),
-                        );
-                      },
+                        },
+                      ),
                     ),
-                  ),
 
                   // Progress Indicator
                   if (state.aiPlaces.isNotEmpty)

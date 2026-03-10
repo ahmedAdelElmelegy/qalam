@@ -17,10 +17,9 @@ class GroqChatService {
   /// Generates a response with smart correction if needed.
   Future<Map<String, dynamic>> sendMessage({
     required List<ChatMessage> history,
-    required bool correctionMode,
     RoleplayScenario? scenario,
   }) async {
-    final messages = _buildPrompt(history, correctionMode, scenario);
+    final messages = _buildPrompt(history, scenario);
 
     try {
       final response = await http
@@ -65,14 +64,15 @@ class GroqChatService {
         {
           'role': 'system',
           'content':
-              '''You are a friendly, encouraging AI Penpal for a $appLanguage language learner.
+              '''You are a friendly, encouraging AI Penpal.
 Your goal is to have a natural, engaging text conversation.
 RULES:
-1. Always reply in $appLanguage.
+1. Detect the language the user is using and reply in that same language.
 2. Keep your responses short (1-3 sentences maximum).
 3. Ask simple questions to keep the conversation going.
 4. Match the user's level. If they use simple words, reply simply.
-5. Do NOT provide translation to other languages unless explicitly asked.
+5. If the user explicitly asks for a translation (e.g., "translate this to Arabic" or "ترجم للعربي"), provide the translation accurately.
+6. Context: The user is generally learning $appLanguage, but you should prioritize matching their current language of interaction.
 ''',
         },
       ];
@@ -114,54 +114,6 @@ RULES:
     }
   }
 
-  /// Corrects grammatical errors in the user's input
-  Future<String> correctGrammar(String userInput) async {
-    try {
-      final prompt =
-          '''
-You are a strict but helpful Arabic grammar teacher.
-The user wrote the following sentence in Arabic: "$userInput"
-
-Task:
-1. If the sentence is completely correct, reply EXACTLY with the word "Correct".
-2. If there are grammatical, spelling, or structural errors, provide the CORRECTED Arabic sentence, followed by a very brief explanation in English of what was wrong.
-
-Format for errors (Do NOT use JSON, just plain text):
-[Corrected Arabic Sentence]
-Explanation: [Brief English explanation]
-
-DO NOT use Tashkeel in the corrected Arabic sentence.
-''';
-
-      final response = await http
-          .post(
-            Uri.parse(_baseUrl),
-            headers: {
-              'Content-Type': 'application/json',
-              'Authorization': 'Bearer $_apiKey',
-            },
-            body: jsonEncode({
-              'model': _model,
-              'messages': [
-                {'role': 'user', 'content': prompt},
-              ],
-              'temperature': 0.3,
-            }),
-          )
-          .timeout(const Duration(seconds: 30));
-
-      if (response.statusCode != 200) {
-        throw Exception('Failed to correct grammar: ${response.body}');
-      }
-
-      final jsonResponse = jsonDecode(response.body);
-      final text = jsonResponse['choices'][0]['message']['content'] ?? '';
-      return text.toString().trim();
-    } catch (e) {
-      debugPrint('Error correcting grammar: $e');
-      throw Exception('Failed to correct grammar: $e');
-    }
-  }
 
   /// Generates a structured RoleplayScenario based on a user prompt.
   Future<RoleplayScenario> generateScenario(String userPrompt) async {
@@ -234,7 +186,6 @@ OUTPUT FORMAT (JSON ONLY):
 
   List<Map<String, String>> _buildPrompt(
     List<ChatMessage> history,
-    bool correctionMode,
     RoleplayScenario? scenario,
   ) {
     String systemPrompt = '';
@@ -251,19 +202,14 @@ Target Vocabulary: ${scenario.targetVocab.join(', ')}
 
 RULES:
 1. Stay in character at all times.
-2. Keep sentences short and appropriate for the user's level.
-3. If "correctionMode" is true, analyze the user's input for grammar/spelling errors.
+2. Detect the language the user is using and reply in that same language.
+3. Keep sentences short and appropriate for the user's level.
 4. Provide a helpful hint for the user's next response.
+5. If the user asks for a translation, provide it clearly.
 
 OUTPUT FORMAT (JSON):
 {
-  "ai_message": "Your response in character (Natural Arabic)",
-  "correction": {
-    "is_error": true/false,
-    "corrected": "...",
-    "explanation": "...",
-    "alternatives": ["...", "..."]
-  },
+  "ai_message": "Your response in the DETECTED language (Natural and character-appropriate)",
   "help": {
     "hint1": "Brief hint (word or phrase)",
     "hint2": "Sentence structure with blanks",
@@ -276,18 +222,15 @@ OUTPUT FORMAT (JSON):
 ''';
     } else {
       systemPrompt = '''
-You are a helpful and friendly Arabic language tutor.
-If "correctionMode" is true, you must provide a corrected version of the user's message with a brief explanation.
+You are a helpful and friendly language tutor.
+
+RULES:
+1. Detect the language the user is using and reply in that same language.
+2. If the user asks for a translation, perform it accurately.
 
 OUTPUT FORMAT (JSON):
 {
-  "ai_message": "Your friendly response (Natural Arabic)",
-  "correction": {
-    "is_error": true/false,
-    "corrected": "...",
-    "explanation": "...",
-    "alternatives": ["...", "..."]
-  },
+  "ai_message": "Your friendly response in the DETECTED language",
   "extracted_vocab": [
     {"term": "...", "meaning": "...", "example": "..."}
   ]
@@ -298,8 +241,7 @@ OUTPUT FORMAT (JSON):
     final List<Map<String, String>> messages = [
       {
         'role': 'system',
-        'content':
-            '$systemPrompt\nCorrection Mode is: ${correctionMode ? 'ON' : 'OFF'}.',
+        'content': systemPrompt,
       },
     ];
 

@@ -7,16 +7,11 @@ class ChatMessage {
   final String content;
   final MessageRole role;
   final DateTime timestamp;
-  final CorrectionResult? correction;
-  final Map<String, dynamic>? metadata;
-
   ChatMessage({
     String? id,
     required this.content,
     required this.role,
     DateTime? timestamp,
-    this.correction,
-    this.metadata,
   }) : id = id ?? const Uuid().v4(),
        timestamp = timestamp ?? DateTime.now();
 
@@ -25,40 +20,9 @@ class ChatMessage {
     'content': content,
     'role': role.index,
     'timestamp': timestamp.toIso8601String(),
-    'correction': correction?.toJson(),
-    'metadata': metadata,
   };
 }
 
-class CorrectionResult {
-  final String corrected;
-  final String explanation;
-  final List<String> alternatives;
-  final Map<String, dynamic>? practice;
-
-  CorrectionResult({
-    required this.corrected,
-    required this.explanation,
-    required this.alternatives,
-    this.practice,
-  });
-
-  Map<String, dynamic> toJson() => {
-    'corrected': corrected,
-    'explanation': explanation,
-    'alternatives': alternatives,
-    'practice': practice,
-  };
-
-  factory CorrectionResult.fromJson(Map<String, dynamic> json) {
-    return CorrectionResult(
-      corrected: json['corrected'] ?? '',
-      explanation: json['explanation'] ?? '',
-      alternatives: List<String>.from(json['alternatives'] ?? []),
-      practice: json['practice'],
-    );
-  }
-}
 
 class RoleplayScenario {
   final String id;

@@ -150,7 +150,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         _buildSettingItem(
                           icon: Icons.info_outline_rounded,
                           title: 'app_version'.tr(),
-                          subtitle: '1.0.0 (Build 5)',
+                          subtitle: '1.0.1 (Build 2)',
                         ),
                         SizedBox(height: 12.h),
 
@@ -167,7 +167,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                           title: 'Privacy Policy', // Fallback until localized
                           onTap: () async {
                             final Uri url = Uri.parse(
-                              'https://ahmedadel.github.io/qalam-arabic/privacy-policy.html',
+                              'https://ahmedadelelmelegy.github.io/qalam-arabic/',
                             );
                             if (!await launchUrl(url)) {
                               debugPrint('Could not launch \$url');

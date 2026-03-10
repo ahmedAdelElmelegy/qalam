@@ -6,14 +6,10 @@ import 'package:arabic/core/theme/colors.dart';
 
 class PenpalChatBubble extends StatelessWidget {
   final ChatMessageModel message;
-  final bool isCorrecting;
-  final VoidCallback onCorrectPressed;
 
   const PenpalChatBubble({
     super.key,
     required this.message,
-    required this.isCorrecting,
-    required this.onCorrectPressed,
   });
 
   @override
@@ -73,92 +69,6 @@ class PenpalChatBubble extends StatelessWidget {
                 ],
               ),
             ),
-
-            // Magic Wand Correction Button (Only for user messages)
-            if (isUser) ...[
-              SizedBox(height: 4.h),
-              if (message.correctionText == null)
-                GestureDetector(
-                  onTap: isCorrecting ? null : onCorrectPressed,
-                  child: Row(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      if (isCorrecting)
-                        SizedBox(
-                          width: 12.w,
-                          height: 12.w,
-                          child: CircularProgressIndicator(
-                            strokeWidth: 2,
-                            color: AppColors.accentGold,
-                          ),
-                        )
-                      else
-                        Icon(
-                          Icons.auto_fix_high,
-                          color: AppColors.accentGold,
-                          size: 16.sp,
-                        ),
-                      SizedBox(width: 4.w),
-                      Text(
-                        'correct_me'
-                            .tr(), // Needs to be added to translation files if missing, fallback: 'Correct Me'
-                        style: TextStyle(
-                          color: AppColors.accentGold,
-                          fontSize: 12.sp,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-
-              // Grammar Correction Box (if available)
-              if (message.correctionText != null)
-                Container(
-                  margin: EdgeInsets.only(top: 8.h),
-                  padding: EdgeInsets.all(12.w),
-                  decoration: BoxDecoration(
-                    color: AppColors.accentGold.withValues(alpha: 0.1),
-                    border: Border.all(
-                      color: AppColors.accentGold.withValues(alpha: 0.5),
-                    ),
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
-                    children: [
-                      Row(
-                        children: [
-                          Icon(
-                            Icons.check_circle_outline,
-                            color: AppColors.accentGold,
-                            size: 16.sp,
-                          ),
-                          SizedBox(width: 8.w),
-                          Text(
-                            'Grammar Correction',
-                            style: TextStyle(
-                              color: AppColors.accentGold,
-                              fontSize: 12.sp,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                        ],
-                      ),
-                      SizedBox(height: 8.h),
-                      Text(
-                        message.correctionText!,
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 14.sp,
-                          height: 1.4,
-                        ),
-                        // textDirection: TextDirection.rtl,
-                      ),
-                    ],
-                  ),
-                ),
-            ],
           ],
         ),
       ),

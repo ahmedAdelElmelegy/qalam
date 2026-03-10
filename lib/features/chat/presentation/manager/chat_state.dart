@@ -9,7 +9,6 @@ class ChatLoading extends ChatState {}
 class ChatLoaded extends ChatState {
   final List<ChatMessage> messages;
   final List<VocabItem> myWords;
-  final bool correctionMode;
   final RoleplayScenario? activeScenario;
   final Map<String, dynamic>? helpHints;
   final bool isSending;
@@ -18,7 +17,6 @@ class ChatLoaded extends ChatState {
   ChatLoaded({
     required this.messages,
     required this.myWords,
-    this.correctionMode = true,
     this.activeScenario,
     this.helpHints,
     this.isSending = false,
@@ -28,7 +26,6 @@ class ChatLoaded extends ChatState {
   ChatLoaded copyWith({
     List<ChatMessage>? messages,
     List<VocabItem>? myWords,
-    bool? correctionMode,
     RoleplayScenario? activeScenario,
     Map<String, dynamic>? helpHints,
     bool? isSending,
@@ -37,7 +34,6 @@ class ChatLoaded extends ChatState {
     return ChatLoaded(
       messages: messages ?? this.messages,
       myWords: myWords ?? this.myWords,
-      correctionMode: correctionMode ?? this.correctionMode,
       activeScenario: activeScenario ?? this.activeScenario,
       helpHints: helpHints ?? this.helpHints,
       isSending: isSending ?? this.isSending,

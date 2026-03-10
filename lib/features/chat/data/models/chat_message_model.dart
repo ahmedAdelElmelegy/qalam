@@ -8,15 +8,11 @@ class ChatMessageModel extends Equatable {
   final MessageSender sender;
   final DateTime timestamp;
   
-  /// Contains the AI's grammar correction for a user's message, if requested and available.
-  final String? correctionText;
-
   const ChatMessageModel({
     required this.id,
     required this.text,
     required this.sender,
     required this.timestamp,
-    this.correctionText,
   });
 
   ChatMessageModel copyWith({
@@ -24,14 +20,12 @@ class ChatMessageModel extends Equatable {
     String? text,
     MessageSender? sender,
     DateTime? timestamp,
-    String? correctionText,
   }) {
     return ChatMessageModel(
       id: id ?? this.id,
       text: text ?? this.text,
       sender: sender ?? this.sender,
       timestamp: timestamp ?? this.timestamp,
-      correctionText: correctionText ?? this.correctionText,
     );
   }
 
@@ -41,7 +35,6 @@ class ChatMessageModel extends Equatable {
       'text': text,
       'sender': sender.name,
       'timestamp': timestamp.toIso8601String(),
-      'correctionText': correctionText,
     };
   }
 
@@ -54,10 +47,9 @@ class ChatMessageModel extends Equatable {
         orElse: () => MessageSender.user,
       ),
       timestamp: DateTime.parse(json['timestamp'] as String),
-      correctionText: json['correctionText'] as String?,
     );
   }
 
   @override
-  List<Object?> get props => [id, text, sender, timestamp, correctionText];
+  List<Object?> get props => [id, text, sender, timestamp];
 }

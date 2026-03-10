@@ -218,19 +218,6 @@ class _ChatScreenState extends State<ChatScreen> {
       padding: EdgeInsets.symmetric(horizontal: 16.w, vertical: 8.h),
       child: Row(
         children: [
-          BlocBuilder<ChatCubit, ChatState>(
-            builder: (context, state) {
-              final isCorrection = (state is ChatLoaded)
-                  ? state.correctionMode
-                  : true;
-              return _buildToolChip(
-                label: 'Correction',
-                isActive: isCorrection,
-                onTap: () => context.read<ChatCubit>().toggleCorrectionMode(),
-                icon: Icons.spellcheck_rounded,
-              );
-            },
-          ),
           SizedBox(width: 8.w),
           _buildToolChip(
             label: 'Scenarios',
@@ -372,8 +359,6 @@ class _ChatScreenState extends State<ChatScreen> {
                           ),
                       ],
                     ),
-                    if (!isUser && message.correction != null)
-                      _buildCorrection(message.correction!),
                   ],
                 ),
               ),
@@ -386,71 +371,6 @@ class _ChatScreenState extends State<ChatScreen> {
     );
   }
 
-  Widget _buildCorrection(CorrectionResult correction) {
-    return Container(
-      margin: EdgeInsets.only(top: 12.h),
-      padding: EdgeInsets.all(12.w),
-      decoration: BoxDecoration(
-        color: const Color(0xFFD4AF37).withValues(alpha: 0.1),
-        borderRadius: BorderRadius.circular(16.r),
-        border: Border.all(
-          color: const Color(0xFFD4AF37).withValues(alpha: 0.3),
-        ),
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Row(
-                children: [
-                  const Icon(
-                    Icons.auto_fix_high_rounded,
-                    color: Color(0xFFD4AF37),
-                    size: 16,
-                  ),
-                  SizedBox(width: 8.w),
-                  Text(
-                    'Smart Correction',
-                    style: TextStyle(
-                      color: const Color(0xFFD4AF37),
-                      fontWeight: FontWeight.bold,
-                      fontSize: 12.sp,
-                    ),
-                  ),
-                ],
-              ),
-              IconButton(
-                icon: const Icon(
-                  Icons.volume_up_rounded,
-                  color: Color(0xFFD4AF37),
-                  size: 18,
-                ),
-                onPressed: () => _speak(correction.corrected),
-                padding: EdgeInsets.zero,
-                constraints: const BoxConstraints(),
-              ),
-            ],
-          ),
-          SizedBox(height: 8.h),
-          Text(
-            correction.corrected,
-            style: AppTextStyles.arabicBody.copyWith(
-              color: Colors.white,
-              fontSize: 14.sp,
-            ),
-            textDirection: TextDirection.rtl,
-          ),
-          SizedBox(height: 4.h),
-          Text(
-            correction.explanation,
-            style: TextStyle(color: Colors.white70, fontSize: 11.sp),
-          ),
-        ],
-      ),
-    );
-  }
 
   Widget _buildTypingIndicator() {
     return Align(

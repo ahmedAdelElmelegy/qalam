@@ -168,67 +168,6 @@ class PenpalCubit extends Cubit<PenpalState> {
     }
   }
 
-  /// Analyzes a user's previous message for grammatical errors
-  Future<void> correctMessage(String messageId) async {
-    final activeSession = state.activeSession;
-    if (activeSession == null) return;
-
-    final messageIndex = activeSession.messages.indexWhere(
-      (m) => m.id == messageId,
-    );
-    if (messageIndex == -1) return;
-
-    final targetMessage = activeSession.messages[messageIndex];
-    if (targetMessage.sender != MessageSender.user) return;
-
-    final hasConnection = await NetworkChecker.hasConnection();
-    if (!hasConnection) {
-      emit(state.copyWith(isNetworkError: true));
-      return;
-    }
-
-    emit(
-      state.copyWith(
-        correctingMessageId: messageId,
-        error: null,
-        isNetworkError: false,
-      ),
-    );
-
-    try {
-      final correctionResult = await _chatService.correctGrammar(
-        targetMessage.text,
-      );
-
-      final String finalCorrection =
-          correctionResult.toLowerCase().trim() == 'correct'
-          ? 'لا توجد أخطاء! أحسنت. 🌟' // "No errors found! Great job."
-          : correctionResult;
-
-      final updatedMessage = targetMessage.copyWith(
-        correctionText: finalCorrection,
-      );
-      final newMessages = List<ChatMessageModel>.from(activeSession.messages);
-      newMessages[messageIndex] = updatedMessage;
-
-      final updatedSession = activeSession.copyWith(messages: newMessages);
-
-      _updateSessionInList(updatedSession);
-      emit(state.copyWith(correctingMessageId: null));
-    } on SocketException {
-      emit(state.copyWith(correctingMessageId: null, isNetworkError: true));
-    } on TimeoutException {
-      emit(state.copyWith(correctingMessageId: null, isNetworkError: true));
-    } catch (e) {
-      debugPrint('Error correcting message: $e');
-      emit(
-        state.copyWith(
-          correctingMessageId: null,
-          error: 'failed_to_correct_grammar',
-        ),
-      );
-    }
-  }
 
   /// Clears the current error
   void clearError() {
