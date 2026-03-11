@@ -1,0 +1,2652 @@
+{
+    "id": "c1",
+    "title": {
+        "en": "Advanced (C1)",
+        "ar": "متقدم (C1)",
+        "fr": "Avancé (C1)",
+        "de": "Fortgeschritten (C1)",
+        "ru": "Продвинутый (C1)",
+        "zh": "高级 (C1)"
+    },
+    "description": {
+        "en": "Near-professional control and nuanced style.",
+        "ar": "تحكم شبه مهني وأسلوب دقيق.",
+        "fr": "Contrôle quasi professionnel et style nuancé.",
+        "de": "Nahezu professionelle Beherrschung und nuancierter Stil.",
+        "ru": "Почти профессиональное владение и нюансированный стиль.",
+        "zh": "接近专业水平的掌控和细致的风格。"
+    },
+    "isLocked": true,
+    "units": [
+        {
+            "id": "c1_u1",
+            "title": {
+                "en": "Unit 1: Classical Literature",
+                "ar": "Unit 1: Classical Literature",
+                "fr": "Unit 1: Classical Literature",
+                "de": "Unit 1: Classical Literature",
+                "ru": "Unit 1: Classical Literature",
+                "zh": "Unit 1: Classical Literature"
+            },
+            "description": {
+                "en": "Analysis of Al-Mutanabbi and the Abbasid poetic movement.",
+                "ar": "Analysis of Al-Mutanabbi and the Abbasid poetic movement.",
+                "fr": "Analysis of Al-Mutanabbi and the Abbasid poetic movement.",
+                "de": "Analysis of Al-Mutanabbi and the Abbasid poetic movement.",
+                "ru": "Analysis of Al-Mutanabbi and the Abbasid poetic movement.",
+                "zh": "Analysis of Al-Mutanabbi and the Abbasid poetic movement."
+            },
+            "isLocked": true,
+            "lessons": [
+                {
+                    "id": "c1_u1_l1",
+                    "title": {
+                        "en": "Al-Mutanabbi's Poetics",
+                        "ar": "Al-Mutanabbi's Poetics",
+                        "fr": "Al-Mutanabbi's Poetics",
+                        "de": "Al-Mutanabbi's Poetics",
+                        "ru": "Al-Mutanabbi's Poetics",
+                        "zh": "Al-Mutanabbi's Poetics"
+                    },
+                    "content": "Professional level study of al-mutanabbi's poetics.",
+                    "arabicContent": "دِرَاسَةُ جَمَالِيَّاتِ شِعْرِ الْمُتَنَبِّي",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 40,
+                    "estimatedMinutes": 15,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Al-Mutanabbi's Poetics",
+                        "ar": "دِرَاسَةُ جَمَالِيَّاتِ شِعْرِ الْمُتَنَبِّي"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u1_l2",
+                    "title": {
+                        "en": "The Maqamat Genre",
+                        "ar": "The Maqamat Genre",
+                        "fr": "The Maqamat Genre",
+                        "de": "The Maqamat Genre",
+                        "ru": "The Maqamat Genre",
+                        "zh": "The Maqamat Genre"
+                    },
+                    "content": "Professional level study of the maqamat genre.",
+                    "arabicContent": "فَنُّ الْمَقَامَاتِ فِي الْأَدَبِ الْعَرَبِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 42,
+                    "estimatedMinutes": 16,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "The Maqamat Genre",
+                        "ar": "فَنُّ الْمَقَامَاتِ فِي الْأَدَبِ الْعَرَبِيِّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u1_l3",
+                    "title": {
+                        "en": "Abbasid Court Poetry",
+                        "ar": "Abbasid Court Poetry",
+                        "fr": "Abbasid Court Poetry",
+                        "de": "Abbasid Court Poetry",
+                        "ru": "Abbasid Court Poetry",
+                        "zh": "Abbasid Court Poetry"
+                    },
+                    "content": "Professional level study of abbasid court poetry.",
+                    "arabicContent": "شِعْرُ الْبَلَاطِ فِي الْعَصْرِ الْعَبَّاسِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 44,
+                    "estimatedMinutes": 17,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Abbasid Court Poetry",
+                        "ar": "شِعْرُ الْبَلَاطِ فِي الْعَصْرِ الْعَبَّاسِيِّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u1_l4",
+                    "title": {
+                        "en": "Metaphor in Classical Verse",
+                        "ar": "Metaphor in Classical Verse",
+                        "fr": "Metaphor in Classical Verse",
+                        "de": "Metaphor in Classical Verse",
+                        "ru": "Metaphor in Classical Verse",
+                        "zh": "Metaphor in Classical Verse"
+                    },
+                    "content": "Professional level study of metaphor in classical verse.",
+                    "arabicContent": "اَلِاسْتِعَارَةُ فِي النَّصِّ الشِّعْرِيِّ الْقَدِيمِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 46,
+                    "estimatedMinutes": 18,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Metaphor in Classical Verse",
+                        "ar": "اَلِاسْتِعَارَةُ فِي النَّصِّ الشِّعْرِيِّ الْقَدِيمِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u1_l5",
+                    "title": {
+                        "en": "Literary Criticism (Al-Jahiz)",
+                        "ar": "Literary Criticism (Al-Jahiz)",
+                        "fr": "Literary Criticism (Al-Jahiz)",
+                        "de": "Literary Criticism (Al-Jahiz)",
+                        "ru": "Literary Criticism (Al-Jahiz)",
+                        "zh": "Literary Criticism (Al-Jahiz)"
+                    },
+                    "content": "Professional level study of literary criticism (al-jahiz).",
+                    "arabicContent": "اَلنَّقْدُ الْأَدَبِيُّ عِنْدَ الْجَاحِظِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 48,
+                    "estimatedMinutes": 19,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Literary Criticism (Al-Jahiz)",
+                        "ar": "اَلنَّقْدُ الْأَدَبِيُّ عِنْدَ الْجَاحِظِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u1_l6",
+                    "title": {
+                        "en": "Andalusian Muwashshahat",
+                        "ar": "Andalusian Muwashshahat",
+                        "fr": "Andalusian Muwashshahat",
+                        "de": "Andalusian Muwashshahat",
+                        "ru": "Andalusian Muwashshahat",
+                        "zh": "Andalusian Muwashshahat"
+                    },
+                    "content": "Professional level study of andalusian muwashshahat.",
+                    "arabicContent": "اَلْمُوَشَّحَاتُ الْأَنْدَلُسِيَّةُ وَتَطَوُّرُهَا",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 50,
+                    "estimatedMinutes": 20,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Andalusian Muwashshahat",
+                        "ar": "اَلْمُوَشَّحَاتُ الْأَنْدَلُسِيَّةُ وَتَطَوُّرُهَا"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u1_l7",
+                    "title": {
+                        "en": "Classical Literature Review",
+                        "ar": "Classical Literature Review",
+                        "fr": "Classical Literature Review",
+                        "de": "Classical Literature Review",
+                        "ru": "Classical Literature Review",
+                        "zh": "Classical Literature Review"
+                    },
+                    "content": "Professional level study of classical literature review.",
+                    "arabicContent": "مُرَاجَعَةُ مُصْطَلَحَاتِ الْأَدَبِ الْكَلَاسِيكِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 52,
+                    "estimatedMinutes": 21,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Classical Literature Review",
+                        "ar": "مُرَاجَعَةُ مُصْطَلَحَاتِ الْأَدَبِ الْكَلَاسِيكِيِّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u1_l8",
+                    "title": {
+                        "en": "Compose a Classical Poem",
+                        "ar": "Compose a Classical Poem",
+                        "fr": "Compose a Classical Poem",
+                        "de": "Compose a Classical Poem",
+                        "ru": "Compose a Classical Poem",
+                        "zh": "Compose a Classical Poem"
+                    },
+                    "content": "Professional level study of compose a classical poem.",
+                    "arabicContent": "قُمْ بِنَظْمِ بَيْتَيْنِ مِنَ الشِّعْرِ الْعَرَبِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "performance",
+                    "xpReward": 54,
+                    "estimatedMinutes": 22,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Compose a Classical Poem",
+                        "ar": "قُمْ بِنَظْمِ بَيْتَيْنِ مِنَ الشِّعْرِ الْعَرَبِيِّ"
+                    },
+                    "quiz": null
+                }
+            ],
+            "unitQuiz": null
+        },
+        {
+            "id": "c1_u2",
+            "title": {
+                "en": "Unit 2: Arab Philosophy",
+                "ar": "Unit 2: Arab Philosophy",
+                "fr": "Unit 2: Arab Philosophy",
+                "de": "Unit 2: Arab Philosophy",
+                "ru": "Unit 2: Arab Philosophy",
+                "zh": "Unit 2: Arab Philosophy"
+            },
+            "description": {
+                "en": "Influence of Ibn Rushd and the translation movement.",
+                "ar": "Influence of Ibn Rushd and the translation movement.",
+                "fr": "Influence of Ibn Rushd and the translation movement.",
+                "de": "Influence of Ibn Rushd and the translation movement.",
+                "ru": "Influence of Ibn Rushd and the translation movement.",
+                "zh": "Influence of Ibn Rushd and the translation movement."
+            },
+            "isLocked": true,
+            "lessons": [
+                {
+                    "id": "c1_u2_l1",
+                    "title": {
+                        "en": "Ibn Rushd (Averroes)",
+                        "ar": "Ibn Rushd (Averroes)",
+                        "fr": "Ibn Rushd (Averroes)",
+                        "de": "Ibn Rushd (Averroes)",
+                        "ru": "Ibn Rushd (Averroes)",
+                        "zh": "Ibn Rushd (Averroes)"
+                    },
+                    "content": "Professional level study of ibn rushd (averroes).",
+                    "arabicContent": "فَلْسَفَةُ ابْنِ رُشْدٍ وَأَثَرُهَا الْعَالَمِيُّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 40,
+                    "estimatedMinutes": 15,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Ibn Rushd (Averroes)",
+                        "ar": "فَلْسَفَةُ ابْنِ رُشْدٍ وَأَثَرُهَا الْعَالَمِيُّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u2_l2",
+                    "title": {
+                        "en": "The House of Wisdom",
+                        "ar": "The House of Wisdom",
+                        "fr": "The House of Wisdom",
+                        "de": "The House of Wisdom",
+                        "ru": "The House of Wisdom",
+                        "zh": "The House of Wisdom"
+                    },
+                    "content": "Professional level study of the house of wisdom.",
+                    "arabicContent": "بَيْتُ الْحِكْمَةِ وَحَرَكَةُ التَّرْجَمَةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 42,
+                    "estimatedMinutes": 16,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "The House of Wisdom",
+                        "ar": "بَيْتُ الْحِكْمَةِ وَحَرَكَةُ التَّرْجَمَةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u2_l3",
+                    "title": {
+                        "en": "Logic & Theology",
+                        "ar": "Logic & Theology",
+                        "fr": "Logic & Theology",
+                        "de": "Logic & Theology",
+                        "ru": "Logic & Theology",
+                        "zh": "Logic & Theology"
+                    },
+                    "content": "Professional level study of logic & theology.",
+                    "arabicContent": "اَلْمَنْطِقُ وَعِلْمُ الْكَلَامِ فِي الْإِسْلَامِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 44,
+                    "estimatedMinutes": 17,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Logic & Theology",
+                        "ar": "اَلْمَنْطِقُ وَعِلْمُ الْكَلَامِ فِي الْإِسْلَامِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u2_l4",
+                    "title": {
+                        "en": "Al-Farabi's Ideal City",
+                        "ar": "Al-Farabi's Ideal City",
+                        "fr": "Al-Farabi's Ideal City",
+                        "de": "Al-Farabi's Ideal City",
+                        "ru": "Al-Farabi's Ideal City",
+                        "zh": "Al-Farabi's Ideal City"
+                    },
+                    "content": "Professional level study of al-farabi's ideal city.",
+                    "arabicContent": "الْمَدِينَةُ الْفَاضِلَةُ عِنْدَ الْفَارَابِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 46,
+                    "estimatedMinutes": 18,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Al-Farabi's Ideal City",
+                        "ar": "الْمَدِينَةُ الْفَاضِلَةُ عِنْدَ الْفَارَابِيِّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u2_l5",
+                    "title": {
+                        "en": "Sufi Metaphysics",
+                        "ar": "Sufi Metaphysics",
+                        "fr": "Sufi Metaphysics",
+                        "de": "Sufi Metaphysics",
+                        "ru": "Sufi Metaphysics",
+                        "zh": "Sufi Metaphysics"
+                    },
+                    "content": "Professional level study of sufi metaphysics.",
+                    "arabicContent": "اَلْمِيتَافِيزِيقَا عِنْدَ الْمُتَصَوِّفَةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 48,
+                    "estimatedMinutes": 19,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Sufi Metaphysics",
+                        "ar": "اَلْمِيتَافِيزِيقَا عِنْدَ الْمُتَصَوِّفَةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u2_l6",
+                    "title": {
+                        "en": "Ethics in Arab Thought",
+                        "ar": "Ethics in Arab Thought",
+                        "fr": "Ethics in Arab Thought",
+                        "de": "Ethics in Arab Thought",
+                        "ru": "Ethics in Arab Thought",
+                        "zh": "Ethics in Arab Thought"
+                    },
+                    "content": "Professional level study of ethics in arab thought.",
+                    "arabicContent": "اَلْأَخْلَاقُ فِي الْفِكْرِ الْعَرَبِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 50,
+                    "estimatedMinutes": 20,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Ethics in Arab Thought",
+                        "ar": "اَلْأَخْلَاقُ فِي الْفِكْرِ الْعَرَبِيِّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u2_l7",
+                    "title": {
+                        "en": "Philosophy Review",
+                        "ar": "Philosophy Review",
+                        "fr": "Philosophy Review",
+                        "de": "Philosophy Review",
+                        "ru": "Philosophy Review",
+                        "zh": "Philosophy Review"
+                    },
+                    "content": "Professional level study of philosophy review.",
+                    "arabicContent": "مُرَاجَعَةُ مُصْطَلَحَاتِ الْفَلْسَفَةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 52,
+                    "estimatedMinutes": 21,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Philosophy Review",
+                        "ar": "مُرَاجَعَةُ مُصْطَلَحَاتِ الْفَلْسَفَةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u2_l8",
+                    "title": {
+                        "en": "Philosophical Debate",
+                        "ar": "Philosophical Debate",
+                        "fr": "Philosophical Debate",
+                        "de": "Philosophical Debate",
+                        "ru": "Philosophical Debate",
+                        "zh": "Philosophical Debate"
+                    },
+                    "content": "Professional level study of philosophical debate.",
+                    "arabicContent": "أَدِرْ نِقَاشًا حَوْلَ قَضِيَّةٍ فَلْسَفِيَّةٍ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "performance",
+                    "xpReward": 54,
+                    "estimatedMinutes": 22,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Philosophical Debate",
+                        "ar": "أَدِرْ نِقَاشًا حَوْلَ قَضِيَّةٍ فَلْسَفِيَّةٍ"
+                    },
+                    "quiz": null
+                }
+            ],
+            "unitQuiz": null
+        },
+        {
+            "id": "c1_u3",
+            "title": {
+                "en": "Unit 3: Advanced Economics",
+                "ar": "Unit 3: Advanced Economics",
+                "fr": "Unit 3: Advanced Economics",
+                "de": "Unit 3: Advanced Economics",
+                "ru": "Unit 3: Advanced Economics",
+                "zh": "Unit 3: Advanced Economics"
+            },
+            "description": {
+                "en": "Fiscal policy, Islamic finance, and global markets.",
+                "ar": "Fiscal policy, Islamic finance, and global markets.",
+                "fr": "Fiscal policy, Islamic finance, and global markets.",
+                "de": "Fiscal policy, Islamic finance, and global markets.",
+                "ru": "Fiscal policy, Islamic finance, and global markets.",
+                "zh": "Fiscal policy, Islamic finance, and global markets."
+            },
+            "isLocked": true,
+            "lessons": [
+                {
+                    "id": "c1_u3_l1",
+                    "title": {
+                        "en": "Principles of Islamic Finance",
+                        "ar": "Principles of Islamic Finance",
+                        "fr": "Principles of Islamic Finance",
+                        "de": "Principles of Islamic Finance",
+                        "ru": "Principles of Islamic Finance",
+                        "zh": "Principles of Islamic Finance"
+                    },
+                    "content": "Professional level study of principles of islamic finance.",
+                    "arabicContent": "أُصُولُ الصَّيْرَفَةِ الْإِسْلَامِيَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 40,
+                    "estimatedMinutes": 15,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Principles of Islamic Finance",
+                        "ar": "أُصُولُ الصَّيْرَفَةِ الْإِسْلَامِيَّةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u3_l2",
+                    "title": {
+                        "en": "Fiscal Policy & Inflation",
+                        "ar": "Fiscal Policy & Inflation",
+                        "fr": "Fiscal Policy & Inflation",
+                        "de": "Fiscal Policy & Inflation",
+                        "ru": "Fiscal Policy & Inflation",
+                        "zh": "Fiscal Policy & Inflation"
+                    },
+                    "content": "Professional level study of fiscal policy & inflation.",
+                    "arabicContent": "اَلسِّيَاسَةُ الْمَالِيَّةُ وَمُكَافَحَةُ التَّضَخُّمِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 42,
+                    "estimatedMinutes": 16,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Fiscal Policy & Inflation",
+                        "ar": "اَلسِّيَاسَةُ الْمَالِيَّةُ وَمُكَافَحَةُ التَّضَخُّمِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u3_l3",
+                    "title": {
+                        "en": "Global Energy Markets",
+                        "ar": "Global Energy Markets",
+                        "fr": "Global Energy Markets",
+                        "de": "Global Energy Markets",
+                        "ru": "Global Energy Markets",
+                        "zh": "Global Energy Markets"
+                    },
+                    "content": "Professional level study of global energy markets.",
+                    "arabicContent": "أَسْوَاقُ الطَّاقَةِ الْعَالَمِيَّةِ وَأَسْعَارُ النِّفْطِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 44,
+                    "estimatedMinutes": 17,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Global Energy Markets",
+                        "ar": "أَسْوَاقُ الطَّاقَةِ الْعَالَمِيَّةِ وَأَسْعَارُ النِّفْطِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u3_l4",
+                    "title": {
+                        "en": "Sovereign Wealth Funds",
+                        "ar": "Sovereign Wealth Funds",
+                        "fr": "Sovereign Wealth Funds",
+                        "de": "Sovereign Wealth Funds",
+                        "ru": "Sovereign Wealth Funds",
+                        "zh": "Sovereign Wealth Funds"
+                    },
+                    "content": "Professional level study of sovereign wealth funds.",
+                    "arabicContent": "صَنَادِيقُ الثَّرْوَةِ السِّيَادِيَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 46,
+                    "estimatedMinutes": 18,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Sovereign Wealth Funds",
+                        "ar": "صَنَادِيقُ الثَّرْوَةِ السِّيَادِيَّةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u3_l5",
+                    "title": {
+                        "en": "International Trade Law",
+                        "ar": "International Trade Law",
+                        "fr": "International Trade Law",
+                        "de": "International Trade Law",
+                        "ru": "International Trade Law",
+                        "zh": "International Trade Law"
+                    },
+                    "content": "Professional level study of international trade law.",
+                    "arabicContent": "قَانُونُ التِّجَارَةِ الدُّوَلِيَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 48,
+                    "estimatedMinutes": 19,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "International Trade Law",
+                        "ar": "قَانُونُ التِّجَارَةِ الدُّوَلِيَّةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u3_l6",
+                    "title": {
+                        "en": "Economic Integration (GCC)",
+                        "ar": "Economic Integration (GCC)",
+                        "fr": "Economic Integration (GCC)",
+                        "de": "Economic Integration (GCC)",
+                        "ru": "Economic Integration (GCC)",
+                        "zh": "Economic Integration (GCC)"
+                    },
+                    "content": "Professional level study of economic integration (gcc).",
+                    "arabicContent": "اَلتَّكَامُلُ الِاقْتِصَادِيُّ فِي الْخَلِيجِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 50,
+                    "estimatedMinutes": 20,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Economic Integration (GCC)",
+                        "ar": "اَلتَّكَامُلُ الِاقْتِصَادِيُّ فِي الْخَلِيجِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u3_l7",
+                    "title": {
+                        "en": "Economics Review",
+                        "ar": "Economics Review",
+                        "fr": "Economics Review",
+                        "de": "Economics Review",
+                        "ru": "Economics Review",
+                        "zh": "Economics Review"
+                    },
+                    "content": "Professional level study of economics review.",
+                    "arabicContent": "مُرَاجَعَةُ مُصْطَلَحَاتِ الِاقْتِصَادِ الْكُلِّيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 52,
+                    "estimatedMinutes": 21,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Economics Review",
+                        "ar": "مُرَاجَعَةُ مُصْطَلَحَاتِ الِاقْتِصَادِ الْكُلِّيِّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u3_l8",
+                    "title": {
+                        "en": "Pitch an Investment Strategy",
+                        "ar": "Pitch an Investment Strategy",
+                        "fr": "Pitch an Investment Strategy",
+                        "de": "Pitch an Investment Strategy",
+                        "ru": "Pitch an Investment Strategy",
+                        "zh": "Pitch an Investment Strategy"
+                    },
+                    "content": "Professional level study of pitch an investment strategy.",
+                    "arabicContent": "قَدِّمْ اسْتِرَاتِيجِيَّةً لِلِاسْتِثْمَارِ الدُّوَلِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "performance",
+                    "xpReward": 54,
+                    "estimatedMinutes": 22,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Pitch an Investment Strategy",
+                        "ar": "قَدِّمْ اسْتِرَاتِيجِيَّةً لِلِاسْتِثْمَارِ الدُّوَلِيِّ"
+                    },
+                    "quiz": null
+                }
+            ],
+            "unitQuiz": null
+        },
+        {
+            "id": "c1_u4",
+            "title": {
+                "en": "Unit 4: International Law",
+                "ar": "Unit 4: International Law",
+                "fr": "Unit 4: International Law",
+                "de": "Unit 4: International Law",
+                "ru": "Unit 4: International Law",
+                "zh": "Unit 4: International Law"
+            },
+            "description": {
+                "en": "Treaties, human rights, and diplomatic immunity.",
+                "ar": "Treaties, human rights, and diplomatic immunity.",
+                "fr": "Treaties, human rights, and diplomatic immunity.",
+                "de": "Treaties, human rights, and diplomatic immunity.",
+                "ru": "Treaties, human rights, and diplomatic immunity.",
+                "zh": "Treaties, human rights, and diplomatic immunity."
+            },
+            "isLocked": true,
+            "lessons": [
+                {
+                    "id": "c1_u4_l1",
+                    "title": {
+                        "en": "The UN Charter",
+                        "ar": "The UN Charter",
+                        "fr": "The UN Charter",
+                        "de": "The UN Charter",
+                        "ru": "The UN Charter",
+                        "zh": "The UN Charter"
+                    },
+                    "content": "Professional level study of the un charter.",
+                    "arabicContent": "مِيثَاقُ الْأُمَمِ الْمُتَّحِدَةِ وَأَهْدَافُهُ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 40,
+                    "estimatedMinutes": 15,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "The UN Charter",
+                        "ar": "مِيثَاقُ الْأُمَمِ الْمُتَّحِدَةِ وَأَهْدَافُهُ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u4_l2",
+                    "title": {
+                        "en": "Diplomatic Immunity",
+                        "ar": "Diplomatic Immunity",
+                        "fr": "Diplomatic Immunity",
+                        "de": "Diplomatic Immunity",
+                        "ru": "Diplomatic Immunity",
+                        "zh": "Diplomatic Immunity"
+                    },
+                    "content": "Professional level study of diplomatic immunity.",
+                    "arabicContent": "اَلْحَصَانَةُ الدُّوَلِيَّةُ لِلدُّبْلُومَاسِيِّينَ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 42,
+                    "estimatedMinutes": 16,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Diplomatic Immunity",
+                        "ar": "اَلْحَصَانَةُ الدُّوَلِيَّةُ لِلدُّبْلُومَاسِيِّينَ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u4_l3",
+                    "title": {
+                        "en": "Law of the Sea",
+                        "ar": "Law of the Sea",
+                        "fr": "Law of the Sea",
+                        "de": "Law of the Sea",
+                        "ru": "Law of the Sea",
+                        "zh": "Law of the Sea"
+                    },
+                    "content": "Professional level study of law of the sea.",
+                    "arabicContent": "قَانُونُ الْبِحَارِ وَالْمِيَاهِ الْإِقْلِيمِيَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 44,
+                    "estimatedMinutes": 17,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Law of the Sea",
+                        "ar": "قَانُونُ الْبِحَارِ وَالْمِيَاهِ الْإِقْلِيمِيَّةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u4_l4",
+                    "title": {
+                        "en": "Human Rights Treaties",
+                        "ar": "Human Rights Treaties",
+                        "fr": "Human Rights Treaties",
+                        "de": "Human Rights Treaties",
+                        "ru": "Human Rights Treaties",
+                        "zh": "Human Rights Treaties"
+                    },
+                    "content": "Professional level study of human rights treaties.",
+                    "arabicContent": "اتِّفَاقِيَّاتُ حُقُوقِ الْإِنْسَانِ الدُّوَلِيَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 46,
+                    "estimatedMinutes": 18,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Human Rights Treaties",
+                        "ar": "اتِّفَاقِيَّاتُ حُقُوقِ الْإِنْسَانِ الدُّوَلِيَّةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u4_l5",
+                    "title": {
+                        "en": "War Crimes Jurisprudence",
+                        "ar": "War Crimes Jurisprudence",
+                        "fr": "War Crimes Jurisprudence",
+                        "de": "War Crimes Jurisprudence",
+                        "ru": "War Crimes Jurisprudence",
+                        "zh": "War Crimes Jurisprudence"
+                    },
+                    "content": "Professional level study of war crimes jurisprudence.",
+                    "arabicContent": "اَلِاجْتِهَادُ الْقَانُونِيُّ فِي جَرَائِمِ الْحَرْبِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 48,
+                    "estimatedMinutes": 19,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "War Crimes Jurisprudence",
+                        "ar": "اَلِاجْتِهَادُ الْقَانُونِيُّ فِي جَرَائِمِ الْحَرْبِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u4_l6",
+                    "title": {
+                        "en": "International Arbitration",
+                        "ar": "International Arbitration",
+                        "fr": "International Arbitration",
+                        "de": "International Arbitration",
+                        "ru": "International Arbitration",
+                        "zh": "International Arbitration"
+                    },
+                    "content": "Professional level study of international arbitration.",
+                    "arabicContent": "اَلتَّحْكِيمُ الدُّوَلِيُّ وَفَضُّ الْمُنَازَعَاتِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 50,
+                    "estimatedMinutes": 20,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "International Arbitration",
+                        "ar": "اَلتَّحْكِيمُ الدُّوَلِيُّ وَفَضُّ الْمُنَازَعَاتِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u4_l7",
+                    "title": {
+                        "en": "Legal Terms Review",
+                        "ar": "Legal Terms Review",
+                        "fr": "Legal Terms Review",
+                        "de": "Legal Terms Review",
+                        "ru": "Legal Terms Review",
+                        "zh": "Legal Terms Review"
+                    },
+                    "content": "Professional level study of legal terms review.",
+                    "arabicContent": "مُرَاجَعَةُ الْمُصْطَلَحَاتِ الْقَانُونِيَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 52,
+                    "estimatedMinutes": 21,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Legal Terms Review",
+                        "ar": "مُرَاجَعَةُ الْمُصْطَلَحَاتِ الْقَانُونِيَّةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u4_l8",
+                    "title": {
+                        "en": "Draft a Legal Opinion",
+                        "ar": "Draft a Legal Opinion",
+                        "fr": "Draft a Legal Opinion",
+                        "de": "Draft a Legal Opinion",
+                        "ru": "Draft a Legal Opinion",
+                        "zh": "Draft a Legal Opinion"
+                    },
+                    "content": "Professional level study of draft a legal opinion.",
+                    "arabicContent": "اكْتُبْ رَأْيًا قَانُونِيًّا حَوْلَ قَضِيَّةٍ دُوَلِيَّةٍ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "performance",
+                    "xpReward": 54,
+                    "estimatedMinutes": 22,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Draft a Legal Opinion",
+                        "ar": "اكْتُبْ رَأْيًا قَانُونِيًّا حَوْلَ قَضِيَّةٍ دُوَلِيَّةٍ"
+                    },
+                    "quiz": null
+                }
+            ],
+            "unitQuiz": null
+        },
+        {
+            "id": "c1_u5",
+            "title": {
+                "en": "Unit 5: Religious Discourse",
+                "ar": "Unit 5: Religious Discourse",
+                "fr": "Unit 5: Religious Discourse",
+                "de": "Unit 5: Religious Discourse",
+                "ru": "Unit 5: Religious Discourse",
+                "zh": "Unit 5: Religious Discourse"
+            },
+            "description": {
+                "en": "Theology, exegesis, and interfaith dialogue.",
+                "ar": "Theology, exegesis, and interfaith dialogue.",
+                "fr": "Theology, exegesis, and interfaith dialogue.",
+                "de": "Theology, exegesis, and interfaith dialogue.",
+                "ru": "Theology, exegesis, and interfaith dialogue.",
+                "zh": "Theology, exegesis, and interfaith dialogue."
+            },
+            "isLocked": true,
+            "lessons": [
+                {
+                    "id": "c1_u5_l1",
+                    "title": {
+                        "en": "Principles of Exegesis",
+                        "ar": "Principles of Exegesis",
+                        "fr": "Principles of Exegesis",
+                        "de": "Principles of Exegesis",
+                        "ru": "Principles of Exegesis",
+                        "zh": "Principles of Exegesis"
+                    },
+                    "content": "Professional level study of principles of exegesis.",
+                    "arabicContent": "أُصُولُ التَّفْسِيرِ وَمَنَاهِجُهُ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 40,
+                    "estimatedMinutes": 15,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Principles of Exegesis",
+                        "ar": "أُصُولُ التَّفْسِيرِ وَمَنَاهِجُهُ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u5_l2",
+                    "title": {
+                        "en": "The Science of Hadith",
+                        "ar": "The Science of Hadith",
+                        "fr": "The Science of Hadith",
+                        "de": "The Science of Hadith",
+                        "ru": "The Science of Hadith",
+                        "zh": "The Science of Hadith"
+                    },
+                    "content": "Professional level study of the science of hadith.",
+                    "arabicContent": "عِلْمُ الْحَدِيثِ وَمُصْطَلَحُهُ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 42,
+                    "estimatedMinutes": 16,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "The Science of Hadith",
+                        "ar": "عِلْمُ الْحَدِيثِ وَمُصْطَلَحُهُ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u5_l3",
+                    "title": {
+                        "en": "Comparative Religion",
+                        "ar": "Comparative Religion",
+                        "fr": "Comparative Religion",
+                        "de": "Comparative Religion",
+                        "ru": "Comparative Religion",
+                        "zh": "Comparative Religion"
+                    },
+                    "content": "Professional level study of comparative religion.",
+                    "arabicContent": "مُقَارَنَةُ الْأَدْيَانِ فِي الْفِكْرِ الْعَرَبِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 44,
+                    "estimatedMinutes": 17,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Comparative Religion",
+                        "ar": "مُقَارَنَةُ الْأَدْيَانِ فِي الْفِكْرِ الْعَرَبِيِّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u5_l4",
+                    "title": {
+                        "en": "The Concept of Ijtihad",
+                        "ar": "The Concept of Ijtihad",
+                        "fr": "The Concept of Ijtihad",
+                        "de": "The Concept of Ijtihad",
+                        "ru": "The Concept of Ijtihad",
+                        "zh": "The Concept of Ijtihad"
+                    },
+                    "content": "Professional level study of the concept of ijtihad.",
+                    "arabicContent": "مَفْهُومُ الِاجْتِهَادِ فِي الْفِقْهِ الْإِسْلَامِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 46,
+                    "estimatedMinutes": 18,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "The Concept of Ijtihad",
+                        "ar": "مَفْهُومُ الِاجْتِهَادِ فِي الْفِقْهِ الْإِسْلَامِيِّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u5_l5",
+                    "title": {
+                        "en": "Interfaith Dialogue",
+                        "ar": "Interfaith Dialogue",
+                        "fr": "Interfaith Dialogue",
+                        "de": "Interfaith Dialogue",
+                        "ru": "Interfaith Dialogue",
+                        "zh": "Interfaith Dialogue"
+                    },
+                    "content": "Professional level study of interfaith dialogue.",
+                    "arabicContent": "حِوَارُ الْأَدْيَانِ وَبِنَاءُ الْجُسُورِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 48,
+                    "estimatedMinutes": 19,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Interfaith Dialogue",
+                        "ar": "حِوَارُ الْأَدْيَانِ وَبِنَاءُ الْجُسُورِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u5_l6",
+                    "title": {
+                        "en": "Ethics & Spirituality",
+                        "ar": "Ethics & Spirituality",
+                        "fr": "Ethics & Spirituality",
+                        "de": "Ethics & Spirituality",
+                        "ru": "Ethics & Spirituality",
+                        "zh": "Ethics & Spirituality"
+                    },
+                    "content": "Professional level study of ethics & spirituality.",
+                    "arabicContent": "اَلْأَخْلَاقُ وَالرُّوحَانِيَّاتُ فِي التَّصَوُّفِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 50,
+                    "estimatedMinutes": 20,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Ethics & Spirituality",
+                        "ar": "اَلْأَخْلَاقُ وَالرُّوحَانِيَّاتُ فِي التَّصَوُّفِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u5_l7",
+                    "title": {
+                        "en": "Theology Review",
+                        "ar": "Theology Review",
+                        "fr": "Theology Review",
+                        "de": "Theology Review",
+                        "ru": "Theology Review",
+                        "zh": "Theology Review"
+                    },
+                    "content": "Professional level study of theology review.",
+                    "arabicContent": "مُرَاجَعَةُ مُصْطَلَحَاتِ عِلْمِ الْكَلَامِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 52,
+                    "estimatedMinutes": 21,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Theology Review",
+                        "ar": "مُرَاجَعَةُ مُصْطَلَحَاتِ عِلْمِ الْكَلَامِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u5_l8",
+                    "title": {
+                        "en": "Analyze a Sacred Text",
+                        "ar": "Analyze a Sacred Text",
+                        "fr": "Analyze a Sacred Text",
+                        "de": "Analyze a Sacred Text",
+                        "ru": "Analyze a Sacred Text",
+                        "zh": "Analyze a Sacred Text"
+                    },
+                    "content": "Professional level study of analyze a sacred text.",
+                    "arabicContent": "حَلِّلْ نَصًّا دِينِيًّا قَدِيمًا",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "performance",
+                    "xpReward": 54,
+                    "estimatedMinutes": 22,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Analyze a Sacred Text",
+                        "ar": "حَلِّلْ نَصًّا دِينِيًّا قَدِيمًا"
+                    },
+                    "quiz": null
+                }
+            ],
+            "unitQuiz": null
+        },
+        {
+            "id": "c1_u6",
+            "title": {
+                "en": "Unit 6: Historical Manuscripts",
+                "ar": "Unit 6: Historical Manuscripts",
+                "fr": "Unit 6: Historical Manuscripts",
+                "de": "Unit 6: Historical Manuscripts",
+                "ru": "Unit 6: Historical Manuscripts",
+                "zh": "Unit 6: Historical Manuscripts"
+            },
+            "description": {
+                "en": "Paleography, archiving, and the history of the book.",
+                "ar": "Paleography, archiving, and the history of the book.",
+                "fr": "Paleography, archiving, and the history of the book.",
+                "de": "Paleography, archiving, and the history of the book.",
+                "ru": "Paleography, archiving, and the history of the book.",
+                "zh": "Paleography, archiving, and the history of the book."
+            },
+            "isLocked": true,
+            "lessons": [
+                {
+                    "id": "c1_u6_l1",
+                    "title": {
+                        "en": "Arabic Paleography",
+                        "ar": "Arabic Paleography",
+                        "fr": "Arabic Paleography",
+                        "de": "Arabic Paleography",
+                        "ru": "Arabic Paleography",
+                        "zh": "Arabic Paleography"
+                    },
+                    "content": "Professional level study of arabic paleography.",
+                    "arabicContent": "عِلْمُ الْخُطُوطِ الْعَرَبِيَّةِ الْقَدِيمَةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 40,
+                    "estimatedMinutes": 15,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Arabic Paleography",
+                        "ar": "عِلْمُ الْخُطُوطِ الْعَرَبِيَّةِ الْقَدِيمَةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u6_l2",
+                    "title": {
+                        "en": "Manuscript Restoration",
+                        "ar": "Manuscript Restoration",
+                        "fr": "Manuscript Restoration",
+                        "de": "Manuscript Restoration",
+                        "ru": "Manuscript Restoration",
+                        "zh": "Manuscript Restoration"
+                    },
+                    "content": "Professional level study of manuscript restoration.",
+                    "arabicContent": "تَرْمِيمُ الْمَخْطُوطَاتِ وَحِفْظُهَا",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 42,
+                    "estimatedMinutes": 16,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Manuscript Restoration",
+                        "ar": "تَرْمِيمُ الْمَخْطُوطَاتِ وَحِفْظُهَا"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u6_l3",
+                    "title": {
+                        "en": "The History of Libraries",
+                        "ar": "The History of Libraries",
+                        "fr": "The History of Libraries",
+                        "de": "The History of Libraries",
+                        "ru": "The History of Libraries",
+                        "zh": "The History of Libraries"
+                    },
+                    "content": "Professional level study of the history of libraries.",
+                    "arabicContent": "تَارِيخُ الْمَكْتَبَاتِ فِي الْحَضَارَةِ الْعَرَبِيَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 44,
+                    "estimatedMinutes": 17,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "The History of Libraries",
+                        "ar": "تَارِيخُ الْمَكْتَبَاتِ فِي الْحَضَارَةِ الْعَرَبِيَّةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u6_l4",
+                    "title": {
+                        "en": "Islamic Codicology",
+                        "ar": "Islamic Codicology",
+                        "fr": "Islamic Codicology",
+                        "de": "Islamic Codicology",
+                        "ru": "Islamic Codicology",
+                        "zh": "Islamic Codicology"
+                    },
+                    "content": "Professional level study of islamic codicology.",
+                    "arabicContent": "عِلْمُ الْكُودِيكُولُوجِيَا لِلْمَخْطُوطِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 46,
+                    "estimatedMinutes": 18,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Islamic Codicology",
+                        "ar": "عِلْمُ الْكُودِيكُولُوجِيَا لِلْمَخْطُوطِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u6_l5",
+                    "title": {
+                        "en": "Digital Archiving",
+                        "ar": "Digital Archiving",
+                        "fr": "Digital Archiving",
+                        "de": "Digital Archiving",
+                        "ru": "Digital Archiving",
+                        "zh": "Digital Archiving"
+                    },
+                    "content": "Professional level study of digital archiving.",
+                    "arabicContent": "اَلْأَرْشَفَةُ الرَّقْمِيَّةُ لِلتُّرَاثِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 48,
+                    "estimatedMinutes": 19,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Digital Archiving",
+                        "ar": "اَلْأَرْشَفَةُ الرَّقْمِيَّةُ لِلتُّرَاثِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u6_l6",
+                    "title": {
+                        "en": "Catalogue of Knowledge",
+                        "ar": "Catalogue of Knowledge",
+                        "fr": "Catalogue of Knowledge",
+                        "de": "Catalogue of Knowledge",
+                        "ru": "Catalogue of Knowledge",
+                        "zh": "Catalogue of Knowledge"
+                    },
+                    "content": "Professional level study of catalogue of knowledge.",
+                    "arabicContent": "فَهْرَسَةُ الْمَعَارِفِ عِنْدَ الْقُدَمَاءِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 50,
+                    "estimatedMinutes": 20,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Catalogue of Knowledge",
+                        "ar": "فَهْرَسَةُ الْمَعَارِفِ عِنْدَ الْقُدَمَاءِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u6_l7",
+                    "title": {
+                        "en": "Manuscript Terms Review",
+                        "ar": "Manuscript Terms Review",
+                        "fr": "Manuscript Terms Review",
+                        "de": "Manuscript Terms Review",
+                        "ru": "Manuscript Terms Review",
+                        "zh": "Manuscript Terms Review"
+                    },
+                    "content": "Professional level study of manuscript terms review.",
+                    "arabicContent": "مُرَاجَعَةُ مُصْطَلَحَاتِ الْمَخْطُوطَاتِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 52,
+                    "estimatedMinutes": 21,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Manuscript Terms Review",
+                        "ar": "مُرَاجَعَةُ مُصْطَلَحَاتِ الْمَخْطُوطَاتِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u6_l8",
+                    "title": {
+                        "en": "Transcribe a Manuscript Fragment",
+                        "ar": "Transcribe a Manuscript Fragment",
+                        "fr": "Transcribe a Manuscript Fragment",
+                        "de": "Transcribe a Manuscript Fragment",
+                        "ru": "Transcribe a Manuscript Fragment",
+                        "zh": "Transcribe a Manuscript Fragment"
+                    },
+                    "content": "Professional level study of transcribe a manuscript fragment.",
+                    "arabicContent": "قُمْ بِنَسْخِ قِطْعَةٍ مِنْ مَخْطُوطٍ قَدِيمٍ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "performance",
+                    "xpReward": 54,
+                    "estimatedMinutes": 22,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Transcribe a Manuscript Fragment",
+                        "ar": "قُمْ بِنَسْخِ قِطْعَةٍ مِنْ مَخْطُوطٍ قَدِيمٍ"
+                    },
+                    "quiz": null
+                }
+            ],
+            "unitQuiz": null
+        },
+        {
+            "id": "c1_u7",
+            "title": {
+                "en": "Unit 7: Advanced Linguistics",
+                "ar": "Unit 7: Advanced Linguistics",
+                "fr": "Unit 7: Advanced Linguistics",
+                "de": "Unit 7: Advanced Linguistics",
+                "ru": "Unit 7: Advanced Linguistics",
+                "zh": "Unit 7: Advanced Linguistics"
+            },
+            "description": {
+                "en": "Morphology, syntax, and semantics deep dive.",
+                "ar": "Morphology, syntax, and semantics deep dive.",
+                "fr": "Morphology, syntax, and semantics deep dive.",
+                "de": "Morphology, syntax, and semantics deep dive.",
+                "ru": "Morphology, syntax, and semantics deep dive.",
+                "zh": "Morphology, syntax, and semantics deep dive."
+            },
+            "isLocked": true,
+            "lessons": [
+                {
+                    "id": "c1_u7_l1",
+                    "title": {
+                        "en": "Complex Morphology",
+                        "ar": "Complex Morphology",
+                        "fr": "Complex Morphology",
+                        "de": "Complex Morphology",
+                        "ru": "Complex Morphology",
+                        "zh": "Complex Morphology"
+                    },
+                    "content": "Professional level study of complex morphology.",
+                    "arabicContent": "اَلصَّرْفُ التَّعْلِيلِيُّ فِي اللُّغَةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 40,
+                    "estimatedMinutes": 15,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Complex Morphology",
+                        "ar": "اَلصَّرْفُ التَّعْلِيلِيُّ فِي اللُّغَةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u7_l2",
+                    "title": {
+                        "en": "Syntactic Structures",
+                        "ar": "Syntactic Structures",
+                        "fr": "Syntactic Structures",
+                        "de": "Syntactic Structures",
+                        "ru": "Syntactic Structures",
+                        "zh": "Syntactic Structures"
+                    },
+                    "content": "Professional level study of syntactic structures.",
+                    "arabicContent": "اَلْبِنَاءُ النَّحْوِيُّ وَإِعْرَابُ الْجُمَلِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 42,
+                    "estimatedMinutes": 16,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Syntactic Structures",
+                        "ar": "اَلْبِنَاءُ النَّحْوِيُّ وَإِعْرَابُ الْجُمَلِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u7_l3",
+                    "title": {
+                        "en": "Semantics & Pragmatics",
+                        "ar": "Semantics & Pragmatics",
+                        "fr": "Semantics & Pragmatics",
+                        "de": "Semantics & Pragmatics",
+                        "ru": "Semantics & Pragmatics",
+                        "zh": "Semantics & Pragmatics"
+                    },
+                    "content": "Professional level study of semantics & pragmatics.",
+                    "arabicContent": "عِلْمُ الدَّلَالَةِ وَالسِّيَاقِ اللُّغَوِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 44,
+                    "estimatedMinutes": 17,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Semantics & Pragmatics",
+                        "ar": "عِلْمُ الدَّلَالَةِ وَالسِّيَاقِ اللُّغَوِيِّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u7_l4",
+                    "title": {
+                        "en": "Phonetic Theory",
+                        "ar": "Phonetic Theory",
+                        "fr": "Phonetic Theory",
+                        "de": "Phonetic Theory",
+                        "ru": "Phonetic Theory",
+                        "zh": "Phonetic Theory"
+                    },
+                    "content": "Professional level study of phonetic theory.",
+                    "arabicContent": "اَلنَّظَرِيَّةُ الصَّوْتِيَّةُ عِنْدَ سِيبَوَيْهِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 46,
+                    "estimatedMinutes": 18,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Phonetic Theory",
+                        "ar": "اَلنَّظَرِيَّةُ الصَّوْتِيَّةُ عِنْدَ سِيبَوَيْهِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u7_l5",
+                    "title": {
+                        "en": "Sociolinguistics",
+                        "ar": "Sociolinguistics",
+                        "fr": "Sociolinguistics",
+                        "de": "Sociolinguistics",
+                        "ru": "Sociolinguistics",
+                        "zh": "Sociolinguistics"
+                    },
+                    "content": "Professional level study of sociolinguistics.",
+                    "arabicContent": "عِلْمُ اللُّغَةِ الِاجْتِمَاعِيُّ وَاللَّهَجَاتِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 48,
+                    "estimatedMinutes": 19,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Sociolinguistics",
+                        "ar": "عِلْمُ اللُّغَةِ الِاجْتِمَاعِيُّ وَاللَّهَجَاتِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u7_l6",
+                    "title": {
+                        "en": "Lexicography",
+                        "ar": "Lexicography",
+                        "fr": "Lexicography",
+                        "de": "Lexicography",
+                        "ru": "Lexicography",
+                        "zh": "Lexicography"
+                    },
+                    "content": "Professional level study of lexicography.",
+                    "arabicContent": "عِلْمُ الْمُعَاجِمِ وَكَيْفِيَّةُ اسْتِخْدَامِهَا",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 50,
+                    "estimatedMinutes": 20,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Lexicography",
+                        "ar": "عِلْمُ الْمُعَاجِمِ وَكَيْفِيَّةُ اسْتِخْدَامِهَا"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u7_l7",
+                    "title": {
+                        "en": "Linguistics Review",
+                        "ar": "Linguistics Review",
+                        "fr": "Linguistics Review",
+                        "de": "Linguistics Review",
+                        "ru": "Linguistics Review",
+                        "zh": "Linguistics Review"
+                    },
+                    "content": "Professional level study of linguistics review.",
+                    "arabicContent": "مُرَاجَعَةُ مُصْطَلَحَاتِ عِلْمِ اللُّغَةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 52,
+                    "estimatedMinutes": 21,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Linguistics Review",
+                        "ar": "مُرَاجَعَةُ مُصْطَلَحَاتِ عِلْمِ اللُّغَةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u7_l8",
+                    "title": {
+                        "en": "Conduct a Syntactic Analysis",
+                        "ar": "Conduct a Syntactic Analysis",
+                        "fr": "Conduct a Syntactic Analysis",
+                        "de": "Conduct a Syntactic Analysis",
+                        "ru": "Conduct a Syntactic Analysis",
+                        "zh": "Conduct a Syntactic Analysis"
+                    },
+                    "content": "Professional level study of conduct a syntactic analysis.",
+                    "arabicContent": "أَجْرِ تَحْلِيلًا نَحْوِيًّا لِقَصِيدَةٍ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "performance",
+                    "xpReward": 54,
+                    "estimatedMinutes": 22,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Conduct a Syntactic Analysis",
+                        "ar": "أَجْرِ تَحْلِيلًا نَحْوِيًّا لِقَصِيدَةٍ"
+                    },
+                    "quiz": null
+                }
+            ],
+            "unitQuiz": null
+        },
+        {
+            "id": "c1_u8",
+            "title": {
+                "en": "Unit 8: Political Science",
+                "ar": "Unit 8: Political Science",
+                "fr": "Unit 8: Political Science",
+                "de": "Unit 8: Political Science",
+                "ru": "Unit 8: Political Science",
+                "zh": "Unit 8: Political Science"
+            },
+            "description": {
+                "en": "Ideologies, modern states, and democracy.",
+                "ar": "Ideologies, modern states, and democracy.",
+                "fr": "Ideologies, modern states, and democracy.",
+                "de": "Ideologies, modern states, and democracy.",
+                "ru": "Ideologies, modern states, and democracy.",
+                "zh": "Ideologies, modern states, and democracy."
+            },
+            "isLocked": true,
+            "lessons": [
+                {
+                    "id": "c1_u8_l1",
+                    "title": {
+                        "en": "Political Ideologies",
+                        "ar": "Political Ideologies",
+                        "fr": "Political Ideologies",
+                        "de": "Political Ideologies",
+                        "ru": "Political Ideologies",
+                        "zh": "Political Ideologies"
+                    },
+                    "content": "Professional level study of political ideologies.",
+                    "arabicContent": "أَيْدِيُولُوجِيَّاتُ الْفِكْرِ السِّيَاسِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 40,
+                    "estimatedMinutes": 15,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Political Ideologies",
+                        "ar": "أَيْدِيُولُوجِيَّاتُ الْفِكْرِ السِّيَاسِيِّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u8_l2",
+                    "title": {
+                        "en": "State & Sovereignty",
+                        "ar": "State & Sovereignty",
+                        "fr": "State & Sovereignty",
+                        "de": "State & Sovereignty",
+                        "ru": "State & Sovereignty",
+                        "zh": "State & Sovereignty"
+                    },
+                    "content": "Professional level study of state & sovereignty.",
+                    "arabicContent": "اَلدَّوْلَةُ وَمَفْهُومُ السِّيَادَةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 42,
+                    "estimatedMinutes": 16,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "State & Sovereignty",
+                        "ar": "اَلدَّوْلَةُ وَمَفْهُومُ السِّيَادَةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u8_l3",
+                    "title": {
+                        "en": "Democracy in Arab Thought",
+                        "ar": "Democracy in Arab Thought",
+                        "fr": "Democracy in Arab Thought",
+                        "de": "Democracy in Arab Thought",
+                        "ru": "Democracy in Arab Thought",
+                        "zh": "Democracy in Arab Thought"
+                    },
+                    "content": "Professional level study of democracy in arab thought.",
+                    "arabicContent": "اَلدِّيمُقْرَاطِيَّةُ فِي الْفِكْرِ الْعَرَبِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 44,
+                    "estimatedMinutes": 17,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Democracy in Arab Thought",
+                        "ar": "اَلدِّيمُقْرَاطِيَّةُ فِي الْفِكْرِ الْعَرَبِيِّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u8_l4",
+                    "title": {
+                        "en": "Human Security Policy",
+                        "ar": "Human Security Policy",
+                        "fr": "Human Security Policy",
+                        "de": "Human Security Policy",
+                        "ru": "Human Security Policy",
+                        "zh": "Human Security Policy"
+                    },
+                    "content": "Professional level study of human security policy.",
+                    "arabicContent": "سِيَاسَةُ الْأَمْنِ الْإِنْسَانِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 46,
+                    "estimatedMinutes": 18,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Human Security Policy",
+                        "ar": "سِيَاسَةُ الْأَمْنِ الْإِنْسَانِيِّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u8_l5",
+                    "title": {
+                        "en": "Public Opinion Polling",
+                        "ar": "Public Opinion Polling",
+                        "fr": "Public Opinion Polling",
+                        "de": "Public Opinion Polling",
+                        "ru": "Public Opinion Polling",
+                        "zh": "Public Opinion Polling"
+                    },
+                    "content": "Professional level study of public opinion polling.",
+                    "arabicContent": "اسْتِطْلَاعُ الرَّأْيِ الْعَامِّ وَأَهَمِّيَّتُهُ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 48,
+                    "estimatedMinutes": 19,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Public Opinion Polling",
+                        "ar": "اسْتِطْلَاعُ الرَّأْيِ الْعَامِّ وَأَهَمِّيَّتُهُ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u8_l6",
+                    "title": {
+                        "en": "Civil Society Organizations",
+                        "ar": "Civil Society Organizations",
+                        "fr": "Civil Society Organizations",
+                        "de": "Civil Society Organizations",
+                        "ru": "Civil Society Organizations",
+                        "zh": "Civil Society Organizations"
+                    },
+                    "content": "Professional level study of civil society organizations.",
+                    "arabicContent": "مُنَظَّمَاتُ الْمُجْتَمَعِ الْمَدَنِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 50,
+                    "estimatedMinutes": 20,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Civil Society Organizations",
+                        "ar": "مُنَظَّمَاتُ الْمُجْتَمَعِ الْمَدَنِيِّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u8_l7",
+                    "title": {
+                        "en": "Political Terms Review",
+                        "ar": "Political Terms Review",
+                        "fr": "Political Terms Review",
+                        "de": "Political Terms Review",
+                        "ru": "Political Terms Review",
+                        "zh": "Political Terms Review"
+                    },
+                    "content": "Professional level study of political terms review.",
+                    "arabicContent": "مُرَاجَعَةُ مُصْطَلَحَاتِ الْعُلُومِ السِّيَاسِيَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 52,
+                    "estimatedMinutes": 21,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Political Terms Review",
+                        "ar": "مُرَاجَعَةُ مُصْطَلَحَاتِ الْعُلُومِ السِّيَاسِيَّةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u8_l8",
+                    "title": {
+                        "en": "Analyze an Election Campaign",
+                        "ar": "Analyze an Election Campaign",
+                        "fr": "Analyze an Election Campaign",
+                        "de": "Analyze an Election Campaign",
+                        "ru": "Analyze an Election Campaign",
+                        "zh": "Analyze an Election Campaign"
+                    },
+                    "content": "Professional level study of analyze an election campaign.",
+                    "arabicContent": "حَلِّلْ حَمْلَةً انْتِخَابِيَّةً سِيَاسِيَّةً",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "performance",
+                    "xpReward": 54,
+                    "estimatedMinutes": 22,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Analyze an Election Campaign",
+                        "ar": "حَلِّلْ حَمْلَةً انْتِخَابِيَّةً سِيَاسِيَّةً"
+                    },
+                    "quiz": null
+                }
+            ],
+            "unitQuiz": null
+        },
+        {
+            "id": "c1_u9",
+            "title": {
+                "en": "Unit 9: Modern Arab Thought",
+                "ar": "Unit 9: Modern Arab Thought",
+                "fr": "Unit 9: Modern Arab Thought",
+                "de": "Unit 9: Modern Arab Thought",
+                "ru": "Unit 9: Modern Arab Thought",
+                "zh": "Unit 9: Modern Arab Thought"
+            },
+            "description": {
+                "en": "Reformists, secularism, and post-colonialism.",
+                "ar": "Reformists, secularism, and post-colonialism.",
+                "fr": "Reformists, secularism, and post-colonialism.",
+                "de": "Reformists, secularism, and post-colonialism.",
+                "ru": "Reformists, secularism, and post-colonialism.",
+                "zh": "Reformists, secularism, and post-colonialism."
+            },
+            "isLocked": true,
+            "lessons": [
+                {
+                    "id": "c1_u9_l1",
+                    "title": {
+                        "en": "The Nahda Movement",
+                        "ar": "The Nahda Movement",
+                        "fr": "The Nahda Movement",
+                        "de": "The Nahda Movement",
+                        "ru": "The Nahda Movement",
+                        "zh": "The Nahda Movement"
+                    },
+                    "content": "Professional level study of the nahda movement.",
+                    "arabicContent": "حَرَكَةُ النَّهْضَةِ الْعَرَبِيَّةِ وَرُوَّادُهَا",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 40,
+                    "estimatedMinutes": 15,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "The Nahda Movement",
+                        "ar": "حَرَكَةُ النَّهْضَةِ الْعَرَبِيَّةِ وَرُوَّادُهَا"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u9_l2",
+                    "title": {
+                        "en": "Secularism vs. Tradition",
+                        "ar": "Secularism vs. Tradition",
+                        "fr": "Secularism vs. Tradition",
+                        "de": "Secularism vs. Tradition",
+                        "ru": "Secularism vs. Tradition",
+                        "zh": "Secularism vs. Tradition"
+                    },
+                    "content": "Professional level study of secularism vs. tradition.",
+                    "arabicContent": "اَلْعَلْمَانِيَّةُ وَالْأَصَالَةُ فِي الْفِكْرِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 42,
+                    "estimatedMinutes": 16,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Secularism vs. Tradition",
+                        "ar": "اَلْعَلْمَانِيَّةُ وَالْأَصَالَةُ فِي الْفِكْرِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u9_l3",
+                    "title": {
+                        "en": "Post-Colonial Theory",
+                        "ar": "Post-Colonial Theory",
+                        "fr": "Post-Colonial Theory",
+                        "de": "Post-Colonial Theory",
+                        "ru": "Post-Colonial Theory",
+                        "zh": "Post-Colonial Theory"
+                    },
+                    "content": "Professional level study of post-colonial theory.",
+                    "arabicContent": "نَظَرِيَّةُ مَا بَعْدَ الِاسْتِعْمَارِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 44,
+                    "estimatedMinutes": 17,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Post-Colonial Theory",
+                        "ar": "نَظَرِيَّةُ مَا بَعْدَ الِاسْتِعْمَارِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u9_l4",
+                    "title": {
+                        "en": "Women's Rights Pioneers",
+                        "ar": "Women's Rights Pioneers",
+                        "fr": "Women's Rights Pioneers",
+                        "de": "Women's Rights Pioneers",
+                        "ru": "Women's Rights Pioneers",
+                        "zh": "Women's Rights Pioneers"
+                    },
+                    "content": "Professional level study of women's rights pioneers.",
+                    "arabicContent": "رَائِدَاتُ حُقوقِ الْمَرْأَةِ فِي الْعَالَمِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 46,
+                    "estimatedMinutes": 18,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Women's Rights Pioneers",
+                        "ar": "رَائِدَاتُ حُقوقِ الْمَرْأَةِ فِي الْعَالَمِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u9_l5",
+                    "title": {
+                        "en": "Pan-Arabism Goals",
+                        "ar": "Pan-Arabism Goals",
+                        "fr": "Pan-Arabism Goals",
+                        "de": "Pan-Arabism Goals",
+                        "ru": "Pan-Arabism Goals",
+                        "zh": "Pan-Arabism Goals"
+                    },
+                    "content": "Professional level study of pan-arabism goals.",
+                    "arabicContent": "أَهْدَافُ الْقَوْمِيَّةِ الْعَرَبِيَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 48,
+                    "estimatedMinutes": 19,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Pan-Arabism Goals",
+                        "ar": "أَهْدَافُ الْقَوْمِيَّةِ الْعَرَبِيَّةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u9_l6",
+                    "title": {
+                        "en": "Identity & Globalization",
+                        "ar": "Identity & Globalization",
+                        "fr": "Identity & Globalization",
+                        "de": "Identity & Globalization",
+                        "ru": "Identity & Globalization",
+                        "zh": "Identity & Globalization"
+                    },
+                    "content": "Professional level study of identity & globalization.",
+                    "arabicContent": "اَلْهُوِيَّةُ وَتَحَدِّيَاتُ الْعَوْلَمَةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 50,
+                    "estimatedMinutes": 20,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Identity & Globalization",
+                        "ar": "اَلْهُوِيَّةُ وَتَحَدِّيَاتُ الْعَوْلَمَةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u9_l7",
+                    "title": {
+                        "en": "Modern Thought Review",
+                        "ar": "Modern Thought Review",
+                        "fr": "Modern Thought Review",
+                        "de": "Modern Thought Review",
+                        "ru": "Modern Thought Review",
+                        "zh": "Modern Thought Review"
+                    },
+                    "content": "Professional level study of modern thought review.",
+                    "arabicContent": "مُرَاجَعَةُ مُصْطَلَحَاتِ الْفِكْرِ الْحَدِيثِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 52,
+                    "estimatedMinutes": 21,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Modern Thought Review",
+                        "ar": "مُرَاجَعَةُ مُصْطَلَحَاتِ الْفِكْرِ الْحَدِيثِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u9_l8",
+                    "title": {
+                        "en": "Write a Philosophical Essay",
+                        "ar": "Write a Philosophical Essay",
+                        "fr": "Write a Philosophical Essay",
+                        "de": "Write a Philosophical Essay",
+                        "ru": "Write a Philosophical Essay",
+                        "zh": "Write a Philosophical Essay"
+                    },
+                    "content": "Professional level study of write a philosophical essay.",
+                    "arabicContent": "اكْتُبْ مَقَالًا فَلْسَفِيًّا حَوْلَ التَّحَدِيثِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "performance",
+                    "xpReward": 54,
+                    "estimatedMinutes": 22,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Write a Philosophical Essay",
+                        "ar": "اكْتُبْ مَقَالًا فَلْسَفِيًّا حَوْلَ التَّحَدِيثِ"
+                    },
+                    "quiz": null
+                }
+            ],
+            "unitQuiz": null
+        },
+        {
+            "id": "c1_u10",
+            "title": {
+                "en": "Unit 10: Scientific Research",
+                "ar": "Unit 10: Scientific Research",
+                "fr": "Unit 10: Scientific Research",
+                "de": "Unit 10: Scientific Research",
+                "ru": "Unit 10: Scientific Research",
+                "zh": "Unit 10: Scientific Research"
+            },
+            "description": {
+                "en": "Methodology, ethics, and academic publishing.",
+                "ar": "Methodology, ethics, and academic publishing.",
+                "fr": "Methodology, ethics, and academic publishing.",
+                "de": "Methodology, ethics, and academic publishing.",
+                "ru": "Methodology, ethics, and academic publishing.",
+                "zh": "Methodology, ethics, and academic publishing."
+            },
+            "isLocked": true,
+            "lessons": [
+                {
+                    "id": "c1_u10_l1",
+                    "title": {
+                        "en": "Research Methodology",
+                        "ar": "Research Methodology",
+                        "fr": "Research Methodology",
+                        "de": "Research Methodology",
+                        "ru": "Research Methodology",
+                        "zh": "Research Methodology"
+                    },
+                    "content": "Professional level study of research methodology.",
+                    "arabicContent": "مَنَاهِجُ الْبَحْثِ الْعِلْمِيِّ الرَّصِينِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 40,
+                    "estimatedMinutes": 15,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Research Methodology",
+                        "ar": "مَنَاهِجُ الْبَحْثِ الْعِلْمِيِّ الرَّصِينِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u10_l2",
+                    "title": {
+                        "en": "Academic Ethics",
+                        "ar": "Academic Ethics",
+                        "fr": "Academic Ethics",
+                        "de": "Academic Ethics",
+                        "ru": "Academic Ethics",
+                        "zh": "Academic Ethics"
+                    },
+                    "content": "Professional level study of academic ethics.",
+                    "arabicContent": "أَخْلَاقِيَّاتُ الْبَحْثِ وَالْأَمَانَةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 42,
+                    "estimatedMinutes": 16,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Academic Ethics",
+                        "ar": "أَخْلَاقِيَّاتُ الْبَحْثِ وَالْأَمَانَةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u10_l3",
+                    "title": {
+                        "en": "Statistical Analysis",
+                        "ar": "Statistical Analysis",
+                        "fr": "Statistical Analysis",
+                        "de": "Statistical Analysis",
+                        "ru": "Statistical Analysis",
+                        "zh": "Statistical Analysis"
+                    },
+                    "content": "Professional level study of statistical analysis.",
+                    "arabicContent": "اَلتَّحْلِيلُ الْإِحْصَائِيُّ لِلْبَيَانَاتِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 44,
+                    "estimatedMinutes": 17,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Statistical Analysis",
+                        "ar": "اَلتَّحْلِيلُ الْإِحْصَائِيُّ لِلْبَيَانَاتِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u10_l4",
+                    "title": {
+                        "en": "Scientific Publishing",
+                        "ar": "Scientific Publishing",
+                        "fr": "Scientific Publishing",
+                        "de": "Scientific Publishing",
+                        "ru": "Scientific Publishing",
+                        "zh": "Scientific Publishing"
+                    },
+                    "content": "Professional level study of scientific publishing.",
+                    "arabicContent": "اَلنَّشْرُ الْعِلْمِيُّ فِي الْمَجَلَّاتِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 46,
+                    "estimatedMinutes": 18,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Scientific Publishing",
+                        "ar": "اَلنَّشْرُ الْعِلْمِيُّ فِي الْمَجَلَّاتِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u10_l5",
+                    "title": {
+                        "en": "Innovation Patents",
+                        "ar": "Innovation Patents",
+                        "fr": "Innovation Patents",
+                        "de": "Innovation Patents",
+                        "ru": "Innovation Patents",
+                        "zh": "Innovation Patents"
+                    },
+                    "content": "Professional level study of innovation patents.",
+                    "arabicContent": "بَرَاءَاتُ الِاخْتِرَاعِ وَالِابْتِكَارِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 48,
+                    "estimatedMinutes": 19,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Innovation Patents",
+                        "ar": "بَرَاءَاتُ الِاخْتِرَاعِ وَالِابْتِكَارِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u10_l6",
+                    "title": {
+                        "en": "Grants & Funding",
+                        "ar": "Grants & Funding",
+                        "fr": "Grants & Funding",
+                        "de": "Grants & Funding",
+                        "ru": "Grants & Funding",
+                        "zh": "Grants & Funding"
+                    },
+                    "content": "Professional level study of grants & funding.",
+                    "arabicContent": "اَلْمِنَحُ وَتَمْوِيلُ الْأَبْحَاثِ الْعِلْمِيَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 50,
+                    "estimatedMinutes": 20,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Grants & Funding",
+                        "ar": "اَلْمِنَحُ وَتَمْوِيلُ الْأَبْحَاثِ الْعِلْمِيَّةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u10_l7",
+                    "title": {
+                        "en": "Research Review",
+                        "ar": "Research Review",
+                        "fr": "Research Review",
+                        "de": "Research Review",
+                        "ru": "Research Review",
+                        "zh": "Research Review"
+                    },
+                    "content": "Professional level study of research review.",
+                    "arabicContent": "مُرَاجَعَةُ مُصْطَلَحَاتِ الْبَحْثِ الْعِلْمِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 52,
+                    "estimatedMinutes": 21,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Research Review",
+                        "ar": "مُرَاجَعَةُ مُصْطَلَحَاتِ الْبَحْثِ الْعِلْمِيِّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c1_u10_l8",
+                    "title": {
+                        "en": "Present Your Research Abstract",
+                        "ar": "Present Your Research Abstract",
+                        "fr": "Present Your Research Abstract",
+                        "de": "Present Your Research Abstract",
+                        "ru": "Present Your Research Abstract",
+                        "zh": "Present Your Research Abstract"
+                    },
+                    "content": "Professional level study of present your research abstract.",
+                    "arabicContent": "قَدِّمْ مُلَخَّصًا لِبَحْثِكَ الْأَكَادِيمِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "performance",
+                    "xpReward": 54,
+                    "estimatedMinutes": 22,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Present Your Research Abstract",
+                        "ar": "قَدِّمْ مُلَخَّصًا لِبَحْثِكَ الْأَكَادِيمِيِّ"
+                    },
+                    "quiz": null
+                }
+            ],
+            "unitQuiz": null
+        }
+    ]
+}

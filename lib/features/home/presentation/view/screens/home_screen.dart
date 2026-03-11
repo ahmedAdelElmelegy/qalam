@@ -1,3 +1,4 @@
+import 'package:arabic/core/utils/local_storage.dart';
 import 'package:arabic/features/home/presentation/manager/home_progress_cubit.dart';
 import 'package:arabic/features/home/presentation/view/widgets/bg_3d.dart';
 import 'package:arabic/features/home/presentation/view/widgets/home_bg.dart';
@@ -22,6 +23,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
   late AnimationController _heroController;
   late ScrollController _scrollController;
   double _scrollOffset = 0.0;
+  int? userId;
 
   // ============================================================================
   // LIFECYCLE METHODS
@@ -48,9 +50,11 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
       });
 
     // Refresh progress data on init
-    WidgetsBinding.instance.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      final userId = await LocalStorage.getEmailId();
+
       if (mounted) {
-        context.read<HomeProgressCubit>().getProgress();
+        context.read<HomeProgressCubit>().getProgress(userId ?? 0);
       }
     });
   }
@@ -88,7 +92,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                 physics: const BouncingScrollPhysics(),
                 slivers: [
                   HomeHeaderSection(scrollOffset: _scrollOffset),
-                  const HomeProgressCard(),
+                  HomeProgressCard(userId: userId ?? 0),
                   HomeSectionHeader(
                     title: 'start_learning'.tr(),
                     subtitle: 'choose_path'.tr(),

@@ -1,6 +1,7 @@
 import 'package:arabic/core/network/data_source/remote/exception/app_exeptions.dart';
 import 'package:arabic/core/theme/style.dart';
 import 'package:arabic/core/services/quiz_sound_service.dart';
+import 'package:arabic/core/utils/local_storage.dart';
 import 'package:arabic/core/utils/network_checker.dart';
 import 'package:arabic/features/curriculum/data/models/culture_model.dart';
 import 'package:arabic/features/curriculum/presentation/manager/curriculum_cubit.dart';
@@ -16,7 +17,7 @@ import 'package:arabic/core/services/tts_service.dart';
 import 'package:arabic/core/helpers/arabic_speech_helper.dart';
 import 'package:speech_to_text/speech_to_text.dart' as stt;
 import 'package:arabic/features/curriculum/presentation/manager/quiz/quiz_cubit.dart';
-import 'package:arabic/features/curriculum/presentation/manager/cubit/sync_quiz_cubit.dart';
+import 'package:arabic/features/curriculum/presentation/manager/sync/sync_quiz_cubit.dart';
 import 'package:arabic/features/curriculum/data/models/body/sync_quiz_request_body.dart';
 import 'package:arabic/core/network/data_source/remote/exception/api_error_handeler.dart';
 
@@ -77,7 +78,7 @@ class _QuizScreenState extends State<QuizScreen> {
   // Safety flag to prevent operations after dispose
   bool _isDisposed = false;
   bool _isInitializingSpeech = false;
-
+  int? userId;
   @override
   void initState() {
     super.initState();
@@ -85,10 +86,19 @@ class _QuizScreenState extends State<QuizScreen> {
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (mounted && widget.quiz == null && widget.quizLessonId != null) {
         context.read<QuizCubit>().getLessonQuiz(
-              lessonId: widget.quizLessonId!,
-              lang: context.locale.languageCode,
-            );
+          lessonId: widget.quizLessonId!,
+          lang: context.locale.languageCode,
+        );
       }
+      loadInitialData();
+    });
+  }
+
+  Future<void> loadInitialData() async {
+    await LocalStorage.getEmailId().then((value) {
+      setState(() {
+        userId = value;
+      });
     });
   }
 
@@ -307,20 +317,27 @@ class _QuizScreenState extends State<QuizScreen> {
         final curriculumState = cubit.state;
         if (curriculumState is CurriculumLoaded && success) {
           try {
-            final level = curriculumState.levels.firstWhere((l) => l.id == widget.levelId);
+            final level = curriculumState.levels.firstWhere(
+              (l) => l.id == widget.levelId,
+            );
             final unit = level.units.firstWhere((u) => u.id == widget.unitId);
-            
-            final completions = unit.lessons.map((lesson) => Completion(
-              id: lesson.id,
-              dbId: lesson.dbId ?? 0,
-              type: 'lesson',
-              xpReward: lesson.xpReward,
-              completedAt: DateTime.now(),
-            )).toList();
+
+            final completions = unit.lessons
+                .map(
+                  (lesson) => Completion(
+                    id: lesson.id,
+                    dbId: lesson.dbId ?? 0,
+                    type: 'lesson',
+                    xpReward: lesson.xpReward,
+                    completedAt: DateTime.now(),
+                  ),
+                )
+                .toList();
 
             if (completions.isNotEmpty) {
               context.read<SyncQuizCubit>().syncQuiz(
                 SyncQuizRequestBody(completions: completions),
+                userId ?? 0,
               );
             }
           } catch (e) {
@@ -340,23 +357,28 @@ class _QuizScreenState extends State<QuizScreen> {
         final curriculumState = cubit.state;
         if (curriculumState is CurriculumLoaded) {
           try {
-            final level = curriculumState.levels.firstWhere((l) => l.id == widget.levelId);
+            final level = curriculumState.levels.firstWhere(
+              (l) => l.id == widget.levelId,
+            );
             final unit = level.units.firstWhere((u) => u.id == widget.unitId);
-            final lesson = unit.lessons.firstWhere((l) => l.id == widget.lessonId);
+            final lesson = unit.lessons.firstWhere(
+              (l) => l.id == widget.lessonId,
+            );
 
             context.read<SyncQuizCubit>().syncQuiz(
-                  SyncQuizRequestBody(
-                    completions: [
-                      Completion(
-                        id: widget.lessonId!,
-                        dbId: widget.quizLessonId ?? lesson.dbId ?? 0,
-                        type: 'lesson',
-                        xpReward: lesson.xpReward,
-                        completedAt: DateTime.now(),
-                      ),
-                    ],
+              SyncQuizRequestBody(
+                completions: [
+                  Completion(
+                    id: widget.lessonId!,
+                    dbId: widget.quizLessonId ?? lesson.dbId ?? 0,
+                    type: 'lesson',
+                    xpReward: lesson.xpReward,
+                    completedAt: DateTime.now(),
                   ),
-                );
+                ],
+              ),
+              userId ?? 0,
+            );
           } catch (e) {
             debugPrint("Error finding lesson for sync: $e");
           }
@@ -697,9 +719,9 @@ class _QuizScreenState extends State<QuizScreen> {
                 onPressed: () {
                   if (widget.quizLessonId != null) {
                     context.read<QuizCubit>().getLessonQuiz(
-                          lessonId: widget.quizLessonId!,
-                          lang: context.locale.languageCode,
-                        );
+                      lessonId: widget.quizLessonId!,
+                      lang: context.locale.languageCode,
+                    );
                   }
                 },
                 child: const Text("Retry"),
@@ -852,7 +874,9 @@ class _QuizScreenState extends State<QuizScreen> {
                     decoration: BoxDecoration(
                       color: _isAnswerChecked
                           ? (_isCorrect
-                                ? const Color(0xFF10B981).withValues(alpha: 0.15)
+                                ? const Color(
+                                    0xFF10B981,
+                                  ).withValues(alpha: 0.15)
                                 : Colors.redAccent.withValues(alpha: 0.15))
                           : const Color(0xFFD4AF37).withValues(alpha: 0.1),
                       borderRadius: BorderRadius.circular(8.r),
@@ -1206,7 +1230,9 @@ class _QuizScreenState extends State<QuizScreen> {
                                       : isSuccess
                                       ? const Color(0xFF10B981)
                                       : const Color(0xFFD4AF37))
-                                  .withValues(alpha: _isRecording ? 0.45 : 0.15),
+                                  .withValues(
+                                    alpha: _isRecording ? 0.45 : 0.15,
+                                  ),
                           blurRadius: _isRecording ? 24 : 12,
                           spreadRadius: _isRecording ? 4 : 1,
                         ),
@@ -1426,7 +1452,9 @@ class _QuizScreenState extends State<QuizScreen> {
                     boxShadow: _isPlayingQuestion
                         ? [
                             BoxShadow(
-                              color: const Color(0xFFD4AF37).withValues(alpha: 0.3),
+                              color: const Color(
+                                0xFFD4AF37,
+                              ).withValues(alpha: 0.3),
                               blurRadius: 20,
                               spreadRadius: 5,
                             ),

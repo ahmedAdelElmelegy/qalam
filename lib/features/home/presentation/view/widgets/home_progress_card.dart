@@ -12,7 +12,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:shimmer/shimmer.dart';
 
 class HomeProgressCard extends StatelessWidget {
-  const HomeProgressCard({super.key});
+  final int userId;
+  const HomeProgressCard({super.key, required this.userId});
 
   @override
   Widget build(BuildContext context) {
@@ -47,7 +48,7 @@ class HomeProgressCard extends StatelessWidget {
                     SizedBox(height: 12.h),
                     TextButton.icon(
                       onPressed: () =>
-                          context.read<HomeProgressCubit>().getProgress(),
+                          context.read<HomeProgressCubit>().getProgress(userId),
                       icon: const Icon(Icons.refresh, color: Colors.white),
                       label: Text(
                         'retry'.tr(),
@@ -203,7 +204,7 @@ class HomeProgressCard extends StatelessWidget {
                                         SizedBox(width: 12.w),
                                         _buildCompactStat(
                                           progressData.totalXp.toString(),
-                                          'XP',
+                                          'xp'.tr(),
                                           Icons.star_rounded,
 
                                           const Color(0xFFFFD700),
@@ -345,7 +346,7 @@ class HomeProgressCard extends StatelessWidget {
                   fontSize: 9.sp,
                   height: 1.2,
                 ),
-                maxLines: 1,
+                maxLines: 2,
               ),
             ),
           ],

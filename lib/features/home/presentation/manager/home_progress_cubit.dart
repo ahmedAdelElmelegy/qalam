@@ -18,9 +18,9 @@ class HomeProgressCubit extends Cubit<HomeProgressState> {
     emit(HomeProgressInitial());
   }
 
-  Future<void> getProgress() async {
+  Future<void> getProgress(int userId) async {
     emit(HomeProgressLoading());
-    final result = await progressRepo.getProgress();
+    final result = await progressRepo.getProgress(userId);
     result.fold(
       (l) => emit(HomeProgressFailure(ApiErrorHandler.getUserMessage(l))),
       (r) {

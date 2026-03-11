@@ -11,7 +11,7 @@ import 'package:arabic/features/curriculum/data/repo/level_repo.dart';
 import 'package:arabic/features/curriculum/data/repo/sync_request_repo.dart';
 import 'package:arabic/features/curriculum/data/repo/unit_repo.dart';
 import 'package:arabic/features/curriculum/data/repo/lesson_repo.dart';
-import 'package:arabic/features/curriculum/presentation/manager/cubit/sync_quiz_cubit.dart';
+import 'package:arabic/features/curriculum/presentation/manager/sync/sync_quiz_cubit.dart';
 import 'package:arabic/features/curriculum/presentation/manager/level/level_cubit.dart';
 import 'package:arabic/features/curriculum/presentation/manager/units/unit_cubit.dart';
 import 'package:arabic/features/curriculum/presentation/manager/lessons/lesson_cubit.dart';

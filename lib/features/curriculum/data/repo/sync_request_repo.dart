@@ -12,9 +12,13 @@ class SyncRequestRepo {
 
   Future<Either<AppException, void>> syncQuiz(
     SyncQuizRequestBody requestBody,
+    int userId,
   ) async {
     try {
-      await apiService.post(AppURL.syncQuiz, data: requestBody.toJson());
+      await apiService.post(
+        '${AppURL.syncQuiz}/$userId',
+        data: requestBody.toJson(),
+      );
       return right(null);
     } catch (e) {
       return left(ApiErrorHandler.handleError(e));

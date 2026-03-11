@@ -13,15 +13,12 @@ class SyncQuizCubit extends Cubit<SyncQuizState> {
   final SyncRequestRepo syncRequestRepo;
   final HomeProgressCubit homeProgressCubit;
 
-  void syncQuiz(SyncQuizRequestBody body) async {
+  void syncQuiz(SyncQuizRequestBody body, int userId) async {
     emit(SyncQuizLoading());
-    final result = await syncRequestRepo.syncQuiz(body);
-    result.fold(
-      (l) => emit(SyncQuizFailure(l)),
-      (r) {
-        homeProgressCubit.getProgress();
-        emit(SyncQuizSuccess());
-      },
-    );
+    final result = await syncRequestRepo.syncQuiz(body, userId);
+    result.fold((l) => emit(SyncQuizFailure(l)), (r) {
+      homeProgressCubit.getProgress(userId);
+      emit(SyncQuizSuccess());
+    });
   }
 }

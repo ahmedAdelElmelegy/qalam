@@ -8,9 +8,11 @@ import 'package:dartz/dartz.dart';
 class ProgressRepo {
   final ApiService apis;
   ProgressRepo(this.apis);
-  Future<Either<AppException, ProgressModel>> getProgress() async {
+  Future<Either<AppException, ProgressModel>> getProgress(int userId) async {
     try {
-      final response = await apis.get(endpoint: AppURL.getProgress);
+      final response = await apis.get(
+        endpoint: '${AppURL.getProgress}/$userId',
+      );
       return Right(ProgressModel.fromJson(response.data));
     } catch (e) {
       return Left(ApiErrorHandler.handleError(e));

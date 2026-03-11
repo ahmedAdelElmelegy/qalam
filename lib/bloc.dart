@@ -3,7 +3,7 @@ import 'package:arabic/features/auth/presentation/manager/auth/auth_cubit.dart';
 import 'package:arabic/features/auth/presentation/manager/language/language_cubit.dart';
 import 'package:arabic/features/chat/presentation/manager/chat_cubit.dart';
 import 'package:arabic/features/clothing/presentation/cubit/clothing_cubit.dart';
-import 'package:arabic/features/curriculum/presentation/manager/cubit/sync_quiz_cubit.dart';
+import 'package:arabic/features/curriculum/presentation/manager/sync/sync_quiz_cubit.dart';
 import 'package:arabic/features/curriculum/presentation/manager/level/level_cubit.dart';
 import 'package:arabic/features/curriculum/presentation/manager/units/unit_cubit.dart';
 import 'package:arabic/features/curriculum/presentation/manager/lessons/lesson_cubit.dart';
@@ -55,9 +55,7 @@ class GenerateMultiBloc extends StatelessWidget {
         BlocProvider(create: (context) => getIt<LessonCubit>()),
         BlocProvider(create: (context) => getIt<QuizCubit>()),
         BlocProvider(create: (context) => getIt<SyncQuizCubit>()),
-        BlocProvider(
-          create: (context) => getIt<HomeProgressCubit>()..getProgress(),
-        ),
+        BlocProvider(create: (context) => getIt<HomeProgressCubit>()),
       ],
       child: child,
     );

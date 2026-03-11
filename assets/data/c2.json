@@ -1,0 +1,2652 @@
+{
+    "id": "c2",
+    "title": {
+        "en": "Mastery (C2)",
+        "ar": "إتقان (C2)",
+        "fr": "Maîtrise (C2)",
+        "de": "Meisterhaft (C2)",
+        "ru": "В совершенстве (C2)",
+        "zh": "精通 (C2)"
+    },
+    "description": {
+        "en": "Effortless comprehension and sophisticated production.",
+        "ar": "الفهم السلس والإنتاج المتطور.",
+        "fr": "Compréhension sans effort et production sophistiquée.",
+        "de": "Müheloses Verständnis und anspruchsvolle Produktion.",
+        "ru": "Легкое понимание и сложное выражение мыслей.",
+        "zh": "轻松理解和复杂的表达。"
+    },
+    "isLocked": true,
+    "units": [
+        {
+            "id": "c2_u1",
+            "title": {
+                "en": "Unit 1: Academic Discourse",
+                "ar": "Unit 1: Academic Discourse",
+                "fr": "Unit 1: Academic Discourse",
+                "de": "Unit 1: Academic Discourse",
+                "ru": "Unit 1: Academic Discourse",
+                "zh": "Unit 1: Academic Discourse"
+            },
+            "description": {
+                "en": "Epistemology, critical theory, and academic integrity.",
+                "ar": "Epistemology, critical theory, and academic integrity.",
+                "fr": "Epistemology, critical theory, and academic integrity.",
+                "de": "Epistemology, critical theory, and academic integrity.",
+                "ru": "Epistemology, critical theory, and academic integrity.",
+                "zh": "Epistemology, critical theory, and academic integrity."
+            },
+            "isLocked": true,
+            "lessons": [
+                {
+                    "id": "c2_u1_l1",
+                    "title": {
+                        "en": "Theory of Knowledge",
+                        "ar": "Theory of Knowledge",
+                        "fr": "Theory of Knowledge",
+                        "de": "Theory of Knowledge",
+                        "ru": "Theory of Knowledge",
+                        "zh": "Theory of Knowledge"
+                    },
+                    "content": "Mastery level critical analysis of theory of knowledge.",
+                    "arabicContent": "نَظَرِيَّةُ الْمَعْرِفَةِ وَالِاشْتِغَالُ الْفَلْسَفِيُّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 50,
+                    "estimatedMinutes": 20,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Theory of Knowledge",
+                        "ar": "نَظَرِيَّةُ الْمَعْرِفَةِ وَالِاشْتِغَالُ الْفَلْسَفِيُّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u1_l2",
+                    "title": {
+                        "en": "Critical Theory & Society",
+                        "ar": "Critical Theory & Society",
+                        "fr": "Critical Theory & Society",
+                        "de": "Critical Theory & Society",
+                        "ru": "Critical Theory & Society",
+                        "zh": "Critical Theory & Society"
+                    },
+                    "content": "Mastery level critical analysis of critical theory & society.",
+                    "arabicContent": "اَلنَّظَرِيَّةُ النَّقْدِيَّةُ وَتَحْلِيلُ الْمُجْتَمَعِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 52,
+                    "estimatedMinutes": 21,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Critical Theory & Society",
+                        "ar": "اَلنَّظَرِيَّةُ النَّقْدِيَّةُ وَتَحْلِيلُ الْمُجْتَمَعِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u1_l3",
+                    "title": {
+                        "en": "Epistemological Rupture",
+                        "ar": "Epistemological Rupture",
+                        "fr": "Epistemological Rupture",
+                        "de": "Epistemological Rupture",
+                        "ru": "Epistemological Rupture",
+                        "zh": "Epistemological Rupture"
+                    },
+                    "content": "Mastery level critical analysis of epistemological rupture.",
+                    "arabicContent": "اَلْقَطِيعَةُ الْإِبِسْتِمُولُوجِيَّةُ فِي الْفِكْرِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 54,
+                    "estimatedMinutes": 22,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Epistemological Rupture",
+                        "ar": "اَلْقَطِيعَةُ الْإِبِسْتِمُولُوجِيَّةُ فِي الْفِكْرِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u1_l4",
+                    "title": {
+                        "en": "Academic Integrity Policy",
+                        "ar": "Academic Integrity Policy",
+                        "fr": "Academic Integrity Policy",
+                        "de": "Academic Integrity Policy",
+                        "ru": "Academic Integrity Policy",
+                        "zh": "Academic Integrity Policy"
+                    },
+                    "content": "Mastery level critical analysis of academic integrity policy.",
+                    "arabicContent": "سِيَاسَةُ الْأَمَانَةِ الْأَكَادِيمِيَّةِ الْعَالَمِيَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 56,
+                    "estimatedMinutes": 23,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Academic Integrity Policy",
+                        "ar": "سِيَاسَةُ الْأَمَانَةِ الْأَكَادِيمِيَّةِ الْعَالَمِيَّةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u1_l5",
+                    "title": {
+                        "en": "Discourse Analysis Methods",
+                        "ar": "Discourse Analysis Methods",
+                        "fr": "Discourse Analysis Methods",
+                        "de": "Discourse Analysis Methods",
+                        "ru": "Discourse Analysis Methods",
+                        "zh": "Discourse Analysis Methods"
+                    },
+                    "content": "Mastery level critical analysis of discourse analysis methods.",
+                    "arabicContent": "مَنَاهِجُ تَحْلِيلِ الْخِطَابِ الْأَكَادِيمِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 58,
+                    "estimatedMinutes": 24,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Discourse Analysis Methods",
+                        "ar": "مَنَاهِجُ تَحْلِيلِ الْخِطَابِ الْأَكَادِيمِيِّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u1_l6",
+                    "title": {
+                        "en": "The Ethics of AI Research",
+                        "ar": "The Ethics of AI Research",
+                        "fr": "The Ethics of AI Research",
+                        "de": "The Ethics of AI Research",
+                        "ru": "The Ethics of AI Research",
+                        "zh": "The Ethics of AI Research"
+                    },
+                    "content": "Mastery level critical analysis of the ethics of ai research.",
+                    "arabicContent": "أَخْلَاقِيَّاتُ أَبْحَاثِ الذَّكَاءِ الِاصْطِنَاعِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 60,
+                    "estimatedMinutes": 25,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "The Ethics of AI Research",
+                        "ar": "أَخْلَاقِيَّاتُ أَبْحَاثِ الذَّكَاءِ الِاصْطِنَاعِيِّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u1_l7",
+                    "title": {
+                        "en": "Academic Terms Review",
+                        "ar": "Academic Terms Review",
+                        "fr": "Academic Terms Review",
+                        "de": "Academic Terms Review",
+                        "ru": "Academic Terms Review",
+                        "zh": "Academic Terms Review"
+                    },
+                    "content": "Mastery level critical analysis of academic terms review.",
+                    "arabicContent": "مُرَاجَعَةُ الْمُصْطَلَحَاتِ الْأَكَادِيمِيَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 62,
+                    "estimatedMinutes": 26,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Academic Terms Review",
+                        "ar": "مُرَاجَعَةُ الْمُصْطَلَحَاتِ الْأَكَادِيمِيَّةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u1_l8",
+                    "title": {
+                        "en": "Present a Theoretical Framework",
+                        "ar": "Present a Theoretical Framework",
+                        "fr": "Present a Theoretical Framework",
+                        "de": "Present a Theoretical Framework",
+                        "ru": "Present a Theoretical Framework",
+                        "zh": "Present a Theoretical Framework"
+                    },
+                    "content": "Mastery level critical analysis of present a theoretical framework.",
+                    "arabicContent": "قَدِّمْ إِطَارًا نَظَرِيًّا لِبَحْثٍ عِلْمِيٍّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "performance",
+                    "xpReward": 64,
+                    "estimatedMinutes": 27,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Present a Theoretical Framework",
+                        "ar": "قَدِّمْ إِطَارًا نَظَرِيًّا لِبَحْثٍ عِلْمِيٍّ"
+                    },
+                    "quiz": null
+                }
+            ],
+            "unitQuiz": null
+        },
+        {
+            "id": "c2_u2",
+            "title": {
+                "en": "Unit 2: Professional Diplomacy",
+                "ar": "Unit 2: Professional Diplomacy",
+                "fr": "Unit 2: Professional Diplomacy",
+                "de": "Unit 2: Professional Diplomacy",
+                "ru": "Unit 2: Professional Diplomacy",
+                "zh": "Unit 2: Professional Diplomacy"
+            },
+            "description": {
+                "en": "Consular roles, diplomatic protocol, and international norms.",
+                "ar": "Consular roles, diplomatic protocol, and international norms.",
+                "fr": "Consular roles, diplomatic protocol, and international norms.",
+                "de": "Consular roles, diplomatic protocol, and international norms.",
+                "ru": "Consular roles, diplomatic protocol, and international norms.",
+                "zh": "Consular roles, diplomatic protocol, and international norms."
+            },
+            "isLocked": true,
+            "lessons": [
+                {
+                    "id": "c2_u2_l1",
+                    "title": {
+                        "en": "Diplomatic Protocol",
+                        "ar": "Diplomatic Protocol",
+                        "fr": "Diplomatic Protocol",
+                        "de": "Diplomatic Protocol",
+                        "ru": "Diplomatic Protocol",
+                        "zh": "Diplomatic Protocol"
+                    },
+                    "content": "Mastery level critical analysis of diplomatic protocol.",
+                    "arabicContent": "اَلْبُرُوتُوكُولُ الدُّبْلُومَاسِيُّ وَالْقَوَاعِدُ الدُّوَلِيَّةُ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 50,
+                    "estimatedMinutes": 20,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Diplomatic Protocol",
+                        "ar": "اَلْبُرُوتُوكُولُ الدُّبْلُومَاسِيُّ وَالْقَوَاعِدُ الدُّوَلِيَّةُ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u2_l2",
+                    "title": {
+                        "en": "Consular Functions",
+                        "ar": "Consular Functions",
+                        "fr": "Consular Functions",
+                        "de": "Consular Functions",
+                        "ru": "Consular Functions",
+                        "zh": "Consular Functions"
+                    },
+                    "content": "Mastery level critical analysis of consular functions.",
+                    "arabicContent": "اَلْمَهَامُّ الْقُنْصُلِيَّةُ وَرِعَايَةُ الرَّعَايَا",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 52,
+                    "estimatedMinutes": 21,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Consular Functions",
+                        "ar": "اَلْمَهَامُّ الْقُنْصُلِيَّةُ وَرِعَايَةُ الرَّعَايَا"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u2_l3",
+                    "title": {
+                        "en": "Multilateralism Future",
+                        "ar": "Multilateralism Future",
+                        "fr": "Multilateralism Future",
+                        "de": "Multilateralism Future",
+                        "ru": "Multilateralism Future",
+                        "zh": "Multilateralism Future"
+                    },
+                    "content": "Mastery level critical analysis of multilateralism future.",
+                    "arabicContent": "مُسْتَقْبَلُ الْعَمَلِ الدُّوَلِيِّ مُتَعَدِّدِ الْأَطْرَافِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 54,
+                    "estimatedMinutes": 22,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Multilateralism Future",
+                        "ar": "مُسْتَقْبَلُ الْعَمَلِ الدُّوَلِيِّ مُتَعَدِّدِ الْأَطْرَافِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u2_l4",
+                    "title": {
+                        "en": "Crisis Diplomacy",
+                        "ar": "Crisis Diplomacy",
+                        "fr": "Crisis Diplomacy",
+                        "de": "Crisis Diplomacy",
+                        "ru": "Crisis Diplomacy",
+                        "zh": "Crisis Diplomacy"
+                    },
+                    "content": "Mastery level critical analysis of crisis diplomacy.",
+                    "arabicContent": "دُبْلُومَاسِيَّةُ الْأَزَمَاتِ وَالتَّفَاوُضِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 56,
+                    "estimatedMinutes": 23,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Crisis Diplomacy",
+                        "ar": "دُبْلُومَاسِيَّةُ الْأَزَمَاتِ وَالتَّفَاوُضِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u2_l5",
+                    "title": {
+                        "en": "Economic Statecraft",
+                        "ar": "Economic Statecraft",
+                        "fr": "Economic Statecraft",
+                        "de": "Economic Statecraft",
+                        "ru": "Economic Statecraft",
+                        "zh": "Economic Statecraft"
+                    },
+                    "content": "Mastery level critical analysis of economic statecraft.",
+                    "arabicContent": "اَلْقُدْرَةُ الِاقْتِصَادِيَّةُ وَتَأْثِيرُ الدَّوْلَةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 58,
+                    "estimatedMinutes": 24,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Economic Statecraft",
+                        "ar": "اَلْقُدْرَةُ الِاقْتِصَادِيَّةُ وَتَأْثِيرُ الدَّوْلَةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u2_l6",
+                    "title": {
+                        "en": "Public Diplomacy (PD)",
+                        "ar": "Public Diplomacy (PD)",
+                        "fr": "Public Diplomacy (PD)",
+                        "de": "Public Diplomacy (PD)",
+                        "ru": "Public Diplomacy (PD)",
+                        "zh": "Public Diplomacy (PD)"
+                    },
+                    "content": "Mastery level critical analysis of public diplomacy (pd).",
+                    "arabicContent": "اَلدُّبْلُومَاسِيَّةُ الْعَامَّةُ وَتَطْبِيقَاتُهَا",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 60,
+                    "estimatedMinutes": 25,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Public Diplomacy (PD)",
+                        "ar": "اَلدُّبْلُومَاسِيَّةُ الْعَامَّةُ وَتَطْبِيقَاتُهَا"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u2_l7",
+                    "title": {
+                        "en": "Diplomacy Review",
+                        "ar": "Diplomacy Review",
+                        "fr": "Diplomacy Review",
+                        "de": "Diplomacy Review",
+                        "ru": "Diplomacy Review",
+                        "zh": "Diplomacy Review"
+                    },
+                    "content": "Mastery level critical analysis of diplomacy review.",
+                    "arabicContent": "مُرَاجَعَةُ مُصْطَلَحَاتِ الْعَمَلِ الْقُنْصُلِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 62,
+                    "estimatedMinutes": 26,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Diplomacy Review",
+                        "ar": "مُرَاجَعَةُ مُصْطَلَحَاتِ الْعَمَلِ الْقُنْصُلِيِّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u2_l8",
+                    "title": {
+                        "en": "Simulate a UN Security Meeting",
+                        "ar": "Simulate a UN Security Meeting",
+                        "fr": "Simulate a UN Security Meeting",
+                        "de": "Simulate a UN Security Meeting",
+                        "ru": "Simulate a UN Security Meeting",
+                        "zh": "Simulate a UN Security Meeting"
+                    },
+                    "content": "Mastery level critical analysis of simulate a un security meeting.",
+                    "arabicContent": "حَاكِ اجْتِمَاعًا لِمَجْلِسِ الْأَمْنِ الدُّوَلِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "performance",
+                    "xpReward": 64,
+                    "estimatedMinutes": 27,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Simulate a UN Security Meeting",
+                        "ar": "حَاكِ اجْتِمَاعًا لِمَجْلِسِ الْأَمْنِ الدُّوَلِيِّ"
+                    },
+                    "quiz": null
+                }
+            ],
+            "unitQuiz": null
+        },
+        {
+            "id": "c2_u3",
+            "title": {
+                "en": "Unit 3: Advanced Law",
+                "ar": "Unit 3: Advanced Law",
+                "fr": "Unit 3: Advanced Law",
+                "de": "Unit 3: Advanced Law",
+                "ru": "Unit 3: Advanced Law",
+                "zh": "Unit 3: Advanced Law"
+            },
+            "description": {
+                "en": "Comparative law, constitutional theory, and jurisprudence.",
+                "ar": "Comparative law, constitutional theory, and jurisprudence.",
+                "fr": "Comparative law, constitutional theory, and jurisprudence.",
+                "de": "Comparative law, constitutional theory, and jurisprudence.",
+                "ru": "Comparative law, constitutional theory, and jurisprudence.",
+                "zh": "Comparative law, constitutional theory, and jurisprudence."
+            },
+            "isLocked": true,
+            "lessons": [
+                {
+                    "id": "c2_u3_l1",
+                    "title": {
+                        "en": "Comparative Legal Systems",
+                        "ar": "Comparative Legal Systems",
+                        "fr": "Comparative Legal Systems",
+                        "de": "Comparative Legal Systems",
+                        "ru": "Comparative Legal Systems",
+                        "zh": "Comparative Legal Systems"
+                    },
+                    "content": "Mastery level critical analysis of comparative legal systems.",
+                    "arabicContent": "اَلْمُقَارَنَةُ بَيْنَ الْأَنْظِمَةِ الْقَانُونِيَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 50,
+                    "estimatedMinutes": 20,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Comparative Legal Systems",
+                        "ar": "اَلْمُقَارَنَةُ بَيْنَ الْأَنْظِمَةِ الْقَانُونِيَّةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u3_l2",
+                    "title": {
+                        "en": "Constitutional Theory",
+                        "ar": "Constitutional Theory",
+                        "fr": "Constitutional Theory",
+                        "de": "Constitutional Theory",
+                        "ru": "Constitutional Theory",
+                        "zh": "Constitutional Theory"
+                    },
+                    "content": "Mastery level critical analysis of constitutional theory.",
+                    "arabicContent": "اَلنَّظَرِيَّةُ الدُّسْتُورِيَّةُ وَبِنَاءُ الدَّوْلَةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 52,
+                    "estimatedMinutes": 21,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Constitutional Theory",
+                        "ar": "اَلنَّظَرِيَّةُ الدُّسْتُورِيَّةُ وَبِنَاءُ الدَّوْلَةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u3_l3",
+                    "title": {
+                        "en": "Legal Philosophy (Jurisprudence)",
+                        "ar": "Legal Philosophy (Jurisprudence)",
+                        "fr": "Legal Philosophy (Jurisprudence)",
+                        "de": "Legal Philosophy (Jurisprudence)",
+                        "ru": "Legal Philosophy (Jurisprudence)",
+                        "zh": "Legal Philosophy (Jurisprudence)"
+                    },
+                    "content": "Mastery level critical analysis of legal philosophy (jurisprudence).",
+                    "arabicContent": "فَلْسَفَةُ الْقَانُونِ وَمَنَاهِجُ التَّشْرِيعِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 54,
+                    "estimatedMinutes": 22,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Legal Philosophy (Jurisprudence)",
+                        "ar": "فَلْسَفَةُ الْقَانُونِ وَمَنَاهِجُ التَّشْرِيعِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u3_l4",
+                    "title": {
+                        "en": "Administrative Law",
+                        "ar": "Administrative Law",
+                        "fr": "Administrative Law",
+                        "de": "Administrative Law",
+                        "ru": "Administrative Law",
+                        "zh": "Administrative Law"
+                    },
+                    "content": "Mastery level critical analysis of administrative law.",
+                    "arabicContent": "اَلْقَانُونُ الْإِدَارِيُّ وَإِجْرَاءاتُهُ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 56,
+                    "estimatedMinutes": 23,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Administrative Law",
+                        "ar": "اَلْقَانُونُ الْإِدَارِيُّ وَإِجْرَاءاتُهُ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u3_l5",
+                    "title": {
+                        "en": "Corporate Governance Law",
+                        "ar": "Corporate Governance Law",
+                        "fr": "Corporate Governance Law",
+                        "de": "Corporate Governance Law",
+                        "ru": "Corporate Governance Law",
+                        "zh": "Corporate Governance Law"
+                    },
+                    "content": "Mastery level critical analysis of corporate governance law.",
+                    "arabicContent": "قَانُونُ حَوْكَمَةِ الشَّرِكَاتِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 58,
+                    "estimatedMinutes": 24,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Corporate Governance Law",
+                        "ar": "قَانُونُ حَوْكَمَةِ الشَّرِكَاتِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u3_l6",
+                    "title": {
+                        "en": "Intellectual Property Law",
+                        "ar": "Intellectual Property Law",
+                        "fr": "Intellectual Property Law",
+                        "de": "Intellectual Property Law",
+                        "ru": "Intellectual Property Law",
+                        "zh": "Intellectual Property Law"
+                    },
+                    "content": "Mastery level critical analysis of intellectual property law.",
+                    "arabicContent": "قَانُونُ الْمِلْكِيَّةِ الْفِكْرِيَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 60,
+                    "estimatedMinutes": 25,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Intellectual Property Law",
+                        "ar": "قَانُونُ الْمِلْكِيَّةِ الْفِكْرِيَّةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u3_l7",
+                    "title": {
+                        "en": "Advanced Legal Review",
+                        "ar": "Advanced Legal Review",
+                        "fr": "Advanced Legal Review",
+                        "de": "Advanced Legal Review",
+                        "ru": "Advanced Legal Review",
+                        "zh": "Advanced Legal Review"
+                    },
+                    "content": "Mastery level critical analysis of advanced legal review.",
+                    "arabicContent": "مُرَاجَعَةُ مُصْطَلَحَاتِ الْقَانُونِ الدُّسْتُورِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 62,
+                    "estimatedMinutes": 26,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Advanced Legal Review",
+                        "ar": "مُرَاجَعَةُ مُصْطَلَحَاتِ الْقَانُونِ الدُّسْتُورِيِّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u3_l8",
+                    "title": {
+                        "en": "Draft a Constitutional Amendment",
+                        "ar": "Draft a Constitutional Amendment",
+                        "fr": "Draft a Constitutional Amendment",
+                        "de": "Draft a Constitutional Amendment",
+                        "ru": "Draft a Constitutional Amendment",
+                        "zh": "Draft a Constitutional Amendment"
+                    },
+                    "content": "Mastery level critical analysis of draft a constitutional amendment.",
+                    "arabicContent": "صُغْ تَعْدِيلًا دُسْتُورِيًّا مُقْتَرَحًا",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "performance",
+                    "xpReward": 64,
+                    "estimatedMinutes": 27,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Draft a Constitutional Amendment",
+                        "ar": "صُغْ تَعْدِيلًا دُسْتُورِيًّا مُقْتَرَحًا"
+                    },
+                    "quiz": null
+                }
+            ],
+            "unitQuiz": null
+        },
+        {
+            "id": "c2_u4",
+            "title": {
+                "en": "Unit 4: Theoretical Linguistics",
+                "ar": "Unit 4: Theoretical Linguistics",
+                "fr": "Unit 4: Theoretical Linguistics",
+                "de": "Unit 4: Theoretical Linguistics",
+                "ru": "Unit 4: Theoretical Linguistics",
+                "zh": "Unit 4: Theoretical Linguistics"
+            },
+            "description": {
+                "en": "Semiotics, generative grammar, and computational linguistics.",
+                "ar": "Semiotics, generative grammar, and computational linguistics.",
+                "fr": "Semiotics, generative grammar, and computational linguistics.",
+                "de": "Semiotics, generative grammar, and computational linguistics.",
+                "ru": "Semiotics, generative grammar, and computational linguistics.",
+                "zh": "Semiotics, generative grammar, and computational linguistics."
+            },
+            "isLocked": true,
+            "lessons": [
+                {
+                    "id": "c2_u4_l1",
+                    "title": {
+                        "en": "Generative Grammar",
+                        "ar": "Generative Grammar",
+                        "fr": "Generative Grammar",
+                        "de": "Generative Grammar",
+                        "ru": "Generative Grammar",
+                        "zh": "Generative Grammar"
+                    },
+                    "content": "Mastery level critical analysis of generative grammar.",
+                    "arabicContent": "اَلنَّحْوُ التَّوْلِيدِيُّ وَاَلْبِنَاءُ اللُّغَوِيُّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 50,
+                    "estimatedMinutes": 20,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Generative Grammar",
+                        "ar": "اَلنَّحْوُ التَّوْلِيدِيُّ وَاَلْبِنَاءُ اللُّغَوِيُّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u4_l2",
+                    "title": {
+                        "en": "Semiotics of the Text",
+                        "ar": "Semiotics of the Text",
+                        "fr": "Semiotics of the Text",
+                        "de": "Semiotics of the Text",
+                        "ru": "Semiotics of the Text",
+                        "zh": "Semiotics of the Text"
+                    },
+                    "content": "Mastery level critical analysis of semiotics of the text.",
+                    "arabicContent": "سِيمِيَائِيَّةُ النَّصِّ وَدَلَالَةُ الرُّمُوزِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 52,
+                    "estimatedMinutes": 21,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Semiotics of the Text",
+                        "ar": "سِيمِيَائِيَّةُ النَّصِّ وَدَلَالَةُ الرُّمُوزِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u4_l3",
+                    "title": {
+                        "en": "Computational Linguistics",
+                        "ar": "Computational Linguistics",
+                        "fr": "Computational Linguistics",
+                        "de": "Computational Linguistics",
+                        "ru": "Computational Linguistics",
+                        "zh": "Computational Linguistics"
+                    },
+                    "content": "Mastery level critical analysis of computational linguistics.",
+                    "arabicContent": "اَللِّسَانِيَّاتُ الْحَاسُوبِيَّةُ وَالْمُعَالَجَةُ الرَّقْمِيَّةُ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 54,
+                    "estimatedMinutes": 22,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Computational Linguistics",
+                        "ar": "اَللِّسَانِيَّاتُ الْحَاسُوبِيَّةُ وَالْمُعَالَجَةُ الرَّقْمِيَّةُ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u4_l4",
+                    "title": {
+                        "en": "Cognitive Linguistics",
+                        "ar": "Cognitive Linguistics",
+                        "fr": "Cognitive Linguistics",
+                        "de": "Cognitive Linguistics",
+                        "ru": "Cognitive Linguistics",
+                        "zh": "Cognitive Linguistics"
+                    },
+                    "content": "Mastery level critical analysis of cognitive linguistics.",
+                    "arabicContent": "اَللِّسَانِيَّاتُ الْمَعْرِفِيَّةُ وَالْعَقْلُ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 56,
+                    "estimatedMinutes": 23,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Cognitive Linguistics",
+                        "ar": "اَللِّسَانِيَّاتُ الْمَعْرِفِيَّةُ وَالْعَقْلُ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u4_l5",
+                    "title": {
+                        "en": "Historical Linguistics",
+                        "ar": "Historical Linguistics",
+                        "fr": "Historical Linguistics",
+                        "de": "Historical Linguistics",
+                        "ru": "Historical Linguistics",
+                        "zh": "Historical Linguistics"
+                    },
+                    "content": "Mastery level critical analysis of historical linguistics.",
+                    "arabicContent": "عِلْمُ اللُّغَةِ التَّارِيخِيُّ وَالتَّطَوُّرُ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 58,
+                    "estimatedMinutes": 24,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Historical Linguistics",
+                        "ar": "عِلْمُ اللُّغَةِ التَّارِيخِيُّ وَالتَّطَوُّرُ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u4_l6",
+                    "title": {
+                        "en": "The Science of Dictionaries",
+                        "ar": "The Science of Dictionaries",
+                        "fr": "The Science of Dictionaries",
+                        "de": "The Science of Dictionaries",
+                        "ru": "The Science of Dictionaries",
+                        "zh": "The Science of Dictionaries"
+                    },
+                    "content": "Mastery level critical analysis of the science of dictionaries.",
+                    "arabicContent": "عِلْمُ الصِّنَاعَةِ الْمُعْجَمِيَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 60,
+                    "estimatedMinutes": 25,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "The Science of Dictionaries",
+                        "ar": "عِلْمُ الصِّنَاعَةِ الْمُعْجَمِيَّةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u4_l7",
+                    "title": {
+                        "en": "Theoretical Linguistics Review",
+                        "ar": "Theoretical Linguistics Review",
+                        "fr": "Theoretical Linguistics Review",
+                        "de": "Theoretical Linguistics Review",
+                        "ru": "Theoretical Linguistics Review",
+                        "zh": "Theoretical Linguistics Review"
+                    },
+                    "content": "Mastery level critical analysis of theoretical linguistics review.",
+                    "arabicContent": "مُرَاجَعَةُ مُصْطَلَحَاتِ اللَّسَانِيَّاتِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 62,
+                    "estimatedMinutes": 26,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Theoretical Linguistics Review",
+                        "ar": "مُرَاجَعَةُ مُصْطَلَحَاتِ اللَّسَانِيَّاتِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u4_l8",
+                    "title": {
+                        "en": "Analyze a Semiotic Structure",
+                        "ar": "Analyze a Semiotic Structure",
+                        "fr": "Analyze a Semiotic Structure",
+                        "de": "Analyze a Semiotic Structure",
+                        "ru": "Analyze a Semiotic Structure",
+                        "zh": "Analyze a Semiotic Structure"
+                    },
+                    "content": "Mastery level critical analysis of analyze a semiotic structure.",
+                    "arabicContent": "حَلِّلْ بِنْيَةً سِيمِيَائِيَّةً فِي نَصٍّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "performance",
+                    "xpReward": 64,
+                    "estimatedMinutes": 27,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Analyze a Semiotic Structure",
+                        "ar": "حَلِّلْ بِنْيَةً سِيمِيَائِيَّةً فِي نَصٍّ"
+                    },
+                    "quiz": null
+                }
+            ],
+            "unitQuiz": null
+        },
+        {
+            "id": "c2_u5",
+            "title": {
+                "en": "Unit 5: Classical Philosophy",
+                "ar": "Unit 5: Classical Philosophy",
+                "fr": "Unit 5: Classical Philosophy",
+                "de": "Unit 5: Classical Philosophy",
+                "ru": "Unit 5: Classical Philosophy",
+                "zh": "Unit 5: Classical Philosophy"
+            },
+            "description": {
+                "en": "Neoplatonism, dialectics, and medieval logic.",
+                "ar": "Neoplatonism, dialectics, and medieval logic.",
+                "fr": "Neoplatonism, dialectics, and medieval logic.",
+                "de": "Neoplatonism, dialectics, and medieval logic.",
+                "ru": "Neoplatonism, dialectics, and medieval logic.",
+                "zh": "Neoplatonism, dialectics, and medieval logic."
+            },
+            "isLocked": true,
+            "lessons": [
+                {
+                    "id": "c2_u5_l1",
+                    "title": {
+                        "en": "Neoplatonism in Arabic",
+                        "ar": "Neoplatonism in Arabic",
+                        "fr": "Neoplatonism in Arabic",
+                        "de": "Neoplatonism in Arabic",
+                        "ru": "Neoplatonism in Arabic",
+                        "zh": "Neoplatonism in Arabic"
+                    },
+                    "content": "Mastery level critical analysis of neoplatonism in arabic.",
+                    "arabicContent": "اَلْأَفْلَاطُونِيَّةُ الْمُحْدَثَةُ فِي الْفِكْرِ الْعَرَبِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 50,
+                    "estimatedMinutes": 20,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Neoplatonism in Arabic",
+                        "ar": "اَلْأَفْلَاطُونِيَّةُ الْمُحْدَثَةُ فِي الْفِكْرِ الْعَرَبِيِّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u5_l2",
+                    "title": {
+                        "en": "Aristotelian Dialectics",
+                        "ar": "Aristotelian Dialectics",
+                        "fr": "Aristotelian Dialectics",
+                        "de": "Aristotelian Dialectics",
+                        "ru": "Aristotelian Dialectics",
+                        "zh": "Aristotelian Dialectics"
+                    },
+                    "content": "Mastery level critical analysis of aristotelian dialectics.",
+                    "arabicContent": "اَلْجَدَلُ الْأَرِسْطِيُّ وَأَثَرُهُ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 52,
+                    "estimatedMinutes": 21,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Aristotelian Dialectics",
+                        "ar": "اَلْجَدَلُ الْأَرِسْطِيُّ وَأَثَرُهُ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u5_l3",
+                    "title": {
+                        "en": "Medieval Logic Systems",
+                        "ar": "Medieval Logic Systems",
+                        "fr": "Medieval Logic Systems",
+                        "de": "Medieval Logic Systems",
+                        "ru": "Medieval Logic Systems",
+                        "zh": "Medieval Logic Systems"
+                    },
+                    "content": "Mastery level critical analysis of medieval logic systems.",
+                    "arabicContent": "أَنْظِمَةُ الْمَنْطِقِ فِي الْعُصُورِ الْوُسْطَى",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 54,
+                    "estimatedMinutes": 22,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Medieval Logic Systems",
+                        "ar": "أَنْظِمَةُ الْمَنْطِقِ فِي الْعُصُورِ الْوُسْطَى"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u5_l4",
+                    "title": {
+                        "en": "The Problem of Universals",
+                        "ar": "The Problem of Universals",
+                        "fr": "The Problem of Universals",
+                        "de": "The Problem of Universals",
+                        "ru": "The Problem of Universals",
+                        "zh": "The Problem of Universals"
+                    },
+                    "content": "Mastery level critical analysis of the problem of universals.",
+                    "arabicContent": "مَسْأَلَةُ الْكُلِّيَّاتِ فِي الْفَلْسَفَةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 56,
+                    "estimatedMinutes": 23,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "The Problem of Universals",
+                        "ar": "مَسْأَلَةُ الْكُلِّيَّاتِ فِي الْفَلْسَفَةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u5_l5",
+                    "title": {
+                        "en": "Metaphysics of Existence",
+                        "ar": "Metaphysics of Existence",
+                        "fr": "Metaphysics of Existence",
+                        "de": "Metaphysics of Existence",
+                        "ru": "Metaphysics of Existence",
+                        "zh": "Metaphysics of Existence"
+                    },
+                    "content": "Mastery level critical analysis of metaphysics of existence.",
+                    "arabicContent": "مِيْتَافِيزِيقَا الْوُجُودِ عِنْدَ الصُّوفِيَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 58,
+                    "estimatedMinutes": 24,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Metaphysics of Existence",
+                        "ar": "مِيْتَافِيزِيقَا الْوُجُودِ عِنْدَ الصُّوفِيَّةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u5_l6",
+                    "title": {
+                        "en": "Reason vs. Revelation",
+                        "ar": "Reason vs. Revelation",
+                        "fr": "Reason vs. Revelation",
+                        "de": "Reason vs. Revelation",
+                        "ru": "Reason vs. Revelation",
+                        "zh": "Reason vs. Revelation"
+                    },
+                    "content": "Mastery level critical analysis of reason vs. revelation.",
+                    "arabicContent": "اَلْعَقْلُ وَالنَّقْلُ فِي الْفِكْرِ الْإِسْلَامِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 60,
+                    "estimatedMinutes": 25,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Reason vs. Revelation",
+                        "ar": "اَلْعَقْلُ وَالنَّقْلُ فِي الْفِكْرِ الْإِسْلَامِيِّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u5_l7",
+                    "title": {
+                        "en": "Advanced Philosophy Review",
+                        "ar": "Advanced Philosophy Review",
+                        "fr": "Advanced Philosophy Review",
+                        "de": "Advanced Philosophy Review",
+                        "ru": "Advanced Philosophy Review",
+                        "zh": "Advanced Philosophy Review"
+                    },
+                    "content": "Mastery level critical analysis of advanced philosophy review.",
+                    "arabicContent": "مُرَاجَعَةُ مُصْطَلَحَاتِ الْمَنْطِقِ الْقَدِيمِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 62,
+                    "estimatedMinutes": 26,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Advanced Philosophy Review",
+                        "ar": "مُرَاجَعَةُ مُصْطَلَحَاتِ الْمَنْطِقِ الْقَدِيمِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u5_l8",
+                    "title": {
+                        "en": "Critique a Philosophical Fragment",
+                        "ar": "Critique a Philosophical Fragment",
+                        "fr": "Critique a Philosophical Fragment",
+                        "de": "Critique a Philosophical Fragment",
+                        "ru": "Critique a Philosophical Fragment",
+                        "zh": "Critique a Philosophical Fragment"
+                    },
+                    "content": "Mastery level critical analysis of critique a philosophical fragment.",
+                    "arabicContent": "قُمْ بِنَقْدِ نَصٍّ فَلْسَفِيٍّ كَلَاسِيكِيٍّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "performance",
+                    "xpReward": 64,
+                    "estimatedMinutes": 27,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Critique a Philosophical Fragment",
+                        "ar": "قُمْ بِنَقْدِ نَصٍّ فَلْسَفِيٍّ كَلَاسِيكِيٍّ"
+                    },
+                    "quiz": null
+                }
+            ],
+            "unitQuiz": null
+        },
+        {
+            "id": "c2_u6",
+            "title": {
+                "en": "Unit 6: Global Strategic Policy",
+                "ar": "Unit 6: Global Strategic Policy",
+                "fr": "Unit 6: Global Strategic Policy",
+                "de": "Unit 6: Global Strategic Policy",
+                "ru": "Unit 6: Global Strategic Policy",
+                "zh": "Unit 6: Global Strategic Policy"
+            },
+            "description": {
+                "en": "Geopolitics, sustainability goals, and global governance.",
+                "ar": "Geopolitics, sustainability goals, and global governance.",
+                "fr": "Geopolitics, sustainability goals, and global governance.",
+                "de": "Geopolitics, sustainability goals, and global governance.",
+                "ru": "Geopolitics, sustainability goals, and global governance.",
+                "zh": "Geopolitics, sustainability goals, and global governance."
+            },
+            "isLocked": true,
+            "lessons": [
+                {
+                    "id": "c2_u6_l1",
+                    "title": {
+                        "en": "Geopolitics of the Middle East",
+                        "ar": "Geopolitics of the Middle East",
+                        "fr": "Geopolitics of the Middle East",
+                        "de": "Geopolitics of the Middle East",
+                        "ru": "Geopolitics of the Middle East",
+                        "zh": "Geopolitics of the Middle East"
+                    },
+                    "content": "Mastery level critical analysis of geopolitics of the middle east.",
+                    "arabicContent": "اَلْجِيُوبُولِيتِيكَا فِي الشَّرْقِ الْأَوْسَطِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 50,
+                    "estimatedMinutes": 20,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Geopolitics of the Middle East",
+                        "ar": "اَلْجِيُوبُولِيتِيكَا فِي الشَّرْقِ الْأَوْسَطِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u6_l2",
+                    "title": {
+                        "en": "UN Sustainable Goals",
+                        "ar": "UN Sustainable Goals",
+                        "fr": "UN Sustainable Goals",
+                        "de": "UN Sustainable Goals",
+                        "ru": "UN Sustainable Goals",
+                        "zh": "UN Sustainable Goals"
+                    },
+                    "content": "Mastery level critical analysis of un sustainable goals.",
+                    "arabicContent": "أَهْدَافُ التَّنْمِيَةِ الْمُسْتَدَامَةِ لِلْأُمَمِ الْمُتَّحِدَةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 52,
+                    "estimatedMinutes": 21,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "UN Sustainable Goals",
+                        "ar": "أَهْدَافُ التَّنْمِيَةِ الْمُسْتَدَامَةِ لِلْأُمَمِ الْمُتَّحِدَةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u6_l3",
+                    "title": {
+                        "en": "Global Governance Architect",
+                        "ar": "Global Governance Architect",
+                        "fr": "Global Governance Architect",
+                        "de": "Global Governance Architect",
+                        "ru": "Global Governance Architect",
+                        "zh": "Global Governance Architect"
+                    },
+                    "content": "Mastery level critical analysis of global governance architect.",
+                    "arabicContent": "هَنْدَسَةُ الْحَوْكَمَةِ الْعَالَمِيَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 54,
+                    "estimatedMinutes": 22,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Global Governance Architect",
+                        "ar": "هَنْدَسَةُ الْحَوْكَمَةِ الْعَالَمِيَّةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u6_l4",
+                    "title": {
+                        "en": "Cyber Warfare Policy",
+                        "ar": "Cyber Warfare Policy",
+                        "fr": "Cyber Warfare Policy",
+                        "de": "Cyber Warfare Policy",
+                        "ru": "Cyber Warfare Policy",
+                        "zh": "Cyber Warfare Policy"
+                    },
+                    "content": "Mastery level critical analysis of cyber warfare policy.",
+                    "arabicContent": "سِيَاسَةُ الْحَرْبِ السِّيبِيرَانِيَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 56,
+                    "estimatedMinutes": 23,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Cyber Warfare Policy",
+                        "ar": "سِيَاسَةُ الْحَرْبِ السِّيبِيرَانِيَّةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u6_l5",
+                    "title": {
+                        "en": "Resource Scarcity Security",
+                        "ar": "Resource Scarcity Security",
+                        "fr": "Resource Scarcity Security",
+                        "de": "Resource Scarcity Security",
+                        "ru": "Resource Scarcity Security",
+                        "zh": "Resource Scarcity Security"
+                    },
+                    "content": "Mastery level critical analysis of resource scarcity security.",
+                    "arabicContent": "أَمْنُ الْمَوَارِدِ النَّادِرَةِ فِي الْمُسْتَقْبَلِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 58,
+                    "estimatedMinutes": 24,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Resource Scarcity Security",
+                        "ar": "أَمْنُ الْمَوَارِدِ النَّادِرَةِ فِي الْمُسْتَقْبَلِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u6_l6",
+                    "title": {
+                        "en": "Non-State Actors Roles",
+                        "ar": "Non-State Actors Roles",
+                        "fr": "Non-State Actors Roles",
+                        "de": "Non-State Actors Roles",
+                        "ru": "Non-State Actors Roles",
+                        "zh": "Non-State Actors Roles"
+                    },
+                    "content": "Mastery level critical analysis of non-state actors roles.",
+                    "arabicContent": "دَوْرُ الْفَاعِلِينَ غَيْرِ الدُّوَلِ فِي السِّيَاسَةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 60,
+                    "estimatedMinutes": 25,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Non-State Actors Roles",
+                        "ar": "دَوْرُ الْفَاعِلِينَ غَيْرِ الدُّوَلِ فِي السِّيَاسَةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u6_l7",
+                    "title": {
+                        "en": "Strategic Policy Review",
+                        "ar": "Strategic Policy Review",
+                        "fr": "Strategic Policy Review",
+                        "de": "Strategic Policy Review",
+                        "ru": "Strategic Policy Review",
+                        "zh": "Strategic Policy Review"
+                    },
+                    "content": "Mastery level critical analysis of strategic policy review.",
+                    "arabicContent": "مُرَاجَعَةُ مُصْطَلَحَاتِ الْأَمْنِ الْقَوْمِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 62,
+                    "estimatedMinutes": 26,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Strategic Policy Review",
+                        "ar": "مُرَاجَعَةُ مُصْطَلَحَاتِ الْأَمْنِ الْقَوْمِيِّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u6_l8",
+                    "title": {
+                        "en": "Draft a Strategic Forecast",
+                        "ar": "Draft a Strategic Forecast",
+                        "fr": "Draft a Strategic Forecast",
+                        "de": "Draft a Strategic Forecast",
+                        "ru": "Draft a Strategic Forecast",
+                        "zh": "Draft a Strategic Forecast"
+                    },
+                    "content": "Mastery level critical analysis of draft a strategic forecast.",
+                    "arabicContent": "اكْتُبْ اسْتِشْرَافًا اسْتِرَاتِيجِيًّا لِلْعَالَمِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "performance",
+                    "xpReward": 64,
+                    "estimatedMinutes": 27,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Draft a Strategic Forecast",
+                        "ar": "اكْتُبْ اسْتِشْرَافًا اسْتِرَاتِيجِيًّا لِلْعَالَمِ"
+                    },
+                    "quiz": null
+                }
+            ],
+            "unitQuiz": null
+        },
+        {
+            "id": "c2_u7",
+            "title": {
+                "en": "Unit 7: High Literature",
+                "ar": "Unit 7: High Literature",
+                "fr": "Unit 7: High Literature",
+                "de": "Unit 7: High Literature",
+                "ru": "Unit 7: High Literature",
+                "zh": "Unit 7: High Literature"
+            },
+            "description": {
+                "en": "Mu'allaqat analysis, modern realism, and post-modernism.",
+                "ar": "Mu'allaqat analysis, modern realism, and post-modernism.",
+                "fr": "Mu'allaqat analysis, modern realism, and post-modernism.",
+                "de": "Mu'allaqat analysis, modern realism, and post-modernism.",
+                "ru": "Mu'allaqat analysis, modern realism, and post-modernism.",
+                "zh": "Mu'allaqat analysis, modern realism, and post-modernism."
+            },
+            "isLocked": true,
+            "lessons": [
+                {
+                    "id": "c2_u7_l1",
+                    "title": {
+                        "en": "Exegesis of the Mu'allaqat",
+                        "ar": "Exegesis of the Mu'allaqat",
+                        "fr": "Exegesis of the Mu'allaqat",
+                        "de": "Exegesis of the Mu'allaqat",
+                        "ru": "Exegesis of the Mu'allaqat",
+                        "zh": "Exegesis of the Mu'allaqat"
+                    },
+                    "content": "Mastery level critical analysis of exegesis of the mu'allaqat.",
+                    "arabicContent": "شَرْحُ الْمُعَلَّقَاتِ وَتَحْلِيلُ سِيَاقِهَا",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 50,
+                    "estimatedMinutes": 20,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Exegesis of the Mu'allaqat",
+                        "ar": "شَرْحُ الْمُعَلَّقَاتِ وَتَحْلِيلُ سِيَاقِهَا"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u7_l2",
+                    "title": {
+                        "en": "Modern Arab Realism",
+                        "ar": "Modern Arab Realism",
+                        "fr": "Modern Arab Realism",
+                        "de": "Modern Arab Realism",
+                        "ru": "Modern Arab Realism",
+                        "zh": "Modern Arab Realism"
+                    },
+                    "content": "Mastery level critical analysis of modern arab realism.",
+                    "arabicContent": "اَلْوَاقِعِيَّةُ فِي الرِّوَايَةِ الْعَرَبِيَّةِ الْمُعَاصِرَةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 52,
+                    "estimatedMinutes": 21,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Modern Arab Realism",
+                        "ar": "اَلْوَاقِعِيَّةُ فِي الرِّوَايَةِ الْعَرَبِيَّةِ الْمُعَاصِرَةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u7_l3",
+                    "title": {
+                        "en": "Post-Modernist Narratives",
+                        "ar": "Post-Modernist Narratives",
+                        "fr": "Post-Modernist Narratives",
+                        "de": "Post-Modernist Narratives",
+                        "ru": "Post-Modernist Narratives",
+                        "zh": "Post-Modernist Narratives"
+                    },
+                    "content": "Mastery level critical analysis of post-modernist narratives.",
+                    "arabicContent": "اَلسَّرْدُ مَا بَعْدَ الْحَدَاثَةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 54,
+                    "estimatedMinutes": 22,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Post-Modernist Narratives",
+                        "ar": "اَلسَّرْدُ مَا بَعْدَ الْحَدَاثَةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u7_l4",
+                    "title": {
+                        "en": "Symbolism in Poetry",
+                        "ar": "Symbolism in Poetry",
+                        "fr": "Symbolism in Poetry",
+                        "de": "Symbolism in Poetry",
+                        "ru": "Symbolism in Poetry",
+                        "zh": "Symbolism in Poetry"
+                    },
+                    "content": "Mastery level critical analysis of symbolism in poetry.",
+                    "arabicContent": "اَلرَّمْزِيَّةُ فِي الشِّعْرِ الْحَدِيثِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 56,
+                    "estimatedMinutes": 23,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Symbolism in Poetry",
+                        "ar": "اَلرَّمْزِيَّةُ فِي الشِّعْرِ الْحَدِيثِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u7_l5",
+                    "title": {
+                        "en": "Theatre of the Absurd",
+                        "ar": "Theatre of the Absurd",
+                        "fr": "Theatre of the Absurd",
+                        "de": "Theatre of the Absurd",
+                        "ru": "Theatre of the Absurd",
+                        "zh": "Theatre of the Absurd"
+                    },
+                    "content": "Mastery level critical analysis of theatre of the absurd.",
+                    "arabicContent": "مَسْرَحُ الْعَبَثِ فِي الْأَدَبِ الْعَرَبِيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 58,
+                    "estimatedMinutes": 24,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Theatre of the Absurd",
+                        "ar": "مَسْرَحُ الْعَبَثِ فِي الْأَدَبِ الْعَرَبِيِّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u7_l6",
+                    "title": {
+                        "en": "Literary Hermeneutics",
+                        "ar": "Literary Hermeneutics",
+                        "fr": "Literary Hermeneutics",
+                        "de": "Literary Hermeneutics",
+                        "ru": "Literary Hermeneutics",
+                        "zh": "Literary Hermeneutics"
+                    },
+                    "content": "Mastery level critical analysis of literary hermeneutics.",
+                    "arabicContent": "اَلْهَرْمِينُوطِيقَا الْأَدَبِيَّةُ وَتَأْوِيلُ النَّصِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 60,
+                    "estimatedMinutes": 25,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Literary Hermeneutics",
+                        "ar": "اَلْهَرْمِينُوطِيقَا الْأَدَبِيَّةُ وَتَأْوِيلُ النَّصِّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u7_l7",
+                    "title": {
+                        "en": "High Literature Review",
+                        "ar": "High Literature Review",
+                        "fr": "High Literature Review",
+                        "de": "High Literature Review",
+                        "ru": "High Literature Review",
+                        "zh": "High Literature Review"
+                    },
+                    "content": "Mastery level critical analysis of high literature review.",
+                    "arabicContent": "مُرَاجَعَةُ مُصْطَلَحَاتِ النَّقْدِ الْحَدِيثِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 62,
+                    "estimatedMinutes": 26,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "High Literature Review",
+                        "ar": "مُرَاجَعَةُ مُصْطَلَحَاتِ النَّقْدِ الْحَدِيثِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u7_l8",
+                    "title": {
+                        "en": "Perform a Literary Deconstruction",
+                        "ar": "Perform a Literary Deconstruction",
+                        "fr": "Perform a Literary Deconstruction",
+                        "de": "Perform a Literary Deconstruction",
+                        "ru": "Perform a Literary Deconstruction",
+                        "zh": "Perform a Literary Deconstruction"
+                    },
+                    "content": "Mastery level critical analysis of perform a literary deconstruction.",
+                    "arabicContent": "أَجْرِ تَفْكِيكًا أَدَبِيًّا لِنَصٍّ رِوَائِيٍّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "performance",
+                    "xpReward": 64,
+                    "estimatedMinutes": 27,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Perform a Literary Deconstruction",
+                        "ar": "أَجْرِ تَفْكِيكًا أَدَبِيًّا لِنَصٍّ رِوَائِيٍّ"
+                    },
+                    "quiz": null
+                }
+            ],
+            "unitQuiz": null
+        },
+        {
+            "id": "c2_u8",
+            "title": {
+                "en": "Unit 8: Intercultural Hermeneutics",
+                "ar": "Unit 8: Intercultural Hermeneutics",
+                "fr": "Unit 8: Intercultural Hermeneutics",
+                "de": "Unit 8: Intercultural Hermeneutics",
+                "ru": "Unit 8: Intercultural Hermeneutics",
+                "zh": "Unit 8: Intercultural Hermeneutics"
+            },
+            "description": {
+                "en": "Translation theory, cultural studies, and orientalism.",
+                "ar": "Translation theory, cultural studies, and orientalism.",
+                "fr": "Translation theory, cultural studies, and orientalism.",
+                "de": "Translation theory, cultural studies, and orientalism.",
+                "ru": "Translation theory, cultural studies, and orientalism.",
+                "zh": "Translation theory, cultural studies, and orientalism."
+            },
+            "isLocked": true,
+            "lessons": [
+                {
+                    "id": "c2_u8_l1",
+                    "title": {
+                        "en": "Theories of Translation",
+                        "ar": "Theories of Translation",
+                        "fr": "Theories of Translation",
+                        "de": "Theories of Translation",
+                        "ru": "Theories of Translation",
+                        "zh": "Theories of Translation"
+                    },
+                    "content": "Mastery level critical analysis of theories of translation.",
+                    "arabicContent": "نَظَرِيَّاتُ التَّرْجَمَةِ وَإِشْكَالِيَّاتُهَا",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 50,
+                    "estimatedMinutes": 20,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Theories of Translation",
+                        "ar": "نَظَرِيَّاتُ التَّرْجَمَةِ وَإِشْكَالِيَّاتُهَا"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u8_l2",
+                    "title": {
+                        "en": "Orientalism & Representation",
+                        "ar": "Orientalism & Representation",
+                        "fr": "Orientalism & Representation",
+                        "de": "Orientalism & Representation",
+                        "ru": "Orientalism & Representation",
+                        "zh": "Orientalism & Representation"
+                    },
+                    "content": "Mastery level critical analysis of orientalism & representation.",
+                    "arabicContent": "اَلِاسْتِشْرَاقُ وَصُورَةُ الْآخَرِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 52,
+                    "estimatedMinutes": 21,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Orientalism & Representation",
+                        "ar": "اَلِاسْتِشْرَاقُ وَصُورَةُ الْآخَرِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u8_l3",
+                    "title": {
+                        "en": "Cultural Hybridity",
+                        "ar": "Cultural Hybridity",
+                        "fr": "Cultural Hybridity",
+                        "de": "Cultural Hybridity",
+                        "ru": "Cultural Hybridity",
+                        "zh": "Cultural Hybridity"
+                    },
+                    "content": "Mastery level critical analysis of cultural hybridity.",
+                    "arabicContent": "اَلْهَجَانَةُ الثَّقَافِيَّةُ فِي الْفِكْرِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 54,
+                    "estimatedMinutes": 22,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Cultural Hybridity",
+                        "ar": "اَلْهَجَانَةُ الثَّقَافِيَّةُ فِي الْفِكْرِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u8_l4",
+                    "title": {
+                        "en": "Translation Ethics",
+                        "ar": "Translation Ethics",
+                        "fr": "Translation Ethics",
+                        "de": "Translation Ethics",
+                        "ru": "Translation Ethics",
+                        "zh": "Translation Ethics"
+                    },
+                    "content": "Mastery level critical analysis of translation ethics.",
+                    "arabicContent": "أَخْلَاقِيَّاتُ التَّرْجَمَةِ الْأَدَبِيَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 56,
+                    "estimatedMinutes": 23,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Translation Ethics",
+                        "ar": "أَخْلَاقِيَّاتُ التَّرْجَمَةِ الْأَدَبِيَّةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u8_l5",
+                    "title": {
+                        "en": "The Dialogue of Civilizations",
+                        "ar": "The Dialogue of Civilizations",
+                        "fr": "The Dialogue of Civilizations",
+                        "de": "The Dialogue of Civilizations",
+                        "ru": "The Dialogue of Civilizations",
+                        "zh": "The Dialogue of Civilizations"
+                    },
+                    "content": "Mastery level critical analysis of the dialogue of civilizations.",
+                    "arabicContent": "حِوَارُ الْحَضَارَاتِ فِي ظِلِّ الْعَوْلَمَةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 58,
+                    "estimatedMinutes": 24,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "The Dialogue of Civilizations",
+                        "ar": "حِوَارُ الْحَضَارَاتِ فِي ظِلِّ الْعَوْلَمَةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u8_l6",
+                    "title": {
+                        "en": "Decolonizing Knowledge",
+                        "ar": "Decolonizing Knowledge",
+                        "fr": "Decolonizing Knowledge",
+                        "de": "Decolonizing Knowledge",
+                        "ru": "Decolonizing Knowledge",
+                        "zh": "Decolonizing Knowledge"
+                    },
+                    "content": "Mastery level critical analysis of decolonizing knowledge.",
+                    "arabicContent": "إِنْهَاءُ الِاسْتِعْمَارِ فِي الْمَعْرِفَةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 60,
+                    "estimatedMinutes": 25,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Decolonizing Knowledge",
+                        "ar": "إِنْهَاءُ الِاسْتِعْمَارِ فِي الْمَعْرِفَةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u8_l7",
+                    "title": {
+                        "en": "Hermeneutics Review",
+                        "ar": "Hermeneutics Review",
+                        "fr": "Hermeneutics Review",
+                        "de": "Hermeneutics Review",
+                        "ru": "Hermeneutics Review",
+                        "zh": "Hermeneutics Review"
+                    },
+                    "content": "Mastery level critical analysis of hermeneutics review.",
+                    "arabicContent": "مُرَاجَعَةُ مُصْطَلَحَاتِ الدِّرَاسَاتِ الثَّقَافِيَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 62,
+                    "estimatedMinutes": 26,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Hermeneutics Review",
+                        "ar": "مُرَاجَعَةُ مُصْطَلَحَاتِ الدِّرَاسَاتِ الثَّقَافِيَّةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u8_l8",
+                    "title": {
+                        "en": "Translate a Technical Abstract",
+                        "ar": "Translate a Technical Abstract",
+                        "fr": "Translate a Technical Abstract",
+                        "de": "Translate a Technical Abstract",
+                        "ru": "Translate a Technical Abstract",
+                        "zh": "Translate a Technical Abstract"
+                    },
+                    "content": "Mastery level critical analysis of translate a technical abstract.",
+                    "arabicContent": "تَرْجِمْ مُلَخَّصًا تِقْنِيًّا بَيْنَ اللُّغَتَيْنِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "performance",
+                    "xpReward": 64,
+                    "estimatedMinutes": 27,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Translate a Technical Abstract",
+                        "ar": "تَرْجِمْ مُلَخَّصًا تِقْنِيًّا بَيْنَ اللُّغَتَيْنِ"
+                    },
+                    "quiz": null
+                }
+            ],
+            "unitQuiz": null
+        },
+        {
+            "id": "c2_u9",
+            "title": {
+                "en": "Unit 9: Complex Data Analysis",
+                "ar": "Unit 9: Complex Data Analysis",
+                "fr": "Unit 9: Complex Data Analysis",
+                "de": "Unit 9: Complex Data Analysis",
+                "ru": "Unit 9: Complex Data Analysis",
+                "zh": "Unit 9: Complex Data Analysis"
+            },
+            "description": {
+                "en": "Quantitative methods, social statistics, and research design.",
+                "ar": "Quantitative methods, social statistics, and research design.",
+                "fr": "Quantitative methods, social statistics, and research design.",
+                "de": "Quantitative methods, social statistics, and research design.",
+                "ru": "Quantitative methods, social statistics, and research design.",
+                "zh": "Quantitative methods, social statistics, and research design."
+            },
+            "isLocked": true,
+            "lessons": [
+                {
+                    "id": "c2_u9_l1",
+                    "title": {
+                        "en": "Advanced Statistics in Social Science",
+                        "ar": "Advanced Statistics in Social Science",
+                        "fr": "Advanced Statistics in Social Science",
+                        "de": "Advanced Statistics in Social Science",
+                        "ru": "Advanced Statistics in Social Science",
+                        "zh": "Advanced Statistics in Social Science"
+                    },
+                    "content": "Mastery level critical analysis of advanced statistics in social science.",
+                    "arabicContent": "اَلْإِحْصَاءُ الْمُتَقَدِّمُ فِي الْعُلُومِ الِاجْتِمَاعِيَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 50,
+                    "estimatedMinutes": 20,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Advanced Statistics in Social Science",
+                        "ar": "اَلْإِحْصَاءُ الْمُتَقَدِّمُ فِي الْعُلُومِ الِاجْتِمَاعِيَّةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u9_l2",
+                    "title": {
+                        "en": "Research Design Optimization",
+                        "ar": "Research Design Optimization",
+                        "fr": "Research Design Optimization",
+                        "de": "Research Design Optimization",
+                        "ru": "Research Design Optimization",
+                        "zh": "Research Design Optimization"
+                    },
+                    "content": "Mastery level critical analysis of research design optimization.",
+                    "arabicContent": "تَحْسِينُ مَنَاهِجِ الْبَحْثِ الْكَمِّيِّ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "performance",
+                    "xpReward": 52,
+                    "estimatedMinutes": 21,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Research Design Optimization",
+                        "ar": "تَحْسِينُ مَنَاهِجِ الْبَحْثِ الْكَمِّيِّ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u9_l3",
+                    "title": {
+                        "en": "Data Ethics & Governance",
+                        "ar": "Data Ethics & Governance",
+                        "fr": "Data Ethics & Governance",
+                        "de": "Data Ethics & Governance",
+                        "ru": "Data Ethics & Governance",
+                        "zh": "Data Ethics & Governance"
+                    },
+                    "content": "Mastery level critical analysis of data ethics & governance.",
+                    "arabicContent": "حَوْكَمَةُ الْبَيَانَاتِ وَأَخْلَاقِيَّاتُهَا",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 54,
+                    "estimatedMinutes": 22,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Data Ethics & Governance",
+                        "ar": "حَوْكَمَةُ الْبَيَانَاتِ وَأَخْلَاقِيَّاتُهَا"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u9_l4",
+                    "title": {
+                        "en": "Algorithmic Bias Case Study",
+                        "ar": "Algorithmic Bias Case Study",
+                        "fr": "Algorithmic Bias Case Study",
+                        "de": "Algorithmic Bias Case Study",
+                        "ru": "Algorithmic Bias Case Study",
+                        "zh": "Algorithmic Bias Case Study"
+                    },
+                    "content": "Mastery level critical analysis of algorithmic bias case study.",
+                    "arabicContent": "دِرَاسَةُ حَالَةٍ حَوْلَ انْحِيَازِ الْخَوَارِزْمِيَّاتِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 56,
+                    "estimatedMinutes": 23,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Algorithmic Bias Case Study",
+                        "ar": "دِرَاسَةُ حَالَةٍ حَوْلَ انْحِيَازِ الْخَوَارِزْمِيَّاتِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u9_l5",
+                    "title": {
+                        "en": "Big Data in Public Policy",
+                        "ar": "Big Data in Public Policy",
+                        "fr": "Big Data in Public Policy",
+                        "de": "Big Data in Public Policy",
+                        "ru": "Big Data in Public Policy",
+                        "zh": "Big Data in Public Policy"
+                    },
+                    "content": "Mastery level critical analysis of big data in public policy.",
+                    "arabicContent": "اَلْبَيَانَاتُ الضَّخْمَةُ فِي السِّيَاسَةِ الْعَامَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 58,
+                    "estimatedMinutes": 24,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Big Data in Public Policy",
+                        "ar": "اَلْبَيَانَاتُ الضَّخْمَةُ فِي السِّيَاسَةِ الْعَامَّةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u9_l6",
+                    "title": {
+                        "en": "Mastering Research Tools",
+                        "ar": "Mastering Research Tools",
+                        "fr": "Mastering Research Tools",
+                        "de": "Mastering Research Tools",
+                        "ru": "Mastering Research Tools",
+                        "zh": "Mastering Research Tools"
+                    },
+                    "content": "Mastery level critical analysis of mastering research tools.",
+                    "arabicContent": "إِتْقَانُ أَدَاوَاتِ الْبَحْثِ الرَّصِينَةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 60,
+                    "estimatedMinutes": 25,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Mastering Research Tools",
+                        "ar": "إِتْقَانُ أَدَاوَاتِ الْبَحْثِ الرَّصِينَةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u9_l7",
+                    "title": {
+                        "en": "Data Terms Review",
+                        "ar": "Data Terms Review",
+                        "fr": "Data Terms Review",
+                        "de": "Data Terms Review",
+                        "ru": "Data Terms Review",
+                        "zh": "Data Terms Review"
+                    },
+                    "content": "Mastery level critical analysis of data terms review.",
+                    "arabicContent": "مُرَاجَعَةُ مُصْطَلَحَاتِ عِلْمِ الْبَيَانَاتِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 62,
+                    "estimatedMinutes": 26,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Data Terms Review",
+                        "ar": "مُرَاجَعَةُ مُصْطَلَحَاتِ عِلْمِ الْبَيَانَاتِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u9_l8",
+                    "title": {
+                        "en": "Design a Longitudinal Study",
+                        "ar": "Design a Longitudinal Study",
+                        "fr": "Design a Longitudinal Study",
+                        "de": "Design a Longitudinal Study",
+                        "ru": "Design a Longitudinal Study",
+                        "zh": "Design a Longitudinal Study"
+                    },
+                    "content": "Mastery level critical analysis of design a longitudinal study.",
+                    "arabicContent": "صَمِّمْ دِرَاسَةً طُولِيَّةً لِظَاهِرَةٍ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "performance",
+                    "xpReward": 64,
+                    "estimatedMinutes": 27,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Design a Longitudinal Study",
+                        "ar": "صَمِّمْ دِرَاسَةً طُولِيَّةً لِظَاهِرَةٍ"
+                    },
+                    "quiz": null
+                }
+            ],
+            "unitQuiz": null
+        },
+        {
+            "id": "c2_u10",
+            "title": {
+                "en": "Unit 10: Mastery Capstone",
+                "ar": "Unit 10: Mastery Capstone",
+                "fr": "Unit 10: Mastery Capstone",
+                "de": "Unit 10: Mastery Capstone",
+                "ru": "Unit 10: Mastery Capstone",
+                "zh": "Unit 10: Mastery Capstone"
+            },
+            "description": {
+                "en": "Academic thesis defense and professional debate.",
+                "ar": "Academic thesis defense and professional debate.",
+                "fr": "Academic thesis defense and professional debate.",
+                "de": "Academic thesis defense and professional debate.",
+                "ru": "Academic thesis defense and professional debate.",
+                "zh": "Academic thesis defense and professional debate."
+            },
+            "isLocked": true,
+            "lessons": [
+                {
+                    "id": "c2_u10_l1",
+                    "title": {
+                        "en": "The Academic Thesis (Overview)",
+                        "ar": "The Academic Thesis (Overview)",
+                        "fr": "The Academic Thesis (Overview)",
+                        "de": "The Academic Thesis (Overview)",
+                        "ru": "The Academic Thesis (Overview)",
+                        "zh": "The Academic Thesis (Overview)"
+                    },
+                    "content": "Mastery level critical analysis of the academic thesis (overview).",
+                    "arabicContent": "إِعْدَادُ الْأُطْرُوحَةِ الْأَكَادِيمِيَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 50,
+                    "estimatedMinutes": 20,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "The Academic Thesis (Overview)",
+                        "ar": "إِعْدَادُ الْأُطْرُوحَةِ الْأَكَادِيمِيَّةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u10_l2",
+                    "title": {
+                        "en": "Argumentation & Debate",
+                        "ar": "Argumentation & Debate",
+                        "fr": "Argumentation & Debate",
+                        "de": "Argumentation & Debate",
+                        "ru": "Argumentation & Debate",
+                        "zh": "Argumentation & Debate"
+                    },
+                    "content": "Mastery level critical analysis of argumentation & debate.",
+                    "arabicContent": "قَوَاعِدُ الْمُنَاظَرَةِ وَالِاحْتِجَاجِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 52,
+                    "estimatedMinutes": 21,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Argumentation & Debate",
+                        "ar": "قَوَاعِدُ الْمُنَاظَرَةِ وَالِاحْتِجَاجِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u10_l3",
+                    "title": {
+                        "en": "Public Oratory Skills",
+                        "ar": "Public Oratory Skills",
+                        "fr": "Public Oratory Skills",
+                        "de": "Public Oratory Skills",
+                        "ru": "Public Oratory Skills",
+                        "zh": "Public Oratory Skills"
+                    },
+                    "content": "Mastery level critical analysis of public oratory skills.",
+                    "arabicContent": "مَهَارَاتُ الْخَطَابَةِ الْعَامَّةِ لِلْخُبَرَاءِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 54,
+                    "estimatedMinutes": 22,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Public Oratory Skills",
+                        "ar": "مَهَارَاتُ الْخَطَابَةِ الْعَامَّةِ لِلْخُبَرَاءِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u10_l4",
+                    "title": {
+                        "en": "Professional Mentoring",
+                        "ar": "Professional Mentoring",
+                        "fr": "Professional Mentoring",
+                        "de": "Professional Mentoring",
+                        "ru": "Professional Mentoring",
+                        "zh": "Professional Mentoring"
+                    },
+                    "content": "Mastery level critical analysis of professional mentoring.",
+                    "arabicContent": "اَلْإِرْشَادُ الْمِهْنِيُّ لِلْأَكادِيمِيِّينَ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 56,
+                    "estimatedMinutes": 23,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Professional Mentoring",
+                        "ar": "اَلْإِرْشَادُ الْمِهْنِيُّ لِلْأَكادِيمِيِّينَ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u10_l5",
+                    "title": {
+                        "en": "Writing for High Impact",
+                        "ar": "Writing for High Impact",
+                        "fr": "Writing for High Impact",
+                        "de": "Writing for High Impact",
+                        "ru": "Writing for High Impact",
+                        "zh": "Writing for High Impact"
+                    },
+                    "content": "Mastery level critical analysis of writing for high impact.",
+                    "arabicContent": "الْكِتَابَةُ لِلْمَجَلَّاتِ ذَاتِ التَّأْثِيرِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 58,
+                    "estimatedMinutes": 24,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Writing for High Impact",
+                        "ar": "الْكِتَابَةُ لِلْمَجَلَّاتِ ذَاتِ التَّأْثِيرِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u10_l6",
+                    "title": {
+                        "en": "Global Networking Mastery",
+                        "ar": "Global Networking Mastery",
+                        "fr": "Global Networking Mastery",
+                        "de": "Global Networking Mastery",
+                        "ru": "Global Networking Mastery",
+                        "zh": "Global Networking Mastery"
+                    },
+                    "content": "Mastery level critical analysis of global networking mastery.",
+                    "arabicContent": "إِتْقَانُ شَبَكَاتِ التَّوَاصُلِ الْعَالَمِيَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 60,
+                    "estimatedMinutes": 25,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Global Networking Mastery",
+                        "ar": "إِتْقَانُ شَبَكَاتِ التَّوَاصُلِ الْعَالَمِيَّةِ"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u10_l7",
+                    "title": {
+                        "en": "Mastery Review",
+                        "ar": "Mastery Review",
+                        "fr": "Mastery Review",
+                        "de": "Mastery Review",
+                        "ru": "Mastery Review",
+                        "zh": "Mastery Review"
+                    },
+                    "content": "Mastery level critical analysis of mastery review.",
+                    "arabicContent": "مُرَاجَعَةُ الْمَهَارَاتِ اللُّغَوِيَّةِ الْعُلْيَا",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "vocabulary",
+                    "xpReward": 62,
+                    "estimatedMinutes": 26,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Mastery Review",
+                        "ar": "مُرَاجَعَةُ الْمَهَارَاتِ اللُّغَوِيَّةِ الْعُلْيَا"
+                    },
+                    "quiz": null
+                },
+                {
+                    "id": "c2_u10_l8",
+                    "title": {
+                        "en": "Defend Your Capstone Thesis",
+                        "ar": "Defend Your Capstone Thesis",
+                        "fr": "Defend Your Capstone Thesis",
+                        "de": "Defend Your Capstone Thesis",
+                        "ru": "Defend Your Capstone Thesis",
+                        "zh": "Defend Your Capstone Thesis"
+                    },
+                    "content": "Mastery level critical analysis of defend your capstone thesis.",
+                    "arabicContent": "قُمْ بِالدِّفَاعِ عَنْ أُطْرُوحَتِكَ النِّهَائِيَّةِ",
+                    "transliteration": {
+                        "en": "Transliteration available in full version",
+                        "ar": "Transliteration available in full version",
+                        "fr": "Transliteration available in full version",
+                        "de": "Transliteration available in full version",
+                        "ru": "Transliteration available in full version",
+                        "zh": "Transliteration available in full version"
+                    },
+                    "type": "performance",
+                    "xpReward": 64,
+                    "estimatedMinutes": 27,
+                    "isLocked": true,
+                    "translations": {
+                        "en": "Defend Your Capstone Thesis",
+                        "ar": "قُمْ بِالدِّفَاعِ عَنْ أُطْرُوحَتِكَ النِّهَائِيَّةِ"
+                    },
+                    "quiz": null
+                }
+            ],
+            "unitQuiz": null
+        }
+    ]
+}
