@@ -1,0 +1,392 @@
+[
+  {
+    "unit_id": "c2_u1",
+    "unit_title": "Academic Discourse",
+    "unit_desc": "Epistemology, critical theory, and academic integrity.",
+    "lessons": [
+      {
+        "lesson_id": "c2_u1_l1",
+        "lesson_title": "Theory of Knowledge"
+      },
+      {
+        "lesson_id": "c2_u1_l2",
+        "lesson_title": "Critical Theory & Society"
+      },
+      {
+        "lesson_id": "c2_u1_l3",
+        "lesson_title": "Epistemological Rupture"
+      },
+      {
+        "lesson_id": "c2_u1_l4",
+        "lesson_title": "Academic Integrity Policy"
+      },
+      {
+        "lesson_id": "c2_u1_l5",
+        "lesson_title": "Discourse Analysis Methods"
+      },
+      {
+        "lesson_id": "c2_u1_l6",
+        "lesson_title": "The Ethics of AI Research"
+      },
+      {
+        "lesson_id": "c2_u1_l7",
+        "lesson_title": "Academic Terms Review"
+      },
+      {
+        "lesson_id": "c2_u1_l8",
+        "lesson_title": "Present a Theoretical Framework"
+      }
+    ]
+  },
+  {
+    "unit_id": "c2_u2",
+    "unit_title": "Professional Diplomacy",
+    "unit_desc": "Consular roles, diplomatic protocol, and international norms.",
+    "lessons": [
+      {
+        "lesson_id": "c2_u2_l1",
+        "lesson_title": "Diplomatic Protocol"
+      },
+      {
+        "lesson_id": "c2_u2_l2",
+        "lesson_title": "Consular Functions"
+      },
+      {
+        "lesson_id": "c2_u2_l3",
+        "lesson_title": "Multilateralism Future"
+      },
+      {
+        "lesson_id": "c2_u2_l4",
+        "lesson_title": "Crisis Diplomacy"
+      },
+      {
+        "lesson_id": "c2_u2_l5",
+        "lesson_title": "Economic Statecraft"
+      },
+      {
+        "lesson_id": "c2_u2_l6",
+        "lesson_title": "Public Diplomacy (PD)"
+      },
+      {
+        "lesson_id": "c2_u2_l7",
+        "lesson_title": "Diplomacy Review"
+      },
+      {
+        "lesson_id": "c2_u2_l8",
+        "lesson_title": "Simulate a UN Security Meeting"
+      }
+    ]
+  },
+  {
+    "unit_id": "c2_u3",
+    "unit_title": "Advanced Law",
+    "unit_desc": "Comparative law, constitutional theory, and jurisprudence.",
+    "lessons": [
+      {
+        "lesson_id": "c2_u3_l1",
+        "lesson_title": "Comparative Legal Systems"
+      },
+      {
+        "lesson_id": "c2_u3_l2",
+        "lesson_title": "Constitutional Theory"
+      },
+      {
+        "lesson_id": "c2_u3_l3",
+        "lesson_title": "Legal Philosophy (Jurisprudence)"
+      },
+      {
+        "lesson_id": "c2_u3_l4",
+        "lesson_title": "Administrative Law"
+      },
+      {
+        "lesson_id": "c2_u3_l5",
+        "lesson_title": "Corporate Governance Law"
+      },
+      {
+        "lesson_id": "c2_u3_l6",
+        "lesson_title": "Intellectual Property Law"
+      },
+      {
+        "lesson_id": "c2_u3_l7",
+        "lesson_title": "Advanced Legal Review"
+      },
+      {
+        "lesson_id": "c2_u3_l8",
+        "lesson_title": "Draft a Constitutional Amendment"
+      }
+    ]
+  },
+  {
+    "unit_id": "c2_u4",
+    "unit_title": "Theoretical Linguistics",
+    "unit_desc": "Semiotics, generative grammar, and computational linguistics.",
+    "lessons": [
+      {
+        "lesson_id": "c2_u4_l1",
+        "lesson_title": "Generative Grammar"
+      },
+      {
+        "lesson_id": "c2_u4_l2",
+        "lesson_title": "Semiotics of the Text"
+      },
+      {
+        "lesson_id": "c2_u4_l3",
+        "lesson_title": "Computational Linguistics"
+      },
+      {
+        "lesson_id": "c2_u4_l4",
+        "lesson_title": "Cognitive Linguistics"
+      },
+      {
+        "lesson_id": "c2_u4_l5",
+        "lesson_title": "Historical Linguistics"
+      },
+      {
+        "lesson_id": "c2_u4_l6",
+        "lesson_title": "The Science of Dictionaries"
+      },
+      {
+        "lesson_id": "c2_u4_l7",
+        "lesson_title": "Theoretical Linguistics Review"
+      },
+      {
+        "lesson_id": "c2_u4_l8",
+        "lesson_title": "Analyze a Semiotic Structure"
+      }
+    ]
+  },
+  {
+    "unit_id": "c2_u5",
+    "unit_title": "Classical Philosophy",
+    "unit_desc": "Neoplatonism, dialectics, and medieval logic.",
+    "lessons": [
+      {
+        "lesson_id": "c2_u5_l1",
+        "lesson_title": "Neoplatonism in Arabic"
+      },
+      {
+        "lesson_id": "c2_u5_l2",
+        "lesson_title": "Aristotelian Dialectics"
+      },
+      {
+        "lesson_id": "c2_u5_l3",
+        "lesson_title": "Medieval Logic Systems"
+      },
+      {
+        "lesson_id": "c2_u5_l4",
+        "lesson_title": "The Problem of Universals"
+      },
+      {
+        "lesson_id": "c2_u5_l5",
+        "lesson_title": "Metaphysics of Existence"
+      },
+      {
+        "lesson_id": "c2_u5_l6",
+        "lesson_title": "Reason vs. Revelation"
+      },
+      {
+        "lesson_id": "c2_u5_l7",
+        "lesson_title": "Advanced Philosophy Review"
+      },
+      {
+        "lesson_id": "c2_u5_l8",
+        "lesson_title": "Critique a Philosophical Fragment"
+      }
+    ]
+  },
+  {
+    "unit_id": "c2_u6",
+    "unit_title": "Global Strategic Policy",
+    "unit_desc": "Geopolitics, sustainability goals, and global governance.",
+    "lessons": [
+      {
+        "lesson_id": "c2_u6_l1",
+        "lesson_title": "Geopolitics of the Middle East"
+      },
+      {
+        "lesson_id": "c2_u6_l2",
+        "lesson_title": "UN Sustainable Goals"
+      },
+      {
+        "lesson_id": "c2_u6_l3",
+        "lesson_title": "Global Governance Architect"
+      },
+      {
+        "lesson_id": "c2_u6_l4",
+        "lesson_title": "Cyber Warfare Policy"
+      },
+      {
+        "lesson_id": "c2_u6_l5",
+        "lesson_title": "Resource Scarcity Security"
+      },
+      {
+        "lesson_id": "c2_u6_l6",
+        "lesson_title": "Non-State Actors Roles"
+      },
+      {
+        "lesson_id": "c2_u6_l7",
+        "lesson_title": "Strategic Policy Review"
+      },
+      {
+        "lesson_id": "c2_u6_l8",
+        "lesson_title": "Draft a Strategic Forecast"
+      }
+    ]
+  },
+  {
+    "unit_id": "c2_u7",
+    "unit_title": "High Literature",
+    "unit_desc": "Mu'allaqat analysis, modern realism, and post-modernism.",
+    "lessons": [
+      {
+        "lesson_id": "c2_u7_l1",
+        "lesson_title": "Exegesis of the Mu'allaqat"
+      },
+      {
+        "lesson_id": "c2_u7_l2",
+        "lesson_title": "Modern Arab Realism"
+      },
+      {
+        "lesson_id": "c2_u7_l3",
+        "lesson_title": "Post-Modernist Narratives"
+      },
+      {
+        "lesson_id": "c2_u7_l4",
+        "lesson_title": "Symbolism in Poetry"
+      },
+      {
+        "lesson_id": "c2_u7_l5",
+        "lesson_title": "Theatre of the Absurd"
+      },
+      {
+        "lesson_id": "c2_u7_l6",
+        "lesson_title": "Literary Hermeneutics"
+      },
+      {
+        "lesson_id": "c2_u7_l7",
+        "lesson_title": "High Literature Review"
+      },
+      {
+        "lesson_id": "c2_u7_l8",
+        "lesson_title": "Perform a Literary Deconstruction"
+      }
+    ]
+  },
+  {
+    "unit_id": "c2_u8",
+    "unit_title": "Intercultural Hermeneutics",
+    "unit_desc": "Translation theory, cultural studies, and orientalism.",
+    "lessons": [
+      {
+        "lesson_id": "c2_u8_l1",
+        "lesson_title": "Theories of Translation"
+      },
+      {
+        "lesson_id": "c2_u8_l2",
+        "lesson_title": "Orientalism & Representation"
+      },
+      {
+        "lesson_id": "c2_u8_l3",
+        "lesson_title": "Cultural Hybridity"
+      },
+      {
+        "lesson_id": "c2_u8_l4",
+        "lesson_title": "Translation Ethics"
+      },
+      {
+        "lesson_id": "c2_u8_l5",
+        "lesson_title": "The Dialogue of Civilizations"
+      },
+      {
+        "lesson_id": "c2_u8_l6",
+        "lesson_title": "Decolonizing Knowledge"
+      },
+      {
+        "lesson_id": "c2_u8_l7",
+        "lesson_title": "Hermeneutics Review"
+      },
+      {
+        "lesson_id": "c2_u8_l8",
+        "lesson_title": "Translate a Technical Abstract"
+      }
+    ]
+  },
+  {
+    "unit_id": "c2_u9",
+    "unit_title": "Complex Data Analysis",
+    "unit_desc": "Quantitative methods, social statistics, and research design.",
+    "lessons": [
+      {
+        "lesson_id": "c2_u9_l1",
+        "lesson_title": "Advanced Statistics in Social Science"
+      },
+      {
+        "lesson_id": "c2_u9_l2",
+        "lesson_title": "Research Design Optimization"
+      },
+      {
+        "lesson_id": "c2_u9_l3",
+        "lesson_title": "Data Ethics & Governance"
+      },
+      {
+        "lesson_id": "c2_u9_l4",
+        "lesson_title": "Algorithmic Bias Case Study"
+      },
+      {
+        "lesson_id": "c2_u9_l5",
+        "lesson_title": "Big Data in Public Policy"
+      },
+      {
+        "lesson_id": "c2_u9_l6",
+        "lesson_title": "Mastering Research Tools"
+      },
+      {
+        "lesson_id": "c2_u9_l7",
+        "lesson_title": "Data Terms Review"
+      },
+      {
+        "lesson_id": "c2_u9_l8",
+        "lesson_title": "Design a Longitudinal Study"
+      }
+    ]
+  },
+  {
+    "unit_id": "c2_u10",
+    "unit_title": "Mastery Capstone",
+    "unit_desc": "Academic thesis defense and professional debate.",
+    "lessons": [
+      {
+        "lesson_id": "c2_u10_l1",
+        "lesson_title": "The Academic Thesis (Overview)"
+      },
+      {
+        "lesson_id": "c2_u10_l2",
+        "lesson_title": "Argumentation & Debate"
+      },
+      {
+        "lesson_id": "c2_u10_l3",
+        "lesson_title": "Public Oratory Skills"
+      },
+      {
+        "lesson_id": "c2_u10_l4",
+        "lesson_title": "Professional Mentoring"
+      },
+      {
+        "lesson_id": "c2_u10_l5",
+        "lesson_title": "Writing for High Impact"
+      },
+      {
+        "lesson_id": "c2_u10_l6",
+        "lesson_title": "Global Networking Mastery"
+      },
+      {
+        "lesson_id": "c2_u10_l7",
+        "lesson_title": "Mastery Review"
+      },
+      {
+        "lesson_id": "c2_u10_l8",
+        "lesson_title": "Defend Your Capstone Thesis"
+      }
+    ]
+  }
+]

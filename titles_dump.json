@@ -1,0 +1,132 @@
+[
+  {
+    "u": "Academic Discourse",
+    "lessons": [
+      "Theory of Knowledge",
+      "Critical Theory & Society",
+      "Epistemological Rupture",
+      "Academic Integrity Policy",
+      "Discourse Analysis Methods",
+      "The Ethics of AI Research",
+      "Academic Terms Review",
+      "Present a Theoretical Framework"
+    ]
+  },
+  {
+    "u": "Professional Diplomacy",
+    "lessons": [
+      "Diplomatic Protocol",
+      "Consular Functions",
+      "Multilateralism Future",
+      "Crisis Diplomacy",
+      "Economic Statecraft",
+      "Public Diplomacy (PD)",
+      "Diplomacy Review",
+      "Simulate a UN Security Meeting"
+    ]
+  },
+  {
+    "u": "Advanced Law",
+    "lessons": [
+      "Comparative Legal Systems",
+      "Constitutional Theory",
+      "Legal Philosophy (Jurisprudence)",
+      "Administrative Law",
+      "Corporate Governance Law",
+      "Intellectual Property Law",
+      "Advanced Legal Review",
+      "Draft a Constitutional Amendment"
+    ]
+  },
+  {
+    "u": "Theoretical Linguistics",
+    "lessons": [
+      "Generative Grammar",
+      "Semiotics of the Text",
+      "Computational Linguistics",
+      "Cognitive Linguistics",
+      "Historical Linguistics",
+      "The Science of Dictionaries",
+      "Theoretical Linguistics Review",
+      "Analyze a Semiotic Structure"
+    ]
+  },
+  {
+    "u": "Classical Philosophy",
+    "lessons": [
+      "Neoplatonism in Arabic",
+      "Aristotelian Dialectics",
+      "Medieval Logic Systems",
+      "The Problem of Universals",
+      "Metaphysics of Existence",
+      "Reason vs. Revelation",
+      "Advanced Philosophy Review",
+      "Critique a Philosophical Fragment"
+    ]
+  },
+  {
+    "u": "Global Strategic Policy",
+    "lessons": [
+      "Geopolitics of the Middle East",
+      "UN Sustainable Goals",
+      "Global Governance Architect",
+      "Cyber Warfare Policy",
+      "Resource Scarcity Security",
+      "Non-State Actors Roles",
+      "Strategic Policy Review",
+      "Draft a Strategic Forecast"
+    ]
+  },
+  {
+    "u": "High Literature",
+    "lessons": [
+      "Exegesis of the Mu'allaqat",
+      "Modern Arab Realism",
+      "Post-Modernist Narratives",
+      "Symbolism in Poetry",
+      "Theatre of the Absurd",
+      "Literary Hermeneutics",
+      "High Literature Review",
+      "Perform a Literary Deconstruction"
+    ]
+  },
+  {
+    "u": "Intercultural Hermeneutics",
+    "lessons": [
+      "Theories of Translation",
+      "Orientalism & Representation",
+      "Cultural Hybridity",
+      "Translation Ethics",
+      "The Dialogue of Civilizations",
+      "Decolonizing Knowledge",
+      "Hermeneutics Review",
+      "Translate a Technical Abstract"
+    ]
+  },
+  {
+    "u": "Complex Data Analysis",
+    "lessons": [
+      "Advanced Statistics in Social Science",
+      "Research Design Optimization",
+      "Data Ethics & Governance",
+      "Algorithmic Bias Case Study",
+      "Big Data in Public Policy",
+      "Mastering Research Tools",
+      "Data Terms Review",
+      "Design a Longitudinal Study"
+    ]
+  },
+  {
+    "u": "Mastery Capstone",
+    "lessons": [
+      "The Academic Thesis (Overview)",
+      "Argumentation & Debate",
+      "Public Oratory Skills",
+      "Professional Mentoring",
+      "Writing for High Impact",
+      "Global Networking Mastery",
+      "Mastery Review",
+      "Defend Your Capstone Thesis"
+    ]
+  }
+]
