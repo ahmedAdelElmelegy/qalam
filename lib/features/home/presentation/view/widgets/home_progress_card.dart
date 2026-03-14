@@ -51,7 +51,7 @@ class HomeProgressCard extends StatelessWidget {
                           context.read<HomeProgressCubit>().getProgress(userId),
                       icon: const Icon(Icons.refresh, color: Colors.white),
                       label: Text(
-                        'retry'.tr(),
+                        'retry'.tr(context: context),
                         style: const TextStyle(color: Colors.white),
                       ),
                       style: TextButton.styleFrom(
@@ -157,7 +157,7 @@ class HomeProgressCard extends StatelessWidget {
                                         ),
                                       ),
                                       Text(
-                                        'complete'.tr(),
+                                        'complete'.tr(context: context),
                                         style: AppTextStyles.bodySmall.copyWith(
                                           fontSize: 10.sp,
                                           color: Colors.white.withValues(
@@ -178,7 +178,7 @@ class HomeProgressCard extends StatelessWidget {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      'your_progress'.tr(),
+                                      'your_progress'.tr(context: context),
                                       style: AppTextStyles.h3.copyWith(
                                         fontWeight: FontWeight.bold,
                                         fontSize: 18.sp,
@@ -189,7 +189,7 @@ class HomeProgressCard extends StatelessWidget {
                                       children: [
                                         _buildCompactStat(
                                           progressData.activeDays.toString(),
-                                          'day_streak'.tr(),
+                                          'day_streak'.tr(context: context),
                                           Icons.local_fire_department_rounded,
                                           const Color(0xFFFF6B6B),
                                         ),
@@ -197,14 +197,14 @@ class HomeProgressCard extends StatelessWidget {
                                         _buildCompactStat(
                                           progressData.completedLessonsCount
                                               .toString(),
-                                          'lessons'.tr(),
+                                          'lessons'.tr(context: context),
                                           Icons.book_rounded,
                                           AppColors.accentGold,
                                         ),
                                         SizedBox(width: 12.w),
                                         _buildCompactStat(
                                           progressData.totalXp.toString(),
-                                          'xp'.tr(),
+                                          'xp'.tr(context: context),
                                           Icons.star_rounded,
 
                                           const Color(0xFFFFD700),

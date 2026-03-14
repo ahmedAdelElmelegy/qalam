@@ -53,11 +53,6 @@ class _FoodScreenState extends State<FoodScreen>
           final startT = 150.h / height;
           _avatarController.animateTo(startT, duration: 1.seconds);
         }
-        if (state.errorMessage != null) {
-          ScaffoldMessenger.of(
-            context,
-          ).showSnackBar(SnackBar(content: Text(state.errorMessage!)));
-        }
       },
       builder: (context, state) {
         return Scaffold(

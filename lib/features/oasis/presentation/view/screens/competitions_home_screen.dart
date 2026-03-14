@@ -385,7 +385,7 @@ class _CompetitionCardState extends State<_CompetitionCard> {
                         const Spacer(),
                         Text(
                           widget.data.title,
-                          style: AppTextStyles.h4.copyWith(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 14.sp, letterSpacing: -0.3),
+                          style: AppTextStyles.h4.copyWith(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 14.sp),
                           maxLines: 1, overflow: TextOverflow.ellipsis,
                         ),
                         SizedBox(height: 3.h),

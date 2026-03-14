@@ -1,4 +1,5 @@
 import 'package:arabic/core/helpers/extentions.dart';
+import 'package:arabic/core/utils/network_checker.dart';
 import 'package:arabic/core/theme/colors.dart';
 import 'package:arabic/features/city/presentation/view/screens/city_screen.dart';
 import 'package:arabic/features/clothing/presentation/screens/clothing_screen.dart';
@@ -45,7 +46,14 @@ class _CultureIslandScreenState extends State<CultureIslandScreen>
   @override
   Widget build(BuildContext context) {
     return BlocConsumer<CultureCubit, CultureState>(
-      listener: (context, state) {
+      listener: (context, state) async {
+        if (state is CultureError) {
+          if (!await NetworkChecker.hasConnection()) {
+            if (context.mounted) {
+              NetworkChecker.showNoNetworkDialog(context);
+            }
+          }
+        }
         if (state is CultureLoaded && state.selectedZone != null) {
           final index = state.zones.indexWhere(
             (z) => z.id == state.selectedZone!.id,

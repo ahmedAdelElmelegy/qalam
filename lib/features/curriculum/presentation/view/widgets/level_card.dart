@@ -233,7 +233,6 @@ class _LevelCardState extends State<LevelCard> {
                                           : Colors.white,
                                       fontWeight: FontWeight.bold,
                                       fontSize: 15.sp,
-                                      letterSpacing: -0.3,
                                     ),
                                     maxLines: 1,
                                     overflow: TextOverflow.ellipsis,

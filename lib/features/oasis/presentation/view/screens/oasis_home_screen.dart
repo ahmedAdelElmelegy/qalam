@@ -293,7 +293,7 @@ class _OasisHeroCardState extends State<_OasisHeroCard> {
                                 Text(widget.feature.title,
                                   style: AppTextStyles.h4.copyWith(
                                     color: Colors.white, fontWeight: FontWeight.bold,
-                                    fontSize: 18.sp, letterSpacing: -0.5,
+                                    fontSize: 18.sp,
                                   ),
                                 ),
                                 SizedBox(height: 4.h),
@@ -409,7 +409,7 @@ class _OasisMiniCardState extends State<_OasisMiniCard> {
                             Text(widget.feature.title,
                               style: AppTextStyles.h4.copyWith(
                                 color: Colors.white, fontWeight: FontWeight.bold,
-                                fontSize: 14.sp, letterSpacing: -0.3,
+                                fontSize: 14.sp,
                               ),
                               maxLines: 1, overflow: TextOverflow.ellipsis,
                             ),

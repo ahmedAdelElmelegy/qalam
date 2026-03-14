@@ -90,7 +90,6 @@ class VirtualGalleryScreen extends StatelessWidget {
                               style: AppTextStyles.h2.copyWith(
                                 color: Colors.white,
                                 fontSize: 28.sp,
-                                letterSpacing: 1,
                               ),
                               textAlign: TextAlign.center,
                             ).animate().fadeIn().slideY(begin: 0.2, end: 0),
@@ -259,9 +258,8 @@ class VirtualGalleryScreen extends StatelessWidget {
                                       fontSize: 18.sp,
                                       fontWeight: FontWeight.bold,
                                       color: Colors.white,
-                                      letterSpacing: 0.5,
                                     ),
-                                    maxLines: 1,
+                                    maxLines: 2,
                                     overflow: TextOverflow.ellipsis,
                                   ),
                                 ),

@@ -1,3 +1,4 @@
+import 'package:arabic/core/network/data_source/remote/exception/api_error_handeler.dart';
 import 'package:arabic/core/services/groq_places_service.dart';
 import 'package:arabic/features/museum/data/models/virtual%20gallery/ai%20generated/model/virtual_gallery_mappers.dart';
 import 'package:arabic/features/museum/data/models/virtual%20gallery/ai%20generated/request_body/translation.dart';
@@ -113,6 +114,7 @@ class MuseumCubit extends Cubit<MuseumState> {
             selectedCategory: category,
             currentContent: content,
             isContentLoading: false,
+            clearError: true,
           ),
         );
       } catch (e) {
@@ -139,7 +141,7 @@ class MuseumCubit extends Cubit<MuseumState> {
     // Don't re-load if we already have data
     if (currentState.aiPlaces.isNotEmpty) return;
 
-    emit(currentState.copyWith(isLoadingFromApi: true, apiError: null));
+    emit(currentState.copyWith(isLoadingFromApi: true, clearApiError: true));
 
     await _fetchApiPlacesPage(page: 1, replace: true);
   }
@@ -156,7 +158,7 @@ class MuseumCubit extends Cubit<MuseumState> {
         currentApiPage: 0,
         apiTotalPages: 1,
         isLoadingFromApi: true,
-        apiError: null,
+        clearApiError: true,
       ),
     );
 
@@ -176,7 +178,7 @@ class MuseumCubit extends Cubit<MuseumState> {
 
     if (nextPage <= currentState.apiTotalPages) {
       // ── More API pages exist → fetch
-      emit(currentState.copyWith(isLoadingFromApi: true, apiError: null));
+      emit(currentState.copyWith(isLoadingFromApi: true, clearApiError: true));
       await _fetchApiPlacesPage(page: nextPage, replace: false);
     } else {
       // ── API exhausted → generate with Groq AI
@@ -224,6 +226,7 @@ class MuseumCubit extends Cubit<MuseumState> {
                 // Mark total pages = 1 so further triggers → AI generation.
                 apiTotalPages: 1,
                 currentApiPage: 1,
+                clearApiError: true,
               ),
             );
           }
@@ -243,7 +246,7 @@ class MuseumCubit extends Cubit<MuseumState> {
   }
 
   Future<void> _generateAiPlaces(MuseumLoaded currentState) async {
-    emit(currentState.copyWith(isAiLoading: true, aiError: null));
+    emit(currentState.copyWith(isAiLoading: true, clearAiError: true));
 
     try {
       final Set<String> previousNames = currentState.aiPlaces
@@ -261,6 +264,7 @@ class MuseumCubit extends Cubit<MuseumState> {
           s.copyWith(
             aiPlaces: [...s.aiPlaces, ...newPlaces],
             isAiLoading: false,
+            clearAiError: true,
           ),
         );
       }
@@ -272,7 +276,9 @@ class MuseumCubit extends Cubit<MuseumState> {
       if (state is MuseumLoaded) {
         emit(
           (state as MuseumLoaded).copyWith(
-            aiError: 'Failed to generate places: ${e.toString()}',
+            aiError: ApiErrorHandler.getUserMessage(
+              ApiErrorHandler.handleError(e),
+            ),
             isAiLoading: false,
           ),
         );
@@ -283,7 +289,7 @@ class MuseumCubit extends Cubit<MuseumState> {
   /// Legacy method kept for compatibility; delegates to [_generateAiPlaces].
   Future<void> loadAiPlaces({bool isLoadMore = false}) async {
     if (state is! MuseumLoaded) return;
-    
+
     if (!isLoadMore) {
       await _generateAiPlaces(state as MuseumLoaded);
     } else {
@@ -297,7 +303,7 @@ class MuseumCubit extends Cubit<MuseumState> {
     final currentState = state as MuseumLoaded;
     if (currentState.isAiLoading) return;
 
-    emit(currentState.copyWith(isAiLoading: true, aiError: null));
+    emit(currentState.copyWith(isAiLoading: true, clearAiError: true));
 
     try {
       final newPlace = await _groqPlacesService.generatePlaceByName(placeName);
@@ -308,6 +314,7 @@ class MuseumCubit extends Cubit<MuseumState> {
             aiPlaces: [newPlace, ...s.aiPlaces],
             selectedPlace: newPlace,
             isAiLoading: false,
+            clearAiError: true,
           ),
         );
       }
@@ -316,7 +323,9 @@ class MuseumCubit extends Cubit<MuseumState> {
       if (state is MuseumLoaded) {
         emit(
           (state as MuseumLoaded).copyWith(
-            aiError: 'Failed to create place: ${e.toString()}',
+            aiError: ApiErrorHandler.getUserMessage(
+              ApiErrorHandler.handleError(e),
+            ),
             isAiLoading: false,
           ),
         );
@@ -340,6 +349,7 @@ class MuseumCubit extends Cubit<MuseumState> {
         isLoadingSentencesFromApi: true,
         sentenceApiTotalPages: 1,
         currentSentenceApiPage: 1,
+        clearSentenceError: true,
       ),
     );
 
@@ -361,7 +371,7 @@ class MuseumCubit extends Cubit<MuseumState> {
 
     if (nextPage <= currentState.sentenceApiTotalPages) {
       // ── More API pages exist → fetch
-      emit(currentState.copyWith(isLoadingSentencesFromApi: true));
+      emit(currentState.copyWith(isLoadingSentencesFromApi: true, clearSentenceError: true));
       await _fetchApiSentencesPage(
         placeId: place.id,
         page: nextPage,
@@ -398,7 +408,9 @@ class MuseumCubit extends Cubit<MuseumState> {
             emit(
               (state as MuseumLoaded).copyWith(
                 isLoadingSentencesFromApi: false,
-                sentenceError: error.toString(),
+                sentenceError: ApiErrorHandler.getUserMessage(
+                  ApiErrorHandler.handleError(error),
+                ),
               ),
             );
           }
@@ -430,6 +442,7 @@ class MuseumCubit extends Cubit<MuseumState> {
                   isLoadingSentencesFromApi: false,
                   sentenceApiTotalPages: response.data.totalPages,
                   currentSentenceApiPage: response.data.pageNumber,
+                  clearSentenceError: true,
                 ),
               );
             } else {
@@ -444,7 +457,9 @@ class MuseumCubit extends Cubit<MuseumState> {
         emit(
           (state as MuseumLoaded).copyWith(
             isLoadingSentencesFromApi: false,
-            sentenceError: e.toString(),
+            sentenceError: ApiErrorHandler.getUserMessage(
+              ApiErrorHandler.handleError(e),
+            ),
           ),
         );
       }
@@ -455,7 +470,7 @@ class MuseumCubit extends Cubit<MuseumState> {
     if (state is! MuseumLoaded) return;
     final currentState = state as MuseumLoaded;
     emit(
-      currentState.copyWith(isGeneratingSentences: true, sentenceError: null),
+      currentState.copyWith(isGeneratingSentences: true, clearSentenceError: true),
     );
 
     try {
@@ -483,6 +498,7 @@ class MuseumCubit extends Cubit<MuseumState> {
             aiPlaces: updatedAiPlaces,
             selectedPlace: updatedPlace,
             isGeneratingSentences: false,
+            clearSentenceError: true,
           ),
         );
       }
@@ -499,7 +515,9 @@ class MuseumCubit extends Cubit<MuseumState> {
       if (state is MuseumLoaded) {
         emit(
           (state as MuseumLoaded).copyWith(
-            sentenceError: 'Failed to generate sentences: ${e.toString()}',
+            sentenceError: ApiErrorHandler.getUserMessage(
+              ApiErrorHandler.handleError(e),
+            ),
             isGeneratingSentences: false,
           ),
         );
@@ -517,7 +535,7 @@ class MuseumCubit extends Cubit<MuseumState> {
     if (currentState.isGeneratingSentences) return;
 
     emit(
-      currentState.copyWith(isGeneratingSentences: true, sentenceError: null),
+      currentState.copyWith(isGeneratingSentences: true, clearSentenceError: true),
     );
 
     try {
@@ -539,6 +557,7 @@ class MuseumCubit extends Cubit<MuseumState> {
             aiPlaces: updatedAiPlaces,
             selectedPlace: updatedPlace,
             isGeneratingSentences: false,
+            clearSentenceError: true,
           ),
         );
       }
@@ -553,7 +572,9 @@ class MuseumCubit extends Cubit<MuseumState> {
       if (state is MuseumLoaded) {
         emit(
           (state as MuseumLoaded).copyWith(
-            sentenceError: 'Failed to create sentence: ${e.toString()}',
+            sentenceError: ApiErrorHandler.getUserMessage(
+              ApiErrorHandler.handleError(e),
+            ),
             isGeneratingSentences: false,
           ),
         );
@@ -620,12 +641,7 @@ class MuseumCubit extends Cubit<MuseumState> {
     try {
       final translations = localizedNames.entries
           .where((e) => e.value.isNotEmpty)
-          .map(
-            (e) => TranslationSentence(
-              languageCode: e.key,
-              text: e.value,
-            ),
-          )
+          .map((e) => TranslationSentence(languageCode: e.key, text: e.value))
           .toList();
 
       final request = VirtualGallerySentenceRequest(

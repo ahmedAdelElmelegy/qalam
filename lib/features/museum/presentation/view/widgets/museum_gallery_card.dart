@@ -164,7 +164,6 @@ class MuseumGalleryCard extends StatelessWidget {
                                       color: AppColors.accentGold,
                                       fontWeight: FontWeight.bold,
                                       fontSize: 10.sp,
-                                      letterSpacing: 1,
                                     ),
                                   ),
                                 ],

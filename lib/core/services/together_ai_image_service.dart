@@ -79,7 +79,7 @@ class TogetherAiImageService {
       final response = await http.post(
         Uri.parse(_baseUrl),
         headers: {
-          'Authorization': 'Bearer $_apiKey',
+          'Authorization': 'Bearer ${_apiKey.trim()}',
           'Content-Type': 'application/json',
         },
         body: jsonEncode({

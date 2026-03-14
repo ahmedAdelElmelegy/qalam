@@ -8,11 +8,9 @@ import 'package:arabic/features/chat/data/models/chat_message_model.dart'
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class GroqChatService {
-  static final String _apiKey = dotenv.env['GROQ_API_KEY'] ?? '';
-  static const String _baseUrl =
-      'https://api.groq.com/openai/v1/chat/completions';
-  static const String _model =
-      'llama-3.3-70b-versatile'; // Standard fast Groq model
+  static String get _apiKey => dotenv.env['TOGETHER_AI_API_KEY']?.trim() ?? '';
+  static const String _baseUrl = 'https://api.together.xyz/v1/chat/completions';
+  static const String _model = 'Qwen/Qwen3-235B-A22B-Instruct-2507-tput';
 
   /// Generates a response with smart correction if needed.
   Future<Map<String, dynamic>> sendMessage({
@@ -113,7 +111,6 @@ RULES:
       throw Exception('Failed to get chat response: $e');
     }
   }
-
 
   /// Generates a structured RoleplayScenario based on a user prompt.
   Future<RoleplayScenario> generateScenario(String userPrompt) async {
@@ -239,10 +236,7 @@ OUTPUT FORMAT (JSON):
     }
 
     final List<Map<String, String>> messages = [
-      {
-        'role': 'system',
-        'content': systemPrompt,
-      },
+      {'role': 'system', 'content': systemPrompt},
     ];
 
     for (var msg in history.take(10)) {

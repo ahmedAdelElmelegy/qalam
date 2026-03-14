@@ -1,7 +1,8 @@
+import 'package:arabic/core/helpers/show_snake_bar.dart';
 import 'package:arabic/core/utils/local_storage.dart';
+import 'package:arabic/core/utils/network_checker.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'dart:ui';
-
 import 'package:arabic/core/helpers/extentions.dart';
 import 'package:arabic/core/theme/colors.dart';
 import 'package:arabic/core/theme/style.dart';
@@ -9,6 +10,7 @@ import 'package:arabic/features/home/presentation/view/widgets/bg_3d.dart';
 import 'package:arabic/features/museum/presentation/manager/add%20by%20ai/museum_cubit.dart';
 import 'package:arabic/features/museum/presentation/manager/add%20by%20ai/museum_state.dart';
 import 'package:arabic/features/museum/presentation/view/screens/place_details_screen.dart';
+import 'package:arabic/features/museum/presentation/view/widgets/museum_error_dialog.dart';
 import 'package:arabic/features/museum/presentation/view/widgets/museum_gallery_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -91,6 +93,7 @@ class _AiGeneratedGalleryScreenState extends State<AiGeneratedGalleryScreen> {
     return Scaffold(
       backgroundColor: AppColors.primaryNavy,
       extendBodyBehindAppBar: true,
+      // app bar
       appBar: AppBar(
         title: Text('ai_gallery_screen_title'.tr()),
         backgroundColor: Colors.transparent,
@@ -111,6 +114,7 @@ class _AiGeneratedGalleryScreenState extends State<AiGeneratedGalleryScreen> {
         actions: [
           BlocBuilder<MuseumCubit, MuseumState>(
             builder: (context, state) {
+              // for loading
               if (state is MuseumLoaded && state.isAiLoading) {
                 return Padding(
                   padding: EdgeInsets.only(right: 16.w),
@@ -135,12 +139,51 @@ class _AiGeneratedGalleryScreenState extends State<AiGeneratedGalleryScreen> {
           const Background3D(),
 
           BlocConsumer<MuseumCubit, MuseumState>(
-            listener: (context, state) {
-              if (state is MuseumLoaded &&
-                  state.aiPlaces.isEmpty &&
-                  !state.isLoadingFromApi &&
-                  !state.isAiLoading) {
-                context.read<MuseumCubit>().initGallery();
+            listener: (context, state) async {
+              if (state is MuseumError) {
+                final hasConnection = await NetworkChecker.hasConnection();
+                if (!context.mounted) return;
+
+                if (!hasConnection) {
+                  NetworkChecker.showNoNetworkDialog(context);
+                } else {
+                  MuseumErrorDialog.show(
+                    context,
+                    state.message,
+                    onRetry: () {
+                      context.read<MuseumCubit>().loadMuseumData();
+                    },
+                  );
+                }
+              }
+
+              if (state is MuseumLoaded) {
+                // Handle API or AI generation errors
+                if (state.apiError != null || state.aiError != null) {
+                  // If we have data, show a snackbar. If not, the builder handles it.
+                  if (state.aiPlaces.isNotEmpty) {
+                    final hasConnection = await NetworkChecker.hasConnection();
+                    if (!context.mounted) return;
+
+                    if (!hasConnection) {
+                      NetworkChecker.showNoNetworkDialog(context);
+                    } else {
+                      AppSnakeBar.showErrorMessage(
+                        context,
+                        state.apiError ?? state.aiError!,
+                      );
+                    }
+                  }
+                }
+
+                // Initial load bridge
+                if (state.aiPlaces.isEmpty &&
+                    !state.isLoadingFromApi &&
+                    !state.isAiLoading &&
+                    state.apiError == null &&
+                    state.aiError == null) {
+                  context.read<MuseumCubit>().initGallery();
+                }
               }
             },
             builder: (context, state) {
@@ -162,12 +205,59 @@ class _AiGeneratedGalleryScreenState extends State<AiGeneratedGalleryScreen> {
                         ),
                         SizedBox(height: 16.h),
                         Text(
-                          'gemini_curating'.tr(),
+                          'Loading...'.tr(),
                           style: AppTextStyles.bodyMedium.copyWith(
                             color: Colors.white70,
                           ),
                         ).animate().fadeIn(),
                       ],
+                    ),
+                  );
+                } else if (state.apiError != null || state.aiError != null) {
+                  // Error state when list is empty
+                  return Center(
+                    child: Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 24.w),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Icon(
+                            Icons.error_outline_rounded,
+                            size: 60.w,
+                            color: AppColors.error.withValues(alpha: 0.6),
+                          ),
+                          SizedBox(height: 16.h),
+                          Text(
+                            state.apiError ?? state.aiError!,
+                            textAlign: TextAlign.center,
+                            style: AppTextStyles.bodyMedium.copyWith(
+                              color: Colors.white70,
+                            ),
+                          ),
+                          SizedBox(height: 16.h),
+                          ElevatedButton.icon(
+                            onPressed: () {
+                              if (state.apiError != null) {
+                                context.read<MuseumCubit>().initGallery();
+                              } else {
+                                context.read<MuseumCubit>().loadMorePlaces();
+                              }
+                            },
+                            icon: const Icon(
+                              Icons.refresh,
+                              color: Colors.black,
+                            ),
+                            label: Text('try_again'.tr()),
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: AppColors.accentGold,
+                              foregroundColor: Colors.black,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(12),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                   );
                 } else {
@@ -209,85 +299,64 @@ class _AiGeneratedGalleryScreenState extends State<AiGeneratedGalleryScreen> {
                 children: [
                   SizedBox(height: 120.h),
 
-                    // Dynamic Header
-                    RepaintBoundary(
-                      child: Padding(
-                        padding: EdgeInsets.symmetric(horizontal: 40.w),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
+                  // Dynamic Header
+                  Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 40.w),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
                           children: [
-                            Row(
-                              children: [
-                                Icon(
-                                  Icons.auto_awesome,
-                                  color: const Color(0xFF00FFFF),
-                                  size: 16.sp,
-                                ),
-                                SizedBox(width: 8.w),
-                                Text(
-                                  'ai_generated_label'.tr(),
-                                  style: AppTextStyles.bodySmall.copyWith(
-                                    color: const Color(0xFF00FFFF),
-                                    letterSpacing: 2,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                              ],
+                            Icon(
+                              Icons.auto_awesome,
+                              color: const Color(0xFF00FFFF),
+                              size: 16.sp,
                             ),
-                            SizedBox(height: 8.h),
+                            SizedBox(width: 8.w),
                             Text(
-                              'endless_exploration'.tr(),
-                              style: AppTextStyles.bodyMedium.copyWith(
-                                color: Colors.white70,
+                              'ai_generated_label'.tr(),
+                              style: AppTextStyles.bodySmall.copyWith(
+                                color: const Color(0xFF00FFFF),
+                                letterSpacing: 2,
+                                fontWeight: FontWeight.bold,
                               ),
                             ),
                           ],
                         ),
-                      ),
-                    ).animate().fadeIn().slideX(),
+                        SizedBox(height: 8.h),
+                        Text(
+                          'endless_exploration'.tr(),
+                          style: AppTextStyles.bodyMedium.copyWith(
+                            color: Colors.white70,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ).animate().fadeIn().slideX(),
 
-                    Expanded(
-                      child: PageView.builder(
-                        controller: _pageController,
-                        itemCount:
-                            state.aiPlaces.length + (showLoadingCard ? 1 : 0),
-                        itemBuilder: (context, index) {
-                          // Calculate 3D transformation
-                          double relativePosition = index - _currentPage;
-                          double scale = (1 - (relativePosition.abs() * 0.15))
-                              .clamp(0.0, 1.0);
-                          double rotation = (relativePosition * 0.3).clamp(
-                            -1.0,
-                            1.0,
-                          );
-                          double opacity = (1 - (relativePosition.abs() * 0.5))
-                              .clamp(0.0, 1.0);
+                  Expanded(
+                    child: PageView.builder(
+                      controller: _pageController,
+                      itemCount:
+                          state.aiPlaces.length + (showLoadingCard ? 1 : 0),
+                      itemBuilder: (context, index) {
+                        // Calculate 3D transformation
+                        double relativePosition = index - _currentPage;
+                        double scale = (1 - (relativePosition.abs() * 0.15))
+                            .clamp(0.0, 1.0);
+                        double rotation = (relativePosition * 0.3).clamp(
+                          -1.0,
+                          1.0,
+                        );
+                        double opacity = (1 - (relativePosition.abs() * 0.5))
+                            .clamp(0.0, 1.0);
 
-                          // If it's the loading card
-                          if (index == state.aiPlaces.length) {
-                            return RepaintBoundary(
-                              child: Transform(
-                                transform: Matrix4.identity()
-                                  ..setEntry(3, 2, 0.001)
-                                  ..rotateY(rotation)
-                                  ..multiply(
-                                    Matrix4.diagonal3Values(scale, scale, 1.0),
-                                  ),
-                                alignment: Alignment.center,
-                                child: Opacity(
-                                  opacity: opacity,
-                                  child: _buildLoadingCard(),
-                                ),
-                              ),
-                            );
-                          }
-
-                          final place = state.aiPlaces[index];
-
+                        // If it's the loading card
+                        if (index == state.aiPlaces.length) {
                           return RepaintBoundary(
                             child: Transform(
                               transform: Matrix4.identity()
-                                ..setEntry(3, 2, 0.001) // Perspective
+                                ..setEntry(3, 2, 0.001)
                                 ..rotateY(rotation)
                                 ..multiply(
                                   Matrix4.diagonal3Values(scale, scale, 1.0),
@@ -295,19 +364,36 @@ class _AiGeneratedGalleryScreenState extends State<AiGeneratedGalleryScreen> {
                               alignment: Alignment.center,
                               child: Opacity(
                                 opacity: opacity,
-                                child: MuseumGalleryCard(
-                                  place: place,
-                                  onTap: () {
-                                    context.read<MuseumCubit>().selectPlace(place);
-                                    context.push(PlaceDetailsScreen(place: place));
-                                  },
-                                ),
+                                child: _buildLoadingCard(),
                               ),
                             ),
                           );
-                        },
-                      ),
+                        }
+
+                        final place = state.aiPlaces[index];
+
+                        return Transform(
+                          transform: Matrix4.identity()
+                            ..setEntry(3, 2, 0.001) // Perspective
+                            ..rotateY(rotation)
+                            ..multiply(
+                              Matrix4.diagonal3Values(scale, scale, 1.0),
+                            ),
+                          alignment: Alignment.center,
+                          child: Opacity(
+                            opacity: opacity,
+                            child: MuseumGalleryCard(
+                              place: place,
+                              onTap: () {
+                                context.read<MuseumCubit>().selectPlace(place);
+                                context.push(PlaceDetailsScreen(place: place));
+                              },
+                            ),
+                          ),
+                        );
+                      },
                     ),
+                  ),
 
                   // Progress Indicator
                   if (state.aiPlaces.isNotEmpty)

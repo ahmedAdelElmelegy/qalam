@@ -6,10 +6,9 @@ import 'package:arabic/features/roleplay/data/models/roleplay_response_model.dar
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class VoiceRoleplayService {
-  static final String _apiKey = dotenv.env['GROQ_API_KEY'] ?? '';
-  static const String _baseUrl =
-      'https://api.groq.com/openai/v1/chat/completions';
-  static const String _model = 'llama-3.3-70b-versatile';
+  static String get _apiKey => dotenv.env['TOGETHER_AI_API_KEY']?.trim() ?? '';
+  static const String _baseUrl = 'https://api.together.xyz/v1/chat/completions';
+  static const String _model = 'Qwen/Qwen3-235B-A22B-Instruct-2507-tput';
 
   final String _baseStrictRules = '''
 You are an Arabic Voice Roleplay Tutor for non-native learners.

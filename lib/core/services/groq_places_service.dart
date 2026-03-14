@@ -9,10 +9,9 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 /// Service to generate unique places using Groq AI
 class GroqPlacesService {
-  static final String _apiKey = dotenv.env['GROQ_API_KEY'] ?? '';
-  static const String _baseUrl =
-      'https://api.groq.com/openai/v1/chat/completions';
-  static const String _model = 'llama-3.3-70b-versatile';
+  static String get _apiKey => dotenv.env['TOGETHER_AI_API_KEY']?.trim() ?? '';
+  static const String _baseUrl = 'https://api.together.xyz/v1/chat/completions';
+  static const String _model = 'Qwen/Qwen3-235B-A22B-Instruct-2507-tput';
 
   final TogetherAiImageService _imageService = TogetherAiImageService();
 
@@ -336,7 +335,7 @@ Return JSON object matching:
         Uri.parse(_baseUrl),
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': 'Bearer $_apiKey',
+          'Authorization': 'Bearer ${_apiKey.trim()}',
         },
         body: jsonEncode({
           'model': _model,

@@ -48,13 +48,7 @@ class _HistoryTimelineScreenState extends State<HistoryTimelineScreen>
   @override
   Widget build(BuildContext context) {
     return BlocConsumer<HistoryCubit, HistoryState>(
-      listener: (context, state) {
-        if (state.errorMessage != null) {
-          ScaffoldMessenger.of(
-            context,
-          ).showSnackBar(SnackBar(content: Text(state.errorMessage!)));
-        }
-      },
+      listener: (context, state) {},
       builder: (context, state) {
         return Scaffold(
           backgroundColor: AppColors.primaryNavy,
@@ -66,7 +60,40 @@ class _HistoryTimelineScreenState extends State<HistoryTimelineScreen>
               if (state.status == HistoryStatus.loading)
                 const CustomLoadingWidget()
               else if (state.status == HistoryStatus.error)
-                const Center(child: Text('Error loading history'))
+                Center(
+                  child: Padding(
+                    padding: EdgeInsets.all(24.w),
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Icon(
+                          Icons.error_outline,
+                          color: Colors.red,
+                          size: 48.w,
+                        ),
+                        SizedBox(height: 16.h),
+                        Text(
+                          'Error loading history data',
+                          style: AppTextStyles.h3.copyWith(color: Colors.white),
+                        ),
+                        SizedBox(height: 8.h),
+                        Text(
+                          state.errorMessage ?? 'Unknown error',
+                          textAlign: TextAlign.center,
+                          style: AppTextStyles.bodyMedium.copyWith(
+                            color: Colors.white70,
+                          ),
+                        ),
+                        SizedBox(height: 24.h),
+                        ElevatedButton(
+                          onPressed: () =>
+                              context.read<HistoryCubit>().loadHistory(),
+                          child: const Text('Retry'),
+                        ),
+                      ],
+                    ),
+                  ),
+                )
               else
                 _buildJourneyContent(state),
 

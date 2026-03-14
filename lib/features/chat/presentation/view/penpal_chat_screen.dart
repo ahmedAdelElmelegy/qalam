@@ -130,7 +130,7 @@ class _PenpalChatViewState extends State<_PenpalChatView>
 
                 return Transform(
                   transform: Matrix4.identity()
-                    ..translate(isArabic ? -slide : slide, 0.0, 0.0)
+                    ..setTranslationRaw(isArabic ? -slide : slide, 0.0, 0.0)
                     ..scale(scale, scale, 1.0)
                     ..rotateY(isArabic ? -rotation : rotation),
                   alignment: isArabic

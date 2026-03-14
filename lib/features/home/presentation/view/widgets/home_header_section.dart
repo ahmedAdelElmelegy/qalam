@@ -1,11 +1,12 @@
 import 'package:arabic/core/helpers/extentions.dart';
 import 'package:arabic/core/theme/colors.dart';
 import 'package:arabic/core/theme/style.dart';
-import 'package:arabic/core/utils/local_storage.dart';
 import 'package:arabic/features/settings/presentation/view/screens/settings_screen.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:arabic/features/settings/presentation/manager/get%20profile/get_profile_cubit.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class HomeHeaderSection extends StatefulWidget {
@@ -18,20 +19,9 @@ class HomeHeaderSection extends StatefulWidget {
 }
 
 class _HomeHeaderSectionState extends State<HomeHeaderSection> {
-  String? _displayName;
-
   @override
   void initState() {
-    getDisplayName();
-
     super.initState();
-  }
-
-  void getDisplayName() async {
-    String name = await LocalStorage.getUserFullName() ?? '';
-    setState(() {
-      _displayName = name;
-    });
   }
 
   @override
@@ -60,42 +50,54 @@ class _HomeHeaderSectionState extends State<HomeHeaderSection> {
                 child: Row(
                   children: [
                     Expanded(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                                'greeting_name'.tr(
-                                  args: [_displayName ?? 'there!'],
-                                ),
-                                style: AppTextStyles.displayMedium.copyWith(
-                                  fontSize: 21.sp,
-                                  fontWeight: FontWeight.bold,
-                                  shadows: [
-                                    Shadow(
-                                      color: Colors.black.withValues(
-                                        alpha: 0.3,
-                                      ),
-                                      offset: const Offset(0, 2),
-                                      blurRadius: 8,
+                      child: BlocBuilder<GetProfileCubit, GetProfileState>(
+                        builder: (context, state) {
+                          String namePlaceholder = 'there!';
+                          if (state is GetProfileSuccess) {
+                            namePlaceholder = state.profile.fullName;
+                          }
+
+                          return Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                    'greeting_name'.tr(
+                                      context: context,
+                                      args: [namePlaceholder],
                                     ),
-                                  ],
-                                ),
-                              )
-                              .animate()
-                              .fadeIn(delay: 200.ms)
-                              .slideX(begin: -0.2, end: 0),
-                          SizedBox(height: 6.h),
-                          Text(
-                                'ready_to_continue'.tr(),
-                                style: AppTextStyles.bodyMedium.copyWith(
-                                  color: Colors.white.withValues(alpha: 0.8),
-                                  fontSize: 14.sp,
-                                ),
-                              )
-                              .animate()
-                              .fadeIn(delay: 300.ms)
-                              .slideX(begin: -0.2, end: 0),
-                        ],
+                                    style: AppTextStyles.displayMedium.copyWith(
+                                      fontSize: 21.sp,
+                                      fontWeight: FontWeight.bold,
+                                      shadows: [
+                                        Shadow(
+                                          color: Colors.black.withValues(
+                                            alpha: 0.3,
+                                          ),
+                                          offset: const Offset(0, 2),
+                                          blurRadius: 8,
+                                        ),
+                                      ],
+                                    ),
+                                  )
+                                  .animate()
+                                  .fadeIn(delay: 200.ms)
+                                  .slideX(begin: -0.2, end: 0),
+                              SizedBox(height: 6.h),
+                              Text(
+                                    'ready_to_continue'.tr(context: context),
+                                    style: AppTextStyles.bodyMedium.copyWith(
+                                      color: Colors.white.withValues(
+                                        alpha: 0.8,
+                                      ),
+                                      fontSize: 14.sp,
+                                    ),
+                                  )
+                                  .animate()
+                                  .fadeIn(delay: 300.ms)
+                                  .slideX(begin: -0.2, end: 0),
+                            ],
+                          );
+                        },
                       ),
                     ),
                     SizedBox(width: 12.w),

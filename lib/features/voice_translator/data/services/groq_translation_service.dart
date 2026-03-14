@@ -5,10 +5,10 @@ import 'package:http/http.dart' as http;
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class GroqTranslationService {
-  static final String _apiKey = dotenv.env['GROQ_API_KEY'] ?? '';
+  static String get _apiKey => dotenv.env['TOGETHER_AI_API_KEY']?.trim() ?? '';
   static const String _baseUrl =
-      'https://api.groq.com/openai/v1/chat/completions';
-  static const String _model = 'llama-3.3-70b-versatile';
+      'https://api.together.xyz/v1/chat/completions';
+  static const String _model = 'meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo';
 
   /// Translates [text] from [sourceLanguage] into Arabic.
   /// Returns a Map with 'arabic_response' (Arabic text) and 'translation' (Latin transliteration).

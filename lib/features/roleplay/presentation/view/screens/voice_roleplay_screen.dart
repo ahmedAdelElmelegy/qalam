@@ -85,16 +85,24 @@ class _VoiceRoleplayScreenState extends State<VoiceRoleplayScreen> with TickerPr
             child: SafeArea(
               bottom: false,
               child: BlocConsumer<VoiceRoleplayCubit, VoiceRoleplayState>(
-                listener: (context, state) {
+                listener: (context, state) async {
                   if (state is VoiceRoleplayError) {
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(
-                        content: Text(state.error.tr(), style: const TextStyle(color: Colors.white)),
-                        backgroundColor: Colors.redAccent.withValues(alpha: 0.9),
-                        behavior: SnackBarBehavior.floating,
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16.r)),
-                      ),
-                    );
+                    if (!await NetworkChecker.hasConnection()) {
+                      if (context.mounted) {
+                        NetworkChecker.showNoNetworkDialog(context);
+                      }
+                    } else {
+                      if (context.mounted) {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(
+                            content: Text(state.error.tr(), style: const TextStyle(color: Colors.white)),
+                            backgroundColor: Colors.redAccent.withValues(alpha: 0.9),
+                            behavior: SnackBarBehavior.floating,
+                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16.r)),
+                          ),
+                        );
+                      }
+                    }
                   }
                 },
                 builder: (context, state) {

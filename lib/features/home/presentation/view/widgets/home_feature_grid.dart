@@ -32,8 +32,8 @@ class HomeFeatureGrid extends StatelessWidget {
       ),
 
       _FeatureData(
-        title: 'chat_buddy_title'.tr(),
-        subtitle: 'chat_buddy_subtitle'.tr(),
+        title: 'chat_buddy_title'.tr(context: context),
+        subtitle: 'chat_buddy_subtitle'.tr(context: context),
         icon: Icons.chat_outlined,
         color: const Color(0xFFF59E0B), // Amber color
         route: BlocProvider(
@@ -282,7 +282,6 @@ class _FeatureCardState extends State<_FeatureCard>
                                         style: AppTextStyles.h4.copyWith(
                                           fontSize: 18.sp,
                                           fontWeight: FontWeight.bold,
-                                          letterSpacing: -0.5,
                                           shadows: [
                                             Shadow(
                                               color: Colors.black.withValues(

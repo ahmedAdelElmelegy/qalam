@@ -111,6 +111,12 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
         emailId: userId,
       );
     }
+    await LocalStorage.saveUserFullName(_nameController.text.trim());
+    await LocalStorage.saveUserAge(
+      int.tryParse(_ageController.text.trim()) ?? 0,
+    );
+    await LocalStorage.saveUserCountry(_countryController.text.trim());
+    await LocalStorage.saveUserLearningGoal(_goalController.text.trim());
   }
 
   @override
@@ -144,6 +150,14 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
           } else if (state is UpdateProfileSuccess) {
             setState(() => _isLoading = false);
             AppSnakeBar.showSuccessMessage(context, 'profile_updated'.tr());
+
+            // Refresh GetProfileCubit to update Home screen and other listeners
+            LocalStorage.getEmailId().then((userId) {
+              if (userId != null && userId != 0 && context.mounted) {
+                context.read<GetProfileCubit>().clearProfile();
+                context.read<GetProfileCubit>().getProfile(userId);
+              }
+            });
 
             context.pop();
           } else if (state is UpdateProfileFailure) {
@@ -191,7 +205,10 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                       children: [
                         // AppBar
                         Padding(
-                          padding: EdgeInsets.symmetric(horizontal: 20.w, vertical: 16.h),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 20.w,
+                            vertical: 16.h,
+                          ),
                           child: Row(
                             children: [
                               BackButton(
@@ -213,14 +230,17 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                               ).animate().fadeIn().slideX(begin: -0.2, end: 0),
                               SizedBox(width: 16.w),
                               Text(
-                                'edit_profile'.tr(),
-                                style: AppTextStyles.h2.copyWith(
-                                  color: Colors.white,
-                                  fontSize: 24.sp,
-                                  fontWeight: FontWeight.bold,
-                                  letterSpacing: 0.5,
-                                ),
-                              ).animate().fadeIn(delay: 100.ms).slideX(begin: 0.2, end: 0),
+                                    'edit_profile'.tr(),
+                                    style: AppTextStyles.h2.copyWith(
+                                      color: Colors.white,
+                                      fontSize: 24.sp,
+                                      fontWeight: FontWeight.bold,
+                                      letterSpacing: 0.5,
+                                    ),
+                                  )
+                                  .animate()
+                                  .fadeIn(delay: 100.ms)
+                                  .slideX(begin: 0.2, end: 0),
                               const Spacer(),
                               if (state is GetProfileLoading)
                                 SizedBox(
@@ -485,24 +505,31 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
       left: left,
       right: right,
       bottom: bottom,
-      child: Container(
-        width: size,
-        height: size,
-        decoration: BoxDecoration(
-          shape: BoxShape.circle,
-          color: color.withValues(alpha: 0.1),
-          boxShadow: [
-            BoxShadow(
-              color: color.withValues(alpha: 0.2),
-              blurRadius: size / 2,
-              spreadRadius: size / 4,
-            )
-          ]
-        ),
-      ).animate(onPlay: (c) => c.repeat(reverse: true))
-       .fadeIn(delay: delay.ms, duration: 2.seconds)
-       .scale()
-       .moveY(begin: 0, end: 20, duration: 4.seconds, curve: Curves.easeInOutSine),
+      child:
+          Container(
+                width: size,
+                height: size,
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  color: color.withValues(alpha: 0.1),
+                  boxShadow: [
+                    BoxShadow(
+                      color: color.withValues(alpha: 0.2),
+                      blurRadius: size / 2,
+                      spreadRadius: size / 4,
+                    ),
+                  ],
+                ),
+              )
+              .animate(onPlay: (c) => c.repeat(reverse: true))
+              .fadeIn(delay: delay.ms, duration: 2.seconds)
+              .scale()
+              .moveY(
+                begin: 0,
+                end: 20,
+                duration: 4.seconds,
+                curve: Curves.easeInOutSine,
+              ),
     );
   }
 }

@@ -53,40 +53,57 @@ class _VoiceTranslatorView extends StatelessWidget {
           const Positioned.fill(child: Background3D()),
           HomeBackground(
             child: SafeArea(
-              child: Column(
-                children: [
-                  Expanded(
-                    child:
-                        BlocBuilder<VoiceTranslatorCubit, VoiceTranslatorState>(
-                          builder: (context, state) {
-                            return ListView(
-                              padding: EdgeInsets.symmetric(
-                                horizontal: 24.w,
-                                vertical: 16.h,
-                              ),
-                              children: [
-                                // Language Selector
-                                _buildLanguageSelector(context, state),
+              child: BlocListener<VoiceTranslatorCubit, VoiceTranslatorState>(
+                listener: (context, state) async {
+                  if (state is VoiceTranslatorError) {
+                    if (!await NetworkChecker.hasConnection()) {
+                      if (context.mounted) {
+                        NetworkChecker.showNoNetworkDialog(context);
+                      }
+                    } else {
+                      if (context.mounted) {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(content: Text(state.error)),
+                        );
+                      }
+                    }
+                  }
+                },
+                child: Column(
+                  children: [
+                    Expanded(
+                      child:
+                          BlocBuilder<VoiceTranslatorCubit, VoiceTranslatorState>(
+                            builder: (context, state) {
+                              return ListView(
+                                padding: EdgeInsets.symmetric(
+                                  horizontal: 24.w,
+                                  vertical: 16.h,
+                                ),
+                                children: [
+                                  // Language Selector
+                                  _buildLanguageSelector(context, state),
 
-                                SizedBox(height: 16.h),
+                                  SizedBox(height: 16.h),
 
-                                // User Input Area
-                                _buildInputCard(context, state),
+                                  // User Input Area
+                                  _buildInputCard(context, state),
 
-                                SizedBox(height: 24.h),
+                                  SizedBox(height: 24.h),
 
-                                // AI Response Area
-                                _buildResponseCard(context, state),
-                              ],
-                            );
-                          },
-                        ),
-                  ),
+                                  // AI Response Area
+                                  _buildResponseCard(context, state),
+                                ],
+                              );
+                            },
+                          ),
+                    ),
 
-                  // Microphone Controls
-                  _buildMicControls(context),
-                  SizedBox(height: 32.h),
-                ],
+                    // Microphone Controls
+                    _buildMicControls(context),
+                    SizedBox(height: 32.h),
+                  ],
+                ),
               ),
             ),
           ),

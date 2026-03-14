@@ -86,16 +86,24 @@ class _GameBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocConsumer<SpeakingGameCubit, SpeakingGameState>(
-      listener: (context, state) {
+      listener: (context, state) async {
         if (state is SpeakingGameOver) {
           if (state.isWin) {
             getIt<SpeakingChallengePrefsService>().markDayCompleted(day);
           }
           _showGameOverDialog(context, state.isWin, state.percentage);
         } else if (state is SpeakingGameError) {
-          ScaffoldMessenger.of(
-            context,
-          ).showSnackBar(SnackBar(content: Text(state.message)));
+          if (!await NetworkChecker.hasConnection()) {
+            if (context.mounted) {
+              NetworkChecker.showNoNetworkDialog(context);
+            }
+          } else {
+            if (context.mounted) {
+              ScaffoldMessenger.of(context).showSnackBar(
+                SnackBar(content: Text(state.message)),
+              );
+            }
+          }
         }
       },
       builder: (context, state) {

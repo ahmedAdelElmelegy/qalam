@@ -1,3 +1,6 @@
+import 'package:arabic/core/helpers/show_snake_bar.dart';
+import 'package:arabic/core/utils/network_checker.dart';
+import 'package:arabic/features/museum/presentation/view/widgets/museum_error_dialog.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:arabic/core/services/tts_service.dart';
 import 'package:arabic/core/theme/colors.dart';
@@ -74,14 +77,31 @@ class _PlaceDetailsScreenState extends State<PlaceDetailsScreen> {
     return Scaffold(
       backgroundColor: AppColors.primaryDark,
       body: BlocConsumer<MuseumCubit, MuseumState>(
-        listener: (context, state) {
+        listener: (context, state) async {
           if (state is MuseumLoaded && state.sentenceError != null) {
-            ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(
-                content: Text(state.sentenceError!),
-                backgroundColor: AppColors.error,
-              ),
-            );
+            final hasConnection = await NetworkChecker.hasConnection();
+            if (!context.mounted) return;
+
+            if (!hasConnection) {
+              NetworkChecker.showNoNetworkDialog(context);
+            } else {
+              // Decide between Dialog and SnackBar based on list completeness
+              final currentPlace = (state.selectedPlace?.id == widget.place.id)
+                  ? state.selectedPlace!
+                  : widget.place;
+
+              if (currentPlace.objects.isEmpty) {
+                MuseumErrorDialog.show(
+                  context,
+                  state.sentenceError!,
+                  onRetry: () {
+                    context.read<MuseumCubit>().loadSentencesForPlace(currentPlace.id);
+                  },
+                );
+              } else {
+                AppSnakeBar.showErrorMessage(context, state.sentenceError!);
+              }
+            }
           }
         },
         builder: (context, state) {
