@@ -183,6 +183,104 @@ def integrate():
         "units": []
     }
 
+    def create_quiz(quiz_id, content_items, word_pool, sentence_pool, num_questions, localized_prompts, is_lesson=False):
+        quiz_questions = []
+        
+        if is_lesson:
+            # Lesson quiz: 10 words followed by 5 sentences
+            words = [item for item in content_items if item["type"] == "word"]
+            sentences = [item for item in content_items if item["type"] == "sentence"]
+            
+            # Types for words (10)
+            word_types = ["multipleChoice", "audioOptions", "speaking", "listening", "multipleChoice", 
+                          "audioOptions", "speaking", "listening", "multipleChoice", "audioOptions"]
+            # Types for sentences (5)
+            sentence_types = ["speaking", "listening", "multipleChoice", "audioOptions", "speaking"]
+            
+            # Process words
+            for i in range(min(10, len(words))):
+                item = words[i]
+                arabic = item["arabic"]
+                q_type = word_types[i]
+                
+                question = {
+                    "id": f"{quiz_id}_{i+1}",
+                    "type": q_type,
+                    "correctAnswer": arabic,
+                }
+                if q_type in ["multipleChoice", "audioOptions", "listening"]:
+                    opts_pool = [x for x in word_pool if x != arabic]
+                    options = [arabic] + random.sample(opts_pool, min(len(opts_pool), 3))
+                    random.shuffle(options)
+                    question["options"] = options
+                if q_type in ["audioOptions", "listening"]:
+                    question["audioUrl"] = "true"
+                if q_type == "multipleChoice":
+                    question["text"] = {lang: f"{localized_prompts[lang]}{item['translation'][lang]}" for lang in localized_prompts}
+                else:
+                    question["text"] = arabic
+                quiz_questions.append(question)
+                
+            # Process sentences
+            for i in range(min(5, len(sentences))):
+                item = sentences[i]
+                arabic = item["arabic"]
+                q_type = sentence_types[i]
+                
+                question = {
+                    "id": f"{quiz_id}_{i+11}",
+                    "type": q_type,
+                    "correctAnswer": arabic,
+                }
+                if q_type in ["multipleChoice", "audioOptions", "listening"]:
+                    opts_pool = [x for x in sentence_pool if x != arabic]
+                    options = [arabic] + random.sample(opts_pool, min(len(opts_pool), 3))
+                    random.shuffle(options)
+                    question["options"] = options
+                if q_type in ["audioOptions", "listening"]:
+                    question["audioUrl"] = "true"
+                if q_type == "multipleChoice":
+                    question["text"] = {lang: f"{localized_prompts[lang]}{item['translation'][lang]}" for lang in localized_prompts}
+                else:
+                    question["text"] = arabic
+                quiz_questions.append(question)
+        else:
+            # Unit and Level Quizzes (random sampling)
+            sample_size = min(len(content_items), num_questions)
+            quiz_items = random.sample(content_items, sample_size)
+            
+            for q_idx, item in enumerate(quiz_items, 1):
+                arabic = item["arabic"]
+                q_type = "multipleChoice"
+                if q_idx % 4 == 0: q_type = "audioOptions"
+                elif q_idx % 5 == 0: q_type = "listening"
+                elif q_idx % 7 == 0: q_type = "speaking"
+                
+                question = {
+                    "id": f"{quiz_id}_{q_idx}",
+                    "type": q_type,
+                    "correctAnswer": arabic,
+                }
+                if q_type in ["multipleChoice", "audioOptions", "listening"]:
+                    pool = word_pool if item["type"] == "word" else sentence_pool
+                    opts_pool = [x for x in pool if x != arabic]
+                    options = [arabic] + random.sample(opts_pool, min(len(opts_pool), 3))
+                    random.shuffle(options)
+                    question["options"] = options
+                if q_type in ["audioOptions", "listening"]:
+                    question["audioUrl"] = "true"
+                if q_type == "multipleChoice":
+                    question["text"] = {lang: f"{localized_prompts[lang]}{item['translation'][lang]}" for lang in localized_prompts}
+                else:
+                    question["text"] = arabic
+                quiz_questions.append(question)
+        return quiz_questions
+
+    # To build the level-wide pool
+    level_words = []
+    level_sentences = []
+    level_all_items = []
+
     for u_idx in range(1, 9):
         u_id = f"c2_u{u_idx}"
         unit_meta = UNIT_METADATA[u_id]
@@ -193,6 +291,10 @@ def integrate():
             "isLocked": True,
             "lessons": []
         }
+        
+        unit_words = []
+        unit_sentences = []
+        unit_all_items = []
         
         for l_idx in range(1, 9):
             l_id = f"{u_id}_l{l_idx}"
@@ -224,6 +326,8 @@ def integrate():
                 word_item["transliteration"]["ar"] = arabic_word
                 word_item["translation"]["ar"] = arabic_word
                 lesson_obj["content"].append(word_item)
+                unit_all_items.append(word_item)
+                unit_words.append(arabic_word)
                 
             # Sentences
             lesson_sentences = []
@@ -240,51 +344,35 @@ def integrate():
                 sent_item["transliteration"]["ar"] = arabic_sent
                 sent_item["translation"]["ar"] = arabic_sent
                 lesson_obj["content"].append(sent_item)
+                unit_all_items.append(sent_item)
+                unit_sentences.append(arabic_sent)
                 
-            # Quiz
+            # Lesson Quiz
             lesson_obj["quiz"] = {
                 "id": f"q_{l_id}_quiz",
-                "questions": []
+                "questions": create_quiz(f"q_{l_id}", lesson_obj["content"], lesson_words, lesson_sentences, 15, prompts, is_lesson=True)
             }
-            
-            # 10 Questions per quiz (like B2)
-            # Question Pool: Use up to 10 items from content
-            quiz_items = lesson_obj["content"][:10]
-            for q_idx, item in enumerate(quiz_items, 1):
-                arabic = item["arabic"]
-                q_type = "multipleChoice"
-                if q_idx % 4 == 0: q_type = "audioOptions"
-                elif q_idx % 5 == 0: q_type = "listening"
-                elif q_idx % 7 == 0: q_type = "speaking"
-                
-                question = {
-                    "id": f"q_{l_id}_{q_idx}",
-                    "type": q_type,
-                    "correctAnswer": arabic,
-                }
-                
-                if q_type in ["multipleChoice", "audioOptions", "listening"]:
-                    pool = lesson_words if item["type"] == "word" else lesson_sentences
-                    opts_pool = [x for x in pool if x != arabic]
-                    options = [arabic] + random.sample(opts_pool, min(len(opts_pool), 3))
-                    random.shuffle(options)
-                    question["options"] = options
-                
-                if q_type in ["audioOptions", "listening"]:
-                    question["audioUrl"] = "true"
-                    
-                if q_type != "speaking":
-                    # text is a dictionary with translations "Translate: ..."
-                    question["text"] = {lang: f"{prompts[lang]}{item['translation'][lang]}" for lang in prompts}
-                else:
-                    # For speaking, text is just the arabic word/sentence
-                    question["text"] = arabic
-                
-                lesson_obj["quiz"]["questions"].append(question)
                 
             unit_obj["lessons"].append(lesson_obj)
+        
+        # Unit Quiz
+        unit_obj["unitQuiz"] = {
+            "id": f"q_{u_id}",
+            "passingScore": 80,
+            "questions": create_quiz(f"q_{u_id}", unit_all_items, unit_words, unit_sentences, 25, prompts)
+        }
             
         new_c2["units"].append(unit_obj)
+        level_all_items.extend(unit_all_items)
+        level_words.extend(unit_words)
+        level_sentences.extend(unit_sentences)
+
+    # Level Quiz
+    new_c2["quiz"] = {
+        "id": "q_c2_level",
+        "questions": create_quiz("q_c2_level", level_all_items, level_words, level_sentences, 50, prompts)
+    }
+    new_c2["xpReward"] = 500
 
     with open(c2_json_path, 'w', encoding='utf-8') as f:
         json.dump(new_c2, f, ensure_ascii=False, indent=4)
