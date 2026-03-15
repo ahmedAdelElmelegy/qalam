@@ -160,7 +160,7 @@ def integrate():
         "c2_u7_l8": {"en": "Trade Case Study", "ar": "دراسة حالة تجارية", "fr": "Étude de cas commerciale", "de": "Fallstudie zum Handel", "ru": "Тематическое исследование по торговле", "zh": "贸易案例研究"},
 
         "c2_u8_l1": {"en": "Space Law", "ar": "قانون الفضاء", "fr": "Droit de l'espace", "de": "Weltraumrecht", "ru": "Космическое право", "zh": "空间法"},
-        "c2_u8_l2": {"en": "Cyber Warfare and IHL", "ar": "الحرب السيبرانية والقانون", "fr": "Cyberguerre et DIH", "de": "Cyberkrieg und HVR", "ru": "Кибервойна и МГП", "zh": "网络战与国际人道法"},
+        "c2_u8_l2": {"en": "Cyber Warfare and IHL", "ar": "الحرب السيبرانية والقانون", "fr": "Cyبر الحرب السيبرانية والقانون", "de": "Cyberkrieg und HVR", "ru": "Кибервойна и МГП", "zh": "网络战与国际人道法"},
         "c2_u8_l3": {"en": "AI Ethics and Law", "ar": "أخلاقيات الذكاء الاصطناعي", "fr": "Éthique de l'IA et droit", "de": "KI-Ethik und Recht", "ru": "Этика ИИ и право", "zh": "人工智能伦理与法律"},
         "c2_u8_l4": {"en": "Biotechnology Law", "ar": "قانون التكنولوجيا الحيوية", "fr": "Droit des biotechnologies", "de": "Biotechnologierecht", "ru": "Биотехнологическое право", "zh": "生物技术法"},
         "c2_u8_l5": {"en": "Emerging Technologies", "ar": "التكنولوجيات الناشئة", "fr": "Technologies émergentes", "de": "Aufstrebende Technologien", "ru": "Новые технологии", "zh": "新兴技术"},
@@ -368,11 +368,12 @@ def integrate():
         level_sentences.extend(unit_sentences)
 
     # Level Quiz
-    new_c2["quiz"] = {
-        "id": "q_c2_level",
-        "questions": create_quiz("q_c2_level", level_all_items, level_words, level_sentences, 50, prompts)
+    new_c2["levelQuiz"] = {
+        "id": "c2_final_exam",
+        "passingScore": 0.8,
+        "questions": create_quiz("q_c2_final_exam", level_all_items, level_words, level_sentences, 50, prompts)
     }
-    new_c2["xpReward"] = 500
+    new_c2["xpReward"] = 600
 
     with open(c2_json_path, 'w', encoding='utf-8') as f:
         json.dump(new_c2, f, ensure_ascii=False, indent=4)

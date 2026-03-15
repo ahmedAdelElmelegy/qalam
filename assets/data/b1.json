@@ -65,7 +65,7 @@
                                     "fr": "Traduire : Contribution",
                                     "de": "Übersetzen: Beitrag",
                                     "ru": "Перевести: Вклад",
-                                    "zh": "翻译： 贡献"
+                                    "zh": "翻译: 贡献"
                                 },
                                 "options": [
                                     "دعم",
@@ -116,7 +116,7 @@
                                     "fr": "Traduire : J'ai décidé de participer à une Initiative caritative",
                                     "de": "Übersetzen: Ich habe beschlossen, an einer WohltätigkeitsInitiative teilzunehmen",
                                     "ru": "Перевести: Я решил принять участие в благотворительной инициативе",
-                                    "zh": "翻译： 我决定参加一个慈善倡议。"
+                                    "zh": "翻译: 我决定参加一个慈善倡议。"
                                 },
                                 "options": [
                                     "قررت المشاركة في مبادرة خيرية",
@@ -167,7 +167,7 @@
                                     "fr": "Traduire : Autonomisation",
                                     "de": "Übersetzen: Ermächtigung",
                                     "ru": "Перевести: Расширение прав",
-                                    "zh": "翻译： 赋权"
+                                    "zh": "翻译: 赋权"
                                 },
                                 "options": [
                                     "تطوع",
@@ -529,7 +529,7 @@
                                     "fr": "Traduire : Sincérité",
                                     "de": "Übersetzen: Wahrhaftigkeit",
                                     "ru": "Перевести: Искренность",
-                                    "zh": "翻译： 诚实"
+                                    "zh": "翻译: 诚实"
                                 },
                                 "options": [
                                     "اختيار",
@@ -580,7 +580,7 @@
                                     "fr": "Traduire : J'ai aidé mon voisin à porter les sacs",
                                     "de": "Übersetzen: Ich habe meinem Nachbarn geholfen, die Taschen zu tragen",
                                     "ru": "Перевести: Я помог соседу донести сумки",
-                                    "zh": "翻译： 我帮邻居拎包。"
+                                    "zh": "翻译: 我帮邻居拎包。"
                                 },
                                 "options": [
                                     "إدارة الوقت مفتاح النجاح في العمل",
@@ -631,7 +631,7 @@
                                     "fr": "Traduire : Solidarité",
                                     "de": "Übersetzen: Solidarität",
                                     "ru": "Перевести: Солидарность",
-                                    "zh": "翻译： 团结"
+                                    "zh": "翻译: 团结"
                                 },
                                 "options": [
                                     "إقناع",
@@ -993,7 +993,7 @@
                                     "fr": "Traduire : Bienfaisance",
                                     "de": "Übersetzen: Wohltätigkeit",
                                     "ru": "Перевести: Доброта",
-                                    "zh": "翻译： 善行"
+                                    "zh": "翻译: 善行"
                                 },
                                 "options": [
                                     "زكاة",
@@ -1044,7 +1044,7 @@
                                     "fr": "Traduire : L'aumône continue profite à son auteur",
                                     "de": "Übersetzen: Fortlaufende Wohltätigkeit nützt ihrem Geber",
                                     "ru": "Перевести: Постоянная милостыня приносит пользу тому, кто ее дает",
-                                    "zh": "翻译： 持续的施舍使施者受益。"
+                                    "zh": "翻译: 持续的施舍使施者受益。"
                                 },
                                 "options": [
                                     "تمتاز الرواية بالواقعية السحرية",
@@ -1095,7 +1095,7 @@
                                     "fr": "Traduire : Zakat",
                                     "de": "Übersetzen: Zakat",
                                     "ru": "Перевести: Закят",
-                                    "zh": "翻译： 天课"
+                                    "zh": "翻译: 天课"
                                 },
                                 "options": [
                                     "مسافة",
@@ -1452,12 +1452,12 @@
                                 "type": "multipleChoice",
                                 "correctAnswer": "طموح",
                                 "text": {
-                                    "en": "Translate: Ambition",
+                                    "en": "Translate: Ambitious",
                                     "ar": "ترجم: طموح",
                                     "fr": "Traduire : Ambitieux",
                                     "de": "Übersetzen: Ehrgeizig",
-                                    "ru": "Перевести: Амбиция",
-                                    "zh": "翻译： 抱负"
+                                    "ru": "Перевести: Амбициозный",
+                                    "zh": "翻译: 雄心勃勃的"
                                 },
                                 "options": [
                                     "كوكب",
@@ -1508,7 +1508,7 @@
                                     "fr": "Traduire : L'innovation de la jeunesse étonne le monde",
                                     "de": "Übersetzen: Die Innovation der Jugend versetzt die Welt in Erstaunen",
                                     "ru": "Перевести: Инновации молодежи поражают мир",
-                                    "zh": "翻译： 年轻人的创新令世界惊叹。"
+                                    "zh": "翻译: 年轻人的创新令世界惊叹。"
                                 },
                                 "options": [
                                     "ابتكار الشباب يدهش العالم",
@@ -1559,7 +1559,7 @@
                                     "fr": "Traduire : Créativité",
                                     "de": "Übersetzen: Kreativität",
                                     "ru": "Перевести: Творчество",
-                                    "zh": "翻译： 创造力"
+                                    "zh": "翻译: 创意"
                                 },
                                 "options": [
                                     "إبداع",
@@ -1921,7 +1921,7 @@
                                     "fr": "Traduire : Réunion",
                                     "de": "Übersetzen: Treffen",
                                     "ru": "Перевести: Встреча",
-                                    "zh": "翻译： 会议"
+                                    "zh": "翻译: 会议"
                                 },
                                 "options": [
                                     "نقاش",
@@ -1972,7 +1972,7 @@
                                     "fr": "Traduire : J'ai soumis une proposition pour améliorer l'éclairage",
                                     "de": "Übersetzen: Ich habe einen Vorschlag zur Verbesserung der Beleuchtung eingereicht",
                                     "ru": "Перевести: Я представил предложение по улучшению освещения",
-                                    "zh": "翻译： 我提交了一份改善照明的提案。"
+                                    "zh": "翻译: 我提交了一份改善照明的提案。"
                                 },
                                 "options": [
                                     "اتفق الجميع على الخطة الجديدة",
@@ -2023,7 +2023,7 @@
                                     "fr": "Traduire : Approbation",
                                     "de": "Übersetzen: Zustimmung",
                                     "ru": "Перевести: Одобрение",
-                                    "zh": "翻译： 批准"
+                                    "zh": "翻译: 批准"
                                 },
                                 "options": [
                                     "مواقفة",
@@ -2385,7 +2385,7 @@
                                     "fr": "Traduire : Méthodologie",
                                     "de": "Übersetzen: Methodik",
                                     "ru": "Перевести: Методология",
-                                    "zh": "翻译： 方法论"
+                                    "zh": "翻译: 方法论"
                                 },
                                 "options": [
                                     "منهجية",
@@ -2436,7 +2436,7 @@
                                     "fr": "Traduire : Nous avons besoin d'un calendrier clair",
                                     "de": "Übersetzen: Wir brauchen einen klaren Zeitplan",
                                     "ru": "Перевести: Нам нужен четкий график",
-                                    "zh": "翻译： 我们需要一个明确的时间表。"
+                                    "zh": "翻译: 我们需要一个明确的时间表。"
                                 },
                                 "options": [
                                     "المشروع سيحسن جودة الحياة",
@@ -2482,12 +2482,12 @@
                                 "type": "multipleChoice",
                                 "correctAnswer": "تقييم",
                                 "text": {
-                                    "en": "Translate: Evaluation",
+                                    "en": "Translate: Evaluation/Assessment",
                                     "ar": "ترجم: تقييم",
                                     "fr": "Traduire : Évaluation",
                                     "de": "Übersetzen: Bewertung",
                                     "ru": "Перевести: Оценка/Отзыв",
-                                    "zh": "翻译： 评估"
+                                    "zh": "翻译: 评价"
                                 },
                                 "options": [
                                     "تقييم",
@@ -2849,7 +2849,7 @@
                                     "fr": "Traduire : Valeurs",
                                     "de": "Übersetzen: Werte",
                                     "ru": "Перевести: Ценности",
-                                    "zh": "翻译： 价值观"
+                                    "zh": "翻译: 价值观"
                                 },
                                 "options": [
                                     "قيم",
@@ -2900,7 +2900,7 @@
                                     "fr": "Traduire : La justice est la base du pouvoir",
                                     "de": "Übersetzen: Gerechtigkeit ist die Grundlage der Herrschaft",
                                     "ru": "Перевести: Справедливость — основа власти",
-                                    "zh": "翻译： 公正是治理的基础。"
+                                    "zh": "翻译: 公正是治理的基础。"
                                 },
                                 "options": [
                                     "العدل أساس الملك",
@@ -2951,7 +2951,7 @@
                                     "fr": "Traduire : Patience",
                                     "de": "Übersetzen: Geduld",
                                     "ru": "Перевести: Терпение",
-                                    "zh": "翻译： 耐心"
+                                    "zh": "翻译: 耐心"
                                 },
                                 "options": [
                                     "أمانة",
@@ -3308,12 +3308,12 @@
                                 "type": "multipleChoice",
                                 "correctAnswer": "رؤية",
                                 "text": {
-                                    "en": "Translate: Vision",
+                                    "en": "Translate: Vision/Perspective",
                                     "ar": "ترجم: رؤية",
                                     "fr": "Traduire : Vision",
                                     "de": "Übersetzen: Vision/Perspektive",
-                                    "ru": "Перевести: Видение",
-                                    "zh": "翻译： 愿景"
+                                    "ru": "Перевести: Видение/Перспектива",
+                                    "zh": "翻译: 愿景"
                                 },
                                 "options": [
                                     "عرض",
@@ -3364,7 +3364,7 @@
                                     "fr": "Traduire : La présentation a reçu une approbation généralisée",
                                     "de": "Übersetzen: Die Präsentation stieß auf breite Zustimmung",
                                     "ru": "Перевести: Презентация получила широкое одобрение",
-                                    "zh": "翻译： 该演示获得了广泛认可。"
+                                    "zh": "翻译: 该演示获得了广泛认可。"
                                 },
                                 "options": [
                                     "العرض لقي استحسانا واسعا",
@@ -3415,7 +3415,7 @@
                                     "fr": "Traduire : Résultats",
                                     "de": "Übersetzen: Ergebnisse",
                                     "ru": "Перевести: Результаты",
-                                    "zh": "翻译： 结果"
+                                    "zh": "翻译: 结果"
                                 },
                                 "options": [
                                     "عدل",
@@ -4072,7 +4072,7 @@
                                     "fr": "Traduire : Programmation",
                                     "de": "Übersetzen: Programmierung",
                                     "ru": "Перевести: Программирование",
-                                    "zh": "翻译： 编程"
+                                    "zh": "翻译: 编程"
                                 },
                                 "options": [
                                     "استثمار",
@@ -4123,7 +4123,7 @@
                                     "fr": "Traduire : Les applications intelligentes facilitent la vie",
                                     "de": "Übersetzen: Intelligente Apps erleichtern das Leben",
                                     "ru": "Перевести: Умные приложения облегчают жизнь",
-                                    "zh": "翻译： 智能应用使生活更轻松。"
+                                    "zh": "翻译: 智能应用使生活更轻松。"
                                 },
                                 "options": [
                                     "التطبيقات الذكية تسهل الحياة",
@@ -4174,7 +4174,7 @@
                                     "fr": "Traduire : Numérique",
                                     "de": "Übersetzen: Digital",
                                     "ru": "Перевести: Цифровой",
-                                    "zh": "翻译： 数字"
+                                    "zh": "翻译: 数字"
                                 },
                                 "options": [
                                     "حساب",
@@ -4536,7 +4536,7 @@
                                     "fr": "Traduire : Publier",
                                     "de": "Übersetzen: Veröffentlichen",
                                     "ru": "Перевести: Опубликовать",
-                                    "zh": "翻译： 发布"
+                                    "zh": "翻译: 发布"
                                 },
                                 "options": [
                                     "موضوع",
@@ -4587,7 +4587,7 @@
                                     "fr": "Traduire : Le direct commencera dans peu de temps",
                                     "de": "Übersetzen: Der Livestream beginnt in Kürze",
                                     "ru": "Перевести: Прямой эфир начнется в ближайшее время",
-                                    "zh": "翻译： 直播很快就要开始了。"
+                                    "zh": "翻译: 直播很快就要开始了。"
                                 },
                                 "options": [
                                     "البث المباشر سيبدأ بعد قليل",
@@ -4638,7 +4638,7 @@
                                     "fr": "Traduire : Commentaire",
                                     "de": "Übersetzen: Kommentar",
                                     "ru": "Перевести: Комментарий",
-                                    "zh": "翻译： 评论"
+                                    "zh": "翻译: 评论"
                                 },
                                 "options": [
                                     "أدب",
@@ -5000,7 +5000,7 @@
                                     "fr": "Traduire : Dialogue",
                                     "de": "Übersetzen: Dialog",
                                     "ru": "Перевести: Диалог",
-                                    "zh": "翻译： 对话"
+                                    "zh": "翻译: 对话"
                                 },
                                 "options": [
                                     "حوار",
@@ -5051,7 +5051,7 @@
                                     "fr": "Traduire : Le correspondant a rapporté les nouvelles du terrain",
                                     "de": "Übersetzen: Der Korrespondent berichtete über die Nachrichten aus dem Feld",
                                     "ru": "Перевести: Корреспондент сообщил новости с места событий",
-                                    "zh": "翻译： 记者从现场报道了新闻。"
+                                    "zh": "翻译: 记者从现场报道了新闻。"
                                 },
                                 "options": [
                                     "نقل المراسل الأخبار من الميدان",
@@ -5102,7 +5102,7 @@
                                     "fr": "Traduire : Programme",
                                     "de": "Übersetzen: Programm",
                                     "ru": "Перевести: Программа",
-                                    "zh": "翻译： 节目"
+                                    "zh": "翻译: 节目"
                                 },
                                 "options": [
                                     "استخدام",
@@ -5464,7 +5464,7 @@
                                     "fr": "Traduire : Avertissement",
                                     "de": "Übersetzen: Warnung",
                                     "ru": "Перевести: Предупреждение",
-                                    "zh": "翻译： 警告"
+                                    "zh": "翻译: 警告"
                                 },
                                 "options": [
                                     "حماية",
@@ -5515,7 +5515,7 @@
                                     "fr": "Traduire : Ne cliquez pas sur des liens suspects",
                                     "de": "Übersetzen: Klicken Sie nicht auf verdächtige Links",
                                     "ru": "Перевести: Не нажимайте на подозрительные ссылки",
-                                    "zh": "翻译： 不要点击可疑链接。"
+                                    "zh": "翻译: 不要点击可疑链接。"
                                 },
                                 "options": [
                                     "قدمت فكرة لتطبيق يهتم بالبيئة",
@@ -5566,7 +5566,7 @@
                                     "fr": "Traduire : Piratage",
                                     "de": "Übersetzen: Hacking",
                                     "ru": "Перевести: Пиратство/Хакерство",
-                                    "zh": "翻译： 黑客/盗版"
+                                    "zh": "翻译: 黑客/盗版"
                                 },
                                 "options": [
                                     "تحذير",
@@ -5923,12 +5923,12 @@
                                 "type": "multipleChoice",
                                 "correctAnswer": "تقييم",
                                 "text": {
-                                    "en": "Translate: Rating/Rating",
+                                    "en": "Translate: Evaluation/Assessment",
                                     "ar": "ترجم: تقييم",
                                     "fr": "Traduire : Évaluation",
                                     "de": "Übersetzen: Bewertung",
                                     "ru": "Перевести: Оценка/Отзыв",
-                                    "zh": "翻译： 评分/评价"
+                                    "zh": "翻译: 评价"
                                 },
                                 "options": [
                                     "شغف",
@@ -5979,7 +5979,7 @@
                                     "fr": "Traduire : La dernière mise à jour a corrigé quelques bugs",
                                     "de": "Übersetzen: Das letzte Update hat einige Fehler behoben",
                                     "ru": "Перевести: Последнее обновление исправило некоторые ошибки",
-                                    "zh": "翻译： 最后的更新修复了一些错误。"
+                                    "zh": "翻译: 最后的更新修复了一些错误。"
                                 },
                                 "options": [
                                     "يجب أن ندير المخاطرات بحكمة",
@@ -6030,7 +6030,7 @@
                                     "fr": "Traduire : Compétitif",
                                     "de": "Übersetzen: Wettbewerbsfähig",
                                     "ru": "Перевести: Конкурентоспособный",
-                                    "zh": "翻译： 有竞争力的"
+                                    "zh": "翻译: 有竞争力的"
                                 },
                                 "options": [
                                     "إصدار",
@@ -6387,12 +6387,12 @@
                                 "type": "multipleChoice",
                                 "correctAnswer": "تقنية",
                                 "text": {
-                                    "en": "Translate: Technology/Technical",
+                                    "en": "Translate: Technique/Technology",
                                     "ar": "ترجم: تقنية",
-                                    "fr": "Traduire : Technologie",
-                                    "de": "Übersetzen: Technologie",
-                                    "ru": "Перевести: Технология",
-                                    "zh": "翻译： 技术"
+                                    "fr": "Traduire : Technique",
+                                    "de": "Übersetzen: Technik",
+                                    "ru": "Перевести: Техника/Технология",
+                                    "zh": "翻译: 技术"
                                 },
                                 "options": [
                                     "موضوع",
@@ -6443,7 +6443,7 @@
                                     "fr": "Traduire : J'ai écrit un article sur les derniers téléphones",
                                     "de": "Übersetzen: Ich habe einen Artikel über die neuesten Telefone geschrieben",
                                     "ru": "Перевести: Я написал статью о последних телефонах",
-                                    "zh": "翻译： 我写了一篇关于最新手机的文章。"
+                                    "zh": "翻译: 我写了一篇关于最新手机的文章。"
                                 },
                                 "options": [
                                     "ارتديت بدلة للمقابلة اليوم",
@@ -6494,7 +6494,7 @@
                                     "fr": "Traduire : Prix",
                                     "de": "Übersetzen: Preis",
                                     "ru": "Перевести: Цена",
-                                    "zh": "翻译： 价格"
+                                    "zh": "翻译: 价格"
                                 },
                                 "options": [
                                     "سعر",
@@ -6856,7 +6856,7 @@
                                     "fr": "Traduire : Innovation",
                                     "de": "Übersetzen: Innovation",
                                     "ru": "Перевести: Инновация",
-                                    "zh": "翻译： 创新"
+                                    "zh": "翻译: 创新"
                                 },
                                 "options": [
                                     "اتفاقية",
@@ -6907,7 +6907,7 @@
                                     "fr": "Traduire : L'accès à l'information est devenu facile maintenant",
                                     "de": "Übersetzen: Der Zugang zu Informationen ist jetzt einfach geworden",
                                     "ru": "Перевести: Доступ к информации стал простым сейчас",
-                                    "zh": "翻译： 现在的。信息访问变得很容易。"
+                                    "zh": "翻译: 现在的。信息访问变得很容易。"
                                 },
                                 "options": [
                                     "نحتاج إلى تنظيم البيانات بدقة",
@@ -6958,7 +6958,7 @@
                                     "fr": "Traduire : Informations",
                                     "de": "Übersetzen: Informationen",
                                     "ru": "Перевести: Информация",
-                                    "zh": "翻译： 信息"
+                                    "zh": "翻译: 信息"
                                 },
                                 "options": [
                                     "معلومات",
@@ -7320,7 +7320,7 @@
                                     "fr": "Traduire : Financement",
                                     "de": "Übersetzen: Finanzierung",
                                     "ru": "Перевести: Финансирование",
-                                    "zh": "翻译： 融资"
+                                    "zh": "翻译: 融资"
                                 },
                                 "options": [
                                     "مشروع",
@@ -7371,7 +7371,7 @@
                                     "fr": "Traduire : J'ai gagné le premier prix du concours",
                                     "de": "Übersetzen: Ich habe den ersten Preis im Wettbewerb gewonnen",
                                     "ru": "Перевести: Я выиграл первый приз в соревновании",
-                                    "zh": "翻译： 我在比赛中获得了第一名。"
+                                    "zh": "翻译: 我在比赛中获得了第一名。"
                                 },
                                 "options": [
                                     "النقل العام النظيف يقلل الزحام",
@@ -7422,7 +7422,7 @@
                                     "fr": "Traduire : Utilisateur",
                                     "de": "Übersetzen: Benutzer",
                                     "ru": "Перевести: Пользователь",
-                                    "zh": "翻译： 用户"
+                                    "zh": "翻译: 用户"
                                 },
                                 "options": [
                                     "مستخدم",
@@ -8079,7 +8079,7 @@
                                     "fr": "Traduire : Vent",
                                     "de": "Übersetzen: Wind",
                                     "ru": "Перевести: Ветер",
-                                    "zh": "翻译： 风"
+                                    "zh": "翻译: 风"
                                 },
                                 "options": [
                                     "استثمار",
@@ -8130,7 +8130,7 @@
                                     "fr": "Traduire : Les pays investissent dans le vent pour générer de l'énergie",
                                     "de": "Übersetzen: Länder investieren in Wind, um Energie zu erzeugen",
                                     "ru": "Перевести: Страны инвестируют в ветер для выработки энергии",
-                                    "zh": "翻译： 各国投资于风能发电。"
+                                    "zh": "翻译: 各国投资于风能发电。"
                                 },
                                 "options": [
                                     "تستثمر الدول في الرياح لتوليد الطاقة",
@@ -8181,7 +8181,7 @@
                                     "fr": "Traduire : Alternative",
                                     "de": "Übersetzen: Alternative",
                                     "ru": "Перевести: Альтернатива",
-                                    "zh": "翻译： 替代项"
+                                    "zh": "翻译: 替代项"
                                 },
                                 "options": [
                                     "شمسية",
@@ -8543,7 +8543,7 @@
                                     "fr": "Traduire : Rationalisation",
                                     "de": "Übersetzen: Rationalisierung",
                                     "ru": "Перевести: Рационализация",
-                                    "zh": "翻译： 合理化/节约"
+                                    "zh": "翻译: 合理化/节约"
                                 },
                                 "options": [
                                     "تنظيم",
@@ -8594,7 +8594,7 @@
                                     "fr": "Traduire : La consommation d'eau doit être rationalisée dans les foyers",
                                     "de": "Übersetzen: Der Wasserverbrauch in Haushalten muss rationalisiert werden",
                                     "ru": "Перевести: Необходимо рационализировать потребление воды в домах",
-                                    "zh": "翻译： 家庭用。水必须合理化。"
+                                    "zh": "翻译: 家庭用。水必须合理化。"
                                 },
                                 "options": [
                                     "يجب ترشيد استهلاك المياه في المنازل",
@@ -8645,7 +8645,7 @@
                                     "fr": "Traduire : Agriculture",
                                     "de": "Übersetzen: Landwirtschaft",
                                     "ru": "Перевести: Сельское хозяйство",
-                                    "zh": "翻译： 农业"
+                                    "zh": "翻译: 农业"
                                 },
                                 "options": [
                                     "مياه",
@@ -9007,7 +9007,7 @@
                                     "fr": "Traduire : Climat",
                                     "de": "Übersetzen: Klima",
                                     "ru": "Перевести: Климат",
-                                    "zh": "翻译： 气候"
+                                    "zh": "翻译: 气候"
                                 },
                                 "options": [
                                     "مناخ",
@@ -9058,7 +9058,7 @@
                                     "fr": "Traduire : Le réchauffement climatique augmente les catastrophes naturelles",
                                     "de": "Übersetzen: Die Erderwärmung erhöht die Naturkatastrophen",
                                     "ru": "Перевести: Глобальное потепление увеличивает число природных катастроф",
-                                    "zh": "翻译： 全球变暖增加了自然灾害。"
+                                    "zh": "翻译: 全球变暖增加了自然灾害。"
                                 },
                                 "options": [
                                     "الاحتباس الحراري يزيد من كوارث الطبيعة",
@@ -9109,7 +9109,7 @@
                                     "fr": "Traduire : Émissions",
                                     "de": "Übersetzen: Emissionen",
                                     "ru": "Перевести: Выбросы",
-                                    "zh": "翻译： 排放"
+                                    "zh": "翻译: 排放"
                                 },
                                 "options": [
                                     "انبعاثات",
@@ -9471,7 +9471,7 @@
                                     "fr": "Traduire : Ressource",
                                     "de": "Übersetzen: Ressource",
                                     "ru": "Перевести: Ресурс",
-                                    "zh": "翻译： 资源"
+                                    "zh": "翻译: 资源"
                                 },
                                 "options": [
                                     "تحلية",
@@ -9522,7 +9522,7 @@
                                     "fr": "Traduire : L'avancée du sable détruit les villages agricoles",
                                     "de": "Übersetzen: Die Ausbreitung von Sand zerstört landwirtschaftliche Dörfer",
                                     "ru": "Перевести: Наступление песков разрушает сельскохозяйственные деревни",
-                                    "zh": "翻译： 沙尘蔓延摧毁了农业村庄。"
+                                    "zh": "翻译: 沙尘蔓延摧毁了农业村庄。"
                                 },
                                 "options": [
                                     "زحف الرمال يدمر القرى الزراعية",
@@ -9573,7 +9573,7 @@
                                     "fr": "Traduire : Environnemental",
                                     "de": "Übersetzen: Umwelt-",
                                     "ru": "Перевести: Экологический",
-                                    "zh": "翻译： 环境的"
+                                    "zh": "翻译: 环境的"
                                 },
                                 "options": [
                                     "تكريم",
@@ -9935,7 +9935,7 @@
                                     "fr": "Traduire : Déchets",
                                     "de": "Übersetzen: Abfall",
                                     "ru": "Перевести: Отходы",
-                                    "zh": "翻译： 废物"
+                                    "zh": "翻译: 废物"
                                 },
                                 "options": [
                                     "رأي",
@@ -9986,7 +9986,7 @@
                                     "fr": "Traduire : Le recyclage protège l'environnement",
                                     "de": "Übersetzen: Recycling schützt die Umwelt",
                                     "ru": "Перевести: Переработка защищает окружающую среду",
-                                    "zh": "翻译： 回收保护环境。"
+                                    "zh": "翻译: 回收保护环境。"
                                 },
                                 "options": [
                                     "أستخدم أكياسا قماشية للتسوق",
@@ -10037,7 +10037,7 @@
                                     "fr": "Traduire : Réduction",
                                     "de": "Übersetzen: Reduzierung",
                                     "ru": "Перевести: Сокращение",
-                                    "zh": "翻译： 减少"
+                                    "zh": "翻译: 减少"
                                 },
                                 "options": [
                                     "بلاستيك",
@@ -10399,7 +10399,7 @@
                                     "fr": "Traduire : Écosystème",
                                     "de": "Übersetzen: Ökosystem",
                                     "ru": "Перевести: Экосистема",
-                                    "zh": "翻译： 生态系统"
+                                    "zh": "翻译: 生态系统"
                                 },
                                 "options": [
                                     "نظام بيئي",
@@ -10450,7 +10450,7 @@
                                     "fr": "Traduire : J'ai écrit un article sur la protection des plages",
                                     "de": "Übersetzen: Ich habe einen Artikel über den Schutz der Strände geschrieben",
                                     "ru": "Перевести: Я написал статью о защите пляжей",
-                                    "zh": "翻译： 我写了一篇关于海滩保护的文章。"
+                                    "zh": "翻译: 我写了一篇关于海滩保护的文章。"
                                 },
                                 "options": [
                                     "الميزات التنافسية تجعله الأفضل",
@@ -10501,7 +10501,7 @@
                                     "fr": "Traduire : Pollution",
                                     "de": "Übersetzen: Verschmutzung",
                                     "ru": "Перевести: Загрязнение",
-                                    "zh": "翻译： 污染"
+                                    "zh": "翻译: 污染"
                                 },
                                 "options": [
                                     "مقال",
@@ -10858,12 +10858,12 @@
                                 "type": "multipleChoice",
                                 "correctAnswer": "مجتمع",
                                 "text": {
-                                    "en": "Translate: Community/Society",
+                                    "en": "Translate: Society",
                                     "ar": "ترجم: مجتمع",
-                                    "fr": "Traduire : Communauté",
-                                    "de": "Übersetzen: Gemeinschaft",
-                                    "ru": "Перевести: Сообщество",
-                                    "zh": "翻译： 社区/社会"
+                                    "fr": "Traduire : Société",
+                                    "de": "Übersetzen: Gesellschaft",
+                                    "ru": "Перевести: Общество",
+                                    "zh": "翻译: 社会"
                                 },
                                 "options": [
                                     "اختيار",
@@ -10914,7 +10914,7 @@
                                     "fr": "Traduire : Faire de petits changements fait une différence",
                                     "de": "Übersetzen: Kleine Änderungen zu bewirken, macht einen Unterschied",
                                     "ru": "Перевести: Небольшие изменения имеют значение",
-                                    "zh": "翻译： 做出一点点改变就会有所不同。"
+                                    "zh": "翻译: 做出一点点改变就会有所不同。"
                                 },
                                 "options": [
                                     "القيام بتغييرات صغيرة يحدث فرقا",
@@ -10965,7 +10965,7 @@
                                     "fr": "Traduire : Décision",
                                     "de": "Übersetzen: Entscheidung",
                                     "ru": "Перевести: Решение",
-                                    "zh": "翻译： 决定"
+                                    "zh": "翻译: 决定"
                                 },
                                 "options": [
                                     "مراجعة",
@@ -11322,12 +11322,12 @@
                                 "type": "multipleChoice",
                                 "correctAnswer": "ذكي",
                                 "text": {
-                                    "en": "Translate: Smart",
+                                    "en": "Translate: Smart/Intelligent",
                                     "ar": "ترجم: ذكي",
                                     "fr": "Traduire : Intelligent",
                                     "de": "Übersetzen: Intelligent",
                                     "ru": "Перевести: Умный",
-                                    "zh": "翻译： 聪明/智能"
+                                    "zh": "翻译: 聪明/智能"
                                 },
                                 "options": [
                                     "خط عربي",
@@ -11378,7 +11378,7 @@
                                     "fr": "Traduire : Les transports en commun propres réduisent les embouteillages",
                                     "de": "Übersetzen: Sauberer öffentlicher Nahverkehr reduziert Staus",
                                     "ru": "Перевести: Чистый общественный транспорт сокращает пробки",
-                                    "zh": "翻译： 清洁的公共交通可以减少拥堵。"
+                                    "zh": "翻译: 清洁的公共交通可以减少拥堵。"
                                 },
                                 "options": [
                                     "النقل العام النظيف يقلل الزحام",
@@ -11429,7 +11429,7 @@
                                     "fr": "Traduire : Ressource",
                                     "de": "Übersetzen: Ressource",
                                     "ru": "Перевести: Ресурс",
-                                    "zh": "翻译： 资源"
+                                    "zh": "翻译: 资源"
                                 },
                                 "options": [
                                     "حياة",
@@ -12086,7 +12086,7 @@
                                     "fr": "Traduire : Civilisation",
                                     "de": "Übersetzen: Zivilisation",
                                     "ru": "Перевести: Цивилизация",
-                                    "zh": "翻译： 文明"
+                                    "zh": "翻译: 文明"
                                 },
                                 "options": [
                                     "حضارة",
@@ -12137,7 +12137,7 @@
                                     "fr": "Traduire : Notre héritage artistique est très riche",
                                     "de": "Übersetzen: Unser künstlerisches Erbe ist sehr reich",
                                     "ru": "Перевести: Наше художественное наследие очень богато",
-                                    "zh": "翻译： 我们的艺术遗产非常丰富。"
+                                    "zh": "翻译: 我们的艺术遗产非常丰富。"
                                 },
                                 "options": [
                                     "النظام البيئي في خطر حقيقي",
@@ -12188,7 +12188,7 @@
                                     "fr": "Traduire : Héritage",
                                     "de": "Übersetzen: Erbe",
                                     "ru": "Перевести: Наследие",
-                                    "zh": "翻译： 遗产"
+                                    "zh": "翻译: 遗产"
                                 },
                                 "options": [
                                     "تاريخي",
@@ -12550,7 +12550,7 @@
                                     "fr": "Traduire : Calligraphie arabe",
                                     "de": "Übersetzen: Arabische Kalligrafie",
                                     "ru": "Перевести: Арабская каллиграфия",
-                                    "zh": "翻译： 阿拉伯书法"
+                                    "zh": "翻译: 阿拉伯书法"
                                 },
                                 "options": [
                                     "حبر",
@@ -12601,7 +12601,7 @@
                                     "fr": "Traduire : Le tableau était orné de versets coraniques",
                                     "de": "Übersetzen: Das Gemälde war mit Korantexten verziert",
                                     "ru": "Перевести: Картина была украшена кораническими аятами",
-                                    "zh": "翻译： 这幅画装饰着古兰经经文。"
+                                    "zh": "翻译: 这幅画装饰着古兰经经文。"
                                 },
                                 "options": [
                                     "الخطاط يحتاج إلى صبر وإتقان",
@@ -12652,7 +12652,7 @@
                                     "fr": "Traduire : Calligraphe",
                                     "de": "Übersetzen: Kalligraf",
                                     "ru": "Перевести: Каллиграф",
-                                    "zh": "翻译： 书法家"
+                                    "zh": "翻译: 书法家"
                                 },
                                 "options": [
                                     "زاوية",
@@ -13014,7 +13014,7 @@
                                     "fr": "Traduire : Architecture",
                                     "de": "Übersetzen: Architektur",
                                     "ru": "Перевести: Архитектура",
-                                    "zh": "翻译： 建筑"
+                                    "zh": "翻译: 建筑"
                                 },
                                 "options": [
                                     "عاجل",
@@ -13065,7 +13065,7 @@
                                     "fr": "Traduire : La ville est célèbre pour ses hauts gratte-ciel",
                                     "de": "Übersetzen: Die Stadt ist berühmt für ihre hohen Wolkenkratzer",
                                     "ru": "Перевести: Город знаменит своими высокими небоскребами",
-                                    "zh": "翻译： 这座城市以其高大的摩天大楼而闻名。"
+                                    "zh": "翻译: 这座城市以其高大的摩天大楼而闻名。"
                                 },
                                 "options": [
                                     "علينا اتباع الخطوات بدقة",
@@ -13116,7 +13116,7 @@
                                     "fr": "Traduire : Innovation",
                                     "de": "Übersetzen: Innovation",
                                     "ru": "Перевести: Инновация",
-                                    "zh": "翻译： 创新"
+                                    "zh": "翻译: 创新"
                                 },
                                 "options": [
                                     "معماري",
@@ -13478,7 +13478,7 @@
                                     "fr": "Traduire : Musée",
                                     "de": "Übersetzen: Museum",
                                     "ru": "Перевести: Музей",
-                                    "zh": "翻译： 博物馆"
+                                    "zh": "翻译: 博物馆"
                                 },
                                 "options": [
                                     "تحفة",
@@ -13529,7 +13529,7 @@
                                     "fr": "Traduire : J'ai profité d'une visite à l'intérieur du musée",
                                     "de": "Übersetzen: Ich habe einen Rundgang durch das Museum genossen",
                                     "ru": "Перевести: Мне понравилась экскурсия по музею",
-                                    "zh": "翻译： 我喜欢向博物馆内部游览。"
+                                    "zh": "翻译: 我喜欢向博物馆内部游览。"
                                 },
                                 "options": [
                                     "استمتعت بجولة داخل المتحف",
@@ -13580,7 +13580,7 @@
                                     "fr": "Traduire : Pièce",
                                     "de": "Übersetzen: Stück",
                                     "ru": "Перевести: Экспонат/Кусок",
-                                    "zh": "翻译： 件/块"
+                                    "zh": "翻译: 件/块"
                                 },
                                 "options": [
                                     "زائر",
@@ -13942,7 +13942,7 @@
                                     "fr": "Traduire : Arrière-plan",
                                     "de": "Übersetzen: Hintergrund",
                                     "ru": "Перевести: Фон",
-                                    "zh": "翻译： 背景"
+                                    "zh": "翻译: 背景"
                                 },
                                 "options": [
                                     "تذوق",
@@ -13993,7 +13993,7 @@
                                     "fr": "Traduire : La photographie est l'art de documenter l'instant",
                                     "de": "Übersetzen: Fotografie ist die Kunst, den Moment zu dokumentieren",
                                     "ru": "Перевести: Фотография — это искусство запечатления момента",
-                                    "zh": "翻译： 摄影是记录瞬间的艺术。"
+                                    "zh": "翻译: 摄影是记录瞬间的艺术。"
                                 },
                                 "options": [
                                     "الإضاءة الطبيعية هي الأفضل للبورتريه",
@@ -14044,7 +14044,7 @@
                                     "fr": "Traduire : Professionnel",
                                     "de": "Übersetzen: Professionell",
                                     "ru": "Перевести: Профессиональный",
-                                    "zh": "翻译： 专业的"
+                                    "zh": "翻译: 专业的"
                                 },
                                 "options": [
                                     "قرض",
@@ -14406,7 +14406,7 @@
                                     "fr": "Traduire : Planification",
                                     "de": "Übersetzen: Planung",
                                     "ru": "Перевести: Планирование",
-                                    "zh": "翻译： 规划"
+                                    "zh": "翻译: 规划"
                                 },
                                 "options": [
                                     "طموح",
@@ -14457,7 +14457,7 @@
                                     "fr": "Traduire : Nous voulons augmenter les espaces verts dans la ville",
                                     "de": "Übersetzen: Wir wollen die Grünflächen in der Stadt vergrößern",
                                     "ru": "Перевести: Мы хотим увеличить количество зеленых насаждений в городе",
-                                    "zh": "翻译： 我们想增加城市的绿地面积。"
+                                    "zh": "翻译: 我们想增加城市的绿地面积。"
                                 },
                                 "options": [
                                     "التراث التاريخي كنز لا يقدر بثمن",
@@ -14508,7 +14508,7 @@
                                     "fr": "Traduire : Piétons",
                                     "de": "Übersetzen: Fußgänger",
                                     "ru": "Перевести: Пешеходы",
-                                    "zh": "翻译： 行人"
+                                    "zh": "翻译: 行人"
                                 },
                                 "options": [
                                     "مشاة",
@@ -14865,12 +14865,12 @@
                                 "type": "multipleChoice",
                                 "correctAnswer": "رؤية",
                                 "text": {
-                                    "en": "Translate: Vision",
+                                    "en": "Translate: Vision/Perspective",
                                     "ar": "ترجم: رؤية",
                                     "fr": "Traduire : Vision",
                                     "de": "Übersetzen: Vision/Perspektive",
-                                    "ru": "Перевести: Видение",
-                                    "zh": "翻译： 远见/愿景"
+                                    "ru": "Перевести: Видение/Перспектива",
+                                    "zh": "翻译: 愿景"
                                 },
                                 "options": [
                                     "تقييم",
@@ -14921,7 +14921,7 @@
                                     "fr": "Traduire : L'unicité est ce qui rend l'art immortel",
                                     "de": "Übersetzen: Einzigartigkeit ist es, was Kunst unsterblich macht",
                                     "ru": "Перевести: Уникальность — это то, что делает искусство бессмертным",
-                                    "zh": "翻译： 独特性是艺术永恒的原因。"
+                                    "zh": "翻译: 独特性是艺术永恒的原因。"
                                 },
                                 "options": [
                                     "نحتاج إلى توازن بين الصناعة والبيئة",
@@ -14972,7 +14972,7 @@
                                     "fr": "Traduire : Critique",
                                     "de": "Übersetzen: Kritik",
                                     "ru": "Перевести: Критика",
-                                    "zh": "翻译： 批评"
+                                    "zh": "翻译: 批评"
                                 },
                                 "options": [
                                     "نقد",
@@ -15329,12 +15329,12 @@
                                 "type": "multipleChoice",
                                 "correctAnswer": "دقة",
                                 "text": {
-                                    "en": "Translate: Accuracy/Precision",
+                                    "en": "Translate: Resolution/Accuracy",
                                     "ar": "ترجم: دقة",
-                                    "fr": "Traduire : Précision",
-                                    "de": "Übersetzen: Präzision",
-                                    "ru": "Перевести: Точность",
-                                    "zh": "翻译： 精准"
+                                    "fr": "Traduire : Résolution/Précision",
+                                    "de": "Übersetzen: Auflösung/Genauigkeit",
+                                    "ru": "Перевести: Разрешение/Точность",
+                                    "zh": "翻译: 清晰度/精准"
                                 },
                                 "options": [
                                     "تجسيم",
@@ -15385,7 +15385,7 @@
                                     "fr": "Traduire : J'ai utilisé des outils simples pour l'assemblage",
                                     "de": "Übersetzen: Ich habe einfache Werkzeuge für den Zusammenbau verwendet",
                                     "ru": "Перевести: Для сборки я использовал простые инструменты",
-                                    "zh": "翻译： 我使用了简单的工具进行组装。"
+                                    "zh": "翻译: 我使用了简单的工具进行组装。"
                                 },
                                 "options": [
                                     "تتناول المراجعة نقاط القوة في الكتاب",
@@ -15436,7 +15436,7 @@
                                     "fr": "Traduire : Modèle",
                                     "de": "Übersetzen: Modell",
                                     "ru": "Перевести: Модель",
-                                    "zh": "翻译： 模型"
+                                    "zh": "翻译: 模型"
                                 },
                                 "options": [
                                     "أبعاد",
@@ -16093,7 +16093,7 @@
                                     "fr": "Traduire : Investissement",
                                     "de": "Übersetzen: Investition",
                                     "ru": "Перевести: Инвестиция",
-                                    "zh": "翻译： 投资"
+                                    "zh": "翻译: 投资"
                                 },
                                 "options": [
                                     "استيراد",
@@ -16144,7 +16144,7 @@
                                     "fr": "Traduire : L'économie mondiale traverse une étape difficile",
                                     "de": "Übersetzen: Die Weltwirtschaft durchläuft eine schwierige Phase",
                                     "ru": "Перевести: Мировая экономика переживает сложный этап",
-                                    "zh": "翻译： 全球经济正处于困难阶段。"
+                                    "zh": "翻译: 全球经济正处于困难阶段。"
                                 },
                                 "options": [
                                     "الاقتصاد العالمي يمر بمرحلة صعبة",
@@ -16195,7 +16195,7 @@
                                     "fr": "Traduire : Croissance",
                                     "de": "Übersetzen: Wachstum",
                                     "ru": "Перевести: Рост",
-                                    "zh": "翻译： 增长"
+                                    "zh": "翻译: 增长"
                                 },
                                 "options": [
                                     "نمو",
@@ -16557,7 +16557,7 @@
                                     "fr": "Traduire : Marque",
                                     "de": "Übersetzen: Marke",
                                     "ru": "Перевести: Бренд",
-                                    "zh": "翻译： 品牌"
+                                    "zh": "翻译: 品牌"
                                 },
                                 "options": [
                                     "علامة تجارية",
@@ -16608,7 +16608,7 @@
                                     "fr": "Traduire : Nous avons lancé une nouvelle campagne publicitaire",
                                     "de": "Übersetzen: Wir haben eine neue Werbekampagne gestartet",
                                     "ru": "Перевести: Мы запустили новую рекламную кампанию",
-                                    "zh": "翻译： 我们发起了一场新的广告活动。"
+                                    "zh": "翻译: 我们发起了一场新的广告活动。"
                                 },
                                 "options": [
                                     "نحتاج إلى تنظيم البيانات بدقة",
@@ -16659,7 +16659,7 @@
                                     "fr": "Traduire : Publicité",
                                     "de": "Übersetzen: Werbung",
                                     "ru": "Перевести: Реклама",
-                                    "zh": "翻译： 广告"
+                                    "zh": "翻译: 广告"
                                 },
                                 "options": [
                                     "علامة تجارية",
@@ -17021,7 +17021,7 @@
                                     "fr": "Traduire : Taux de change",
                                     "de": "Übersetzen: Wechselkurs",
                                     "ru": "Перевести: Курс обмена",
-                                    "zh": "翻译： 汇率"
+                                    "zh": "翻译: 汇率"
                                 },
                                 "options": [
                                     "سعر الصرف",
@@ -17072,7 +17072,7 @@
                                     "fr": "Traduire : J'ai demandé un prêt pour acheter une nouvelle maison",
                                     "de": "Übersetzen: Ich habe einen Kredit beantragt, um ein neues Haus zu kaufen",
                                     "ru": "Перевести: Я подал заявку на кредит для покупки нового дома",
-                                    "zh": "翻译： 我申请了贷款买新房子。"
+                                    "zh": "翻译: 我申请了贷款买新房子。"
                                 },
                                 "options": [
                                     "نحتاج إلى تنظيم البيانات بدقة",
@@ -17120,10 +17120,10 @@
                                 "text": {
                                     "en": "Translate: Guarantee/Warranty",
                                     "ar": "ترجم: ضمان",
-                                    "fr": "Traduire : Guarantee/Social Securité",
-                                    "de": "Übersetzen: Guarantee/Social Securität",
+                                    "fr": "Traduire : Garantie",
+                                    "de": "Übersetzen: Garantie",
                                     "ru": "Перевести: Гарантия",
-                                    "zh": "翻译： 保证"
+                                    "zh": "翻译: 保证"
                                 },
                                 "options": [
                                     "قرض",
@@ -17485,7 +17485,7 @@
                                     "fr": "Traduire : Startup",
                                     "de": "Übersetzen: Start-up",
                                     "ru": "Перевести: Стартап",
-                                    "zh": "翻译： 初创公司"
+                                    "zh": "翻译: 初创公司"
                                 },
                                 "options": [
                                     "ريادة الأعمال",
@@ -17536,7 +17536,7 @@
                                     "fr": "Traduire : L'expérience pratique est parfois plus importante que le diplôme",
                                     "de": "Übersetzen: Praktische Erfahrung ist manchmal wichtiger als der Abschluss",
                                     "ru": "Перевести: Практический опыт иногда важнее диплома",
-                                    "zh": "翻译： 实际经验有时比学位更重要。"
+                                    "zh": "翻译: 实际经验有时比学位更重要。"
                                 },
                                 "options": [
                                     "الخبرة العملية أهم من الشهادة أحيانا",
@@ -17587,7 +17587,7 @@
                                     "fr": "Traduire : Échec",
                                     "de": "Übersetzen: Scheitern",
                                     "ru": "Перевести: Неудача",
-                                    "zh": "翻译： 失败"
+                                    "zh": "翻译: 失败"
                                 },
                                 "options": [
                                     "كرم",
@@ -17946,10 +17946,10 @@
                                 "text": {
                                     "en": "Translate: Application",
                                     "ar": "ترجم: طلب",
-                                    "fr": "Traduire : Demande",
-                                    "de": "Übersetzen: Nachfrage",
-                                    "ru": "Перевести: Спрос",
-                                    "zh": "翻译： 申请"
+                                    "fr": "Traduire : Demande/Candidature",
+                                    "de": "Übersetzen: Bewerbung/Antrag",
+                                    "ru": "Перевести: Заявка",
+                                    "zh": "翻译: 申请"
                                 },
                                 "options": [
                                     "مقابلة عمل",
@@ -18000,7 +18000,7 @@
                                     "fr": "Traduire : J'ai porté un costume pour l'entretien aujourd'hui",
                                     "de": "Übersetzen: Ich trug heute einen Anzug zum Gespräch",
                                     "ru": "Перевести: Сегодня я надел костюм на собеседование",
-                                    "zh": "翻译： 我今天穿了一套西装去面试。"
+                                    "zh": "翻译: 我今天穿了一套西装去面试。"
                                 },
                                 "options": [
                                     "كتبت مقالا عن حماية الشواطئ",
@@ -18051,7 +18051,7 @@
                                     "fr": "Traduire : Vacant",
                                     "de": "Übersetzen: Vakant/Freie Stelle",
                                     "ru": "Перевести: Вакансия",
-                                    "zh": "翻译： 空缺"
+                                    "zh": "翻译: 空缺"
                                 },
                                 "options": [
                                     "نقاط الضعف",
@@ -18413,7 +18413,7 @@
                                     "fr": "Traduire : Officiel",
                                     "de": "Übersetzen: Offiziell",
                                     "ru": "Перевести: Официальный",
-                                    "zh": "翻译： 正式"
+                                    "zh": "翻译: 正式"
                                 },
                                 "options": [
                                     "رسمي",
@@ -18464,7 +18464,7 @@
                                     "fr": "Traduire : Veuillez agréer l'expression de ma haute considération",
                                     "de": "Übersetzen: Mit freundlichen Grüßen",
                                     "ru": "Перевести: Примите мои искренние заверения в почтении",
-                                    "zh": "翻译： 请接受我崇高的敬意。"
+                                    "zh": "翻译: 请接受我崇高的敬意。"
                                 },
                                 "options": [
                                     "تقبلوا فائق التقدير والاحترام",
@@ -18515,7 +18515,7 @@
                                     "fr": "Traduire : Pièce jointe",
                                     "de": "Übersetzen: Anhang",
                                     "ru": "Перевести: Приложение",
-                                    "zh": "翻译： 附件"
+                                    "zh": "翻译: 附件"
                                 },
                                 "options": [
                                     "مرفق",
@@ -18877,7 +18877,7 @@
                                     "fr": "Traduire : Budget",
                                     "de": "Übersetzen: Budget",
                                     "ru": "Перевести: Бюджет",
-                                    "zh": "翻译： 预算"
+                                    "zh": "翻译: 预算"
                                 },
                                 "options": [
                                     "ميزانية",
@@ -18928,7 +18928,7 @@
                                     "fr": "Traduire : Le plan vise à réaliser des profits élevés",
                                     "de": "Übersetzen: Der Plan zielt darauf ab, hohe Gewinne zu erzielen",
                                     "ru": "Перевести: План направлен на достижение высокой прибыли",
-                                    "zh": "翻译： 该计划旨在获得高额利润。"
+                                    "zh": "翻译: 该计划旨在获得高额利润。"
                                 },
                                 "options": [
                                     "الخيال الواسع أساس الكتابة الإبداعية",
@@ -18979,7 +18979,7 @@
                                     "fr": "Traduire : Développement",
                                     "de": "Übersetzen: Entwicklung",
                                     "ru": "Перевести: Развитие",
-                                    "zh": "翻译： 开发/发展"
+                                    "zh": "翻译: 开发/发展"
                                 },
                                 "options": [
                                     "ربح",
@@ -19341,7 +19341,7 @@
                                     "fr": "Traduire : Financement",
                                     "de": "Übersetzen: Finanzierung",
                                     "ru": "Перевести: Финансирование",
-                                    "zh": "翻译： 融资"
+                                    "zh": "翻译: 融资"
                                 },
                                 "options": [
                                     "تهديد",
@@ -19392,7 +19392,7 @@
                                     "fr": "Traduire : Nous devons gérer les risques avec sagesse",
                                     "de": "Übersetzen: Wir müssen Risiken klug verwalten",
                                     "ru": "Перевести: Мы должны мудро управлять рисками",
-                                    "zh": "翻译： 我们必须明智地管理风险。"
+                                    "zh": "翻译: 我们必须明智地管理风险。"
                                 },
                                 "options": [
                                     "ما هي توقعاتك للعلم بعد عشرين عاما؟",
@@ -19443,7 +19443,7 @@
                                     "fr": "Traduire : Succès",
                                     "de": "Übersetzen: Erfolg",
                                     "ru": "Перевести: Успех",
-                                    "zh": "翻译： 成功"
+                                    "zh": "翻译: 成功"
                                 },
                                 "options": [
                                     "معلومات",
@@ -20100,7 +20100,7 @@
                                     "fr": "Traduire : Réalisation",
                                     "de": "Übersetzen: Errungenschaft",
                                     "ru": "Перевести: Достижение",
-                                    "zh": "翻译： 成就"
+                                    "zh": "翻译: 成就"
                                 },
                                 "options": [
                                     "تاريخ جديد",
@@ -20151,7 +20151,7 @@
                                     "fr": "Traduire : La Mésopotamie est le berceau des civilisations",
                                     "de": "Übersetzen: Mesopotamien ist die Wiege der Zivilisationen",
                                     "ru": "Перевести: Месопотамия — колыбель цивилизаций",
-                                    "zh": "翻译： 美索不达米亚是文明的摇篮。"
+                                    "zh": "翻译: 美索不达米亚是文明的摇篮。"
                                 },
                                 "options": [
                                     "الكتابة المسمارية هي أقدم أنواع الكتابة",
@@ -20202,7 +20202,7 @@
                                     "fr": "Traduire : Cunéiforme",
                                     "de": "Übersetzen: Keilschrift",
                                     "ru": "Перевести: Клинопись",
-                                    "zh": "翻译： 楔形文字"
+                                    "zh": "翻译: 楔形文字"
                                 },
                                 "options": [
                                     "تقليل",
@@ -20564,7 +20564,7 @@
                                     "fr": "Traduire : Marchandise",
                                     "de": "Übersetzen: Ware",
                                     "ru": "Перевести: Товар",
-                                    "zh": "翻译： 货物"
+                                    "zh": "翻译: 货物"
                                 },
                                 "options": [
                                     "تبادل",
@@ -20615,7 +20615,7 @@
                                     "fr": "Traduire : Les marchands transportaient des épices et de la soie",
                                     "de": "Übersetzen: Händler transportierten Gewürze und Seide",
                                     "ru": "Перевести: Торговцы перевозили специи и шелк",
-                                    "zh": "翻译： 商人们过去运输香料和丝绸。"
+                                    "zh": "翻译: 商人们过去运输香料和丝绸。"
                                 },
                                 "options": [
                                     "كان التجار ينقلون التوابل والحرير",
@@ -20666,7 +20666,7 @@
                                     "fr": "Traduire : Communication",
                                     "de": "Übersetzen: Kommunikation",
                                     "ru": "Перевести: Коммуникация",
-                                    "zh": "翻译： 交流"
+                                    "zh": "翻译: 沟通"
                                 },
                                 "options": [
                                     "قافلة",
@@ -21028,7 +21028,7 @@
                                     "fr": "Traduire : Conte",
                                     "de": "Übersetzen: Erzählung",
                                     "ru": "Перевести: Сказка",
-                                    "zh": "翻译： 故事"
+                                    "zh": "翻译: 故事"
                                 },
                                 "options": [
                                     "حكاية",
@@ -21079,7 +21079,7 @@
                                     "fr": "Traduire : Les héros populaires sont des symboles de dignité",
                                     "de": "Übersetzen: Volkshelden sind Symbole der Würde",
                                     "ru": "Перевести: Народные герои — символы достоинства",
-                                    "zh": "翻译： 民间英雄是尊严的象征。"
+                                    "zh": "翻译: 民间英雄是尊严的象征。"
                                 },
                                 "options": [
                                     "البطل يضحي من أجل وطنه",
@@ -21130,7 +21130,7 @@
                                     "fr": "Traduire : Légende",
                                     "de": "Übersetzen: Legende",
                                     "ru": "Перевести: Легенда",
-                                    "zh": "翻译： 传奇/神话"
+                                    "zh": "翻译: 传奇/神话"
                                 },
                                 "options": [
                                     "شهرة",
@@ -21492,7 +21492,7 @@
                                     "fr": "Traduire : Historique",
                                     "de": "Übersetzen: Historisch",
                                     "ru": "Перевести: Исторический",
-                                    "zh": "翻译： 历史的"
+                                    "zh": "翻译: 历史的"
                                 },
                                 "options": [
                                     "تاريخي",
@@ -21543,7 +21543,7 @@
                                     "fr": "Traduire : Les raisons allaient de la négligence aux guerres",
                                     "de": "Übersetzen: Die Gründe reichten von Vernachlässigung bis zu Kriegen",
                                     "ru": "Перевести: Причины варьировались от небрежности до войн",
-                                    "zh": "翻译： 原因从疏忽到战争不等。"
+                                    "zh": "翻译: 原因从疏忽到战争不等。"
                                 },
                                 "options": [
                                     "تعمل اليونسكو على حماية الآثار",
@@ -21594,7 +21594,7 @@
                                     "fr": "Traduire : UNESCO",
                                     "de": "Übersetzen: UNESCO",
                                     "ru": "Перевести: ЮНЕСКО",
-                                    "zh": "翻译： 教科文组织"
+                                    "zh": "翻译: 教科文组织"
                                 },
                                 "options": [
                                     "موقع",
@@ -21956,7 +21956,7 @@
                                     "fr": "Traduire : Souvenir/Anniversaire",
                                     "de": "Übersetzen: Erinnerung/Jahrestag",
                                     "ru": "Перевести: Память/Годовщина",
-                                    "zh": "翻译： 纪念/回忆"
+                                    "zh": "翻译: 纪念/回忆"
                                 },
                                 "options": [
                                     "حدث",
@@ -22007,7 +22007,7 @@
                                     "fr": "Traduire : La documentation historique protège les faits de l'oubli",
                                     "de": "Übersetzen: Historische Dokumentation schützt Fakten vor dem Vergessen",
                                     "ru": "Перевести: Историческое документирование защищает факты от потери",
-                                    "zh": "翻译： 历史文献保护事实不被遗忘。"
+                                    "zh": "翻译: 历史文献保护事实不被遗忘。"
                                 },
                                 "options": [
                                     "كانت المعركة حدثا فاصلا في التاريخ",
@@ -22058,7 +22058,7 @@
                                     "fr": "Traduire : Souvenir/Anniversaire",
                                     "de": "Übersetzen: Erinnerung/Jahrestag",
                                     "ru": "Перевести: Память/Годовщина",
-                                    "zh": "翻译： 纪念/回忆"
+                                    "zh": "翻译: 纪念/回忆"
                                 },
                                 "options": [
                                     "ملائم",
@@ -22420,7 +22420,7 @@
                                     "fr": "Traduire : Expert",
                                     "de": "Übersetzen: Experte",
                                     "ru": "Перевести: Эксперт",
-                                    "zh": "翻译： 专家"
+                                    "zh": "翻译: 专家"
                                 },
                                 "options": [
                                     "خبير",
@@ -22471,7 +22471,7 @@
                                     "fr": "Traduire : Les experts utilisent des techniques modernes de restauration",
                                     "de": "Übersetzen: Experten nutzen moderne Techniken zur Restaurierung",
                                     "ru": "Перевести: Эксперты используют современные методы реставрации",
-                                    "zh": "翻译： 专家们使用现代技术进行修复。"
+                                    "zh": "翻译: 专家们使用现代技术进行修复。"
                                 },
                                 "options": [
                                     "مراجعة الميزانية السنوية مهمة جدا",
@@ -22522,7 +22522,7 @@
                                     "fr": "Traduire : Expert",
                                     "de": "Übersetzen: Experte",
                                     "ru": "Перевести: Эксперт",
-                                    "zh": "翻译： 专家"
+                                    "zh": "翻译: 专家"
                                 },
                                 "options": [
                                     "غطاء نباتي",
@@ -22884,7 +22884,7 @@
                                     "fr": "Traduire : Alphabétisation",
                                     "de": "Übersetzen: Kultur",
                                     "ru": "Перевести: Культура",
-                                    "zh": "翻译： 文化"
+                                    "zh": "翻译: 文化"
                                 },
                                 "options": [
                                     "تاريخ",
@@ -22935,7 +22935,7 @@
                                     "fr": "Traduire : Les traditions font partie intégrante de notre culture",
                                     "de": "Übersetzen: Traditionen sind ein wesentlicher Bestandteil unserer Kultur",
                                     "ru": "Перевести: Традиции — неотъемлемая часть нашей культуры",
-                                    "zh": "翻译： 传统是我们文化中不可分割的一部分。"
+                                    "zh": "翻译: 传统是我们文化中不可分割的一部分。"
                                 },
                                 "options": [
                                     "الاحتباس الحراري يزيد من كوارث الطبيعة",
@@ -22986,7 +22986,7 @@
                                     "fr": "Traduire : Trésor",
                                     "de": "Übersetzen: Schatz",
                                     "ru": "Перевести: Сокровище",
-                                    "zh": "翻译： 宝藏"
+                                    "zh": "翻译: 宝藏"
                                 },
                                 "options": [
                                     "منهج",
@@ -23348,7 +23348,7 @@
                                     "fr": "Traduire : Monument",
                                     "de": "Übersetzen: Wahrzeichen",
                                     "ru": "Перевести: Достопримечательность",
-                                    "zh": "翻译： 地标"
+                                    "zh": "翻译: 地标"
                                 },
                                 "options": [
                                     "تفاعلي",
@@ -23399,7 +23399,7 @@
                                     "fr": "Traduire : J'ai visité la ville de Babylone à travers l'écran",
                                     "de": "Übersetzen: Ich habe die Stadt Babylon über den Bildschirm besichtigt",
                                     "ru": "Перевести: Я совершил экскурсию по городу Вавилону через экран",
-                                    "zh": "翻译： 我在屏幕上游览了巴比伦城。"
+                                    "zh": "翻译: 我在屏幕上游览了巴比伦城。"
                                 },
                                 "options": [
                                     "ننتظر ردكم الرسمي بفارغ الصبر",
@@ -23450,7 +23450,7 @@
                                     "fr": "Traduire : Monument",
                                     "de": "Übersetzen: Wahrzeichen",
                                     "ru": "Перевести: Достопримечательность",
-                                    "zh": "翻译： 地标"
+                                    "zh": "翻译: 地标"
                                 },
                                 "options": [
                                     "معلم",
@@ -24107,7 +24107,7 @@
                                     "fr": "Traduire : Espace",
                                     "de": "Übersetzen: Weltraum",
                                     "ru": "Перевести: Космос",
-                                    "zh": "翻译： 太空"
+                                    "zh": "翻译: 太空"
                                 },
                                 "options": [
                                     "شهرة",
@@ -24158,7 +24158,7 @@
                                     "fr": "Traduire : Le but de la mission est d'explorer Mars",
                                     "de": "Übersetzen: Ziel der Mission ist die Erforschung des Mars",
                                     "ru": "Перевести: Цель миссии — исследование Марса",
-                                    "zh": "翻译： 任务的目标是探索火星。"
+                                    "zh": "翻译: 任务的目标是探索火星。"
                                 },
                                 "options": [
                                     "الأداء كان سريعا ومستقرا",
@@ -24204,12 +24204,12 @@
                                 "type": "multipleChoice",
                                 "correctAnswer": "بحث",
                                 "text": {
-                                    "en": "Translate: Research",
+                                    "en": "Translate: Research/Paper",
                                     "ar": "ترجم: بحث",
-                                    "fr": "Traduire : Recherche",
-                                    "de": "Übersetzen: Forschung",
-                                    "ru": "Перевести: Поиск/Исследование",
-                                    "zh": "翻译： 研究"
+                                    "fr": "Traduire : Recherche/Article",
+                                    "de": "Übersetzen: Forschung/Studie",
+                                    "ru": "Перевести: Исследование",
+                                    "zh": "翻译: 研究"
                                 },
                                 "options": [
                                     "تجربة",
@@ -24571,7 +24571,7 @@
                                     "fr": "Traduire : Santé",
                                     "de": "Übersetzen: Gesundheit",
                                     "ru": "Перевести: Здоровье",
-                                    "zh": "翻译： 健康"
+                                    "zh": "翻译: 健康"
                                 },
                                 "options": [
                                     "تشخيص",
@@ -24622,7 +24622,7 @@
                                     "fr": "Traduire : Les médecins utilisent des robots en chirurgie",
                                     "de": "Übersetzen: Ärzte setzen Roboter in der Chirurgie ein",
                                     "ru": "Перевести: Врачи используют роботов в хирургии",
-                                    "zh": "翻译： 医生在手术中使用机器人。"
+                                    "zh": "翻译: 医生在手术中使用机器人。"
                                 },
                                 "options": [
                                     "الابتكارات الطبية تنقذ حياة الملايين",
@@ -24673,7 +24673,7 @@
                                     "fr": "Traduire : Appareil",
                                     "de": "Übersetzen: Gerät",
                                     "ru": "Перевести: Устройство/Аппарат",
-                                    "zh": "翻译： 设备"
+                                    "zh": "翻译: 设备"
                                 },
                                 "options": [
                                     "مريض",
@@ -25035,7 +25035,7 @@
                                     "fr": "Traduire : Loi",
                                     "de": "Übersetzen: Gesetz",
                                     "ru": "Перевести: Закон",
-                                    "zh": "翻译： 法律"
+                                    "zh": "翻译: 法律"
                                 },
                                 "options": [
                                     "قانون",
@@ -25086,7 +25086,7 @@
                                     "fr": "Traduire : Le génie génétique suscite un débat éthique",
                                     "de": "Übersetzen: Gentechnik löst eine ethische Debatte aus",
                                     "ru": "Перевести: Генная инженерия вызывает этические споры",
-                                    "zh": "翻译： 基因工程引发了伦理争议。"
+                                    "zh": "翻译: 基因工程引发了伦理争议。"
                                 },
                                 "options": [
                                     "يجب وضع قوانين لتنظيم الأبحاث الجينية",
@@ -25137,7 +25137,7 @@
                                     "fr": "Traduire : Éthique",
                                     "de": "Übersetzen: Ethik",
                                     "ru": "Перевести: Этика",
-                                    "zh": "翻译： 伦理"
+                                    "zh": "翻译: 伦理"
                                 },
                                 "options": [
                                     "سوق",
@@ -25499,7 +25499,7 @@
                                     "fr": "Traduire : Données",
                                     "de": "Übersetzen: Daten",
                                     "ru": "Перевести: Данные",
-                                    "zh": "翻译： 数据"
+                                    "zh": "翻译: 数据"
                                 },
                                 "options": [
                                     "بيانات",
@@ -25550,7 +25550,7 @@
                                     "fr": "Traduire : Les mégadonnées sont le carburant de l'intelligence artificielle",
                                     "de": "Übersetzen: Big Data ist der Brennstoff für künstliche Intelligenz",
                                     "ru": "Перевести: Большие данные — это топливо для искусственного интеллекentsии",
-                                    "zh": "翻译： 大数据是人工智能的动力物资。"
+                                    "zh": "翻译: 大数据是人工智能的动力物资。"
                                 },
                                 "options": [
                                     "الخيال الواسع أساس الكتابة الإبداعية",
@@ -25601,7 +25601,7 @@
                                     "fr": "Traduire : Emploi/Fonction",
                                     "de": "Übersetzen: Job/Funktion",
                                     "ru": "Перевести: Работа/Функция",
-                                    "zh": "翻译： 职业/功能"
+                                    "zh": "翻译: 职业/功能"
                                 },
                                 "options": [
                                     "ذكاء إصطناعي",
@@ -25963,7 +25963,7 @@
                                     "fr": "Traduire : Projet scientifique",
                                     "de": "Übersetzen: Wissenschaftsprojekt",
                                     "ru": "Перевести: Научный проект",
-                                    "zh": "翻译： 科学项目"
+                                    "zh": "翻译: 科学项目"
                                 },
                                 "options": [
                                     "صبر",
@@ -26014,7 +26014,7 @@
                                     "fr": "Traduire : Nous devons suivre les étapes avec précision",
                                     "de": "Übersetzen: Wir müssen die Schritte genau befolgen",
                                     "ru": "Перевести: Мы должны точно следовать шагам",
-                                    "zh": "翻译： 我们必须准确地按照步骤操作。"
+                                    "zh": "翻译: 我们必须准确地按照步骤操作。"
                                 },
                                 "options": [
                                     "علينا اتباع الخطوات بدقة",
@@ -26065,7 +26065,7 @@
                                     "fr": "Traduire : Projet scientifique",
                                     "de": "Übersetzen: Wissenschaftsprojekt",
                                     "ru": "Перевести: Научный проект",
-                                    "zh": "翻译： 科学项目"
+                                    "zh": "翻译: 科学项目"
                                 },
                                 "options": [
                                     "تمثيل",
@@ -26427,7 +26427,7 @@
                                     "fr": "Traduire : Conclusion/Résumé",
                                     "de": "Übersetzen: Fazit/Zusammenfassung",
                                     "ru": "Перевести: Вывод/Краткое содержание",
-                                    "zh": "翻译： 总结/结论"
+                                    "zh": "翻译: 总结/结论"
                                 },
                                 "options": [
                                     "تحذير",
@@ -26478,7 +26478,7 @@
                                     "fr": "Traduire : L'introduction explique le but de l'expérience",
                                     "de": "Übersetzen: Die Einleitung erklärt das Ziel des Experiments",
                                     "ru": "Перевести: Введение объясняет цель эксперимента",
-                                    "zh": "翻译： 引言解释了实验的目的。"
+                                    "zh": "翻译: 引言解释了实验的目的。"
                                 },
                                 "options": [
                                     "المقدمة تشرح هدف التجربة",
@@ -26529,7 +26529,7 @@
                                     "fr": "Traduire : Avertissement",
                                     "de": "Übersetzen: Warnung",
                                     "ru": "Перевести: Предупреждение",
-                                    "zh": "翻译： 警告"
+                                    "zh": "翻译: 警告"
                                 },
                                 "options": [
                                     "بحث",
@@ -26891,7 +26891,7 @@
                                     "fr": "Traduire : Application",
                                     "de": "Übersetzen: Anwendung",
                                     "ru": "Перевести: Применение",
-                                    "zh": "翻译： 应用"
+                                    "zh": "翻译: 应用"
                                 },
                                 "options": [
                                     "خشبة المسرح",
@@ -26942,7 +26942,7 @@
                                     "fr": "Traduire : Réviser les termes scientifiques est utile",
                                     "de": "Übersetzen: Die Überprüfung wissenschaftlicher Begriffe ist nützlich",
                                     "ru": "Перевести: Повторение научных терминов полезно",
-                                    "zh": "翻译： 复习科学术语很有用。"
+                                    "zh": "翻译: 复习科学术语很有用。"
                                 },
                                 "options": [
                                     "مراجعة المصطلحات العلمية مفيدة",
@@ -26993,7 +26993,7 @@
                                     "fr": "Traduire : Matière",
                                     "de": "Übersetzen: Materie/Stoff",
                                     "ru": "Перевести: Материя/Вещество",
-                                    "zh": "翻译： 物质"
+                                    "zh": "翻译: 物质"
                                 },
                                 "options": [
                                     "منافسة",
@@ -27350,12 +27350,12 @@
                                 "type": "multipleChoice",
                                 "correctAnswer": "خيال",
                                 "text": {
-                                    "en": "Translate: Imagination/Fiction",
+                                    "en": "Translate: Imagination",
                                     "ar": "ترجم: خيال",
                                     "fr": "Traduire : Imagination",
                                     "de": "Übersetzen: Fantasie",
                                     "ru": "Перевести: Воображение",
-                                    "zh": "翻译： 想象/虚构"
+                                    "zh": "翻译: 想象"
                                 },
                                 "options": [
                                     "رأس المال",
@@ -27406,7 +27406,7 @@
                                     "fr": "Traduire : Certaines fictions deviendront bientôt réalité",
                                     "de": "Übersetzen: Manche Fantasien werden bald Wirklichkeit werden",
                                     "ru": "Перевести: Кое-какая фантастика скоро станет реальностью",
-                                    "zh": "翻译： 一些虚构的东西很快就会变成现实。"
+                                    "zh": "翻译: 一些虚构的东西很快就会变成现实。"
                                 },
                                 "options": [
                                     "نشعر بالانتماء لهذه الأرض العريقة",
@@ -27452,12 +27452,12 @@
                                 "type": "multipleChoice",
                                 "correctAnswer": "خيال",
                                 "text": {
-                                    "en": "Translate: Imagination/Fiction",
+                                    "en": "Translate: Imagination",
                                     "ar": "ترجم: خيال",
                                     "fr": "Traduire : Imagination",
                                     "de": "Übersetzen: Fantasie",
                                     "ru": "Перевести: Воображение",
-                                    "zh": "翻译： 想象/虚构"
+                                    "zh": "翻译: 想象"
                                 },
                                 "options": [
                                     "خيال",
@@ -28114,7 +28114,7 @@
                                     "fr": "Traduire : Littérature",
                                     "de": "Übersetzen: Literatur",
                                     "ru": "Перевести: Литература",
-                                    "zh": "翻译： 文学"
+                                    "zh": "翻译: 文学"
                                 },
                                 "options": [
                                     "مشاعر",
@@ -28165,7 +28165,7 @@
                                     "fr": "Traduire : J'ai mémorisé des vers des Mu'allaqat",
                                     "de": "Übersetzen: Ich habe Verse aus den Mu'allaqat auswendig gelernt",
                                     "ru": "Перевести: Я выучил наизусть стихи из Муаллакат",
-                                    "zh": "翻译： 我背诵了《悬诗》中的诗句。"
+                                    "zh": "翻译: 我背诵了《悬诗》中的诗句。"
                                 },
                                 "options": [
                                     "الشعر العربي الكلاسيكي غني بالمعاني",
@@ -28216,7 +28216,7 @@
                                     "fr": "Traduire : Éloquence",
                                     "de": "Übersetzen: Beredsamkeit/Rhetorik",
                                     "ru": "Перевести: Красноречие/Риторика",
-                                    "zh": "翻译： 辞令/雄辩"
+                                    "zh": "翻译: 辞令/雄辩"
                                 },
                                 "options": [
                                     "معنى",
@@ -28578,7 +28578,7 @@
                                     "fr": "Traduire : Réalisme",
                                     "de": "Übersetzen: Realismus",
                                     "ru": "Перевести: Реализм",
-                                    "zh": "翻译： 现实主义"
+                                    "zh": "翻译: 现实主义"
                                 },
                                 "options": [
                                     "رواية",
@@ -28629,7 +28629,7 @@
                                     "fr": "Traduire : L'écrivain a utilisé le symbolisme pour exprimer la liberté",
                                     "de": "Übersetzen: Der Schriftsteller nutzte Symbolik, um Freiheit auszudrücken",
                                     "ru": "Перевести: Писатель использовал символизм для выражения свободы",
-                                    "zh": "翻译： 作者使用象征手法来表达自由。"
+                                    "zh": "翻译: 作者使用象征手法来表达自由。"
                                 },
                                 "options": [
                                     "العلامة التجارية هي هوية المنتج",
@@ -28680,7 +28680,7 @@
                                     "fr": "Traduire : Conflit",
                                     "de": "Übersetzen: Konflikt",
                                     "ru": "Перевести: Конфликт",
-                                    "zh": "翻译： 冲突"
+                                    "zh": "翻译: 冲突"
                                 },
                                 "options": [
                                     "صراع",
@@ -29042,7 +29042,7 @@
                                     "fr": "Traduire : Reconnaissance",
                                     "de": "Übersetzen: Anerkennung",
                                     "ru": "Перевести: Признание",
-                                    "zh": "翻译： 认可/赞赏"
+                                    "zh": "翻译: 认可/赞赏"
                                 },
                                 "options": [
                                     "أديب",
@@ -29093,7 +29093,7 @@
                                     "fr": "Traduire : Ses romans reflètent la vie de la société",
                                     "de": "Übersetzen: Seine Romane spiegeln das Leben der Gesellschaft wider",
                                     "ru": "Перевести: Его романы отражают жизнь общества",
-                                    "zh": "翻译： 他的小说反映了社会生活。"
+                                    "zh": "翻译: 他的小说反映了社会生活。"
                                 },
                                 "options": [
                                     "هل سيحل الروبوت محل الإنسان؟",
@@ -29143,8 +29143,8 @@
                                     "ar": "ترجم: عالمية",
                                     "fr": "Traduire : Internationalité",
                                     "de": "Übersetzen: Weltrang/Internationalität",
-                                    "ru": "Перевести: Глобальный",
-                                    "zh": "翻译： 国际性/全人类性"
+                                    "ru": "Перевести: Мировой уровень",
+                                    "zh": "翻译: 国际性/全人类性"
                                 },
                                 "options": [
                                     "عالمية",
@@ -29506,7 +29506,7 @@
                                     "fr": "Traduire : Discussion",
                                     "de": "Übersetzen: Diskussion",
                                     "ru": "Перевести: Обсуждение",
-                                    "zh": "翻译： 讨论"
+                                    "zh": "翻译: 讨论"
                                 },
                                 "options": [
                                     "مؤلف",
@@ -29557,7 +29557,7 @@
                                     "fr": "Traduire : Quel est votre avis sur la fin du livre ?",
                                     "de": "Übersetzen: Was ist Ihre Meinung zum Ende des Buches?",
                                     "ru": "Перевести: Каково ваше мнение о финале книги?",
-                                    "zh": "翻译： 你对书的结局怎么看？"
+                                    "zh": "翻译: 你对书的结局怎么看？"
                                 },
                                 "options": [
                                     "ما هو رأيك في نهاية الكتاب؟",
@@ -29608,7 +29608,7 @@
                                     "fr": "Traduire : Préféré",
                                     "de": "Übersetzen: Bevorzugt/Lieblings-",
                                     "ru": "Перевести: Любимый",
-                                    "zh": "翻译： 最喜欢的"
+                                    "zh": "翻译: 最喜欢的"
                                 },
                                 "options": [
                                     "مفضل",
@@ -29970,7 +29970,7 @@
                                     "fr": "Traduire : Scène",
                                     "de": "Übersetzen: Bühne",
                                     "ru": "Перевести: Сцена",
-                                    "zh": "翻译： 舞台"
+                                    "zh": "翻译: 舞台"
                                 },
                                 "options": [
                                     "تمثيل",
@@ -30021,7 +30021,7 @@
                                     "fr": "Traduire : L'acteur doit mémoriser le script avec précision",
                                     "de": "Übersetzen: Der Schauspieler muss das Skript genau auswendig lernen",
                                     "ru": "Перевести: Актеру необходимо точно выучить сценарий",
-                                    "zh": "翻译： 演员需要准确地记住剧本。"
+                                    "zh": "翻译: 演员需要准确地记住剧本。"
                                 },
                                 "options": [
                                     "قمنا بتجربة لقياس سرعة الضوء",
@@ -30072,7 +30072,7 @@
                                     "fr": "Traduire : Script/Scénario",
                                     "de": "Übersetzen: Skript/Drehbuch",
                                     "ru": "Перевести: Сценарий",
-                                    "zh": "翻译： 剧本"
+                                    "zh": "翻译: 剧本"
                                 },
                                 "options": [
                                     "نص مسرحي",
@@ -30434,7 +30434,7 @@
                                     "fr": "Traduire : Style",
                                     "de": "Übersetzen: Stil",
                                     "ru": "Перевести: Стиль",
-                                    "zh": "翻译： 风格"
+                                    "zh": "翻译: 风格"
                                 },
                                 "options": [
                                     "ترميم",
@@ -30485,7 +30485,7 @@
                                     "fr": "Traduire : La critique aide les lecteurs à choisir leurs livres",
                                     "de": "Übersetzen: Die Rezension hilft den Lesern bei der Auswahl ihrer Bücher",
                                     "ru": "Перевести: Обзор помогает читателям выбирать книги",
-                                    "zh": "翻译： 评论帮助读者选择书籍。"
+                                    "zh": "翻译: 评论帮助读者选择书籍。"
                                 },
                                 "options": [
                                     "تتناول المراجعة نقاط القوة في الكتاب",
@@ -30536,7 +30536,7 @@
                                     "fr": "Traduire : Critique",
                                     "de": "Übersetzen: Kritik",
                                     "ru": "Перевести: Критика",
-                                    "zh": "翻译： 批评"
+                                    "zh": "翻译: 批评"
                                 },
                                 "options": [
                                     "هدف",
@@ -30898,7 +30898,7 @@
                                     "fr": "Traduire : Connaissance",
                                     "de": "Übersetzen: Wissen/Kenntnis",
                                     "ru": "Перевести: Знание",
-                                    "zh": "翻译： 知识"
+                                    "zh": "翻译: 知识"
                                 },
                                 "options": [
                                     "خيال",
@@ -30949,7 +30949,7 @@
                                     "fr": "Traduire : L'expression de soi est un art raffiné",
                                     "de": "Übersetzen: Selbstausdruck ist eine gehobene Kunst",
                                     "ru": "Перевести: Самовыражение — это высокое искусство",
-                                    "zh": "翻译： 自我表达是一门高尚的艺术。"
+                                    "zh": "翻译: 自我表达是一门高尚的艺术。"
                                 },
                                 "options": [
                                     "اتسم عنترة بن شداد بالشجاعة",
@@ -31000,7 +31000,7 @@
                                     "fr": "Traduire : Appréciation",
                                     "de": "Übersetzen: Wertschätzung/Genuss",
                                     "ru": "Перевести: Оценка/Вкус",
-                                    "zh": "翻译： 鉴赏"
+                                    "zh": "翻译: 鉴赏"
                                 },
                                 "options": [
                                     "تذوق",
@@ -31362,7 +31362,7 @@
                                     "fr": "Traduire : Émotions",
                                     "de": "Übersetzen: Gefühle/Emotionen",
                                     "ru": "Перевести: Чувства/Эмоции",
-                                    "zh": "翻译： 情感"
+                                    "zh": "翻译: 情感"
                                 },
                                 "options": [
                                     "إصدار",
@@ -31413,7 +31413,7 @@
                                     "fr": "Traduire : Le public a réagi aux sentiments de l'artiste",
                                     "de": "Übersetzen: Das Publikum interagierte mit den Gefühlen des Künstlers",
                                     "ru": "Перевести: Публика прониклась чувствами артиста",
-                                    "zh": "翻译： 观众与艺术家的情感产生了共鸣。"
+                                    "zh": "翻译: 观众与艺术家的情感产生了共鸣。"
                                 },
                                 "options": [
                                     "تعتمد الدولة على تصدير النفط",
@@ -31464,7 +31464,7 @@
                                     "fr": "Traduire : Performance",
                                     "de": "Übersetzen: Leistung/Darstellung",
                                     "ru": "Перевести: Выступление/Исполнение",
-                                    "zh": "翻译： 演出"
+                                    "zh": "翻译: 演出"
                                 },
                                 "options": [
                                     "إبداع",
@@ -32092,10 +32092,10 @@
                 "text": {
                     "en": "Translate: Civilization",
                     "ar": "ترجم: حضارة",
-                    "fr": "Traduire : ...",
-                    "de": "Übersetzen: ...",
-                    "ru": "Перевести: ...",
-                    "zh": "翻译: ..."
+                    "fr": "Traduire : Civilisation",
+                    "de": "Übersetzen: Zivilisation",
+                    "ru": "Перевести: Цивилизация",
+                    "zh": "翻译: 文明"
                 }
             },
             {
@@ -32121,12 +32121,12 @@
                     "أمانة"
                 ],
                 "text": {
-                    "en": "Translate: Honesty/Trust",
+                    "en": "Translate: Honesty",
                     "ar": "ترجم: أمانة",
-                    "fr": "Traduire : ...",
-                    "de": "Übersetzen: ...",
-                    "ru": "Перевести: ...",
-                    "zh": "翻译: ..."
+                    "fr": "Traduire : Honnêteté",
+                    "de": "Übersetzen: Ehrlichkeit",
+                    "ru": "Перевести: Честность",
+                    "zh": "翻译: 诚实"
                 }
             },
             {
@@ -32185,10 +32185,10 @@
                 "text": {
                     "en": "Translate: Everyone agreed on the new plan",
                     "ar": "ترجم: اتفق الجميع على الخطة الجديدة",
-                    "fr": "Traduire : ...",
-                    "de": "Übersetzen: ...",
-                    "ru": "Перевести: ...",
-                    "zh": "翻译: ..."
+                    "fr": "Traduire : Tout le monde était d'accord sur le nouveau plan",
+                    "de": "Übersetzen: Alle waren mit dem neuen Plan einverstanden",
+                    "ru": "Перевести: Все согласились с новым планом",
+                    "zh": "翻译: 所有人都同意了新计划。"
                 }
             },
             {
@@ -32236,10 +32236,10 @@
                 "text": {
                     "en": "Translate: Generosity",
                     "ar": "ترجم: كرم",
-                    "fr": "Traduire : ...",
-                    "de": "Übersetzen: ...",
-                    "ru": "Перевести: ...",
-                    "zh": "翻译: ..."
+                    "fr": "Traduire : Générosité",
+                    "de": "Übersetzen: Großzügigkeit",
+                    "ru": "Перевести: Щедрость",
+                    "zh": "翻译: 慷慨"
                 }
             },
             {
@@ -32267,10 +32267,10 @@
                 "text": {
                     "en": "Translate: Salary",
                     "ar": "ترجم: راتب",
-                    "fr": "Traduire : ...",
-                    "de": "Übersetzen: ...",
-                    "ru": "Перевести: ...",
-                    "zh": "翻译: ..."
+                    "fr": "Traduire : Salaire",
+                    "de": "Übersetzen: Gehalt",
+                    "ru": "Перевести: Зарплата",
+                    "zh": "翻译: 薪水"
                 }
             },
             {
@@ -32296,7 +32296,7 @@
                     "fr": "Traduire : Ziggourat",
                     "de": "Übersetzen: Zikkurat",
                     "ru": "Перевести: Зиккурат",
-                    "zh": "翻译： 金字形神塔"
+                    "zh": "翻译: 金字形神塔"
                 },
                 "options": [
                     "حي",
@@ -32339,7 +32339,7 @@
                     "fr": "Traduire : Bénéfice",
                     "de": "Übersetzen: Nutzen",
                     "ru": "Перевести: Польза",
-                    "zh": "翻译： 利益"
+                    "zh": "翻译: 利益"
                 },
                 "options": [
                     "سوق",
@@ -32361,10 +32361,10 @@
                 "text": {
                     "en": "Translate: Danger/Risk",
                     "ar": "ترجم: خطر",
-                    "fr": "Traduire : ...",
-                    "de": "Übersetzen: ...",
-                    "ru": "Перевести: ...",
-                    "zh": "翻译: ..."
+                    "fr": "Traduire : Danger",
+                    "de": "Übersetzen: Gefahr",
+                    "ru": "Перевести: Опасность",
+                    "zh": "翻译: 危险"
                 }
             },
             {
@@ -32386,10 +32386,10 @@
                 "text": {
                     "en": "Translate: Planning",
                     "ar": "ترجم: تخطيط",
-                    "fr": "Traduire : ...",
-                    "de": "Übersetzen: ...",
-                    "ru": "Перевести: ...",
-                    "zh": "翻译: ..."
+                    "fr": "Traduire : Planification",
+                    "de": "Übersetzen: Planung",
+                    "ru": "Перевести: Планирование",
+                    "zh": "翻译: 规划"
                 }
             },
             {
@@ -32429,10 +32429,10 @@
                 "text": {
                     "en": "Translate: Device/Apparatus",
                     "ar": "ترجم: جهاز",
-                    "fr": "Traduire : ...",
-                    "de": "Übersetzen: ...",
-                    "ru": "Перевести: ...",
-                    "zh": "翻译: ..."
+                    "fr": "Traduire : Appareil",
+                    "de": "Übersetzen: Gerät",
+                    "ru": "Перевести: Устройство/Аппарат",
+                    "zh": "翻译: 设备"
                 }
             },
             {
@@ -32480,10 +32480,10 @@
                 "text": {
                     "en": "Translate: Consumption",
                     "ar": "ترجم: استهلاك",
-                    "fr": "Traduire : ...",
-                    "de": "Übersetzen: ...",
-                    "ru": "Перевести: ...",
-                    "zh": "翻译: ..."
+                    "fr": "Traduire : Consommation",
+                    "de": "Übersetzen: Verbrauch",
+                    "ru": "Перевести: Потребление",
+                    "zh": "翻译: 消费/消耗"
                 }
             },
             {
@@ -32516,12 +32516,12 @@
                 "type": "multipleChoice",
                 "correctAnswer": "موضوع",
                 "text": {
-                    "en": "Translate: Subject/Topic",
+                    "en": "Translate: Theme/Subject",
                     "ar": "ترجم: موضوع",
                     "fr": "Traduire : Sujet",
                     "de": "Übersetzen: Thema",
                     "ru": "Перевести: Тема",
-                    "zh": "翻译： 主题"
+                    "zh": "翻译: 主题"
                 },
                 "options": [
                     "موضوع",

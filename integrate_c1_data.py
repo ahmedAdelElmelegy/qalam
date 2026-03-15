@@ -3,6 +3,15 @@ import os
 import re
 import random
 
+def clean_text(text):
+    if isinstance(text, str):
+        return text.replace('.', '')
+    if isinstance(text, dict):
+        return {k: clean_text(v) for k, v in text.items()}
+    if isinstance(text, list):
+        return [clean_text(i) for i in text]
+    return text
+
 def get_transliteration(arabic_text, lang):
     # Mapping based on scripty.py logic
     mapping = {
@@ -22,7 +31,6 @@ def get_transliteration(arabic_text, lang):
     elif lang == 'fr':
         latin = latin.replace('sh', 'ch').replace('u', 'ou')
     elif lang == 'ru':
-        # Cyrillic mapping
         cyr_map = {
             'a': 'а', 'b': 'б', 't': 'т', 'th': 'т', 'j': 'дж', 'h': 'х', 'kh': 'х',
             'd': 'д', 'dh': 'д', 'r': 'р', 'z': 'з', 's': 'с', 'sch': 'ш', 'sh': 'ш',
@@ -34,7 +42,6 @@ def get_transliteration(arabic_text, lang):
             res = res.replace(k, v)
         return res
     elif lang == 'zh':
-        # Hanzi phonetic candidates (simplified)
         zh_map = {
             'a': '阿', 'b': '巴', 't': '特', 'd': '德', 's': '萨', 'j': '加', 'h': '哈',
             'k': '克', 'l': '拉', 'm': '马', 'n': '纳', 'r': '尔', 'q': '库', 'f': '法'
@@ -47,7 +54,7 @@ def get_transliteration(arabic_text, lang):
                 res += ' '
         return res
         
-    return latin
+    return clean_text(latin)
 
 def integrate():
     content_data_path = 'c1_content_data.json'
@@ -56,9 +63,6 @@ def integrate():
     with open(content_data_path, 'r', encoding='utf-8') as f:
         regen_data = json.load(f)["c1"]
         
-    # Read original metadata for structure
-    # However, we will rebuild c1 to match c2 format
-    
     UNIT_METADATA = {
         "c1_u1": {
             "title": {"en": "Classical Literature", "ar": "الأدب الكلاسيكي", "fr": "Littérature classique", "de": "Klassische Literatur", "ru": "Классическая литература", "zh": "古典文学"},
@@ -89,84 +93,84 @@ def integrate():
             "description": {"en": "Deep dive into morphology, syntax, and sociolinguistics.", "ar": "غوص عميق في الصرف والنحو وعلم اللغة الاجتماعي.", "fr": "Plongée profonde dans la morphologie, la syntaxe et la sociolinguistique.", "de": "Tiefes Eintauchen in Morphologie, Syntax und Soziolinguistik.", "ru": "Глубокое погружение в морфологию, синтаксис и социолингвистику.", "zh": "深入研究形态学、句法和社会语言学。"}
         },
         "c1_u8": {
-            "title": {"en": "Cultural Diversity and Global Dialogue", "ar": "التنوع الثقافي والحوار العالمي", "fr": "Diversité culturelle et dialogue mondial", "de": "Kulturelle Vielfalt und globaler Dialog", "ru": "Культурное разнообразие и глобальный диалог", "zh": "文化多样性与全球对话"},
-            "description": {"en": "Globalization, identity, and integration in a multicultural world.", "ar": "العولمة والهوية والتكامل في عالم متعدد الثقافات.", "fr": "Mondialisation, identité et intégration dans un monde multiculturel.", "de": "Globalisierung, Identität und Integration in einer multikulturellen Welt.", "ru": "Глобализация, идентичность и интеграция в мультикультурном мире.", "zh": "多元文化世界中的全球化、身份和融合。"}
+            "title": {"en": "Identity and Culture", "ar": "الهوية والثقافة", "fr": "Identité et culture", "de": "Identität und Kultur", "ru": "Идентичность и культура", "zh": "身份与文化"},
+            "description": {"en": "National and global identity, pluralism, and cultural interaction.", "ar": "الهوية الوطنية والعالمية والتعددية والتفاعل الثقافي.", "fr": "Identité nationale et mondiale, pluralisme et interaction culturelle.", "de": "Nationale und globale Identität, Pluralismus und kulturelle Interaktion.", "ru": "Национальная и глобальная идентичность, плюрализм и культурное взаимодействие.", "zh": "国家与全球认同、多元主义及文化交流。"}
         },
         "c1_u9": {
-            "title": {"en": "Psychology and Mental Health", "ar": "علم النفس والصحة النفسية", "fr": "Psychologie et santé mentale", "de": "Psychologie und psychische Gesundheit", "ru": "Психология и психическое здоровье", "zh": "心理学与心理健康"},
-            "description": {"en": "Understanding human behavior, intelligence, and psychological resilience.", "ar": "فهم السلوك البشري والذكاء والمرونة النفسية.", "fr": "Comprendre le comportement humain, l'intelligence et la résilience psychologique.", "de": "Verständnis des menschlichen Verhaltens, der Intelligenz und der psychischen Resilienz.", "ru": "Понимание человеческого поведения, интеллекта и психологической устойчивости.", "zh": "了解人类行为、智力和心理复原力。"}
+            "title": {"en": "Psychology and Society", "ar": "علم النفس والمجتمع", "fr": "Psychologie et société", "de": "Psychologie und Gesellschaft", "ru": "Психология и общество", "zh": "心理学与社会"},
+            "description": {"en": "Mental health, emotional intelligence, and social psychology.", "ar": "الصحة النفسية والذكاء العاطفي وعلم النفس الاجتماعي.", "fr": "Santé mentale, intelligence émotionnelle et psychologie sociale.", "de": "Psychische Gesundheit, emotionale Intelligenz und Sozialpsychologie.", "ru": "Психическое здоровье, эмоциональный интеллект и социальная психология.", "zh": "心理健康、情绪智力及社会心理学。"}
         },
         "c1_u10": {
-            "title": {"en": "Politics and International Relations", "ar": "السياسة والعلاقات الدولية", "fr": "Politique et relations internationales", "de": "Politik und internationale Beziehungen", "ru": "Политика и международные отношения", "zh": "政治与国际关系"},
-            "description": {"en": "Political systems, diplomacy, and global geopolitical shifts.", "ar": "الأنظمة السياسية والدبلوماسية والتحولات الجيوسياسية العالمية.", "fr": "Systèmes politiques, diplomatie et changements géopolitiques mondiaux.", "de": "Politische Systeme, Diplomatie und globale geopolitische Veränderungen.", "ru": "Политические системы, дипломатия и глобальные геополитические сдвиги.", "zh": "政治体制、外交和全球地缘政治转变。"}
+            "title": {"en": "Politics and Governance", "ar": "السياسة والحوكمة", "fr": "Politique et gouvernance", "de": "Politik und Governance", "ru": "Политика и управление", "zh": "政治与治理"},
+            "description": {"en": "Political systems, diplomacy, and global geopolitical shifts.", "ar": "الأنظمة السياسية والدبلوماسية والتحولات الجيوسياسية العالمية.", "fr": "Systèmes politiques, diplomatie et changements géopolitiques mondiaux.", "de": "Politische Systeme, Diplomatie und globale geopolitische Veränderungen.", "ru": "Политические системы, дипломатия и глобальные геополитические сдвиги.", "zh": "政治制度、外交及全球地缘政治转变。"}
         }
     }
 
-    # Lesson Titles (mapped to our content structure)
     LESSON_TITLES = {
         "c1_u1": [
-            {"en": "Aesthetics of Poetry", "ar": "جماليات الشعر", "fr": "Esthétique de la poésie", "de": "Ästhetik der Lyrik", "ru": "Эстетика поэзии", "zh": "诗歌美学"},
-            {"en": "The Art of Maqamat", "ar": "فن المقامات", "fr": "L'art des Maqamât", "de": "Die Kunst der Maqamat", "ru": "Искусство макаматов", "zh": "玛卡马特艺术"},
-            {"en": "Classical Prose", "ar": "النثر الكلاسيكي", "fr": "Prose classique", "de": "Klassische Prosa", "ru": "Классическая проза", "zh": "古典散文"},
-            {"en": "Metaphor and Imagery", "ar": "الاستعارة والخيال", "fr": "Métaphore et imagerie", "de": "Metapher und Bildsprache", "ru": "Метафора и изобразительность", "zh": "隐喻与意象"},
-            {"en": "Literary Criticism", "ar": "النقد الأدبي", "fr": "Critique littéraire", "de": "Literaturkritik", "ru": "Литературная критика", "zh": "文学批评"},
-            {"en": "Andalusian Literature", "ar": "الأدب الأندلسي", "fr": "Littérature andalouse", "de": "Andalusische Literatur", "ru": "Андалузская литература", "zh": "安达卢西亚文学"},
-            {"en": "Vocabulary Review", "ar": "مراجعة المفردات", "fr": "Révision du vocabulaire", "de": "Wortschatzwiederholung", "ru": "Повторение лексики", "zh": "词汇复习"},
-            {"en": "Literary Analysis", "ar": "التحليل الأدبي", "fr": "Analyse littéraire", "de": "Literarische Analyse", "ru": "Литературный анализ", "zh": "文学分析"}
+            {"en": "Aesthetics of Poetry", "ar": "جماليات الشعر", "fr": "Esthétique de la poésie", "de": "Ästhetik der Poesie", "ru": "Эстетика поэзии", "zh": "诗歌美学"},
+            {"en": "Literary Criticism", "ar": "النقد الأدبي", "fr": "Critique littéraire", "de": "Literaturkritik", "ru": "Литературная критика", "zh": "文学评论"},
+            {"en": "Ancient Manuscripts", "ar": "المخطوطات القديمة", "fr": "Manuscrits anciens", "de": "Alte Manuskripte", "ru": "Древние рукописи", "zh": "古代手稿"},
+            {"en": "Classic Prose", "ar": "النثر الكلاسيكي", "fr": "Prose classique", "de": "Klassische Prosa", "ru": "Классическая проза", "zh": "古典散文"},
+            {"en": "Rhetoric", "ar": "البلاغة", "fr": "Rhétorique", "de": "Rhetorik", "ru": "Риторика", "zh": "修辞学"},
+            {"en": "Literary Genres", "ar": "الأنواع الأدبية", "fr": "Genres littéraires", "de": "Literarische Genres", "ru": "Литературные жанры", "zh": "文学流派"},
+            {"en": "Unit Review", "ar": "مراجعة الوحدة", "fr": "Révision de l'unité", "de": "Wiederholung der Einheit", "ru": "Обзор раздела", "zh": "单元复习"},
+            {"en": "Classic Essay", "ar": "مقال كلاسيكي", "fr": "Essai classique", "de": "Klassischer Essay", "ru": "Классическое эссе", "zh": "经典文章"}
         ],
         "c1_u2": [
-            {"en": "Ibn Rushd's Philosophy", "ar": "فلسفة ابن رشد", "fr": "La philosophie d'Ibn Rushd", "de": "Die Philosophie von Ibn Rushd", "ru": "Философия Ибн Рушда", "zh": "伊本·鲁世德的哲学"},
-            {"en": "House of Wisdom", "ar": "بيت الحكمة", "fr": "Maison de la sagesse", "de": "Haus der Weisheit", "ru": "Дом мудрости", "zh": "智慧宫"},
-            {"en": "Logic and Theology", "ar": "المنطق وعلم الكلام", "fr": "Logique et théologie", "de": "Logik und Theologie", "ru": "Логика и теология", "zh": "逻辑与神学"},
-            {"en": "The Virtuous City", "ar": "المدينة الفاضلة", "fr": "La cité vertueuse", "de": "Die tugendhafte Stadt", "ru": "Добродетельный город", "zh": "理想城市"},
-            {"en": "Mysticism and Sufism", "ar": "التصوف والروحانية", "fr": "Mysticisme et soufisme", "de": "Mystik und Sufismus", "ru": "Мистицизм и суфизм", "zh": "神秘主义与苏非主义"},
-            {"en": "Ethical Thought", "ar": "الفكر الأخلاقي", "fr": "Pensée éthique", "de": "Ethisches Denken", "ru": "Этическая мысль", "zh": "伦理思想"},
-            {"en": "Terminology Review", "ar": "مراجعة المصطلحات", "fr": "Révision de la terminologie", "de": "Terminologiewiederholung", "ru": "Повторение терминологии", "zh": "术语复习"},
-            {"en": "Philosophical Discussion", "ar": "مناقشة فلسفية", "fr": "Discussion philosophique", "de": "Philosophische Diskussion", "ru": "Философская дискуссия", "zh": "哲学讨论"}
+            {"en": "Logic and Reasoning", "ar": "المنطق والاستدلال", "fr": "Logique et raisonnement", "de": "Logik und Argumentation", "ru": "Логика и рассуждение", "zh": "逻辑与推理"},
+            {"en": "Islamic Theology", "ar": "علم الكلام", "fr": "Théologie islamique", "de": "Islamische Theologie", "ru": "Исламская теология", "zh": "伊斯兰神学"},
+            {"en": "Ethical Frameworks", "ar": "الأطر الأخلاقية", "fr": "Cadres éthiques", "de": "Ethische Rahmen", "ru": "Этические основы", "zh": "伦理框架"},
+            {"en": "Rationalism", "ar": "النزعة العقلانية", "fr": "Rationalisme", "de": "Rationalismus", "ru": "Рационализм", "zh": "理性主义"},
+            {"en": "Sufi Thought", "ar": "الفكر الصوفي", "fr": "Pensée soufie", "de": "Sufi-Denken", "ru": "Суфийская мысль", "zh": "苏菲思想"},
+            {"en": "Existence and Being", "ar": "الوجود والموجود", "fr": "Existence et être", "de": "Existenz und Sein", "ru": "Существование и бытие", "zh": "存在与生命"},
+            {"en": "Review of Ideas", "ar": "مراجعة الأفكار", "fr": "Révision des idées", "de": "Ideenüberprüfung", "ru": "Обзор идей", "zh": "思想复习"},
+            {"en": "Philosophical Text", "ar": "نص فلسفي", "fr": "Texte philosophique", "de": "Philosophischer Text", "ru": "Философский текст", "zh": "哲学文本"}
         ],
         "c1_u3": [
-            {"en": "Islamic Banking", "ar": "الصيرفة الإسلامية", "fr": "Banque islamique", "de": "Islamisches Bankwesen", "ru": "Исламский банкинг", "zh": "伊斯兰银行业务"},
-            {"en": "Fiscal Policy", "ar": "السياسة المالية", "fr": "Politique budgétaire", "de": "Fiskalpolitik", "ru": "Фискальная политика", "zh": "财政政策"},
-            {"en": "Global Markets", "ar": "الأسواق العالمية", "fr": "Marchés mondiaux", "de": "Globale Märkte", "ru": "Мировые рынки", "zh": "全球市场"},
-            {"en": "Wealth Management", "ar": "إدارة الثروات", "fr": "Gestion de patrimoine", "de": "Vermögensverwaltung", "ru": "Управление благосостоянием", "zh": "财富管理"},
-            {"en": "Trade Law", "ar": "قانون التجارة", "fr": "Droit commercial", "de": "Handelsrecht", "ru": "Коммерческое право", "zh": "贸易法"},
-            {"en": "Economic Integration", "ar": "التكامل الاقتصادي", "fr": "Intégration économique", "de": "Wirtschaftliche Integration", "ru": "Экономическая интеграция", "zh": "经济一体化"},
-            {"en": "Terminology Review", "ar": "مراجعة المصطلحات", "fr": "Révision de la terminologie", "de": "Terminologiewiederholung", "ru": "Повторение терминологии", "zh": "术语复习"},
-            {"en": "Economic Article", "ar": "مقال اقتصادي", "fr": "Article économique", "de": "Wirtschaftsartikel", "ru": "Экономическая статья", "zh": "经济文章"}
+            {"en": "Macroeconomic Trends", "ar": "الاتجاهات الاقتصادية الكلية", "fr": "Tendances macroéconomiques", "de": "Makroökonomische Trends", "ru": "Макроэкономические тенденции", "zh": "宏观经济趋势"},
+            {"en": "Banking Regulations", "ar": "أنظمة البنوك", "fr": "Réglementations bancaires", "de": "Bankenvorschriften", "ru": "Банковское регулирование", "zh": "银行监管"},
+            {"en": "Stock Markets", "ar": "أسواق الأسهم", "fr": "Marchés boursiers", "de": "Aktienmärkte", "ru": "Фондовые рынки", "zh": "股票市场"},
+            {"en": "Investment Strategies", "ar": "استراتيجيات الاستثمار", "fr": "Stratégies d'investissement", "de": "Investitionsstrategien", "ru": "Инвестиционные стратегии", "zh": "投资策略"},
+            {"en": "Fiscal Policy", "ar": "السياسة المالية", "fr": "Politique fiscale", "de": "Fiskalpolitik", "ru": "Фискальная политика", "zh": "财政政策"},
+            {"en": "Global Trade", "ar": "التجارة العالمية", "fr": "Commerce mondial", "de": "Welthandel", "ru": "Мировая торговля", "zh": "全球贸易"},
+            {"en": "Finance Review", "ar": "مراجعة مالية", "fr": "Révision financière", "de": "Finanzrückschau", "ru": "Финансовый обзор", "zh": "金融复习"},
+            {"en": "Economic Analysis", "ar": "تحليل اقتصادي", "fr": "Analyse économique", "de": "Wirtschaftsanalyse", "ru": "Экономический анализ", "zh": "经济分析"}
         ],
         "c1_u4": [
-            {"en": "International Law", "ar": "القانون الدولي", "fr": "Droit international", "de": "Internationales Recht", "ru": "Международное право", "zh": "国际法"},
-            {"en": "Diplomatic Immunity", "ar": "الحصانة الدبلوماسية", "fr": "Immunité diplomatique", "de": "Diplomatische Immunität", "ru": "Дипломатический иммунитет", "zh": "外交豁免权"},
-            {"en": "Law of the Seas", "ar": "قانون البحار", "fr": "Droit de la mer", "de": "Seerecht", "ru": "Морское право", "zh": "海洋法"},
-            {"en": "Human Rights", "ar": "حقوق الإنسان", "fr": "Droits de l'homme", "de": "Menschenrechte", "ru": "Права человека", "zh": "人权"},
-            {"en": "War Crimes", "ar": "جرائم الحرب", "fr": "Crimes de guerre", "de": "Kriegsverbrechen", "ru": "Военные преступления", "zh": "战争罪"},
-            {"en": "Dispute Resolution", "ar": "تسوية النزاعات", "fr": "Règlement des différends", "de": "Streitbeilegung", "ru": "Разрешение споров", "zh": "争端解决"},
-            {"en": "Legal Terms", "ar": "مصطلحات قانونية", "fr": "Termes juridiques", "de": "Rechtliche Begriffe", "ru": "Юридические термины", "zh": "法律术语"},
-            {"en": "Legal Opinion", "ar": "رأي قانوني", "fr": "Avis juridique", "de": "Rechtsgutachten", "ru": "Юридическое заключение", "zh": "法律意见"}
+            {"en": "International Treaties", "ar": "المعاهدات الدولية", "fr": "Traités internationaux", "de": "Internationale Verträge", "ru": "Международные договоры", "zh": "国际条约"},
+            {"en": "Human Rights Law", "ar": "قانون حقوق الإنسان", "fr": "Droit des droits de l'homme", "de": "Menschenrechte", "ru": "Право в области прав человека", "zh": "人权法"},
+            {"en": "Corporate Law", "ar": "القانون المؤسسي", "fr": "Droit des sociétés", "de": "Gesellschaftsrecht", "ru": "Корпоративное право", "zh": "公司法"},
+            {"en": "Criminal Justice", "ar": "العدالة الجنائية", "fr": "Justice pénale", "de": "Strafjustiz", "ru": "Уголовное правосудие", "zh": "刑事司法"},
+            {"en": "Legal Procedures", "ar": "الإجراءات القانونية", "fr": "Procédures juridiques", "de": "Rechtliche Verfahren", "ru": "Юридические процедуры", "zh": "法律程序"},
+            {"en": "Arbitration", "ar": "التحكيم", "fr": "Arbitrage", "de": "Schiedsgerichtsbarkeit", "ru": "Арбитраж", "zh": "仲裁"},
+            {"en": "Legal Review", "ar": "مراجعة قانونية", "fr": "Révision juridique", "de": "Rechtliche Überprüfung", "ru": "Юридический обзор", "zh": "法律复习"},
+            {"en": "Case Law", "ar": "قانون السوابق القضائية", "fr": "Jurisprudence", "de": "Fallrecht", "ru": "Прецедентное право", "zh": "判例法"}
         ],
         "c1_u5": [
-            {"en": "Principles of Interpretation", "ar": "أصول التفسير", "fr": "Principes d'interprétation", "de": "Prinzipien der Interpretation", "ru": "Принципы толкования", "zh": "解释原则"},
-            {"en": "Hadith Science", "ar": "علم الحديث", "fr": "Science du Hadith", "de": "Hadith-Wissenschaft", "ru": "Наука о хадисах", "zh": "圣训科学"},
+            {"en": "Scriptural Interpretation", "ar": "تفسير النصوص", "fr": "Interprétation scripturale", "de": "Bibelinterpretation", "ru": "Толкование Писания", "zh": "经文解释"},
             {"en": "Comparative Religions", "ar": "مقارنة الأديان", "fr": "Religions comparées", "de": "Vergleichende Religionswissenschaft", "ru": "Сравнительное религиоведение", "zh": "比较宗教"},
-            {"en": "The Concept of Ijtihad", "ar": "مفهوم الاجتهاد", "fr": "Le concept d'Ijtihad", "de": "Das Konzept des Ijtihad", "ru": "Концепция иджтихада", "zh": "伊智提哈德的概念"},
-            {"en": "Interfaith Dialogue", "ar": "حوار الأديان", "fr": "Dialogue interreligieux", "de": "Interreligiöser Dialog", "ru": "Межрелигиозный диалог", "zh": "宗教间对话"},
-            {"en": "Spirituality in Sufism", "ar": "الروحانية في التصوف", "fr": "Spiritualité dans le soufisme", "de": "Spiritualität im Sufismus", "ru": "Духовность в суфизме", "zh": "苏非主义中的灵性"},
-            {"en": "Review of Terms", "ar": "مراجعة المصطلحات", "fr": "Révision des termes", "de": "Begriffsüberprüfung", "ru": "Повторение терминов", "zh": "术语复习"},
-            {"en": "Text Analysis", "ar": "تحليل النصوص", "fr": "Analyse de texte", "de": "Textanalyse", "ru": "Анализ текста", "zh": "文本分析"}
+            {"en": "Theological Disputes", "ar": "النزاعات العقائدية", "fr": "Disputes théologiques", "de": "Theologische Streitfalle", "ru": "Теологические споры", "zh": "神学争议"},
+            {"en": "Spiritual Practices", "ar": "الممارسات الروحية", "fr": "Pratiques spirituelles", "de": "Spirituelle Praktiken", "ru": "Духовные практики", "zh": "精神修行"},
+            {"en": "Secularism and Faith", "ar": "العلمانية والإيمان", "fr": "Sécularisme et foi", "de": "Säkularismus und Glaube", "ru": "Секуляризм и вера", "zh": "世俗主义与信仰"},
+            {"en": "Interfaith Dialogue", "ar": "حوار الأديان", "fr": "Dialogue interreligieux", "de": "Interreligiöser Dialog", "ru": "Межконфессиональный диалог", "zh": "宗教间对话"},
+            {"en": "Religious Terms", "ar": "مصطلحات دينية", "fr": "Termes religieux", "de": "Religiöse Begriffe", "ru": "Религиозные термины", "zh": "宗教术语"},
+            {"en": "Theological Article", "ar": "مقال عقائدي", "fr": "Article théologique", "de": "Theologischer Artikel", "ru": "Теологическая статья", "zh": "神学文章"}
         ],
         "c1_u6": [
-            {"en": "Paleography", "ar": "علم الكتابات القديمة", "fr": "Paléographie", "de": "Paläographie", "ru": "Палеография", "zh": "古文字学"},
-            {"en": "Manuscript Restoration", "ar": "ترميم المخطوطات", "fr": "Restauration de manuscrits", "de": "Restaurierung von Manuskripten", "ru": "Реставрация рукописей", "zh": "手稿修复"},
-            {"en": "History of Libraries", "ar": "تاريخ المكتبات", "fr": "Histoire des bibliothèques", "de": "Geschichte der Bibliotheken", "ru": "История библиотек", "zh": "图书馆史"},
-            {"en": "Codicology", "ar": "علم المخطوطات", "fr": "Codicologie", "de": "Kodikologie", "ru": "Кодикология", "zh": "码籍学"},
-            {"en": "Digital Archiving", "ar": "الأرشفة الرقمية", "fr": "Archivage numérique", "de": "Digitale Archivierung", "ru": "Цифровое архивирование", "zh": "数字存档"},
-            {"en": "Heritage Management", "ar": "إدارة التراث", "fr": "Gestion du patrimoine", "de": "Kulturerbemanagement", "ru": "Управление наследием", "zh": "遗产管理"},
-            {"en": "Terminology Review", "ar": "مراجعة المصطلحات", "fr": "Révision de la terminologie", "de": "Terminologiewiederholung", "ru": "Повторение терминологиي", "zh": "术语复习"},
-            {"en": "Manuscript Study", "ar": "دراسة المخطوطات", "fr": "Étude de manuscrits", "de": "Manuskriptstudie", "ru": "Изучение рукописей", "zh": "手稿研究"}
+            {"en": "Ancient Civilizations", "ar": "الحضارات القديمة", "fr": "Civilisations anciennes", "de": "Alte Zivilisationen", "ru": "Древние цивилизации", "zh": "古代文明"},
+            {"en": "Archaeological Methods", "ar": "أساليب علم الآثار", "fr": "Méthodes archéologiques", "de": "Archäologische Methoden", "ru": "Археологические методы", "zh": "考古学方法"},
+            {"en": "Medieval History", "ar": "تاريخ العصور الوسطى", "fr": "Histoire médiévale", "de": "Mittelalterliche Geschichte", "ru": "Средневековая история", "zh": "中世纪历史"},
+            {"en": "Historiography", "ar": "تأريخ", "fr": "Historiographie", "de": "Historiographie", "ru": "Историография", "zh": "史学"},
+            {"en": "Cultural Heritage", "ar": "التراث الثقافي", "fr": "Patrimoine culturel", "de": "Kulturerbe", "ru": "Культурное наследие", "zh": "文化遗产"},
+            {"en": "Manuscript Restoration", "ar": "ترميم المخطوطات", "fr": "Restauration de manuscrits", "de": "Manuskriptrestaurierung", "ru": "Реставрация рукописей", "zh": "手稿修复"},
+            {"en": "Heritage Review", "ar": "مراجعة التراث", "fr": "Révision du patrimoine", "de": "Kulturerberückschau", "ru": "Обзор наследия", "zh": "遗产复习"},
+            {"en": "Historical Text", "ar": "نص تاريخي", "fr": "Texte historique", "de": "Historischer Text", "ru": "Исторический текст", "zh": "历史文本"}
         ],
         "c1_u7": [
+            {"en": "Phonology", "ar": "علم وظائف الأصوات", "fr": "Phonologie", "de": "Phonologie", "ru": "Фонология", "zh": "音系学"},
+            {"en": "Advanced Syntax", "ar": "النحو المتقدم", "fr": "Syntaxe avancée", "de": "Fortgeschrittene Syntax", "ru": "Продвинутый синтаксис", "zh": "高级句法"},
             {"en": "Morphology", "ar": "علم الصرف", "fr": "Morphologie", "de": "Morphologie", "ru": "Морфология", "zh": "形态学"},
-            {"en": "Syntax and Parsing", "ar": "النحو والإعراب", "fr": "Syntaxe et analyse", "de": "Syntax und Analyse", "ru": "Синтаксис и разбор", "zh": "句法与解析"},
             {"en": "Semantics", "ar": "علم الدلالة", "fr": "Sémantique", "de": "Semantik", "ru": "Семантика", "zh": "语义学"},
             {"en": "Phonetics", "ar": "علم الأصوات", "fr": "Phonétique", "de": "Phonetik", "ru": "Фонетика", "zh": "语音学"},
             {"en": "Sociolinguistics", "ar": "علم اللغة الاجتماعي", "fr": "Sociolinguistique", "de": "Soziolinguistik", "ru": "Социолингвистика", "zh": "社会语言学"},
@@ -186,9 +190,9 @@ def integrate():
         ],
         "c1_u9": [
             {"en": "Mental Health", "ar": "الصحة النفسية", "fr": "Santé mentale", "de": "Psychische Gesundheit", "ru": "Психическое здоровье", "zh": "心理健康"},
-            {"en": "Depression and Anxiety", "ar": "الاكتئاب والقلق", "fr": "Dépression et anxiété", "de": "Depression und Angst", "ru": "Депрессия и тревога", "zh": "抑郁与焦虑"},
+            {"en": "Depression and Anxiety", "ar": "الاكتئاب والقلق", "fr": "Dépression et anxiété", "de": "Depression und angst", "ru": "Депрессия и тревога", "zh": "抑郁与焦虑"},
             {"en": "Emotional Intelligence", "ar": "الذكاء العاطفي", "fr": "Intelligence émotionnelle", "de": "Emotionale Intelligenz", "ru": "Эмоциональный интеллект", "zh": "情绪智力"},
-            {"en": "Psychological Resilience", "ar": "المرونة النفسية", "fr": "Résilience psychologique", "de": "Psychologische Résilience", "ru": "Психологическая устойчивость", "zh": "心理韧性"},
+            {"en": "Psychological Resilience", "ar": "المرونة النفسية", "fr": "Résilience psychologique", "de": "Psychologische Resilienz", "ru": "Психологическая устойчивость", "zh": "心理韧性"},
             {"en": "Child Psychology", "ar": "علم نفس الطفل", "fr": "Psychologie de l'enfant", "de": "Kinderpsychologie", "ru": "Детская психология", "zh": "儿童心理学"},
             {"en": "Addiction and Recovery", "ar": "الإدمان والتعافي", "fr": "Addiction et rétablissement", "de": "Sucht und Genesung", "ru": "Зависимость и выздоровление", "zh": "成瘾与康复"},
             {"en": "Field Review", "ar": "مراجعة ميدانية", "fr": "Révision sur le terrain", "de": "Feldüberprüfung", "ru": "Полевой обзор", "zh": "现场复习"},
@@ -280,13 +284,17 @@ def integrate():
 
     new_c1 = {
         "id": "c1",
-        "title": {"en": "C1 Level", "ar": "مستوى C1", "fr": "Niveau C1", "de": "C1 Niveau", "ru": "Уровень C1", "zh": "C1 级别"},
-        "description": {"en": "Advanced language proficiency and professional academic discourse.", "ar": "إتقان اللغة المتقدم والخطاب الأكاديمي المهني.", "fr": "Maîtrise avancée de la langue et discours académique professionnel.", "de": "Fortgeschrittene Sprachkenntnisse und professioneller akademischer Diskurs.", "ru": "Продвинутое владение языком и профессиональный академический дискурс.", "zh": "高级语言水平和专业学术话语。"},
+        "title": clean_text({"en": "C1 Level", "ar": "مستوى C1", "fr": "Niveau C1", "de": "C1 Niveau", "ru": "Уровень C1", "zh": "C1 级别"}),
+        "description": clean_text({"en": "Advanced language proficiency and professional academic discourse.", "ar": "إتقان اللغة المتقدم والخطاب الأكاديمي المهني.", "fr": "Maîtrise avancée de la langue et discours académique professionnel.", "de": "Fortgeschrittene Sprachkenntnisse und professioneller akademischer Diskurs.", "ru": "Продвинутое владение языком и профессиональный академический дискурс.", "zh": "高级语言水平和专业学术话语。"}),
         "isLocked": True,
         "units": []
     }
 
     level_words, level_sentences, level_all_items = [], [], []
+
+    # Clean metadata
+    UNIT_METADATA = clean_text(UNIT_METADATA)
+    LESSON_TITLES = clean_text(LESSON_TITLES)
 
     for u_idx in range(1, 11):
         u_id = f"c1_u{u_idx}"
@@ -298,7 +306,6 @@ def integrate():
             l_id = f"l{l_idx}"
             lesson_titles = LESSON_TITLES[u_id]
             lesson_title_meta = lesson_titles[l_idx-1]
-            # Use the full translation dictionary for the title
             lesson_title = lesson_title_meta
             
             curr_unit_key = u_id.replace("c1_", "")
@@ -313,37 +320,31 @@ def integrate():
             
             l_w, l_s = [], []
             for w_idx, word in enumerate(lesson_data["words"], 1):
-                ar = word.get("arabic") or word.get("ar")
+                ar = clean_text(word.get("arabic") or word.get("ar"))
                 l_w.append(ar)
-                
-                # Translations might be direct top-level keys or in a 'translation' object
                 translations = word.get("translation", word)
-                
                 item = {
-                    "id": f"{lesson_f_id}_w{w_idx}", "type": "word", "arabic": ar,
+                    "id": f"{lesson_f_id}_w{w_idx}", "type": "word", "arabic": clean_text(ar),
                     "transliteration": {lang: get_transliteration(ar, lang) for lang in ['en', 'fr', 'de', 'ru', 'zh']},
-                    "translation": {lang: translations.get(lang, "FIXME") for lang in ['en', 'fr', 'de', 'ru', 'zh']}
+                    "translation": clean_text({lang: translations.get(lang, "FIXME") for lang in ['en', 'fr', 'de', 'ru', 'zh']})
                 }
-                item["transliteration"]["ar"] = ar
-                item["translation"]["ar"] = ar
+                item["transliteration"]["ar"] = clean_text(ar)
+                item["translation"]["ar"] = clean_text(ar)
                 lesson_obj["content"].append(item)
                 unit_all_items.append(item)
                 unit_words.append(ar)
                 
             for s_idx, sent in enumerate(lesson_data["sentences"], 1):
-                ar = sent.get("arabic") or sent.get("ar")
+                ar = clean_text(sent.get("arabic") or sent.get("ar"))
                 l_s.append(ar)
-                
-                # Translations might be direct top-level keys or in a 'translation' object
                 translations = sent.get("translation", sent)
-                
                 item = {
-                    "id": f"{lesson_f_id}_s{s_idx}", "type": "sentence", "arabic": ar,
+                    "id": f"{lesson_f_id}_s{s_idx}", "type": "sentence", "arabic": clean_text(ar),
                     "transliteration": {lang: get_transliteration(ar, lang) for lang in ['en', 'fr', 'de', 'ru', 'zh']},
-                    "translation": {lang: translations.get(lang, "FIXME") for lang in ['en', 'fr', 'de', 'ru', 'zh']}
+                    "translation": clean_text({lang: translations.get(lang, "FIXME") for lang in ['en', 'fr', 'de', 'ru', 'zh']})
                 }
-                item["transliteration"]["ar"] = ar
-                item["translation"]["ar"] = ar
+                item["transliteration"]["ar"] = clean_text(ar)
+                item["translation"]["ar"] = clean_text(ar)
                 lesson_obj["content"].append(item)
                 unit_all_items.append(item)
                 unit_sentences.append(ar)
@@ -361,7 +362,12 @@ def integrate():
         new_c1["units"].append(unit_obj)
         level_all_items.extend(unit_all_items); level_words.extend(unit_words); level_sentences.extend(unit_sentences)
 
-    new_c1["quiz"] = {"id": "q_c1_level", "questions": create_quiz("q_c1_level", level_all_items, level_words, level_sentences, 50, prompts)}
+    # Level Quiz
+    new_c1["levelQuiz"] = {
+        "id": "c1_final_exam",
+        "passingScore": 0.8,
+        "questions": create_quiz("q_c1_final_exam", level_all_items, level_words, level_sentences, 50, prompts)
+    }
     new_c1["xpReward"] = 600
 
     with open(c1_json_path, 'w', encoding='utf-8') as f:
