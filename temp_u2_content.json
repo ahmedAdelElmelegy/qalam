@@ -1,0 +1,128 @@
+{
+    "l3": {
+        "words": [
+            {"ar": "وقف", "en": "Endowment", "fr": "Dotation", "de": "Stiftung", "ru": "Вакуф", "zh": "捐赠"},
+            {"ar": "حبس", "en": "Asset Locking", "fr": "Blocage d'actifs", "de": "Vermögenssperre", "ru": "Блокировка активов", "zh": "资产锁定"},
+            {"ar": "صدقة جارية", "en": "Ongoing Charity", "fr": "Charité continue", "de": "Laufende Wohltätigkeit", "ru": "Постоянная милостыня", "zh": "持续施舍"},
+            {"ar": "منفعة", "en": "Utility", "fr": "Utilité", "de": "Nutzen", "ru": "Польза", "zh": "公用事业"},
+            {"ar": "عقار", "en": "Real Estate", "fr": "Immobilier", "de": "Immobilien", "ru": "Недвижимость", "zh": "房地产"},
+            {"ar": "استدامة", "en": "Sustainability", "fr": "Durabilité", "de": "Nachhaltigkeit", "ru": "Устойчивость", "zh": "可持续性"},
+            {"ar": "ضمان", "en": "Guarantee", "fr": "Garantie", "de": "Garantie", "ru": "Гарантия", "zh": "保证"},
+            {"ar": "تكافل", "en": "Mutual Solidarity", "fr": "Solidarité mutuelle", "de": "Gegenseitige Solidarität", "ru": "Взаимная солидарность", "zh": "相互团结"},
+            {"ar": "فقراء", "en": "Poor people", "fr": "Pauvres", "de": "Arme", "ru": "Бедные", "zh": "穷人"},
+            {"ar": "مؤسسة", "en": "Institution", "fr": "Institution", "de": "Institution", "ru": "Учреждение", "zh": "机构"}
+        ],
+        "sentences": [
+            {"ar": "يعتبر الوقف أداة فعالة لتحقيق التكافل الاجتماعي", "en": "Waqf is considered an effective tool for achieving social solidarity", "fr": "Le Waqf est considéré comme un outil efficace pour réaliser la solidarité sociale", "de": "Waqf gilt als wirksames Instrument zur Verwirklichung sozialer Solidarität", "ru": "Вакуф считается эффективным инструментом достижения социальной солидарности", "zh": "瓦克夫被认为是实现社会团结的有效工具"},
+            {"ar": "يخصص ريع العقارات الموقوفة لدعم المستشفيات والمدارس", "en": "The proceeds of the endowed real estate are allocated to support hospitals and schools", "fr": "Les revenus des biens immobiliers dotés sont alloués au soutien des hôpitaux et des écoles", "de": "Die Erträge der gestifteten Immobilien fließen in die Unterstützung von Krankenhäusern und Schulen", "ru": "Доходы от недвижимости в вакуфе направляются на поддержку больниц и школ", "zh": "捐赠房地产的收益用于支持医院和学校"},
+            {"ar": "يهدف حبس الأصل إلى استمرارية المنفعة للأجيال القادمة", "en": "Locking the asset aims at the continuity of benefit for future generations", "fr": "Le blocage de l'actif vise à la continuité du bénéfice pour les générations futures", "de": "Die Bindung des Vermögenswerts zielt auf die Kontinuität des Nutzens für kommende Generationen ab", "ru": "Блокировка актива направлена на обеспечение непрерывности пользы для будущих поколений", "zh": "锁定资产旨在为后代提供持续的利益"},
+            {"ar": "لعب الوقف دوراً تاريخياً في تمويل البحث العلمي", "en": "Waqf played a historical role in financing scientific research", "fr": "Le Waqf a joué un rôle historique dans le financement de la recherche scientifique", "de": "Waqf spielte eine historische Rolle bei der Finanzierung wissenschaftlicher Forschung", "ru": "Вакуф сыграл историческую роль в финансировании научных исследований", "zh": "瓦克夫在资助科学研究方面发挥了历史作用"},
+            {"ar": "يضمن الوقف استدامة المشاريع الخيرية في المجتمع", "en": "Waqf ensures the sustainability of charitable projects in society", "fr": "Le Waqf garantit la durabilité des projets caritatifs dans la société", "de": "Waqf sichert die Nachhaltigkeit wohltätiger Projekte in der Gesellschaft", "ru": "Вакуф обеспечивает устойчивость благотворительных проектов в обществе", "zh": "瓦克夫确保社会慈善项目的可持续性"}
+        ]
+    },
+    "l4": {
+        "words": [
+            {"ar": "مصرفية إسلامية", "en": "Islamic Banking", "fr": "Banque islamique", "de": "Islamisches Bankwesen", "ru": "Исламский банкинг", "zh": "伊斯兰银行业务"},
+            {"ar": "تمويل", "en": "Financing", "fr": "Financement", "de": "Finanzierung", "ru": "Финансирование", "zh": "融资"},
+            {"ar": "مضاربة", "en": "Speculative Partnership", "fr": "Partenariat spéculatif", "de": "Spekulative Partnerschaft", "ru": "Мудараба", "zh": "投机合作"},
+            {"ar": "مرابحة", "en": "Cost-plus Profit", "fr": "Profit partagé", "de": "Aufschlagsfinanzierung", "ru": "Мурабаха", "zh": "加价贸易"},
+            {"ar": "مشاركة", "en": "Joint Venture", "fr": "Co-entreprise", "de": "Joint Venture", "ru": "Совместное предприятие", "zh": "合资"},
+            {"ar": "ربا", "en": "Usury", "fr": "Usure", "de": "Wucher", "ru": "Ростовщичество", "zh": "高利贷"},
+            {"ar": "خسارة", "en": "Loss", "fr": "Perte", "de": "Verlust", "ru": "Убыток", "zh": "损失"},
+            {"ar": "ودائع", "en": "Deposits", "fr": "Dépôts", "de": "Einlagen", "ru": "Депозиты", "zh": "存款"},
+            {"ar": "سيولة", "en": "Liquidity", "fr": "Liquidité", "de": "Liquidität", "ru": "Ликвидность", "zh": "流动性"},
+            {"ar": "عقد", "en": "Contract", "fr": "Contrat", "de": "Vertrag", "ru": "Контракт", "zh": "合同"}
+        ],
+        "sentences": [
+            {"ar": "تعتمد المصرفية الإسلامية على مبدأ المشاركة في الربح والخسارة", "en": "Islamic banking depends on the principle of profit and loss sharing", "fr": "La banque islamique repose sur le principe du partage des profits et des pertes", "de": "Das islamische Bankwesen beruht auf dem Prinzip der Gewinn- und Verlustbeteiligung", "ru": "Исламский банкинг опирается на принцип участия в прибылях и убытках", "zh": "伊斯兰银行业务依赖于损益分担原则"},
+            {"ar": "يحظر النظام المالي الإسلامي التعامل بالربا بكافة أشكاله", "en": "The Islamic financial system prohibits dealing with usury in all its forms", "fr": "Le système financier islamique interdit de traiter avec l'usure sous toutes ses formes", "de": "Das islamische Finanzsystem verbietet den Umgang mit Wucher in all seinen Formen", "ru": "Исламская финансовая система запрещает ростовщичество во всех его формах", "zh": "伊斯兰金融系统禁止一切形式的高利贷"},
+            {"ar": "تعتبر المرابحة من أكثر صيغ التمويل شيوعاً في المصارف الإسلامية", "en": "Murabaha is considered one of the most common forms of financing in Islamic banks", "fr": "La Murabaha est considérée comme l'une des formes de financement les plus courantes dans les banques islamiques", "de": "Murabaha gilt als eine der häufigsten Finanzierungsformen bei islamischen Banken", "ru": "Мурабаха считается одной из самых распространенных форм финансирования в исламских банках", "zh": "加价贸易被认为是伊斯兰银行最常见的融资形式之一"},
+            {"ar": "المضاربة هي عقد بين صاحب المال وخبير يقدم مجهوده", "en": "Mudaraba is a contract between the owner of money and an expert who provides his effort", "fr": "La Mudaraba est un contrat entre le propriétaire de l'argent et un expert qui fournit son effort", "de": "Mudaraba ist ein Vertrag zwischen dem Geldgeber und einem Experten, der seine Arbeitskraft einbringt", "ru": "Мудараба — это договор между владельцем денег и экспертом, прилагающим свои усилия", "zh": "穆达拉巴是金钱所有者与提供努力的专家之间的一种合同"},
+            {"ar": "تهدف المصارف الإسلامية إلى تحقيق عوائد اقتصادية بطرق شرعية", "en": "Islamic banks aim to achieve economic returns through legitimate ways", "fr": "Les banques islamiques visent à obtenir des rendements économiques par des voies légitimes", "de": "Islamische Banken streben wirtschaftliche Erträge auf rechtmäßige Weise an", "ru": "Исламские банки стремятся к достижению экономических выгод законными способами", "zh": "伊斯兰银行旨在通过合法途径获得经济回报"}
+        ]
+    },
+    "l5": {
+        "words": [
+            {"ar": "زكاة", "en": "Zakat", "fr": "Zakat", "de": "Zakat", "ru": "Закят", "zh": "天课"},
+            {"ar": "نصاب", "en": "Minimum Wealth", "fr": "Richesse minimale", "de": "Mindestvermögen", "ru": "Нисаб", "zh": "起征点"},
+            {"ar": "توزيع", "en": "Distribution", "fr": "Distribution", "de": "Verteilung", "ru": "Распределение", "zh": "分配"},
+            {"ar": "عدالة اجتماعية", "en": "Social Justice", "fr": "Justice sociale", "de": "Soziale Gerechtigkeit", "ru": "Социальная справедливость", "zh": "社会正义"},
+            {"ar": "تضامن", "en": "Solidarity", "fr": "Solidarité", "de": "Solidarität", "ru": "Солидарность", "zh": "团结"},
+            {"ar": "مصارف الزكاة", "en": "Zakat Channels", "fr": "Canaux de la Zakat", "de": "Zakat-Kanäle", "ru": "Каналы закята", "zh": "天课通道"},
+            {"ar": "غني", "en": "Rich", "fr": "Riche", "de": "Reich", "ru": "Богатый", "zh": "富有"},
+            {"ar": "محتاج", "en": "Needy", "fr": "Nécessiteux", "de": "Bedürftig", "ru": "Нуждающийся", "zh": "有需要的人"},
+            {"ar": "فريضة", "en": "Religious Mandate", "fr": "Mandat religieux", "de": "Religiöses Mandat", "ru": "Религиозное обязательство", "zh": "宗教义务"},
+            {"ar": "تطهير", "en": "Purification", "fr": "Purification", "de": "Reinigung", "ru": "Очищение", "zh": "净化"}
+        ],
+        "sentences": [
+            {"ar": "تعتبر الزكاة الركن الثالث من أركان الإسلام الخمسة", "en": "Zakat is considered the third pillar of the five pillars of Islam", "fr": "La Zakat est considérée comme le troisième pilier des cinq piliers de l'islam", "de": "Zakat gilt als die dritte der fünf Säulen des Islam", "ru": "Закят считается третьим столпом пяти столпов ислама", "zh": "天课被认为是伊斯兰教五功中的第三功"},
+            {"ar": "تسهم الزكاة في تقليص الفجوة بين الأغنياء والفقراء", "en": "Zakat contributes to narrowing the gap between the rich and the poor", "fr": "La Zakat contribue à réduire l'écart entre les riches et les pauvres", "de": "Zakat trägt dazu bei, die Kluft zwischen Reich und Arm zu verringern", "ru": "Закят способствует сокращению разрыва между богатыми и бедными", "zh": "天课有助于缩小贫富差距"},
+            {"ar": "يجب أن يبلغ المال النصاب وتمر عليه سنة هجرية لوجوب الزكاة", "en": "Wealth must reach the nisab and a Hijri year must pass for Zakat to be obligatory", "fr": "La richesse doit atteindre le nisab et une année hégirienne doit s'écouler pour que la Zakat soit obligatoire", "de": "Das Vermögen muss den Nisab erreichen und ein Hidschra-Jahr muss vergehen, damit die Zakat zur Pflicht wird", "ru": "Состояние должно достичь нисаба, и должен пройти год по хиджре, чтобы закят стал обязательным", "zh": "财富必须达到起征点且经过一个伊斯兰年，缴纳天课才成为义务"},
+            {"ar": "توزع الزكاة على ثمانية أصناف حددها القرآن الكريم", "en": "Zakat is distributed among eight categories specified by the Holy Quran", "fr": "La Zakat est distribuée entre huit catégories spécifiées par le Saint Coran", "de": "Zakat wird unter acht im Heiligen Koran festgelegten Kategorien verteilt", "ru": "Закят распределяется между восемью категориями, указанными в Священном Коране", "zh": "天课分配给古兰经规定的八类人"},
+            {"ar": "تهدف الزكاة إلى تطهير النفس والمال وتحقيق الأمان الاجتماعي", "en": "Zakat aims to purify the soul and money and achieve social security", "fr": "La Zakat vise à purifier l'âme et l'argent et à assurer la sécurité sociale", "de": "Zakat zielt darauf ab, Seele und Besitz zu reinigen und soziale Sicherheit zu erreichen", "ru": "Закят направлен на очищение души и имущества и достижение социальной безопасности", "zh": "天课旨在净化灵魂和金钱，实现社会安全"}
+        ]
+    },
+    "l6": {
+        "words": [
+            {"ar": "عولمة", "en": "Globalization", "fr": "Mondialisation", "de": "Globalisierung", "ru": "Глобализация", "zh": "全球化"},
+            {"ar": "تضخم", "en": "Inflation", "fr": "Inflation", "de": "Inflation", "ru": "Инфляция", "zh": "通货膨胀"},
+            {"ar": "فقر", "en": "Poverty", "fr": "Pauvreté", "de": "Armut", "ru": "Бедность", "zh": "贫困"},
+            {"ar": "بطالة", "en": "Unemployment", "fr": "Chômage", "de": "Arbeitslosigkeit", "ru": "Безработица", "zh": "失业"},
+            {"ar": "تنمية مستدامة", "en": "Sustainable Development", "fr": "Développement durable", "de": "Nachhaltige Entwicklung", "ru": "Устойчивое развитие", "zh": "可持续发展"},
+            {"ar": "أزمة مالية", "en": "Financial Crisis", "fr": "Crise financière", "de": "Finanzkrise", "ru": "Финансовый кризис", "zh": "金融危机"},
+            {"ar": "ديون", "en": "Debts", "fr": "Dettes", "de": "Schulden", "ru": "Долги", "zh": "债务"},
+            {"ar": "احتراف", "en": "Professionalism", "fr": "Professionnalisme", "de": "Professionalismus", "ru": "Профессионализм", "zh": "专业精神"},
+            {"ar": "تكنولوجيا", "en": "Technology", "fr": "Technologie", "de": "Technologie", "ru": "Технология", "zh": "技术"},
+            {"ar": "ابتكار", "en": "Innovation", "fr": "Innovation", "de": "Innovation", "ru": "Инновация", "zh": "创新"}
+        ],
+        "sentences": [
+            {"ar": "تواجه الدول الإسلامية تحديات اقتصادية كبيرة في ظل العولمة", "en": "Islamic countries face major economic challenges in light of globalization", "fr": "Les pays islamiques sont confrontés à des défis économiques majeurs à la lumière de la mondialisation", "de": "Islamische Länder stehen angesichts der Globalisierung vor großen wirtschaftlichen Herausforderungen", "ru": "Исламские страны сталкиваются с серьезными экономическими вызовами в условиях глобализации", "zh": "伊斯兰国家在全球化背景下面临重大经济挑战"},
+            {"ar": "تعتبر البطالة من أهم العوائق التي تواجه مسيرة التنمية", "en": "Unemployment is one of the most important obstacles facing the development process", "fr": "Le chômage est l'un des obstacles les plus importants auxquels est confronté le processus de développement", "de": "Arbeitslosigkeit ist eines der wichtigsten Hindernisse für den Entwicklungsprozess", "ru": "Безработица является одним из самых серьезных препятствий на пути процесса развития", "zh": "失业是发展进程中面临的最重要障碍之一"},
+            {"ar": "تتطلب الأزمات المالية العالمية حلولاً مبتكرة تتوافق مع الشريعة", "en": "Global financial crises require innovative solutions compatible with Sharia", "fr": "Les crises financières mondiales nécessitent des solutions innovantes compatibles avec la charia", "de": "Globale Finanzkrisen erfordern innovative Lösungen, die mit der Scharia vereinbar sind", "ru": "Мировые финансовые кризисы требуют инновационных решений, совместимых с шариатом", "zh": "全球金融危机需要符合伊斯兰教法的创新解决方案"},
+            {"ar": "تهدف التنمية المستدامة إلى الحفاظ على الموارد للأجيال القادمة", "en": "Sustainable development aims to preserve resources for future generations", "fr": "Le développement durable vise à préserver les ressources pour les générations futures", "de": "Nachhaltige Entwicklung zielt darauf ab, Ressourcen für kommende Generationen zu bewahren", "ru": "Устойчивое развитие направлено на сохранение ресурсов для будущих поколений", "zh": "可持续发展旨在为后代保留资源"},
+            {"ar": "يؤدي الابتكار التكنولوجي إلى تحسين الإنتاجية في القطاع المالي", "en": "Technological innovation leads to improving productivity in the financial sector", "fr": "L'innovation technologique conduit à l'amélioration de la productivité dans le secteur financier", "de": "Technologische Innovation führt zur Verbesserung der Produktivität im Finanzsektor", "ru": "Технологические инновации ведут к повышению продуктивности в финансовом секторе", "zh": "技术创新提高了金融部门的生产力"}
+        ]
+    },
+    "l7": {
+        "words": [
+            {"ar": "فقه المعاملات", "en": "Jurisprudence of Transactions", "fr": "Jurisprudence des transactions", "de": "Rechtsprechung des Geschäftsverkehrs", "ru": "Фикх муамалат", "zh": "交易法学"},
+            {"ar": "أصل", "en": "Asset", "fr": "Actif", "de": "Vermögenswert", "ru": "Актив", "zh": "资产"},
+            {"ar": "ربح", "en": "Profit", "fr": "Profit", "de": "Gewinn", "ru": "Прибыль", "zh": "利润"},
+            {"ar": "تكلفة", "en": "Cost", "fr": "Coût", "de": "Kosten", "ru": "Стоимость", "zh": "成本"},
+            {"ar": "استثمار", "en": "Investment", "fr": "Investissement", "de": "Investition", "ru": "Инвестиции", "zh": "投资"},
+            {"ar": "صكوك", "en": "Islamic Bonds", "fr": "Obligations islamiques", "de": "Islamische Anleihen", "ru": "Сукук", "zh": "伊斯兰债券"},
+            {"ar": "تأمين تكافلي", "en": "Takaful Insurance", "fr": "Assurance Takaful", "de": "Takaful-Versicherung", "ru": "Такафул-страхование", "zh": "相互保险"},
+            {"ar": "خيار", "en": "Option", "fr": "Option", "de": "Option", "ru": "Опцион", "zh": "选项"},
+            {"ar": "رهن", "en": "Mortgage", "fr": "Hypothèque", "de": "Hypothek", "ru": "Залог", "zh": "抵押"},
+            {"ar": "وسيط", "en": "Broker", "fr": "Courtier", "de": "Makler", "ru": "Брокер", "zh": "经纪人"}
+        ],
+        "sentences": [
+            {"ar": "تعتبر الصكوك الإسلامية بديلاً شرعياً للسندات التقليدية", "en": "Islamic Sukuk are considered a legitimate alternative to traditional bonds", "fr": "Les Sukuk islamiques sont considérés comme une alternative légitime aux obligations traditionnelles", "de": "Islamische Sukuk gelten als legitime Alternative zu herkömmlichen Anleihen", "ru": "Исламские сукук считаются законной альтернативой традиционным облигациям", "zh": "伊斯兰证券被认为是传统债券的合法替代品"},
+            {"ar": "يقوم التأمين التكافلي على مبدأ التعاون وتوزيع المخاطر", "en": "Takaful insurance is based on the principle of cooperation and risk distribution", "fr": "L'assurance Takaful est basée sur le principe de coopération et de répartition des risques", "de": "Die Takaful-Versicherung basiert auf dem Prinzip der Zusammenarbeit und Risikoverteilung", "ru": "Такафул-страхование основано на принципе сотрудничества и распределения рисков", "zh": "相互保险基于合作和风险分配原则"},
+            {"ar": "يهدف فقه المعاملات إلى تنظيم العلاقة المالية بين الأفراد", "en": "Jurisprudence of transactions aims to regulate the financial relationship between individuals", "fr": "La jurisprudence des transactions vise à réguler la relation financière entre les individus", "de": "Die Rechtsprechung des Geschäftsverkehrs zielt darauf ab, die finanziellen Beziehungen zwischen Einzelpersonen zu regeln", "ru": "Фикх муамалат направлен на регулирование финансовых отношений между людьми", "zh": "交易法学旨在规范个人之间的财务关系"},
+            {"ar": "تختلف شروط الاستثمار في الاقتصاد الإسلامي عنها في الأنظمة الأخرى", "en": "The conditions of investment in the Islamic economy differ from those in other systems", "fr": "Les conditions d'investissement dans l'économie islamique diffèrent de celles des autres systèmes", "de": "Die Investitionsbedingungen in der islamischen Wirtschaft unterscheiden sich von denen in anderen Systemen", "ru": "Условия инвестирования в исламской экономике отличаются от условий в других системах", "zh": "伊斯兰经济中的投资条件与其他系统不同"},
+            {"ar": "يجب مراعاة الدقة في استخدام المصطلحات الاقتصادية في البحوث", "en": "Accuracy must be observed in using economic terms in research", "fr": "La précision doit être observée dans l'utilisation des termes économiques en recherche", "de": "Bei der Verwendung wirtschaftlicher Begriffe in der Forschung muss auf Genauigkeit geachtet werden", "ru": "В исследованиях необходимо соблюдать точность при использовании экономических терминов", "zh": "在研究中使用经济术语必须遵守准确性"}
+        ]
+    },
+    "l8": {
+        "words": [
+            {"ar": "تقرير", "en": "Report", "fr": "Rapport", "de": "Bericht", "ru": "Отчет", "zh": "报告"},
+            {"ar": "تحليل", "en": "Analysis", "fr": "Analyse", "de": "Analyse", "ru": "Анализ", "zh": "分析"},
+            {"ar": "تقييم", "en": "Evaluation", "fr": "Évaluation", "de": "Bewertung", "ru": "Оценка", "zh": "评估"},
+            {"ar": "توصيات", "en": "Recommendations", "fr": "Recommandations", "de": "Empfehlungen", "ru": "Рекомендации", "zh": "建议"},
+            {"ar": "أداء", "en": "Performance", "fr": "Performance", "de": "Leistung", "ru": "Производительность", "zh": "绩效"},
+            {"ar": "ميزانية", "en": "Budget", "fr": "Budget", "de": "Budget", "ru": "Бюджет", "zh": "预算"},
+            {"ar": "شفافية", "en": "Transparency", "fr": "Transparence", "de": "Transparenz", "ru": "Прозрачность", "zh": "透明度"},
+            {"ar": "حوكمة", "en": "Governance", "fr": "Gouvernance", "de": "Governance", "ru": "Управление", "zh": "治理"},
+            {"ar": "تدقيق", "en": "Audit", "fr": "Audit", "de": "Audit", "ru": "Аудит", "zh": "审计"},
+            {"ar": "بيانات", "en": "Data", "fr": "Données", "de": "Daten", "ru": "Данные", "zh": "数据"}
+        ],
+        "sentences": [
+            {"ar": "يهدف التقرير السنوي إلى عرض إنجازات المؤسسة المالية", "en": "The annual report aims to present the financial institution's achievements", "fr": "Le rapport annuel vise à présenter les réalisations de l'institution financière", "de": "Der Jahresbericht zielt darauf ab, die Errungenschaften des Finanzinstituts darzustellen", "ru": "Ежегодный отчет призван представить достижения финансового учреждения", "zh": "年度报告旨在展示金融机构的成就"},
+            {"ar": "تعتبر الشفافية شرطاً أساسياً لنجاح الحوكمة في المصارف", "en": "Transparency is an essential condition for the success of governance in banks", "fr": "La transparence est une condition essentielle au succès de la gouvernance dans les banques", "de": "Transparenz ist eine wesentliche Voraussetzung für den Erfolg der Governance in Banken", "ru": "Прозрачность является важным условием успеха управления в банках", "zh": "透明度是银行治理成功的必要条件"},
+            {"ar": "يتطلب إعداد التقرير جمع بيانات دقيقة من مختلف الأقسام", "en": "Preparing the report requires collecting accurate data from various departments", "fr": "La préparation du rapport nécessite la collecte de données précises auprès de divers départements", "de": "Die Vorbereitung des Berichts erfordert das Sammeln genauer Daten aus verschiedenen Abteilungen", "ru": "Подготовка отчета требует сбора точных данных из различных отделов", "zh": "编写报告需要从各个部门收集准确的数据"},
+            {"ar": "تضمن عملية التدقيق المالي نزاهة القوائم والميزانيات", "en": "The financial audit process ensures the integrity of the statements and budgets", "fr": "Le processus d'audit financier garantit l'intégrité des états et des budgets", "de": "Der Finanzprüfungsprozess sichert die Integrität der Abschlüsse und Budgets", "ru": "Процесс финансового аудита обеспечивает целостность отчетности и бюджетов", "zh": "财务审计过程确保报表和预算的完整性"},
+            {"ar": "تقدم التوصيات حلولاً عملية لتحسين الأداء المستقبلي", "en": "The recommendations provide practical solutions for improving future performance", "fr": "Les recommandations fournissent des solutions pratiques pour améliorer les performances futures", "de": "Die Empfehlungen bieten praktische Lösungen zur Verbesserung der zukünftigen Leistung", "ru": "Рекомендации содержат практические решения для улучшения будущих показателей", "zh": "建议为提高未来的业绩提供了实际解决方案"}
+        ]
+    }
+}

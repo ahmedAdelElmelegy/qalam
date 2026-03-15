@@ -1,0 +1,170 @@
+{
+    "l1": {
+        "words": [
+            {"ar": "فلسفة القانون", "en": "Philosophy of Law", "fr": "Philosophie du droit", "de": "Rechtsphilosophie", "ru": "Философия права", "zh": "法哲学"},
+            {"ar": "عدالة", "en": "Justice", "fr": "Justice", "de": "Gerechtigkeit", "ru": "Справедливость", "zh": "正义"},
+            {"ar": "تشريع", "en": "Legislation", "fr": "Législation", "de": "Gesetzgebung", "ru": "Законодательство", "zh": "立法"},
+            {"ar": "سلطة", "en": "Authority", "fr": "Autorité", "de": "Autorität", "ru": "Власть", "zh": "权威"},
+            {"ar": "نظام", "en": "System", "fr": "Système", "de": "System", "ru": "Система", "zh": "体制"},
+            {"ar": "عقد اجتماعي", "en": "Social Contract", "fr": "Contrat social", "de": "Gesellschaftsvertrag", "ru": "Общественный договор", "zh": "社会契约"},
+            {"ar": "حقوق", "en": "Rights", "fr": "Droits", "de": "Rechte", "ru": "Права", "zh": "权利"},
+            {"ar": "واجبات", "en": "Duties", "fr": "Devoirs", "de": "Pflichten", "ru": "Обязанности", "zh": "义务"},
+            {"ar": "استقلال", "en": "Independence", "fr": "Indépendance", "de": "Unabhängigkeit", "ru": "Независимость", "zh": "独立"},
+            {"ar": "سيادة", "en": "Sovereignty", "fr": "Souveraineté", "de": "Souveränität", "ru": "Суверенитет", "zh": "主权"}
+        ],
+        "sentences": [
+            {"ar": "تدرس فلسفة القانون المبادئ الأخلاقية والمنطقية التي يرتكز عليها النظام القانوني", "en": "The philosophy of law studies the moral and logical principles on which the legal system is based", "fr": "La philosophie du droit étudie les principes moraux et logiques sur lesquels repose le système juridique", "de": "Die Rechtsphilosophie untersucht die moralischen und logischen Prinzipien, auf denen das Rechtssystem basiert", "ru": "Философия права изучает этические и логические принципы, на которых основывается правовая система", "zh": "法哲学研究法律体系所基于的道德和逻辑原则"},
+            {"ar": "يهدف القانون إلى تحقيق العدالة والمساواة بين جميع أفراد المجتمع", "en": "The law aims to achieve justice and equality among all members of society", "fr": "La loi vise à réaliser la justice et l'égalité entre tous les membres de la société", "de": "Das Gesetz zielt darauf ab, Gerechtigkeit und Gleichheit unter allen Mitgliedern der Gesellschaft zu erreichen", "ru": "Закон направлен на достижение справедливости и равенства среди всех членов общества", "zh": "法律旨在实现社会所有成员之间的正义和平等"},
+            {"ar": "يعتبر العقد الاجتماعي أساساً لشرعية السلطة السياسية والقانونية", "en": "The social contract is considered a basis for the legitimacy of political and legal authority", "fr": "Le contrat social est considéré comme une base pour la légitimité de l'autorité politique et juridique", "de": "Der Gesellschaftsvertrag gilt als Grundlage für die Legitimität politischer und rechtlicher Autorität", "ru": "Общественный договор считается основой легитимности политической и правовой власти", "zh": "社会契约被认为是政治和法律权威合法性的基础"},
+            {"ar": "تتطلب سيادة القانون خضوع الجميع، بمن فيهم الحكام، لأحكام القضاء", "en": "The rule of law requires everyone, including rulers, to submit to judicial rulings", "fr": "L'État de droit exige que tout le monde, y compris les gouvernants, se soumette aux décisions de justice", "de": "Rechtsstaatlichkeit erfordert, dass sich jeder, auch die Regierenden, den richterlichen Urteilen unterwirft", "ru": "Верховенство закона требует, чтобы все, включая правителей, подчинялись судебным решениям", "zh": "法治要求所有人，包括统治者，都服从司法判决"},
+            {"ar": "يؤدي استقلال القضاء إلى حماية الحقوق والحريات من تغول السلطة التنفيذية", "en": "Judicial independence leads to protecting rights and freedoms from the executive branch's encroachment", "fr": "L'indépendance de la justice conduit à la protection des droits et libertés contre les empiétements du pouvoir exécutif", "de": "Die Unabhängigkeit der Justiz führt zum Schutz von Rechten und Freiheiten vor Übergriffen der Exekutive", "ru": "Независимость судебной власти ведет к защите прав и свобод от посягательств исполнительной власти", "zh": "司法独立有助于保护权利和自由免受行政部门的侵犯"}
+        ]
+    },
+    "l2": {
+        "words": [
+            {"ar": "إعلان عالمي", "en": "Universal Declaration", "fr": "Déclaration universelle", "de": "Allgemeine Erklärung", "ru": "Всеобщая декларация", "zh": "世界宣言"},
+            {"ar": "حقوق الإنسان", "en": "Human Rights", "fr": "Droits de l'homme", "de": "Menschenrechte", "ru": "Права человека", "zh": "人权"},
+            {"ar": "كرامة", "en": "Dignity", "fr": "Dignité", "de": "Würde", "ru": "Достоинство", "zh": "尊严"},
+            {"ar": "مساواة", "en": "Equality", "fr": "Égalité", "de": "Gleichheit", "ru": "Равенство", "zh": "平等"},
+            {"ar": "حرية", "en": "Freedom", "fr": "Liberté", "de": "Freiheit", "ru": "Свобода", "zh": "自由"},
+            {"ar": "تمكين", "en": "Empowerment", "fr": "Autonomisation", "de": "Empowerment", "ru": "Расширение прав и возможностей", "zh": "赋权"},
+            {"ar": "تطلعات", "en": "Aspirations", "fr": "Aspirations", "de": "Bestrebungen", "ru": "Стремления", "zh": "愿望"},
+            {"ar": "معهد", "en": "Covenant", "fr": "Pacte", "de": "Pakt", "ru": "Пакт", "zh": "公约"},
+            {"ar": "دولية", "en": "International", "fr": "Internationale", "de": "International", "ru": "Международный", "zh": "国际"},
+            {"ar": "تطبيق", "en": "Application", "fr": "Application", "de": "Anwendung", "ru": "Применение", "zh": "执行"}
+        ],
+        "sentences": [
+            {"ar": "يعتبر الإعلان العالمي لحقوق الإنسان وثيقة تاريخية ملهمة لكافة الشعوب", "en": "The Universal Declaration of Human Rights is considered an inspiring historical document for all peoples", "fr": "La Déclaration universelle des droits de l'homme est considérée comme un document historique inspirant pour tous les peuples", "de": "Die Allgemeine Erklärung der Menschenrechte gilt als inspirierendes historisches Dokument für alle Völker", "ru": "Всеобщая декларация прав человека считается вдохновляющим историческим документом для всех народов", "zh": "《世界人权宣言》被认为是一份鼓舞各国人民的历史性文件"},
+            {"ar": "جاء هذا الإعلان رداً على الفظائع التي شهدها العالم خلال الحروب الكبرى", "en": "This declaration came as a response to the atrocities the world witnessed during major wars", "fr": "Cette déclaration est intervenue en réponse aux atrocités dont le monde a été témoin lors des grandes guerres", "de": "Diese Erklärung war eine Reaktion auf die Greueltaten, die die Welt während der großen Kriege erlebt hatte", "ru": "Эта декларация стала ответом на зверства, свидетелем которых стал мир во время мировых войн", "zh": "该宣言是对世界在重大战争中所见暴行的回应"},
+            {"ar": "تؤكد بنود الإعلان على أن الناس يولدون أحراراً ومتساوين في الكرامة والحقوق", "en": "The declaration's articles emphasize that people are born free and equal in dignity and rights", "fr": "Les articles de la déclaration soulignent que les gens naissent libres et égaux en dignité et en droits", "de": "Die Artikel der Erklärung betonen, dass Menschen frei und gleich an Würde und Rechten geboren werden", "ru": "Статьи декларации подчеркивают, что люди рождаются свободными и равными в своем достоинстве и правах", "zh": "宣言条款强调人人生而自由，在尊严和权利上一律平等"},
+            {"ar": "تواجه مبادئ الإعلان تحديات كبيرة في ظل التوازنات السياسية الدولية", "en": "The declaration's principles face major challenges in light of international political balances", "fr": "Les principes de la déclaration sont confrontés à des défis majeurs face aux équilibres politiques internationaux", "de": "Die Prinzipien der Erklärung stehen angesichts internationaler politischer Gleichgewichte vor großen Herausforderungen", "ru": "Принципы декларации сталкиваются с серьезными вызовами в условиях международных политических балансов", "zh": "在国际政治平衡的背景下，宣言的原则面临重大挑战"},
+            {"ar": "يجب السعي الدائم لتحويل هذه النصوص إلى واقع ملموس يحمي المقهورين", "en": "One must constantly strive to turn these texts into a tangible reality that protects the oppressed", "fr": "Il faut s'efforcer constamment de transformer ces textes en une réalité tangible qui protège les opprimés", "de": "Man muss ständig danach streben, diese Texte in eine greifbare Realität umzusetzen, die die Unterdrückten schützt", "ru": "Необходимо постоянно стремиться к тому, чтобы превратить эти тексты в ощутимую реальность, защищающую угнетенных", "zh": "必须不断努力将这些文本转化为保护受压迫者的切实现实"}
+        ]
+    },
+    "l3": {
+        "words": [
+            {"ar": "قانون إنساني", "en": "Humanitarian Law", "fr": "Droit humanitaire", "de": "Humanitäres Völkerrecht", "ru": "Гуманитарное право", "zh": "人道法"},
+            {"ar": "نزاع مسلح", "en": "Armed Conflict", "fr": "Conflit armé", "de": "Bewaffneter Konflikt", "ru": "Вооруженный конфликт", "zh": "武装冲突"},
+            {"ar": "مدني", "en": "Civilian", "fr": "Civil", "de": "Zivilist", "ru": "Гражданский", "zh": "平民"},
+            {"ar": "حماية", "en": "Protection", "fr": "Protection", "de": "Schutz", "ru": "Защита", "zh": "保护"},
+            {"ar": "اتفاقيات جنيف", "en": "Geneva Conventions", "fr": "Conventions de Genève", "de": "Genfer Abkommen", "ru": "Женевские конвенции", "zh": "日内瓦公约"},
+            {"ar": "صليب أحمر", "en": "Red Cross", "fr": "Croix-Rouge", "de": "Rotes Kreuz", "ru": "Красный Крест", "zh": "红十字会"},
+            {"ar": "جرائم حرب", "en": "War Crimes", "fr": "Crimes de guerre", "de": "Kriegsverbrechen", "ru": "Военные преступления", "zh": "战争罪"},
+            {"ar": "حياد", "en": "Neutrality", "fr": "Neutralité", "de": "Neutralität", "ru": "Нейтралитет", "zh": "中立"},
+            {"ar": "إغاثة", "en": "Relief", "fr": "Secours", "de": "Hilfe", "ru": "Помощь", "zh": "救济"},
+            {"ar": "أسرى", "en": "Prisoners", "fr": "Prisonniers", "de": "Gefangene", "ru": "Пленные", "zh": "囚犯"}
+        ],
+        "sentences": [
+            {"ar": "يهدف القانون الدولي الإنساني إلى الحد من وطأة النزاعات المسلحة على البشر", "en": "International humanitarian law aims to limit the impact of armed conflicts on humans", "fr": "Le droit international humanitaire vise à limiter l'impact des conflits armés sur les êtres humains", "de": "Das humanitäre Völkerrecht zielt darauf ab, die Auswirkungen bewaffneter Konflikte auf Menschen zu begrenzen", "ru": "Международное гуманитарное право направлено на ограничение воздействия вооруженных конфликтов на людей", "zh": "国际人道法旨在限制武装冲突对人类的影响"},
+            {"ar": "تحظر اتفاقيات جنيف استهداف المدنيين أو الطواقم الطبية أثناء الحروب", "en": "The Geneva Conventions prohibit targeting civilians or medical personnel during wars", "fr": "Les Conventions de Genève interdisent de cibler les civils ou le personnel médical pendant les guerres", "de": "Die Genfer Abkommen verbieten Angriffe auf Zivilisten oder medizinisches Personal während Kriegen", "ru": "Женевские конвенции запрещают нападения на гражданское население или медицинский персонал во время войн", "zh": "日内瓦公约禁止在战争中针对平民或医务人员"},
+            {"ar": "يجب معاملة أسرى الحرب بكرامة وتوفير الرعاية اللازمة لهم", "en": "Prisoners of war must be treated with dignity and provided with necessary care", "fr": "Les prisonniers de guerre doivent être traités avec dignité et recevoir les soins nécessaires", "de": "Kriegsgefangene müssen würdevoll behandelt und mit der notwendigen Pflege versorgt werden", "ru": "С военнопленными необходимо обращаться достойно и обеспечивать их необходимым уходом", "zh": "必须给予战俘尊严，并为他们提供必要的护理"},
+            {"ar": "تعتبر اللجنة الدولية للصليب الأحمر وسيطاً محايداً في مناطق النزاع", "en": "The International Committee of the Red Cross is considered a neutral mediator in conflict zones", "fr": "Le Comité international de la Croix-Rouge est considéré comme un médiateur neutre dans les zones de conflit", "de": "Das Internationale Komitee vom Roten Kreuz gilt als neutraler Vermittler in Konfliktgebieten", "ru": "Международный Комитет Красного Креста считается нейтральным посредником в зонах конфликтов", "zh": "红十字国际委员会被认为是冲突地区的法外中立调解人"},
+            {"ar": "يؤدي انتهاك قواعد القانون الإنساني إلى المساءلة أمام المحاكم الدولية", "en": "Violation of the rules of humanitarian law leads to accountability before international courts", "fr": "La violation des règles du droit humanitaire entraîne une mise en cause devant les tribunaux internationaux", "de": "Der Verstoß gegen die Regeln des humanitären Völkerrechts führt zur Rechenschaftspflicht vor internationalen Gerichten", "ru": "Нарушение норм гуманитарного права ведет к ответственности перед международными судами", "zh": "违反人道法准则将导致在国际法院受到追责"}
+        ]
+    },
+    "l4": {
+        "words": [
+            {"ar": "نظام قضائي", "en": "Judicial System", "fr": "Système judiciaire", "de": "Justizsystem", "ru": "Судебная система", "zh": "司法体系"},
+            {"ar": "محاكمة عادلة", "en": "Fair Trial", "fr": "Procès équitable", "de": "Faires Verfahren", "ru": "Справедливое судебное разбирательство", "zh": "公正审判"},
+            {"ar": "دفاع", "en": "Defense", "fr": "Défense", "de": "Verteidigung", "ru": "Защита", "zh": "辩护"},
+            {"ar": "دعوى", "en": "Lawsuit", "fr": "Procès", "de": "Klage", "ru": "Иск", "zh": "诉讼"},
+            {"ar": "قاضي", "en": "Judge", "fr": "Juge", "de": "Richter", "ru": "Судья", "zh": "法官"},
+            {"ar": "محامي", "en": "Lawyer", "fr": "Avocat", "de": "Anwalt", "ru": "Адвокат", "zh": "律师"},
+            {"ar": "براءة", "en": "Innocence", "fr": "Innocence", "de": "Unschuld", "ru": "Невиновность", "zh": "无罪"},
+            {"ar": "إدانة", "en": "Conviction", "fr": "Condamnation", "de": "Verurteilung", "ru": "Осуждение", "zh": "定罪"},
+            {"ar": "استئناف", "en": "Appeal", "fr": "Appel", "de": "Berufung", "ru": "Апелляция", "zh": "上诉"},
+            {"ar": "أدلة", "en": "Evidence", "fr": "Preuves", "de": "Beweise", "ru": "Доказательства", "zh": "证据"}
+        ],
+        "sentences": [
+            {"ar": "تعتبر المحاكمة العادلة ضمانة أساسية للحماية من الظلم والتعسف", "en": "A fair trial is an essential guarantee for protection against injustice and arbitrariness", "fr": "Un procès équitable est une garantie essentielle de protection contre l'injustice et l'arbitraire", "de": "Ein faires Verfahren ist eine wesentliche Garantie für den Schutz vor Ungerechtigkeit und Willkür", "ru": "Справедливый суд является важной гарантией защиты от несправедливости и произвола", "zh": "公正审判是防止不公和专横的基本保障"},
+            {"ar": "للمتهم الحق في الحصول على دفاع قانوني كفء ومستقل", "en": "The accused has the right to obtain a competent and independent legal defense", "fr": "L'accusé a le droit de bénéficier d'une défense juridique compétente et indépendante", "de": "Der Angeklagte hat das Recht auf eine kompetente und unabhängige rechtliche Verteidigung", "ru": "Обвиняемый имеет право на получение компетентной и независимой юридической защиты", "zh": "被告有权获得称职且独立的法律辩护"},
+            {"ar": "يجب أن تكون جلسات المحاكمة علنية لضمان الشفافية والنزاهة", "en": "Trial sessions must be public to ensure transparency and integrity", "fr": "Les audiences du procès doivent être publiques pour garantir la transparence et l'intégrité", "de": "Gerichtsverhandlungen müssen öffentlich sein, um Transparenz und Integrität zu gewährleisten", "ru": "Судебные заседания должны быть открытыми для обеспечения прозрачности и беспристрастности", "zh": "审判会议必须公开进行，以确保透明度和诚信"},
+            {"ar": "يسمح الاستئناف بمراجعة الأحكام القضائية من قبل محاكم أعلى درجة", "en": "The appeal allows for the review of judicial rulings by higher courts", "fr": "L'appel permet la révision des décisions de justice par des tribunaux de degré supérieur", "de": "Die Berufung ermöglicht die Überprüfung von Gerichtsurteilen durch höhere Instanzen", "ru": "Апелляция позволяет пересматривать судебные решения судами высшей инстанции", "zh": "上诉允许更高级别的法院对司法判决进行审查"},
+            {"ar": "تعتمد الإدانة الجنائية على وجود أدلة قاطعة لا تدع مجالاً للشك", "en": "Criminal conviction depends on the existence of conclusive evidence that leaves no room for doubt", "fr": "La condamnation pénale dépend de l'existence de preuves concluantes qui ne laissent place à aucun doute", "de": "Eine strafrechtliche Verurteilung hängt von der Existenz schlüssiger Beweise ab, die keinen Raum für Zweifel lassen", "ru": "Уголовное осуждение основывается на наличии убедительных доказательств, не оставляющих места для сомнений", "zh": "刑事定罪依赖于确凿的证据，不给怀疑留有余地"}
+        ]
+    },
+    "l5": {
+        "words": [
+            {"ar": "خصوصية", "en": "Privacy", "fr": "Confidentialité", "de": "Privatsphäre", "ru": "Конфиденциальность", "zh": "隐私"},
+            {"ar": "تعبير", "en": "Expression", "fr": "Expression", "de": "Ausdruck", "ru": "Выражение", "zh": "表达"},
+            {"ar": "بيانات", "en": "Data", "fr": "Données", "de": "Daten", "ru": "Данные", "zh": "数据"},
+            {"ar": "فضاء رقمي", "en": "Digital Space", "fr": "Espace numérique", "de": "Digitaler Raum", "ru": "Цифровое пространство", "zh": "数字空间"},
+            {"ar": "تشوير", "en": "Signal", "fr": "Signal", "de": "Signal", "ru": "Сигнал", "zh": "信号"},
+            {"ar": "حماية", "en": "Protection", "fr": "Protection", "de": "Schutz", "ru": "Защита", "zh": "保护"},
+            {"ar": "قرصنة", "en": "Hacking", "fr": "Piratage", "de": "Hacking", "ru": "Хакерство", "zh": "黑客"},
+            {"ar": "محتوى", "en": "Content", "fr": "Contenu", "de": "Inhalt", "ru": "Контент", "zh": "内容"},
+            {"ar": "رقابة", "en": "Censorship", "fr": "Censure", "de": "Zensur", "ru": "Цензура", "zh": "审查"},
+            {"ar": "جرائم سيبرانية", "en": "Cybercrimes", "fr": "Cybercriminalité", "de": "Cyberkriminalität", "ru": "Киберпреступления", "zh": "网络犯罪"}
+        ],
+        "sentences": [
+            {"ar": "تعتبر حماية الخصوصية الرقمية أحد أكبر التحديات القانونية في العصر الحديث", "en": "Protecting digital privacy is one of the biggest legal challenges in the modern era", "fr": "La protection de la vie privée numérique est l'un des plus grands défis juridiques de l'ère moderne", "de": "Der Schutz der digitalen Privatsphäre ist eine der größten rechtlichen Herausforderungen in der Moderne", "ru": "Защита цифровой конфиденциальности — это один из самых серьезных правовых вызовов современности", "zh": "保护数字隐私是现代最大的法律挑战之一"},
+            {"ar": "يجب الموازنة بين حرية التعبير عبر الإنترنت وضرورة منع خطاب الكراهية", "en": "Balance must be struck between freedom of expression online and the need to prevent hate speech", "fr": "Il faut trouver un équilibre entre la liberté d'expression en ligne et la nécessité de prévenir les discours de haine", "de": "Es muss ein Gleichgewicht zwischen der Meinungsfreiheit im Internet und der Notwendigkeit der Verhinderung von Hassreden gefunden werden", "ru": "Должен быть соблюден баланс между свободой слова в интернете и необходимостью предотвращения разжигания ненависти", "zh": "必须在网上的言论自由与防止仇恨言论的需求之间取得平衡"},
+            {"ar": "أدت الثورة التكنولوجية إلى ظهور أنماط جديدة من الجرائم العابرة للحدود", "en": "The technological revolution led to the emergence of new patterns of cross-border crimes", "fr": "La révolution technologique a conduit à l'émergence de nouveaux types de crimes transfrontaliers", "de": "Die technologische Revolution führte zur Entstehung neuer Muster grenzüberschreitender Kriminalität", "ru": "Технологическая революция привела к возникновению новых видов трансграничных преступлений", "zh": "技术革命导致了跨境犯罪新模式的出现"},
+            {"ar": "تتعرض البيانات الشخصية للمستخدمين لخطر السرقة والاستغلال التجاري", "en": "Users' personal data is exposed to the risk of theft and commercial exploitation", "fr": "Les données personnelles des utilisateurs sont exposées au risque de vol et d'exploitation commerciale", "de": "Persönliche Daten von Nutzern sind dem Risiko von Diebstahl und kommerzieller Ausbeutung ausgesetzt", "ru": "Персональные данные пользователей подвергаются риску кражи и коммерческой эксплуатации", "zh": "用户的个人数据面临被没收和商业开发的风险"},
+            {"ar": "يجب تحديث القوانين الوطنية لتتماشى مع التطور السريع للفضاء السيبراني", "en": "National laws must be updated to keep pace with the rapid development of cyberspace", "fr": "Les lois nationales doivent être mises à jour pour suivre le développement rapide du cyberespace", "de": "Die nationalen Gesetze müssen aktualisiert werden, um mit der schnellen Entwicklung des Cyberspace Schritt zu halten", "ru": "Национальные законы должны быть обновлены, чтобы соответствовать быстрому развитию киберпространства", "zh": "国家法律必须更新，以跟上网络空间的快速发展"}
+        ]
+    },
+    "l6": {
+        "words": [
+            {"ar": "حقوق الطفل", "en": "Children's Rights", "fr": "Droits de l'enfant", "de": "Kinderrechte", "ru": "Права ребенка", "zh": "儿童权利"},
+            {"ar": "اتفاقية", "en": "Convention", "fr": "Convention", "de": "Übereinkommen", "ru": "Конвенция", "zh": "公约"},
+            {"ar": "عنف", "en": "Violence", "fr": "Violence", "de": "Gewalt", "ru": "Насилие", "zh": "暴力"},
+            {"ar": "تعليم", "en": "Education", "fr": "Éducation", "de": "Bildung", "ru": "Образование", "zh": "教育"},
+            {"ar": "رعاية", "en": "Care", "fr": "Assistance", "de": "Betreuung", "ru": "Забота", "zh": "关怀"},
+            {"ar": "تمييز", "en": "Discrimination", "fr": "Discrimination", "de": "Diskriminierung", "ru": "Дискриминация", "zh": "歧视"},
+            {"ar": "مساواة", "en": "Equality", "fr": "Égalité", "de": "Gleichheit", "ru": "Равенство", "zh": "平等"},
+            {"ar": "استغلال", "en": "Exploitation", "fr": "Exploitation", "de": "Ausbeutung", "ru": "Эксплуатация", "zh": "剥削"},
+            {"ar": "مصالح", "en": "Interests", "fr": "Intérêts", "de": "Interessen", "ru": "Интересы", "zh": "利益"},
+            {"ar": "تمكين", "en": "Empowerment", "fr": "Autonomisation", "de": "Empowerment", "ru": "Расширение прав и возможностей", "zh": "赋权"}
+        ],
+        "sentences": [
+            {"ar": "تعتبر اتفاقية حقوق الطفل الوثيقة الدولية الأكثر شمولاً في هذا المجال", "en": "The Convention on the Rights of the Child is considered the most comprehensive international document in this field", "fr": "La Convention relative aux droits de l'enfant est considérée comme le document international le plus complet dans ce domaine", "de": "Die Kinderrechtskonvention gilt als das umfassendste internationale Dokument in diesem Bereich", "ru": "Конвенция о правах ребенка считается наиболее всеобъемлющим международным документом в этой области", "zh": "《儿童权利公约》被认为是该领域最全面的国际文件"},
+            {"ar": "تحظر القوانين الدولية كافة أشكال العنف والتمييز ضد النساء والأطفال", "en": "International laws prohibit all forms of violence and discrimination against women and children", "fr": "Les lois internationales interdisent toutes formes de violence et de discrimination à l'encontre des femmes et des enfants", "de": "Internationale Gesetze verbieten alle Formen von Gewalt und Diskriminierung gegenüber Frauen und Kindern", "ru": "Международные законы запрещают любые формы насилия и дискриминации в отношении женщин и детей", "zh": "国际法禁止对妇女和儿童的一切形式的暴力和歧视"},
+            {"ar": "يعد الحق في التعليم والرعاية الجيدة ضرورة لتنمية قدرات الطفل المستقبلية", "en": "The right to education and good care is a necessity for developing the child's future capabilities", "fr": "Le droit à l'éducation et à des soins de qualité est une nécessité pour développer les capacités futures de l'enfant", "de": "Das Recht auf Bildung und gute Betreuung ist eine Notwendigkeit für die Entwicklung der zukünftigen Fähigkeiten des Kindes", "ru": "Право на образование и правильный уход необходимо для развития будущих способностей ребенка", "zh": "受教育权和良好的监护权是发展儿童未来能力的必然要求"},
+            {"ar": "تهدف البرامج الدولية إلى تمكين المرأة وتعزيز مشاركتها في صنع القرار", "en": "International programs aim to empower women and enhance their participation in decision-making", "fr": "Les programmes internationaux visent à autonomiser les femmes et à renforcer leur participation à la prise de décision", "de": "Internationale Programme zielen darauf ab, Frauen zu stärken und ihre Beteiligung an Entscheidungsfindungsprozessen zu fördern", "ru": "Международные программы направлены на расширение прав и возможностей женщин и усиление их участия в принятии решений", "zh": "国际计划旨在赋予女性权利并加强她们参与决策"},
+            {"ar": "يجب حماية الأطفال من كافة أشكال الاستغلال الاقتصادي والجنسي", "en": "Children must be protected from all forms of economic and sexual exploitation", "fr": "Les enfants doivent être protégés contre toutes formes d'exploitation économique et sexuelle", "de": "Kinder müssen vor allen Formen der wirtschaftlichen und sexuellen Ausbeutung geschützt werden", "ru": "Дети должны быть защищены от всех форм экономической и сексуальной эксплуатации", "zh": "必须保护儿童免受一切形式的经济剥削和性剥削"}
+        ]
+    },
+    "l7": {
+        "words": [
+            {"ar": "مصطلحات قانونية", "en": "Legal Terminology", "fr": "Terminologie juridique", "de": "Rechtsterminologie", "ru": "Юридическая терминология", "zh": "法律术语"},
+            {"ar": "حقوق مدنية", "en": "Civil Rights", "fr": "Droits civiques", "de": "Bürgerrechte", "ru": "Гражданские права", "zh": "公民权利"},
+            {"ar": "دستور", "en": "Constitution", "fr": "Constitution", "de": "Verfassung", "ru": "Конституция", "zh": "宪法"},
+            {"ar": "مرسوم", "en": "Decree", "fr": "Décret", "de": "Dekret", "ru": "Указ", "zh": "法令"},
+            {"ar": "قانون دولي", "en": "International Law", "fr": "Droit international", "de": "Völkerrecht", "ru": "Международное право", "zh": "国际法"},
+            {"ar": "معاهدة", "en": "Treaty", "fr": "Traité", "de": "Vertrag", "ru": "Договор", "zh": "条约"},
+            {"ar": "بروتوكول", "en": "Protocol", "fr": "Protocole", "de": "Protokoll", "ru": "Протокол", "zh": "议定书"},
+            {"ar": "عقوبة", "en": "Penalty", "fr": "Sanction", "de": "Strafe", "ru": "Наказание", "zh": "惩罚"},
+            {"ar": "حصانة", "en": "Immunity", "fr": "Immunité", "de": "Immunität", "ru": "Иммунитет", "zh": "豁免"},
+            {"ar": "تنفيذ", "en": "Execution", "fr": "Exécution", "de": "Ausführung", "ru": "Исполнение", "zh": "执行"}
+        ],
+        "sentences": [
+            {"ar": "يعتبر الدستور القانون الأسمى الذي يحدد شكل الدولة ونظام الحكم", "en": "The constitution is considered the supreme law that defines the state's shape and governance system", "fr": "La constitution est considérée comme la loi suprême qui définit la forme de l'État et le système de gouvernement", "de": "Die Verfassung gilt als das oberste Gesetz, das die Form des Staates und das Regierungssystem festlegt", "ru": "Конституция считается высшим законом, определяющим форму государства и систему правления", "zh": "宪法被认为是规定国家形式和治理体系的最高法律"},
+            {"ar": "تنظم المعاهدات الدولية العلاقات القانونية بين الدول ذات السيادة", "en": "International treaties regulate legal relations between sovereign states", "fr": "Les traités internationaux régulent les relations juridiques entre États souverains", "de": "Völkerrechtliche Verträge regeln die Rechtsbeziehungen zwischen souveränen Staaten", "ru": "Международные договоры регулируют правовые отношения между суверенными государствами", "zh": "国际条约规定主权国家之间的法律关系"},
+            {"ar": "يجب مراعاة الدقة في كتابة النصوص القانونية لتجنب سوء التفسير", "en": "Precision must be observed in writing legal texts to avoid misinterpretation", "fr": "La précision doit être observée dans la rédaction des textes juridiques pour éviter toute interprétation erronée", "de": "Bei der Abfassung von Rechtstexten muss auf Präzision geachtet werden, um Fehlinterpretationen zu vermeiden", "ru": "При написании юридических текстов необходимо соблюдать точность во избежание неверного толкования", "zh": "编写法律文本时必须遵守准确性，以避免错误解读"},
+            {"ar": "تحدد القوانين العقوبات المناسبة لكل جريمة وفقاً لمبدأ التناسب", "en": "Laws define appropriate penalties for each crime according to the principle of proportionality", "fr": "Les lois définissent les sanctions appropriées pour chaque crime selon le principe de proportionnalité", "de": "Gesetze legen angemessene Strafen für jedes Verbrechen gemäß dem Grundsatz der Verhältnismäßigkeit fest", "ru": "Законы определяют соответствующие наказания за каждое преступление в соответствии с принципом пропорциональности", "zh": "法律根据比例原则规定各项犯罪的适当惩罚"},
+            {"ar": "تتطلب الاتفاقيات الدولية بروتوكولات تفصيلية لتوضيح طرق التنفيذ", "en": "International agreements require detailed protocols to clarify execution methods", "fr": "Les accords internationaux nécessitent des protocoles détaillés pour clarifier les méthodes d'exécution", "de": "Internationale Abkommen erfordern detaillierte Protokolle zur Klärung der Ausführungsmethoden", "ru": "Международные соглашения требуют подробных протоколов для уточнения способов исполнения", "zh": "国际协议需要详细的议定书来阐明执行方法"}
+        ]
+    },
+    "l8": {
+        "words": [
+            {"ar": "مذكرة", "en": "Memorandum", "fr": "Mémorandum", "de": "Memorandum", "ru": "Меморандум", "zh": "备忘录"},
+            {"ar": "قضية", "en": "Issue", "fr": "Problématique", "de": "Thema", "ru": "Вопрос", "zh": "问题"},
+            {"ar": "وقائع", "en": "Facts", "fr": "Faits", "de": "Sachverhalt", "ru": "Факты", "zh": "事实"},
+            {"ar": "تحليل", "en": "Analysis", "fr": "Analyse", "de": "Analyse", "ru": "Анализ", "zh": "分析"},
+            {"ar": "خلاصة", "en": "Conclusion", "fr": "Conclusion", "de": "Fazit", "ru": "Заключение", "zh": "结论"},
+            {"ar": "توصيات", "en": "Recommendations", "fr": "Recommandations", "de": "Empfehlungen", "ru": "Рекомендации", "zh": "建议"},
+            {"ar": "مرجعيات", "en": "References", "fr": "Références", "de": "Referenzen", "ru": "Ссылки", "zh": "参考文献"},
+            {"ar": "انتهاكات", "en": "Violations", "fr": "Violations", "de": "Verletzungen", "ru": "Нарушения", "zh": "违法行为"},
+            {"ar": "اقتراح", "en": "Proposal", "fr": "Proposition", "de": "Vorschlag", "ru": "Предложение", "zh": "提案"},
+            {"ar": "موقف", "en": "Position", "fr": "Position", "de": "Standpunkt", "ru": "Позиция", "zh": "立场"}
+        ],
+        "sentences": [
+            {"ar": "تهدف المذكرة القانونية إلى عرض وجهة نظر فنية حول قضية معينة", "en": "The legal memorandum aims to present a technical point of view on a specific issue", "fr": "Le mémorandum juridique vise à présenter un point de vue technique sur une question spécifique", "de": "Das Rechtsmemorandum zielt darauf ab, einen fachlichen Standpunkt zu einem bestimmten Thema darzustellen", "ru": "Юридический меморандум призван представить техническую точку зрения по конкретному вопросу", "zh": "法律备忘录旨在针对特定问题提出专业见解"},
+            {"ar": "يجب سرد الوقائع بدقة وموضوعية قبل البدء في التحليل القانوني", "en": "Facts must be narrated accurately and objectively before starting the legal analysis", "fr": "Les faits doivent être relatés de manière précise et objective avant de commencer l'analyse juridique", "de": "Die Tatsachen müssen genau und objektiv dargelegt werden, bevor mit der Rechtsanalyse begonnen wird", "ru": "Факты должны быть изложены точно и объективно перед началом юридического анализа", "zh": "在开始法律分析之前，必须准确客观地陈述事实"},
+            {"ar": "تستند التوصيات إلى مبادئ القانون الدولي والمعايير الحقوقية العالمية", "en": "The recommendations are based on principles of international law and global human rights standards", "fr": "Les recommandations sont basées sur les principes du droit international et les normes mondiales des droits de l'homme", "de": "Die Empfehlungen basieren auf den Grundsätzen des Völkerrechts und den globalen Menschenrechtsstandards", "ru": "Рекомендации основываются на принципах международного права и мировых стандартах в области прав человека", "zh": "建议基于国际法原则和全球人权标准"},
+            {"ar": "يحلل هذا التقرير الانتهاكات المسجلة في مناطق النزاع ويقترح حلولاً قانونية", "en": "This report analyzes recorded violations in conflict zones and proposes legal solutions", "fr": "Ce rapport analyse les violations enregistrées dans les zones de conflit et propose des solutions juridiques", "de": "Dieser Bericht analysiert die registrierten Verstöße in Konfliktgebieten und schlägt rechtliche Lösungen vor", "ru": "В этом отчете анализируются зафиксированные нарушения в зонах конфликтов и предлагаются юридические решения", "zh": "本报告分析了冲突地区记录的违规行为，并提出了法律解决方案"},
+            {"ar": "تعتبر خلاصات المذكرة مرجعاً مهماً لصناع القرار والمنظمات الحقوقية", "en": "The memorandum's conclusions are considered an important reference for decision-makers and human rights organizations", "fr": "Les conclusions du mémorandum sont considérées comme une référence importante pour les décideurs et les organisations de droits de l'homme", "de": "Die Schlussfolgerungen des Memorandums gelten als wichtiges Referenzmaterial für Entscheidungsträger und Menschenrechtsorganisationen", "ru": "Выводы меморандума считаются важным ориентиром для лиц, принимающих решения, и правозащитных организаций", "zh": "备忘录的结论被认为是决策者和人权组织的重要参考"}
+        ]
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "l1": {
+        "words": [
+            {"ar": "إعلام", "en": "Media", "fr": "Médias", "de": "Medien", "ru": "СМИ", "zh": "媒体"},
+            {"ar": "رأي عام", "en": "Public Opinion", "fr": "Opinion publique", "de": "Öffentliche Meinung", "ru": "Общественное мнение", "zh": "舆论"},
+            {"ar": "صياغة", "en": "Shaping", "fr": "Façonnage", "de": "Gestaltung", "ru": "Формирование", "zh": "塑造"},
+            {"ar": "تأثير", "en": "Influence", "fr": "Influence", "de": "Einfluss", "ru": "Влияние", "zh": "影响"},
+            {"ar": "توجيه", "en": "Direction", "fr": "Orientation", "de": "Lenkung", "ru": "Направление", "zh": "引导"},
+            {"ar": "وعي", "en": "Awareness", "fr": "Sensibilisation", "de": "Bewusstsein", "ru": "Осведомленность", "zh": "意识"},
+            {"ar": "رسالة", "en": "Message", "fr": "Message", "de": "Botschaft", "ru": "Сообщение", "zh": "消息"},
+            {"ar": "منصات", "en": "Platforms", "fr": "Plateformes", "de": "Plattformen", "ru": "Платформы", "zh": "平台"},
+            {"ar": "جمهور", "en": "Audience", "fr": "Public", "de": "Publikum", "ru": "Аудитория", "zh": "观众"},
+            {"ar": "تغطية", "en": "Coverage", "fr": "Couverture", "de": "Berichterstattung", "ru": "Освещение", "zh": "覆盖"}
+        ],
+        "sentences": [
+            {"ar": "يلعب الإعلام دوراً محورياً في صياغة الرأي العام تجاه القضايا الكبرى", "en": "Media plays a pivotal role in shaping public opinion toward major issues", "fr": "Les médias jouent un rôle pivot dans le façonnage de l'opinion publique vis-à-vis des enjeux majeurs", "de": "Medien spielen eine zentrale Rolle bei der Gestaltung der öffentlichen Meinung zu wichtigen Themen", "ru": "СМИ играют ключевую роль в формировании общественного мнения по важным вопросам", "zh": "媒体在塑造重大问题的舆论方面发挥着关键作用"},
+            {"ar": "تؤثر التغطية الإخبارية المكثفة على تصور الجمهور للواقع السياسي", "en": "Intense news coverage affects the audience's perception of political reality", "fr": "Une couverture médiatique intense affecte la perception de la réalité politique par le public", "de": "Intensive Berichterstattung beeinflusst die Wahrnehmung der politischen Realität durch das Publikum", "ru": "Интенсивное освещение новостей влияет на восприятие аудиторией политической реальности", "zh": "密集的新闻报道影响着观众对政治现实的看法"},
+            {"ar": "لا يمكن إغفال تأثير منصات التواصل الاجتماعي في توجيه الاتجاهات العامة", "en": "The influence of social media platforms in directing general trends cannot be ignored", "fr": "L'influence des plateformes de médias sociaux dans l'orientation des tendances générales ne peut être ignorée", "de": "Der Einfluss sozialer Medienplattformen auf die Steuerung allgemeiner Trends darf nicht ignoriert werden", "ru": "Нельзя игнорировать влияние платформ социальных сетей на направление общих тенденций", "zh": "社交媒体平台在引导总体趋势方面的影响不容忽视"},
+            {"ar": "يهدف الإعلام الهادف إلى رفع مستوى الوعي المجتمعي بالحقوق والواجبات", "en": "Purposeful media aims to raise the level of community awareness of rights and duties", "fr": "Les médias ciblés visent à accroître le niveau de sensibilisation de la communauté aux droits et devoirs", "de": "Zielgerichtete Medien streben danach, das gesellschaftliche Bewusstsein für Rechte und Pflichten zu schärfen", "ru": "Целенаправленные СМИ стремятся повысить уровень осведомленности общества о правах и обязанностях", "zh": "有目的性的媒体旨在提高社区对权利和义务的认识"},
+            {"ar": "يجب أن تكون الرسالة الإعلامية واضحة ومبنية على مبادئ المصداقية", "en": "The media message must be clear and based on principles of credibility", "fr": "Le message médiatique doit être clair et fondé sur des principes de crédibilité", "de": "Die Medienbotschaft muss klar sein und auf Grundsätzen der Glaubwürdigkeit beruhen", "ru": "Медийное сообщение должно быть четким и основанным на принципах достоверности", "zh": "媒体信息必须清晰且基于诚信原则"}
+        ]
+    },
+    "l2": {
+        "words": [
+            {"ar": "صحافة رقمية", "en": "Digital Journalism", "fr": "Journalisme numérique", "de": "Digitaler Journalismus", "ru": "Цифровая журналистика", "zh": "数字新闻"},
+            {"ar": "مصداقية", "en": "Credibility", "fr": "Crédibilité", "de": "Glaubwürdigkeit", "ru": "Достоверность", "zh": "公信力"},
+            {"ar": "تحقق", "en": "Verification", "fr": "Vérification", "de": "Verifizierung", "ru": "Проверка", "zh": "验证"},
+            {"ar": "سرعة", "en": "Speed", "fr": "Vitesse", "de": "Geschwindigkeit", "ru": "Скорость", "zh": "速度"},
+            {"ar": "نشر", "en": "Publishing", "fr": "Édition", "de": "Veröffentlichung", "ru": "Публикация", "zh": "发布"},
+            {"ar": "أخبار زائفة", "en": "Fake News", "fr": "Fausses nouvelles", "de": "Falschnachrichten", "ru": "Фейковые новости", "zh": "虚假新闻"},
+            {"ar": "تفاعل", "en": "Interaction", "fr": "Interaction", "de": "Interaktion", "ru": "Взаимодействие", "zh": "互动"},
+            {"ar": "محرر", "en": "Editor", "fr": "Éditeur", "de": "Redakteur", "ru": "Редактор", "zh": "编辑"},
+            {"ar": "موضوعية", "en": "Objectivity", "fr": "Objectivité", "de": "Objektivität", "ru": "Объективность", "zh": "客观性"},
+            {"ar": "سبق صحفي", "en": "Scoop", "fr": "Scoop", "de": "Scoop", "ru": "Сенсация", "zh": "独家新闻"}
+        ],
+        "sentences": [
+            {"ar": "أحدثت الصحافة الرقمية ثورة في طرق الحصول على المعلومات ونشرها", "en": "Digital journalism revolutionized the ways of obtaining and publishing information", "fr": "Le journalisme numérique a révolutionné les manières d'obtenir et de publier l'information", "de": "Digitaler Journalismus hat die Art und Weise, wie Informationen gewonnen und veröffentlicht werden, revolutioniert", "ru": "Цифровая журналистика произвела революцию в способах получения и публикации информации", "zh": "数字新闻彻底改变了获取和发布信息的方式"},
+            {"ar": "تواجه المواقع الإخبارية تحدي الحفاظ على المصداقية في ظل السباق نحو السرعة", "en": "News sites face the challenge of maintaining credibility in light of the race for speed", "fr": "Les sites d'information sont confrontés au défi de maintenir leur crédibilité face à la course à la vitesse", "de": "Nachrichtenseiten stehen vor der Herausforderung, ihre Glaubwürdigkeit im Wettlauf um die Geschwindigkeit zu bewahren", "ru": "Новостные сайты сталкиваются с проблемой сохранения достоверности в условиях гонки за скоростью", "zh": "新闻网站在追求速度的同时面临着维护公信力的挑战"},
+            {"ar": "يعد التحقق من صحة الأخبار قبل نشرها واجباً أخلاقياً للمحررين", "en": "Verifying the authenticity of news before publishing it is a moral duty for editors", "fr": "La vérification de l'authenticité des nouvelles avant leur publication est un devoir moral pour les éditeurs", "de": "Die Überprüfung der Echtheit von Nachrichten vor ihrer Veröffentlichung ist eine moralische Pflicht für Redakteure", "ru": "Проверка подлинности новостей перед их публикацией является моральным долгом редакторов", "zh": "在发布新闻之前验证其真实性是编辑的道德义务"},
+            {"ar": "أدت الأخبار الزائفة إلى تضليل الرأي العام في مناسبات عديدة", "en": "Fake news has led to misleading public opinion on many occasions", "fr": "Les fausses nouvelles ont conduit à tromper l'opinion publique à de nombreuses reprises", "de": "Falschnachrichten haben bei vielen Gelegenheiten zur Irreführung der öffentlichen Meinung geführt", "ru": "Фейковые новости многократно приводили к введению общественного мнения в заблуждение", "zh": "虚假新闻在许多场合误导了舆论"},
+            {"ar": "تسمح الصحافة الرقمية بتفاعل مباشر وفوري بين الكاتب والقارئ", "en": "Digital journalism allows for direct and immediate interaction between the writer and the reader", "fr": "Le journalisme numérique permet une interaction directe et immédiate entre l'écrivain et le lecteur", "de": "Digitaler Journalismus ermöglicht eine direkte und sofortige Interaktion zwischen Autor und Leser", "ru": "Цифровая журналистика позволяет осуществлять прямое и быстрое взаимодействие между автором и читателем", "zh": "数字新闻允许作者与读者进行直接且即时的互动"}
+        ]
+    },
+    "l3": {
+        "words": [
+            {"ar": "تواصل اجتماعي", "en": "Social Media", "fr": "Médias sociaux", "de": "Soziale Medien", "ru": "Социальные сети", "zh": "社交媒体"},
+            {"ar": "تضليل", "en": "Misinformation", "fr": "Désinformation", "de": "Desinformation", "ru": "Дезинформация", "zh": "误导"},
+            {"ar": "شائعات", "en": "Rumors", "fr": "Rumeurs", "de": "Gerüchte", "ru": "Слухи", "zh": "谣言"},
+            {"ar": "اتصال", "en": "Communication", "fr": "Communication", "de": "Kommunikation", "ru": "Связь", "zh": "通信"},
+            {"ar": "مشاركة", "en": "Sharing", "fr": "Partage", "de": "Teilen", "ru": "Обмен", "zh": "分享"},
+            {"ar": "محتوى", "en": "Content", "fr": "Contenu", "de": "Inhalt", "ru": "Контент", "zh": "内容"},
+            {"ar": "بحث", "en": "Search", "fr": "Recherche", "de": "Suche", "ru": "Поиск", "zh": "搜索"},
+            {"ar": "خوارزميات", "en": "Algorithms", "fr": "Algorithmes", "de": "Algorithmen", "ru": "Алгоритмы", "zh": "算法"},
+            {"ar": "خصوصية", "en": "Privacy", "fr": "Confidentialité", "de": "Privatsphäre", "ru": "Конфиденциальность", "zh": "隐私"},
+            {"ar": "وعي رقمي", "en": "Digital Awareness", "fr": "Sensibilisation numérique", "de": "Digitales Bewusstsein", "ru": "Цифровая осведомленность", "zh": "数字意识"}
+        ],
+        "sentences": [
+            {"ar": "أصبحت وسائل التواصل الاجتماعي المصدر الرئيسي للأخبار للكثير من الشباب", "en": "Social media has become the primary source of news for many young people", "fr": "Les médias sociaux sont devenus la principale source d'information pour de nombreux jeunes", "de": "Soziale Medien sind für viele junge Menschen zur primären Nachrichtenquelle geworden", "ru": "Социальные сети стали основным источником новостей для многих молодых людей", "zh": "社交媒体已成为许多年轻人的主要新闻来源"},
+            {"ar": "يساهم انتشار الشائعات عبر الإنترنت في إثارة القلق والتوتر المجتمعي", "en": "The spread of rumors online contributes to provoking social anxiety and tension", "fr": "La propagation des rumeurs en ligne contribue à susciter l'anxiété et la tension sociale", "de": "Die Verbreitung von Gerüchten im Internet trägt dazu bei, gesellschaftliche Angst und Anspannung zu schüren", "ru": "Распространение слухов в интернете способствует возникновению социальной тревоги и напряженности", "zh": "网络谣言的传播助长了社会焦虑和紧张"},
+            {"ar": "تتحكم خوارزميات المنصات فيما يراه المستخدم من محتوى يومي", "en": "Platform algorithms control the content the user sees daily", "fr": "Les algorithmes des plateformes contrôlent le contenu que l'utilisateur voit quotidiennement", "de": "Plattformalgorithmen steuern die Inhalte, die der Nutzer täglich sieht", "ru": "Алгоритмы платформ контролируют контент, который пользователь видит ежедневно", "zh": "平台算法控制着用户每天看到的内容"},
+            {"ar": "يجب الحذر من حملات التضليل التي تهدف إلى تحقيق مكاسب سياسية", "en": "One must be careful of misinformation campaigns aimed at achieving political gains", "fr": "Il faut se méfier des campagnes de désinformation visant à obtenir des gains politiques", "de": "Man muss vorsichtig sein vor Desinformationskampagnen, die auf politischen Gewinn abzielen", "ru": "Нужно остерегаться кампаний по дезинформации, направленных на достижение политических целей", "zh": "必须警惕旨在获得政治利益的误导性宣传活动"},
+            {"ar": "يعزز الوعي الرقمي قدرة الأفراد على التمييز بين الحقائق والأكاذيب", "en": "Digital awareness enhances individuals' ability to distinguish between facts and lies", "fr": "La sensibilisation numérique renforce la capacité des individus à distinguer les faits des mensonges", "de": "Digitales Bewusstsein stärkt die Fähigkeit des Einzelnen, zwischen Fakten und Lügen zu unterscheiden", "ru": "Цифровая осведомленность повышает способность людей отличать факты от лжи", "zh": "数字意识增强了个人区分事实与谎言的能力"}
+        ]
+    },
+    "l4": {
+        "words": [
+            {"ar": "أخلاقيات", "en": "Ethics", "fr": "Éthique", "de": "Ethik", "ru": "Этика", "zh": "伦理"},
+            {"ar": "أمانة", "en": "Honesty", "fr": "Honnêteté", "de": "Ehrlichkeit", "ru": "Честность", "zh": "诚实"},
+            {"ar": "حيادية", "en": "Neutrality", "fr": "Neutralité", "de": "Neutralität", "ru": "Нейтралитет", "zh": "中立"},
+            {"ar": "ميثاق", "en": "Charter", "fr": "Charte", "de": "Charta", "ru": "Устав", "zh": "宪章"},
+            {"ar": "حقوق الملكية", "en": "Copyright", "fr": "Droit d'auteur", "de": "Urheberrecht", "ru": "Авторское право", "zh": "版权"},
+            {"ar": "تزييف", "en": "Falsification", "fr": "Falsification", "de": "Fälschung", "ru": "Фальсификация", "zh": "伪造"},
+            {"ar": "تشهير", "en": "Defamation", "fr": "Diffamation", "de": "Verleumdung", "ru": "Клевета", "zh": "诽谤"},
+            {"ar": "احترام", "en": "Respect", "fr": "Respect", "de": "Respekt", "ru": "Уважение", "zh": "尊重"},
+            {"ar": "كرامة", "en": "Dignity", "fr": "Dignité", "de": "Würde", "ru": "Достоинство", "zh": "尊严"},
+            {"ar": "مسؤولية", "en": "Responsibility", "fr": "Responsabilité", "de": "Verantwortung", "ru": "Ответственность", "zh": "责任"}
+        ],
+        "sentences": [
+            {"ar": "تعتبر أخلاقيات المهنة حجر الزاوية في العمل الإعلامي الناجح", "en": "Professional ethics is the cornerstone of successful media work", "fr": "L'éthique professionnelle est la pierre angulaire d'un travail médiatique réussi", "de": "Berufsethik ist der Grundstein erfolgreicher Medienarbeit", "ru": "Профессиональная этика является краеугольным камнем успешной работы СМИ", "zh": "职业素养是成功媒体公开传播的基石"},
+            {"ar": "يمنع ميثاق الشرف الصحفي التشهير بالأفراد أو نشر معلومات مضللة", "en": "The journalistic code of ethics prohibits defaming individuals or publishing misleading information", "fr": "Le code d'honneur des journalistes interdit de diffamer les individus ou de publier des informations trompeuses", "de": "Der journalistische Ehrenkodex verbietet die Verleumdung von Einzelpersonen oder die Veröffentlichung irreführender Informationen", "ru": "Журналистский кодекс чести запрещает клевету на людей или публикацию вводящей в заблуждение информации", "zh": "新闻职业道德准则禁止诽谤个人或发布误导性信息"},
+            {"ar": "يجب احترام حقوق الملكية الفكرية عند استخدام الصور والنصوص عبر الإنترنت", "en": "Intellectual property rights must be respected when using images and texts online", "fr": "Les droits de propriété intellectuelle doivent être respectés lors de l'utilisation d'images et de textes en ligne", "de": "Bei der Verwendung von Bildern und Texten im Internet müssen die geistigen Eigentumsrechte respektiert werden", "ru": "При использовании изображений и текстов в интернете необходимо соблюдать авторские права", "zh": "在网上使用图像和文本时，必须尊重知识产权"},
+            {"ar": "تتحمل المؤسسات الإعلامية مسؤولية كبيرة في الحفاظ على السلم الأهلي", "en": "Media institutions bear a major responsibility in maintaining civil peace", "fr": "Les institutions médiatiques portent une grande responsabilité dans le maintien de la paix civile", "de": "Medieninstitutionen tragen eine große Verantwortung für die Aufrechterhaltung des sozialen Friedens", "ru": "СМИ несут большую ответственность за поддержание общественного мира", "zh": "媒体机构在维护公众和平方面负有重大责任"},
+            {"ar": "الحيادية والموضوعية هما أساس كسب ثقة الجمهور في التقارير الإخبارية", "en": "Neutrality and objectivity are the basis for gaining public trust in news reports", "fr": "La neutralité et l'objectivité sont la base pour gagner la confiance du public dans les rapports d'information", "de": "Neutralität und Objektivität sind die Grundlage, um das Vertrauen des Publikums in die Berichterstattung zu gewinnen", "ru": "Нейтралитет и объективность являются основой для завоевания доверия аудитории к новостным репортажам", "zh": "中立和客观是赢得公众对新闻报道信任的基础"}
+        ]
+    },
+    "l5": {
+        "words": [
+            {"ar": "إعلان", "en": "Advertising", "fr": "Publicité", "de": "Werbung", "ru": "Реклама", "zh": "广告"},
+            {"ar": "مستهلك", "en": "Consumer", "fr": "Consommateur", "de": "Verbraucher", "ru": "Потребитель", "zh": "消费者"},
+            {"ar": "سلوك", "en": "Behavior", "fr": "Comportement", "de": "Verhalten", "ru": "Поведение", "zh": "行为"},
+            {"ar": "تسويق", "en": "Marketing", "fr": "Marketing", "de": "Marketing", "ru": "Маркетинг", "zh": "营销"},
+            {"ar": "إقناع", "en": "Persuasion", "fr": "Persuasion", "de": "Überzeugung", "ru": "Убеждение", "zh": "说服"},
+            {"ar": "علامة تجارية", "en": "Brand", "fr": "Marque", "de": "Marke", "ru": "Бренд", "zh": "品牌"},
+            {"ar": "رغبة", "en": "Desire", "fr": "Désir", "de": "Wunsch", "ru": "Желание", "zh": "欲望"},
+            {"ar": "طلب", "en": "Demand", "fr": "Demande", "de": "Nachfrage", "ru": "Спрос", "zh": "需求"},
+            {"ar": "منافسة", "en": "Competition", "fr": "Compétition", "de": "Wettbewerb", "ru": "Конкуренция", "zh": "竞争"},
+            {"ar": "تأثير", "en": "Impact", "fr": "Impact", "de": "Einfluss", "ru": "Воздействие", "zh": "影响"}
+        ],
+        "sentences": [
+            {"ar": "يستخدم الإعلان تقنيات نفسية معقدة للتأثير على قرارات الشراء لدى المستهلك", "en": "Advertising uses complex psychological techniques to influence the purchase decisions of the consumer", "fr": "La publicité utilise des techniques psychologiques complexes pour influencer les décisions d'achat du consommateur", "de": "Werbung setzt komplexe psychologische Techniken ein, um die Kaufentscheidungen der Verbraucher zu beeinflussen", "ru": "Реклама использует сложные психологические приемы для влияния на покупательские решения потребителя", "zh": "广告使用复杂的心理技术来影响消费者的购买决策"},
+            {"ar": "يهدف التسويق الرقمي إلى الوصول إلى الجمهور المستهدف بدقة عالية", "en": "Digital marketing aims to reach the target audience with high accuracy", "fr": "Le marketing numérique vise à atteindre le public cible avec une grande précision", "de": "Digitales Marketing strebt danach, die Zielgruppe mit hoher Genauigkeit zu erreichen", "ru": "Цифровой маркетинг направлен на максимально точный охват целевой аудитории", "zh": "数字营销旨在高精度地触达目标受众"},
+            {"ar": "تساهم الحملات الإعلانية في بناء هوية قوية للعلامة التجارية", "en": "Advertising campaigns contribute to building a strong brand identity", "fr": "Les campagnes publicitaires contribuent à bâtir une identité de marque forte", "de": "Werbekampagnen tragen zum Aufbau einer starken Markenidentität bei", "ru": "Рекламные кампании способствуют созданию сильного имиджа бренда", "zh": "广告活动有助于建立强大的品牌形象"},
+            {"ar": "أدى التزايد في استخدام الإعلانات الموجهة إلى إثارة مخاوف بشأن الخصوصية", "en": "The increase in the use of targeted ads has sparked concerns about privacy", "fr": "L'augmentation de l'utilisation des publicités ciblées a suscité des inquiétudes concernant la confidentialité", "de": "Die Zunahme gezielter Werbung hat Bedenken hinsichtlich der Privatsphäre geweckt", "ru": "Рост использования таргетированной рекламы вызвал опасения по поводу конфиденциальности", "zh": "定向广告使用的增加引发了对隐私的担忧"},
+            {"ar": "يؤثر الإعلان على نمط الحياة ويخلق حاجات استهلاكية جديدة لدى الأفراد", "en": "Advertising affects the lifestyle and creates new consumption needs in individuals", "fr": "La publicité affecte le mode de vie et crée de nouveaux besoins de consommation chez les individus", "de": "Werbung beeinflusst den Lebensstil und weckt neue Konsumbedürfnisse bei den Menschen", "ru": "Реклама влияет на образ жизни и создает новые потребительские потребности у людей", "zh": "广告影响生活方式并创造个人新的消费需求"}
+        ]
+    },
+    "l6": {
+        "words": [
+            {"ar": "قيم ثانوية", "en": "Secondary Values", "fr": "Valeurs secondaires", "de": "Sekundärwerte", "ru": "Вторичные ценности", "zh": "次要价值观"},
+            {"ar": "ترويج", "en": "Promotion", "fr": "Promotion", "de": "Promotion", "ru": "Продвижение", "zh": "宣传"},
+            {"ar": "توعية", "en": "Awareness", "fr": "Sensibilisation", "de": "Aufklärung", "ru": "Информирование", "zh": "提高认识"},
+            {"ar": "تراث", "en": "Heritage", "fr": "Patrimoine", "de": "Erbe", "ru": "Наследие", "zh": "遗产"},
+            {"ar": "انفتاح", "en": "Openness", "fr": "Ouverture", "de": "Offenheit", "ru": "Открытость", "zh": "开放"},
+            {"ar": "تسامح", "en": "Tolerance", "fr": "Tolérance", "de": "Toleranz", "ru": "Толерантность", "zh": "宽容"},
+            {"ar": "حوار", "en": "Dialogue", "fr": "Dialogue", "de": "Dialog", "ru": "Диалог", "zh": "对话"},
+            {"ar": "تعددية", "en": "Pluralism", "fr": "Pluralisme", "de": "Pluralismus", "ru": "Плюрализм", "zh": "多元化"},
+            {"ar": "إلهام", "en": "Inspiration", "fr": "Inspiration", "de": "Inspiration", "ru": "Вдохновение", "zh": "灵感"},
+            {"ar": "تغيير", "en": "Change", "fr": "Changement", "de": "Wandel", "ru": "Перемена", "zh": "改变"}
+        ],
+        "sentences": [
+            {"ar": "يمكن للإعلام أن يكون أداة قوية لترويج قيم التسامح والتعايش السلمي", "en": "Media can be a powerful tool for promoting the values of tolerance and peaceful coexistence", "fr": "Les médias peuvent être un outil puissant pour promouvoir les valeurs de tolérance et de coexistence pacifique", "de": "Medien können ein wirkungsvolles Instrument zur Förderung der Werte von Toleranz und friedlichem Zusammenleben sein", "ru": "СМИ могут быть мощным инструментом продвижения ценностей толерантности и мирного сосуществования", "zh": "媒体可以成为宣传宽容和和平共处价值观的强大工具"},
+            {"ar": "ساهمت البرامج الثقافية في الحفاظ على التراث الوطني وتعريف الأجيال به", "en": "Cultural programs contributed to preserving the national heritage and introducing generations to it", "fr": "Les programmes culturels ont contribué à préserver le patrimoine national et à le faire découvrir aux générations", "de": "Kulturprogramme haben dazu beigetragen, das nationale Erbe zu bewahren und es den Generationen nahezubringen", "ru": "Культурные программы способствовали сохранению национального наследия и знакомству с ним новых поколений", "zh": "文化项目有助于保护国家遗产并向后代推介它"},
+            {"ar": "يؤدي الانفتاح الإعلامي إلى تلاقح الثقافات وتبادل الخبرات بين الشعوب", "en": "Media openness leads to the cross-pollination of cultures and the exchange of experiences between peoples", "fr": "L'ouverture médiatique conduit au brassage des cultures et à l'échange d'expériences entre les peuples", "de": "Medienoffenheit führt zur gegenseitigen Befruchtung der Kulturen und zum Erfahrungsaustausch zwischen den Völkern", "ru": "Открытость СМИ ведет к взаимообогащению культур и обмену опытом между народами", "zh": "媒体开放促进了跨文化交流和各国人民之间的经验交流"},
+            {"ar": "يجب على الإعلام التصدي للأفكار المتطرفة التي تهدد استقرار المجتمع", "en": "The media must confront extremist ideas that threaten the stability of society", "fr": "Les médias doivent s'opposer aux idées extrémistes qui menacent la stabilité de la société", "de": "Die Medien müssen extremistischen Ideen entgegentreten, die die Stabilität der Gesellschaft bedrohen", "ru": "СМИ должны противостоять экстремистским идеям, угрожающим стабильности общества", "zh": "媒体必须对抗威胁社会稳定的极端思想"},
+            {"ar": "يلهم الإعلام المبدعين ويشجعهم على المساهمة في النهضة الثقافية العامة", "en": "Media inspires creators and encourages them to contribute to the general cultural renaissance", "fr": "Les médias inspirent les créateurs et les encouragent à contribuer à la renaissance culturelle générale", "de": "Die Medien inspirieren Kreative und ermutigen sie, zur allgemeinen kulturellen Renaissance beizutragen", "ru": "СМИ вдохновляют творцов и поощряют их вносить вклад в общее культурное возрождение", "zh": "媒体激励创作者并鼓励他们为全面文化复兴做出贡献"}
+        ]
+    },
+    "l7": {
+        "words": [
+            {"ar": "اتصال الجماهير", "en": "Mass Communication", "fr": "Communication de masse", "de": "Massenkommunikation", "ru": "Массовые коммуникации", "zh": "大众传播"},
+            {"ar": "تحرير", "en": "Editing", "fr": "Édition", "de": "Redaktion", "ru": "Редактирование", "zh": "编辑"},
+            {"ar": "تقرير", "en": "Report", "fr": "Rapport", "de": "Bericht", "ru": "Репортаж", "zh": "报告"},
+            {"ar": "مراسل", "en": "Correspondent", "fr": "Correspondant", "de": "Korrespondent", "ru": "Корреспондент", "zh": "通讯员"},
+            {"ar": "وكالة أنباء", "en": "News Agency", "fr": "Agence de presse", "de": "Nachrichtenagentur", "ru": "Информационное агентство", "zh": "新闻机构"},
+            {"ar": "بث", "en": "Broadcast", "fr": "Diffusion", "de": "Sendung", "ru": "Вещание", "zh": "广播"},
+            {"ar": "مقابلة", "en": "Interview", "fr": "Entretien", "de": "Interview", "ru": "Интервью", "zh": "采访"},
+            {"ar": "افتتاحية", "en": "Editorial", "fr": "Éditorial", "de": "Leitartikel", "ru": "Передовица", "zh": "社论"},
+            {"ar": "رقابة", "en": "Censorship", "fr": "Censure", "de": "Zensur", "ru": "Цензура", "zh": "审查"},
+            {"ar": "صحافة استقصائية", "en": "Investigative Journalism", "fr": "Journalisme d'investigation", "de": "Investigativer Journalismus", "ru": "Расследовательская журналистика", "zh": "调查性新闻"}
+        ],
+        "sentences": [
+            {"ar": "تعتبر وكالات الأنباء العالمية المصادر الرئيسية للأخبار الدولية", "en": "Global news agencies are considered the main sources of international news", "fr": "Les agences de presse mondiales sont considérées comme les principales sources d'informations internationales", "de": "Globale Nachrichtenagenturen gelten als die Hauptquellen für internationale Nachrichten", "ru": "Мировые информационные агентства считаются основными источниками международных новостей", "zh": "全球新闻机构被认为是国际新闻的主要来源"},
+            {"ar": "تتطلب الصحافة الاستقصائية مهارات بحثية عالية وصبراً طويلاً", "en": "Investigative journalism requires high research skills and long patience", "fr": "Le journalisme d'investigation nécessite de grandes compétences en recherche et une longue patience", "de": "Investigativer Journalismus erfordert hohe Recherchekompetenz und große Geduld", "ru": "Расследовательская журналистика требует высоких навыков исследования и большого терпения", "zh": "调查性新闻需要高水平的研究技能和长期的耐心"},
+            {"ar": "ساهم التقدم التكنولوجي في تسريع عملية بث الأخبار حول العالم", "en": "Technological progress contributed to accelerating the process of broadcasting news around the world", "fr": "Le progrès technologique a contribué à accélérer le processus de diffusion des nouvelles dans le monde", "de": "Der technologische Fortschritt hat dazu beigetragen, den Prozess der Nachrichtenübertragung rund um die Welt zu beschleunigen", "ru": "Технический прогресс способствовал ускорению процесса вещания новостей по всему миру", "zh": "技术进步加快了全球新闻广播的过程"},
+            {"ar": "تؤدي الرقابة الصارمة إلى تقييد حرية التعبير وإخفاء الحقائق", "en": "Strict censorship leads to restricting freedom of expression and hiding facts", "fr": "Une censure stricte conduit à restreindre la liberté d'expression et à cacher des faits", "de": "Strenge Zensur führt zur Einschränkung der Meinungsfreiheit und zum Verbergen von Tatsachen", "ru": "Строгая цензура ведет к ограничению свободы слова и сокрытию фактов", "zh": "严格的审查制度导致言论自由受到限制并隐瞒事实"},
+            {"ar": "يكتب رئيس التحرير الافتتاحية ليعبر عن وجهة نظر الصحيفة في القضايا الحالية", "en": "The editor-in-chief writes the editorial to express the newspaper's point of view on current issues", "fr": "Le rédacteur en chef écrit l'éditorial pour exprimer le point de vue du journal sur les questions d'actualité", "de": "Der Chefredakteur schreibt den Leitartikel, um den Standpunkt der Zeitung zu aktuellen Themen zum Ausdruck zu bringen", "ru": "Главный редактор пишет передовицу, чтобы выразить точку зрения газеты на текущие события", "zh": "总编辑撰写社论以表达报纸对当前问题的观点"}
+        ]
+    },
+    "l8": {
+        "words": [
+            {"ar": "تحليل نقدي", "en": "Critical Analysis", "fr": "Analyse critique", "de": "Kritische Analyse", "ru": "Критический анализ", "zh": "批判性分析"},
+            {"ar": "محتوى", "en": "Content", "fr": "Contenu", "de": "Inhalt", "ru": "Контент", "zh": "内容"},
+            {"ar": "سياق", "en": "Context", "fr": "Contexte", "de": "Kontext", "ru": "Контекст", "zh": "语境"},
+            {"ar": "انحياز", "en": "Bias", "fr": "Biais", "de": "Voreingenommenheit", "ru": "Предвзятость", "zh": "偏见"},
+            {"ar": "جمهور مستهدف", "en": "Target Audience", "fr": "Public cible", "de": "Zielgruppe", "ru": "Целевая аудитория", "zh": "目标受众"},
+            {"ar": "مصادقة", "en": "Authentication", "fr": "Authentification", "de": "Authentifizierung", "ru": "Аутентификация", "zh": "认证"},
+            {"ar": "خلاصة", "en": "Summary", "fr": "Résumé", "de": "Zusammenfassung", "ru": "Резюме", "zh": "总结"},
+            {"ar": "تقييم", "en": "Evaluation", "fr": "Évaluation", "de": "Bewertung", "ru": "Оценка", "zh": "评估"},
+            {"ar": "أدلة", "en": "Evidence", "fr": "Preuves", "de": "Beweise", "ru": "Доказательства", "zh": "证据"},
+            {"ar": "نتائج", "en": "Findings", "fr": "Résultats", "de": "Ergebnisse", "ru": "Результаты", "zh": "结果"}
+        ],
+        "sentences": [
+            {"ar": "يهدف التحليل النقدي للخبر إلى كشف الأهداف المضمرة خلف النص", "en": "The critical analysis of news aims to reveal the hidden goals behind the text", "fr": "L'analyse critique de l'information vise à révéler les objectifs cachés derrière le texte", "de": "Die kritische Nachrichtenanalyse zielt darauf ab, die verborgenen Ziele hinter dem Text aufzudecken", "ru": "Критический анализ новости направлен на выявление скрытых целей, стоящих за текстом", "zh": "对新闻的批判性分析旨在揭示文本背后的隐藏目标"},
+            {"ar": "يجب فحص السياق التاريخي والسياسي لفهم الخبر بشكل شامل", "en": "The historical and political context must be examined to understand the news comprehensively", "fr": "Le contexte historique et politique doit être examiné pour comprendre l'information de manière exhaustive", "de": "Der historische und politische Kontext muss untersucht werden, um die Nachrichten umfassend zu verstehen", "ru": "Необходимо изучить исторический и политический контекст для всестороннего понимания новости", "zh": "必须检查历史和政治背景，以全面理解新闻"},
+            {"ar": "يؤثر الانحياز الإعلامي على طريقة عرض الحقائق وتفسير الأحداث", "en": "Media bias affects the way facts are presented and events are interpreted", "fr": "Le biais médiatique affecte la manière dont les faits sont présentés et les événements interprétés", "de": "Medienvoreingenommenheit beeinflusst die Art und Weise, wie Fakten präsentiert und Ereignisse interpretiert werden", "ru": "Медийная предвзятость влияет на то, как представляются факты и интерпретируются события", "zh": "媒体偏见影响事实的呈现方式和事件的解读"},
+            {"ar": "يعتمد التقييم الموضوعي للتقرير على جودة الأدلة والمصادر المستخدمة", "en": "The objective evaluation of the report depends on the quality of the evidence and sources used", "fr": "L'évaluation objective du rapport dépend de la qualité des preuves et des sources utilisées", "de": "Die objektive Bewertung des Berichts hängt von der Qualität der verwendeten Beweise und Quellen ab", "ru": "Объективная оценка репортажа зависит от качества использованных доказательств и источников", "zh": "对报告的客观评估取决于所使用的证据和来源的质量"},
+            {"ar": "تساعد هذه الممارسات في بناء وعي إعلامي ناقد لدى القراء", "en": "These practices help in building a critical media awareness among readers", "fr": "Ces pratiques aident à bâtir une conscience médiatique critique chez les lecteurs", "de": "Diese Praktiken tragen dazu bei, ein kritisches Medienbewusstsein bei den Lesern aufzubauen", "ru": "Эти практики помогают формировать у читателей критическое понимание медиа", "zh": "这些实践有助于在读者中建立批判性的媒体意识"}
+        ]
+    }
+}
