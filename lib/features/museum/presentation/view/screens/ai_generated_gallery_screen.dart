@@ -17,6 +17,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 
+import '../widgets/add_custom_place_dialog.dart';
+import '../widgets/ai_gallery_loading_card.dart';
+
 class AiGeneratedGalleryScreen extends StatefulWidget {
   const AiGeneratedGalleryScreen({super.key});
 
@@ -281,8 +284,8 @@ class _AiGeneratedGalleryScreenState extends State<AiGeneratedGalleryScreen> {
                         TextButton(
                           onPressed: () =>
                               context.read<MuseumCubit>().initGallery(),
-                          child: Text(
-                            'try_again'.tr(),
+                          child: const Text(
+                            'Try Again',
                             style: TextStyle(color: AppColors.accentGold),
                           ),
                         ),
@@ -364,7 +367,7 @@ class _AiGeneratedGalleryScreenState extends State<AiGeneratedGalleryScreen> {
                               alignment: Alignment.center,
                               child: Opacity(
                                 opacity: opacity,
-                                child: _buildLoadingCard(),
+                                child: const AiGalleryLoadingCard(),
                               ),
                             ),
                           );
@@ -430,7 +433,7 @@ class _AiGeneratedGalleryScreenState extends State<AiGeneratedGalleryScreen> {
       floatingActionButton: Padding(
         padding: EdgeInsets.only(bottom: 20.h),
         child: FloatingActionButton.extended(
-          onPressed: () => _showAddPlaceDialog(context),
+          onPressed: () => AddCustomPlaceDialog.show(context),
           backgroundColor: AppColors.accentGold,
           icon: const Icon(Icons.add_location_alt, color: Colors.black),
           label: Text(
@@ -438,86 +441,6 @@ class _AiGeneratedGalleryScreenState extends State<AiGeneratedGalleryScreen> {
             style: AppTextStyles.buttonMedium.copyWith(color: Colors.black),
           ),
         ),
-      ),
-    );
-  }
-
-  Widget _buildLoadingCard() {
-    return Container(
-      margin: EdgeInsets.symmetric(horizontal: 20.w),
-      decoration: BoxDecoration(
-        color: Colors.white.withValues(alpha: 0.05),
-        borderRadius: BorderRadius.circular(30),
-        border: Border.all(color: Colors.white.withValues(alpha: 0.1)),
-      ),
-      child: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            const CircularProgressIndicator(color: AppColors.accentGold),
-            SizedBox(height: 24.h),
-            Text(
-              'gemini_curating'.tr(),
-              style: AppTextStyles.h3.copyWith(color: Colors.white),
-            ).animate().shimmer(duration: 2.seconds),
-            SizedBox(height: 12.h),
-            Text(
-              'expanding_gallery'.tr(),
-              style: AppTextStyles.bodyMedium.copyWith(color: Colors.white70),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-
-  void _showAddPlaceDialog(BuildContext context) {
-    final TextEditingController controller = TextEditingController();
-    showDialog(
-      context: context,
-      builder: (ctx) => AlertDialog(
-        backgroundColor: AppColors.primaryNavy,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-        title: Text(
-          "generate_custom_place".tr(),
-          style: AppTextStyles.h3.copyWith(color: AppColors.accentGold),
-        ),
-        content: TextField(
-          controller: controller,
-          style: const TextStyle(color: Colors.white),
-          decoration: InputDecoration(
-            hintText: "custom_place_hint".tr(),
-            hintStyle: TextStyle(color: Colors.white.withValues(alpha: 0.5)),
-            enabledBorder: OutlineInputBorder(
-              borderSide: BorderSide(
-                color: Colors.white.withValues(alpha: 0.3),
-              ),
-              borderRadius: BorderRadius.circular(10),
-            ),
-            focusedBorder: const OutlineInputBorder(
-              borderSide: BorderSide(color: AppColors.accentGold),
-            ),
-          ),
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(ctx),
-            child: Text("cancel".tr(), style: TextStyle(color: Colors.white70)),
-          ),
-          ElevatedButton(
-            style: ElevatedButton.styleFrom(
-              backgroundColor: AppColors.accentGold,
-            ),
-            onPressed: () {
-              final text = controller.text.trim();
-              if (text.isNotEmpty) {
-                context.read<MuseumCubit>().createPlace(text);
-                Navigator.pop(ctx);
-              }
-            },
-            child: Text("generate".tr(), style: TextStyle(color: Colors.black)),
-          ),
-        ],
       ),
     );
   }

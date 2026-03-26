@@ -1,7 +1,7 @@
 import 'dart:ui';
 import 'package:arabic/core/helpers/extentions.dart';
 import 'package:arabic/core/theme/style.dart';
-import 'package:arabic/features/chat/presentation/view/penpal_chat_screen.dart';
+import 'package:arabic/features/chat/presentation/view/screens/penpal_chat_screen.dart';
 import 'package:arabic/features/curriculum/presentation/view/screens/level_selector_screen.dart';
 import 'package:arabic/features/museum/presentation/view/screens/museum_home_screen.dart';
 import 'package:arabic/core/services/groq_chat_service.dart';

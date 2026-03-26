@@ -88,9 +88,6 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
     final isTablet = shortestSide > 600;
     final isLandscape = width > height;
 
-    // Define Design Sizes (Reference)
-    // Phone: iPhone 14 Pro (393 x 852)
-    // Tablet: iPad Pro 11" (834 x 1194)
     Size designSize;
 
     if (isTablet) {

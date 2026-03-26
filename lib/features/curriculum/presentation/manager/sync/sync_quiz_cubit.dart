@@ -1,5 +1,5 @@
 import 'package:arabic/core/network/data_source/remote/exception/app_exeptions.dart';
-import 'package:arabic/features/curriculum/data/models/body/sync_quiz_request_body.dart';
+import 'package:arabic/features/curriculum/data/models/progress/sync_quiz_request_body.dart';
 import 'package:arabic/features/curriculum/data/repo/sync_request_repo.dart';
 import 'package:arabic/features/home/presentation/manager/home_progress_cubit.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

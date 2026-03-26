@@ -2,7 +2,7 @@ import 'package:arabic/core/network/api_url/api_endpoints.dart';
 import 'package:arabic/core/network/data_source/remote/dio/api_services.dart';
 import 'package:arabic/core/network/data_source/remote/exception/api_error_handeler.dart';
 import 'package:arabic/core/network/data_source/remote/exception/app_exeptions.dart';
-import 'package:arabic/features/curriculum/data/models/body/sync_quiz_request_body.dart';
+import 'package:arabic/features/curriculum/data/models/progress/sync_quiz_request_body.dart';
 import 'package:dartz/dartz.dart';
 
 class SyncRequestRepo {
