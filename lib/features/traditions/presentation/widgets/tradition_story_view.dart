@@ -2,12 +2,14 @@ import 'dart:ui' as ui;
 import 'package:arabic/core/services/tts_service.dart';
 import 'package:arabic/core/theme/colors.dart';
 import 'package:arabic/core/theme/style.dart';
-import 'package:arabic/core/widgets/video_thumbnail_card.dart';
 import 'package:arabic/features/traditions/data/models/tradition_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'tradition_image.dart';
+
+import 'tradition_story_app_bar_background.dart';
+import 'tradition_story_content_card.dart';
+import 'tradition_story_video_section.dart';
 
 class TraditionStoryView extends StatefulWidget {
   final TraditionModel tradition;
@@ -149,88 +151,12 @@ class _TraditionStoryViewState extends State<TraditionStoryView> {
                       : const SizedBox.shrink();
                 },
               ),
-              background: Stack(
-                fit: StackFit.expand,
-                children: [
-                  if (widget.tradition.gallery.isNotEmpty)
-                    TraditionImage(
-                          imagePath: widget.tradition.gallery.first,
-                          fit: BoxFit.cover,
-                        )
-                        .animate(onPlay: (c) => c.repeat(reverse: true))
-                        .scale(
-                          begin: const Offset(1.0, 1.0),
-                          end: const Offset(1.1, 1.1),
-                          duration: 15.seconds,
-                        ),
-
-                  Positioned.fill(
-                    child: Container(
-                      decoration: BoxDecoration(
-                        gradient: LinearGradient(
-                          begin: Alignment.topCenter,
-                          end: Alignment.bottomCenter,
-                          colors: [
-                            Colors.transparent,
-                            Colors.black.withValues(alpha: 0.2),
-                            Colors.black.withValues(alpha: 0.8),
-                            Colors.black,
-                          ],
-                          stops: const [0.0, 0.4, 0.8, 1.0],
-                        ),
-                      ),
-                    ),
-                  ),
-
-                  Positioned(
-                    bottom: 40.h,
-                    left: 24.w,
-                    right: 24.w,
-                    child: Column(
-                      crossAxisAlignment: widget.languageCode == 'ar'
-                          ? CrossAxisAlignment.end
-                          : CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          widget.tradition.getTitle('ar'),
-                          textAlign: TextAlign.right,
-                          textDirection: TextDirection.rtl,
-                          style: AppTextStyles.displayMedium.copyWith(
-                            color: AppColors.accentGold,
-                            fontSize: 34.sp,
-                            fontFamily: 'NotoKufiArabic',
-                            fontWeight: FontWeight.bold,
-                            shadows: [
-                              const Shadow(color: Colors.black, blurRadius: 20),
-                            ],
-                          ),
-                        ).animate().fadeIn(duration: 800.ms).slideY(begin: 0.2),
-
-                        if (widget.languageCode != 'ar') ...[
-                          SizedBox(height: 8.h),
-                          Text(
-                            widget.tradition.getTitle(widget.languageCode),
-                            style: AppTextStyles.h2.copyWith(
-                              color: Colors.white,
-                              fontSize: 22.sp,
-                              fontWeight: FontWeight.w200,
-                              shadows: [
-                                const Shadow(
-                                  color: Colors.black,
-                                  blurRadius: 20,
-                                ),
-                              ],
-                            ),
-                          ).animate().fadeIn(delay: 300.ms).slideY(begin: 0.2),
-                        ],
-                      ],
-                    ),
-                  ),
-                ],
+              background: TraditionStoryAppBarBackground(
+                tradition: widget.tradition,
+                languageCode: widget.languageCode,
               ),
             ),
           ),
-
           SliverPadding(
             padding: EdgeInsets.symmetric(horizontal: 24.w, vertical: 30.h),
             sliver: SliverList(
@@ -242,244 +168,25 @@ class _TraditionStoryViewState extends State<TraditionStoryView> {
                     ? userLangParagraphs[index]
                     : '';
 
-                return _buildContentCard(arText, userText, index);
+                return TraditionStoryContentCard(
+                  arText: arText,
+                  userText: userText,
+                  index: index,
+                  languageCode: widget.languageCode,
+                  playingIndex: _playingIndex,
+                  playingLang: _playingLang,
+                  onPlayAudio: _playParagraphAudio,
+                );
               }, childCount: maxLength),
             ),
           ),
-
           if (widget.tradition.videoIdea.isNotEmpty)
-            SliverToBoxAdapter(
-              child: Padding(
-                padding: EdgeInsets.all(24.w),
-                child: widget.tradition.videoIdea.startsWith('http')
-                    ? Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            'Featured Video',
-                            style: AppTextStyles.h4.copyWith(
-                              color: AppColors.accentGold,
-                              fontSize: 18.sp,
-                            ),
-                          ),
-                          SizedBox(height: 16.h),
-                          VideoThumbnailCard(
-                            videoUrl: widget.tradition.videoIdea,
-                            title: widget.tradition.getTitle(
-                              widget.languageCode,
-                            ),
-                          ),
-                        ],
-                      )
-                    : Container(
-                        padding: EdgeInsets.all(20.w),
-                        decoration: BoxDecoration(
-                          color: AppColors.accentGold.withValues(alpha: 0.1),
-                          borderRadius: BorderRadius.circular(20),
-                          border: Border.all(
-                            color: AppColors.accentGold.withValues(alpha: 0.3),
-                          ),
-                        ),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Row(
-                              children: [
-                                Icon(
-                                  Icons.video_library_rounded,
-                                  color: AppColors.accentGold,
-                                ),
-                                SizedBox(width: 10.w),
-                                Text(
-                                  'Video Concept',
-                                  style: AppTextStyles.h4.copyWith(
-                                    color: AppColors.accentGold,
-                                  ),
-                                ),
-                              ],
-                            ),
-                            SizedBox(height: 12.h),
-                            Text(
-                              widget.tradition.videoIdea,
-                              style: AppTextStyles.bodyMedium.copyWith(
-                                color: Colors.white70,
-                                height: 1.5,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-              ),
+            TraditionStoryVideoSection(
+              tradition: widget.tradition,
+              languageCode: widget.languageCode,
             ),
-
           SliverToBoxAdapter(child: SizedBox(height: 60.h)),
         ],
-      ),
-    );
-  }
-
-  Widget _buildContentCard(String arText, String userText, int index) {
-    return Padding(
-      padding: EdgeInsets.only(bottom: 24.h),
-      child:
-          Container(
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(28),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.black.withValues(alpha: 0.3),
-                      blurRadius: 20,
-                      offset: const Offset(0, 10),
-                    ),
-                  ],
-                ),
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(28),
-                  child: BackdropFilter(
-                    filter: ui.ImageFilter.blur(sigmaX: 15, sigmaY: 15),
-                    child: Container(
-                      padding: EdgeInsets.all(24.w),
-                      decoration: BoxDecoration(
-                        gradient: LinearGradient(
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
-                          colors: [
-                            Colors.white.withValues(alpha: 0.08),
-                            Colors.white.withValues(alpha: 0.03),
-                          ],
-                        ),
-                        borderRadius: BorderRadius.circular(28),
-                        border: Border.all(
-                          color: Colors.white.withValues(alpha: 0.1),
-                          width: 1.0,
-                        ),
-                      ),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.stretch,
-                        children: [
-                          if (arText.isNotEmpty)
-                            Row(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                _buildAudioTrigger(
-                                  langCode: 'ar',
-                                  index: index,
-                                  onTap: () =>
-                                      _playParagraphAudio(arText, 'ar', index),
-                                ),
-                                SizedBox(width: 20.w),
-                                Expanded(
-                                  child: Text(
-                                    arText,
-                                    textAlign: TextAlign.right,
-                                    textDirection: TextDirection.rtl,
-                                    style: AppTextStyles.bodyLarge.copyWith(
-                                      color: Colors.white.withValues(
-                                        alpha: 0.95,
-                                      ),
-                                      height: 2.2,
-                                      fontSize: 19.sp,
-                                      fontFamily: 'NotoKufiArabic',
-                                    ),
-                                  ),
-                                ),
-                              ],
-                            ),
-
-                          if (arText.isNotEmpty &&
-                              userText.isNotEmpty &&
-                              widget.languageCode != 'ar')
-                            _buildEtchedDivider(),
-
-                          if (userText.isNotEmpty &&
-                              widget.languageCode != 'ar')
-                            Row(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Expanded(
-                                  child: Text(
-                                    userText,
-                                    style: AppTextStyles.bodyLarge.copyWith(
-                                      color: Colors.white.withValues(
-                                        alpha: 0.7,
-                                      ),
-                                      height: 1.8,
-                                      fontSize: 16.sp,
-                                      fontWeight: FontWeight.w300,
-                                      fontStyle: FontStyle.italic,
-                                    ),
-                                  ),
-                                ),
-                                SizedBox(width: 20.w),
-                                _buildAudioTrigger(
-                                  langCode: widget.languageCode,
-                                  index: index,
-                                  onTap: () => _playParagraphAudio(
-                                    userText,
-                                    widget.languageCode,
-                                    index,
-                                  ),
-                                ),
-                              ],
-                            ),
-                        ],
-                      ),
-                    ),
-                  ),
-                ),
-              )
-              .animate()
-              .fadeIn(delay: (100 * index).ms, duration: 800.ms)
-              .slideY(begin: 0.1, end: 0),
-    );
-  }
-
-  Widget _buildEtchedDivider() {
-    return Padding(
-      padding: EdgeInsets.symmetric(vertical: 24.h),
-      child: Container(
-        height: 1,
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            colors: [
-              Colors.white.withValues(alpha: 0),
-              Colors.white.withValues(alpha: 0.1),
-              Colors.white.withValues(alpha: 0),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-
-  Widget _buildAudioTrigger({
-    required String langCode,
-    required int index,
-    required VoidCallback onTap,
-  }) {
-    final isPlaying = _playingIndex == index && _playingLang == langCode;
-
-    return GestureDetector(
-      onTap: onTap,
-      child: Container(
-        padding: EdgeInsets.all(12.w),
-        decoration: BoxDecoration(
-          color: isPlaying
-              ? AppColors.accentGold
-              : Colors.white.withValues(alpha: 0.08),
-          shape: BoxShape.circle,
-          border: Border.all(
-            color: isPlaying
-                ? Colors.white
-                : AppColors.accentGold.withValues(alpha: 0.3),
-            width: 1,
-          ),
-        ),
-        child: Icon(
-          isPlaying ? Icons.pause_rounded : Icons.play_arrow_rounded,
-          color: isPlaying ? AppColors.primaryDark : AppColors.accentGold,
-          size: 20.w,
-        ),
       ),
     );
   }
