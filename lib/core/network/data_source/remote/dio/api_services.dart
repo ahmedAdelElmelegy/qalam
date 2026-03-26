@@ -27,9 +27,10 @@ class ApiService {
     _dio.interceptors.add(
       InterceptorsWrapper(
         onRequest: (options, handler) {
-          final token = sharedPreferences.getString(AppConstants.userTOKEN) ?? "";
+          final token =
+              sharedPreferences.getString(AppConstants.userTOKEN) ?? "";
           final lang = sharedPreferences.getString(AppConstants.lang) ?? "en";
-          
+
           if (token.isNotEmpty) {
             options.headers['Authorization'] = 'Bearer $token';
           }

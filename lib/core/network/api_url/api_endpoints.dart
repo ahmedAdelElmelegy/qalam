@@ -1,5 +1,7 @@
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+
 class AppURL {
-  static const String baseUrl = 'https://learingarabichelper.runasp.net/api/';
+  static String get baseUrl => dotenv.get('BASEURL');
   static const String signIn = 'Auth/login';
   static const String signUp = 'Auth/register';
   static const String language = 'Languages';
@@ -15,7 +17,7 @@ class AppURL {
   static const String getvirtualGallarySentance = 'Sentence';
   static const String getUserProfile = 'Users';
   // image url
-  static const String imagePath = 'https://learingarabichelper.runasp.net/';
+  static String get imagePath => dotenv.get('IMAGE_PATH');
   // for lessons
   static const String getLevels = 'Curriculum/Level';
   static const String getUnits = 'Curriculum/Unit';
@@ -23,6 +25,4 @@ class AppURL {
   static const String getQuiz = 'Curriculum/Quiz/by-lesson';
   static const String syncQuiz = 'Progress/sync';
   static const String getProgress = "Progress/stats";
-
-  
 }
