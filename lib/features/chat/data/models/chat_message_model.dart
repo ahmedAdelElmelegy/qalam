@@ -7,7 +7,7 @@ class ChatMessageModel extends Equatable {
   final String text;
   final MessageSender sender;
   final DateTime timestamp;
-  
+
   const ChatMessageModel({
     required this.id,
     required this.text,

@@ -168,7 +168,6 @@ class PenpalCubit extends Cubit<PenpalState> {
     }
   }
 
-
   /// Clears the current error
   void clearError() {
     emit(state.copyWith(error: null, isNetworkError: false));

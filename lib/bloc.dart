@@ -1,7 +1,6 @@
 import 'package:arabic/core/di/injection.dart';
 import 'package:arabic/features/auth/presentation/manager/auth/auth_cubit.dart';
 import 'package:arabic/features/auth/presentation/manager/language/language_cubit.dart';
-import 'package:arabic/features/chat/presentation/manager/chat_cubit.dart';
 import 'package:arabic/features/clothing/presentation/cubit/clothing_cubit.dart';
 import 'package:arabic/features/curriculum/presentation/manager/sync/sync_quiz_cubit.dart';
 import 'package:arabic/features/curriculum/presentation/manager/level/level_cubit.dart';
@@ -18,7 +17,7 @@ import 'package:arabic/features/curriculum/presentation/manager/curriculum_cubit
 import 'package:arabic/features/settings/presentation/manager/get%20profile/get_profile_cubit.dart';
 import 'package:arabic/features/settings/presentation/manager/update%20profile/update_profile_cubit.dart';
 import 'package:arabic/features/traditions/cubit/tradition_cubit.dart';
-import 'package:arabic/features/speaking_game/presentation/manager/speaking_challenge_levels_cubit.dart';
+import 'package:arabic/features/daily%20challange/presentation/manager/speaking_challenge_levels_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -44,7 +43,7 @@ class GenerateMultiBloc extends StatelessWidget {
         BlocProvider(create: (context) => getIt<CityCubit>()..loadCities()),
         BlocProvider(create: (context) => getIt<FoodCubit>()..loadFoodData()),
         BlocProvider(create: (context) => getIt<CurriculumCubit>()),
-        BlocProvider(create: (context) => getIt<ChatCubit>()),
+        // BlocProvider(create: (context) => getIt<ChatCubit>()),
         BlocProvider(create: (context) => getIt<GetProfileCubit>()),
         BlocProvider(create: (context) => getIt<UpdateProfileCubit>()),
         BlocProvider(

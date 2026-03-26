@@ -23,7 +23,6 @@ class ChatMessage {
   };
 }
 
-
 class RoleplayScenario {
   final String id;
   final String title;

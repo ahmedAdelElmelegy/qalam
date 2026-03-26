@@ -5,7 +5,6 @@ import 'package:arabic/features/auth/presentation/manager/auth/auth_cubit.dart';
 import 'package:arabic/features/auth/presentation/manager/language/language_cubit.dart';
 import 'package:arabic/features/home/data/repo/progress_repo.dart';
 import 'package:arabic/features/home/presentation/manager/home_progress_cubit.dart';
-import 'package:arabic/features/chat/presentation/manager/chat_cubit.dart';
 import 'package:arabic/features/clothing/presentation/cubit/clothing_cubit.dart';
 import 'package:arabic/features/curriculum/data/repo/level_repo.dart';
 import 'package:arabic/features/curriculum/data/repo/sync_request_repo.dart';
@@ -33,8 +32,8 @@ import 'package:arabic/features/settings/presentation/manager/update%20profile/u
 import 'package:arabic/features/traditions/cubit/tradition_cubit.dart';
 import 'package:arabic/features/traditions/data/repositories/tradition_repository.dart';
 import 'package:arabic/features/curriculum/presentation/manager/curriculum_cubit.dart';
-import 'package:arabic/features/speaking_game/data/services/speaking_challenge_prefs_service.dart';
-import 'package:arabic/features/speaking_game/presentation/manager/speaking_challenge_levels_cubit.dart';
+import 'package:arabic/features/daily%20challange/data/services/speaking_challenge_prefs_service.dart';
+import 'package:arabic/features/daily%20challange/presentation/manager/speaking_challenge_levels_cubit.dart';
 import 'package:get_it/get_it.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -84,7 +83,7 @@ Future<void> initializeDependencies() async {
   getIt.registerLazySingleton(() => CityCubit(getIt()));
   getIt.registerLazySingleton(() => ClothingCubit(getIt()));
   getIt.registerLazySingleton(() => FoodCubit(getIt()));
-  getIt.registerLazySingleton(() => ChatCubit());
+  // getIt.registerLazySingleton(() => ChatCubit());
   getIt.registerLazySingleton(() => GetProfileCubit(getIt()));
   getIt.registerFactory(() => UpdateProfileCubit(getIt()));
 
