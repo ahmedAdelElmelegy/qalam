@@ -1,5 +1,5 @@
 import 'package:arabic/core/network/data_source/remote/exception/api_error_handeler.dart';
-import '../data/repositories/tradition_repository.dart';
+import '../../data/repositories/tradition_repository.dart';
 import 'tradition_state.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

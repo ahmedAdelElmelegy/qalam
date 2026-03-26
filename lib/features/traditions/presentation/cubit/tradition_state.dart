@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import '../data/models/tradition_model.dart';
+import '../../data/models/tradition_model.dart';
 
 enum TraditionStatus { initial, loading, loaded, error }
 
@@ -31,7 +31,8 @@ class TraditionState extends Equatable {
     return TraditionState(
       status: status ?? this.status,
       traditions: traditions ?? this.traditions,
-      selectedTraditionIndex: selectedTraditionIndex ?? this.selectedTraditionIndex,
+      selectedTraditionIndex:
+          selectedTraditionIndex ?? this.selectedTraditionIndex,
       isStoryMode: isStoryMode ?? this.isStoryMode,
       currentLanguageCode: currentLanguageCode ?? this.currentLanguageCode,
       errorMessage: errorMessage ?? this.errorMessage,
@@ -40,18 +41,18 @@ class TraditionState extends Equatable {
 
   TraditionModel? get currentTradition =>
       traditions.isNotEmpty &&
-              selectedTraditionIndex >= 0 &&
-              selectedTraditionIndex < traditions.length
-          ? traditions[selectedTraditionIndex]
-          : null;
+          selectedTraditionIndex >= 0 &&
+          selectedTraditionIndex < traditions.length
+      ? traditions[selectedTraditionIndex]
+      : null;
 
   @override
   List<Object?> get props => [
-        status,
-        traditions,
-        selectedTraditionIndex,
-        isStoryMode,
-        currentLanguageCode,
-        errorMessage,
-      ];
+    status,
+    traditions,
+    selectedTraditionIndex,
+    isStoryMode,
+    currentLanguageCode,
+    errorMessage,
+  ];
 }

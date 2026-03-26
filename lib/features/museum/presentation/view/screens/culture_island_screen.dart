@@ -11,7 +11,7 @@ import 'package:arabic/features/museum/presentation/manager/add%20by%20ai/cultur
 import 'package:arabic/features/museum/presentation/view/widgets/culture_island_journy_content.dart';
 import 'package:arabic/features/museum/presentation/view/widgets/culture_island/culture_app_bar.dart';
 import 'package:arabic/features/museum/presentation/view/widgets/culture_island/culture_island_bottom_action.dart';
-import 'package:arabic/features/traditions/presentation/screens/traditions_screen.dart';
+import 'package:arabic/features/traditions/presentation/view/screens/traditions_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

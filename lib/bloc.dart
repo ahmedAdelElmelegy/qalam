@@ -16,7 +16,7 @@ import 'package:arabic/features/home/presentation/manager/home_progress_cubit.da
 import 'package:arabic/features/curriculum/presentation/manager/curriculum_cubit.dart';
 import 'package:arabic/features/settings/presentation/manager/get%20profile/get_profile_cubit.dart';
 import 'package:arabic/features/settings/presentation/manager/update%20profile/update_profile_cubit.dart';
-import 'package:arabic/features/traditions/cubit/tradition_cubit.dart';
+import 'package:arabic/features/traditions/presentation/cubit/tradition_cubit.dart';
 import 'package:arabic/features/daily%20challange/presentation/manager/speaking_challenge_levels_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

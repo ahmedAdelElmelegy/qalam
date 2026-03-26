@@ -29,7 +29,7 @@ import 'package:arabic/features/clothing/data/repositories/clothing_repository.d
 import 'package:arabic/features/settings/data/repo/profile_repo.dart';
 import 'package:arabic/features/settings/presentation/manager/get%20profile/get_profile_cubit.dart';
 import 'package:arabic/features/settings/presentation/manager/update%20profile/update_profile_cubit.dart';
-import 'package:arabic/features/traditions/cubit/tradition_cubit.dart';
+import 'package:arabic/features/traditions/presentation/cubit/tradition_cubit.dart';
 import 'package:arabic/features/traditions/data/repositories/tradition_repository.dart';
 import 'package:arabic/features/curriculum/presentation/manager/curriculum_cubit.dart';
 import 'package:arabic/features/daily%20challange/data/services/speaking_challenge_prefs_service.dart';

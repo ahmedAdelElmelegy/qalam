@@ -2,7 +2,7 @@ import 'dart:ui' as ui;
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:arabic/features/traditions/cubit/tradition_state.dart';
+import 'package:arabic/features/traditions/presentation/cubit/tradition_state.dart';
 import 'traditions_island.dart';
 import 'traditions_journey_painter.dart';
 import 'traditions_avatar.dart';

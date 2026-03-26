@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:arabic/core/theme/style.dart';
-import 'package:arabic/features/traditions/cubit/tradition_cubit.dart';
-import 'package:arabic/features/traditions/cubit/tradition_state.dart';
+import 'package:arabic/features/traditions/presentation/cubit/tradition_cubit.dart';
+import 'package:arabic/features/traditions/presentation/cubit/tradition_state.dart';
 
 class TraditionsError extends StatelessWidget {
   final String errorMessage;
@@ -37,7 +37,8 @@ class TraditionsError extends StatelessWidget {
             ),
             SizedBox(height: 24.h),
             ElevatedButton(
-              onPressed: () => context.read<TraditionCubit>().loadTraditions('en'),
+              onPressed: () =>
+                  context.read<TraditionCubit>().loadTraditions('en'),
               child: const Text('Retry'),
             ),
           ],
